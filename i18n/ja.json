@@ -373,5 +373,10 @@
  "I will take it.": "これにします。",
  "Do you take cards?": "カードは使えますか？",
  "Watch an ad to double your score": "広告を見てスコアを2倍にする",
- "Score doubled!": "スコアが2倍になりました！"
+ "Score doubled!": "スコアが2倍になりました！",
+ "Time’s up! Keep going?": "タイムアップ！続けますか？",
+ "Watch an ad for +{seconds} seconds": "広告を見て+{seconds}秒",
+ "Your {count}-day streak ended yesterday.": "{count}日連続の記録が昨日途切れました。",
+ "Watch a short ad to restore it.": "短い広告を見て記録を復活させましょう。",
+ "Restore my streak": "連続記録を復活する"
 }

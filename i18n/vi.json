@@ -1172,5 +1172,10 @@
  "Continue conversation": "Tiếp tục hội thoại",
  "Finish practice": "Hoàn thành bài luyện",
  "Watch an ad to double your score": "Xem quảng cáo để nhân đôi điểm",
- "Score doubled!": "Đã nhân đôi điểm!"
+ "Score doubled!": "Đã nhân đôi điểm!",
+ "Time’s up! Keep going?": "Hết giờ! Chơi tiếp nhé?",
+ "Watch an ad for +{seconds} seconds": "Xem quảng cáo để được thêm {seconds} giây",
+ "Your {count}-day streak ended yesterday.": "Chuỗi {count} ngày của bạn đã đứt hôm qua.",
+ "Watch a short ad to restore it.": "Xem một quảng cáo ngắn để khôi phục.",
+ "Restore my streak": "Khôi phục chuỗi ngày"
 }

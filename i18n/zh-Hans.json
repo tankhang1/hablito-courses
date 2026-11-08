@@ -373,5 +373,10 @@
  "I will take it.": "我要这个。",
  "Do you take cards?": "可以刷卡吗？",
  "Watch an ad to double your score": "观看广告让得分翻倍",
- "Score doubled!": "得分已翻倍！"
+ "Score doubled!": "得分已翻倍！",
+ "Time’s up! Keep going?": "时间到！要继续吗？",
+ "Watch an ad for +{seconds} seconds": "观看广告获得 +{seconds} 秒",
+ "Your {count}-day streak ended yesterday.": "你的 {count} 天连续记录昨天中断了。",
+ "Watch a short ad to restore it.": "观看一段短广告即可恢复。",
+ "Restore my streak": "恢复我的连续记录"
 }

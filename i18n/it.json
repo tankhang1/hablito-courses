@@ -373,5 +373,10 @@
  "I will take it.": "Lo prendo.",
  "Do you take cards?": "Accettate carte?",
  "Watch an ad to double your score": "Guarda un annuncio per raddoppiare il punteggio",
- "Score doubled!": "Punteggio raddoppiato!"
+ "Score doubled!": "Punteggio raddoppiato!",
+ "Time’s up! Keep going?": "Tempo scaduto! Continuiamo?",
+ "Watch an ad for +{seconds} seconds": "Guarda un annuncio per +{seconds} secondi",
+ "Your {count}-day streak ended yesterday.": "La tua serie di {count} giorni si è interrotta ieri.",
+ "Watch a short ad to restore it.": "Guarda un breve annuncio per ripristinarla.",
+ "Restore my streak": "Ripristina la mia serie"
 }
