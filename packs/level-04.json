@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-04",
-  "version": 2,
+  "version": 4,
   "level": 4,
   "cefr": "A1",
   "title": {
     "en": "Beginner 2: Shopping & money",
-    "vi": "Sơ cấp 2: Mua sắm & tiền bạc"
+    "vi": "Sơ cấp 2: Mua sắm & tiền bạc",
+    "pt-BR": "Básico 2: Compras e dinheiro",
+    "fr": "Débutant 2 : Achats et argent",
+    "de": "Anfänger 2: Einkaufen und Geld",
+    "it": "Principiante 2: Shopping e soldi",
+    "ja": "初級 2：買い物とお金",
+    "zh-Hans": "初级 2：购物和钱"
   },
   "description": {
     "en": "Colors, clothes, prices, and paying.",
-    "vi": "Màu sắc, quần áo, giá cả và thanh toán."
+    "vi": "Màu sắc, quần áo, giá cả và thanh toán.",
+    "pt-BR": "Cores, roupas, preços e pagamento.",
+    "fr": "Couleurs, vêtements, prix et paiement.",
+    "de": "Farben, Kleidung, Preise und Bezahlen.",
+    "it": "Colori, vestiti, prezzi e pagamenti.",
+    "ja": "色、服、値段、支払い。",
+    "zh-Hans": "颜色、衣服、价格和付款。"
   },
   "lessons": [
     {
       "id": "clothes",
       "title": {
         "en": "Colors & clothes",
-        "vi": "Màu sắc & quần áo"
+        "vi": "Màu sắc & quần áo",
+        "pt-BR": "Cores e roupas",
+        "fr": "Couleurs et vêtements",
+        "de": "Farben und Kleidung",
+        "it": "Colori e vestiti",
+        "ja": "色と服",
+        "zh-Hans": "颜色和衣服"
       },
       "description": {
         "en": "Describe what you want to buy.",
-        "vi": "Mô tả món đồ bạn muốn mua."
+        "vi": "Mô tả món đồ bạn muốn mua.",
+        "pt-BR": "Descreva o que você quer comprar.",
+        "fr": "Décrivez ce que vous voulez acheter.",
+        "de": "Beschreib, was du kaufen möchtest.",
+        "it": "Descrivi cosa vuoi comprare.",
+        "ja": "買いたい物を説明しよう。",
+        "zh-Hans": "描述你想买的东西。"
       },
       "icon": "shopping-bag",
       "phrases": [
         {
           "es": "la camisa roja",
           "en": "the red shirt",
-          "vi": "chiếc áo sơ mi đỏ"
+          "vi": "chiếc áo sơ mi đỏ",
+          "pt-BR": "a camisa vermelha",
+          "fr": "la chemise rouge",
+          "de": "das rote Hemd",
+          "it": "la camicia rossa",
+          "ja": "赤いシャツ",
+          "zh-Hans": "红衬衫"
         },
         {
           "es": "los zapatos negros",
           "en": "the black shoes",
-          "vi": "đôi giày đen"
+          "vi": "đôi giày đen",
+          "pt-BR": "os sapatos pretos",
+          "fr": "les chaussures noires",
+          "de": "die schwarzen Schuhe",
+          "it": "le scarpe nere",
+          "ja": "黒い靴",
+          "zh-Hans": "黑鞋"
         },
         {
           "es": "el vestido azul",
           "en": "the blue dress",
-          "vi": "chiếc váy xanh dương"
+          "vi": "chiếc váy xanh dương",
+          "pt-BR": "o vestido azul",
+          "fr": "la robe bleue",
+          "de": "das blaue Kleid",
+          "it": "il vestito blu",
+          "ja": "青いワンピース",
+          "zh-Hans": "蓝色连衣裙"
         },
         {
           "es": "una chaqueta verde",
           "en": "a green jacket",
-          "vi": "một chiếc áo khoác xanh lá"
+          "vi": "một chiếc áo khoác xanh lá",
+          "pt-BR": "uma jaqueta verde",
+          "fr": "une veste verte",
+          "de": "eine grüne Jacke",
+          "it": "una giacca verde",
+          "ja": "緑のジャケット",
+          "zh-Hans": "一件绿色夹克"
         },
         {
           "es": "¿Lo tiene en blanco?",
           "en": "Do you have it in white?",
-          "vi": "Có màu trắng không?"
+          "vi": "Có màu trắng không?",
+          "pt-BR": "Tem em branco?",
+          "fr": "Vous l’avez en blanc ?",
+          "de": "Haben Sie das in Weiß?",
+          "it": "Ce l’ha in bianco?",
+          "ja": "白はありますか？",
+          "zh-Hans": "有白色的吗？"
         },
         {
           "es": "Es muy grande.",
           "en": "It's too big.",
-          "vi": "Rộng quá."
+          "vi": "Rộng quá.",
+          "pt-BR": "Está muito grande.",
+          "fr": "C’est trop grand.",
+          "de": "Das ist zu groß.",
+          "it": "È troppo grande.",
+          "ja": "大きすぎます。",
+          "zh-Hans": "太大了。"
         }
       ],
       "focus": {
         "en": "Adjectives come after the noun and match it: la camisa roja, los zapatos negros.",
-        "vi": "Tính từ đứng sau danh từ và hợp giống, số: la camisa roja, los zapatos negros."
+        "vi": "Tính từ đứng sau danh từ và hợp giống, số: la camisa roja, los zapatos negros.",
+        "pt-BR": "Os adjetivos vêm depois do substantivo e concordam com ele: la camisa roja, los zapatos negros.",
+        "fr": "Les adjectifs se placent après le nom et s’accordent : la camisa roja, los zapatos negros.",
+        "de": "Adjektive stehen nach dem Nomen und passen sich an: la camisa roja, los zapatos negros.",
+        "it": "Gli aggettivi vanno dopo il nome e si accordano: la camisa roja, los zapatos negros.",
+        "ja": "形容詞は名詞の後ろに置き、性・数を一致させます：la camisa roja, los zapatos negros。",
+        "zh-Hans": "形容词放在名词后面并与之一致：la camisa roja, los zapatos negros。"
       }
     },
     {
       "id": "paying",
       "title": {
         "en": "Prices & paying",
-        "vi": "Giá cả & thanh toán"
+        "vi": "Giá cả & thanh toán",
+        "pt-BR": "Preços e pagamento",
+        "fr": "Prix et paiement",
+        "de": "Preise und Bezahlen",
+        "it": "Prezzi e pagamenti",
+        "ja": "値段と支払い",
+        "zh-Hans": "价格和付款"
       },
       "description": {
         "en": "Ask the price and pay.",
-        "vi": "Hỏi giá và trả tiền."
+        "vi": "Hỏi giá và trả tiền.",
+        "pt-BR": "Pergunte o preço e pague.",
+        "fr": "Demandez le prix et payez.",
+        "de": "Nach dem Preis fragen und bezahlen.",
+        "it": "Chiedi il prezzo e paga.",
+        "ja": "値段を尋ねて支払おう。",
+        "zh-Hans": "询问价格并付款。"
       },
       "icon": "credit-card",
       "phrases": [
         {
           "es": "¿Cuánto es?",
           "en": "How much is it?",
-          "vi": "Bao nhiêu tiền?"
+          "vi": "Bao nhiêu tiền?",
+          "pt-BR": "Quanto custa?",
+          "fr": "Combien ça coûte ?",
+          "de": "Wie viel kostet das?",
+          "it": "Quanto costa?",
+          "ja": "おいくらですか？",
+          "zh-Hans": "多少钱？"
         },
         {
           "es": "¿Hay descuento?",
           "en": "Is there a discount?",
-          "vi": "Có giảm giá không?"
+          "vi": "Có giảm giá không?",
+          "pt-BR": "Tem desconto?",
+          "fr": "Il y a une réduction ?",
+          "de": "Gibt es einen Rabatt?",
+          "it": "C’è uno sconto?",
+          "ja": "割引はありますか？",
+          "zh-Hans": "有折扣吗？"
         },
         {
           "es": "Pago en efectivo.",
           "en": "I'll pay in cash.",
-          "vi": "Tôi trả tiền mặt."
+          "vi": "Tôi trả tiền mặt.",
+          "pt-BR": "Vou pagar em dinheiro.",
+          "fr": "Je paie en espèces.",
+          "de": "Ich zahle bar.",
+          "it": "Pago in contanti.",
+          "ja": "現金で払います。",
+          "zh-Hans": "我付现金。"
         },
         {
           "es": "Pago con tarjeta.",
           "en": "I'll pay by card.",
-          "vi": "Tôi trả bằng thẻ."
+          "vi": "Tôi trả bằng thẻ.",
+          "pt-BR": "Vou pagar com cartão.",
+          "fr": "Je paie par carte.",
+          "de": "Ich zahle mit Karte.",
+          "it": "Pago con la carta.",
+          "ja": "カードで払います。",
+          "zh-Hans": "我刷卡。"
         },
         {
           "es": "Es barato.",
           "en": "It's cheap.",
-          "vi": "Rẻ."
+          "vi": "Rẻ.",
+          "pt-BR": "Está barato.",
+          "fr": "C’est bon marché.",
+          "de": "Das ist billig.",
+          "it": "È economico.",
+          "ja": "安いですね。",
+          "zh-Hans": "很便宜。"
         },
         {
           "es": "¿Me da el recibo?",
           "en": "Can I have the receipt?",
-          "vi": "Cho tôi xin hóa đơn."
+          "vi": "Cho tôi xin hóa đơn.",
+          "pt-BR": "Pode me dar o recibo?",
+          "fr": "Je peux avoir le reçu ?",
+          "de": "Kann ich den Beleg haben?",
+          "it": "Posso avere lo scontrino?",
+          "ja": "レシートをもらえますか？",
+          "zh-Hans": "可以给我收据吗？"
         }
       ],
       "focus": {
         "en": "“¿Cuánto es?” for a total, “¿Cuánto cuesta / cuestan?” for one item or several.",
-        "vi": "“¿Cuánto es?” để hỏi tổng tiền, “¿Cuánto cuesta / cuestan?” cho một hay nhiều món."
+        "vi": "“¿Cuánto es?” để hỏi tổng tiền, “¿Cuánto cuesta / cuestan?” cho một hay nhiều món.",
+        "pt-BR": "“¿Cuánto es?” para o total, “¿Cuánto cuesta / cuestan?” para um ou vários itens.",
+        "fr": "« ¿Cuánto es? » pour un total, « ¿Cuánto cuesta / cuestan? » pour un ou plusieurs articles.",
+        "de": "„¿Cuánto es?“ für die Summe, „¿Cuánto cuesta / cuestan?“ für einen oder mehrere Artikel.",
+        "it": "“¿Cuánto es?” per il totale, “¿Cuánto cuesta / cuestan?” per uno o più articoli.",
+        "ja": "合計には「¿Cuánto es?」、1つか複数の品物には「¿Cuánto cuesta / cuestan?」。",
+        "zh-Hans": "问总价用“¿Cuánto es?”，问一件或多件用“¿Cuánto cuesta / cuestan?”。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "shoes",
       "title": {
         "en": "Buy shoes",
-        "vi": "Mua giày"
+        "vi": "Mua giày",
+        "pt-BR": "Comprar sapatos",
+        "fr": "Acheter des chaussures",
+        "de": "Schuhe kaufen",
+        "it": "Comprare scarpe",
+        "ja": "靴を買う",
+        "zh-Hans": "买鞋"
       },
       "description": {
         "en": "Find a color, check the price, and pay.",
-        "vi": "Chọn màu, hỏi giá và thanh toán."
+        "vi": "Chọn màu, hỏi giá và thanh toán.",
+        "pt-BR": "Encontre uma cor, confira o preço e pague.",
+        "fr": "Trouvez une couleur, vérifiez le prix et payez.",
+        "de": "Finde eine Farbe, prüf den Preis und bezahle.",
+        "it": "Trova un colore, controlla il prezzo e paga.",
+        "ja": "色を選び、値段を確認して支払おう。",
+        "zh-Hans": "挑选颜色、确认价格并付款。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Hola, ¿qué busca?",
           "translation": {
             "en": "Hi, what are you looking for?",
-            "vi": "Chào bạn, bạn tìm gì?"
+            "vi": "Chào bạn, bạn tìm gì?",
+            "pt-BR": "Oi, o que você procura?",
+            "fr": "Bonjour, vous cherchez quelque chose ?",
+            "de": "Hallo, was suchen Sie?",
+            "it": "Ciao, cosa cerca?",
+            "ja": "いらっしゃいませ、何をお探しですか？",
+            "zh-Hans": "您好，您在找什么？"
           },
           "hint": {
             "en": "Say the item and its color.",
-            "vi": "Nói món đồ và màu sắc."
+            "vi": "Nói món đồ và màu sắc.",
+            "pt-BR": "Diga o item e a cor.",
+            "fr": "Dites l’article et sa couleur.",
+            "de": "Nenne den Artikel und seine Farbe.",
+            "it": "Di’ l’articolo e il colore.",
+            "ja": "品物と色を言おう。",
+            "zh-Hans": "说出商品和颜色。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Busco zapatos negros.",
               "translation": {
                 "en": "I'm looking for black shoes.",
-                "vi": "Tôi tìm giày đen."
+                "vi": "Tôi tìm giày đen.",
+                "pt-BR": "Procuro sapatos pretos.",
+                "fr": "Je cherche des chaussures noires.",
+                "de": "Ich suche schwarze Schuhe.",
+                "it": "Cerco scarpe nere.",
+                "ja": "黒い靴を探しています。",
+                "zh-Hans": "我在找黑色的鞋。"
               },
               "correct": true,
               "response": "Tenemos estos. ¿Le gustan?",
               "responseTranslation": {
                 "en": "We have these. Do you like them?",
-                "vi": "Có đôi này. Bạn thích không?"
+                "vi": "Có đôi này. Bạn thích không?",
+                "pt-BR": "Temos estes. Gostou?",
+                "fr": "Nous avons celles-ci. Elles vous plaisent ?",
+                "de": "Wir haben diese. Gefallen sie Ihnen?",
+                "it": "Abbiamo queste. Le piacciono?",
+                "ja": "こちらがございます。いかがですか？",
+                "zh-Hans": "我们有这双。您喜欢吗？"
               },
               "next": "price"
             },
@@ -157,13 +313,25 @@
               "es": "¿Tiene estos zapatos en blanco?",
               "translation": {
                 "en": "Do you have these shoes in white?",
-                "vi": "Đôi này có màu trắng không?"
+                "vi": "Đôi này có màu trắng không?",
+                "pt-BR": "Tem estes sapatos em branco?",
+                "fr": "Vous avez ces chaussures en blanc ?",
+                "de": "Haben Sie diese Schuhe in Weiß?",
+                "it": "Ha queste scarpe in bianco?",
+                "ja": "この靴の白はありますか？",
+                "zh-Hans": "这双鞋有白色的吗？"
               },
               "correct": true,
               "response": "Sí, aquí están. ¿Le gustan?",
               "responseTranslation": {
                 "en": "Yes, here they are. Do you like them?",
-                "vi": "Có, đây ạ. Bạn thích không?"
+                "vi": "Có, đây ạ. Bạn thích không?",
+                "pt-BR": "Sim, aqui estão. Gostou?",
+                "fr": "Oui, les voici. Elles vous plaisent ?",
+                "de": "Ja, hier sind sie. Gefallen sie Ihnen?",
+                "it": "Sì, eccole. Le piacciono?",
+                "ja": "はい、こちらです。いかがですか？",
+                "zh-Hans": "有，在这里。您喜欢吗？"
               },
               "next": "price"
             },
@@ -172,14 +340,26 @@
               "es": "Tengo hambre.",
               "translation": {
                 "en": "I'm hungry.",
-                "vi": "Tôi đói."
+                "vi": "Tôi đói.",
+                "pt-BR": "Estou com fome.",
+                "fr": "J’ai faim.",
+                "de": "Ich habe Hunger.",
+                "it": "Ho fame.",
+                "ja": "おなかがすいています。",
+                "zh-Hans": "我饿了。"
               },
               "correct": false,
               "correction": "Busco zapatos negros.",
               "response": "Aquí vendemos zapatos. ¿Qué color busca?",
               "responseTranslation": {
                 "en": "We sell shoes here. What color?",
-                "vi": "Ở đây bán giày. Bạn tìm màu gì?"
+                "vi": "Ở đây bán giày. Bạn tìm màu gì?",
+                "pt-BR": "Aqui vendemos sapatos. Que cor?",
+                "fr": "Ici, on vend des chaussures. Quelle couleur ?",
+                "de": "Hier verkaufen wir Schuhe. Welche Farbe?",
+                "it": "Qui vendiamo scarpe. Che colore?",
+                "ja": "ここは靴屋ですよ。何色をお探しですか？",
+                "zh-Hans": "我们这里卖鞋。要什么颜色？"
               },
               "next": "price"
             }
@@ -190,11 +370,23 @@
           "prompt": "Son muy bonitos, ¿verdad?",
           "translation": {
             "en": "They're very nice, right?",
-            "vi": "Đẹp lắm phải không?"
+            "vi": "Đẹp lắm phải không?",
+            "pt-BR": "São muito bonitos, né?",
+            "fr": "Elles sont très jolies, non ?",
+            "de": "Die sind sehr schön, oder?",
+            "it": "Sono molto belle, vero?",
+            "ja": "とても素敵ですよね？",
+            "zh-Hans": "很好看，对吧？"
           },
           "hint": {
             "en": "Ask “¿Cuánto…?”.",
-            "vi": "Hỏi “¿Cuánto…?”."
+            "vi": "Hỏi “¿Cuánto…?”.",
+            "pt-BR": "Pergunte “¿Cuánto…?”.",
+            "fr": "Demandez « ¿Cuánto…? ».",
+            "de": "Frag „¿Cuánto…?“.",
+            "it": "Chiedi “¿Cuánto…?”.",
+            "ja": "「¿Cuánto…?」と尋ねよう。",
+            "zh-Hans": "用“¿Cuánto…?”询问。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Sí. ¿Cuánto es?",
               "translation": {
                 "en": "Yes. How much is it?",
-                "vi": "Ừ. Bao nhiêu tiền?"
+                "vi": "Ừ. Bao nhiêu tiền?",
+                "pt-BR": "Sim. Quanto custa?",
+                "fr": "Oui. Combien ça coûte ?",
+                "de": "Ja. Wie viel kostet das?",
+                "it": "Sì. Quanto costa?",
+                "ja": "はい。おいくらですか？",
+                "zh-Hans": "是的。多少钱？"
               },
               "correct": true,
               "response": "Son seiscientos pesos.",
               "responseTranslation": {
                 "en": "They're 600 pesos.",
-                "vi": "Sáu trăm peso."
+                "vi": "Sáu trăm peso.",
+                "pt-BR": "Custam 600 pesos.",
+                "fr": "Elles coûtent 600 pesos.",
+                "de": "Sie kosten 600 Pesos.",
+                "it": "Costano 600 pesos.",
+                "ja": "600ペソです。",
+                "zh-Hans": "600比索。"
               },
               "next": "pay"
             },
@@ -217,13 +421,25 @@
               "es": "Sí. ¿Hay descuento?",
               "translation": {
                 "en": "Yes. Is there a discount?",
-                "vi": "Ừ. Có giảm giá không?"
+                "vi": "Ừ. Có giảm giá không?",
+                "pt-BR": "Sim. Tem desconto?",
+                "fr": "Oui. Il y a une réduction ?",
+                "de": "Ja. Gibt es einen Rabatt?",
+                "it": "Sì. C’è uno sconto?",
+                "ja": "はい。割引はありますか？",
+                "zh-Hans": "是的。有折扣吗？"
               },
               "correct": true,
               "response": "Hoy hay diez por ciento. Son quinientos cuarenta.",
               "responseTranslation": {
                 "en": "Today there's 10% off. It's 540.",
-                "vi": "Hôm nay giảm 10%. Còn 540."
+                "vi": "Hôm nay giảm 10%. Còn 540.",
+                "pt-BR": "Hoje tem 10% de desconto. Fica 540.",
+                "fr": "Aujourd’hui, il y a 10 % de réduction. Ça fait 540.",
+                "de": "Heute gibt es 10 % Rabatt. Das macht 540.",
+                "it": "Oggi c’è il 10% di sconto. Sono 540.",
+                "ja": "今日は10%引きです。540になります。",
+                "zh-Hans": "今天打九折。540比索。"
               },
               "next": "pay"
             },
@@ -232,14 +448,26 @@
               "es": "Es muy grande.",
               "translation": {
                 "en": "It's too big.",
-                "vi": "Rộng quá."
+                "vi": "Rộng quá.",
+                "pt-BR": "Está muito grande.",
+                "fr": "C’est trop grand.",
+                "de": "Das ist zu groß.",
+                "it": "È troppo grande.",
+                "ja": "大きすぎます。",
+                "zh-Hans": "太大了。"
               },
               "correct": false,
               "correction": "Sí. ¿Cuánto es?",
               "response": "Le traigo otra talla. Cuestan seiscientos.",
               "responseTranslation": {
                 "en": "I'll bring another size. They're 600.",
-                "vi": "Tôi lấy cỡ khác. Giá 600."
+                "vi": "Tôi lấy cỡ khác. Giá 600.",
+                "pt-BR": "Vou trazer outro tamanho. Custam 600.",
+                "fr": "Je vous apporte une autre taille. Elles coûtent 600.",
+                "de": "Ich bringe eine andere Größe. Sie kosten 600.",
+                "it": "Le porto un’altra taglia. Costano 600.",
+                "ja": "別のサイズをお持ちします。600ペソです。",
+                "zh-Hans": "我给您拿另一个尺码。600比索。"
               },
               "next": "pay"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Cómo va a pagar?",
           "translation": {
             "en": "How will you pay?",
-            "vi": "Bạn thanh toán thế nào?"
+            "vi": "Bạn thanh toán thế nào?",
+            "pt-BR": "Como vai pagar?",
+            "fr": "Comment allez-vous payer ?",
+            "de": "Wie möchten Sie bezahlen?",
+            "it": "Come paga?",
+            "ja": "お支払いはどうなさいますか？",
+            "zh-Hans": "您怎么付款？"
           },
           "hint": {
             "en": "“Pago con…” or “Pago en…”.",
-            "vi": "“Pago con…” hoặc “Pago en…”."
+            "vi": "“Pago con…” hoặc “Pago en…”.",
+            "pt-BR": "“Pago con…” ou “Pago en…”.",
+            "fr": "« Pago con… » ou « Pago en… ».",
+            "de": "„Pago con…“ oder „Pago en…“.",
+            "it": "“Pago con…” o “Pago en…”.",
+            "ja": "「Pago con…」か「Pago en…」。",
+            "zh-Hans": "“Pago con…”或“Pago en…”。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Pago con tarjeta.",
               "translation": {
                 "en": "I'll pay by card.",
-                "vi": "Tôi trả bằng thẻ."
+                "vi": "Tôi trả bằng thẻ.",
+                "pt-BR": "Vou pagar com cartão.",
+                "fr": "Je paie par carte.",
+                "de": "Ich zahle mit Karte.",
+                "it": "Pago con la carta.",
+                "ja": "カードで払います。",
+                "zh-Hans": "我刷卡。"
               },
               "correct": true,
               "response": "Perfecto. Aquí tiene su recibo.",
               "responseTranslation": {
                 "en": "Perfect. Here's your receipt.",
-                "vi": "Tuyệt. Hóa đơn của bạn đây."
+                "vi": "Tuyệt. Hóa đơn của bạn đây.",
+                "pt-BR": "Perfeito. Aqui está seu recibo.",
+                "fr": "Parfait. Voici votre reçu.",
+                "de": "Perfekt. Hier ist Ihr Beleg.",
+                "it": "Perfetto. Ecco lo scontrino.",
+                "ja": "かしこまりました。こちらがレシートです。",
+                "zh-Hans": "好的。这是您的收据。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Pago en efectivo.",
               "translation": {
                 "en": "I'll pay in cash.",
-                "vi": "Tôi trả tiền mặt."
+                "vi": "Tôi trả tiền mặt.",
+                "pt-BR": "Vou pagar em dinheiro.",
+                "fr": "Je paie en espèces.",
+                "de": "Ich zahle bar.",
+                "it": "Pago in contanti.",
+                "ja": "現金で払います。",
+                "zh-Hans": "我付现金。"
               },
               "correct": true,
               "response": "Muy bien. Gracias por su compra.",
               "responseTranslation": {
                 "en": "Very good. Thanks for shopping.",
-                "vi": "Được ạ. Cảm ơn bạn đã mua hàng."
+                "vi": "Được ạ. Cảm ơn bạn đã mua hàng.",
+                "pt-BR": "Muito bem. Obrigado pela compra.",
+                "fr": "Très bien. Merci pour votre achat.",
+                "de": "Sehr gut. Danke für Ihren Einkauf.",
+                "it": "Molto bene. Grazie per l’acquisto.",
+                "ja": "かしこまりました。お買い上げありがとうございます。",
+                "zh-Hans": "好的。感谢您的购买。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Es barato.",
               "translation": {
                 "en": "It's cheap.",
-                "vi": "Rẻ."
+                "vi": "Rẻ.",
+                "pt-BR": "Está barato.",
+                "fr": "C’est bon marché.",
+                "de": "Das ist billig.",
+                "it": "È economico.",
+                "ja": "安いですね。",
+                "zh-Hans": "很便宜。"
               },
               "correct": false,
               "correction": "Pago con tarjeta.",
               "response": "¡Sí! ¿Pero con tarjeta o en efectivo?",
               "responseTranslation": {
                 "en": "Yes! But card or cash?",
-                "vi": "Đúng! Nhưng thẻ hay tiền mặt?"
+                "vi": "Đúng! Nhưng thẻ hay tiền mặt?",
+                "pt-BR": "Sim! Mas cartão ou dinheiro?",
+                "fr": "Oui ! Mais carte ou espèces ?",
+                "de": "Ja! Aber Karte oder bar?",
+                "it": "Sì! Ma carta o contanti?",
+                "ja": "そうですね！でもカードと現金、どちらで？",
+                "zh-Hans": "是的！但刷卡还是付现金？"
               }
             }
           ]

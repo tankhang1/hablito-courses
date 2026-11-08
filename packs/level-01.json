@@ -1,82 +1,166 @@
 {
   "schemaVersion": 1,
   "id": "level-01",
-  "version": 2,
+  "version": 3,
   "level": 1,
   "cefr": "A1",
   "title": {
     "en": "Starter 1: First words",
-    "vi": "Khởi đầu 1: Những từ đầu tiên"
+    "vi": "Khởi đầu 1: Những từ đầu tiên",
+    "pt-BR": "Iniciante 1: Primeiras palavras",
+    "fr": "Initiation 1 : Premiers mots",
+    "de": "Einstieg 1: Erste Wörter",
+    "it": "Avvio 1: Prime parole",
+    "ja": "入門 1：はじめての言葉",
+    "zh-Hans": "入门 1：第一批单词"
   },
   "description": {
     "en": "Tiny everyday words and how you feel.",
-    "vi": "Những từ nhỏ hằng ngày và cảm xúc của bạn."
+    "vi": "Những từ nhỏ hằng ngày và cảm xúc của bạn.",
+    "pt-BR": "Palavrinhas do dia a dia e como você se sente.",
+    "fr": "Petits mots du quotidien et ce que vous ressentez.",
+    "de": "Kleine Alltagswörter und wie du dich fühlst.",
+    "it": "Parole quotidiane e come ti senti.",
+    "ja": "日常の小さな言葉と気持ちの表し方。",
+    "zh-Hans": "日常小词和表达你的感受。"
   },
   "lessons": [
     {
       "id": "everyday-words",
       "title": {
         "en": "Everyday words",
-        "vi": "Từ dùng hằng ngày"
+        "vi": "Từ dùng hằng ngày",
+        "pt-BR": "Palavras do dia a dia",
+        "fr": "Mots du quotidien",
+        "de": "Alltagswörter",
+        "it": "Parole di tutti i giorni",
+        "ja": "日常の言葉",
+        "zh-Hans": "日常用语"
       },
       "description": {
         "en": "Yes, no, and the polite basics.",
-        "vi": "Có, không và những từ lịch sự cơ bản."
+        "vi": "Có, không và những từ lịch sự cơ bản.",
+        "pt-BR": "Sim, não e o básico da educação.",
+        "fr": "Oui, non et les bases de la politesse.",
+        "de": "Ja, nein und die Grundlagen der Höflichkeit.",
+        "it": "Sì, no e le basi della cortesia.",
+        "ja": "はい、いいえ、基本の礼儀。",
+        "zh-Hans": "是、不是和基本礼貌用语。"
       },
       "icon": "message-circle",
       "phrases": [
         {
           "es": "Sí",
           "en": "Yes",
-          "vi": "Có / Vâng"
+          "vi": "Có / Vâng",
+          "pt-BR": "Sim",
+          "fr": "Oui",
+          "de": "Ja",
+          "it": "Sì",
+          "ja": "はい",
+          "zh-Hans": "是"
         },
         {
           "es": "No",
           "en": "No",
-          "vi": "Không"
+          "vi": "Không",
+          "pt-BR": "Não",
+          "fr": "Non",
+          "de": "Nein",
+          "it": "No",
+          "ja": "いいえ",
+          "zh-Hans": "不是"
         },
         {
           "es": "Por favor",
           "en": "Please",
-          "vi": "Làm ơn"
+          "vi": "Làm ơn",
+          "pt-BR": "Por favor",
+          "fr": "S’il vous plaît",
+          "de": "Bitte",
+          "it": "Per favore",
+          "ja": "お願いします",
+          "zh-Hans": "请"
         },
         {
           "es": "Muchas gracias",
           "en": "Thank you very much",
-          "vi": "Cảm ơn rất nhiều"
+          "vi": "Cảm ơn rất nhiều",
+          "pt-BR": "Muito obrigado",
+          "fr": "Merci beaucoup",
+          "de": "Vielen Dank",
+          "it": "Grazie mille",
+          "ja": "どうもありがとう",
+          "zh-Hans": "非常感谢"
         },
         {
           "es": "Con permiso",
           "en": "Excuse me (to pass)",
-          "vi": "Xin phép cho tôi qua"
+          "vi": "Xin phép cho tôi qua",
+          "pt-BR": "Com licença (para passar)",
+          "fr": "Pardon (pour passer)",
+          "de": "Entschuldigung (zum Vorbeigehen)",
+          "it": "Permesso (per passare)",
+          "ja": "すみません（通るとき）",
+          "zh-Hans": "借过（让路时）"
         },
         {
           "es": "Lo siento",
           "en": "I'm sorry",
-          "vi": "Tôi xin lỗi"
+          "vi": "Tôi xin lỗi",
+          "pt-BR": "Desculpe",
+          "fr": "Je suis désolé",
+          "de": "Es tut mir leid",
+          "it": "Mi dispiace",
+          "ja": "ごめんなさい",
+          "zh-Hans": "对不起"
         }
       ],
       "focus": {
         "en": "“Por favor” and “gracias” go at the end of a request: “Agua, por favor.”",
-        "vi": "“Por favor” và “gracias” thường đặt cuối câu: “Agua, por favor.”"
+        "vi": "“Por favor” và “gracias” thường đặt cuối câu: “Agua, por favor.”",
+        "pt-BR": "“Por favor” e “gracias” vão no fim do pedido: “Agua, por favor.”",
+        "fr": "« Por favor » et « gracias » se placent à la fin d’une demande : « Agua, por favor. »",
+        "de": "„Por favor“ und „gracias“ stehen am Ende einer Bitte: „Agua, por favor.“",
+        "it": "“Por favor” e “gracias” vanno alla fine di una richiesta: “Agua, por favor.”",
+        "ja": "「Por favor」と「gracias」はお願いの最後に置きます：「Agua, por favor.」",
+        "zh-Hans": "“Por favor”和“gracias”放在请求的末尾：“Agua, por favor.”"
       }
     },
     {
       "id": "feelings",
       "title": {
         "en": "How I feel",
-        "vi": "Cảm xúc của tôi"
+        "vi": "Cảm xúc của tôi",
+        "pt-BR": "Como eu me sinto",
+        "fr": "Comment je me sens",
+        "de": "Wie ich mich fühle",
+        "it": "Come mi sento",
+        "ja": "今の気持ち",
+        "zh-Hans": "我的感受"
       },
       "description": {
         "en": "Say if you are tired, hungry, or happy.",
-        "vi": "Nói bạn mệt, đói hay vui."
+        "vi": "Nói bạn mệt, đói hay vui.",
+        "pt-BR": "Diga se está cansado, com fome ou feliz.",
+        "fr": "Dites si vous êtes fatigué, si vous avez faim ou si vous êtes heureux.",
+        "de": "Sag, ob du müde, hungrig oder glücklich bist.",
+        "it": "Di’ se sei stanco, affamato o felice.",
+        "ja": "疲れている、おなかがすいた、うれしいなどを伝えよう。",
+        "zh-Hans": "说说你是累了、饿了还是开心。"
       },
       "icon": "smile",
       "phrases": [
         {
           "es": "Estoy bien",
           "en": "I'm fine",
-          "vi": "Tôi ổn"
+          "vi": "Tôi ổn",
+          "pt-BR": "Estou bem",
+          "fr": "Ça va",
+          "de": "Mir geht’s gut",
+          "it": "Sto bene",
+          "ja": "元気です",
+          "zh-Hans": "我很好"
         },
         {
           "es": "Estoy cansado",
@@ -84,33 +168,75 @@
           "vi": "Tôi mệt",
           "note": {
             "en": "Women say “cansada”.",
-            "vi": "Nữ nói “cansada”."
-          }
+            "vi": "Nữ nói “cansada”.",
+            "pt-BR": "Mulheres dizem “cansada”.",
+            "fr": "Les femmes disent « cansada ».",
+            "de": "Frauen sagen „cansada“.",
+            "it": "Le donne dicono “cansada”.",
+            "ja": "女性は「cansada」と言います。",
+            "zh-Hans": "女性说“cansada”。"
+          },
+          "pt-BR": "Estou cansado",
+          "fr": "Je suis fatigué",
+          "de": "Ich bin müde",
+          "it": "Sono stanco",
+          "ja": "疲れています",
+          "zh-Hans": "我累了"
         },
         {
           "es": "Tengo hambre",
           "en": "I'm hungry",
-          "vi": "Tôi đói"
+          "vi": "Tôi đói",
+          "pt-BR": "Estou com fome",
+          "fr": "J’ai faim",
+          "de": "Ich habe Hunger",
+          "it": "Ho fame",
+          "ja": "おなかがすいています",
+          "zh-Hans": "我饿了"
         },
         {
           "es": "Tengo sed",
           "en": "I'm thirsty",
-          "vi": "Tôi khát"
+          "vi": "Tôi khát",
+          "pt-BR": "Estou com sede",
+          "fr": "J’ai soif",
+          "de": "Ich habe Durst",
+          "it": "Ho sete",
+          "ja": "のどが渇いています",
+          "zh-Hans": "我渴了"
         },
         {
           "es": "Estoy feliz",
           "en": "I'm happy",
-          "vi": "Tôi vui"
+          "vi": "Tôi vui",
+          "pt-BR": "Estou feliz",
+          "fr": "Je suis heureux",
+          "de": "Ich bin glücklich",
+          "it": "Sono felice",
+          "ja": "うれしいです",
+          "zh-Hans": "我很开心"
         },
         {
           "es": "Tengo frío",
           "en": "I'm cold",
-          "vi": "Tôi lạnh"
+          "vi": "Tôi lạnh",
+          "pt-BR": "Estou com frio",
+          "fr": "J’ai froid",
+          "de": "Mir ist kalt",
+          "it": "Ho freddo",
+          "ja": "寒いです",
+          "zh-Hans": "我冷"
         }
       ],
       "focus": {
         "en": "Use “estar” for how you feel now (estoy bien) and “tener” for hunger, thirst, and cold (tengo hambre).",
-        "vi": "Dùng “estar” cho cảm giác lúc này (estoy bien) và “tener” cho đói, khát, lạnh (tengo hambre)."
+        "vi": "Dùng “estar” cho cảm giác lúc này (estoy bien) và “tener” cho đói, khát, lạnh (tengo hambre).",
+        "pt-BR": "Use “estar” para como você se sente agora (estoy bien) e “tener” para fome, sede e frio (tengo hambre).",
+        "fr": "Utilisez « estar » pour ce que vous ressentez maintenant (estoy bien) et « tener » pour la faim, la soif et le froid (tengo hambre).",
+        "de": "Nutze „estar“ für dein Befinden gerade (estoy bien) und „tener“ für Hunger, Durst und Kälte (tengo hambre).",
+        "it": "Usa “estar” per come ti senti ora (estoy bien) e “tener” per fame, sete e freddo (tengo hambre).",
+        "ja": "今の気分には「estar」（estoy bien）、空腹・のどの渇き・寒さには「tener」（tengo hambre）を使います。",
+        "zh-Hans": "用“estar”表达现在的感受（estoy bien），用“tener”表达饿、渴和冷（tengo hambre）。"
       }
     }
   ],
@@ -119,11 +245,23 @@
       "id": "classmate",
       "title": {
         "en": "Meet a classmate",
-        "vi": "Gặp bạn cùng lớp"
+        "vi": "Gặp bạn cùng lớp",
+        "pt-BR": "Conheça um colega de classe",
+        "fr": "Rencontrer un camarade de classe",
+        "de": "Lerne eine Mitschülerin kennen",
+        "it": "Conosci un compagno di classe",
+        "ja": "クラスメートと出会う",
+        "zh-Hans": "认识一位同学"
       },
       "description": {
         "en": "Say hi and share how you feel today.",
-        "vi": "Chào hỏi và chia sẻ hôm nay bạn thế nào."
+        "vi": "Chào hỏi và chia sẻ hôm nay bạn thế nào.",
+        "pt-BR": "Diga oi e conte como você está hoje.",
+        "fr": "Dites bonjour et racontez comment vous allez aujourd’hui.",
+        "de": "Sag Hallo und erzähl, wie es dir heute geht.",
+        "it": "Saluta e racconta come stai oggi.",
+        "ja": "あいさつして、今日の気分を伝えよう。",
+        "zh-Hans": "打个招呼，说说你今天怎么样。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -134,11 +272,23 @@
           "prompt": "¡Hola! ¿Cómo estás?",
           "translation": {
             "en": "Hi! How are you?",
-            "vi": "Chào bạn! Bạn khỏe không?"
+            "vi": "Chào bạn! Bạn khỏe không?",
+            "pt-BR": "Oi! Tudo bem?",
+            "fr": "Salut ! Ça va ?",
+            "de": "Hallo! Wie geht’s?",
+            "it": "Ciao! Come stai?",
+            "ja": "やあ！元気？",
+            "zh-Hans": "嗨！你好吗？"
           },
           "hint": {
             "en": "Answer with “Estoy…”.",
-            "vi": "Trả lời bằng “Estoy…”."
+            "vi": "Trả lời bằng “Estoy…”.",
+            "pt-BR": "Responda com “Estoy…”.",
+            "fr": "Répondez avec « Estoy… ».",
+            "de": "Antworte mit „Estoy…“.",
+            "it": "Rispondi con “Estoy…”.",
+            "ja": "「Estoy…」で答えよう。",
+            "zh-Hans": "用“Estoy…”回答。"
           },
           "choices": [
             {
@@ -146,13 +296,25 @@
               "es": "Estoy bien, gracias.",
               "translation": {
                 "en": "I'm fine, thanks.",
-                "vi": "Mình ổn, cảm ơn."
+                "vi": "Mình ổn, cảm ơn.",
+                "pt-BR": "Estou bem, obrigado.",
+                "fr": "Ça va bien, merci.",
+                "de": "Mir geht’s gut, danke.",
+                "it": "Sto bene, grazie.",
+                "ja": "元気だよ、ありがとう。",
+                "zh-Hans": "我很好，谢谢。"
               },
               "correct": true,
               "response": "¡Qué bueno! ¿Tienes hambre?",
               "responseTranslation": {
                 "en": "Great! Are you hungry?",
-                "vi": "Tốt quá! Bạn có đói không?"
+                "vi": "Tốt quá! Bạn có đói không?",
+                "pt-BR": "Que bom! Está com fome?",
+                "fr": "Super ! Tu as faim ?",
+                "de": "Super! Hast du Hunger?",
+                "it": "Ottimo! Hai fame?",
+                "ja": "よかった！おなかすいてる？",
+                "zh-Hans": "太好了！你饿吗？"
               },
               "next": "hungry"
             },
@@ -161,13 +323,25 @@
               "es": "Estoy cansado.",
               "translation": {
                 "en": "I'm tired.",
-                "vi": "Mình mệt."
+                "vi": "Mình mệt.",
+                "pt-BR": "Estou cansado.",
+                "fr": "Je suis fatigué.",
+                "de": "Ich bin müde.",
+                "it": "Sono stanco.",
+                "ja": "疲れてるんだ。",
+                "zh-Hans": "我累了。"
               },
               "correct": true,
               "response": "Ay, lo siento. ¿Tienes hambre?",
               "responseTranslation": {
                 "en": "Oh, sorry. Are you hungry?",
-                "vi": "Ôi, tiếc quá. Bạn có đói không?"
+                "vi": "Ôi, tiếc quá. Bạn có đói không?",
+                "pt-BR": "Ah, que pena. Está com fome?",
+                "fr": "Oh, désolé. Tu as faim ?",
+                "de": "Oh, schade. Hast du Hunger?",
+                "it": "Oh, mi dispiace. Hai fame?",
+                "ja": "あら、大変。おなかすいてる？",
+                "zh-Hans": "哦，真不容易。你饿吗？"
               },
               "next": "hungry"
             },
@@ -176,14 +350,26 @@
               "es": "De nada.",
               "translation": {
                 "en": "You're welcome.",
-                "vi": "Không có gì."
+                "vi": "Không có gì.",
+                "pt-BR": "De nada.",
+                "fr": "De rien.",
+                "de": "Gern geschehen.",
+                "it": "Prego.",
+                "ja": "どういたしまして。",
+                "zh-Hans": "不客气。"
               },
               "correct": false,
               "correction": "Estoy bien, gracias.",
               "response": "Mmm… ¿pero cómo estás?",
               "responseTranslation": {
                 "en": "Hmm… but how are you?",
-                "vi": "Ừm… nhưng bạn khỏe không?"
+                "vi": "Ừm… nhưng bạn khỏe không?",
+                "pt-BR": "Hum… mas como você está?",
+                "fr": "Hum… mais comment tu vas ?",
+                "de": "Hm… aber wie geht es dir?",
+                "it": "Mmm… ma come stai?",
+                "ja": "うーん…でも元気なの？",
+                "zh-Hans": "嗯……那你到底好不好？"
               },
               "next": "hungry"
             }
@@ -194,11 +380,23 @@
           "prompt": "¿Tienes hambre?",
           "translation": {
             "en": "Are you hungry?",
-            "vi": "Bạn có đói không?"
+            "vi": "Bạn có đói không?",
+            "pt-BR": "Está com fome?",
+            "fr": "Tu as faim ?",
+            "de": "Hast du Hunger?",
+            "it": "Hai fame?",
+            "ja": "おなかすいてる？",
+            "zh-Hans": "你饿吗？"
           },
           "hint": {
             "en": "“Sí” or “No”, then a short reason.",
-            "vi": "“Sí” hoặc “No”, kèm một lý do ngắn."
+            "vi": "“Sí” hoặc “No”, kèm một lý do ngắn.",
+            "pt-BR": "“Sí” ou “No”, e depois um motivo curto.",
+            "fr": "« Sí » ou « No », puis une courte raison.",
+            "de": "„Sí“ oder „No“, dann ein kurzer Grund.",
+            "it": "“Sí” o “No”, poi un breve motivo.",
+            "ja": "「Sí」か「No」と、短い理由を言おう。",
+            "zh-Hans": "说“Sí”或“No”，再加一个简短的理由。"
           },
           "choices": [
             {
@@ -206,13 +404,25 @@
               "es": "Sí, tengo hambre.",
               "translation": {
                 "en": "Yes, I'm hungry.",
-                "vi": "Có, mình đói."
+                "vi": "Có, mình đói.",
+                "pt-BR": "Sim, estou com fome.",
+                "fr": "Oui, j’ai faim.",
+                "de": "Ja, ich habe Hunger.",
+                "it": "Sì, ho fame.",
+                "ja": "うん、おなかすいた。",
+                "zh-Hans": "嗯，我饿了。"
               },
               "correct": true,
               "response": "Yo también. ¿Vamos a comer?",
               "responseTranslation": {
                 "en": "Me too. Shall we eat?",
-                "vi": "Mình cũng vậy. Đi ăn nhé?"
+                "vi": "Mình cũng vậy. Đi ăn nhé?",
+                "pt-BR": "Eu também. Vamos comer?",
+                "fr": "Moi aussi. On va manger ?",
+                "de": "Ich auch. Wollen wir essen?",
+                "it": "Anch’io. Andiamo a mangiare?",
+                "ja": "私も。食べに行こうか？",
+                "zh-Hans": "我也是。去吃饭吧？"
               },
               "next": "eat"
             },
@@ -221,13 +431,25 @@
               "es": "No, gracias. Tengo sed.",
               "translation": {
                 "en": "No, thanks. I'm thirsty.",
-                "vi": "Không, cảm ơn. Mình khát."
+                "vi": "Không, cảm ơn. Mình khát.",
+                "pt-BR": "Não, obrigado. Estou com sede.",
+                "fr": "Non, merci. J’ai soif.",
+                "de": "Nein, danke. Ich habe Durst.",
+                "it": "No, grazie. Ho sete.",
+                "ja": "ううん、ありがとう。のどが渇いた。",
+                "zh-Hans": "不了，谢谢。我渴了。"
               },
               "correct": true,
               "response": "Hay agua aquí. ¿Vamos?",
               "responseTranslation": {
                 "en": "There's water here. Shall we go?",
-                "vi": "Ở đây có nước. Đi nhé?"
+                "vi": "Ở đây có nước. Đi nhé?",
+                "pt-BR": "Tem água aqui. Vamos?",
+                "fr": "Il y a de l’eau ici. On y va ?",
+                "de": "Hier gibt es Wasser. Gehen wir?",
+                "it": "Qui c’è dell’acqua. Andiamo?",
+                "ja": "ここに水があるよ。行こうか？",
+                "zh-Hans": "这里有水。走吧？"
               },
               "next": "eat"
             },
@@ -236,14 +458,26 @@
               "es": "Tengo frío.",
               "translation": {
                 "en": "I'm cold.",
-                "vi": "Mình lạnh."
+                "vi": "Mình lạnh.",
+                "pt-BR": "Estou com frio.",
+                "fr": "J’ai froid.",
+                "de": "Mir ist kalt.",
+                "it": "Ho freddo.",
+                "ja": "寒い。",
+                "zh-Hans": "我冷。"
               },
               "correct": false,
               "correction": "Sí, tengo hambre.",
               "response": "Toma mi chaqueta. ¿Y hambre?",
               "responseTranslation": {
                 "en": "Take my jacket. And hungry?",
-                "vi": "Cầm áo khoác của mình đi. Còn đói không?"
+                "vi": "Cầm áo khoác của mình đi. Còn đói không?",
+                "pt-BR": "Pegue minha jaqueta. E a fome?",
+                "fr": "Prends ma veste. Et la faim ?",
+                "de": "Nimm meine Jacke. Und Hunger?",
+                "it": "Prendi la mia giacca. E la fame?",
+                "ja": "私のジャケットを着て。おなかは？",
+                "zh-Hans": "穿上我的外套。那饿不饿？"
               },
               "next": "eat"
             }
@@ -254,11 +488,23 @@
           "prompt": "¡Vamos! Hasta luego, ¿sí?",
           "translation": {
             "en": "Let's go! See you later, OK?",
-            "vi": "Đi thôi! Lát gặp nhé?"
+            "vi": "Đi thôi! Lát gặp nhé?",
+            "pt-BR": "Vamos! Até logo, tá?",
+            "fr": "Allons-y ! À plus tard, d’accord ?",
+            "de": "Los geht’s! Bis später, okay?",
+            "it": "Andiamo! A dopo, va bene?",
+            "ja": "行こう！またあとでね？",
+            "zh-Hans": "走吧！回头见，好吗？"
           },
           "hint": {
             "en": "Say thank you and goodbye.",
-            "vi": "Cảm ơn và tạm biệt."
+            "vi": "Cảm ơn và tạm biệt.",
+            "pt-BR": "Agradeça e se despeça.",
+            "fr": "Dites merci et au revoir.",
+            "de": "Bedanke dich und verabschiede dich.",
+            "it": "Ringrazia e saluta.",
+            "ja": "お礼を言ってさよならしよう。",
+            "zh-Hans": "道谢并说再见。"
           },
           "choices": [
             {
@@ -266,13 +512,25 @@
               "es": "Sí, muchas gracias. ¡Hasta luego!",
               "translation": {
                 "en": "Yes, thanks a lot. See you later!",
-                "vi": "Ừ, cảm ơn nhiều. Lát gặp!"
+                "vi": "Ừ, cảm ơn nhiều. Lát gặp!",
+                "pt-BR": "Sim, muito obrigado. Até logo!",
+                "fr": "Oui, merci beaucoup. À plus tard !",
+                "de": "Ja, vielen Dank. Bis später!",
+                "it": "Sì, grazie mille. A dopo!",
+                "ja": "うん、本当にありがとう。またあとで！",
+                "zh-Hans": "好的，非常感谢。回头见！"
               },
               "correct": true,
               "response": "¡Hasta luego!",
               "responseTranslation": {
                 "en": "See you later!",
-                "vi": "Lát gặp nhé!"
+                "vi": "Lát gặp nhé!",
+                "pt-BR": "Até logo!",
+                "fr": "À plus tard !",
+                "de": "Bis später!",
+                "it": "A dopo!",
+                "ja": "またあとで！",
+                "zh-Hans": "回头见！"
               }
             },
             {
@@ -280,13 +538,25 @@
               "es": "Sí, por favor.",
               "translation": {
                 "en": "Yes, please.",
-                "vi": "Ừ, làm ơn."
+                "vi": "Ừ, làm ơn.",
+                "pt-BR": "Sim, por favor.",
+                "fr": "Oui, s’il te plaît.",
+                "de": "Ja, bitte.",
+                "it": "Sì, per favore.",
+                "ja": "うん、お願い。",
+                "zh-Hans": "好的，麻烦了。"
               },
               "correct": true,
               "response": "¡Perfecto!",
               "responseTranslation": {
                 "en": "Perfect!",
-                "vi": "Tuyệt!"
+                "vi": "Tuyệt!",
+                "pt-BR": "Perfeito!",
+                "fr": "Parfait !",
+                "de": "Perfekt!",
+                "it": "Perfetto!",
+                "ja": "完璧！",
+                "zh-Hans": "太好了！"
               }
             },
             {
@@ -294,14 +564,26 @@
               "es": "Lo siento.",
               "translation": {
                 "en": "I'm sorry.",
-                "vi": "Mình xin lỗi."
+                "vi": "Mình xin lỗi.",
+                "pt-BR": "Desculpe.",
+                "fr": "Je suis désolé.",
+                "de": "Es tut mir leid.",
+                "it": "Mi dispiace.",
+                "ja": "ごめんね。",
+                "zh-Hans": "对不起。"
               },
               "correct": false,
               "correction": "Sí, muchas gracias. ¡Hasta luego!",
               "response": "¿Por qué? ¡Todo bien!",
               "responseTranslation": {
                 "en": "Why? All good!",
-                "vi": "Sao vậy? Mọi thứ ổn mà!"
+                "vi": "Sao vậy? Mọi thứ ổn mà!",
+                "pt-BR": "Por quê? Tudo bem!",
+                "fr": "Pourquoi ? Tout va bien !",
+                "de": "Warum? Alles gut!",
+                "it": "Perché? Tutto bene!",
+                "ja": "どうして？大丈夫だよ！",
+                "zh-Hans": "为什么？没事的！"
               }
             }
           ]

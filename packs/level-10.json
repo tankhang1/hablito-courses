@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-10",
-  "version": 2,
+  "version": 3,
   "level": 10,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 2: Past & opinions",
-    "vi": "Trung cấp 2: Quá khứ & ý kiến"
+    "vi": "Trung cấp 2: Quá khứ & ý kiến",
+    "pt-BR": "Intermediário 2: Passado e opiniões",
+    "fr": "Intermédiaire 2 : Passé et opinions",
+    "de": "Mittelstufe 2: Vergangenheit und Meinungen",
+    "it": "Intermedio 2: Passato e opinioni",
+    "ja": "中級 2：過去と意見",
+    "zh-Hans": "中级 2：过去和观点"
   },
   "description": {
     "en": "Tell what you did and share what you think.",
-    "vi": "Kể bạn đã làm gì và chia sẻ suy nghĩ."
+    "vi": "Kể bạn đã làm gì và chia sẻ suy nghĩ.",
+    "pt-BR": "Conte o que você fez e diga o que pensa.",
+    "fr": "Racontez ce que vous avez fait et dites ce que vous pensez.",
+    "de": "Erzähl, was du gemacht hast, und sag, was du denkst.",
+    "it": "Racconta cosa hai fatto e cosa ne pensi.",
+    "ja": "したことを話し、考えを伝えよう。",
+    "zh-Hans": "讲讲你做了什么，说说你的想法。"
   },
   "lessons": [
     {
       "id": "past",
       "title": {
         "en": "Talking about the past",
-        "vi": "Nói về quá khứ"
+        "vi": "Nói về quá khứ",
+        "pt-BR": "Falar do passado",
+        "fr": "Parler du passé",
+        "de": "Über die Vergangenheit sprechen",
+        "it": "Parlare del passato",
+        "ja": "過去について話す",
+        "zh-Hans": "谈论过去"
       },
       "description": {
         "en": "Simple past for weekend stories.",
-        "vi": "Thì quá khứ đơn để kể chuyện cuối tuần."
+        "vi": "Thì quá khứ đơn để kể chuyện cuối tuần.",
+        "pt-BR": "Passado simples para histórias do fim de semana.",
+        "fr": "Le passé pour raconter votre week-end.",
+        "de": "Einfache Vergangenheit für Wochenendgeschichten.",
+        "it": "Il passato per le storie del fine settimana.",
+        "ja": "週末の話をするための点過去。",
+        "zh-Hans": "用简单过去时讲周末的故事。"
       },
       "icon": "rewind",
       "phrases": [
         {
           "es": "Ayer fui al mercado.",
           "en": "Yesterday I went to the market.",
-          "vi": "Hôm qua tôi đi chợ."
+          "vi": "Hôm qua tôi đi chợ.",
+          "pt-BR": "Ontem fui ao mercado.",
+          "fr": "Hier, je suis allé au marché.",
+          "de": "Gestern war ich auf dem Markt.",
+          "it": "Ieri sono andato al mercato.",
+          "ja": "昨日、市場に行きました。",
+          "zh-Hans": "昨天我去了市场。"
         },
         {
           "es": "Comí tacos con mis amigos.",
           "en": "I ate tacos with my friends.",
-          "vi": "Tôi ăn tacos với bạn bè."
+          "vi": "Tôi ăn tacos với bạn bè.",
+          "pt-BR": "Comi tacos com meus amigos.",
+          "fr": "J’ai mangé des tacos avec mes amis.",
+          "de": "Ich habe mit meinen Freunden Tacos gegessen.",
+          "it": "Ho mangiato tacos con i miei amici.",
+          "ja": "友達とタコスを食べました。",
+          "zh-Hans": "我和朋友们吃了墨西哥卷饼。"
         },
         {
           "es": "Fue muy divertido.",
           "en": "It was a lot of fun.",
-          "vi": "Rất vui."
+          "vi": "Rất vui.",
+          "pt-BR": "Foi muito divertido.",
+          "fr": "C’était très amusant.",
+          "de": "Es hat viel Spaß gemacht.",
+          "it": "È stato molto divertente.",
+          "ja": "とても楽しかったです。",
+          "zh-Hans": "特别好玩。"
         },
         {
           "es": "Vi una película.",
           "en": "I watched a movie.",
-          "vi": "Tôi đã xem một bộ phim."
+          "vi": "Tôi đã xem một bộ phim.",
+          "pt-BR": "Vi um filme.",
+          "fr": "J’ai vu un film.",
+          "de": "Ich habe einen Film gesehen.",
+          "it": "Ho visto un film.",
+          "ja": "映画を見ました。",
+          "zh-Hans": "我看了一部电影。"
         },
         {
           "es": "Viví en México dos años.",
           "en": "I lived in Mexico for two years.",
-          "vi": "Tôi đã sống ở Mexico hai năm."
+          "vi": "Tôi đã sống ở Mexico hai năm.",
+          "pt-BR": "Morei no México por dois anos.",
+          "fr": "J’ai vécu au Mexique pendant deux ans.",
+          "de": "Ich habe zwei Jahre in Mexiko gelebt.",
+          "it": "Ho vissuto in Messico per due anni.",
+          "ja": "メキシコに2年間住んでいました。",
+          "zh-Hans": "我在墨西哥住了两年。"
         },
         {
           "es": "No hice nada.",
           "en": "I didn't do anything.",
-          "vi": "Tôi không làm gì cả."
+          "vi": "Tôi không làm gì cả.",
+          "pt-BR": "Não fiz nada.",
+          "fr": "Je n’ai rien fait.",
+          "de": "Ich habe nichts gemacht.",
+          "it": "Non ho fatto niente.",
+          "ja": "何もしなかった。",
+          "zh-Hans": "我什么也没做。"
         }
       ],
       "focus": {
         "en": "Common irregular pasts: fui (I went / I was), hice (I did), vi (I saw).",
-        "vi": "Quá khứ bất quy tắc hay gặp: fui (tôi đã đi / đã là), hice (tôi đã làm), vi (tôi đã thấy)."
+        "vi": "Quá khứ bất quy tắc hay gặp: fui (tôi đã đi / đã là), hice (tôi đã làm), vi (tôi đã thấy).",
+        "pt-BR": "Passados irregulares comuns: fui (fui / estive), hice (fiz), vi (vi).",
+        "fr": "Passés irréguliers courants : fui (je suis allé / j’ai été), hice (j’ai fait), vi (j’ai vu).",
+        "de": "Häufige unregelmäßige Formen: fui (ich ging / ich war), hice (ich machte), vi (ich sah).",
+        "it": "Passati irregolari comuni: fui (andai / fui), hice (feci), vi (vidi).",
+        "ja": "よく使う不規則な過去形：fui（行った／だった）、hice（した）、vi（見た）。",
+        "zh-Hans": "常见的不规则过去式：fui（我去了 / 我是）、hice（我做了）、vi（我看见了）。"
       }
     },
     {
       "id": "opinions",
       "title": {
         "en": "Giving opinions",
-        "vi": "Nêu ý kiến"
+        "vi": "Nêu ý kiến",
+        "pt-BR": "Dar opiniões",
+        "fr": "Donner son avis",
+        "de": "Meinungen äußern",
+        "it": "Dare opinioni",
+        "ja": "意見を言う",
+        "zh-Hans": "表达观点"
       },
       "description": {
         "en": "Agree, disagree, and say what you like.",
-        "vi": "Đồng ý, phản đối và nói điều bạn thích."
+        "vi": "Đồng ý, phản đối và nói điều bạn thích.",
+        "pt-BR": "Concorde, discorde e diga do que gosta.",
+        "fr": "Être d’accord, ne pas l’être et dire ce qu’on aime.",
+        "de": "Zustimmen, widersprechen und sagen, was dir gefällt.",
+        "it": "Essere d’accordo, non esserlo e dire cosa ti piace.",
+        "ja": "賛成・反対、好きなことを伝えよう。",
+        "zh-Hans": "同意、反对，并说说你喜欢什么。"
       },
       "icon": "message-square",
       "phrases": [
         {
           "es": "Creo que sí.",
           "en": "I think so.",
-          "vi": "Tôi nghĩ là có."
+          "vi": "Tôi nghĩ là có.",
+          "pt-BR": "Acho que sim.",
+          "fr": "Je crois que oui.",
+          "de": "Ich glaube schon.",
+          "it": "Credo di sì.",
+          "ja": "そう思います。",
+          "zh-Hans": "我想是的。"
         },
         {
           "es": "No estoy de acuerdo.",
           "en": "I don't agree.",
-          "vi": "Tôi không đồng ý."
+          "vi": "Tôi không đồng ý.",
+          "pt-BR": "Não concordo.",
+          "fr": "Je ne suis pas d’accord.",
+          "de": "Ich bin nicht einverstanden.",
+          "it": "Non sono d’accordo.",
+          "ja": "賛成できません。",
+          "zh-Hans": "我不同意。"
         },
         {
           "es": "Me encanta.",
           "en": "I love it.",
-          "vi": "Tôi rất thích."
+          "vi": "Tôi rất thích.",
+          "pt-BR": "Adoro.",
+          "fr": "J’adore.",
+          "de": "Ich liebe es.",
+          "it": "Lo adoro.",
+          "ja": "大好きです。",
+          "zh-Hans": "我很喜欢。"
         },
         {
           "es": "No me gusta mucho.",
           "en": "I don't like it much.",
-          "vi": "Tôi không thích lắm."
+          "vi": "Tôi không thích lắm.",
+          "pt-BR": "Não gosto muito.",
+          "fr": "Je n’aime pas trop.",
+          "de": "Es gefällt mir nicht so sehr.",
+          "it": "Non mi piace molto.",
+          "ja": "あまり好きではありません。",
+          "zh-Hans": "我不太喜欢。"
         },
         {
           "es": "En mi opinión, es caro.",
           "en": "In my opinion, it's expensive.",
-          "vi": "Theo tôi thì nó đắt."
+          "vi": "Theo tôi thì nó đắt.",
+          "pt-BR": "Na minha opinião, é caro.",
+          "fr": "À mon avis, c’est cher.",
+          "de": "Meiner Meinung nach ist es teuer.",
+          "it": "Secondo me, è caro.",
+          "ja": "私の意見では、高いです。",
+          "zh-Hans": "在我看来，这很贵。"
         },
         {
           "es": "Tienes razón.",
           "en": "You're right.",
-          "vi": "Bạn nói đúng."
+          "vi": "Bạn nói đúng.",
+          "pt-BR": "Você tem razão.",
+          "fr": "Tu as raison.",
+          "de": "Du hast recht.",
+          "it": "Hai ragione.",
+          "ja": "その通りだね。",
+          "zh-Hans": "你说得对。"
         }
       ],
       "focus": {
         "en": "Soften opinions with “creo que…”, “me parece que…”, “en mi opinión…”.",
-        "vi": "Làm mềm ý kiến bằng “creo que…”, “me parece que…”, “en mi opinión…”."
+        "vi": "Làm mềm ý kiến bằng “creo que…”, “me parece que…”, “en mi opinión…”.",
+        "pt-BR": "Suavize opiniões com “creo que…”, “me parece que…”, “en mi opinión…”.",
+        "fr": "Nuancez avec « creo que… », « me parece que… », « en mi opinión… ».",
+        "de": "Mildere Meinungen mit „creo que…“, „me parece que…“, „en mi opinión…“.",
+        "it": "Attenua le opinioni con “creo que…”, “me parece que…”, “en mi opinión…”.",
+        "ja": "「creo que…」「me parece que…」「en mi opinión…」で意見を和らげよう。",
+        "zh-Hans": "用“creo que…”“me parece que…”“en mi opinión…”让观点更委婉。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "weekend",
       "title": {
         "en": "Weekend recap",
-        "vi": "Kể chuyện cuối tuần"
+        "vi": "Kể chuyện cuối tuần",
+        "pt-BR": "Resumo do fim de semana",
+        "fr": "Bilan du week-end",
+        "de": "Wochenendrückblick",
+        "it": "Racconto del fine settimana",
+        "ja": "週末のふり返り",
+        "zh-Hans": "周末回顾"
       },
       "description": {
         "en": "Share what you did and what you thought.",
-        "vi": "Kể bạn đã làm gì và cảm nhận thế nào."
+        "vi": "Kể bạn đã làm gì và cảm nhận thế nào.",
+        "pt-BR": "Conte o que fez e o que achou.",
+        "fr": "Racontez ce que vous avez fait et ce que vous en avez pensé.",
+        "de": "Erzähl, was du gemacht und was du gedacht hast.",
+        "it": "Racconta cosa hai fatto e cosa ne hai pensato.",
+        "ja": "したことと感想を話そう。",
+        "zh-Hans": "分享你做了什么、有什么感想。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Qué hiciste el fin de semana?",
           "translation": {
             "en": "What did you do on the weekend?",
-            "vi": "Cuối tuần bạn làm gì?"
+            "vi": "Cuối tuần bạn làm gì?",
+            "pt-BR": "O que você fez no fim de semana?",
+            "fr": "Qu’est-ce que tu as fait ce week-end ?",
+            "de": "Was hast du am Wochenende gemacht?",
+            "it": "Cosa hai fatto nel fine settimana?",
+            "ja": "週末は何をしたの？",
+            "zh-Hans": "你周末做了什么？"
           },
           "hint": {
             "en": "Use the past: “fui”, “comí”, “vi”.",
-            "vi": "Dùng thì quá khứ: “fui”, “comí”, “vi”."
+            "vi": "Dùng thì quá khứ: “fui”, “comí”, “vi”.",
+            "pt-BR": "Use o passado: “fui”, “comí”, “vi”.",
+            "fr": "Utilisez le passé : « fui », « comí », « vi ».",
+            "de": "Nutze die Vergangenheit: „fui“, „comí“, „vi“.",
+            "it": "Usa il passato: “fui”, “comí”, “vi”.",
+            "ja": "過去形を使おう：「fui」「comí」「vi」。",
+            "zh-Hans": "用过去时：“fui”“comí”“vi”。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Fui al mercado y comí tacos.",
               "translation": {
                 "en": "I went to the market and ate tacos.",
-                "vi": "Mình đi chợ và ăn tacos."
+                "vi": "Mình đi chợ và ăn tacos.",
+                "pt-BR": "Fui ao mercado e comi tacos.",
+                "fr": "Je suis allé au marché et j’ai mangé des tacos.",
+                "de": "Ich war auf dem Markt und habe Tacos gegessen.",
+                "it": "Sono andato al mercato e ho mangiato tacos.",
+                "ja": "市場に行ってタコスを食べたよ。",
+                "zh-Hans": "我去了市场，吃了墨西哥卷饼。"
               },
               "correct": true,
               "response": "¡Qué rico! ¿Te gustaron?",
               "responseTranslation": {
                 "en": "Yum! Did you like them?",
-                "vi": "Ngon thế! Bạn có thích không?"
+                "vi": "Ngon thế! Bạn có thích không?",
+                "pt-BR": "Hum! Gostou?",
+                "fr": "Miam ! Ça t’a plu ?",
+                "de": "Lecker! Haben sie dir geschmeckt?",
+                "it": "Che buono! Ti sono piaciuti?",
+                "ja": "おいしそう！気に入った？",
+                "zh-Hans": "好吃！你喜欢吗？"
               },
               "next": "opinion"
             },
@@ -157,13 +313,25 @@
               "es": "Vi una película nueva.",
               "translation": {
                 "en": "I watched a new movie.",
-                "vi": "Mình xem một bộ phim mới."
+                "vi": "Mình xem một bộ phim mới.",
+                "pt-BR": "Vi um filme novo.",
+                "fr": "J’ai vu un nouveau film.",
+                "de": "Ich habe einen neuen Film gesehen.",
+                "it": "Ho visto un film nuovo.",
+                "ja": "新しい映画を見たよ。",
+                "zh-Hans": "我看了一部新电影。"
               },
               "correct": true,
               "response": "¿Ah, sí? ¿Te gustó?",
               "responseTranslation": {
                 "en": "Oh yeah? Did you like it?",
-                "vi": "Thế à? Bạn có thích không?"
+                "vi": "Thế à? Bạn có thích không?",
+                "pt-BR": "É mesmo? Gostou?",
+                "fr": "Ah oui ? Il t’a plu ?",
+                "de": "Ach ja? Hat er dir gefallen?",
+                "it": "Ah sì? Ti è piaciuto?",
+                "ja": "そうなの？面白かった？",
+                "zh-Hans": "是吗？你喜欢吗？"
               },
               "next": "opinion"
             },
@@ -172,14 +340,26 @@
               "es": "Voy al mercado.",
               "translation": {
                 "en": "I'm going to the market.",
-                "vi": "Mình đang đi chợ."
+                "vi": "Mình đang đi chợ.",
+                "pt-BR": "Estou indo ao mercado.",
+                "fr": "Je vais au marché.",
+                "de": "Ich gehe gerade zum Markt.",
+                "it": "Sto andando al mercato.",
+                "ja": "今、市場に行くところ。",
+                "zh-Hans": "我正要去市场。"
               },
               "correct": false,
               "correction": "Fui al mercado y comí tacos.",
               "response": "¿Ahora? Te pregunto por el fin de semana pasado.",
               "responseTranslation": {
                 "en": "Now? I'm asking about last weekend.",
-                "vi": "Bây giờ á? Mình hỏi cuối tuần trước mà."
+                "vi": "Bây giờ á? Mình hỏi cuối tuần trước mà.",
+                "pt-BR": "Agora? Estou perguntando do fim de semana passado.",
+                "fr": "Maintenant ? Je te parle du week-end dernier.",
+                "de": "Jetzt? Ich frage nach dem letzten Wochenende.",
+                "it": "Adesso? Ti chiedo dello scorso fine settimana.",
+                "ja": "今？先週末のことを聞いてるんだよ。",
+                "zh-Hans": "现在？我问的是上个周末。"
               },
               "next": "opinion"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Y qué te pareció?",
           "translation": {
             "en": "And what did you think?",
-            "vi": "Bạn thấy thế nào?"
+            "vi": "Bạn thấy thế nào?",
+            "pt-BR": "E o que achou?",
+            "fr": "Et qu’est-ce que tu en as pensé ?",
+            "de": "Und wie fandest du es?",
+            "it": "E cosa ne pensi?",
+            "ja": "それで、どうだった？",
+            "zh-Hans": "那你觉得怎么样？"
           },
           "hint": {
             "en": "Give an opinion: “Me encantó…”, “No me gustó…”.",
-            "vi": "Nêu ý kiến: “Me encantó…”, “No me gustó…”."
+            "vi": "Nêu ý kiến: “Me encantó…”, “No me gustó…”.",
+            "pt-BR": "Dê uma opinião: “Me encantó…”, “No me gustó…”.",
+            "fr": "Donnez un avis : « Me encantó… », « No me gustó… ».",
+            "de": "Äußere eine Meinung: „Me encantó…“, „No me gustó…“.",
+            "it": "Dai un’opinione: “Me encantó…”, “No me gustó…”.",
+            "ja": "意見を言おう：「Me encantó…」「No me gustó…」。",
+            "zh-Hans": "发表看法：“Me encantó…”“No me gustó…”。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Me encantó. Fue muy divertido.",
               "translation": {
                 "en": "I loved it. It was a lot of fun.",
-                "vi": "Mình rất thích. Vui lắm."
+                "vi": "Mình rất thích. Vui lắm.",
+                "pt-BR": "Adorei. Foi muito divertido.",
+                "fr": "J’ai adoré. C’était très amusant.",
+                "de": "Ich fand es toll. Es hat viel Spaß gemacht.",
+                "it": "Mi è piaciuto tantissimo. È stato molto divertente.",
+                "ja": "すごくよかった。とても楽しかったよ。",
+                "zh-Hans": "我太喜欢了。特别好玩。"
               },
               "correct": true,
               "response": "¡Qué bueno! Yo quiero ir también.",
               "responseTranslation": {
                 "en": "Great! I want to go too.",
-                "vi": "Hay quá! Mình cũng muốn đi."
+                "vi": "Hay quá! Mình cũng muốn đi.",
+                "pt-BR": "Que bom! Também quero ir.",
+                "fr": "Super ! Moi aussi, je veux y aller.",
+                "de": "Super! Da will ich auch hin.",
+                "it": "Che bello! Voglio andarci anch’io.",
+                "ja": "いいね！私も行きたい。",
+                "zh-Hans": "太好了！我也想去。"
               },
               "next": "plan"
             },
@@ -217,13 +421,25 @@
               "es": "No me gustó mucho, en mi opinión fue caro.",
               "translation": {
                 "en": "I didn't like it much; I think it was expensive.",
-                "vi": "Mình không thích lắm, theo mình thì đắt."
+                "vi": "Mình không thích lắm, theo mình thì đắt.",
+                "pt-BR": "Não gostei muito; acho que foi caro.",
+                "fr": "Ça ne m’a pas trop plu ; je trouve que c’était cher.",
+                "de": "Es hat mir nicht so gefallen; ich fand es teuer.",
+                "it": "Non mi è piaciuto molto; secondo me era caro.",
+                "ja": "あまり好きじゃなかった。高かったと思う。",
+                "zh-Hans": "我不太喜欢；我觉得挺贵的。"
               },
               "correct": true,
               "response": "Entiendo. A veces es caro.",
               "responseTranslation": {
                 "en": "I get it. Sometimes it's expensive.",
-                "vi": "Mình hiểu. Đôi khi nó đắt thật."
+                "vi": "Mình hiểu. Đôi khi nó đắt thật.",
+                "pt-BR": "Entendo. Às vezes é caro.",
+                "fr": "Je comprends. C’est parfois cher.",
+                "de": "Verstehe. Manchmal ist es teuer.",
+                "it": "Capisco. A volte è caro.",
+                "ja": "わかる。高いときもあるよね。",
+                "zh-Hans": "我懂。有时候是挺贵的。"
               },
               "next": "plan"
             },
@@ -232,14 +448,26 @@
               "es": "Tienes razón.",
               "translation": {
                 "en": "You're right.",
-                "vi": "Bạn nói đúng."
+                "vi": "Bạn nói đúng.",
+                "pt-BR": "Você tem razão.",
+                "fr": "Tu as raison.",
+                "de": "Du hast recht.",
+                "it": "Hai ragione.",
+                "ja": "その通りだね。",
+                "zh-Hans": "你说得对。"
               },
               "correct": false,
               "correction": "Me encantó. Fue muy divertido.",
               "response": "¿Razón de qué? Cuéntame, ¿te gustó?",
               "responseTranslation": {
                 "en": "Right about what? Tell me, did you like it?",
-                "vi": "Đúng về chuyện gì? Kể đi, bạn có thích không?"
+                "vi": "Đúng về chuyện gì? Kể đi, bạn có thích không?",
+                "pt-BR": "Razão sobre o quê? Me conta, você gostou?",
+                "fr": "Raison sur quoi ? Dis-moi, ça t’a plu ?",
+                "de": "Recht womit? Erzähl, hat es dir gefallen?",
+                "it": "Ragione su cosa? Dimmi, ti è piaciuto?",
+                "ja": "何がその通りなの？ねえ、気に入った？",
+                "zh-Hans": "对什么？告诉我，你喜欢吗？"
               },
               "next": "plan"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Vamos juntos el próximo sábado?",
           "translation": {
             "en": "Shall we go together next Saturday?",
-            "vi": "Thứ Bảy tới mình đi cùng nhé?"
+            "vi": "Thứ Bảy tới mình đi cùng nhé?",
+            "pt-BR": "Vamos juntos no próximo sábado?",
+            "fr": "On y va ensemble samedi prochain ?",
+            "de": "Gehen wir nächsten Samstag zusammen hin?",
+            "it": "Ci andiamo insieme sabato prossimo?",
+            "ja": "今度の土曜日、一緒に行かない？",
+            "zh-Hans": "下个星期六我们一起去吧？"
           },
           "hint": {
             "en": "Agree or suggest something else.",
-            "vi": "Đồng ý hoặc đề xuất việc khác."
+            "vi": "Đồng ý hoặc đề xuất việc khác.",
+            "pt-BR": "Concorde ou sugira outra coisa.",
+            "fr": "Acceptez ou proposez autre chose.",
+            "de": "Stimm zu oder schlag etwas anderes vor.",
+            "it": "Accetta o proponi altro.",
+            "ja": "賛成するか、別の案を出そう。",
+            "zh-Hans": "同意，或提议别的。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "¡Claro! Creo que va a ser genial.",
               "translation": {
                 "en": "Sure! I think it'll be great.",
-                "vi": "Được chứ! Mình nghĩ sẽ rất vui."
+                "vi": "Được chứ! Mình nghĩ sẽ rất vui.",
+                "pt-BR": "Claro! Acho que vai ser ótimo.",
+                "fr": "Bien sûr ! Je pense que ce sera génial.",
+                "de": "Klar! Ich glaube, das wird toll.",
+                "it": "Certo! Penso che sarà fantastico.",
+                "ja": "もちろん！きっと最高だと思う。",
+                "zh-Hans": "当然！我觉得会很棒。"
               },
               "correct": true,
               "response": "¡Perfecto! Nos vemos el sábado.",
               "responseTranslation": {
                 "en": "Perfect! See you Saturday.",
-                "vi": "Tuyệt! Hẹn thứ Bảy nhé."
+                "vi": "Tuyệt! Hẹn thứ Bảy nhé.",
+                "pt-BR": "Perfeito! Até sábado.",
+                "fr": "Parfait ! À samedi.",
+                "de": "Perfekt! Bis Samstag.",
+                "it": "Perfetto! A sabato.",
+                "ja": "いいね！じゃあ土曜日に。",
+                "zh-Hans": "太好了！星期六见。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "No estoy seguro. ¿Y si vamos al cine?",
               "translation": {
                 "en": "I'm not sure. What if we go to the movies?",
-                "vi": "Mình chưa chắc. Hay mình đi xem phim?"
+                "vi": "Mình chưa chắc. Hay mình đi xem phim?",
+                "pt-BR": "Não tenho certeza. E se a gente for ao cinema?",
+                "fr": "Je ne suis pas sûr. Et si on allait au cinéma ?",
+                "de": "Ich bin nicht sicher. Wie wär’s mit Kino?",
+                "it": "Non sono sicuro. E se andassimo al cinema?",
+                "ja": "どうかな。映画に行くのはどう？",
+                "zh-Hans": "我不确定。要不我们去看电影？"
               },
               "correct": true,
               "response": "¡Buena idea! El cine entonces.",
               "responseTranslation": {
                 "en": "Good idea! The movies then.",
-                "vi": "Ý hay! Vậy đi xem phim."
+                "vi": "Ý hay! Vậy đi xem phim.",
+                "pt-BR": "Boa ideia! Cinema, então.",
+                "fr": "Bonne idée ! Le cinéma, alors.",
+                "de": "Gute Idee! Dann Kino.",
+                "it": "Buona idea! Allora cinema.",
+                "ja": "いいアイデア！じゃあ映画にしよう。",
+                "zh-Hans": "好主意！那就看电影。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No hice nada.",
               "translation": {
                 "en": "I didn't do anything.",
-                "vi": "Mình chẳng làm gì cả."
+                "vi": "Mình chẳng làm gì cả.",
+                "pt-BR": "Não fiz nada.",
+                "fr": "Je n’ai rien fait.",
+                "de": "Ich habe nichts gemacht.",
+                "it": "Non ho fatto niente.",
+                "ja": "何もしなかった。",
+                "zh-Hans": "我什么也没做。"
               },
               "correct": false,
               "correction": "¡Claro! Creo que va a ser genial.",
               "response": "Jaja, eso fue el pasado. ¿Vamos el sábado?",
               "responseTranslation": {
                 "en": "Haha, that was the past. Shall we go Saturday?",
-                "vi": "Haha, đó là chuyện cũ rồi. Thứ Bảy đi nhé?"
+                "vi": "Haha, đó là chuyện cũ rồi. Thứ Bảy đi nhé?",
+                "pt-BR": "Haha, isso foi o passado. Vamos no sábado?",
+                "fr": "Haha, ça, c’était le passé. On y va samedi ?",
+                "de": "Haha, das war die Vergangenheit. Gehen wir am Samstag?",
+                "it": "Haha, quello era il passato. Andiamo sabato?",
+                "ja": "あはは、それは過去の話。土曜日に行こうか？",
+                "zh-Hans": "哈哈，那是过去的事了。星期六去吗？"
               }
             }
           ]

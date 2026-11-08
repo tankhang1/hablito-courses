@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-03",
-  "version": 2,
+  "version": 3,
   "level": 3,
   "cefr": "A1",
   "title": {
     "en": "Beginner 1: Food & drinks",
-    "vi": "Sơ cấp 1: Đồ ăn & đồ uống"
+    "vi": "Sơ cấp 1: Đồ ăn & đồ uống",
+    "pt-BR": "Básico 1: Comidas e bebidas",
+    "fr": "Débutant 1 : Nourriture et boissons",
+    "de": "Anfänger 1: Essen und Trinken",
+    "it": "Principiante 1: Cibo e bevande",
+    "ja": "初級 1：食べ物と飲み物",
+    "zh-Hans": "初级 1：食物和饮料"
   },
   "description": {
     "en": "Common foods and how to order them.",
-    "vi": "Món ăn phổ biến và cách gọi món."
+    "vi": "Món ăn phổ biến và cách gọi món.",
+    "pt-BR": "Comidas comuns e como pedi-las.",
+    "fr": "Les aliments courants et comment les commander.",
+    "de": "Häufige Speisen und wie man sie bestellt.",
+    "it": "Cibi comuni e come ordinarli.",
+    "ja": "よく食べる物と注文のしかた。",
+    "zh-Hans": "常见食物以及如何点餐。"
   },
   "lessons": [
     {
       "id": "food",
       "title": {
         "en": "At the table",
-        "vi": "Trên bàn ăn"
+        "vi": "Trên bàn ăn",
+        "pt-BR": "À mesa",
+        "fr": "À table",
+        "de": "Am Tisch",
+        "it": "A tavola",
+        "ja": "食卓で",
+        "zh-Hans": "在餐桌上"
       },
       "description": {
         "en": "Everyday foods and drinks.",
-        "vi": "Món ăn, đồ uống hằng ngày."
+        "vi": "Món ăn, đồ uống hằng ngày.",
+        "pt-BR": "Comidas e bebidas do dia a dia.",
+        "fr": "Aliments et boissons du quotidien.",
+        "de": "Alltägliches Essen und Getränke.",
+        "it": "Cibi e bevande di tutti i giorni.",
+        "ja": "日常の食べ物と飲み物。",
+        "zh-Hans": "日常的食物和饮料。"
       },
       "icon": "coffee",
       "phrases": [
         {
           "es": "el agua",
           "en": "water",
-          "vi": "nước"
+          "vi": "nước",
+          "pt-BR": "água",
+          "fr": "eau",
+          "de": "Wasser",
+          "it": "acqua",
+          "ja": "水",
+          "zh-Hans": "水"
         },
         {
           "es": "el pan",
           "en": "bread",
-          "vi": "bánh mì"
+          "vi": "bánh mì",
+          "pt-BR": "pão",
+          "fr": "pain",
+          "de": "Brot",
+          "it": "pane",
+          "ja": "パン",
+          "zh-Hans": "面包"
         },
         {
           "es": "el pollo",
           "en": "chicken",
-          "vi": "thịt gà"
+          "vi": "thịt gà",
+          "pt-BR": "frango",
+          "fr": "poulet",
+          "de": "Hähnchen",
+          "it": "pollo",
+          "ja": "チキン",
+          "zh-Hans": "鸡肉"
         },
         {
           "es": "el arroz",
           "en": "rice",
-          "vi": "cơm / gạo"
+          "vi": "cơm / gạo",
+          "pt-BR": "arroz",
+          "fr": "riz",
+          "de": "Reis",
+          "it": "riso",
+          "ja": "ご飯",
+          "zh-Hans": "米饭"
         },
         {
           "es": "la fruta",
           "en": "fruit",
-          "vi": "trái cây"
+          "vi": "trái cây",
+          "pt-BR": "fruta",
+          "fr": "fruit",
+          "de": "Obst",
+          "it": "frutta",
+          "ja": "果物",
+          "zh-Hans": "水果"
         },
         {
           "es": "el jugo de naranja",
           "en": "orange juice",
-          "vi": "nước cam"
+          "vi": "nước cam",
+          "pt-BR": "suco de laranja",
+          "fr": "jus d’orange",
+          "de": "Orangensaft",
+          "it": "succo d’arancia",
+          "ja": "オレンジジュース",
+          "zh-Hans": "橙汁"
         }
       ],
       "focus": {
         "en": "Every noun has a gender: el pan, el pollo (masculine); la fruta, la sopa (feminine).",
-        "vi": "Mỗi danh từ có giống: el pan, el pollo (giống đực); la fruta, la sopa (giống cái)."
+        "vi": "Mỗi danh từ có giống: el pan, el pollo (giống đực); la fruta, la sopa (giống cái).",
+        "pt-BR": "Todo substantivo tem gênero: el pan, el pollo (masculino); la fruta, la sopa (feminino).",
+        "fr": "Chaque nom a un genre : el pan, el pollo (masculin) ; la fruta, la sopa (féminin).",
+        "de": "Jedes Nomen hat ein Geschlecht: el pan, el pollo (männlich); la fruta, la sopa (weiblich).",
+        "it": "Ogni nome ha un genere: el pan, el pollo (maschile); la fruta, la sopa (femminile).",
+        "ja": "名詞には性があります：el pan, el pollo（男性）；la fruta, la sopa（女性）。",
+        "zh-Hans": "每个名词都有阴阳性：el pan, el pollo（阳性）；la fruta, la sopa（阴性）。"
       }
     },
     {
       "id": "ordering",
       "title": {
         "en": "Ordering food",
-        "vi": "Gọi món"
+        "vi": "Gọi món",
+        "pt-BR": "Fazer o pedido",
+        "fr": "Commander",
+        "de": "Bestellen",
+        "it": "Ordinare",
+        "ja": "注文する",
+        "zh-Hans": "点餐"
       },
       "description": {
         "en": "Ask, order, and pay at a restaurant.",
-        "vi": "Hỏi, gọi món và thanh toán ở nhà hàng."
+        "vi": "Hỏi, gọi món và thanh toán ở nhà hàng.",
+        "pt-BR": "Pergunte, peça e pague num restaurante.",
+        "fr": "Demander, commander et payer au restaurant.",
+        "de": "Im Restaurant fragen, bestellen und bezahlen.",
+        "it": "Chiedere, ordinare e pagare al ristorante.",
+        "ja": "レストランで尋ね、注文し、支払おう。",
+        "zh-Hans": "在餐厅询问、点餐和付款。"
       },
       "icon": "list",
       "phrases": [
         {
           "es": "Quiero el pollo, por favor.",
           "en": "I'd like the chicken, please.",
-          "vi": "Cho tôi món gà."
+          "vi": "Cho tôi món gà.",
+          "pt-BR": "Quero o frango, por favor.",
+          "fr": "Je voudrais le poulet, s’il vous plaît.",
+          "de": "Ich hätte gern das Hähnchen, bitte.",
+          "it": "Vorrei il pollo, per favore.",
+          "ja": "チキンをお願いします。",
+          "zh-Hans": "请给我鸡肉。"
         },
         {
           "es": "¿Qué me recomienda?",
           "en": "What do you recommend?",
-          "vi": "Bạn gợi ý món gì?"
+          "vi": "Bạn gợi ý món gì?",
+          "pt-BR": "O que você recomenda?",
+          "fr": "Qu’est-ce que vous me conseillez ?",
+          "de": "Was empfehlen Sie?",
+          "it": "Cosa mi consiglia?",
+          "ja": "おすすめは何ですか？",
+          "zh-Hans": "您推荐什么？"
         },
         {
           "es": "Sin picante, por favor.",
           "en": "Not spicy, please.",
-          "vi": "Đừng cho cay nhé."
+          "vi": "Đừng cho cay nhé.",
+          "pt-BR": "Sem pimenta, por favor.",
+          "fr": "Pas épicé, s’il vous plaît.",
+          "de": "Nicht scharf, bitte.",
+          "it": "Non piccante, per favore.",
+          "ja": "辛くしないでください。",
+          "zh-Hans": "请不要辣。"
         },
         {
           "es": "Para llevar.",
           "en": "To go.",
-          "vi": "Mang đi."
+          "vi": "Mang đi.",
+          "pt-BR": "Para viagem.",
+          "fr": "À emporter.",
+          "de": "Zum Mitnehmen.",
+          "it": "Da portare via.",
+          "ja": "持ち帰りで。",
+          "zh-Hans": "打包带走。"
         },
         {
           "es": "Está delicioso.",
           "en": "It's delicious.",
-          "vi": "Ngon quá."
+          "vi": "Ngon quá.",
+          "pt-BR": "Está delicioso.",
+          "fr": "C’est délicieux.",
+          "de": "Es ist köstlich.",
+          "it": "È delizioso.",
+          "ja": "とてもおいしいです。",
+          "zh-Hans": "很好吃。"
         },
         {
           "es": "La cuenta, por favor.",
           "en": "The check, please.",
-          "vi": "Cho tôi tính tiền."
+          "vi": "Cho tôi tính tiền.",
+          "pt-BR": "A conta, por favor.",
+          "fr": "L’addition, s’il vous plaît.",
+          "de": "Die Rechnung, bitte.",
+          "it": "Il conto, per favore.",
+          "ja": "お会計をお願いします。",
+          "zh-Hans": "请结账。"
         }
       ],
       "focus": {
         "en": "“Quiero…” is fine; “Quisiera…” or “Me da…” sounds more polite.",
-        "vi": "“Quiero…” dùng được; “Quisiera…” hoặc “Me da…” nghe lịch sự hơn."
+        "vi": "“Quiero…” dùng được; “Quisiera…” hoặc “Me da…” nghe lịch sự hơn.",
+        "pt-BR": "“Quiero…” funciona; “Quisiera…” ou “Me da…” soa mais educado.",
+        "fr": "« Quiero… » convient ; « Quisiera… » ou « Me da… » est plus poli.",
+        "de": "„Quiero…“ ist okay; „Quisiera…“ oder „Me da…“ klingt höflicher.",
+        "it": "“Quiero…” va bene; “Quisiera…” o “Me da…” suona più cortese.",
+        "ja": "「Quiero…」でも通じますが、「Quisiera…」や「Me da…」のほうが丁寧です。",
+        "zh-Hans": "“Quiero…”可以用；“Quisiera…”或“Me da…”更礼貌。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "lunch",
       "title": {
         "en": "Order lunch",
-        "vi": "Gọi bữa trưa"
+        "vi": "Gọi bữa trưa",
+        "pt-BR": "Pedir o almoço",
+        "fr": "Commander le déjeuner",
+        "de": "Mittagessen bestellen",
+        "it": "Ordinare il pranzo",
+        "ja": "ランチを注文する",
+        "zh-Hans": "点午餐"
       },
       "description": {
         "en": "Choose a dish, a drink, and pay.",
-        "vi": "Chọn món, đồ uống và thanh toán."
+        "vi": "Chọn món, đồ uống và thanh toán.",
+        "pt-BR": "Escolha um prato, uma bebida e pague.",
+        "fr": "Choisissez un plat, une boisson et payez.",
+        "de": "Wähle ein Gericht, ein Getränk und bezahle.",
+        "it": "Scegli un piatto, una bevanda e paga.",
+        "ja": "料理と飲み物を選んで支払おう。",
+        "zh-Hans": "选一道菜、一杯饮料，然后付款。"
       },
       "icon": "coffee",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Buenas tardes. ¿Qué va a comer?",
           "translation": {
             "en": "Good afternoon. What will you have?",
-            "vi": "Chào buổi chiều. Bạn dùng món gì?"
+            "vi": "Chào buổi chiều. Bạn dùng món gì?",
+            "pt-BR": "Boa tarde. O que vai querer?",
+            "fr": "Bonjour. Qu’est-ce que vous prenez ?",
+            "de": "Guten Tag. Was nehmen Sie?",
+            "it": "Buon pomeriggio. Cosa prende?",
+            "ja": "こんにちは。何になさいますか？",
+            "zh-Hans": "下午好。您要点什么？"
           },
           "hint": {
             "en": "Start with “Quiero…”.",
-            "vi": "Bắt đầu bằng “Quiero…”."
+            "vi": "Bắt đầu bằng “Quiero…”.",
+            "pt-BR": "Comece com “Quiero…”.",
+            "fr": "Commencez par « Quiero… ».",
+            "de": "Beginne mit „Quiero…“.",
+            "it": "Inizia con “Quiero…”.",
+            "ja": "「Quiero…」で始めよう。",
+            "zh-Hans": "用“Quiero…”开头。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Quiero el pollo con arroz.",
               "translation": {
                 "en": "I'd like chicken with rice.",
-                "vi": "Cho tôi gà với cơm."
+                "vi": "Cho tôi gà với cơm.",
+                "pt-BR": "Quero frango com arroz.",
+                "fr": "Je voudrais du poulet avec du riz.",
+                "de": "Ich hätte gern Hähnchen mit Reis.",
+                "it": "Vorrei pollo con riso.",
+                "ja": "チキンとライスをお願いします。",
+                "zh-Hans": "我要鸡肉配米饭。"
               },
               "correct": true,
               "response": "Muy bien. ¿Y para tomar?",
               "responseTranslation": {
                 "en": "Very good. And to drink?",
-                "vi": "Được ạ. Còn đồ uống?"
+                "vi": "Được ạ. Còn đồ uống?",
+                "pt-BR": "Muito bem. E para beber?",
+                "fr": "Très bien. Et comme boisson ?",
+                "de": "Sehr gut. Und zu trinken?",
+                "it": "Molto bene. E da bere?",
+                "ja": "かしこまりました。お飲み物は？",
+                "zh-Hans": "好的。喝点什么？"
               },
               "next": "drink"
             },
@@ -157,13 +313,25 @@
               "es": "¿Qué me recomienda?",
               "translation": {
                 "en": "What do you recommend?",
-                "vi": "Bạn gợi ý món gì?"
+                "vi": "Bạn gợi ý món gì?",
+                "pt-BR": "O que você recomenda?",
+                "fr": "Qu’est-ce que vous me conseillez ?",
+                "de": "Was empfehlen Sie?",
+                "it": "Cosa mi consiglia?",
+                "ja": "おすすめは何ですか？",
+                "zh-Hans": "您推荐什么？"
               },
               "correct": true,
               "response": "El pollo está delicioso. ¿Y para tomar?",
               "responseTranslation": {
                 "en": "The chicken is delicious. And to drink?",
-                "vi": "Món gà rất ngon. Còn đồ uống?"
+                "vi": "Món gà rất ngon. Còn đồ uống?",
+                "pt-BR": "O frango está delicioso. E para beber?",
+                "fr": "Le poulet est délicieux. Et comme boisson ?",
+                "de": "Das Hähnchen ist köstlich. Und zu trinken?",
+                "it": "Il pollo è delizioso. E da bere?",
+                "ja": "チキンがとてもおいしいですよ。お飲み物は？",
+                "zh-Hans": "鸡肉很好吃。喝点什么？"
               },
               "next": "drink"
             },
@@ -172,14 +340,26 @@
               "es": "La cuenta, por favor.",
               "translation": {
                 "en": "The check, please.",
-                "vi": "Cho tôi tính tiền."
+                "vi": "Cho tôi tính tiền.",
+                "pt-BR": "A conta, por favor.",
+                "fr": "L’addition, s’il vous plaît.",
+                "de": "Die Rechnung, bitte.",
+                "it": "Il conto, per favore.",
+                "ja": "お会計をお願いします。",
+                "zh-Hans": "请结账。"
               },
               "correct": false,
               "correction": "Quiero el pollo con arroz.",
               "response": "¡Pero todavía no come! ¿Qué quiere?",
               "responseTranslation": {
                 "en": "But you haven't eaten yet! What would you like?",
-                "vi": "Nhưng bạn chưa ăn mà! Bạn muốn gì?"
+                "vi": "Nhưng bạn chưa ăn mà! Bạn muốn gì?",
+                "pt-BR": "Mas você ainda nem comeu! O que gostaria?",
+                "fr": "Mais vous n’avez pas encore mangé ! Que voulez-vous ?",
+                "de": "Aber Sie haben noch gar nicht gegessen! Was möchten Sie?",
+                "it": "Ma non ha ancora mangiato! Cosa desidera?",
+                "ja": "まだ召し上がっていませんよ！何になさいますか？",
+                "zh-Hans": "可您还没吃呢！想吃点什么？"
               },
               "next": "drink"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Algo para tomar?",
           "translation": {
             "en": "Anything to drink?",
-            "vi": "Bạn uống gì không?"
+            "vi": "Bạn uống gì không?",
+            "pt-BR": "Algo para beber?",
+            "fr": "Quelque chose à boire ?",
+            "de": "Etwas zu trinken?",
+            "it": "Qualcosa da bere?",
+            "ja": "何かお飲みになりますか？",
+            "zh-Hans": "要喝点什么吗？"
           },
           "hint": {
             "en": "Name a drink and add “por favor”.",
-            "vi": "Nói tên đồ uống và thêm “por favor”."
+            "vi": "Nói tên đồ uống và thêm “por favor”.",
+            "pt-BR": "Diga uma bebida e acrescente “por favor”.",
+            "fr": "Nommez une boisson et ajoutez « por favor ».",
+            "de": "Nenne ein Getränk und sag „por favor“.",
+            "it": "Di’ una bevanda e aggiungi “por favor”.",
+            "ja": "飲み物の名前に「por favor」を付けよう。",
+            "zh-Hans": "说出一种饮料，再加上“por favor”。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Un jugo de naranja, por favor.",
               "translation": {
                 "en": "An orange juice, please.",
-                "vi": "Cho tôi một ly nước cam."
+                "vi": "Cho tôi một ly nước cam.",
+                "pt-BR": "Um suco de laranja, por favor.",
+                "fr": "Un jus d’orange, s’il vous plaît.",
+                "de": "Einen Orangensaft, bitte.",
+                "it": "Un succo d’arancia, per favore.",
+                "ja": "オレンジジュースをお願いします。",
+                "zh-Hans": "请来一杯橙汁。"
               },
               "correct": true,
               "response": "Claro, ahora se lo traigo.",
               "responseTranslation": {
                 "en": "Sure, I'll bring it now.",
-                "vi": "Vâng, tôi mang ra ngay."
+                "vi": "Vâng, tôi mang ra ngay.",
+                "pt-BR": "Claro, já trago.",
+                "fr": "Bien sûr, je vous l’apporte.",
+                "de": "Gern, ich bringe ihn sofort.",
+                "it": "Certo, glielo porto subito.",
+                "ja": "かしこまりました、すぐお持ちします。",
+                "zh-Hans": "好的，马上送来。"
               },
               "next": "pay"
             },
@@ -217,13 +421,25 @@
               "es": "Agua, por favor.",
               "translation": {
                 "en": "Water, please.",
-                "vi": "Cho tôi nước lọc."
+                "vi": "Cho tôi nước lọc.",
+                "pt-BR": "Água, por favor.",
+                "fr": "De l’eau, s’il vous plaît.",
+                "de": "Wasser, bitte.",
+                "it": "Acqua, per favore.",
+                "ja": "水をお願いします。",
+                "zh-Hans": "请来杯水。"
               },
               "correct": true,
               "response": "Muy bien.",
               "responseTranslation": {
                 "en": "Very good.",
-                "vi": "Được ạ."
+                "vi": "Được ạ.",
+                "pt-BR": "Muito bem.",
+                "fr": "Très bien.",
+                "de": "Sehr gut.",
+                "it": "Molto bene.",
+                "ja": "かしこまりました。",
+                "zh-Hans": "好的。"
               },
               "next": "pay"
             },
@@ -232,14 +448,26 @@
               "es": "El pan.",
               "translation": {
                 "en": "The bread.",
-                "vi": "Bánh mì."
+                "vi": "Bánh mì.",
+                "pt-BR": "O pão.",
+                "fr": "Le pain.",
+                "de": "Das Brot.",
+                "it": "Il pane.",
+                "ja": "パン。",
+                "zh-Hans": "面包。"
               },
               "correct": false,
               "correction": "Agua, por favor.",
               "response": "El pan viene con la comida. ¿Para tomar?",
               "responseTranslation": {
                 "en": "Bread comes with the meal. To drink?",
-                "vi": "Bánh mì có kèm món rồi. Còn đồ uống?"
+                "vi": "Bánh mì có kèm món rồi. Còn đồ uống?",
+                "pt-BR": "O pão vem com a refeição. E para beber?",
+                "fr": "Le pain est servi avec le repas. Et à boire ?",
+                "de": "Brot gibt es zum Essen dazu. Und zu trinken?",
+                "it": "Il pane è incluso nel pasto. Da bere?",
+                "ja": "パンは料理に付いてきます。お飲み物は？",
+                "zh-Hans": "面包随餐附送。喝点什么？"
               },
               "next": "pay"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Le gustó la comida?",
           "translation": {
             "en": "Did you like the food?",
-            "vi": "Bạn thấy món ăn thế nào?"
+            "vi": "Bạn thấy món ăn thế nào?",
+            "pt-BR": "Gostou da comida?",
+            "fr": "Le repas vous a plu ?",
+            "de": "Hat Ihnen das Essen geschmeckt?",
+            "it": "Le è piaciuto il cibo?",
+            "ja": "お食事はいかがでしたか？",
+            "zh-Hans": "饭菜合您口味吗？"
           },
           "hint": {
             "en": "Compliment the food, then ask for the check.",
-            "vi": "Khen món ăn, rồi xin tính tiền."
+            "vi": "Khen món ăn, rồi xin tính tiền.",
+            "pt-BR": "Elogie a comida e peça a conta.",
+            "fr": "Complimentez le repas, puis demandez l’addition.",
+            "de": "Lob das Essen und bitte dann um die Rechnung.",
+            "it": "Fai un complimento al cibo, poi chiedi il conto.",
+            "ja": "料理をほめてから、お会計を頼もう。",
+            "zh-Hans": "夸一夸饭菜，然后要求结账。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Sí, está delicioso. La cuenta, por favor.",
               "translation": {
                 "en": "Yes, it's delicious. The check, please.",
-                "vi": "Có, ngon lắm. Cho tôi tính tiền."
+                "vi": "Có, ngon lắm. Cho tôi tính tiền.",
+                "pt-BR": "Sim, está delicioso. A conta, por favor.",
+                "fr": "Oui, c’est délicieux. L’addition, s’il vous plaît.",
+                "de": "Ja, es ist köstlich. Die Rechnung, bitte.",
+                "it": "Sì, è delizioso. Il conto, per favore.",
+                "ja": "はい、とてもおいしいです。お会計をお願いします。",
+                "zh-Hans": "是的，很好吃。请结账。"
               },
               "correct": true,
               "response": "Gracias. Aquí tiene.",
               "responseTranslation": {
                 "en": "Thank you. Here you go.",
-                "vi": "Cảm ơn. Của bạn đây."
+                "vi": "Cảm ơn. Của bạn đây.",
+                "pt-BR": "Obrigado. Aqui está.",
+                "fr": "Merci. Voilà.",
+                "de": "Danke. Bitte schön.",
+                "it": "Grazie. Ecco a lei.",
+                "ja": "ありがとうございます。どうぞ。",
+                "zh-Hans": "谢谢。给您。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Sí. ¿Me lo pone para llevar?",
               "translation": {
                 "en": "Yes. Could you pack it to go?",
-                "vi": "Có. Gói mang đi giúp tôi nhé?"
+                "vi": "Có. Gói mang đi giúp tôi nhé?",
+                "pt-BR": "Sim. Pode embalar para viagem?",
+                "fr": "Oui. Vous pouvez l’emballer à emporter ?",
+                "de": "Ja. Können Sie es mir zum Mitnehmen einpacken?",
+                "it": "Sì. Me lo può incartare da portare via?",
+                "ja": "はい。持ち帰り用に包んでもらえますか？",
+                "zh-Hans": "是的。可以帮我打包带走吗？"
               },
               "correct": true,
               "response": "Claro que sí.",
               "responseTranslation": {
                 "en": "Of course.",
-                "vi": "Tất nhiên rồi."
+                "vi": "Tất nhiên rồi.",
+                "pt-BR": "Claro.",
+                "fr": "Bien sûr.",
+                "de": "Natürlich.",
+                "it": "Certo.",
+                "ja": "もちろんです。",
+                "zh-Hans": "当然可以。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Sin picante.",
               "translation": {
                 "en": "Not spicy.",
-                "vi": "Đừng cho cay."
+                "vi": "Đừng cho cay.",
+                "pt-BR": "Sem pimenta.",
+                "fr": "Pas épicé.",
+                "de": "Nicht scharf.",
+                "it": "Non piccante.",
+                "ja": "辛くしないで。",
+                "zh-Hans": "不要辣。"
               },
               "correct": false,
               "correction": "Sí, está delicioso. La cuenta, por favor.",
               "response": "Ya comió… ¿Le traigo la cuenta?",
               "responseTranslation": {
                 "en": "You already ate… Shall I bring the check?",
-                "vi": "Bạn ăn xong rồi mà… Tôi mang hóa đơn nhé?"
+                "vi": "Bạn ăn xong rồi mà… Tôi mang hóa đơn nhé?",
+                "pt-BR": "Você já comeu… Trago a conta?",
+                "fr": "Vous avez déjà mangé… Je vous apporte l’addition ?",
+                "de": "Sie haben schon gegessen… Soll ich die Rechnung bringen?",
+                "it": "Ha già mangiato… Le porto il conto?",
+                "ja": "もう召し上がりましたね…お会計をお持ちしましょうか？",
+                "zh-Hans": "您已经吃完了……要我拿账单来吗？"
               }
             }
           ]

@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-05",
-  "version": 2,
+  "version": 4,
   "level": 5,
   "cefr": "A2",
   "title": {
     "en": "Elementary 1: Getting around",
-    "vi": "Sơ trung 1: Đi lại trong thành phố"
+    "vi": "Sơ trung 1: Đi lại trong thành phố",
+    "pt-BR": "Elementar 1: Pela cidade",
+    "fr": "Élémentaire 1 : Se déplacer",
+    "de": "Grundstufe 1: Unterwegs in der Stadt",
+    "it": "Elementare 1: Muoversi in città",
+    "ja": "初中級 1：街を移動する",
+    "zh-Hans": "初中级 1：城市出行"
   },
   "description": {
     "en": "Places in town and simple directions.",
-    "vi": "Địa điểm trong thành phố và chỉ đường đơn giản."
+    "vi": "Địa điểm trong thành phố và chỉ đường đơn giản.",
+    "pt-BR": "Lugares da cidade e direções simples.",
+    "fr": "Les lieux de la ville et des directions simples.",
+    "de": "Orte in der Stadt und einfache Wegbeschreibungen.",
+    "it": "Luoghi della città e indicazioni semplici.",
+    "ja": "街の場所と簡単な道案内。",
+    "zh-Hans": "城里的地点和简单的路线。"
   },
   "lessons": [
     {
       "id": "places",
       "title": {
         "en": "Places in town",
-        "vi": "Địa điểm trong thành phố"
+        "vi": "Địa điểm trong thành phố",
+        "pt-BR": "Lugares da cidade",
+        "fr": "Lieux de la ville",
+        "de": "Orte in der Stadt",
+        "it": "Luoghi della città",
+        "ja": "街の場所",
+        "zh-Hans": "城里的地点"
       },
       "description": {
         "en": "Name the places you need.",
-        "vi": "Gọi tên những nơi bạn cần đến."
+        "vi": "Gọi tên những nơi bạn cần đến.",
+        "pt-BR": "Diga os lugares de que você precisa.",
+        "fr": "Nommez les lieux dont vous avez besoin.",
+        "de": "Nenne die Orte, die du brauchst.",
+        "it": "Nomina i posti di cui hai bisogno.",
+        "ja": "行きたい場所を言おう。",
+        "zh-Hans": "说出你需要去的地方。"
       },
       "icon": "map",
       "phrases": [
         {
           "es": "el banco",
           "en": "the bank",
-          "vi": "ngân hàng"
+          "vi": "ngân hàng",
+          "pt-BR": "o banco",
+          "fr": "la banque",
+          "de": "die Bank",
+          "it": "la banca",
+          "ja": "銀行",
+          "zh-Hans": "银行"
         },
         {
           "es": "la farmacia",
           "en": "the pharmacy",
-          "vi": "hiệu thuốc"
+          "vi": "hiệu thuốc",
+          "pt-BR": "a farmácia",
+          "fr": "la pharmacie",
+          "de": "die Apotheke",
+          "it": "la farmacia",
+          "ja": "薬局",
+          "zh-Hans": "药店"
         },
         {
           "es": "la parada de autobús",
           "en": "the bus stop",
-          "vi": "trạm xe buýt"
+          "vi": "trạm xe buýt",
+          "pt-BR": "o ponto de ônibus",
+          "fr": "l’arrêt de bus",
+          "de": "die Bushaltestelle",
+          "it": "la fermata dell’autobus",
+          "ja": "バス停",
+          "zh-Hans": "公交车站"
         },
         {
           "es": "el supermercado",
           "en": "the supermarket",
-          "vi": "siêu thị"
+          "vi": "siêu thị",
+          "pt-BR": "o supermercado",
+          "fr": "le supermarché",
+          "de": "der Supermarkt",
+          "it": "il supermercato",
+          "ja": "スーパー",
+          "zh-Hans": "超市"
         },
         {
           "es": "el hospital",
           "en": "the hospital",
-          "vi": "bệnh viện"
+          "vi": "bệnh viện",
+          "pt-BR": "o hospital",
+          "fr": "l’hôpital",
+          "de": "das Krankenhaus",
+          "it": "l’ospedale",
+          "ja": "病院",
+          "zh-Hans": "医院"
         },
         {
           "es": "la estación de tren",
           "en": "the train station",
-          "vi": "ga tàu"
+          "vi": "ga tàu",
+          "pt-BR": "a estação de trem",
+          "fr": "la gare",
+          "de": "der Bahnhof",
+          "it": "la stazione dei treni",
+          "ja": "駅",
+          "zh-Hans": "火车站"
         }
       ],
       "focus": {
         "en": "Use “estar” for location: “¿Dónde está el banco?” and “hay” for “there is”: “¿Hay un banco cerca?”",
-        "vi": "Dùng “estar” cho vị trí: “¿Dónde está el banco?”, và “hay” nghĩa là “có”: “¿Hay un banco cerca?”"
+        "vi": "Dùng “estar” cho vị trí: “¿Dónde está el banco?”, và “hay” nghĩa là “có”: “¿Hay un banco cerca?”",
+        "pt-BR": "Use “estar” para localização: “¿Dónde está el banco?”, e “hay” para “há”: “¿Hay un banco cerca?”",
+        "fr": "Utilisez « estar » pour la localisation : « ¿Dónde está el banco? » et « hay » pour « il y a » : « ¿Hay un banco cerca? »",
+        "de": "Nutze „estar“ für den Ort: „¿Dónde está el banco?“ und „hay“ für „es gibt“: „¿Hay un banco cerca?“",
+        "it": "Usa “estar” per la posizione: “¿Dónde está el banco?” e “hay” per “c’è”: “¿Hay un banco cerca?”",
+        "ja": "場所には「estar」：「¿Dónde está el banco?」、「〜がある」には「hay」：「¿Hay un banco cerca?」",
+        "zh-Hans": "表示位置用“estar”：“¿Dónde está el banco?”，表示“有”用“hay”：“¿Hay un banco cerca?”"
       }
     },
     {
       "id": "directions",
       "title": {
         "en": "Directions",
-        "vi": "Chỉ đường"
+        "vi": "Chỉ đường",
+        "pt-BR": "Direções",
+        "fr": "Directions",
+        "de": "Wegbeschreibungen",
+        "it": "Indicazioni",
+        "ja": "道案内",
+        "zh-Hans": "指路"
       },
       "description": {
         "en": "Understand left, right, and straight ahead.",
-        "vi": "Hiểu trái, phải và đi thẳng."
+        "vi": "Hiểu trái, phải và đi thẳng.",
+        "pt-BR": "Entenda esquerda, direita e em frente.",
+        "fr": "Comprenez gauche, droite et tout droit.",
+        "de": "Links, rechts und geradeaus verstehen.",
+        "it": "Capire sinistra, destra e dritto.",
+        "ja": "左、右、まっすぐを理解しよう。",
+        "zh-Hans": "听懂左、右和直走。"
       },
       "icon": "navigation",
       "phrases": [
         {
           "es": "a la derecha",
           "en": "to the right",
-          "vi": "bên phải"
+          "vi": "bên phải",
+          "pt-BR": "à direita",
+          "fr": "à droite",
+          "de": "nach rechts",
+          "it": "a destra",
+          "ja": "右に",
+          "zh-Hans": "往右"
         },
         {
           "es": "a la izquierda",
           "en": "to the left",
-          "vi": "bên trái"
+          "vi": "bên trái",
+          "pt-BR": "à esquerda",
+          "fr": "à gauche",
+          "de": "nach links",
+          "it": "a sinistra",
+          "ja": "左に",
+          "zh-Hans": "往左"
         },
         {
           "es": "todo recto",
           "en": "straight ahead",
-          "vi": "đi thẳng"
+          "vi": "đi thẳng",
+          "pt-BR": "em frente",
+          "fr": "tout droit",
+          "de": "geradeaus",
+          "it": "dritto",
+          "ja": "まっすぐ",
+          "zh-Hans": "直走"
         },
         {
           "es": "en la esquina",
           "en": "on the corner",
-          "vi": "ở góc đường"
+          "vi": "ở góc đường",
+          "pt-BR": "na esquina",
+          "fr": "au coin",
+          "de": "an der Ecke",
+          "it": "all’angolo",
+          "ja": "角に",
+          "zh-Hans": "在拐角"
         },
         {
           "es": "cerca de aquí",
           "en": "near here",
-          "vi": "gần đây"
+          "vi": "gần đây",
+          "pt-BR": "perto daqui",
+          "fr": "près d’ici",
+          "de": "hier in der Nähe",
+          "it": "qui vicino",
+          "ja": "この近くに",
+          "zh-Hans": "这附近"
         },
         {
           "es": "lejos de aquí",
           "en": "far from here",
-          "vi": "xa đây"
+          "vi": "xa đây",
+          "pt-BR": "longe daqui",
+          "fr": "loin d’ici",
+          "de": "weit von hier",
+          "it": "lontano da qui",
+          "ja": "ここから遠い",
+          "zh-Hans": "离这里很远"
         }
       ],
       "focus": {
         "en": "Directions use polite commands: siga (keep going), gire (turn), cruce (cross).",
-        "vi": "Chỉ đường dùng câu mệnh lệnh lịch sự: siga (cứ đi), gire (rẽ), cruce (băng qua)."
+        "vi": "Chỉ đường dùng câu mệnh lệnh lịch sự: siga (cứ đi), gire (rẽ), cruce (băng qua).",
+        "pt-BR": "As direções usam ordens educadas: siga (continue), gire (vire), cruce (atravesse).",
+        "fr": "Les directions utilisent des impératifs polis : siga (continuez), gire (tournez), cruce (traversez).",
+        "de": "Wegbeschreibungen nutzen höfliche Befehle: siga (gehen Sie weiter), gire (biegen Sie ab), cruce (überqueren Sie).",
+        "it": "Le indicazioni usano imperativi cortesi: siga (prosegua), gire (giri), cruce (attraversi).",
+        "ja": "道案内には丁寧な命令形を使います：siga（進んでください）、gire（曲がってください）、cruce（渡ってください）。",
+        "zh-Hans": "指路使用礼貌的命令式：siga（继续走）、gire（转弯）、cruce（过马路）。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "pharmacy",
       "title": {
         "en": "Find the pharmacy",
-        "vi": "Tìm hiệu thuốc"
+        "vi": "Tìm hiệu thuốc",
+        "pt-BR": "Encontre a farmácia",
+        "fr": "Trouver la pharmacie",
+        "de": "Die Apotheke finden",
+        "it": "Trovare la farmacia",
+        "ja": "薬局を探す",
+        "zh-Hans": "找药店"
       },
       "description": {
         "en": "Ask the way and confirm the directions.",
-        "vi": "Hỏi đường và xác nhận lại."
+        "vi": "Hỏi đường và xác nhận lại.",
+        "pt-BR": "Pergunte o caminho e confirme as direções.",
+        "fr": "Demandez le chemin et confirmez les indications.",
+        "de": "Nach dem Weg fragen und ihn bestätigen.",
+        "it": "Chiedi la strada e conferma le indicazioni.",
+        "ja": "道を尋ねて確認しよう。",
+        "zh-Hans": "问路并确认路线。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Le puedo ayudar?",
           "translation": {
             "en": "Can I help you?",
-            "vi": "Tôi giúp gì được cho bạn?"
+            "vi": "Tôi giúp gì được cho bạn?",
+            "pt-BR": "Posso ajudar?",
+            "fr": "Je peux vous aider ?",
+            "de": "Kann ich Ihnen helfen?",
+            "it": "Posso aiutarla?",
+            "ja": "何かお困りですか？",
+            "zh-Hans": "需要帮忙吗？"
           },
           "hint": {
             "en": "Ask “¿Dónde está…?”.",
-            "vi": "Hỏi “¿Dónde está…?”."
+            "vi": "Hỏi “¿Dónde está…?”.",
+            "pt-BR": "Pergunte “¿Dónde está…?”.",
+            "fr": "Demandez « ¿Dónde está…? ».",
+            "de": "Frag „¿Dónde está…?“.",
+            "it": "Chiedi “¿Dónde está…?”.",
+            "ja": "「¿Dónde está…?」と尋ねよう。",
+            "zh-Hans": "用“¿Dónde está…?”询问。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Sí. ¿Dónde está la farmacia?",
               "translation": {
                 "en": "Yes. Where is the pharmacy?",
-                "vi": "Vâng. Hiệu thuốc ở đâu?"
+                "vi": "Vâng. Hiệu thuốc ở đâu?",
+                "pt-BR": "Sim. Onde fica a farmácia?",
+                "fr": "Oui. Où est la pharmacie ?",
+                "de": "Ja. Wo ist die Apotheke?",
+                "it": "Sì. Dov’è la farmacia?",
+                "ja": "はい。薬局はどこですか？",
+                "zh-Hans": "是的。药店在哪里？"
               },
               "correct": true,
               "response": "Siga todo recto y a la derecha.",
               "responseTranslation": {
                 "en": "Go straight and then right.",
-                "vi": "Đi thẳng rồi rẽ phải."
+                "vi": "Đi thẳng rồi rẽ phải.",
+                "pt-BR": "Siga em frente e depois à direita.",
+                "fr": "Allez tout droit, puis à droite.",
+                "de": "Gehen Sie geradeaus und dann rechts.",
+                "it": "Vada dritto e poi a destra.",
+                "ja": "まっすぐ行って、右に曲がってください。",
+                "zh-Hans": "直走，然后右转。"
               },
               "next": "repeat"
             },
@@ -157,13 +313,25 @@
               "es": "¿Hay una farmacia cerca de aquí?",
               "translation": {
                 "en": "Is there a pharmacy near here?",
-                "vi": "Gần đây có hiệu thuốc không?"
+                "vi": "Gần đây có hiệu thuốc không?",
+                "pt-BR": "Tem uma farmácia aqui perto?",
+                "fr": "Il y a une pharmacie près d’ici ?",
+                "de": "Gibt es hier in der Nähe eine Apotheke?",
+                "it": "C’è una farmacia qui vicino?",
+                "ja": "この近くに薬局はありますか？",
+                "zh-Hans": "这附近有药店吗？"
               },
               "correct": true,
               "response": "Sí, siga todo recto y a la derecha.",
               "responseTranslation": {
                 "en": "Yes, go straight and then right.",
-                "vi": "Có, đi thẳng rồi rẽ phải."
+                "vi": "Có, đi thẳng rồi rẽ phải.",
+                "pt-BR": "Sim, siga em frente e depois à direita.",
+                "fr": "Oui, allez tout droit, puis à droite.",
+                "de": "Ja, gehen Sie geradeaus und dann rechts.",
+                "it": "Sì, vada dritto e poi a destra.",
+                "ja": "はい、まっすぐ行って右です。",
+                "zh-Hans": "有，直走然后右转。"
               },
               "next": "repeat"
             },
@@ -172,14 +340,26 @@
               "es": "Pago en efectivo.",
               "translation": {
                 "en": "I'll pay in cash.",
-                "vi": "Tôi trả tiền mặt."
+                "vi": "Tôi trả tiền mặt.",
+                "pt-BR": "Vou pagar em dinheiro.",
+                "fr": "Je paie en espèces.",
+                "de": "Ich zahle bar.",
+                "it": "Pago in contanti.",
+                "ja": "現金で払います。",
+                "zh-Hans": "我付现金。"
               },
               "correct": false,
               "correction": "Sí. ¿Dónde está la farmacia?",
               "response": "¿Busca algo? ¿La farmacia? Está a la derecha.",
               "responseTranslation": {
                 "en": "Looking for something? The pharmacy? It's on the right.",
-                "vi": "Bạn tìm gì à? Hiệu thuốc? Ở bên phải."
+                "vi": "Bạn tìm gì à? Hiệu thuốc? Ở bên phải.",
+                "pt-BR": "Procurando algo? A farmácia? Fica à direita.",
+                "fr": "Vous cherchez quelque chose ? La pharmacie ? Elle est à droite.",
+                "de": "Suchen Sie etwas? Die Apotheke? Sie ist rechts.",
+                "it": "Cerca qualcosa? La farmacia? È a destra.",
+                "ja": "何かお探しですか？薬局？右側ですよ。",
+                "zh-Hans": "在找东西吗？药店？在右边。"
               },
               "next": "repeat"
             }
@@ -190,11 +370,23 @@
           "prompt": "Todo recto y luego a la derecha.",
           "translation": {
             "en": "Straight ahead and then right.",
-            "vi": "Đi thẳng rồi rẽ phải."
+            "vi": "Đi thẳng rồi rẽ phải.",
+            "pt-BR": "Em frente e depois à direita.",
+            "fr": "Tout droit, puis à droite.",
+            "de": "Geradeaus und dann rechts.",
+            "it": "Dritto e poi a destra.",
+            "ja": "まっすぐ行って右です。",
+            "zh-Hans": "直走，然后右转。"
           },
           "hint": {
             "en": "Repeat back to confirm.",
-            "vi": "Nhắc lại để xác nhận."
+            "vi": "Nhắc lại để xác nhận.",
+            "pt-BR": "Repita para confirmar.",
+            "fr": "Répétez pour confirmer.",
+            "de": "Wiederhole es zur Bestätigung.",
+            "it": "Ripeti per conferma.",
+            "ja": "確認のため繰り返そう。",
+            "zh-Hans": "复述一遍以确认。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Todo recto y a la derecha, ¿verdad?",
               "translation": {
                 "en": "Straight and to the right, right?",
-                "vi": "Đi thẳng rồi rẽ phải, đúng không?"
+                "vi": "Đi thẳng rồi rẽ phải, đúng không?",
+                "pt-BR": "Em frente e à direita, né?",
+                "fr": "Tout droit et à droite, c’est ça ?",
+                "de": "Geradeaus und rechts, richtig?",
+                "it": "Dritto e a destra, giusto?",
+                "ja": "まっすぐ行って右、ですね？",
+                "zh-Hans": "直走然后右转，对吗？"
               },
               "correct": true,
               "response": "Exacto. Está en la esquina.",
               "responseTranslation": {
                 "en": "Exactly. It's on the corner.",
-                "vi": "Đúng vậy. Ở góc đường."
+                "vi": "Đúng vậy. Ở góc đường.",
+                "pt-BR": "Exatamente. Fica na esquina.",
+                "fr": "Exactement. C’est au coin.",
+                "de": "Genau. Sie ist an der Ecke.",
+                "it": "Esatto. È all’angolo.",
+                "ja": "そうです。角にあります。",
+                "zh-Hans": "没错。就在拐角。"
               },
               "next": "far"
             },
@@ -217,13 +421,25 @@
               "es": "Más despacio, por favor.",
               "translation": {
                 "en": "More slowly, please.",
-                "vi": "Làm ơn nói chậm hơn."
+                "vi": "Làm ơn nói chậm hơn.",
+                "pt-BR": "Mais devagar, por favor.",
+                "fr": "Plus lentement, s’il vous plaît.",
+                "de": "Langsamer, bitte.",
+                "it": "Più piano, per favore.",
+                "ja": "もっとゆっくりお願いします。",
+                "zh-Hans": "请说慢一点。"
               },
               "correct": true,
               "response": "To-do rec-to… y a la derecha. En la esquina.",
               "responseTranslation": {
                 "en": "Straight… and right. On the corner.",
-                "vi": "Đi thẳng… rồi rẽ phải. Ở góc đường."
+                "vi": "Đi thẳng… rồi rẽ phải. Ở góc đường.",
+                "pt-BR": "Em frente… e à direita. Na esquina.",
+                "fr": "Tout droit… et à droite. Au coin.",
+                "de": "Gerade… aus und rechts. An der Ecke.",
+                "it": "Dritto… e a destra. All’angolo.",
+                "ja": "まっすぐ…そして右。角です。",
+                "zh-Hans": "直……走，然后右转。在拐角。"
               },
               "next": "far"
             },
@@ -232,14 +448,26 @@
               "es": "¿A la izquierda?",
               "translation": {
                 "en": "To the left?",
-                "vi": "Rẽ trái à?"
+                "vi": "Rẽ trái à?",
+                "pt-BR": "À esquerda?",
+                "fr": "À gauche ?",
+                "de": "Nach links?",
+                "it": "A sinistra?",
+                "ja": "左ですか？",
+                "zh-Hans": "往左吗？"
               },
               "correct": false,
               "correction": "Todo recto y a la derecha, ¿verdad?",
               "response": "No, a la derecha. En la esquina.",
               "responseTranslation": {
                 "en": "No, to the right. On the corner.",
-                "vi": "Không, rẽ phải. Ở góc đường."
+                "vi": "Không, rẽ phải. Ở góc đường.",
+                "pt-BR": "Não, à direita. Na esquina.",
+                "fr": "Non, à droite. Au coin.",
+                "de": "Nein, nach rechts. An der Ecke.",
+                "it": "No, a destra. All’angolo.",
+                "ja": "いいえ、右です。角にあります。",
+                "zh-Hans": "不是，往右。在拐角。"
               },
               "next": "far"
             }
@@ -250,11 +478,23 @@
           "prompt": "Está muy cerca, cinco minutos.",
           "translation": {
             "en": "It's very close, five minutes.",
-            "vi": "Rất gần, năm phút thôi."
+            "vi": "Rất gần, năm phút thôi.",
+            "pt-BR": "É bem perto, cinco minutos.",
+            "fr": "C’est tout près, cinq minutes.",
+            "de": "Es ist ganz nah, fünf Minuten.",
+            "it": "È vicinissimo, cinque minuti.",
+            "ja": "すぐ近くですよ、5分です。",
+            "zh-Hans": "很近，五分钟。"
           },
           "hint": {
             "en": "Thank them.",
-            "vi": "Cảm ơn họ."
+            "vi": "Cảm ơn họ.",
+            "pt-BR": "Agradeça.",
+            "fr": "Remerciez.",
+            "de": "Bedanke dich.",
+            "it": "Ringrazia.",
+            "ja": "お礼を言おう。",
+            "zh-Hans": "向对方道谢。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "¡Muchas gracias por su ayuda!",
               "translation": {
                 "en": "Thanks a lot for your help!",
-                "vi": "Cảm ơn bạn đã giúp!"
+                "vi": "Cảm ơn bạn đã giúp!",
+                "pt-BR": "Muito obrigado pela ajuda!",
+                "fr": "Merci beaucoup pour votre aide !",
+                "de": "Vielen Dank für Ihre Hilfe!",
+                "it": "Grazie mille per l’aiuto!",
+                "ja": "助けてくれて本当にありがとう！",
+                "zh-Hans": "非常感谢你的帮助！"
               },
               "correct": true,
               "response": "De nada. ¡Que le vaya bien!",
               "responseTranslation": {
                 "en": "You're welcome. Take care!",
-                "vi": "Không có gì. Chúc bạn may mắn!"
+                "vi": "Không có gì. Chúc bạn may mắn!",
+                "pt-BR": "De nada. Cuide-se!",
+                "fr": "De rien. Bonne journée !",
+                "de": "Gern geschehen. Alles Gute!",
+                "it": "Prego. Buona giornata!",
+                "ja": "どういたしまして。お気をつけて！",
+                "zh-Hans": "不客气。保重！"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Perfecto, gracias.",
               "translation": {
                 "en": "Perfect, thanks.",
-                "vi": "Tuyệt, cảm ơn."
+                "vi": "Tuyệt, cảm ơn.",
+                "pt-BR": "Perfeito, obrigado.",
+                "fr": "Parfait, merci.",
+                "de": "Perfekt, danke.",
+                "it": "Perfetto, grazie.",
+                "ja": "わかりました、ありがとう。",
+                "zh-Hans": "好的，谢谢。"
               },
               "correct": true,
               "response": "De nada.",
               "responseTranslation": {
                 "en": "You're welcome.",
-                "vi": "Không có gì."
+                "vi": "Không có gì.",
+                "pt-BR": "De nada.",
+                "fr": "De rien.",
+                "de": "Gern geschehen.",
+                "it": "Prego.",
+                "ja": "どういたしまして。",
+                "zh-Hans": "不客气。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "¿Dónde está el hospital?",
               "translation": {
                 "en": "Where is the hospital?",
-                "vi": "Bệnh viện ở đâu?"
+                "vi": "Bệnh viện ở đâu?",
+                "pt-BR": "Onde fica o hospital?",
+                "fr": "Où est l’hôpital ?",
+                "de": "Wo ist das Krankenhaus?",
+                "it": "Dov’è l’ospedale?",
+                "ja": "病院はどこですか？",
+                "zh-Hans": "医院在哪里？"
               },
               "correct": false,
               "correction": "¡Muchas gracias por su ayuda!",
               "response": "¿El hospital? Está lejos de aquí. Tome un taxi.",
               "responseTranslation": {
                 "en": "The hospital? It's far. Take a taxi.",
-                "vi": "Bệnh viện à? Xa lắm. Bạn đi taxi nhé."
+                "vi": "Bệnh viện à? Xa lắm. Bạn đi taxi nhé.",
+                "pt-BR": "O hospital? É longe. Pegue um táxi.",
+                "fr": "L’hôpital ? C’est loin. Prenez un taxi.",
+                "de": "Das Krankenhaus? Das ist weit. Nehmen Sie ein Taxi.",
+                "it": "L’ospedale? È lontano. Prenda un taxi.",
+                "ja": "病院ですか？遠いですよ。タクシーに乗ってください。",
+                "zh-Hans": "医院？很远。坐出租车吧。"
               }
             }
           ]

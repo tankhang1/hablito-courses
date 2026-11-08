@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-06",
-  "version": 2,
+  "version": 3,
   "level": 6,
   "cefr": "A2",
   "title": {
     "en": "Elementary 2: Home & family",
-    "vi": "Sơ trung 2: Nhà cửa & gia đình"
+    "vi": "Sơ trung 2: Nhà cửa & gia đình",
+    "pt-BR": "Elementar 2: Casa e família",
+    "fr": "Élémentaire 2 : Maison et famille",
+    "de": "Grundstufe 2: Zuhause und Familie",
+    "it": "Elementare 2: Casa e famiglia",
+    "ja": "初中級 2：家と家族",
+    "zh-Hans": "初中级 2：家和家人"
   },
   "description": {
     "en": "Talk about your family and your home.",
-    "vi": "Nói về gia đình và nhà của bạn."
+    "vi": "Nói về gia đình và nhà của bạn.",
+    "pt-BR": "Fale sobre sua família e sua casa.",
+    "fr": "Parlez de votre famille et de votre maison.",
+    "de": "Sprich über deine Familie und dein Zuhause.",
+    "it": "Parla della tua famiglia e della tua casa.",
+    "ja": "家族と家について話そう。",
+    "zh-Hans": "谈谈你的家人和你的家。"
   },
   "lessons": [
     {
       "id": "family",
       "title": {
         "en": "My family",
-        "vi": "Gia đình tôi"
+        "vi": "Gia đình tôi",
+        "pt-BR": "Minha família",
+        "fr": "Ma famille",
+        "de": "Meine Familie",
+        "it": "La mia famiglia",
+        "ja": "私の家族",
+        "zh-Hans": "我的家人"
       },
       "description": {
         "en": "Introduce the people at home.",
-        "vi": "Giới thiệu những người trong nhà."
+        "vi": "Giới thiệu những người trong nhà.",
+        "pt-BR": "Apresente as pessoas da sua casa.",
+        "fr": "Présentez les personnes de votre foyer.",
+        "de": "Stell die Menschen bei dir zu Hause vor.",
+        "it": "Presenta le persone di casa.",
+        "ja": "一緒に住んでいる人を紹介しよう。",
+        "zh-Hans": "介绍和你住在一起的人。"
       },
       "icon": "users",
       "phrases": [
         {
           "es": "mi madre",
           "en": "my mother",
-          "vi": "mẹ tôi"
+          "vi": "mẹ tôi",
+          "pt-BR": "minha mãe",
+          "fr": "ma mère",
+          "de": "meine Mutter",
+          "it": "mia madre",
+          "ja": "母",
+          "zh-Hans": "我的妈妈"
         },
         {
           "es": "mi padre",
           "en": "my father",
-          "vi": "bố tôi"
+          "vi": "bố tôi",
+          "pt-BR": "meu pai",
+          "fr": "mon père",
+          "de": "mein Vater",
+          "it": "mio padre",
+          "ja": "父",
+          "zh-Hans": "我的爸爸"
         },
         {
           "es": "mi hermano mayor",
           "en": "my older brother",
-          "vi": "anh trai tôi"
+          "vi": "anh trai tôi",
+          "pt-BR": "meu irmão mais velho",
+          "fr": "mon grand frère",
+          "de": "mein älterer Bruder",
+          "it": "mio fratello maggiore",
+          "ja": "兄",
+          "zh-Hans": "我的哥哥"
         },
         {
           "es": "mi hermana menor",
           "en": "my younger sister",
-          "vi": "em gái tôi"
+          "vi": "em gái tôi",
+          "pt-BR": "minha irmã mais nova",
+          "fr": "ma petite sœur",
+          "de": "meine jüngere Schwester",
+          "it": "mia sorella minore",
+          "ja": "妹",
+          "zh-Hans": "我的妹妹"
         },
         {
           "es": "mis hijos",
           "en": "my children",
-          "vi": "các con tôi"
+          "vi": "các con tôi",
+          "pt-BR": "meus filhos",
+          "fr": "mes enfants",
+          "de": "meine Kinder",
+          "it": "i miei figli",
+          "ja": "子どもたち",
+          "zh-Hans": "我的孩子们"
         },
         {
           "es": "mis abuelos",
           "en": "my grandparents",
-          "vi": "ông bà tôi"
+          "vi": "ông bà tôi",
+          "pt-BR": "meus avós",
+          "fr": "mes grands-parents",
+          "de": "meine Großeltern",
+          "it": "i miei nonni",
+          "ja": "祖父母",
+          "zh-Hans": "我的祖父母"
         }
       ],
       "focus": {
         "en": "Possessives agree in number: mi hermano, mis hermanos.",
-        "vi": "Tính từ sở hữu hợp số: mi hermano, mis hermanos."
+        "vi": "Tính từ sở hữu hợp số: mi hermano, mis hermanos.",
+        "pt-BR": "Os possessivos concordam em número: mi hermano, mis hermanos.",
+        "fr": "Les possessifs s’accordent en nombre : mi hermano, mis hermanos.",
+        "de": "Possessivbegleiter passen sich in der Zahl an: mi hermano, mis hermanos.",
+        "it": "I possessivi si accordano nel numero: mi hermano, mis hermanos.",
+        "ja": "所有詞は数を一致させます：mi hermano, mis hermanos。",
+        "zh-Hans": "物主形容词要与数一致：mi hermano, mis hermanos。"
       }
     },
     {
       "id": "home",
       "title": {
         "en": "At home",
-        "vi": "Ở nhà"
+        "vi": "Ở nhà",
+        "pt-BR": "Em casa",
+        "fr": "À la maison",
+        "de": "Zu Hause",
+        "it": "A casa",
+        "ja": "家で",
+        "zh-Hans": "在家里"
       },
       "description": {
         "en": "Rooms, pets, and where you live.",
-        "vi": "Phòng ốc, thú cưng và nơi bạn sống."
+        "vi": "Phòng ốc, thú cưng và nơi bạn sống.",
+        "pt-BR": "Cômodos, animais e onde você mora.",
+        "fr": "Pièces, animaux et lieu de vie.",
+        "de": "Zimmer, Haustiere und wo du wohnst.",
+        "it": "Stanze, animali e dove vivi.",
+        "ja": "部屋、ペット、住んでいる所。",
+        "zh-Hans": "房间、宠物和你住的地方。"
       },
       "icon": "home",
       "phrases": [
         {
           "es": "la cocina",
           "en": "the kitchen",
-          "vi": "nhà bếp"
+          "vi": "nhà bếp",
+          "pt-BR": "a cozinha",
+          "fr": "la cuisine",
+          "de": "die Küche",
+          "it": "la cucina",
+          "ja": "台所",
+          "zh-Hans": "厨房"
         },
         {
           "es": "el dormitorio",
           "en": "the bedroom",
-          "vi": "phòng ngủ"
+          "vi": "phòng ngủ",
+          "pt-BR": "o quarto",
+          "fr": "la chambre",
+          "de": "das Schlafzimmer",
+          "it": "la camera da letto",
+          "ja": "寝室",
+          "zh-Hans": "卧室"
         },
         {
           "es": "Vivo en un apartamento.",
           "en": "I live in an apartment.",
-          "vi": "Tôi sống ở căn hộ."
+          "vi": "Tôi sống ở căn hộ.",
+          "pt-BR": "Moro num apartamento.",
+          "fr": "J’habite dans un appartement.",
+          "de": "Ich wohne in einer Wohnung.",
+          "it": "Vivo in un appartamento.",
+          "ja": "アパートに住んでいます。",
+          "zh-Hans": "我住在公寓里。"
         },
         {
           "es": "Tengo un perro.",
           "en": "I have a dog.",
-          "vi": "Tôi có một con chó."
+          "vi": "Tôi có một con chó.",
+          "pt-BR": "Tenho um cachorro.",
+          "fr": "J’ai un chien.",
+          "de": "Ich habe einen Hund.",
+          "it": "Ho un cane.",
+          "ja": "犬を飼っています。",
+          "zh-Hans": "我养了一只狗。"
         },
         {
           "es": "Mi casa es pequeña.",
           "en": "My house is small.",
-          "vi": "Nhà tôi nhỏ."
+          "vi": "Nhà tôi nhỏ.",
+          "pt-BR": "Minha casa é pequena.",
+          "fr": "Ma maison est petite.",
+          "de": "Mein Haus ist klein.",
+          "it": "La mia casa è piccola.",
+          "ja": "家は小さいです。",
+          "zh-Hans": "我家很小。"
         },
         {
           "es": "Vivo con mi familia.",
           "en": "I live with my family.",
-          "vi": "Tôi sống cùng gia đình."
+          "vi": "Tôi sống cùng gia đình.",
+          "pt-BR": "Moro com minha família.",
+          "fr": "Je vis avec ma famille.",
+          "de": "Ich wohne mit meiner Familie.",
+          "it": "Vivo con la mia famiglia.",
+          "ja": "家族と住んでるよ。",
+          "zh-Hans": "我和家人住在一起。"
         }
       ],
       "focus": {
         "en": "“Vivo en…” for where you live; “tengo” for what you have.",
-        "vi": "“Vivo en…” để nói nơi bạn sống; “tengo” cho thứ bạn có."
+        "vi": "“Vivo en…” để nói nơi bạn sống; “tengo” cho thứ bạn có.",
+        "pt-BR": "“Vivo en…” para onde você mora; “tengo” para o que você tem.",
+        "fr": "« Vivo en… » pour où vous habitez ; « tengo » pour ce que vous avez.",
+        "de": "„Vivo en…“ für deinen Wohnort; „tengo“ für das, was du hast.",
+        "it": "“Vivo en…” per dove abiti; “tengo” per ciò che hai.",
+        "ja": "住んでいる場所は「Vivo en…」、持っている物は「tengo」。",
+        "zh-Hans": "住在哪里用“Vivo en…”；拥有什么用“tengo”。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "family-talk",
       "title": {
         "en": "Talk about your family",
-        "vi": "Kể về gia đình"
+        "vi": "Kể về gia đình",
+        "pt-BR": "Fale sobre sua família",
+        "fr": "Parler de sa famille",
+        "de": "Über deine Familie sprechen",
+        "it": "Parlare della propria famiglia",
+        "ja": "家族について話す",
+        "zh-Hans": "谈谈你的家人"
       },
       "description": {
         "en": "Answer questions about who you live with.",
-        "vi": "Trả lời câu hỏi về người bạn sống cùng."
+        "vi": "Trả lời câu hỏi về người bạn sống cùng.",
+        "pt-BR": "Responda perguntas sobre com quem você mora.",
+        "fr": "Répondez aux questions sur les personnes avec qui vous vivez.",
+        "de": "Beantworte Fragen dazu, mit wem du wohnst.",
+        "it": "Rispondi a domande su con chi vivi.",
+        "ja": "誰と住んでいるかの質問に答えよう。",
+        "zh-Hans": "回答关于你和谁住在一起的问题。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Con quién vives?",
           "translation": {
             "en": "Who do you live with?",
-            "vi": "Bạn sống với ai?"
+            "vi": "Bạn sống với ai?",
+            "pt-BR": "Com quem você mora?",
+            "fr": "Tu vis avec qui ?",
+            "de": "Mit wem wohnst du?",
+            "it": "Con chi vivi?",
+            "ja": "誰と住んでるの？",
+            "zh-Hans": "你和谁住在一起？"
           },
           "hint": {
             "en": "Start with “Vivo con…”.",
-            "vi": "Bắt đầu bằng “Vivo con…”."
+            "vi": "Bắt đầu bằng “Vivo con…”.",
+            "pt-BR": "Comece com “Vivo con…”.",
+            "fr": "Commencez par « Vivo con… ».",
+            "de": "Beginne mit „Vivo con…“.",
+            "it": "Inizia con “Vivo con…”.",
+            "ja": "「Vivo con…」で始めよう。",
+            "zh-Hans": "用“Vivo con…”开头。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Vivo con mi familia.",
               "translation": {
                 "en": "I live with my family.",
-                "vi": "Mình sống với gia đình."
+                "vi": "Mình sống với gia đình.",
+                "pt-BR": "Moro com minha família.",
+                "fr": "Je vis avec ma famille.",
+                "de": "Ich wohne mit meiner Familie.",
+                "it": "Vivo con la mia famiglia.",
+                "ja": "家族と住んでるよ。",
+                "zh-Hans": "我和家人住在一起。"
               },
               "correct": true,
               "response": "¡Qué bien! ¿Tienes hermanos?",
               "responseTranslation": {
                 "en": "Nice! Do you have siblings?",
-                "vi": "Hay quá! Bạn có anh chị em không?"
+                "vi": "Hay quá! Bạn có anh chị em không?",
+                "pt-BR": "Que legal! Você tem irmãos?",
+                "fr": "Sympa ! Tu as des frères et sœurs ?",
+                "de": "Schön! Hast du Geschwister?",
+                "it": "Che bello! Hai fratelli?",
+                "ja": "いいね！兄弟はいる？",
+                "zh-Hans": "真好！你有兄弟姐妹吗？"
               },
               "next": "siblings"
             },
@@ -157,13 +313,25 @@
               "es": "Vivo solo en un apartamento.",
               "translation": {
                 "en": "I live alone in an apartment.",
-                "vi": "Mình sống một mình ở căn hộ."
+                "vi": "Mình sống một mình ở căn hộ.",
+                "pt-BR": "Moro sozinho num apartamento.",
+                "fr": "Je vis seul dans un appartement.",
+                "de": "Ich wohne allein in einer Wohnung.",
+                "it": "Vivo da solo in un appartamento.",
+                "ja": "アパートで一人暮らしだよ。",
+                "zh-Hans": "我一个人住在公寓里。"
               },
               "correct": true,
               "response": "Ah, ¿y tienes hermanos?",
               "responseTranslation": {
                 "en": "Ah, and do you have siblings?",
-                "vi": "À, thế bạn có anh chị em không?"
+                "vi": "À, thế bạn có anh chị em không?",
+                "pt-BR": "Ah, e você tem irmãos?",
+                "fr": "Ah, et tu as des frères et sœurs ?",
+                "de": "Ah, und hast du Geschwister?",
+                "it": "Ah, e hai fratelli?",
+                "ja": "そうなんだ、兄弟はいる？",
+                "zh-Hans": "哦，那你有兄弟姐妹吗？"
               },
               "next": "siblings"
             },
@@ -172,14 +340,26 @@
               "es": "La cocina.",
               "translation": {
                 "en": "The kitchen.",
-                "vi": "Nhà bếp."
+                "vi": "Nhà bếp.",
+                "pt-BR": "A cozinha.",
+                "fr": "La cuisine.",
+                "de": "Die Küche.",
+                "it": "La cucina.",
+                "ja": "台所。",
+                "zh-Hans": "厨房。"
               },
               "correct": false,
               "correction": "Vivo con mi familia.",
               "response": "Jaja, ¿con quién vives?",
               "responseTranslation": {
                 "en": "Haha, who do you live with?",
-                "vi": "Haha, bạn sống với ai?"
+                "vi": "Haha, bạn sống với ai?",
+                "pt-BR": "Haha, com quem você mora?",
+                "fr": "Haha, tu vis avec qui ?",
+                "de": "Haha, mit wem wohnst du?",
+                "it": "Haha, con chi vivi?",
+                "ja": "あはは、誰と住んでるの？",
+                "zh-Hans": "哈哈，你和谁住在一起？"
               },
               "next": "siblings"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Tienes hermanos?",
           "translation": {
             "en": "Do you have brothers or sisters?",
-            "vi": "Bạn có anh chị em không?"
+            "vi": "Bạn có anh chị em không?",
+            "pt-BR": "Você tem irmãos ou irmãs?",
+            "fr": "Tu as des frères ou des sœurs ?",
+            "de": "Hast du Brüder oder Schwestern?",
+            "it": "Hai fratelli o sorelle?",
+            "ja": "兄弟か姉妹はいる？",
+            "zh-Hans": "你有兄弟或姐妹吗？"
           },
           "hint": {
             "en": "Use “Tengo…”.",
-            "vi": "Dùng “Tengo…”."
+            "vi": "Dùng “Tengo…”.",
+            "pt-BR": "Use “Tengo…”.",
+            "fr": "Utilisez « Tengo… ».",
+            "de": "Nutze „Tengo…“.",
+            "it": "Usa “Tengo…”.",
+            "ja": "「Tengo…」を使おう。",
+            "zh-Hans": "用“Tengo…”。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Sí, tengo un hermano mayor.",
               "translation": {
                 "en": "Yes, I have an older brother.",
-                "vi": "Có, mình có một anh trai."
+                "vi": "Có, mình có một anh trai.",
+                "pt-BR": "Sim, tenho um irmão mais velho.",
+                "fr": "Oui, j’ai un grand frère.",
+                "de": "Ja, ich habe einen älteren Bruder.",
+                "it": "Sì, ho un fratello maggiore.",
+                "ja": "うん、兄が一人いるよ。",
+                "zh-Hans": "有，我有一个哥哥。"
               },
               "correct": true,
               "response": "Yo tengo dos hermanas. ¿Y mascotas?",
               "responseTranslation": {
                 "en": "I have two sisters. And pets?",
-                "vi": "Mình có hai chị gái. Còn thú cưng?"
+                "vi": "Mình có hai chị gái. Còn thú cưng?",
+                "pt-BR": "Eu tenho duas irmãs. E animais?",
+                "fr": "J’ai deux sœurs. Et des animaux ?",
+                "de": "Ich habe zwei Schwestern. Und Haustiere?",
+                "it": "Io ho due sorelle. E animali?",
+                "ja": "私は姉が二人いるの。ペットは？",
+                "zh-Hans": "我有两个姐姐。那宠物呢？"
               },
               "next": "pets"
             },
@@ -217,13 +421,25 @@
               "es": "No, soy hijo único.",
               "translation": {
                 "en": "No, I'm an only child.",
-                "vi": "Không, mình là con một."
+                "vi": "Không, mình là con một.",
+                "pt-BR": "Não, sou filho único.",
+                "fr": "Non, je suis fils unique.",
+                "de": "Nein, ich bin Einzelkind.",
+                "it": "No, sono figlio unico.",
+                "ja": "ううん、一人っ子なんだ。",
+                "zh-Hans": "没有，我是独生子。"
               },
               "correct": true,
               "response": "Ah, entiendo. ¿Y mascotas?",
               "responseTranslation": {
                 "en": "Ah, I see. And pets?",
-                "vi": "À, mình hiểu. Còn thú cưng?"
+                "vi": "À, mình hiểu. Còn thú cưng?",
+                "pt-BR": "Ah, entendi. E animais?",
+                "fr": "Ah, je vois. Et des animaux ?",
+                "de": "Ah, verstehe. Und Haustiere?",
+                "it": "Ah, capisco. E animali?",
+                "ja": "そっか。ペットは？",
+                "zh-Hans": "哦，明白了。那宠物呢？"
               },
               "next": "pets"
             },
@@ -232,14 +448,26 @@
               "es": "Mis abuelos.",
               "translation": {
                 "en": "My grandparents.",
-                "vi": "Ông bà mình."
+                "vi": "Ông bà mình.",
+                "pt-BR": "Meus avós.",
+                "fr": "Mes grands-parents.",
+                "de": "Meine Großeltern.",
+                "it": "I miei nonni.",
+                "ja": "祖父母。",
+                "zh-Hans": "我的祖父母。"
               },
               "correct": false,
               "correction": "Sí, tengo un hermano mayor.",
               "response": "¡Qué bonito! Pero, ¿tienes hermanos?",
               "responseTranslation": {
                 "en": "Lovely! But do you have siblings?",
-                "vi": "Dễ thương quá! Nhưng bạn có anh chị em không?"
+                "vi": "Dễ thương quá! Nhưng bạn có anh chị em không?",
+                "pt-BR": "Que fofo! Mas você tem irmãos?",
+                "fr": "C’est mignon ! Mais tu as des frères et sœurs ?",
+                "de": "Wie schön! Aber hast du Geschwister?",
+                "it": "Che bello! Ma hai fratelli?",
+                "ja": "すてき！でも兄弟はいる？",
+                "zh-Hans": "真好！不过你有兄弟姐妹吗？"
               },
               "next": "pets"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Tienes mascotas en casa?",
           "translation": {
             "en": "Do you have pets at home?",
-            "vi": "Ở nhà bạn có thú cưng không?"
+            "vi": "Ở nhà bạn có thú cưng không?",
+            "pt-BR": "Tem animais em casa?",
+            "fr": "Tu as des animaux à la maison ?",
+            "de": "Hast du Haustiere zu Hause?",
+            "it": "Hai animali in casa?",
+            "ja": "家でペットを飼ってる？",
+            "zh-Hans": "你家里有宠物吗？"
           },
           "hint": {
             "en": "Say what pet you have.",
-            "vi": "Nói bạn nuôi con gì."
+            "vi": "Nói bạn nuôi con gì.",
+            "pt-BR": "Diga que animal você tem.",
+            "fr": "Dites quel animal vous avez.",
+            "de": "Sag, welches Haustier du hast.",
+            "it": "Di’ che animale hai.",
+            "ja": "飼っているペットを言おう。",
+            "zh-Hans": "说说你养了什么宠物。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Sí, tengo un perro.",
               "translation": {
                 "en": "Yes, I have a dog.",
-                "vi": "Có, mình nuôi một con chó."
+                "vi": "Có, mình nuôi một con chó.",
+                "pt-BR": "Sim, tenho um cachorro.",
+                "fr": "Oui, j’ai un chien.",
+                "de": "Ja, ich habe einen Hund.",
+                "it": "Sì, ho un cane.",
+                "ja": "うん、犬を飼ってるよ。",
+                "zh-Hans": "有，我养了一只狗。"
               },
               "correct": true,
               "response": "¡Me encantan los perros!",
               "responseTranslation": {
                 "en": "I love dogs!",
-                "vi": "Mình rất thích chó!"
+                "vi": "Mình rất thích chó!",
+                "pt-BR": "Adoro cachorros!",
+                "fr": "J’adore les chiens !",
+                "de": "Ich liebe Hunde!",
+                "it": "Adoro i cani!",
+                "ja": "犬、大好き！",
+                "zh-Hans": "我超爱狗！"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "No, mi casa es pequeña.",
               "translation": {
                 "en": "No, my house is small.",
-                "vi": "Không, nhà mình nhỏ."
+                "vi": "Không, nhà mình nhỏ.",
+                "pt-BR": "Não, minha casa é pequena.",
+                "fr": "Non, ma maison est petite.",
+                "de": "Nein, mein Haus ist klein.",
+                "it": "No, la mia casa è piccola.",
+                "ja": "ううん、家が狭いから。",
+                "zh-Hans": "没有，我家很小。"
               },
               "correct": true,
               "response": "Claro, tiene sentido.",
               "responseTranslation": {
                 "en": "Sure, that makes sense.",
-                "vi": "Ừ, hợp lý."
+                "vi": "Ừ, hợp lý.",
+                "pt-BR": "Claro, faz sentido.",
+                "fr": "Bien sûr, c’est logique.",
+                "de": "Klar, das ergibt Sinn.",
+                "it": "Certo, ha senso.",
+                "ja": "そうだね、それなら納得。",
+                "zh-Hans": "当然，说得通。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "El dormitorio.",
               "translation": {
                 "en": "The bedroom.",
-                "vi": "Phòng ngủ."
+                "vi": "Phòng ngủ.",
+                "pt-BR": "O quarto.",
+                "fr": "La chambre.",
+                "de": "Das Schlafzimmer.",
+                "it": "La camera da letto.",
+                "ja": "寝室。",
+                "zh-Hans": "卧室。"
               },
               "correct": false,
               "correction": "Sí, tengo un perro.",
               "response": "¿Tu mascota duerme en el dormitorio?",
               "responseTranslation": {
                 "en": "Does your pet sleep in the bedroom?",
-                "vi": "Thú cưng của bạn ngủ trong phòng ngủ à?"
+                "vi": "Thú cưng của bạn ngủ trong phòng ngủ à?",
+                "pt-BR": "Seu animal dorme no quarto?",
+                "fr": "Ton animal dort dans la chambre ?",
+                "de": "Schläft dein Haustier im Schlafzimmer?",
+                "it": "Il tuo animale dorme in camera da letto?",
+                "ja": "ペットは寝室で寝るの？",
+                "zh-Hans": "你的宠物睡在卧室吗？"
               }
             }
           ]

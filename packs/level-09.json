@@ -1,112 +1,232 @@
 {
   "schemaVersion": 1,
   "id": "level-09",
-  "version": 2,
+  "version": 3,
   "level": 9,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 1: Travel problems",
-    "vi": "Trung cấp 1: Sự cố khi du lịch"
+    "vi": "Trung cấp 1: Sự cố khi du lịch",
+    "pt-BR": "Intermediário 1: Problemas na viagem",
+    "fr": "Intermédiaire 1 : Problèmes en voyage",
+    "de": "Mittelstufe 1: Probleme auf Reisen",
+    "it": "Intermedio 1: Problemi in viaggio",
+    "ja": "中級 1：旅先でのトラブル",
+    "zh-Hans": "中级 1：旅途中的问题"
   },
   "description": {
     "en": "Solve problems at the hotel and on the road.",
-    "vi": "Xử lý sự cố ở khách sạn và trên đường."
+    "vi": "Xử lý sự cố ở khách sạn và trên đường.",
+    "pt-BR": "Resolva problemas no hotel e na estrada.",
+    "fr": "Résolvez les problèmes à l’hôtel et en route.",
+    "de": "Löse Probleme im Hotel und unterwegs.",
+    "it": "Risolvi problemi in hotel e per strada.",
+    "ja": "ホテルや移動中の問題を解決しよう。",
+    "zh-Hans": "解决酒店和路上遇到的问题。"
   },
   "lessons": [
     {
       "id": "hotel",
       "title": {
         "en": "At the hotel",
-        "vi": "Ở khách sạn"
+        "vi": "Ở khách sạn",
+        "pt-BR": "No hotel",
+        "fr": "À l’hôtel",
+        "de": "Im Hotel",
+        "it": "In hotel",
+        "ja": "ホテルで",
+        "zh-Hans": "在酒店"
       },
       "description": {
         "en": "Ask for what you need at reception.",
-        "vi": "Yêu cầu những gì bạn cần ở quầy lễ tân."
+        "vi": "Yêu cầu những gì bạn cần ở quầy lễ tân.",
+        "pt-BR": "Peça o que precisar na recepção.",
+        "fr": "Demandez ce dont vous avez besoin à la réception.",
+        "de": "Bitte an der Rezeption um das, was du brauchst.",
+        "it": "Chiedi ciò che ti serve alla reception.",
+        "ja": "フロントで必要なものを頼もう。",
+        "zh-Hans": "在前台提出你的需要。"
       },
       "icon": "key",
       "phrases": [
         {
           "es": "Tengo una reserva a nombre de Lee.",
           "en": "I have a reservation under Lee.",
-          "vi": "Tôi đã đặt phòng tên Lee."
+          "vi": "Tôi đã đặt phòng tên Lee.",
+          "pt-BR": "Tenho uma reserva no nome de Lee.",
+          "fr": "J’ai une réservation au nom de Lee.",
+          "de": "Ich habe eine Reservierung auf den Namen Lee.",
+          "it": "Ho una prenotazione a nome Lee.",
+          "ja": "リーの名前で予約しています。",
+          "zh-Hans": "我用李的名字预订了。"
         },
         {
           "es": "El aire acondicionado no funciona.",
           "en": "The air conditioning doesn't work.",
-          "vi": "Máy lạnh không hoạt động."
+          "vi": "Máy lạnh không hoạt động.",
+          "pt-BR": "O ar-condicionado não funciona.",
+          "fr": "La climatisation ne fonctionne pas.",
+          "de": "Die Klimaanlage funktioniert nicht.",
+          "it": "L’aria condizionata non funziona.",
+          "ja": "エアコンが動きません。",
+          "zh-Hans": "空调坏了。"
         },
         {
           "es": "¿A qué hora es el desayuno?",
           "en": "What time is breakfast?",
-          "vi": "Bữa sáng lúc mấy giờ?"
+          "vi": "Bữa sáng lúc mấy giờ?",
+          "pt-BR": "A que horas é o café da manhã?",
+          "fr": "À quelle heure est le petit-déjeuner ?",
+          "de": "Wann gibt es Frühstück?",
+          "it": "A che ora è la colazione?",
+          "ja": "朝食は何時ですか？",
+          "zh-Hans": "早餐几点？"
         },
         {
           "es": "Necesito otra toalla.",
           "en": "I need another towel.",
-          "vi": "Tôi cần thêm một cái khăn."
+          "vi": "Tôi cần thêm một cái khăn.",
+          "pt-BR": "Preciso de outra toalha.",
+          "fr": "J’ai besoin d’une autre serviette.",
+          "de": "Ich brauche noch ein Handtuch.",
+          "it": "Ho bisogno di un altro asciugamano.",
+          "ja": "タオルをもう一枚ください。",
+          "zh-Hans": "我还需要一条毛巾。"
         },
         {
           "es": "¿Puedo dejar mi equipaje aquí?",
           "en": "Can I leave my luggage here?",
-          "vi": "Tôi gửi hành lý ở đây được không?"
+          "vi": "Tôi gửi hành lý ở đây được không?",
+          "pt-BR": "Posso deixar minha bagagem aqui?",
+          "fr": "Je peux laisser mes bagages ici ?",
+          "de": "Kann ich mein Gepäck hier lassen?",
+          "it": "Posso lasciare qui i bagagli?",
+          "ja": "荷物をここに置いてもいいですか？",
+          "zh-Hans": "我可以把行李放在这里吗？"
         },
         {
           "es": "Quiero cambiar de habitación.",
           "en": "I'd like to change rooms.",
-          "vi": "Tôi muốn đổi phòng."
+          "vi": "Tôi muốn đổi phòng.",
+          "pt-BR": "Gostaria de trocar de quarto.",
+          "fr": "Je voudrais changer de chambre.",
+          "de": "Ich möchte das Zimmer wechseln.",
+          "it": "Vorrei cambiare camera.",
+          "ja": "部屋を替えたいのですが。",
+          "zh-Hans": "我想换个房间。"
         }
       ],
       "focus": {
         "en": "“No funciona” is the go-to phrase for anything broken.",
-        "vi": "“No funciona” là câu dùng cho mọi thứ bị hỏng."
+        "vi": "“No funciona” là câu dùng cho mọi thứ bị hỏng.",
+        "pt-BR": "“No funciona” é a frase certa para qualquer coisa quebrada.",
+        "fr": "« No funciona » est la phrase idéale pour tout ce qui est cassé.",
+        "de": "„No funciona“ ist der Standardsatz für alles, was kaputt ist.",
+        "it": "“No funciona” è la frase giusta per qualsiasi cosa rotta.",
+        "ja": "壊れた物には「No funciona」が定番です。",
+        "zh-Hans": "东西坏了就说“No funciona”。"
       }
     },
     {
       "id": "problems",
       "title": {
         "en": "When things go wrong",
-        "vi": "Khi gặp sự cố"
+        "vi": "Khi gặp sự cố",
+        "pt-BR": "Quando algo dá errado",
+        "fr": "Quand ça se passe mal",
+        "de": "Wenn etwas schiefgeht",
+        "it": "Quando qualcosa va storto",
+        "ja": "トラブルが起きたら",
+        "zh-Hans": "出问题的时候"
       },
       "description": {
         "en": "Explain a problem calmly and clearly.",
-        "vi": "Trình bày sự cố bình tĩnh và rõ ràng."
+        "vi": "Trình bày sự cố bình tĩnh và rõ ràng.",
+        "pt-BR": "Explique um problema com calma e clareza.",
+        "fr": "Expliquez un problème calmement et clairement.",
+        "de": "Erkläre ein Problem ruhig und klar.",
+        "it": "Spiega un problema con calma e chiarezza.",
+        "ja": "落ち着いて、はっきり問題を説明しよう。",
+        "zh-Hans": "冷静、清楚地说明问题。"
       },
       "icon": "alert-circle",
       "phrases": [
         {
           "es": "Perdí mi pasaporte.",
           "en": "I lost my passport.",
-          "vi": "Tôi bị mất hộ chiếu."
+          "vi": "Tôi bị mất hộ chiếu.",
+          "pt-BR": "Perdi meu passaporte.",
+          "fr": "J’ai perdu mon passeport.",
+          "de": "Ich habe meinen Pass verloren.",
+          "it": "Ho perso il passaporto.",
+          "ja": "パスポートをなくしました。",
+          "zh-Hans": "我的护照丢了。"
         },
         {
           "es": "Mi vuelo está retrasado.",
           "en": "My flight is delayed.",
-          "vi": "Chuyến bay của tôi bị hoãn."
+          "vi": "Chuyến bay của tôi bị hoãn.",
+          "pt-BR": "Meu voo está atrasado.",
+          "fr": "Mon vol est retardé.",
+          "de": "Mein Flug hat Verspätung.",
+          "it": "Il mio volo è in ritardo.",
+          "ja": "フライトが遅れています。",
+          "zh-Hans": "我的航班延误了。"
         },
         {
           "es": "Me robaron la cartera.",
           "en": "My wallet was stolen.",
-          "vi": "Tôi bị trộm ví."
+          "vi": "Tôi bị trộm ví.",
+          "pt-BR": "Roubaram minha carteira.",
+          "fr": "On m’a volé mon portefeuille.",
+          "de": "Mir wurde die Brieftasche gestohlen.",
+          "it": "Mi hanno rubato il portafoglio.",
+          "ja": "財布を盗まれました。",
+          "zh-Hans": "我的钱包被偷了。"
         },
         {
           "es": "Tomé el autobús equivocado.",
           "en": "I took the wrong bus.",
-          "vi": "Tôi đi nhầm xe buýt."
+          "vi": "Tôi đi nhầm xe buýt.",
+          "pt-BR": "Peguei o ônibus errado.",
+          "fr": "Je me suis trompé de bus.",
+          "de": "Ich habe den falschen Bus genommen.",
+          "it": "Ho preso l’autobus sbagliato.",
+          "ja": "違うバスに乗ってしまいました。",
+          "zh-Hans": "我坐错公交车了。"
         },
         {
           "es": "¿Me puede ayudar, por favor?",
           "en": "Can you help me, please?",
-          "vi": "Bạn giúp tôi được không?"
+          "vi": "Bạn giúp tôi được không?",
+          "pt-BR": "Pode me ajudar, por favor?",
+          "fr": "Pouvez-vous m’aider, s’il vous plaît ?",
+          "de": "Können Sie mir bitte helfen?",
+          "it": "Mi può aiutare, per favore?",
+          "ja": "助けていただけますか？",
+          "zh-Hans": "请问您能帮帮我吗？"
         },
         {
           "es": "Necesito hablar con el gerente.",
           "en": "I need to speak to the manager.",
-          "vi": "Tôi cần nói chuyện với quản lý."
+          "vi": "Tôi cần nói chuyện với quản lý.",
+          "pt-BR": "Preciso falar com o gerente.",
+          "fr": "J’ai besoin de parler au directeur.",
+          "de": "Ich muss mit dem Manager sprechen.",
+          "it": "Devo parlare con il direttore.",
+          "ja": "支配人と話したいのですが。",
+          "zh-Hans": "我需要和经理谈谈。"
         }
       ],
       "focus": {
         "en": "The preterite tells what happened once: perdí, tomé, me robaron.",
-        "vi": "Thì quá khứ đơn (pretérito) kể việc đã xảy ra: perdí, tomé, me robaron."
+        "vi": "Thì quá khứ đơn (pretérito) kể việc đã xảy ra: perdí, tomé, me robaron.",
+        "pt-BR": "O pretérito conta o que aconteceu uma vez: perdí, tomé, me robaron.",
+        "fr": "Le passé simple raconte ce qui s’est passé une fois : perdí, tomé, me robaron.",
+        "de": "Das Präteritum erzählt, was einmal passiert ist: perdí, tomé, me robaron.",
+        "it": "Il passato remoto racconta ciò che è successo una volta: perdí, tomé, me robaron.",
+        "ja": "点過去は一度起きたことを表します：perdí, tomé, me robaron。",
+        "zh-Hans": "简单过去时讲述发生过一次的事：perdí, tomé, me robaron。"
       }
     }
   ],
@@ -115,11 +235,23 @@
       "id": "hotel-fix",
       "title": {
         "en": "Fix a hotel problem",
-        "vi": "Xử lý sự cố khách sạn"
+        "vi": "Xử lý sự cố khách sạn",
+        "pt-BR": "Resolva um problema no hotel",
+        "fr": "Régler un problème à l’hôtel",
+        "de": "Ein Hotelproblem lösen",
+        "it": "Risolvere un problema in hotel",
+        "ja": "ホテルのトラブルを解決する",
+        "zh-Hans": "解决酒店的问题"
       },
       "description": {
         "en": "Report a broken air conditioner and get a new room.",
-        "vi": "Báo máy lạnh hỏng và được đổi phòng."
+        "vi": "Báo máy lạnh hỏng và được đổi phòng.",
+        "pt-BR": "Avise que o ar-condicionado quebrou e consiga outro quarto.",
+        "fr": "Signalez une clim en panne et obtenez une autre chambre.",
+        "de": "Melde eine kaputte Klimaanlage und bekomme ein neues Zimmer.",
+        "it": "Segnala un condizionatore rotto e ottieni un’altra camera.",
+        "ja": "エアコンの故障を伝えて、部屋を替えてもらおう。",
+        "zh-Hans": "报告空调坏了，并换一个房间。"
       },
       "icon": "map-pin",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Recepción, buenas noches. ¿En qué le ayudo?",
           "translation": {
             "en": "Reception, good evening. How can I help?",
-            "vi": "Lễ tân xin nghe, chào buổi tối. Tôi giúp gì được ạ?"
+            "vi": "Lễ tân xin nghe, chào buổi tối. Tôi giúp gì được ạ?",
+            "pt-BR": "Recepção, boa noite. Como posso ajudar?",
+            "fr": "Réception, bonsoir. Comment puis-je vous aider ?",
+            "de": "Rezeption, guten Abend. Wie kann ich helfen?",
+            "it": "Reception, buonasera. Come posso aiutarla?",
+            "ja": "フロントです、こんばんは。どうなさいましたか？",
+            "zh-Hans": "前台，晚上好。有什么可以帮您？"
           },
           "hint": {
             "en": "Describe the problem with “no funciona”.",
-            "vi": "Mô tả sự cố bằng “no funciona”."
+            "vi": "Mô tả sự cố bằng “no funciona”.",
+            "pt-BR": "Descreva o problema com “no funciona”.",
+            "fr": "Décrivez le problème avec « no funciona ».",
+            "de": "Beschreib das Problem mit „no funciona“.",
+            "it": "Descrivi il problema con “no funciona”.",
+            "ja": "「no funciona」で問題を説明しよう。",
+            "zh-Hans": "用“no funciona”描述问题。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "El aire acondicionado no funciona.",
               "translation": {
                 "en": "The air conditioning doesn't work.",
-                "vi": "Máy lạnh không hoạt động."
+                "vi": "Máy lạnh không hoạt động.",
+                "pt-BR": "O ar-condicionado não funciona.",
+                "fr": "La climatisation ne fonctionne pas.",
+                "de": "Die Klimaanlage funktioniert nicht.",
+                "it": "L’aria condizionata non funziona.",
+                "ja": "エアコンが動きません。",
+                "zh-Hans": "空调坏了。"
               },
               "correct": true,
               "response": "Lo siento mucho. ¿Cuál es su habitación?",
               "responseTranslation": {
                 "en": "I'm very sorry. What's your room?",
-                "vi": "Thành thật xin lỗi. Bạn ở phòng nào?"
+                "vi": "Thành thật xin lỗi. Bạn ở phòng nào?",
+                "pt-BR": "Sinto muito. Qual é o seu quarto?",
+                "fr": "Je suis vraiment désolé. Quelle est votre chambre ?",
+                "de": "Das tut mir sehr leid. Welches Zimmer haben Sie?",
+                "it": "Mi dispiace molto. Qual è la sua camera?",
+                "ja": "大変申し訳ございません。お部屋は何号室ですか？",
+                "zh-Hans": "非常抱歉。您住哪个房间？"
               },
               "next": "room"
             },
@@ -157,13 +313,25 @@
               "es": "¿Me puede ayudar? Hace mucho calor en mi habitación.",
               "translation": {
                 "en": "Can you help me? It's very hot in my room.",
-                "vi": "Giúp tôi được không? Phòng tôi nóng quá."
+                "vi": "Giúp tôi được không? Phòng tôi nóng quá.",
+                "pt-BR": "Pode me ajudar? Está muito quente no meu quarto.",
+                "fr": "Pouvez-vous m’aider ? Il fait très chaud dans ma chambre.",
+                "de": "Können Sie mir helfen? In meinem Zimmer ist es sehr heiß.",
+                "it": "Mi può aiutare? Nella mia camera fa molto caldo.",
+                "ja": "助けてもらえますか？部屋がとても暑いんです。",
+                "zh-Hans": "能帮帮我吗？我房间里很热。"
               },
               "correct": true,
               "response": "Claro. ¿Cuál es su habitación?",
               "responseTranslation": {
                 "en": "Of course. What's your room?",
-                "vi": "Tất nhiên. Bạn ở phòng nào?"
+                "vi": "Tất nhiên. Bạn ở phòng nào?",
+                "pt-BR": "Claro. Qual é o seu quarto?",
+                "fr": "Bien sûr. Quelle est votre chambre ?",
+                "de": "Natürlich. Welches Zimmer haben Sie?",
+                "it": "Certo. Qual è la sua camera?",
+                "ja": "かしこまりました。お部屋は何号室ですか？",
+                "zh-Hans": "当然。您住哪个房间？"
               },
               "next": "room"
             },
@@ -172,14 +340,26 @@
               "es": "¿A qué hora es el desayuno?",
               "translation": {
                 "en": "What time is breakfast?",
-                "vi": "Bữa sáng lúc mấy giờ?"
+                "vi": "Bữa sáng lúc mấy giờ?",
+                "pt-BR": "A que horas é o café da manhã?",
+                "fr": "À quelle heure est le petit-déjeuner ?",
+                "de": "Wann gibt es Frühstück?",
+                "it": "A che ora è la colazione?",
+                "ja": "朝食は何時ですか？",
+                "zh-Hans": "早餐几点？"
               },
               "correct": false,
               "correction": "El aire acondicionado no funciona.",
               "response": "A las siete. ¿Hay algún otro problema?",
               "responseTranslation": {
                 "en": "At seven. Is there any other problem?",
-                "vi": "Lúc bảy giờ. Còn vấn đề gì khác không?"
+                "vi": "Lúc bảy giờ. Còn vấn đề gì khác không?",
+                "pt-BR": "Às sete. Tem mais algum problema?",
+                "fr": "À sept heures. Y a-t-il un autre problème ?",
+                "de": "Um sieben. Gibt es noch ein anderes Problem?",
+                "it": "Alle sette. C’è qualche altro problema?",
+                "ja": "7時です。ほかに何か問題はございますか？",
+                "zh-Hans": "七点。还有其他问题吗？"
               },
               "next": "room"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Cuál es su número de habitación?",
           "translation": {
             "en": "What's your room number?",
-            "vi": "Số phòng của bạn là bao nhiêu?"
+            "vi": "Số phòng của bạn là bao nhiêu?",
+            "pt-BR": "Qual é o número do seu quarto?",
+            "fr": "Quel est votre numéro de chambre ?",
+            "de": "Welche Zimmernummer haben Sie?",
+            "it": "Qual è il numero della sua camera?",
+            "ja": "お部屋番号は？",
+            "zh-Hans": "您的房间号是多少？"
           },
           "hint": {
             "en": "Say “Es la…” plus the number.",
-            "vi": "Nói “Es la…” kèm số phòng."
+            "vi": "Nói “Es la…” kèm số phòng.",
+            "pt-BR": "Diga “Es la…” e o número.",
+            "fr": "Dites « Es la… » suivi du numéro.",
+            "de": "Sag „Es la…“ und dann die Nummer.",
+            "it": "Di’ “Es la…” e poi il numero.",
+            "ja": "「Es la…」と番号を言おう。",
+            "zh-Hans": "说“Es la…”加上房间号。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Es la doscientos cinco.",
               "translation": {
                 "en": "It's 205.",
-                "vi": "Phòng 205."
+                "vi": "Phòng 205.",
+                "pt-BR": "É o 205.",
+                "fr": "C’est la 205.",
+                "de": "Es ist die 205.",
+                "it": "È la 205.",
+                "ja": "205です。",
+                "zh-Hans": "205。"
               },
               "correct": true,
               "response": "Gracias. Mando a alguien ahora.",
               "responseTranslation": {
                 "en": "Thanks. I'll send someone now.",
-                "vi": "Cảm ơn. Tôi cho người lên ngay."
+                "vi": "Cảm ơn. Tôi cho người lên ngay.",
+                "pt-BR": "Obrigado. Vou mandar alguém agora.",
+                "fr": "Merci. J’envoie quelqu’un tout de suite.",
+                "de": "Danke. Ich schicke sofort jemanden.",
+                "it": "Grazie. Mando subito qualcuno.",
+                "ja": "ありがとうございます。すぐに係の者を向かわせます。",
+                "zh-Hans": "谢谢。我马上派人过去。"
               },
               "next": "change"
             },
@@ -217,13 +421,25 @@
               "es": "La doscientos cinco. ¿Puedo cambiar de habitación?",
               "translation": {
                 "en": "205. Can I change rooms?",
-                "vi": "Phòng 205. Tôi đổi phòng được không?"
+                "vi": "Phòng 205. Tôi đổi phòng được không?",
+                "pt-BR": "205. Posso trocar de quarto?",
+                "fr": "205. Je peux changer de chambre ?",
+                "de": "205. Kann ich das Zimmer wechseln?",
+                "it": "205. Posso cambiare camera?",
+                "ja": "205です。部屋を替えてもらえますか？",
+                "zh-Hans": "205。我可以换房间吗？"
               },
               "correct": true,
               "response": "Déjeme revisar…",
               "responseTranslation": {
                 "en": "Let me check…",
-                "vi": "Để tôi kiểm tra…"
+                "vi": "Để tôi kiểm tra…",
+                "pt-BR": "Deixe-me ver…",
+                "fr": "Laissez-moi vérifier…",
+                "de": "Lassen Sie mich nachsehen…",
+                "it": "Mi lasci controllare…",
+                "ja": "確認いたします…",
+                "zh-Hans": "我查一下……"
               },
               "next": "change"
             },
@@ -232,14 +448,26 @@
               "es": "Perdí mi pasaporte.",
               "translation": {
                 "en": "I lost my passport.",
-                "vi": "Tôi mất hộ chiếu."
+                "vi": "Tôi mất hộ chiếu.",
+                "pt-BR": "Perdi meu passaporte.",
+                "fr": "J’ai perdu mon passeport.",
+                "de": "Ich habe meinen Pass verloren.",
+                "it": "Ho perso il passaporto.",
+                "ja": "パスポートをなくしました。",
+                "zh-Hans": "我的护照丢了。"
               },
               "correct": false,
               "correction": "Es la doscientos cinco.",
               "response": "¡Ay! Lo buscamos luego. ¿Su habitación?",
               "responseTranslation": {
                 "en": "Oh! We'll look later. Your room?",
-                "vi": "Ôi! Lát mình tìm sau. Phòng của bạn?"
+                "vi": "Ôi! Lát mình tìm sau. Phòng của bạn?",
+                "pt-BR": "Ah! Procuramos depois. Seu quarto?",
+                "fr": "Oh ! On cherchera plus tard. Votre chambre ?",
+                "de": "Oh! Wir suchen später. Ihr Zimmer?",
+                "it": "Oh! Lo cerchiamo dopo. La sua camera?",
+                "ja": "まあ！あとで探しましょう。お部屋は？",
+                "zh-Hans": "哎呀！我们稍后再找。您的房间？"
               },
               "next": "change"
             }
@@ -250,11 +478,23 @@
           "prompt": "Tenemos otra habitación libre en el tercer piso.",
           "translation": {
             "en": "We have another free room on the third floor.",
-            "vi": "Chúng tôi còn một phòng trống ở tầng ba."
+            "vi": "Chúng tôi còn một phòng trống ở tầng ba.",
+            "pt-BR": "Temos outro quarto livre no terceiro andar.",
+            "fr": "Nous avons une autre chambre libre au troisième étage.",
+            "de": "Wir haben im dritten Stock noch ein freies Zimmer.",
+            "it": "Abbiamo un’altra camera libera al terzo piano.",
+            "ja": "3階に空いているお部屋がございます。",
+            "zh-Hans": "三楼还有一间空房。"
           },
           "hint": {
             "en": "Accept politely.",
-            "vi": "Đồng ý một cách lịch sự."
+            "vi": "Đồng ý một cách lịch sự.",
+            "pt-BR": "Aceite com educação.",
+            "fr": "Acceptez poliment.",
+            "de": "Nimm höflich an.",
+            "it": "Accetta con cortesia.",
+            "ja": "丁寧に受け入れよう。",
+            "zh-Hans": "礼貌地接受。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Perfecto, muchas gracias por su ayuda.",
               "translation": {
                 "en": "Perfect, thank you for your help.",
-                "vi": "Tuyệt, cảm ơn bạn đã giúp."
+                "vi": "Tuyệt, cảm ơn bạn đã giúp.",
+                "pt-BR": "Perfeito, obrigado pela ajuda.",
+                "fr": "Parfait, merci pour votre aide.",
+                "de": "Perfekt, vielen Dank für Ihre Hilfe.",
+                "it": "Perfetto, grazie per l’aiuto.",
+                "ja": "完璧です、助けてくれてありがとう。",
+                "zh-Hans": "太好了，谢谢您的帮助。"
               },
               "correct": true,
               "response": "Con gusto. Aquí tiene la nueva llave.",
               "responseTranslation": {
                 "en": "My pleasure. Here's the new key.",
-                "vi": "Rất sẵn lòng. Chìa khóa mới đây ạ."
+                "vi": "Rất sẵn lòng. Chìa khóa mới đây ạ.",
+                "pt-BR": "Com prazer. Aqui está a nova chave.",
+                "fr": "Avec plaisir. Voici la nouvelle clé.",
+                "de": "Gern geschehen. Hier ist der neue Schlüssel.",
+                "it": "Con piacere. Ecco la nuova chiave.",
+                "ja": "どういたしまして。こちらが新しい鍵です。",
+                "zh-Hans": "不客气。这是新钥匙。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Genial. ¿Me ayudan con el equipaje?",
               "translation": {
                 "en": "Great. Can you help with my luggage?",
-                "vi": "Tuyệt. Có ai giúp tôi mang hành lý không?"
+                "vi": "Tuyệt. Có ai giúp tôi mang hành lý không?",
+                "pt-BR": "Ótimo. Podem me ajudar com a bagagem?",
+                "fr": "Super. Pouvez-vous m’aider avec mes bagages ?",
+                "de": "Super. Können Sie mir mit dem Gepäck helfen?",
+                "it": "Ottimo. Mi aiutate con i bagagli?",
+                "ja": "よかった。荷物を運ぶのを手伝ってもらえますか？",
+                "zh-Hans": "太好了。能帮我搬一下行李吗？"
               },
               "correct": true,
               "response": "Claro, el botones sube ahora.",
               "responseTranslation": {
                 "en": "Sure, the bellhop is coming up.",
-                "vi": "Vâng, nhân viên hành lý lên ngay."
+                "vi": "Vâng, nhân viên hành lý lên ngay.",
+                "pt-BR": "Claro, o carregador já vai subir.",
+                "fr": "Bien sûr, le bagagiste monte.",
+                "de": "Natürlich, der Page kommt gleich hoch.",
+                "it": "Certo, il facchino sale subito.",
+                "ja": "かしこまりました、ベルボーイがすぐ伺います。",
+                "zh-Hans": "好的，行李员马上上去。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Necesito hablar con el gerente.",
               "translation": {
                 "en": "I need to speak to the manager.",
-                "vi": "Tôi cần gặp quản lý."
+                "vi": "Tôi cần gặp quản lý.",
+                "pt-BR": "Preciso falar com o gerente.",
+                "fr": "J’ai besoin de parler au directeur.",
+                "de": "Ich muss mit dem Manager sprechen.",
+                "it": "Devo parlare con il direttore.",
+                "ja": "支配人と話したいのですが。",
+                "zh-Hans": "我需要和经理谈谈。"
               },
               "correct": false,
               "correction": "Perfecto, muchas gracias por su ayuda.",
               "response": "Ya está resuelto, pero si quiere, lo llamo.",
               "responseTranslation": {
                 "en": "It's solved already, but I can call him if you want.",
-                "vi": "Đã giải quyết rồi, nhưng nếu muốn tôi sẽ gọi quản lý."
+                "vi": "Đã giải quyết rồi, nhưng nếu muốn tôi sẽ gọi quản lý.",
+                "pt-BR": "Já está resolvido, mas posso chamá-lo se quiser.",
+                "fr": "C’est déjà réglé, mais je peux l’appeler si vous voulez.",
+                "de": "Es ist schon gelöst, aber ich kann ihn rufen, wenn Sie möchten.",
+                "it": "È già risolto, ma se vuole lo chiamo.",
+                "ja": "もう解決しましたが、ご希望でしたらお呼びします。",
+                "zh-Hans": "问题已经解决了，不过如果您愿意，我可以叫他来。"
               }
             }
           ]

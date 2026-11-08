@@ -1,82 +1,166 @@
 {
   "schemaVersion": 1,
   "id": "level-02",
-  "version": 2,
+  "version": 3,
   "level": 2,
   "cefr": "A1",
   "title": {
     "en": "Starter 2: Time & days",
-    "vi": "Khởi đầu 2: Thời gian & ngày"
+    "vi": "Khởi đầu 2: Thời gian & ngày",
+    "pt-BR": "Iniciante 2: Horas e dias",
+    "fr": "Initiation 2 : L’heure et les jours",
+    "de": "Einstieg 2: Uhrzeit und Tage",
+    "it": "Avvio 2: Ore e giorni",
+    "ja": "入門 2：時間と曜日",
+    "zh-Hans": "入门 2：时间和星期"
   },
   "description": {
     "en": "Days of the week and telling the time.",
-    "vi": "Các ngày trong tuần và cách nói giờ."
+    "vi": "Các ngày trong tuần và cách nói giờ.",
+    "pt-BR": "Os dias da semana e como dizer as horas.",
+    "fr": "Les jours de la semaine et dire l’heure.",
+    "de": "Die Wochentage und die Uhrzeit sagen.",
+    "it": "I giorni della settimana e dire l’ora.",
+    "ja": "曜日と時刻の言い方。",
+    "zh-Hans": "一周中的日子和怎么说时间。"
   },
   "lessons": [
     {
       "id": "days",
       "title": {
         "en": "Days of the week",
-        "vi": "Các ngày trong tuần"
+        "vi": "Các ngày trong tuần",
+        "pt-BR": "Dias da semana",
+        "fr": "Les jours de la semaine",
+        "de": "Die Wochentage",
+        "it": "I giorni della settimana",
+        "ja": "曜日",
+        "zh-Hans": "星期"
       },
       "description": {
         "en": "Plan your week in Spanish.",
-        "vi": "Lên kế hoạch tuần bằng tiếng Tây Ban Nha."
+        "vi": "Lên kế hoạch tuần bằng tiếng Tây Ban Nha.",
+        "pt-BR": "Planeje sua semana em espanhol.",
+        "fr": "Organisez votre semaine en espagnol.",
+        "de": "Plane deine Woche auf Spanisch.",
+        "it": "Organizza la tua settimana in spagnolo.",
+        "ja": "スペイン語で一週間の予定を立てよう。",
+        "zh-Hans": "用西班牙语安排你的一周。"
       },
       "icon": "calendar",
       "phrases": [
         {
           "es": "el lunes",
           "en": "Monday",
-          "vi": "Thứ Hai"
+          "vi": "Thứ Hai",
+          "pt-BR": "segunda-feira",
+          "fr": "lundi",
+          "de": "Montag",
+          "it": "lunedì",
+          "ja": "月曜日",
+          "zh-Hans": "星期一"
         },
         {
           "es": "el martes",
           "en": "Tuesday",
-          "vi": "Thứ Ba"
+          "vi": "Thứ Ba",
+          "pt-BR": "terça-feira",
+          "fr": "mardi",
+          "de": "Dienstag",
+          "it": "martedì",
+          "ja": "火曜日",
+          "zh-Hans": "星期二"
         },
         {
           "es": "el miércoles",
           "en": "Wednesday",
-          "vi": "Thứ Tư"
+          "vi": "Thứ Tư",
+          "pt-BR": "quarta-feira",
+          "fr": "mercredi",
+          "de": "Mittwoch",
+          "it": "mercoledì",
+          "ja": "水曜日",
+          "zh-Hans": "星期三"
         },
         {
           "es": "el viernes",
           "en": "Friday",
-          "vi": "Thứ Sáu"
+          "vi": "Thứ Sáu",
+          "pt-BR": "sexta-feira",
+          "fr": "vendredi",
+          "de": "Freitag",
+          "it": "venerdì",
+          "ja": "金曜日",
+          "zh-Hans": "星期五"
         },
         {
           "es": "el fin de semana",
           "en": "the weekend",
-          "vi": "cuối tuần"
+          "vi": "cuối tuần",
+          "pt-BR": "o fim de semana",
+          "fr": "le week-end",
+          "de": "das Wochenende",
+          "it": "il fine settimana",
+          "ja": "週末",
+          "zh-Hans": "周末"
         },
         {
           "es": "hoy y mañana",
           "en": "today and tomorrow",
-          "vi": "hôm nay và ngày mai"
+          "vi": "hôm nay và ngày mai",
+          "pt-BR": "hoje e amanhã",
+          "fr": "aujourd’hui et demain",
+          "de": "heute und morgen",
+          "it": "oggi e domani",
+          "ja": "今日と明日",
+          "zh-Hans": "今天和明天"
         }
       ],
       "focus": {
         "en": "Days are lowercase. “El lunes” means “on Monday”; “los lunes” means “every Monday”.",
-        "vi": "Tên thứ viết thường. “El lunes” là “vào thứ Hai”; “los lunes” là “mỗi thứ Hai”."
+        "vi": "Tên thứ viết thường. “El lunes” là “vào thứ Hai”; “los lunes” là “mỗi thứ Hai”.",
+        "pt-BR": "Os dias são escritos em minúscula. “El lunes” significa “na segunda”; “los lunes”, “toda segunda”.",
+        "fr": "Les jours s’écrivent en minuscules. « El lunes » veut dire « lundi » ; « los lunes », « tous les lundis ».",
+        "de": "Wochentage werden kleingeschrieben. „El lunes“ heißt „am Montag“; „los lunes“ heißt „montags“.",
+        "it": "I giorni si scrivono in minuscolo. “El lunes” significa “lunedì”; “los lunes” significa “ogni lunedì”.",
+        "ja": "曜日は小文字で書きます。「El lunes」は「月曜日に」、「los lunes」は「毎週月曜日」という意味です。",
+        "zh-Hans": "星期名称小写。“El lunes”意思是“在星期一”；“los lunes”意思是“每个星期一”。"
       }
     },
     {
       "id": "time",
       "title": {
         "en": "Telling the time",
-        "vi": "Nói giờ"
+        "vi": "Nói giờ",
+        "pt-BR": "Dizer as horas",
+        "fr": "Dire l’heure",
+        "de": "Die Uhrzeit sagen",
+        "it": "Dire l’ora",
+        "ja": "時刻を言う",
+        "zh-Hans": "说时间"
       },
       "description": {
         "en": "Ask and say what time it is.",
-        "vi": "Hỏi và nói bây giờ là mấy giờ."
+        "vi": "Hỏi và nói bây giờ là mấy giờ.",
+        "pt-BR": "Pergunte e diga que horas são.",
+        "fr": "Demandez et dites l’heure qu’il est.",
+        "de": "Frag nach der Uhrzeit und sag sie.",
+        "it": "Chiedi e di’ che ore sono.",
+        "ja": "今何時か尋ねて答えよう。",
+        "zh-Hans": "询问并说出现在几点。"
       },
       "icon": "clock",
       "phrases": [
         {
           "es": "¿Qué hora es?",
           "en": "What time is it?",
-          "vi": "Mấy giờ rồi?"
+          "vi": "Mấy giờ rồi?",
+          "pt-BR": "Que horas são?",
+          "fr": "Quelle heure est-il ?",
+          "de": "Wie spät ist es?",
+          "it": "Che ore sono?",
+          "ja": "今何時？",
+          "zh-Hans": "现在几点？"
         },
         {
           "es": "Es la una.",
@@ -84,33 +168,75 @@
           "vi": "Một giờ.",
           "note": {
             "en": "Only one o'clock uses “es la”.",
-            "vi": "Chỉ một giờ mới dùng “es la”."
-          }
+            "vi": "Chỉ một giờ mới dùng “es la”.",
+            "pt-BR": "Só uma hora usa “es la”.",
+            "fr": "Seule une heure utilise « es la ».",
+            "de": "Nur ein Uhr verwendet „es la“.",
+            "it": "Solo l’una usa “es la”.",
+            "ja": "1時だけ「es la」を使います。",
+            "zh-Hans": "只有一点用“es la”。"
+          },
+          "pt-BR": "É uma hora.",
+          "fr": "Il est une heure.",
+          "de": "Es ist ein Uhr.",
+          "it": "È l’una.",
+          "ja": "1時です。",
+          "zh-Hans": "一点了。"
         },
         {
           "es": "Son las tres.",
           "en": "It's three o'clock.",
-          "vi": "Ba giờ."
+          "vi": "Ba giờ.",
+          "pt-BR": "São três horas.",
+          "fr": "Il est trois heures.",
+          "de": "Es ist drei Uhr.",
+          "it": "Sono le tre.",
+          "ja": "3時です。",
+          "zh-Hans": "三点了。"
         },
         {
           "es": "Son las cinco y media.",
           "en": "It's half past five.",
-          "vi": "Năm giờ rưỡi."
+          "vi": "Năm giờ rưỡi.",
+          "pt-BR": "São cinco e meia.",
+          "fr": "Il est cinq heures et demie.",
+          "de": "Es ist halb sechs.",
+          "it": "Sono le cinque e mezza.",
+          "ja": "5時半です。",
+          "zh-Hans": "五点半了。"
         },
         {
           "es": "por la mañana",
           "en": "in the morning",
-          "vi": "vào buổi sáng"
+          "vi": "vào buổi sáng",
+          "pt-BR": "de manhã",
+          "fr": "le matin",
+          "de": "am Morgen",
+          "it": "di mattina",
+          "ja": "朝に",
+          "zh-Hans": "早上"
         },
         {
           "es": "por la noche",
           "en": "at night",
-          "vi": "vào buổi tối"
+          "vi": "vào buổi tối",
+          "pt-BR": "à noite",
+          "fr": "le soir",
+          "de": "in der Nacht",
+          "it": "di notte",
+          "ja": "夜に",
+          "zh-Hans": "晚上"
         }
       ],
       "focus": {
         "en": "One o'clock is singular (es la una); every other hour is plural (son las dos, son las tres).",
-        "vi": "Một giờ dùng số ít (es la una); các giờ khác dùng số nhiều (son las dos, son las tres)."
+        "vi": "Một giờ dùng số ít (es la una); các giờ khác dùng số nhiều (son las dos, son las tres).",
+        "pt-BR": "Uma hora é singular (es la una); as outras são plurais (son las dos, son las tres).",
+        "fr": "Une heure est au singulier (es la una) ; toutes les autres au pluriel (son las dos, son las tres).",
+        "de": "Ein Uhr steht im Singular (es la una); alle anderen Stunden im Plural (son las dos, son las tres).",
+        "it": "L’una è singolare (es la una); tutte le altre ore sono plurali (son las dos, son las tres).",
+        "ja": "1時は単数（es la una）、それ以外の時刻は複数（son las dos, son las tres）です。",
+        "zh-Hans": "一点用单数（es la una）；其他钟点都用复数（son las dos, son las tres）。"
       }
     }
   ],
@@ -119,11 +245,23 @@
       "id": "friday-plan",
       "title": {
         "en": "Make a plan for Friday",
-        "vi": "Hẹn nhau thứ Sáu"
+        "vi": "Hẹn nhau thứ Sáu",
+        "pt-BR": "Combine algo para sexta",
+        "fr": "Prévoir quelque chose pour vendredi",
+        "de": "Plan für Freitag",
+        "it": "Fare un piano per venerdì",
+        "ja": "金曜日の予定を立てる",
+        "zh-Hans": "约好星期五"
       },
       "description": {
         "en": "Agree on a day and a time.",
-        "vi": "Thống nhất ngày và giờ."
+        "vi": "Thống nhất ngày và giờ.",
+        "pt-BR": "Combinem um dia e um horário.",
+        "fr": "Mettez-vous d’accord sur un jour et une heure.",
+        "de": "Einigt euch auf einen Tag und eine Uhrzeit.",
+        "it": "Accordatevi su un giorno e un’ora.",
+        "ja": "曜日と時間を決めよう。",
+        "zh-Hans": "商定日子和时间。"
       },
       "icon": "map-pin",
       "duration": "3 min",
@@ -134,11 +272,23 @@
           "prompt": "¿Quieres ir al cine?",
           "translation": {
             "en": "Do you want to go to the movies?",
-            "vi": "Bạn muốn đi xem phim không?"
+            "vi": "Bạn muốn đi xem phim không?",
+            "pt-BR": "Quer ir ao cinema?",
+            "fr": "Tu veux aller au cinéma ?",
+            "de": "Willst du ins Kino gehen?",
+            "it": "Vuoi andare al cinema?",
+            "ja": "映画に行かない？",
+            "zh-Hans": "你想去看电影吗？"
           },
           "hint": {
             "en": "Suggest a day with “el…”.",
-            "vi": "Đề xuất một ngày với “el…”."
+            "vi": "Đề xuất một ngày với “el…”.",
+            "pt-BR": "Sugira um dia com “el…”.",
+            "fr": "Proposez un jour avec « el… ».",
+            "de": "Schlag einen Tag mit „el…“ vor.",
+            "it": "Proponi un giorno con “el…”.",
+            "ja": "「el…」で曜日を提案しよう。",
+            "zh-Hans": "用“el…”提议一个日子。"
           },
           "choices": [
             {
@@ -146,13 +296,25 @@
               "es": "Sí, ¿el viernes?",
               "translation": {
                 "en": "Yes, on Friday?",
-                "vi": "Có, thứ Sáu nhé?"
+                "vi": "Có, thứ Sáu nhé?",
+                "pt-BR": "Sim, na sexta?",
+                "fr": "Oui, vendredi ?",
+                "de": "Ja, am Freitag?",
+                "it": "Sì, venerdì?",
+                "ja": "うん、金曜日は？",
+                "zh-Hans": "好啊，星期五？"
               },
               "correct": true,
               "response": "¡Perfecto! ¿A qué hora?",
               "responseTranslation": {
                 "en": "Perfect! What time?",
-                "vi": "Tuyệt! Mấy giờ?"
+                "vi": "Tuyệt! Mấy giờ?",
+                "pt-BR": "Perfeito! Que horas?",
+                "fr": "Parfait ! À quelle heure ?",
+                "de": "Perfekt! Um wie viel Uhr?",
+                "it": "Perfetto! A che ora?",
+                "ja": "いいね！何時に？",
+                "zh-Hans": "太好了！几点？"
               },
               "next": "time"
             },
@@ -161,13 +323,25 @@
               "es": "Sí, el fin de semana.",
               "translation": {
                 "en": "Yes, on the weekend.",
-                "vi": "Có, cuối tuần nhé."
+                "vi": "Có, cuối tuần nhé.",
+                "pt-BR": "Sim, no fim de semana.",
+                "fr": "Oui, ce week-end.",
+                "de": "Ja, am Wochenende.",
+                "it": "Sì, nel fine settimana.",
+                "ja": "うん、週末に。",
+                "zh-Hans": "好啊，周末吧。"
               },
               "correct": true,
               "response": "Bien, el sábado. ¿A qué hora?",
               "responseTranslation": {
                 "en": "Good, Saturday. What time?",
-                "vi": "Được, thứ Bảy. Mấy giờ?"
+                "vi": "Được, thứ Bảy. Mấy giờ?",
+                "pt-BR": "Bom, sábado. Que horas?",
+                "fr": "D’accord, samedi. À quelle heure ?",
+                "de": "Gut, Samstag. Um wie viel Uhr?",
+                "it": "Bene, sabato. A che ora?",
+                "ja": "いいよ、土曜日ね。何時に？",
+                "zh-Hans": "好，星期六。几点？"
               },
               "next": "time"
             },
@@ -176,14 +350,26 @@
               "es": "Estoy cansado.",
               "translation": {
                 "en": "I'm tired.",
-                "vi": "Mình mệt."
+                "vi": "Mình mệt.",
+                "pt-BR": "Estou cansado.",
+                "fr": "Je suis fatigué.",
+                "de": "Ich bin müde.",
+                "it": "Sono stanco.",
+                "ja": "疲れてるんだ。",
+                "zh-Hans": "我累了。"
               },
               "correct": false,
               "correction": "Sí, ¿el viernes?",
               "response": "Entonces otro día. ¿El viernes? ¿A qué hora?",
               "responseTranslation": {
                 "en": "Another day then. Friday? What time?",
-                "vi": "Vậy hôm khác. Thứ Sáu nhé? Mấy giờ?"
+                "vi": "Vậy hôm khác. Thứ Sáu nhé? Mấy giờ?",
+                "pt-BR": "Outro dia então. Sexta? Que horas?",
+                "fr": "Un autre jour alors. Vendredi ? À quelle heure ?",
+                "de": "Dann ein anderer Tag. Freitag? Um wie viel Uhr?",
+                "it": "Allora un altro giorno. Venerdì? A che ora?",
+                "ja": "じゃあ別の日に。金曜日は？何時に？",
+                "zh-Hans": "那换一天吧。星期五？几点？"
               },
               "next": "time"
             }
@@ -194,11 +380,23 @@
           "prompt": "¿A qué hora nos vemos?",
           "translation": {
             "en": "What time shall we meet?",
-            "vi": "Mấy giờ mình gặp nhau?"
+            "vi": "Mấy giờ mình gặp nhau?",
+            "pt-BR": "A que horas a gente se encontra?",
+            "fr": "On se retrouve à quelle heure ?",
+            "de": "Um wie viel Uhr treffen wir uns?",
+            "it": "A che ora ci vediamo?",
+            "ja": "何時に会う？",
+            "zh-Hans": "我们几点见？"
           },
           "hint": {
             "en": "Use “a las…” to give a time.",
-            "vi": "Dùng “a las…” để nói giờ."
+            "vi": "Dùng “a las…” để nói giờ.",
+            "pt-BR": "Use “a las…” para dizer um horário.",
+            "fr": "Utilisez « a las… » pour donner une heure.",
+            "de": "Nutze „a las…“ für eine Uhrzeit.",
+            "it": "Usa “a las…” per dire un orario.",
+            "ja": "「a las…」で時刻を言おう。",
+            "zh-Hans": "用“a las…”说时间。"
           },
           "choices": [
             {
@@ -206,13 +404,25 @@
               "es": "A las siete de la noche.",
               "translation": {
                 "en": "At seven in the evening.",
-                "vi": "Lúc bảy giờ tối."
+                "vi": "Lúc bảy giờ tối.",
+                "pt-BR": "Às sete da noite.",
+                "fr": "À sept heures du soir.",
+                "de": "Um sieben Uhr abends.",
+                "it": "Alle sette di sera.",
+                "ja": "夜の7時に。",
+                "zh-Hans": "晚上七点。"
               },
               "correct": true,
               "response": "Muy bien, a las siete.",
               "responseTranslation": {
                 "en": "Great, at seven.",
-                "vi": "Được, bảy giờ nhé."
+                "vi": "Được, bảy giờ nhé.",
+                "pt-BR": "Ótimo, às sete.",
+                "fr": "Super, à sept heures.",
+                "de": "Super, um sieben.",
+                "it": "Ottimo, alle sette.",
+                "ja": "いいね、7時に。",
+                "zh-Hans": "好，七点。"
               },
               "next": "confirm"
             },
@@ -221,13 +431,25 @@
               "es": "A las cinco y media.",
               "translation": {
                 "en": "At half past five.",
-                "vi": "Lúc năm giờ rưỡi."
+                "vi": "Lúc năm giờ rưỡi.",
+                "pt-BR": "Às cinco e meia.",
+                "fr": "À cinq heures et demie.",
+                "de": "Um halb sechs.",
+                "it": "Alle cinque e mezza.",
+                "ja": "5時半に。",
+                "zh-Hans": "五点半。"
               },
               "correct": true,
               "response": "Perfecto, a las cinco y media.",
               "responseTranslation": {
                 "en": "Perfect, at half past five.",
-                "vi": "Tuyệt, năm giờ rưỡi."
+                "vi": "Tuyệt, năm giờ rưỡi.",
+                "pt-BR": "Perfeito, às cinco e meia.",
+                "fr": "Parfait, à cinq heures et demie.",
+                "de": "Perfekt, um halb sechs.",
+                "it": "Perfetto, alle cinque e mezza.",
+                "ja": "完璧、5時半ね。",
+                "zh-Hans": "太好了，五点半。"
               },
               "next": "confirm"
             },
@@ -236,14 +458,26 @@
               "es": "El lunes.",
               "translation": {
                 "en": "Monday.",
-                "vi": "Thứ Hai."
+                "vi": "Thứ Hai.",
+                "pt-BR": "Segunda.",
+                "fr": "Lundi.",
+                "de": "Montag.",
+                "it": "Lunedì.",
+                "ja": "月曜日。",
+                "zh-Hans": "星期一。"
               },
               "correct": false,
               "correction": "A las siete de la noche.",
               "response": "No, la hora… ¿a las siete?",
               "responseTranslation": {
                 "en": "No, the time… at seven?",
-                "vi": "Không, giờ cơ… bảy giờ nhé?"
+                "vi": "Không, giờ cơ… bảy giờ nhé?",
+                "pt-BR": "Não, o horário… às sete?",
+                "fr": "Non, l’heure… à sept heures ?",
+                "de": "Nein, die Uhrzeit… um sieben?",
+                "it": "No, l’ora… alle sette?",
+                "ja": "ううん、時間のこと…7時でいい？",
+                "zh-Hans": "不是，我问的是时间……七点？"
               },
               "next": "confirm"
             }
@@ -254,11 +488,23 @@
           "prompt": "Entonces, nos vemos el viernes.",
           "translation": {
             "en": "So, see you on Friday.",
-            "vi": "Vậy hẹn gặp thứ Sáu nhé."
+            "vi": "Vậy hẹn gặp thứ Sáu nhé.",
+            "pt-BR": "Então, a gente se vê na sexta.",
+            "fr": "Alors, on se voit vendredi.",
+            "de": "Also, wir sehen uns am Freitag.",
+            "it": "Allora ci vediamo venerdì.",
+            "ja": "じゃあ、金曜日にね。",
+            "zh-Hans": "那么，星期五见。"
           },
           "hint": {
             "en": "Close with “Nos vemos” or “Hasta…”.",
-            "vi": "Kết thúc bằng “Nos vemos” hoặc “Hasta…”."
+            "vi": "Kết thúc bằng “Nos vemos” hoặc “Hasta…”.",
+            "pt-BR": "Termine com “Nos vemos” ou “Hasta…”.",
+            "fr": "Terminez par « Nos vemos » ou « Hasta… ».",
+            "de": "Schließ mit „Nos vemos“ oder „Hasta…“.",
+            "it": "Chiudi con “Nos vemos” o “Hasta…”.",
+            "ja": "「Nos vemos」か「Hasta…」で締めくくろう。",
+            "zh-Hans": "用“Nos vemos”或“Hasta…”结束对话。"
           },
           "choices": [
             {
@@ -266,13 +512,25 @@
               "es": "¡Sí, nos vemos!",
               "translation": {
                 "en": "Yes, see you!",
-                "vi": "Ừ, hẹn gặp!"
+                "vi": "Ừ, hẹn gặp!",
+                "pt-BR": "Sim, até lá!",
+                "fr": "Oui, à bientôt !",
+                "de": "Ja, bis dann!",
+                "it": "Sì, a presto!",
+                "ja": "うん、またね！",
+                "zh-Hans": "好，到时见！"
               },
               "correct": true,
               "response": "¡Chao!",
               "responseTranslation": {
                 "en": "Bye!",
-                "vi": "Chào nhé!"
+                "vi": "Chào nhé!",
+                "pt-BR": "Tchau!",
+                "fr": "Salut !",
+                "de": "Tschüss!",
+                "it": "Ciao!",
+                "ja": "バイバイ！",
+                "zh-Hans": "拜拜！"
               }
             },
             {
@@ -280,13 +538,25 @@
               "es": "¡Hasta el viernes!",
               "translation": {
                 "en": "See you Friday!",
-                "vi": "Hẹn thứ Sáu!"
+                "vi": "Hẹn thứ Sáu!",
+                "pt-BR": "Até sexta!",
+                "fr": "À vendredi !",
+                "de": "Bis Freitag!",
+                "it": "A venerdì!",
+                "ja": "金曜日にね！",
+                "zh-Hans": "星期五见！"
               },
               "correct": true,
               "response": "¡Hasta el viernes!",
               "responseTranslation": {
                 "en": "See you Friday!",
-                "vi": "Hẹn thứ Sáu!"
+                "vi": "Hẹn thứ Sáu!",
+                "pt-BR": "Até sexta!",
+                "fr": "À vendredi !",
+                "de": "Bis Freitag!",
+                "it": "A venerdì!",
+                "ja": "金曜日にね！",
+                "zh-Hans": "星期五见！"
               }
             },
             {
@@ -294,14 +564,26 @@
               "es": "¿Qué hora es?",
               "translation": {
                 "en": "What time is it?",
-                "vi": "Mấy giờ rồi?"
+                "vi": "Mấy giờ rồi?",
+                "pt-BR": "Que horas são?",
+                "fr": "Quelle heure est-il ?",
+                "de": "Wie spät ist es?",
+                "it": "Che ore sono?",
+                "ja": "今何時？",
+                "zh-Hans": "现在几点？"
               },
               "correct": false,
               "correction": "¡Sí, nos vemos!",
               "response": "Son las tres. ¡Nos vemos el viernes!",
               "responseTranslation": {
                 "en": "It's three. See you Friday!",
-                "vi": "Ba giờ rồi. Hẹn thứ Sáu nhé!"
+                "vi": "Ba giờ rồi. Hẹn thứ Sáu nhé!",
+                "pt-BR": "São três. Até sexta!",
+                "fr": "Il est trois heures. À vendredi !",
+                "de": "Es ist drei. Bis Freitag!",
+                "it": "Sono le tre. A venerdì!",
+                "ja": "3時だよ。金曜日にね！",
+                "zh-Hans": "三点了。星期五见！"
               }
             }
           ]

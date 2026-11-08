@@ -1,34 +1,64 @@
 {
   "schemaVersion": 1,
   "id": "level-08",
-  "version": 2,
+  "version": 3,
   "level": 8,
   "cefr": "A2",
   "title": {
     "en": "Pre-intermediate 2: Work & study",
-    "vi": "Tiền trung cấp 2: Công việc & học tập"
+    "vi": "Tiền trung cấp 2: Công việc & học tập",
+    "pt-BR": "Pré-intermediário 2: Trabalho e estudo",
+    "fr": "Pré-intermédiaire 2 : Travail et études",
+    "de": "Untere Mittelstufe 2: Arbeit und Studium",
+    "it": "Pre-intermedio 2: Lavoro e studio",
+    "ja": "中級前 2：仕事と勉強",
+    "zh-Hans": "中级前 2：工作和学习"
   },
   "description": {
     "en": "Jobs, schedules, and small talk at work.",
-    "vi": "Nghề nghiệp, lịch làm việc và trò chuyện nơi công sở."
+    "vi": "Nghề nghiệp, lịch làm việc và trò chuyện nơi công sở.",
+    "pt-BR": "Profissões, horários e conversa no trabalho.",
+    "fr": "Métiers, emplois du temps et discussions au travail.",
+    "de": "Berufe, Zeitpläne und Smalltalk bei der Arbeit.",
+    "it": "Lavori, orari e chiacchiere in ufficio.",
+    "ja": "職業、スケジュール、職場での雑談。",
+    "zh-Hans": "职业、日程和职场闲聊。"
   },
   "lessons": [
     {
       "id": "jobs",
       "title": {
         "en": "Jobs",
-        "vi": "Nghề nghiệp"
+        "vi": "Nghề nghiệp",
+        "pt-BR": "Profissões",
+        "fr": "Métiers",
+        "de": "Berufe",
+        "it": "Lavori",
+        "ja": "職業",
+        "zh-Hans": "职业"
       },
       "description": {
         "en": "Say what you do.",
-        "vi": "Nói bạn làm nghề gì."
+        "vi": "Nói bạn làm nghề gì.",
+        "pt-BR": "Diga o que você faz.",
+        "fr": "Dites ce que vous faites.",
+        "de": "Sag, was du beruflich machst.",
+        "it": "Di’ che lavoro fai.",
+        "ja": "仕事を言おう。",
+        "zh-Hans": "说说你做什么工作。"
       },
       "icon": "briefcase",
       "phrases": [
         {
           "es": "¿A qué te dedicas?",
           "en": "What do you do?",
-          "vi": "Bạn làm nghề gì?"
+          "vi": "Bạn làm nghề gì?",
+          "pt-BR": "O que você faz?",
+          "fr": "Qu’est-ce que tu fais dans la vie ?",
+          "de": "Was machst du beruflich?",
+          "it": "Che lavoro fai?",
+          "ja": "お仕事は何ですか？",
+          "zh-Hans": "你是做什么的？"
         },
         {
           "es": "Soy profesor.",
@@ -36,81 +66,177 @@
           "vi": "Tôi là giáo viên.",
           "note": {
             "en": "Women say “profesora”.",
-            "vi": "Nữ nói “profesora”."
-          }
+            "vi": "Nữ nói “profesora”.",
+            "pt-BR": "Mulheres dizem “profesora”.",
+            "fr": "Les femmes disent « profesora ».",
+            "de": "Frauen sagen „profesora“.",
+            "it": "Le donne dicono “profesora”.",
+            "ja": "女性は「profesora」と言います。",
+            "zh-Hans": "女性说“profesora”。"
+          },
+          "pt-BR": "Sou professor.",
+          "fr": "Je suis professeur.",
+          "de": "Ich bin Lehrer.",
+          "it": "Sono insegnante.",
+          "ja": "教師です。",
+          "zh-Hans": "我是老师。"
         },
         {
           "es": "Trabajo en una oficina.",
           "en": "I work in an office.",
-          "vi": "Tôi làm việc ở văn phòng."
+          "vi": "Tôi làm việc ở văn phòng.",
+          "pt-BR": "Trabalho num escritório.",
+          "fr": "Je travaille dans un bureau.",
+          "de": "Ich arbeite in einem Büro.",
+          "it": "Lavoro in un ufficio.",
+          "ja": "オフィスで働いています。",
+          "zh-Hans": "我在办公室工作。"
         },
         {
           "es": "Estudio en la universidad.",
           "en": "I study at the university.",
-          "vi": "Tôi học đại học."
+          "vi": "Tôi học đại học.",
+          "pt-BR": "Estudo na universidade.",
+          "fr": "J’étudie à l’université.",
+          "de": "Ich studiere an der Uni.",
+          "it": "Studio all’università.",
+          "ja": "大学で勉強しています。",
+          "zh-Hans": "我在大学读书。"
         },
         {
           "es": "Trabajo desde casa.",
           "en": "I work from home.",
-          "vi": "Tôi làm việc tại nhà."
+          "vi": "Tôi làm việc tại nhà.",
+          "pt-BR": "Trabalho de casa.",
+          "fr": "Je travaille de chez moi.",
+          "de": "Ich arbeite von zu Hause.",
+          "it": "Lavoro da casa.",
+          "ja": "在宅で働いています。",
+          "zh-Hans": "我在家工作。"
         },
         {
           "es": "Busco trabajo.",
           "en": "I'm looking for a job.",
-          "vi": "Tôi đang tìm việc."
+          "vi": "Tôi đang tìm việc.",
+          "pt-BR": "Estou procurando emprego.",
+          "fr": "Je cherche du travail.",
+          "de": "Ich suche Arbeit.",
+          "it": "Sto cercando lavoro.",
+          "ja": "仕事を探しています。",
+          "zh-Hans": "我在找工作。"
         }
       ],
       "focus": {
         "en": "Present tense endings: trabajo, estudio, vivo (I); trabajas, estudias, vives (you).",
-        "vi": "Đuôi động từ thì hiện tại: trabajo, estudio, vivo (tôi); trabajas, estudias, vives (bạn)."
+        "vi": "Đuôi động từ thì hiện tại: trabajo, estudio, vivo (tôi); trabajas, estudias, vives (bạn).",
+        "pt-BR": "Terminações do presente: trabajo, estudio, vivo (eu); trabajas, estudias, vives (você).",
+        "fr": "Terminaisons du présent : trabajo, estudio, vivo (je) ; trabajas, estudias, vives (tu).",
+        "de": "Präsens-Endungen: trabajo, estudio, vivo (ich); trabajas, estudias, vives (du).",
+        "it": "Desinenze del presente: trabajo, estudio, vivo (io); trabajas, estudias, vives (tu).",
+        "ja": "現在形の語尾：trabajo, estudio, vivo（私）；trabajas, estudias, vives（あなた）。",
+        "zh-Hans": "现在时词尾：trabajo, estudio, vivo（我）；trabajas, estudias, vives（你）。"
       }
     },
     {
       "id": "schedule",
       "title": {
         "en": "My schedule",
-        "vi": "Lịch của tôi"
+        "vi": "Lịch của tôi",
+        "pt-BR": "Minha rotina",
+        "fr": "Mon emploi du temps",
+        "de": "Mein Tagesablauf",
+        "it": "La mia giornata",
+        "ja": "私のスケジュール",
+        "zh-Hans": "我的日程"
       },
       "description": {
         "en": "Talk about your day at work.",
-        "vi": "Nói về một ngày làm việc."
+        "vi": "Nói về một ngày làm việc.",
+        "pt-BR": "Fale sobre seu dia no trabalho.",
+        "fr": "Parlez de votre journée de travail.",
+        "de": "Sprich über deinen Arbeitstag.",
+        "it": "Parla della tua giornata di lavoro.",
+        "ja": "仕事の一日について話そう。",
+        "zh-Hans": "谈谈你一天的工作。"
       },
       "icon": "clock",
       "phrases": [
         {
           "es": "Empiezo a las nueve.",
           "en": "I start at nine.",
-          "vi": "Tôi bắt đầu lúc chín giờ."
+          "vi": "Tôi bắt đầu lúc chín giờ.",
+          "pt-BR": "Começo às nove.",
+          "fr": "Je commence à neuf heures.",
+          "de": "Ich fange um neun an.",
+          "it": "Inizio alle nove.",
+          "ja": "9時に始めます。",
+          "zh-Hans": "我九点开始工作。"
         },
         {
           "es": "Termino a las cinco.",
           "en": "I finish at five.",
-          "vi": "Tôi xong lúc năm giờ."
+          "vi": "Tôi xong lúc năm giờ.",
+          "pt-BR": "Termino às cinco.",
+          "fr": "Je finis à cinq heures.",
+          "de": "Ich höre um fünf auf.",
+          "it": "Finisco alle cinque.",
+          "ja": "5時に終わります。",
+          "zh-Hans": "我五点下班。"
         },
         {
           "es": "Tengo una reunión.",
           "en": "I have a meeting.",
-          "vi": "Tôi có cuộc họp."
+          "vi": "Tôi có cuộc họp.",
+          "pt-BR": "Tenho uma reunião.",
+          "fr": "J’ai une réunion.",
+          "de": "Ich habe ein Meeting.",
+          "it": "Ho una riunione.",
+          "ja": "会議があります。",
+          "zh-Hans": "我要开会。"
         },
         {
           "es": "Estoy ocupado ahora.",
           "en": "I'm busy right now.",
-          "vi": "Bây giờ tôi đang bận."
+          "vi": "Bây giờ tôi đang bận.",
+          "pt-BR": "Estou ocupado agora.",
+          "fr": "Je suis occupé en ce moment.",
+          "de": "Ich bin gerade beschäftigt.",
+          "it": "Sono occupato in questo momento.",
+          "ja": "今忙しいです。",
+          "zh-Hans": "我现在很忙。"
         },
         {
           "es": "¿Tienes un minuto?",
           "en": "Do you have a minute?",
-          "vi": "Bạn có rảnh một phút không?"
+          "vi": "Bạn có rảnh một phút không?",
+          "pt-BR": "Tem um minuto?",
+          "fr": "Tu as une minute ?",
+          "de": "Hast du kurz Zeit?",
+          "it": "Hai un minuto?",
+          "ja": "ちょっといいですか？",
+          "zh-Hans": "你有空吗？"
         },
         {
           "es": "Nos vemos mañana.",
           "en": "See you tomorrow.",
-          "vi": "Mai gặp nhé."
+          "vi": "Mai gặp nhé.",
+          "pt-BR": "Até amanhã.",
+          "fr": "À demain.",
+          "de": "Bis morgen.",
+          "it": "A domani.",
+          "ja": "また明日。",
+          "zh-Hans": "明天见。"
         }
       ],
       "focus": {
         "en": "Some verbs change their stem: empezar → empiezo, poder → puedo.",
-        "vi": "Một số động từ đổi gốc: empezar → empiezo, poder → puedo."
+        "vi": "Một số động từ đổi gốc: empezar → empiezo, poder → puedo.",
+        "pt-BR": "Alguns verbos mudam o radical: empezar → empiezo, poder → puedo.",
+        "fr": "Certains verbes changent de radical : empezar → empiezo, poder → puedo.",
+        "de": "Manche Verben ändern ihren Stamm: empezar → empiezo, poder → puedo.",
+        "it": "Alcuni verbi cambiano la radice: empezar → empiezo, poder → puedo.",
+        "ja": "語幹が変わる動詞があります：empezar → empiezo, poder → puedo。",
+        "zh-Hans": "有些动词会变词根：empezar → empiezo, poder → puedo。"
       }
     }
   ],
@@ -119,11 +245,23 @@
       "id": "work-chat",
       "title": {
         "en": "Small talk at work",
-        "vi": "Trò chuyện ở chỗ làm"
+        "vi": "Trò chuyện ở chỗ làm",
+        "pt-BR": "Conversa no trabalho",
+        "fr": "Discuter au travail",
+        "de": "Smalltalk bei der Arbeit",
+        "it": "Chiacchiere al lavoro",
+        "ja": "職場での雑談",
+        "zh-Hans": "职场闲聊"
       },
       "description": {
         "en": "Chat with a new coworker.",
-        "vi": "Nói chuyện với đồng nghiệp mới."
+        "vi": "Nói chuyện với đồng nghiệp mới.",
+        "pt-BR": "Converse com um colega novo.",
+        "fr": "Discutez avec un nouveau collègue.",
+        "de": "Unterhalte dich mit einem neuen Kollegen.",
+        "it": "Chiacchiera con un nuovo collega.",
+        "ja": "新しい同僚とおしゃべりしよう。",
+        "zh-Hans": "和新同事聊聊天。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -134,11 +272,23 @@
           "prompt": "Hola, soy Carla. ¿Eres nuevo aquí?",
           "translation": {
             "en": "Hi, I'm Carla. Are you new here?",
-            "vi": "Chào, mình là Carla. Bạn mới vào à?"
+            "vi": "Chào, mình là Carla. Bạn mới vào à?",
+            "pt-BR": "Oi, sou a Carla. Você é novo aqui?",
+            "fr": "Salut, je suis Carla. Tu es nouveau ici ?",
+            "de": "Hallo, ich bin Carla. Bist du neu hier?",
+            "it": "Ciao, sono Carla. Sei nuovo qui?",
+            "ja": "こんにちは、カルラです。新しく入った方？",
+            "zh-Hans": "你好，我是卡拉。你是新来的吗？"
           },
           "hint": {
             "en": "Say yes and what your role is.",
-            "vi": "Nói “có” và vị trí của bạn."
+            "vi": "Nói “có” và vị trí của bạn.",
+            "pt-BR": "Diga que sim e qual é sua função.",
+            "fr": "Dites oui et quel est votre poste.",
+            "de": "Sag Ja und was deine Rolle ist.",
+            "it": "Di’ di sì e qual è il tuo ruolo.",
+            "ja": "「はい」と答えて、担当を伝えよう。",
+            "zh-Hans": "说是，并说出你的职位。"
           },
           "choices": [
             {
@@ -146,13 +296,25 @@
               "es": "Sí, soy el nuevo diseñador.",
               "translation": {
                 "en": "Yes, I'm the new designer.",
-                "vi": "Ừ, mình là nhà thiết kế mới."
+                "vi": "Ừ, mình là nhà thiết kế mới.",
+                "pt-BR": "Sim, sou o novo designer.",
+                "fr": "Oui, je suis le nouveau designer.",
+                "de": "Ja, ich bin der neue Designer.",
+                "it": "Sì, sono il nuovo designer.",
+                "ja": "はい、新しいデザイナーです。",
+                "zh-Hans": "是的，我是新来的设计师。"
               },
               "correct": true,
               "response": "¡Bienvenido! ¿A qué hora empiezas?",
               "responseTranslation": {
                 "en": "Welcome! What time do you start?",
-                "vi": "Chào mừng! Bạn bắt đầu lúc mấy giờ?"
+                "vi": "Chào mừng! Bạn bắt đầu lúc mấy giờ?",
+                "pt-BR": "Bem-vindo! A que horas você começa?",
+                "fr": "Bienvenue ! Tu commences à quelle heure ?",
+                "de": "Willkommen! Wann fängst du an?",
+                "it": "Benvenuto! A che ora inizi?",
+                "ja": "ようこそ！何時に始まるの？",
+                "zh-Hans": "欢迎！你几点上班？"
               },
               "next": "time"
             },
@@ -161,13 +323,25 @@
               "es": "Sí, y también estudio en la universidad.",
               "translation": {
                 "en": "Yes, and I also study at the university.",
-                "vi": "Ừ, và mình cũng đang học đại học."
+                "vi": "Ừ, và mình cũng đang học đại học.",
+                "pt-BR": "Sim, e também estudo na universidade.",
+                "fr": "Oui, et j’étudie aussi à l’université.",
+                "de": "Ja, und ich studiere auch an der Uni.",
+                "it": "Sì, e studio anche all’università.",
+                "ja": "はい、それに大学でも勉強しています。",
+                "zh-Hans": "是的，我还在大学读书。"
               },
               "correct": true,
               "response": "¡Qué bien! ¿A qué hora empiezas?",
               "responseTranslation": {
                 "en": "Nice! What time do you start?",
-                "vi": "Hay quá! Bạn bắt đầu lúc mấy giờ?"
+                "vi": "Hay quá! Bạn bắt đầu lúc mấy giờ?",
+                "pt-BR": "Que legal! A que horas você começa?",
+                "fr": "Sympa ! Tu commences à quelle heure ?",
+                "de": "Schön! Wann fängst du an?",
+                "it": "Che bello! A che ora inizi?",
+                "ja": "いいね！何時に始まるの？",
+                "zh-Hans": "真好！你几点上班？"
               },
               "next": "time"
             },
@@ -176,14 +350,26 @@
               "es": "Tengo un perro.",
               "translation": {
                 "en": "I have a dog.",
-                "vi": "Mình có một con chó."
+                "vi": "Mình có một con chó.",
+                "pt-BR": "Tenho um cachorro.",
+                "fr": "J’ai un chien.",
+                "de": "Ich habe einen Hund.",
+                "it": "Ho un cane.",
+                "ja": "犬を飼っています。",
+                "zh-Hans": "我养了一只狗。"
               },
               "correct": false,
               "correction": "Sí, soy el nuevo diseñador.",
               "response": "¡Qué lindo! Pero, ¿trabajas aquí?",
               "responseTranslation": {
                 "en": "Cute! But do you work here?",
-                "vi": "Dễ thương ghê! Nhưng bạn làm ở đây à?"
+                "vi": "Dễ thương ghê! Nhưng bạn làm ở đây à?",
+                "pt-BR": "Que fofo! Mas você trabalha aqui?",
+                "fr": "Mignon ! Mais tu travailles ici ?",
+                "de": "Süß! Aber arbeitest du hier?",
+                "it": "Carino! Ma lavori qui?",
+                "ja": "かわいい！でもここで働いてるの？",
+                "zh-Hans": "好可爱！不过你在这里工作吗？"
               },
               "next": "time"
             }
@@ -194,11 +380,23 @@
           "prompt": "¿A qué hora empiezas y terminas?",
           "translation": {
             "en": "What time do you start and finish?",
-            "vi": "Bạn bắt đầu và kết thúc lúc mấy giờ?"
+            "vi": "Bạn bắt đầu và kết thúc lúc mấy giờ?",
+            "pt-BR": "A que horas você começa e termina?",
+            "fr": "Tu commences et tu finis à quelle heure ?",
+            "de": "Wann fängst du an und wann hörst du auf?",
+            "it": "A che ora inizi e finisci?",
+            "ja": "何時に始まって何時に終わるの？",
+            "zh-Hans": "你几点上班、几点下班？"
           },
           "hint": {
             "en": "“Empiezo a las…, termino a las…”.",
-            "vi": "“Empiezo a las…, termino a las…”."
+            "vi": "“Empiezo a las…, termino a las…”.",
+            "pt-BR": "“Empiezo a las…, termino a las…”.",
+            "fr": "« Empiezo a las…, termino a las… ».",
+            "de": "„Empiezo a las…, termino a las…“.",
+            "it": "“Empiezo a las…, termino a las…”.",
+            "ja": "「Empiezo a las…, termino a las…」。",
+            "zh-Hans": "“Empiezo a las…, termino a las…”。"
           },
           "choices": [
             {
@@ -206,13 +404,25 @@
               "es": "Empiezo a las nueve y termino a las cinco.",
               "translation": {
                 "en": "I start at nine and finish at five.",
-                "vi": "Mình bắt đầu lúc chín giờ, xong lúc năm giờ."
+                "vi": "Mình bắt đầu lúc chín giờ, xong lúc năm giờ.",
+                "pt-BR": "Começo às nove e termino às cinco.",
+                "fr": "Je commence à neuf heures et je finis à cinq heures.",
+                "de": "Ich fange um neun an und höre um fünf auf.",
+                "it": "Inizio alle nove e finisco alle cinque.",
+                "ja": "9時に始まって5時に終わります。",
+                "zh-Hans": "我九点上班，五点下班。"
               },
               "correct": true,
               "response": "Igual que yo. ¿Tienes un minuto ahora?",
               "responseTranslation": {
                 "en": "Same as me. Do you have a minute now?",
-                "vi": "Giống mình. Giờ bạn rảnh một phút không?"
+                "vi": "Giống mình. Giờ bạn rảnh một phút không?",
+                "pt-BR": "Igual a mim. Tem um minuto agora?",
+                "fr": "Comme moi. Tu as une minute maintenant ?",
+                "de": "Genau wie ich. Hast du jetzt kurz Zeit?",
+                "it": "Come me. Hai un minuto adesso?",
+                "ja": "私と同じ。今ちょっといい？",
+                "zh-Hans": "跟我一样。你现在有空吗？"
               },
               "next": "minute"
             },
@@ -221,13 +431,25 @@
               "es": "Los viernes trabajo desde casa.",
               "translation": {
                 "en": "On Fridays I work from home.",
-                "vi": "Thứ Sáu mình làm ở nhà."
+                "vi": "Thứ Sáu mình làm ở nhà.",
+                "pt-BR": "Às sextas trabalho de casa.",
+                "fr": "Le vendredi, je télétravaille.",
+                "de": "Freitags arbeite ich von zu Hause.",
+                "it": "Il venerdì lavoro da casa.",
+                "ja": "金曜日は在宅勤務です。",
+                "zh-Hans": "星期五我在家办公。"
               },
               "correct": true,
               "response": "¡Qué suerte! ¿Tienes un minuto ahora?",
               "responseTranslation": {
                 "en": "Lucky! Do you have a minute now?",
-                "vi": "Sướng thế! Giờ bạn rảnh một phút không?"
+                "vi": "Sướng thế! Giờ bạn rảnh một phút không?",
+                "pt-BR": "Que sorte! Tem um minuto agora?",
+                "fr": "Quelle chance ! Tu as une minute maintenant ?",
+                "de": "Glückspilz! Hast du jetzt kurz Zeit?",
+                "it": "Che fortuna! Hai un minuto adesso?",
+                "ja": "いいなあ！今ちょっといい？",
+                "zh-Hans": "真幸运！你现在有空吗？"
               },
               "next": "minute"
             },
@@ -236,14 +458,26 @@
               "es": "Nos vemos mañana.",
               "translation": {
                 "en": "See you tomorrow.",
-                "vi": "Mai gặp nhé."
+                "vi": "Mai gặp nhé.",
+                "pt-BR": "Até amanhã.",
+                "fr": "À demain.",
+                "de": "Bis morgen.",
+                "it": "A domani.",
+                "ja": "また明日。",
+                "zh-Hans": "明天见。"
               },
               "correct": false,
               "correction": "Empiezo a las nueve y termino a las cinco.",
               "response": "¡Pero si acabamos de conocernos! ¿A qué hora empiezas?",
               "responseTranslation": {
                 "en": "But we just met! What time do you start?",
-                "vi": "Mình vừa mới gặp mà! Bạn bắt đầu lúc mấy giờ?"
+                "vi": "Mình vừa mới gặp mà! Bạn bắt đầu lúc mấy giờ?",
+                "pt-BR": "Mas a gente acabou de se conhecer! A que horas você começa?",
+                "fr": "Mais on vient de se rencontrer ! Tu commences à quelle heure ?",
+                "de": "Aber wir haben uns doch gerade erst kennengelernt! Wann fängst du an?",
+                "it": "Ma ci siamo appena conosciuti! A che ora inizi?",
+                "ja": "でも会ったばかりだよ！何時に始まるの？",
+                "zh-Hans": "可我们才刚认识！你几点上班？"
               },
               "next": "minute"
             }
@@ -254,11 +488,23 @@
           "prompt": "¿Tienes un minuto para un café?",
           "translation": {
             "en": "Do you have a minute for a coffee?",
-            "vi": "Bạn có rảnh uống cà phê không?"
+            "vi": "Bạn có rảnh uống cà phê không?",
+            "pt-BR": "Tem um minuto para um café?",
+            "fr": "Tu as une minute pour un café ?",
+            "de": "Hast du kurz Zeit für einen Kaffee?",
+            "it": "Hai un minuto per un caffè?",
+            "ja": "コーヒー飲む時間ある？",
+            "zh-Hans": "有空喝杯咖啡吗？"
           },
           "hint": {
             "en": "Accept, or say you're busy.",
-            "vi": "Đồng ý, hoặc nói bạn đang bận."
+            "vi": "Đồng ý, hoặc nói bạn đang bận.",
+            "pt-BR": "Aceite ou diga que está ocupado.",
+            "fr": "Acceptez ou dites que vous êtes occupé.",
+            "de": "Nimm an oder sag, dass du beschäftigt bist.",
+            "it": "Accetta o di’ che sei occupato.",
+            "ja": "受けるか、忙しいと伝えよう。",
+            "zh-Hans": "接受，或者说你很忙。"
           },
           "choices": [
             {
@@ -266,13 +512,25 @@
               "es": "¡Claro! Vamos.",
               "translation": {
                 "en": "Sure! Let's go.",
-                "vi": "Được chứ! Đi thôi."
+                "vi": "Được chứ! Đi thôi.",
+                "pt-BR": "Claro! Vamos.",
+                "fr": "Bien sûr ! Allons-y.",
+                "de": "Klar! Gehen wir.",
+                "it": "Certo! Andiamo.",
+                "ja": "もちろん！行こう。",
+                "zh-Hans": "当然！走吧。"
               },
               "correct": true,
               "response": "Genial. Te enseño la cafetería.",
               "responseTranslation": {
                 "en": "Great. I'll show you the café.",
-                "vi": "Tuyệt. Mình dẫn bạn đi quán cà phê."
+                "vi": "Tuyệt. Mình dẫn bạn đi quán cà phê.",
+                "pt-BR": "Ótimo. Vou te mostrar a lanchonete.",
+                "fr": "Super. Je te montre la cafétéria.",
+                "de": "Super. Ich zeig dir die Cafeteria.",
+                "it": "Ottimo. Ti mostro la caffetteria.",
+                "ja": "よかった。カフェテリアを案内するね。",
+                "zh-Hans": "太好了。我带你去咖啡厅。"
               }
             },
             {
@@ -280,13 +538,25 @@
               "es": "Ahora estoy ocupado, tengo una reunión.",
               "translation": {
                 "en": "I'm busy now, I have a meeting.",
-                "vi": "Giờ mình bận, mình có họp."
+                "vi": "Giờ mình bận, mình có họp.",
+                "pt-BR": "Agora estou ocupado, tenho uma reunião.",
+                "fr": "Je suis occupé, j’ai une réunion.",
+                "de": "Ich bin gerade beschäftigt, ich habe ein Meeting.",
+                "it": "Ora sono occupato, ho una riunione.",
+                "ja": "今忙しいんだ、会議があって。",
+                "zh-Hans": "我现在很忙，要开会。"
               },
               "correct": true,
               "response": "No pasa nada. ¡Nos vemos luego!",
               "responseTranslation": {
                 "en": "No problem. See you later!",
-                "vi": "Không sao. Gặp sau nhé!"
+                "vi": "Không sao. Gặp sau nhé!",
+                "pt-BR": "Sem problema. Até mais!",
+                "fr": "Pas de souci. À plus tard !",
+                "de": "Kein Problem. Bis später!",
+                "it": "Nessun problema. A dopo!",
+                "ja": "大丈夫。またあとでね！",
+                "zh-Hans": "没问题。回头见！"
               }
             },
             {
@@ -294,14 +564,26 @@
               "es": "Busco trabajo.",
               "translation": {
                 "en": "I'm looking for a job.",
-                "vi": "Mình đang tìm việc."
+                "vi": "Mình đang tìm việc.",
+                "pt-BR": "Estou procurando emprego.",
+                "fr": "Je cherche du travail.",
+                "de": "Ich suche Arbeit.",
+                "it": "Sto cercando lavoro.",
+                "ja": "仕事を探しています。",
+                "zh-Hans": "我在找工作。"
               },
               "correct": false,
               "correction": "¡Claro! Vamos.",
               "response": "¡Pero ya trabajas aquí! ¿Vamos por café?",
               "responseTranslation": {
                 "en": "But you already work here! Coffee?",
-                "vi": "Nhưng bạn làm ở đây rồi mà! Đi cà phê không?"
+                "vi": "Nhưng bạn làm ở đây rồi mà! Đi cà phê không?",
+                "pt-BR": "Mas você já trabalha aqui! Um café?",
+                "fr": "Mais tu travailles déjà ici ! Un café ?",
+                "de": "Aber du arbeitest doch schon hier! Kaffee?",
+                "it": "Ma lavori già qui! Un caffè?",
+                "ja": "でももうここで働いてるでしょ！コーヒーどう？",
+                "zh-Hans": "可你已经在这里工作了！喝咖啡吗？"
               }
             }
           ]

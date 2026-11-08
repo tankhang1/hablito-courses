@@ -1,54 +1,108 @@
 {
   "schemaVersion": 1,
   "id": "level-07",
-  "version": 2,
+  "version": 3,
   "level": 7,
   "cefr": "A2",
   "title": {
     "en": "Pre-intermediate 1: Health & emergencies",
-    "vi": "Tiền trung cấp 1: Sức khỏe & khẩn cấp"
+    "vi": "Tiền trung cấp 1: Sức khỏe & khẩn cấp",
+    "pt-BR": "Pré-intermediário 1: Saúde e emergências",
+    "fr": "Pré-intermédiaire 1 : Santé et urgences",
+    "de": "Untere Mittelstufe 1: Gesundheit und Notfälle",
+    "it": "Pre-intermedio 1: Salute ed emergenze",
+    "ja": "中級前 1：健康と緊急時",
+    "zh-Hans": "中级前 1：健康和紧急情况"
   },
   "description": {
     "en": "Describe pain and get help fast.",
-    "vi": "Mô tả cơn đau và nhờ giúp đỡ nhanh."
+    "vi": "Mô tả cơn đau và nhờ giúp đỡ nhanh.",
+    "pt-BR": "Descreva a dor e peça ajuda rápido.",
+    "fr": "Décrivez la douleur et obtenez de l’aide rapidement.",
+    "de": "Schmerzen beschreiben und schnell Hilfe holen.",
+    "it": "Descrivi il dolore e chiedi aiuto in fretta.",
+    "ja": "痛みを説明して、すぐに助けを求めよう。",
+    "zh-Hans": "描述疼痛并快速求助。"
   },
   "lessons": [
     {
       "id": "pain",
       "title": {
         "en": "Body & pain",
-        "vi": "Cơ thể & cơn đau"
+        "vi": "Cơ thể & cơn đau",
+        "pt-BR": "Corpo e dor",
+        "fr": "Le corps et la douleur",
+        "de": "Körper und Schmerzen",
+        "it": "Corpo e dolore",
+        "ja": "体と痛み",
+        "zh-Hans": "身体和疼痛"
       },
       "description": {
         "en": "Tell a doctor what hurts.",
-        "vi": "Nói với bác sĩ chỗ nào đau."
+        "vi": "Nói với bác sĩ chỗ nào đau.",
+        "pt-BR": "Diga ao médico o que dói.",
+        "fr": "Dites au médecin où vous avez mal.",
+        "de": "Sag dem Arzt, was wehtut.",
+        "it": "Di’ al medico cosa ti fa male.",
+        "ja": "どこが痛いか医者に伝えよう。",
+        "zh-Hans": "告诉医生哪里疼。"
       },
       "icon": "activity",
       "phrases": [
         {
           "es": "Me duele la cabeza.",
           "en": "My head hurts.",
-          "vi": "Tôi đau đầu."
+          "vi": "Tôi đau đầu.",
+          "pt-BR": "Estou com dor de cabeça.",
+          "fr": "J’ai mal à la tête.",
+          "de": "Mir tut der Kopf weh.",
+          "it": "Mi fa male la testa.",
+          "ja": "頭が痛いです。",
+          "zh-Hans": "我头疼。"
         },
         {
           "es": "Me duele el estómago.",
           "en": "My stomach hurts.",
-          "vi": "Tôi đau bụng."
+          "vi": "Tôi đau bụng.",
+          "pt-BR": "Estou com dor de estômago.",
+          "fr": "J’ai mal au ventre.",
+          "de": "Mir tut der Bauch weh.",
+          "it": "Mi fa male lo stomaco.",
+          "ja": "おなかが痛いです。",
+          "zh-Hans": "我肚子疼。"
         },
         {
           "es": "Me duele la garganta.",
           "en": "My throat hurts.",
-          "vi": "Tôi đau họng."
+          "vi": "Tôi đau họng.",
+          "pt-BR": "Estou com dor de garganta.",
+          "fr": "J’ai mal à la gorge.",
+          "de": "Mir tut der Hals weh.",
+          "it": "Mi fa male la gola.",
+          "ja": "のどが痛いです。",
+          "zh-Hans": "我嗓子疼。"
         },
         {
           "es": "Tengo fiebre.",
           "en": "I have a fever.",
-          "vi": "Tôi bị sốt."
+          "vi": "Tôi bị sốt.",
+          "pt-BR": "Estou com febre.",
+          "fr": "J’ai de la fièvre.",
+          "de": "Ich habe Fieber.",
+          "it": "Ho la febbre.",
+          "ja": "熱があります。",
+          "zh-Hans": "我发烧了。"
         },
         {
           "es": "Tengo tos.",
           "en": "I have a cough.",
-          "vi": "Tôi bị ho."
+          "vi": "Tôi bị ho.",
+          "pt-BR": "Estou com tosse.",
+          "fr": "Je tousse.",
+          "de": "Ich habe Husten.",
+          "it": "Ho la tosse.",
+          "ja": "せきが出ます。",
+          "zh-Hans": "我咳嗽。"
         },
         {
           "es": "Estoy mareado.",
@@ -56,61 +110,133 @@
           "vi": "Tôi chóng mặt.",
           "note": {
             "en": "Women say “mareada”.",
-            "vi": "Nữ nói “mareada”."
-          }
+            "vi": "Nữ nói “mareada”.",
+            "pt-BR": "Mulheres dizem “mareada”.",
+            "fr": "Les femmes disent « mareada ».",
+            "de": "Frauen sagen „mareada“.",
+            "it": "Le donne dicono “mareada”.",
+            "ja": "女性は「mareada」と言います。",
+            "zh-Hans": "女性说“mareada”。"
+          },
+          "pt-BR": "Estou tonto.",
+          "fr": "J’ai des vertiges.",
+          "de": "Mir ist schwindelig.",
+          "it": "Mi gira la testa.",
+          "ja": "めまいがします。",
+          "zh-Hans": "我头晕。"
         }
       ],
       "focus": {
         "en": "“Doler” works like “gustar”: me duele la cabeza, me duelen los pies.",
-        "vi": "“Doler” dùng giống “gustar”: me duele la cabeza, me duelen los pies."
+        "vi": "“Doler” dùng giống “gustar”: me duele la cabeza, me duelen los pies.",
+        "pt-BR": "“Doler” funciona como “gustar”: me duele la cabeza, me duelen los pies.",
+        "fr": "« Doler » fonctionne comme « gustar » : me duele la cabeza, me duelen los pies.",
+        "de": "„Doler“ funktioniert wie „gustar“: me duele la cabeza, me duelen los pies.",
+        "it": "“Doler” funziona come “gustar”: me duele la cabeza, me duelen los pies.",
+        "ja": "「Doler」は「gustar」と同じ形です：me duele la cabeza, me duelen los pies。",
+        "zh-Hans": "“Doler”的用法和“gustar”一样：me duele la cabeza, me duelen los pies。"
       }
     },
     {
       "id": "help",
       "title": {
         "en": "Getting help",
-        "vi": "Nhờ giúp đỡ"
+        "vi": "Nhờ giúp đỡ",
+        "pt-BR": "Pedir ajuda",
+        "fr": "Demander de l’aide",
+        "de": "Hilfe holen",
+        "it": "Chiedere aiuto",
+        "ja": "助けを求める",
+        "zh-Hans": "求助"
       },
       "description": {
         "en": "Phrases for urgent moments.",
-        "vi": "Những câu cho lúc khẩn cấp."
+        "vi": "Những câu cho lúc khẩn cấp.",
+        "pt-BR": "Frases para momentos urgentes.",
+        "fr": "Des phrases pour les moments urgents.",
+        "de": "Sätze für dringende Momente.",
+        "it": "Frasi per i momenti urgenti.",
+        "ja": "緊急時のフレーズ。",
+        "zh-Hans": "紧急时刻的用语。"
       },
       "icon": "alert-triangle",
       "phrases": [
         {
           "es": "¡Ayuda!",
           "en": "Help!",
-          "vi": "Cứu với!"
+          "vi": "Cứu với!",
+          "pt-BR": "Socorro!",
+          "fr": "À l’aide !",
+          "de": "Hilfe!",
+          "it": "Aiuto!",
+          "ja": "助けて！",
+          "zh-Hans": "救命！"
         },
         {
           "es": "Llame a una ambulancia.",
           "en": "Call an ambulance.",
-          "vi": "Gọi xe cứu thương giúp tôi."
+          "vi": "Gọi xe cứu thương giúp tôi.",
+          "pt-BR": "Chame uma ambulância.",
+          "fr": "Appelez une ambulance.",
+          "de": "Rufen Sie einen Krankenwagen.",
+          "it": "Chiami un’ambulanza.",
+          "ja": "救急車を呼んでください。",
+          "zh-Hans": "请叫救护车。"
         },
         {
           "es": "Necesito un médico.",
           "en": "I need a doctor.",
-          "vi": "Tôi cần bác sĩ."
+          "vi": "Tôi cần bác sĩ.",
+          "pt-BR": "Preciso de um médico.",
+          "fr": "J’ai besoin d’un médecin.",
+          "de": "Ich brauche einen Arzt.",
+          "it": "Ho bisogno di un medico.",
+          "ja": "医者が必要です。",
+          "zh-Hans": "我需要医生。"
         },
         {
           "es": "¿Dónde está el hospital?",
           "en": "Where is the hospital?",
-          "vi": "Bệnh viện ở đâu?"
+          "vi": "Bệnh viện ở đâu?",
+          "pt-BR": "Onde fica o hospital?",
+          "fr": "Où est l’hôpital ?",
+          "de": "Wo ist das Krankenhaus?",
+          "it": "Dov’è l’ospedale?",
+          "ja": "病院はどこですか？",
+          "zh-Hans": "医院在哪里？"
         },
         {
           "es": "Soy alérgico a la penicilina.",
           "en": "I'm allergic to penicillin.",
-          "vi": "Tôi dị ứng với penicillin."
+          "vi": "Tôi dị ứng với penicillin.",
+          "pt-BR": "Sou alérgico à penicilina.",
+          "fr": "Je suis allergique à la pénicilline.",
+          "de": "Ich bin allergisch gegen Penicillin.",
+          "it": "Sono allergico alla penicillina.",
+          "ja": "ペニシリンにアレルギーがあります。",
+          "zh-Hans": "我对青霉素过敏。"
         },
         {
           "es": "Es urgente.",
           "en": "It's urgent.",
-          "vi": "Việc này khẩn cấp."
+          "vi": "Việc này khẩn cấp.",
+          "pt-BR": "É urgente.",
+          "fr": "C’est urgent.",
+          "de": "Es ist dringend.",
+          "it": "È urgente.",
+          "ja": "緊急です。",
+          "zh-Hans": "情况紧急。"
         }
       ],
       "focus": {
         "en": "In emergencies, short commands work best: ¡Ayuda! ¡Llame a…!",
-        "vi": "Khi khẩn cấp, câu mệnh lệnh ngắn hiệu quả nhất: ¡Ayuda! ¡Llame a…!"
+        "vi": "Khi khẩn cấp, câu mệnh lệnh ngắn hiệu quả nhất: ¡Ayuda! ¡Llame a…!",
+        "pt-BR": "Em emergências, ordens curtas funcionam melhor: ¡Ayuda! ¡Llame a…!",
+        "fr": "En cas d’urgence, les ordres courts sont les plus efficaces : ¡Ayuda! ¡Llame a…!",
+        "de": "Im Notfall helfen kurze Befehle am besten: ¡Ayuda! ¡Llame a…!",
+        "it": "Nelle emergenze, gli ordini brevi funzionano meglio: ¡Ayuda! ¡Llame a…!",
+        "ja": "緊急時は短い命令形が一番伝わります：¡Ayuda! ¡Llame a…!",
+        "zh-Hans": "紧急情况下，简短的命令最有效：¡Ayuda! ¡Llame a…!"
       }
     }
   ],
@@ -119,11 +245,23 @@
       "id": "doctor",
       "title": {
         "en": "At the doctor",
-        "vi": "Đi khám bác sĩ"
+        "vi": "Đi khám bác sĩ",
+        "pt-BR": "No médico",
+        "fr": "Chez le médecin",
+        "de": "Beim Arzt",
+        "it": "Dal medico",
+        "ja": "病院で",
+        "zh-Hans": "看医生"
       },
       "description": {
         "en": "Explain your symptoms and allergies.",
-        "vi": "Trình bày triệu chứng và dị ứng."
+        "vi": "Trình bày triệu chứng và dị ứng.",
+        "pt-BR": "Explique seus sintomas e alergias.",
+        "fr": "Expliquez vos symptômes et vos allergies.",
+        "de": "Erkläre deine Symptome und Allergien.",
+        "it": "Spiega sintomi e allergie.",
+        "ja": "症状とアレルギーを説明しよう。",
+        "zh-Hans": "说明你的症状和过敏情况。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -134,11 +272,23 @@
           "prompt": "¿Qué le pasa?",
           "translation": {
             "en": "What's wrong?",
-            "vi": "Bạn bị sao vậy?"
+            "vi": "Bạn bị sao vậy?",
+            "pt-BR": "O que você tem?",
+            "fr": "Qu’est-ce qui ne va pas ?",
+            "de": "Was fehlt Ihnen?",
+            "it": "Cosa si sente?",
+            "ja": "どうしましたか？",
+            "zh-Hans": "您哪里不舒服？"
           },
           "hint": {
             "en": "Use “Me duele…” or “Tengo…”.",
-            "vi": "Dùng “Me duele…” hoặc “Tengo…”."
+            "vi": "Dùng “Me duele…” hoặc “Tengo…”.",
+            "pt-BR": "Use “Me duele…” ou “Tengo…”.",
+            "fr": "Utilisez « Me duele… » ou « Tengo… ».",
+            "de": "Nutze „Me duele…“ oder „Tengo…“.",
+            "it": "Usa “Me duele…” o “Tengo…”.",
+            "ja": "「Me duele…」か「Tengo…」を使おう。",
+            "zh-Hans": "用“Me duele…”或“Tengo…”。"
           },
           "choices": [
             {
@@ -146,13 +296,25 @@
               "es": "Me duele la garganta y tengo tos.",
               "translation": {
                 "en": "My throat hurts and I have a cough.",
-                "vi": "Tôi đau họng và bị ho."
+                "vi": "Tôi đau họng và bị ho.",
+                "pt-BR": "Estou com dor de garganta e tosse.",
+                "fr": "J’ai mal à la gorge et je tousse.",
+                "de": "Mir tut der Hals weh und ich habe Husten.",
+                "it": "Mi fa male la gola e ho la tosse.",
+                "ja": "のどが痛くて、せきが出ます。",
+                "zh-Hans": "我嗓子疼，还咳嗽。"
               },
               "correct": true,
               "response": "¿Desde cuándo?",
               "responseTranslation": {
                 "en": "Since when?",
-                "vi": "Từ khi nào?"
+                "vi": "Từ khi nào?",
+                "pt-BR": "Desde quando?",
+                "fr": "Depuis quand ?",
+                "de": "Seit wann?",
+                "it": "Da quando?",
+                "ja": "いつからですか？",
+                "zh-Hans": "从什么时候开始的？"
               },
               "next": "since"
             },
@@ -161,13 +323,25 @@
               "es": "Tengo fiebre y estoy mareado.",
               "translation": {
                 "en": "I have a fever and feel dizzy.",
-                "vi": "Tôi bị sốt và chóng mặt."
+                "vi": "Tôi bị sốt và chóng mặt.",
+                "pt-BR": "Estou com febre e tontura.",
+                "fr": "J’ai de la fièvre et des vertiges.",
+                "de": "Ich habe Fieber und mir ist schwindelig.",
+                "it": "Ho la febbre e mi gira la testa.",
+                "ja": "熱があって、めまいがします。",
+                "zh-Hans": "我发烧，还头晕。"
               },
               "correct": true,
               "response": "Entiendo. ¿Desde cuándo?",
               "responseTranslation": {
                 "en": "I see. Since when?",
-                "vi": "Tôi hiểu. Từ khi nào?"
+                "vi": "Tôi hiểu. Từ khi nào?",
+                "pt-BR": "Entendo. Desde quando?",
+                "fr": "Je vois. Depuis quand ?",
+                "de": "Verstehe. Seit wann?",
+                "it": "Capisco. Da quando?",
+                "ja": "わかりました。いつからですか？",
+                "zh-Hans": "明白了。从什么时候开始的？"
               },
               "next": "since"
             },
@@ -176,14 +350,26 @@
               "es": "¿Dónde está el banco?",
               "translation": {
                 "en": "Where is the bank?",
-                "vi": "Ngân hàng ở đâu?"
+                "vi": "Ngân hàng ở đâu?",
+                "pt-BR": "Onde fica o banco?",
+                "fr": "Où est la banque ?",
+                "de": "Wo ist die Bank?",
+                "it": "Dov’è la banca?",
+                "ja": "銀行はどこですか？",
+                "zh-Hans": "银行在哪里？"
               },
               "correct": false,
               "correction": "Me duele la garganta y tengo tos.",
               "response": "Esto es una clínica. ¿Qué le duele?",
               "responseTranslation": {
                 "en": "This is a clinic. What hurts?",
-                "vi": "Đây là phòng khám. Bạn đau ở đâu?"
+                "vi": "Đây là phòng khám. Bạn đau ở đâu?",
+                "pt-BR": "Isto é uma clínica. O que dói?",
+                "fr": "Ici, c’est une clinique. Où avez-vous mal ?",
+                "de": "Das hier ist eine Klinik. Was tut Ihnen weh?",
+                "it": "Questa è una clinica. Cosa le fa male?",
+                "ja": "ここはクリニックです。どこが痛みますか？",
+                "zh-Hans": "这里是诊所。您哪里疼？"
               },
               "next": "since"
             }
@@ -194,11 +380,23 @@
           "prompt": "¿Desde cuándo se siente así?",
           "translation": {
             "en": "How long have you felt like this?",
-            "vi": "Bạn bị thế này bao lâu rồi?"
+            "vi": "Bạn bị thế này bao lâu rồi?",
+            "pt-BR": "Há quanto tempo você se sente assim?",
+            "fr": "Depuis combien de temps vous sentez-vous comme ça ?",
+            "de": "Wie lange fühlen Sie sich schon so?",
+            "it": "Da quanto tempo si sente così?",
+            "ja": "いつからそのような状態ですか？",
+            "zh-Hans": "您这样多久了？"
           },
           "hint": {
             "en": "“Desde ayer” means “since yesterday”.",
-            "vi": "“Desde ayer” nghĩa là “từ hôm qua”."
+            "vi": "“Desde ayer” nghĩa là “từ hôm qua”.",
+            "pt-BR": "“Desde ayer” significa “desde ontem”.",
+            "fr": "« Desde ayer » veut dire « depuis hier ».",
+            "de": "„Desde ayer“ heißt „seit gestern“.",
+            "it": "“Desde ayer” significa “da ieri”.",
+            "ja": "「Desde ayer」は「昨日から」という意味です。",
+            "zh-Hans": "“Desde ayer”意思是“从昨天开始”。"
           },
           "choices": [
             {
@@ -206,13 +404,25 @@
               "es": "Desde ayer por la noche.",
               "translation": {
                 "en": "Since last night.",
-                "vi": "Từ tối hôm qua."
+                "vi": "Từ tối hôm qua.",
+                "pt-BR": "Desde ontem à noite.",
+                "fr": "Depuis hier soir.",
+                "de": "Seit gestern Abend.",
+                "it": "Da ieri sera.",
+                "ja": "昨夜からです。",
+                "zh-Hans": "从昨天晚上开始。"
               },
               "correct": true,
               "response": "Bien. ¿Es alérgico a algún medicamento?",
               "responseTranslation": {
                 "en": "OK. Are you allergic to any medicine?",
-                "vi": "Được. Bạn có dị ứng thuốc nào không?"
+                "vi": "Được. Bạn có dị ứng thuốc nào không?",
+                "pt-BR": "Certo. Você tem alergia a algum remédio?",
+                "fr": "D’accord. Êtes-vous allergique à un médicament ?",
+                "de": "Gut. Sind Sie gegen ein Medikament allergisch?",
+                "it": "Bene. È allergico a qualche medicinale?",
+                "ja": "わかりました。薬のアレルギーはありますか？",
+                "zh-Hans": "好的。您对什么药过敏吗？"
               },
               "next": "allergy"
             },
@@ -221,13 +431,25 @@
               "es": "Desde hace dos días.",
               "translation": {
                 "en": "For two days.",
-                "vi": "Hai ngày nay rồi."
+                "vi": "Hai ngày nay rồi.",
+                "pt-BR": "Há dois dias.",
+                "fr": "Depuis deux jours.",
+                "de": "Seit zwei Tagen.",
+                "it": "Da due giorni.",
+                "ja": "2日前からです。",
+                "zh-Hans": "两天了。"
               },
               "correct": true,
               "response": "Bien. ¿Es alérgico a algún medicamento?",
               "responseTranslation": {
                 "en": "OK. Are you allergic to any medicine?",
-                "vi": "Được. Bạn có dị ứng thuốc nào không?"
+                "vi": "Được. Bạn có dị ứng thuốc nào không?",
+                "pt-BR": "Certo. Você tem alergia a algum remédio?",
+                "fr": "D’accord. Êtes-vous allergique à un médicament ?",
+                "de": "Gut. Sind Sie gegen ein Medikament allergisch?",
+                "it": "Bene. È allergico a qualche medicinale?",
+                "ja": "わかりました。薬のアレルギーはありますか？",
+                "zh-Hans": "好的。您对什么药过敏吗？"
               },
               "next": "allergy"
             },
@@ -236,14 +458,26 @@
               "es": "¡Ayuda!",
               "translation": {
                 "en": "Help!",
-                "vi": "Cứu với!"
+                "vi": "Cứu với!",
+                "pt-BR": "Socorro!",
+                "fr": "À l’aide !",
+                "de": "Hilfe!",
+                "it": "Aiuto!",
+                "ja": "助けて！",
+                "zh-Hans": "救命！"
               },
               "correct": false,
               "correction": "Desde ayer por la noche.",
               "response": "Tranquilo, está en buenas manos. ¿Desde cuándo?",
               "responseTranslation": {
                 "en": "Relax, you're in good hands. Since when?",
-                "vi": "Bình tĩnh, bạn đang được chăm sóc. Từ khi nào?"
+                "vi": "Bình tĩnh, bạn đang được chăm sóc. Từ khi nào?",
+                "pt-BR": "Calma, você está em boas mãos. Desde quando?",
+                "fr": "Calmez-vous, vous êtes entre de bonnes mains. Depuis quand ?",
+                "de": "Ruhig, Sie sind in guten Händen. Seit wann?",
+                "it": "Tranquillo, è in buone mani. Da quando?",
+                "ja": "落ち着いてください、もう大丈夫です。いつからですか？",
+                "zh-Hans": "别担心，您在这里很安全。从什么时候开始的？"
               },
               "next": "allergy"
             }
@@ -254,11 +488,23 @@
           "prompt": "¿Es alérgico a algún medicamento?",
           "translation": {
             "en": "Are you allergic to any medicine?",
-            "vi": "Bạn có dị ứng thuốc nào không?"
+            "vi": "Bạn có dị ứng thuốc nào không?",
+            "pt-BR": "Você tem alergia a algum remédio?",
+            "fr": "Êtes-vous allergique à un médicament ?",
+            "de": "Sind Sie gegen ein Medikament allergisch?",
+            "it": "È allergico a qualche medicinale?",
+            "ja": "薬のアレルギーはありますか？",
+            "zh-Hans": "您对什么药过敏吗？"
           },
           "hint": {
             "en": "Say “Soy alérgico a…” or “No”.",
-            "vi": "Nói “Soy alérgico a…” hoặc “No”."
+            "vi": "Nói “Soy alérgico a…” hoặc “No”.",
+            "pt-BR": "Diga “Soy alérgico a…” ou “No”.",
+            "fr": "Dites « Soy alérgico a… » ou « No ».",
+            "de": "Sag „Soy alérgico a…“ oder „No“.",
+            "it": "Di’ “Soy alérgico a…” o “No”.",
+            "ja": "「Soy alérgico a…」か「No」と言おう。",
+            "zh-Hans": "说“Soy alérgico a…”或“No”。"
           },
           "choices": [
             {
@@ -266,13 +512,25 @@
               "es": "Sí, soy alérgico a la penicilina.",
               "translation": {
                 "en": "Yes, I'm allergic to penicillin.",
-                "vi": "Có, tôi dị ứng penicillin."
+                "vi": "Có, tôi dị ứng penicillin.",
+                "pt-BR": "Sim, sou alérgico à penicilina.",
+                "fr": "Oui, je suis allergique à la pénicilline.",
+                "de": "Ja, ich bin allergisch gegen Penicillin.",
+                "it": "Sì, sono allergico alla penicillina.",
+                "ja": "はい、ペニシリンにアレルギーがあります。",
+                "zh-Hans": "是的，我对青霉素过敏。"
               },
               "correct": true,
               "response": "Gracias. Le doy otro medicamento.",
               "responseTranslation": {
                 "en": "Thanks. I'll give you a different medicine.",
-                "vi": "Cảm ơn. Tôi sẽ cho bạn thuốc khác."
+                "vi": "Cảm ơn. Tôi sẽ cho bạn thuốc khác.",
+                "pt-BR": "Obrigado. Vou te dar outro remédio.",
+                "fr": "Merci. Je vais vous donner un autre médicament.",
+                "de": "Danke. Ich gebe Ihnen ein anderes Medikament.",
+                "it": "Grazie. Le do un altro medicinale.",
+                "ja": "ありがとうございます。別の薬をお出しします。",
+                "zh-Hans": "谢谢。我给您换一种药。"
               }
             },
             {
@@ -280,13 +538,25 @@
               "es": "No, a ninguno.",
               "translation": {
                 "en": "No, none.",
-                "vi": "Không, không có."
+                "vi": "Không, không có.",
+                "pt-BR": "Não, a nenhum.",
+                "fr": "Non, à aucun.",
+                "de": "Nein, gegen keins.",
+                "it": "No, a nessuno.",
+                "ja": "いいえ、ありません。",
+                "zh-Hans": "没有，都不过敏。"
               },
               "correct": true,
               "response": "Muy bien. Tome esto cada ocho horas.",
               "responseTranslation": {
                 "en": "Very good. Take this every eight hours.",
-                "vi": "Được. Uống thuốc này mỗi tám tiếng."
+                "vi": "Được. Uống thuốc này mỗi tám tiếng.",
+                "pt-BR": "Muito bem. Tome isto a cada oito horas.",
+                "fr": "Très bien. Prenez ceci toutes les huit heures.",
+                "de": "Sehr gut. Nehmen Sie das alle acht Stunden.",
+                "it": "Molto bene. Prenda questo ogni otto ore.",
+                "ja": "わかりました。これを8時間ごとに飲んでください。",
+                "zh-Hans": "好的。这个每八小时吃一次。"
               }
             },
             {
@@ -294,14 +564,26 @@
               "es": "Es urgente.",
               "translation": {
                 "en": "It's urgent.",
-                "vi": "Khẩn cấp lắm."
+                "vi": "Khẩn cấp lắm.",
+                "pt-BR": "É urgente.",
+                "fr": "C’est urgent.",
+                "de": "Es ist dringend.",
+                "it": "È urgente.",
+                "ja": "緊急です。",
+                "zh-Hans": "情况紧急。"
               },
               "correct": false,
               "correction": "No, a ninguno.",
               "response": "Ya lo estoy atendiendo. ¿Alergias?",
               "responseTranslation": {
                 "en": "I'm already treating you. Allergies?",
-                "vi": "Tôi đang khám cho bạn rồi. Có dị ứng không?"
+                "vi": "Tôi đang khám cho bạn rồi. Có dị ứng không?",
+                "pt-BR": "Já estou te atendendo. Alergias?",
+                "fr": "Je m’occupe déjà de vous. Des allergies ?",
+                "de": "Ich kümmere mich schon um Sie. Allergien?",
+                "it": "La sto già visitando. Allergie?",
+                "ja": "もう診ていますよ。アレルギーは？",
+                "zh-Hans": "我已经在为您看诊了。有过敏吗？"
               }
             }
           ]
