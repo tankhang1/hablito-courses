@@ -28,7 +28,7 @@
         "ja": "日常の小さな言葉と気持ちの表し方。",
         "zh-Hans": "日常小词和表达你的感受。"
       },
-      "file": "packs/level-01.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-01.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -60,7 +60,7 @@
         "ja": "曜日と時刻の言い方。",
         "zh-Hans": "一周中的日子和怎么说时间。"
       },
-      "file": "packs/level-02.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-02.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -92,7 +92,7 @@
         "ja": "よく食べる物と注文のしかた。",
         "zh-Hans": "常见食物以及如何点餐。"
       },
-      "file": "packs/level-03.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-03.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -124,7 +124,7 @@
         "ja": "色、服、値段、支払い。",
         "zh-Hans": "颜色、衣服、价格和付款。"
       },
-      "file": "packs/level-04.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-04.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -156,7 +156,7 @@
         "ja": "街の場所と簡単な道案内。",
         "zh-Hans": "城里的地点和简单的路线。"
       },
-      "file": "packs/level-05.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-05.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -188,7 +188,7 @@
         "ja": "家族と家について話そう。",
         "zh-Hans": "谈谈你的家人和你的家。"
       },
-      "file": "packs/level-06.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-06.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -220,7 +220,7 @@
         "ja": "痛みを説明して、すぐに助けを求めよう。",
         "zh-Hans": "描述疼痛并快速求助。"
       },
-      "file": "packs/level-07.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-07.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -252,7 +252,7 @@
         "ja": "職業、スケジュール、職場での雑談。",
         "zh-Hans": "职业、日程和职场闲聊。"
       },
-      "file": "packs/level-08.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-08.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -284,7 +284,7 @@
         "ja": "ホテルや移動中の問題を解決しよう。",
         "zh-Hans": "解决酒店和路上遇到的问题。"
       },
-      "file": "packs/level-09.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-09.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -316,7 +316,7 @@
         "ja": "したことを話し、考えを伝えよう。",
         "zh-Hans": "讲讲你做了什么，说说你的想法。"
       },
-      "file": "packs/level-10.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-10.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -348,7 +348,7 @@
         "ja": "予定、意図、予想について話そう。",
         "zh-Hans": "谈论计划、打算和预测。"
       },
-      "file": "packs/level-11.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-11.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -380,7 +380,7 @@
         "ja": "外見、性格、場所を説明しよう。",
         "zh-Hans": "描述外貌、性格和地方。"
       },
-      "file": "packs/level-12.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-12.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -412,7 +412,7 @@
         "ja": "昔の暮らしを話そう。",
         "zh-Hans": "讲讲以前的生活是什么样。"
       },
-      "file": "packs/level-13.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-13.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -444,7 +444,7 @@
         "ja": "丁寧に電話をして予約を取ろう。",
         "zh-Hans": "礼貌地打电话和预约。"
       },
-      "file": "packs/level-14.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-14.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -476,7 +476,7 @@
         "ja": "部屋を借りて、トラブルを伝えて、修理してもらおう。",
         "zh-Hans": "租房、反映问题、找人修理。"
       },
-      "file": "packs/level-15.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-15.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -508,7 +508,7 @@
         "ja": "感情を表して、人の知らせに反応しよう。",
         "zh-Hans": "表达情绪，回应别人的消息。"
       },
-      "file": "packs/level-16.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-16.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -540,7 +540,7 @@
         "ja": "自然にアドバイスをしたり求めたりしよう。",
         "zh-Hans": "自然地给出和寻求建议。"
       },
-      "file": "packs/level-17.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-17.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -572,7 +572,7 @@
         "ja": "経験と強みについて話そう。",
         "zh-Hans": "谈谈你的经验和优势。"
       },
-      "file": "packs/level-18.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-18.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -604,7 +604,7 @@
         "ja": "丁寧に苦情を伝えて、公平な合意を目指そう。",
         "zh-Hans": "礼貌地投诉，达成公平的协议。"
       },
-      "file": "packs/level-19.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-19.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -636,7 +636,7 @@
         "ja": "想像したり、願ったり、仮定の話をしよう。",
         "zh-Hans": "想象、许愿和谈论假设。"
       },
-      "file": "packs/level-20.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-20.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -668,7 +668,7 @@
         "ja": "人の発言を伝えて、ニュースについて話そう。",
         "zh-Hans": "转述别人说的话，讨论新闻。"
       },
-      "file": "packs/level-21.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-21.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -700,7 +700,7 @@
         "ja": "祭り、食文化、習慣。",
         "zh-Hans": "节庆、饮食文化和习俗。"
       },
-      "file": "packs/level-22.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-22.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -732,7 +732,7 @@
         "ja": "賛成・反対を伝えて、考えをつなげよう。",
         "zh-Hans": "表示同意、反对，并把观点连起来。"
       },
-      "file": "packs/level-23.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-23.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -764,7 +764,7 @@
         "ja": "正しい過去時制で生き生きと話そう。",
         "zh-Hans": "用正确的过去时讲生动的故事。"
       },
-      "file": "packs/level-24.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-24.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -796,7 +796,7 @@
         "ja": "論を組み立てて人を納得させよう。",
         "zh-Hans": "构建论点，赢得他人认同。"
       },
-      "file": "packs/level-25.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-25.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -828,7 +828,7 @@
         "ja": "日常表現で地元の人のように話そう。",
         "zh-Hans": "用日常表达说得像本地人。"
       },
-      "file": "packs/level-26.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-26.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -860,7 +860,7 @@
         "ja": "メール、会議、プロらしい言葉づかい。",
         "zh-Hans": "邮件、会议和职业语气。"
       },
-      "file": "packs/level-27.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-27.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -892,7 +892,7 @@
         "ja": "ぼかしたり和らげたりして、言いにくいことを上手に伝えよう。",
         "zh-Hans": "委婉、缓和，得体地说出难说的话。"
       },
-      "file": "packs/level-28.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-28.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -924,7 +924,7 @@
         "ja": "抽象的なテーマを正確に議論しよう。",
         "zh-Hans": "准确地讨论抽象话题。"
       },
-      "file": "packs/level-29.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-29.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -956,7 +956,7 @@
         "ja": "自然なつなぎ言葉、言葉に詰まったときの切り抜け方、深い会話。",
         "zh-Hans": "自然的口头语、卡壳时的应对策略和深度交谈。"
       },
-      "file": "packs/level-30.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@24c23c938c60c83749dfc0c2aabf55ad931c213e/packs/level-30.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
