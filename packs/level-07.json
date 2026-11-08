@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-07",
-  "version": 1,
+  "version": 2,
   "level": 7,
   "cefr": "A2",
   "title": {
@@ -59,7 +59,11 @@
             "vi": "Nữ nói “mareada”."
           }
         }
-      ]
+      ],
+      "focus": {
+        "en": "“Doler” works like “gustar”: me duele la cabeza, me duelen los pies.",
+        "vi": "“Doler” dùng giống “gustar”: me duele la cabeza, me duelen los pies."
+      }
     },
     {
       "id": "help",
@@ -103,7 +107,11 @@
           "en": "It's urgent.",
           "vi": "Việc này khẩn cấp."
         }
-      ]
+      ],
+      "focus": {
+        "en": "In emergencies, short commands work best: ¡Ayuda! ¡Llame a…!",
+        "vi": "Khi khẩn cấp, câu mệnh lệnh ngắn hiệu quả nhất: ¡Ayuda! ¡Llame a…!"
+      }
     }
   ],
   "conversations": [

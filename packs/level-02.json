@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-02",
-  "version": 1,
+  "version": 2,
   "level": 2,
   "cefr": "A1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "today and tomorrow",
           "vi": "hôm nay và ngày mai"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Days are lowercase. “El lunes” means “on Monday”; “los lunes” means “every Monday”.",
+        "vi": "Tên thứ viết thường. “El lunes” là “vào thứ Hai”; “los lunes” là “mỗi thứ Hai”."
+      }
     },
     {
       "id": "time",
@@ -103,7 +107,11 @@
           "en": "at night",
           "vi": "vào buổi tối"
         }
-      ]
+      ],
+      "focus": {
+        "en": "One o'clock is singular (es la una); every other hour is plural (son las dos, son las tres).",
+        "vi": "Một giờ dùng số ít (es la una); các giờ khác dùng số nhiều (son las dos, son las tres)."
+      }
     }
   ],
   "conversations": [

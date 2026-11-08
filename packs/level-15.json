@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-15",
+  "version": 1,
+  "level": 15,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 7: Renting & services",
+    "vi": "Trung cấp 7: Thuê nhà & dịch vụ"
+  },
+  "description": {
+    "en": "Rent a place, report problems, and get things fixed.",
+    "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa."
+  },
+  "lessons": [
+    {
+      "id": "renting",
+      "title": {
+        "en": "Renting a place",
+        "vi": "Thuê nhà"
+      },
+      "description": {
+        "en": "Ask the right questions before you sign.",
+        "vi": "Hỏi đúng câu trước khi ký hợp đồng."
+      },
+      "focus": {
+        "en": "Impersonal “se” asks about rules in general: “¿Se aceptan mascotas?”, “¿Se puede fumar?”.",
+        "vi": "“Se” vô nhân xưng dùng hỏi quy định chung: “¿Se aceptan mascotas?”, “¿Se puede fumar?”."
+      },
+      "icon": "home",
+      "phrases": [
+        {
+          "es": "Busco un departamento amueblado.",
+          "en": "I'm looking for a furnished apartment.",
+          "vi": "Tôi tìm căn hộ có sẵn nội thất."
+        },
+        {
+          "es": "¿Cuánto es la renta al mes?",
+          "en": "How much is the rent per month?",
+          "vi": "Tiền thuê mỗi tháng bao nhiêu?"
+        },
+        {
+          "es": "¿Están incluidos los servicios?",
+          "en": "Are utilities included?",
+          "vi": "Đã gồm điện nước chưa?"
+        },
+        {
+          "es": "¿Se aceptan mascotas?",
+          "en": "Are pets allowed?",
+          "vi": "Có cho nuôi thú cưng không?"
+        },
+        {
+          "es": "¿Cuánto hay que dejar de depósito?",
+          "en": "How much is the deposit?",
+          "vi": "Phải đặt cọc bao nhiêu?"
+        },
+        {
+          "es": "¿Cuándo me puedo mudar?",
+          "en": "When can I move in?",
+          "vi": "Khi nào tôi chuyển vào được?"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "title": {
+        "en": "Repairs & services",
+        "vi": "Sửa chữa & dịch vụ"
+      },
+      "description": {
+        "en": "Report problems and arrange a fix.",
+        "vi": "Báo sự cố và hẹn sửa."
+      },
+      "focus": {
+        "en": "“Para” for purpose and deadlines (para mañana, para mi cocina); “por” for cause and exchange (gracias por, por cien pesos).",
+        "vi": "“Para” chỉ mục đích và hạn chót (para mañana, para mi cocina); “por” chỉ nguyên nhân và trao đổi (gracias por, por cien pesos)."
+      },
+      "icon": "tool",
+      "phrases": [
+        {
+          "es": "Hay una fuga de agua en el baño.",
+          "en": "There's a water leak in the bathroom.",
+          "vi": "Nhà tắm bị rò nước."
+        },
+        {
+          "es": "Se fue la luz.",
+          "en": "The power went out.",
+          "vi": "Mất điện rồi."
+        },
+        {
+          "es": "El refrigerador no enfría.",
+          "en": "The fridge isn't cooling.",
+          "vi": "Tủ lạnh không lạnh."
+        },
+        {
+          "es": "¿Cuándo pueden venir a arreglarlo?",
+          "en": "When can you come to fix it?",
+          "vi": "Khi nào các anh đến sửa được?"
+        },
+        {
+          "es": "Lo necesito para mañana.",
+          "en": "I need it by tomorrow.",
+          "vi": "Tôi cần xong trước ngày mai."
+        },
+        {
+          "es": "Es para mi cocina.",
+          "en": "It's for my kitchen.",
+          "vi": "Cái này là cho bếp nhà tôi."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "landlord",
+      "title": {
+        "en": "Call the landlord",
+        "vi": "Gọi cho chủ nhà"
+      },
+      "description": {
+        "en": "Report a leak and agree on a repair time.",
+        "vi": "Báo rò nước và hẹn giờ sửa."
+      },
+      "icon": "map-pin",
+      "duration": "3 min",
+      "start": "problem",
+      "nodes": [
+        {
+          "id": "problem",
+          "prompt": "¿Bueno? Habla el señor Ramírez.",
+          "translation": {
+            "en": "Hello? Mr. Ramírez speaking.",
+            "vi": "A lô? Ramírez nghe đây."
+          },
+          "hint": {
+            "en": "Explain the problem clearly.",
+            "vi": "Trình bày sự cố rõ ràng."
+          },
+          "choices": [
+            {
+              "id": "leak",
+              "es": "Hola, soy su inquilino. Hay una fuga de agua en el baño.",
+              "translation": {
+                "en": "Hi, I'm your tenant. There's a water leak in the bathroom.",
+                "vi": "Chào ông, tôi là người thuê nhà. Nhà tắm bị rò nước."
+              },
+              "correct": true,
+              "response": "¡Ay, no! ¿Es mucha agua?",
+              "responseTranslation": {
+                "en": "Oh no! Is it a lot of water?",
+                "vi": "Ôi không! Rò nhiều không?"
+              },
+              "next": "how-bad"
+            },
+            {
+              "id": "fridge",
+              "es": "Buenas, soy del departamento 3. El refrigerador no enfría.",
+              "translation": {
+                "en": "Hello, I'm in apartment 3. The fridge isn't cooling.",
+                "vi": "Chào ông, tôi ở căn số 3. Tủ lạnh không lạnh."
+              },
+              "correct": true,
+              "response": "Entiendo. ¿Desde cuándo?",
+              "responseTranslation": {
+                "en": "I see. Since when?",
+                "vi": "Tôi hiểu. Từ khi nào?"
+              },
+              "next": "how-bad"
+            },
+            {
+              "id": "rent",
+              "es": "¿Cuánto es la renta al mes?",
+              "translation": {
+                "en": "How much is the rent per month?",
+                "vi": "Tiền thuê mỗi tháng bao nhiêu?"
+              },
+              "correct": false,
+              "correction": "Hola, soy su inquilino. Hay una fuga de agua en el baño.",
+              "response": "Usted ya vive ahí… ¿Pasa algo en el departamento?",
+              "responseTranslation": {
+                "en": "You already live there… Is something wrong in the apartment?",
+                "vi": "Anh đã ở đó rồi mà… Căn hộ có vấn đề gì à?"
+              },
+              "next": "how-bad"
+            }
+          ]
+        },
+        {
+          "id": "how-bad",
+          "prompt": "¿Es urgente o puede esperar?",
+          "translation": {
+            "en": "Is it urgent or can it wait?",
+            "vi": "Có gấp không hay đợi được?"
+          },
+          "hint": {
+            "en": "Explain how serious it is.",
+            "vi": "Giải thích mức độ nghiêm trọng."
+          },
+          "choices": [
+            {
+              "id": "urgent",
+              "es": "Es bastante urgente, el piso está mojado.",
+              "translation": {
+                "en": "It's quite urgent, the floor is wet.",
+                "vi": "Khá gấp, sàn nhà ướt hết rồi."
+              },
+              "correct": true,
+              "response": "Mando al plomero hoy mismo. ¿A qué hora está en casa?",
+              "responseTranslation": {
+                "en": "I'll send the plumber today. What time are you home?",
+                "vi": "Tôi gửi thợ ống nước ngay hôm nay. Mấy giờ anh ở nhà?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "wait",
+              "es": "Puede esperar, pero lo necesito para el viernes.",
+              "translation": {
+                "en": "It can wait, but I need it done by Friday.",
+                "vi": "Đợi được, nhưng tôi cần sửa xong trước thứ Sáu."
+              },
+              "correct": true,
+              "response": "Bien, el jueves va alguien. ¿A qué hora está en casa?",
+              "responseTranslation": {
+                "en": "OK, someone will go Thursday. What time are you home?",
+                "vi": "Được, thứ Năm có người đến. Mấy giờ anh ở nhà?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "light",
+              "es": "Se fue la luz.",
+              "translation": {
+                "en": "The power went out.",
+                "vi": "Mất điện rồi."
+              },
+              "correct": false,
+              "correction": "Es bastante urgente, el piso está mojado.",
+              "response": "¿También eso? Primero el agua: ¿es urgente?",
+              "responseTranslation": {
+                "en": "That too? Water first: is it urgent?",
+                "vi": "Cả cái đó nữa à? Trước hết là nước: có gấp không?"
+              },
+              "next": "time"
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "prompt": "¿A qué hora puede estar en casa?",
+          "translation": {
+            "en": "What time can you be home?",
+            "vi": "Mấy giờ anh có ở nhà?"
+          },
+          "hint": {
+            "en": "Give a time that works.",
+            "vi": "Nói giờ tiện cho bạn."
+          },
+          "choices": [
+            {
+              "id": "after",
+              "es": "Después de las seis estoy en casa.",
+              "translation": {
+                "en": "I'm home after six.",
+                "vi": "Sau sáu giờ tôi ở nhà."
+              },
+              "correct": true,
+              "response": "Perfecto, el plomero llega a las seis y media.",
+              "responseTranslation": {
+                "en": "Perfect, the plumber will arrive at six-thirty.",
+                "vi": "Tuyệt, thợ sẽ đến lúc sáu rưỡi."
+              }
+            },
+            {
+              "id": "morning",
+              "es": "Mañana en la mañana, antes de las diez.",
+              "translation": {
+                "en": "Tomorrow morning, before ten.",
+                "vi": "Sáng mai, trước mười giờ."
+              },
+              "correct": true,
+              "response": "De acuerdo, a las nueve llega.",
+              "responseTranslation": {
+                "en": "Agreed, he'll arrive at nine.",
+                "vi": "Được, chín giờ thợ đến."
+              }
+            },
+            {
+              "id": "thanks",
+              "es": "Gracias por todo.",
+              "translation": {
+                "en": "Thanks for everything.",
+                "vi": "Cảm ơn ông vì mọi thứ."
+              },
+              "correct": false,
+              "correction": "Después de las seis estoy en casa.",
+              "response": "De nada, pero ¿a qué hora lo encuentro?",
+              "responseTranslation": {
+                "en": "You're welcome, but what time will you be there?",
+                "vi": "Không có gì, nhưng mấy giờ anh ở nhà?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

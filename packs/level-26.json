@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "level-26",
+  "version": 1,
+  "level": 26,
+  "cefr": "C1",
+  "title": {
+    "en": "Advanced 2: Idioms & Mexican slang",
+    "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico"
+  },
+  "description": {
+    "en": "Sound like a local with everyday expressions.",
+    "vi": "Nói như người bản xứ với các cách diễn đạt đời thường."
+  },
+  "lessons": [
+    {
+      "id": "slang",
+      "title": {
+        "en": "Mexican slang",
+        "vi": "Tiếng lóng Mexico"
+      },
+      "description": {
+        "en": "Casual words you'll hear every day.",
+        "vi": "Những từ thân mật bạn sẽ nghe mỗi ngày."
+      },
+      "focus": {
+        "en": "Slang is for friends. In formal settings, switch back to neutral Spanish.",
+        "vi": "Tiếng lóng chỉ dùng với bạn bè. Khi trang trọng, quay lại tiếng Tây Ban Nha chuẩn."
+      },
+      "icon": "smile",
+      "phrases": [
+        {
+          "es": "¡Qué padre!",
+          "en": "How cool!",
+          "vi": "Hay quá! / Đỉnh ghê!"
+        },
+        {
+          "es": "¡No manches!",
+          "en": "No way! / You're kidding!",
+          "vi": "Không thể nào! / Đùa à!",
+          "note": {
+            "en": "Very casual; avoid it in formal settings.",
+            "vi": "Rất thân mật; tránh dùng khi trang trọng."
+          }
+        },
+        {
+          "es": "¿Qué onda?",
+          "en": "What's up?",
+          "vi": "Sao rồi? / Có gì không?"
+        },
+        {
+          "es": "Ahorita lo hago.",
+          "en": "I'll do it in a bit (or… eventually).",
+          "vi": "Tôi làm ngay đây (hoặc… lát nữa).",
+          "note": {
+            "en": "“Ahorita” can mean now, soon, or much later!",
+            "vi": "“Ahorita” có thể là ngay, lát nữa hoặc rất lâu nữa!"
+          }
+        },
+        {
+          "es": "Está chido.",
+          "en": "It's cool / nice.",
+          "vi": "Hay đấy / Được đấy."
+        },
+        {
+          "es": "¡Aguas!",
+          "en": "Watch out!",
+          "vi": "Coi chừng!"
+        }
+      ]
+    },
+    {
+      "id": "idioms",
+      "title": {
+        "en": "Common idioms",
+        "vi": "Thành ngữ thông dụng"
+      },
+      "description": {
+        "en": "Expressions that don't translate word for word.",
+        "vi": "Những cách nói không dịch từng chữ được."
+      },
+      "focus": {
+        "en": "Learn idioms as whole chunks, with the situation they belong to.",
+        "vi": "Học thành ngữ theo cả cụm, gắn với tình huống sử dụng."
+      },
+      "icon": "feather",
+      "phrases": [
+        {
+          "es": "Me cayó el veinte.",
+          "en": "The penny dropped. / I finally got it.",
+          "vi": "Giờ tôi mới vỡ lẽ."
+        },
+        {
+          "es": "Estoy hasta el gorro.",
+          "en": "I'm fed up.",
+          "vi": "Tôi chán ngấy rồi."
+        },
+        {
+          "es": "Es pan comido.",
+          "en": "It's a piece of cake.",
+          "vi": "Dễ như ăn bánh."
+        },
+        {
+          "es": "Echarle ganas.",
+          "en": "To give it your all.",
+          "vi": "Cố gắng hết sức."
+        },
+        {
+          "es": "No tiene pelos en la lengua.",
+          "en": "He doesn't mince his words.",
+          "vi": "Anh ta ăn nói thẳng thừng."
+        },
+        {
+          "es": "Más vale tarde que nunca.",
+          "en": "Better late than never.",
+          "vi": "Muộn còn hơn không."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "friends-hangout",
+      "title": {
+        "en": "Hang out with friends",
+        "vi": "Đi chơi với bạn bè"
+      },
+      "description": {
+        "en": "Keep up with casual Mexican Spanish.",
+        "vi": "Theo kịp tiếng Tây Ban Nha Mexico thân mật."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "hi",
+      "nodes": [
+        {
+          "id": "hi",
+          "prompt": "¡Qué onda! ¿Cómo te fue en el examen?",
+          "translation": {
+            "en": "What's up! How did the exam go?",
+            "vi": "Sao rồi! Thi cử thế nào?"
+          },
+          "hint": {
+            "en": "Answer casually, maybe with an idiom.",
+            "vi": "Trả lời thân mật, có thể dùng thành ngữ."
+          },
+          "choices": [
+            {
+              "id": "easy",
+              "es": "¡Bien! Fue pan comido.",
+              "translation": {
+                "en": "Good! It was a piece of cake.",
+                "vi": "Ổn! Dễ như ăn bánh."
+              },
+              "correct": true,
+              "response": "¡Qué padre! Hay que celebrar.",
+              "responseTranslation": {
+                "en": "How cool! We have to celebrate.",
+                "vi": "Đỉnh thật! Phải ăn mừng thôi."
+              },
+              "next": "plan"
+            },
+            {
+              "id": "hard",
+              "es": "Uf, difícil, pero le eché ganas.",
+              "translation": {
+                "en": "Ugh, tough, but I gave it my all.",
+                "vi": "Ôi, khó lắm, nhưng mình đã cố hết sức."
+              },
+              "correct": true,
+              "response": "Eso es lo importante. Vamos a celebrar.",
+              "responseTranslation": {
+                "en": "That's what matters. Let's celebrate.",
+                "vi": "Thế là được rồi. Đi ăn mừng nào."
+              },
+              "next": "plan"
+            },
+            {
+              "id": "formal",
+              "es": "Estimado amigo, el examen transcurrió de forma satisfactoria.",
+              "translation": {
+                "en": "Dear friend, the exam proceeded satisfactorily.",
+                "vi": "Bạn thân mến, kỳ thi đã diễn ra tốt đẹp."
+              },
+              "correct": false,
+              "correction": "¡Bien! Fue pan comido.",
+              "response": "Jaja, ¡qué formal! Relájate, wey.",
+              "responseTranslation": {
+                "en": "Haha, so formal! Relax, dude.",
+                "vi": "Haha, trang trọng thế! Thả lỏng đi bạn."
+              },
+              "next": "plan"
+            }
+          ]
+        },
+        {
+          "id": "plan",
+          "prompt": "¿Vamos por unos tacos ahorita?",
+          "translation": {
+            "en": "Shall we go for some tacos now(ish)?",
+            "vi": "Đi ăn tacos giờ (hoặc lát nữa) không?"
+          },
+          "hint": {
+            "en": "Ask what “ahorita” means here, or agree.",
+            "vi": "Hỏi “ahorita” ở đây là khi nào, hoặc đồng ý."
+          },
+          "choices": [
+            {
+              "id": "now",
+              "es": "¿Ahorita ahorita o ahorita en un rato?",
+              "translation": {
+                "en": "Like right now, or “ahorita” in a while?",
+                "vi": "Ngay bây giờ hay một lúc nữa?"
+              },
+              "correct": true,
+              "response": "Jaja, ahorita ahorita. ¡Vámonos!",
+              "responseTranslation": {
+                "en": "Haha, right now. Let's go!",
+                "vi": "Haha, ngay bây giờ. Đi thôi!"
+              },
+              "next": "taco"
+            },
+            {
+              "id": "yes",
+              "es": "¡Está chido! Vámonos.",
+              "translation": {
+                "en": "Cool! Let's go.",
+                "vi": "Được đấy! Đi thôi."
+              },
+              "correct": true,
+              "response": "¡Órale! Conozco un lugar buenísimo.",
+              "responseTranslation": {
+                "en": "Alright! I know a great place.",
+                "vi": "Ok luôn! Mình biết một chỗ ngon lắm."
+              },
+              "next": "taco"
+            },
+            {
+              "id": "slow",
+              "es": "Más vale tarde que nunca.",
+              "translation": {
+                "en": "Better late than never.",
+                "vi": "Muộn còn hơn không."
+              },
+              "correct": false,
+              "correction": "¡Está chido! Vámonos.",
+              "response": "¿Eso es un sí? Jaja, vámonos.",
+              "responseTranslation": {
+                "en": "Is that a yes? Haha, let's go.",
+                "vi": "Thế là đồng ý à? Haha, đi thôi."
+              },
+              "next": "taco"
+            }
+          ]
+        },
+        {
+          "id": "taco",
+          "prompt": "¡Aguas! Esa salsa pica muchísimo.",
+          "translation": {
+            "en": "Watch out! That salsa is really spicy.",
+            "vi": "Coi chừng! Sốt đó cay lắm đấy."
+          },
+          "hint": {
+            "en": "React naturally.",
+            "vi": "Phản ứng tự nhiên."
+          },
+          "choices": [
+            {
+              "id": "manches",
+              "es": "¡No manches, pica demasiado!",
+              "translation": {
+                "en": "No way, it's way too spicy!",
+                "vi": "Trời ơi, cay quá trời!"
+              },
+              "correct": true,
+              "response": "¡Te dije! Toma agua.",
+              "responseTranslation": {
+                "en": "I told you! Have some water.",
+                "vi": "Đã bảo mà! Uống nước đi."
+              }
+            },
+            {
+              "id": "thanks",
+              "es": "Gracias por avisar. Mejor la verde.",
+              "translation": {
+                "en": "Thanks for the heads-up. The green one's better.",
+                "vi": "Cảm ơn đã nhắc. Lấy sốt xanh thôi."
+              },
+              "correct": true,
+              "response": "Buena decisión.",
+              "responseTranslation": {
+                "en": "Good call.",
+                "vi": "Chọn đúng đấy."
+              }
+            },
+            {
+              "id": "water",
+              "es": "¿Dónde está el agua?",
+              "translation": {
+                "en": "Where is the water?",
+                "vi": "Nước ở đâu?"
+              },
+              "correct": false,
+              "correction": "¡No manches, pica demasiado!",
+              "response": "Jaja, ya te picó, ¿verdad? Aquí está el agua.",
+              "responseTranslation": {
+                "en": "Haha, it already got you, right? Here's the water.",
+                "vi": "Haha, cay rồi phải không? Nước đây."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

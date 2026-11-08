@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-06",
-  "version": 1,
+  "version": 2,
   "level": 6,
   "cefr": "A2",
   "title": {
@@ -55,7 +55,11 @@
           "en": "my grandparents",
           "vi": "ông bà tôi"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Possessives agree in number: mi hermano, mis hermanos.",
+        "vi": "Tính từ sở hữu hợp số: mi hermano, mis hermanos."
+      }
     },
     {
       "id": "home",
@@ -99,7 +103,11 @@
           "en": "I live with my family.",
           "vi": "Tôi sống cùng gia đình."
         }
-      ]
+      ],
+      "focus": {
+        "en": "“Vivo en…” for where you live; “tengo” for what you have.",
+        "vi": "“Vivo en…” để nói nơi bạn sống; “tengo” cho thứ bạn có."
+      }
     }
   ],
   "conversations": [

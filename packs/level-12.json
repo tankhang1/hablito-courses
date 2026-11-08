@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-12",
+  "version": 1,
+  "level": 12,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 4: Describing people & places",
+    "vi": "Trung cấp 4: Miêu tả người & nơi chốn"
+  },
+  "description": {
+    "en": "Describe looks, personality, and places.",
+    "vi": "Miêu tả ngoại hình, tính cách và nơi chốn."
+  },
+  "lessons": [
+    {
+      "id": "people",
+      "title": {
+        "en": "Describing people",
+        "vi": "Miêu tả người"
+      },
+      "description": {
+        "en": "Looks and personality.",
+        "vi": "Ngoại hình và tính cách."
+      },
+      "focus": {
+        "en": "“Ser” for what someone is like (es alta, es simpático); “estar” for states and moods (está cansado).",
+        "vi": "“Ser” cho bản chất, đặc điểm (es alta, es simpático); “estar” cho trạng thái, tâm trạng (está cansado)."
+      },
+      "icon": "user",
+      "phrases": [
+        {
+          "es": "Mi hermana es alta y delgada.",
+          "en": "My sister is tall and slim.",
+          "vi": "Chị tôi cao và mảnh khảnh."
+        },
+        {
+          "es": "Tiene el pelo largo y los ojos cafés.",
+          "en": "She has long hair and brown eyes.",
+          "vi": "Cô ấy có tóc dài và mắt nâu."
+        },
+        {
+          "es": "Es muy simpático.",
+          "en": "He's very friendly.",
+          "vi": "Anh ấy rất thân thiện."
+        },
+        {
+          "es": "Es un poco tímida.",
+          "en": "She's a bit shy.",
+          "vi": "Cô ấy hơi nhút nhát."
+        },
+        {
+          "es": "Hoy está muy cansado.",
+          "en": "Today he's very tired.",
+          "vi": "Hôm nay anh ấy rất mệt."
+        },
+        {
+          "es": "Se parece a su padre.",
+          "en": "He looks like his father.",
+          "vi": "Anh ấy giống bố."
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "title": {
+        "en": "Describing places",
+        "vi": "Miêu tả nơi chốn"
+      },
+      "description": {
+        "en": "Talk about towns and neighborhoods.",
+        "vi": "Nói về thành phố và khu phố."
+      },
+      "focus": {
+        "en": "Compare with “más… que” and “menos… que”; the superlative is “el más…”.",
+        "vi": "So sánh với “más… que” và “menos… que”; so sánh nhất là “el más…”."
+      },
+      "icon": "map",
+      "phrases": [
+        {
+          "es": "Mi barrio es tranquilo.",
+          "en": "My neighborhood is quiet.",
+          "vi": "Khu tôi ở yên tĩnh."
+        },
+        {
+          "es": "La ciudad está muy llena hoy.",
+          "en": "The city is very crowded today.",
+          "vi": "Hôm nay thành phố rất đông."
+        },
+        {
+          "es": "Hay muchos árboles y parques.",
+          "en": "There are lots of trees and parks.",
+          "vi": "Có nhiều cây và công viên."
+        },
+        {
+          "es": "Está cerca del centro.",
+          "en": "It's near downtown.",
+          "vi": "Nó gần trung tâm."
+        },
+        {
+          "es": "Es más grande que mi pueblo.",
+          "en": "It's bigger than my town.",
+          "vi": "Nó lớn hơn thị trấn của tôi."
+        },
+        {
+          "es": "Es el lugar más bonito que conozco.",
+          "en": "It's the prettiest place I know.",
+          "vi": "Đó là nơi đẹp nhất tôi biết."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "describe-friend",
+      "title": {
+        "en": "Describe a friend",
+        "vi": "Miêu tả một người bạn"
+      },
+      "description": {
+        "en": "Help someone recognize your friend at the airport.",
+        "vi": "Giúp ai đó nhận ra bạn của bạn ở sân bay."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "look",
+      "nodes": [
+        {
+          "id": "look",
+          "prompt": "¿Cómo es tu amiga? No la conozco.",
+          "translation": {
+            "en": "What does your friend look like? I don't know her.",
+            "vi": "Bạn của bạn trông thế nào? Mình chưa gặp cô ấy."
+          },
+          "hint": {
+            "en": "Use “es” and “tiene”.",
+            "vi": "Dùng “es” và “tiene”."
+          },
+          "choices": [
+            {
+              "id": "tall",
+              "es": "Es alta y tiene el pelo largo y negro.",
+              "translation": {
+                "en": "She's tall and has long black hair.",
+                "vi": "Cô ấy cao, tóc dài màu đen."
+              },
+              "correct": true,
+              "response": "Perfecto. ¿Y cómo es de personalidad?",
+              "responseTranslation": {
+                "en": "Perfect. And what's her personality like?",
+                "vi": "Tuyệt. Còn tính cách cô ấy thế nào?"
+              },
+              "next": "personality"
+            },
+            {
+              "id": "glasses",
+              "es": "Es bajita, usa lentes y tiene el pelo corto.",
+              "translation": {
+                "en": "She's short, wears glasses, and has short hair.",
+                "vi": "Cô ấy thấp, đeo kính và tóc ngắn."
+              },
+              "correct": true,
+              "response": "Muy bien. ¿Y su personalidad?",
+              "responseTranslation": {
+                "en": "Great. And her personality?",
+                "vi": "Được. Còn tính cách?"
+              },
+              "next": "personality"
+            },
+            {
+              "id": "tired",
+              "es": "Está cansada.",
+              "translation": {
+                "en": "She's tired.",
+                "vi": "Cô ấy mệt."
+              },
+              "correct": false,
+              "correction": "Es alta y tiene el pelo largo y negro.",
+              "response": "Pobrecita, pero ¿cómo la reconozco? ¿Cómo es?",
+              "responseTranslation": {
+                "en": "Poor thing, but how do I recognize her? What's she like?",
+                "vi": "Tội nghiệp, nhưng làm sao mình nhận ra? Cô ấy trông thế nào?"
+              },
+              "next": "personality"
+            }
+          ]
+        },
+        {
+          "id": "personality",
+          "prompt": "¿Y cómo es de carácter?",
+          "translation": {
+            "en": "And what's she like as a person?",
+            "vi": "Thế tính cách cô ấy ra sao?"
+          },
+          "hint": {
+            "en": "Use “es” for personality.",
+            "vi": "Dùng “es” cho tính cách."
+          },
+          "choices": [
+            {
+              "id": "friendly",
+              "es": "Es muy simpática y habla mucho.",
+              "translation": {
+                "en": "She's very friendly and talks a lot.",
+                "vi": "Cô ấy rất thân thiện và nói nhiều."
+              },
+              "correct": true,
+              "response": "¡Me va a caer bien! ¿Dónde vive?",
+              "responseTranslation": {
+                "en": "I'll like her! Where does she live?",
+                "vi": "Chắc mình sẽ quý cô ấy! Cô ấy sống ở đâu?"
+              },
+              "next": "city"
+            },
+            {
+              "id": "shy",
+              "es": "Es un poco tímida, pero muy amable.",
+              "translation": {
+                "en": "She's a bit shy, but very kind.",
+                "vi": "Cô ấy hơi nhút nhát nhưng rất tốt bụng."
+              },
+              "correct": true,
+              "response": "Entiendo. ¿Dónde vive?",
+              "responseTranslation": {
+                "en": "I see. Where does she live?",
+                "vi": "Mình hiểu. Cô ấy sống ở đâu?"
+              },
+              "next": "city"
+            },
+            {
+              "id": "estar",
+              "es": "Está simpática.",
+              "translation": {
+                "en": "She's being friendly (wrong verb).",
+                "vi": "Cô ấy đang thân thiện (sai động từ)."
+              },
+              "correct": false,
+              "correction": "Es muy simpática y habla mucho.",
+              "response": "Para la personalidad decimos “es simpática”. ¿Dónde vive?",
+              "responseTranslation": {
+                "en": "For personality we say “es simpática”. Where does she live?",
+                "vi": "Với tính cách ta nói “es simpática”. Cô ấy sống ở đâu?"
+              },
+              "next": "city"
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "prompt": "¿Y cómo es la ciudad donde vive?",
+          "translation": {
+            "en": "And what's the city where she lives like?",
+            "vi": "Thành phố cô ấy sống thế nào?"
+          },
+          "hint": {
+            "en": "Describe and compare.",
+            "vi": "Miêu tả và so sánh."
+          },
+          "choices": [
+            {
+              "id": "bigger",
+              "es": "Es más grande que esta ciudad, pero muy tranquila.",
+              "translation": {
+                "en": "It's bigger than this city, but very quiet.",
+                "vi": "Lớn hơn thành phố này nhưng rất yên tĩnh."
+              },
+              "correct": true,
+              "response": "Suena bonita. ¡Gracias!",
+              "responseTranslation": {
+                "en": "Sounds lovely. Thanks!",
+                "vi": "Nghe hay đấy. Cảm ơn nhé!"
+              }
+            },
+            {
+              "id": "prettiest",
+              "es": "Es el lugar más bonito que conozco.",
+              "translation": {
+                "en": "It's the prettiest place I know.",
+                "vi": "Đó là nơi đẹp nhất mình biết."
+              },
+              "correct": true,
+              "response": "¡Tengo que ir algún día!",
+              "responseTranslation": {
+                "en": "I have to go someday!",
+                "vi": "Mình phải đến đó một lần mới được!"
+              }
+            },
+            {
+              "id": "near",
+              "es": "Está cerca.",
+              "translation": {
+                "en": "It's near.",
+                "vi": "Gần đây."
+              },
+              "correct": false,
+              "correction": "Es más grande que esta ciudad, pero muy tranquila.",
+              "response": "¿Cerca de qué? Cuéntame cómo es.",
+              "responseTranslation": {
+                "en": "Near what? Tell me what it's like.",
+                "vi": "Gần cái gì? Kể mình nghe nó thế nào đi."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

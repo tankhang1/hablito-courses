@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-29",
+  "version": 1,
+  "level": 29,
+  "cefr": "C1",
+  "title": {
+    "en": "Advanced 5: Society & technology",
+    "vi": "Cao cấp 5: Xã hội & công nghệ"
+  },
+  "description": {
+    "en": "Discuss abstract topics with precision.",
+    "vi": "Bàn luận chủ đề trừu tượng một cách chính xác."
+  },
+  "lessons": [
+    {
+      "id": "cause-effect",
+      "title": {
+        "en": "Cause & effect",
+        "vi": "Nguyên nhân & kết quả"
+      },
+      "description": {
+        "en": "Explain why things happen.",
+        "vi": "Giải thích vì sao sự việc xảy ra."
+      },
+      "focus": {
+        "en": "Formal connectors: debido a + noun, dado que + clause, por lo tanto / como consecuencia for results.",
+        "vi": "Từ nối trang trọng: debido a + danh từ, dado que + mệnh đề, por lo tanto / como consecuencia cho kết quả."
+      },
+      "icon": "cpu",
+      "phrases": [
+        {
+          "es": "Debido al uso de las redes sociales, leemos menos.",
+          "en": "Due to social media use, we read less.",
+          "vi": "Do sử dụng mạng xã hội, chúng ta đọc ít hơn."
+        },
+        {
+          "es": "La inteligencia artificial está transformando el trabajo.",
+          "en": "Artificial intelligence is transforming work.",
+          "vi": "Trí tuệ nhân tạo đang thay đổi công việc."
+        },
+        {
+          "es": "Por lo tanto, hay que adaptarse.",
+          "en": "Therefore, we have to adapt.",
+          "vi": "Vì vậy, chúng ta phải thích nghi."
+        },
+        {
+          "es": "Esto se debe a varios factores.",
+          "en": "This is due to several factors.",
+          "vi": "Điều này do nhiều yếu tố."
+        },
+        {
+          "es": "Como consecuencia, cambian los hábitos.",
+          "en": "As a result, habits change.",
+          "vi": "Kết quả là thói quen thay đổi."
+        },
+        {
+          "es": "Dado que todo está en línea, la privacidad importa más.",
+          "en": "Given that everything is online, privacy matters more.",
+          "vi": "Vì mọi thứ đều trực tuyến, quyền riêng tư càng quan trọng."
+        }
+      ]
+    },
+    {
+      "id": "speculating",
+      "title": {
+        "en": "Speculating about the future",
+        "vi": "Suy đoán về tương lai"
+      },
+      "description": {
+        "en": "Talk about what may happen.",
+        "vi": "Nói về điều có thể xảy ra."
+      },
+      "focus": {
+        "en": "Probability + subjunctive (es probable que, puede que); certainty + indicative (no cabe duda de que es).",
+        "vi": "Khả năng + giả định (es probable que, puede que); chắc chắn + trần thuật (no cabe duda de que es)."
+      },
+      "icon": "trending-up",
+      "phrases": [
+        {
+          "es": "Es probable que muchos trabajos desaparezcan.",
+          "en": "It's likely that many jobs will disappear.",
+          "vi": "Có khả năng nhiều công việc sẽ biến mất."
+        },
+        {
+          "es": "Puede que en diez años no usemos efectivo.",
+          "en": "It may be that in ten years we won't use cash.",
+          "vi": "Có thể mười năm nữa chúng ta không dùng tiền mặt."
+        },
+        {
+          "es": "Para entonces, habremos cambiado mucho.",
+          "en": "By then, we will have changed a lot.",
+          "vi": "Đến lúc đó, chúng ta đã thay đổi rất nhiều."
+        },
+        {
+          "es": "Todo dependerá de cómo lo usemos.",
+          "en": "It will all depend on how we use it.",
+          "vi": "Mọi thứ sẽ tùy vào cách chúng ta sử dụng."
+        },
+        {
+          "es": "No cabe duda de que es útil.",
+          "en": "There's no doubt that it's useful.",
+          "vi": "Không còn nghi ngờ gì là nó hữu ích."
+        },
+        {
+          "es": "Está por verse.",
+          "en": "That remains to be seen.",
+          "vi": "Điều đó còn phải chờ xem."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "ai-debate",
+      "title": {
+        "en": "Discuss AI and work",
+        "vi": "Bàn về AI và việc làm"
+      },
+      "description": {
+        "en": "Explain causes and speculate about the future.",
+        "vi": "Giải thích nguyên nhân và suy đoán tương lai."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "view",
+      "nodes": [
+        {
+          "id": "view",
+          "prompt": "¿Tú crees que la inteligencia artificial nos va a quitar el trabajo?",
+          "translation": {
+            "en": "Do you think AI is going to take our jobs?",
+            "vi": "Bạn có nghĩ AI sẽ cướp việc của chúng ta không?"
+          },
+          "hint": {
+            "en": "Speculate with “es probable que / puede que”.",
+            "vi": "Suy đoán với “es probable que / puede que”."
+          },
+          "choices": [
+            {
+              "id": "likely",
+              "es": "Es probable que algunos trabajos desaparezcan, pero surgirán otros.",
+              "translation": {
+                "en": "It's likely some jobs will disappear, but others will emerge.",
+                "vi": "Có khả năng một số việc biến mất, nhưng việc mới sẽ xuất hiện."
+              },
+              "correct": true,
+              "response": "¿Por qué lo piensas?",
+              "responseTranslation": {
+                "en": "Why do you think so?",
+                "vi": "Sao bạn nghĩ vậy?"
+              },
+              "next": "why"
+            },
+            {
+              "id": "depends",
+              "es": "Puede que sí, pero todo dependerá de cómo lo usemos.",
+              "translation": {
+                "en": "Maybe, but it'll all depend on how we use it.",
+                "vi": "Có thể, nhưng tất cả tùy cách chúng ta dùng nó."
+              },
+              "correct": true,
+              "response": "Interesante. ¿Por qué?",
+              "responseTranslation": {
+                "en": "Interesting. Why?",
+                "vi": "Thú vị. Vì sao?"
+              },
+              "next": "why"
+            },
+            {
+              "id": "indic",
+              "es": "Es probable que algunos trabajos desaparecen.",
+              "translation": {
+                "en": "It's likely some jobs disappear (wrong form).",
+                "vi": "Có khả năng vài việc biến mất (sai dạng)."
+              },
+              "correct": false,
+              "correction": "Es probable que algunos trabajos desaparezcan, pero surgirán otros.",
+              "response": "“Desaparezcan”, ¿verdad? ¿Y por qué lo crees?",
+              "responseTranslation": {
+                "en": "“Desaparezcan”, right? And why do you think so?",
+                "vi": "Phải là “desaparezcan” nhỉ? Thế sao bạn nghĩ vậy?"
+              },
+              "next": "why"
+            }
+          ]
+        },
+        {
+          "id": "why",
+          "prompt": "¿En qué te basas?",
+          "translation": {
+            "en": "What are you basing that on?",
+            "vi": "Bạn dựa vào đâu để nói vậy?"
+          },
+          "hint": {
+            "en": "Explain causes with formal connectors.",
+            "vi": "Giải thích nguyên nhân bằng từ nối trang trọng."
+          },
+          "choices": [
+            {
+              "id": "history",
+              "es": "Dado que ya pasó con otras tecnologías, por lo tanto creo que nos adaptaremos.",
+              "translation": {
+                "en": "Given it already happened with other technologies, I believe we'll adapt.",
+                "vi": "Vì chuyện này đã xảy ra với các công nghệ khác, nên mình tin chúng ta sẽ thích nghi."
+              },
+              "correct": true,
+              "response": "Tiene lógica. ¿Y en diez años?",
+              "responseTranslation": {
+                "en": "That's logical. And in ten years?",
+                "vi": "Có lý. Thế mười năm nữa?"
+              },
+              "next": "future"
+            },
+            {
+              "id": "speed",
+              "es": "Debido a la velocidad del cambio, hay que aprender cosas nuevas siempre.",
+              "translation": {
+                "en": "Due to the speed of change, we always have to learn new things.",
+                "vi": "Do tốc độ thay đổi, chúng ta luôn phải học điều mới."
+              },
+              "correct": true,
+              "response": "Totalmente. ¿Y en diez años cómo lo ves?",
+              "responseTranslation": {
+                "en": "Totally. And how do you see it in ten years?",
+                "vi": "Đúng vậy. Thế mười năm nữa bạn thấy sao?"
+              },
+              "next": "future"
+            },
+            {
+              "id": "feeling",
+              "es": "Porque sí.",
+              "translation": {
+                "en": "Just because.",
+                "vi": "Vì vậy thôi."
+              },
+              "correct": false,
+              "correction": "Dado que ya pasó con otras tecnologías, por lo tanto creo que nos adaptaremos.",
+              "response": "Mmm, necesito un argumento mejor, jaja.",
+              "responseTranslation": {
+                "en": "Hmm, I need a better argument, haha.",
+                "vi": "Ừm, mình cần lý lẽ thuyết phục hơn, haha."
+              },
+              "next": "future"
+            }
+          ]
+        },
+        {
+          "id": "future",
+          "prompt": "¿Cómo será el trabajo en diez años?",
+          "translation": {
+            "en": "What will work be like in ten years?",
+            "vi": "Mười năm nữa công việc sẽ thế nào?"
+          },
+          "hint": {
+            "en": "Use the future perfect or “está por verse”.",
+            "vi": "Dùng tương lai hoàn thành hoặc “está por verse”."
+          },
+          "choices": [
+            {
+              "id": "changed",
+              "es": "Para entonces, habremos cambiado nuestra forma de trabajar por completo.",
+              "translation": {
+                "en": "By then, we'll have completely changed the way we work.",
+                "vi": "Đến lúc đó, cách chúng ta làm việc sẽ đã thay đổi hoàn toàn."
+              },
+              "correct": true,
+              "response": "No cabe duda. Fue una buena charla.",
+              "responseTranslation": {
+                "en": "No doubt. That was a good chat.",
+                "vi": "Chắc chắn rồi. Cuộc nói chuyện hay đấy."
+              }
+            },
+            {
+              "id": "unknown",
+              "es": "Sinceramente, está por verse.",
+              "translation": {
+                "en": "Honestly, it remains to be seen.",
+                "vi": "Thật lòng mà nói, còn phải chờ xem."
+              },
+              "correct": true,
+              "response": "Es verdad. Nadie lo sabe.",
+              "responseTranslation": {
+                "en": "True. Nobody knows.",
+                "vi": "Đúng vậy. Không ai biết được."
+              }
+            },
+            {
+              "id": "past",
+              "es": "Hace diez años no había smartphones.",
+              "translation": {
+                "en": "Ten years ago there were no smartphones.",
+                "vi": "Mười năm trước chưa có điện thoại thông minh."
+              },
+              "correct": false,
+              "correction": "Para entonces, habremos cambiado nuestra forma de trabajar por completo.",
+              "response": "Eso es el pasado. ¿Y el futuro?",
+              "responseTranslation": {
+                "en": "That's the past. And the future?",
+                "vi": "Đó là quá khứ. Còn tương lai?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

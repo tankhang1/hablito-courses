@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-14",
+  "version": 1,
+  "level": 14,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 6: Calls & appointments",
+    "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn"
+  },
+  "description": {
+    "en": "Handle phone calls and book appointments politely.",
+    "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự."
+  },
+  "lessons": [
+    {
+      "id": "phone",
+      "title": {
+        "en": "On the phone",
+        "vi": "Gọi điện thoại"
+      },
+      "description": {
+        "en": "Start, hold, and end a call.",
+        "vi": "Bắt đầu, chờ và kết thúc cuộc gọi."
+      },
+      "focus": {
+        "en": "Use “usted” and “le” on formal calls: “¿Le puedo…?”, “¿Me comunica…?”.",
+        "vi": "Dùng “usted” và “le” khi gọi trang trọng: “¿Le puedo…?”, “¿Me comunica…?”."
+      },
+      "icon": "phone",
+      "phrases": [
+        {
+          "es": "¿Bueno?",
+          "en": "Hello? (answering in Mexico)",
+          "vi": "A lô? (nghe máy ở Mexico)"
+        },
+        {
+          "es": "¿Me comunica con la señora Ruiz?",
+          "en": "Could you put me through to Mrs. Ruiz?",
+          "vi": "Cho tôi nói chuyện với bà Ruiz được không?"
+        },
+        {
+          "es": "¿De parte de quién?",
+          "en": "Who's calling?",
+          "vi": "Ai đang gọi vậy ạ?"
+        },
+        {
+          "es": "Un momento, por favor.",
+          "en": "One moment, please.",
+          "vi": "Xin chờ một chút."
+        },
+        {
+          "es": "¿Le puedo dejar un mensaje?",
+          "en": "Can I leave her a message?",
+          "vi": "Tôi để lại lời nhắn được không?"
+        },
+        {
+          "es": "Se cortó la llamada.",
+          "en": "The call dropped.",
+          "vi": "Cuộc gọi bị ngắt."
+        }
+      ]
+    },
+    {
+      "id": "booking",
+      "title": {
+        "en": "Booking appointments",
+        "vi": "Đặt lịch hẹn"
+      },
+      "description": {
+        "en": "Ask for times and confirm details.",
+        "vi": "Hỏi giờ và xác nhận thông tin."
+      },
+      "focus": {
+        "en": "“Quería…” and “¿Podría…?” are softer than “quiero” and “¿puede?”.",
+        "vi": "“Quería…” và “¿Podría…?” mềm mỏng hơn “quiero” và “¿puede?”."
+      },
+      "icon": "calendar",
+      "phrases": [
+        {
+          "es": "Quería hacer una cita.",
+          "en": "I'd like to make an appointment.",
+          "vi": "Tôi muốn đặt lịch hẹn."
+        },
+        {
+          "es": "¿Tiene algo disponible el jueves?",
+          "en": "Do you have anything available on Thursday?",
+          "vi": "Thứ Năm còn lịch trống không?"
+        },
+        {
+          "es": "¿Podría ser más temprano?",
+          "en": "Could it be earlier?",
+          "vi": "Có thể sớm hơn được không?"
+        },
+        {
+          "es": "Me queda bien a las cuatro.",
+          "en": "Four o'clock works for me.",
+          "vi": "Bốn giờ là tiện cho tôi."
+        },
+        {
+          "es": "Necesito cancelar mi cita.",
+          "en": "I need to cancel my appointment.",
+          "vi": "Tôi cần hủy lịch hẹn."
+        },
+        {
+          "es": "¿Me lo puede confirmar por correo?",
+          "en": "Could you confirm it by email?",
+          "vi": "Bạn xác nhận qua email giúp tôi được không?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "dentist",
+      "title": {
+        "en": "Book a dentist appointment",
+        "vi": "Đặt lịch khám nha sĩ"
+      },
+      "description": {
+        "en": "Call a clinic and find a time that works.",
+        "vi": "Gọi phòng khám và chọn giờ phù hợp."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "hello",
+      "nodes": [
+        {
+          "id": "hello",
+          "prompt": "Clínica Dental Sonrisa, buenas tardes.",
+          "translation": {
+            "en": "Sonrisa Dental Clinic, good afternoon.",
+            "vi": "Phòng khám Nha khoa Sonrisa xin nghe, chào buổi chiều."
+          },
+          "hint": {
+            "en": "Say why you're calling with “Quería…”.",
+            "vi": "Nói lý do gọi bằng “Quería…”."
+          },
+          "choices": [
+            {
+              "id": "appt",
+              "es": "Buenas tardes, quería hacer una cita.",
+              "translation": {
+                "en": "Good afternoon, I'd like to make an appointment.",
+                "vi": "Chào buổi chiều, tôi muốn đặt lịch hẹn."
+              },
+              "correct": true,
+              "response": "Claro. ¿Qué día le queda mejor?",
+              "responseTranslation": {
+                "en": "Sure. Which day works best for you?",
+                "vi": "Vâng. Ngày nào tiện cho anh/chị?"
+              },
+              "next": "day"
+            },
+            {
+              "id": "check",
+              "es": "Hola, quería una revisión con el dentista.",
+              "translation": {
+                "en": "Hi, I'd like a check-up with the dentist.",
+                "vi": "Chào, tôi muốn khám tổng quát với nha sĩ."
+              },
+              "correct": true,
+              "response": "Con gusto. ¿Qué día le queda mejor?",
+              "responseTranslation": {
+                "en": "Gladly. Which day works best?",
+                "vi": "Rất sẵn lòng. Ngày nào tiện ạ?"
+              },
+              "next": "day"
+            },
+            {
+              "id": "bueno",
+              "es": "¿Bueno?",
+              "translation": {
+                "en": "Hello?",
+                "vi": "A lô?"
+              },
+              "correct": false,
+              "correction": "Buenas tardes, quería hacer una cita.",
+              "response": "Sí, le escucho. ¿En qué le puedo ayudar?",
+              "responseTranslation": {
+                "en": "Yes, I hear you. How can I help?",
+                "vi": "Vâng, tôi nghe. Tôi giúp gì được ạ?"
+              },
+              "next": "day"
+            }
+          ]
+        },
+        {
+          "id": "day",
+          "prompt": "Tenemos el jueves a las once o el viernes a las cuatro.",
+          "translation": {
+            "en": "We have Thursday at eleven or Friday at four.",
+            "vi": "Còn thứ Năm lúc mười một giờ hoặc thứ Sáu lúc bốn giờ."
+          },
+          "hint": {
+            "en": "Pick one, or ask for another time.",
+            "vi": "Chọn một, hoặc hỏi giờ khác."
+          },
+          "choices": [
+            {
+              "id": "friday",
+              "es": "El viernes a las cuatro me queda bien.",
+              "translation": {
+                "en": "Friday at four works for me.",
+                "vi": "Thứ Sáu lúc bốn giờ là tiện cho tôi."
+              },
+              "correct": true,
+              "response": "Perfecto. ¿A nombre de quién?",
+              "responseTranslation": {
+                "en": "Perfect. Under what name?",
+                "vi": "Tuyệt. Đặt tên ai ạ?"
+              },
+              "next": "name"
+            },
+            {
+              "id": "earlier",
+              "es": "¿Podría ser el jueves más temprano?",
+              "translation": {
+                "en": "Could it be Thursday, earlier?",
+                "vi": "Thứ Năm sớm hơn được không?"
+              },
+              "correct": true,
+              "response": "A las nueve también hay. ¿A nombre de quién?",
+              "responseTranslation": {
+                "en": "Nine is also open. Under what name?",
+                "vi": "Chín giờ cũng còn. Đặt tên ai ạ?"
+              },
+              "next": "name"
+            },
+            {
+              "id": "cancel",
+              "es": "Necesito cancelar mi cita.",
+              "translation": {
+                "en": "I need to cancel my appointment.",
+                "vi": "Tôi cần hủy lịch."
+              },
+              "correct": false,
+              "correction": "El viernes a las cuatro me queda bien.",
+              "response": "Pero todavía no tiene cita. ¿Cuál prefiere?",
+              "responseTranslation": {
+                "en": "But you don't have one yet. Which do you prefer?",
+                "vi": "Nhưng anh/chị chưa có lịch mà. Chọn giờ nào ạ?"
+              },
+              "next": "name"
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "prompt": "¿A nombre de quién la registro?",
+          "translation": {
+            "en": "Under whose name shall I book it?",
+            "vi": "Tôi đặt dưới tên ai ạ?"
+          },
+          "hint": {
+            "en": "Give your name and ask for a confirmation.",
+            "vi": "Nói tên và xin xác nhận."
+          },
+          "choices": [
+            {
+              "id": "confirm",
+              "es": "A nombre de Alex Lee. ¿Me lo puede confirmar por correo?",
+              "translation": {
+                "en": "Under Alex Lee. Could you confirm it by email?",
+                "vi": "Tên Alex Lee. Bạn xác nhận qua email giúp tôi nhé?"
+              },
+              "correct": true,
+              "response": "Claro, le llega en unos minutos. ¡Hasta el viernes!",
+              "responseTranslation": {
+                "en": "Sure, it'll arrive in a few minutes. See you Friday!",
+                "vi": "Vâng, vài phút nữa sẽ tới. Hẹn gặp thứ Sáu!"
+              }
+            },
+            {
+              "id": "name",
+              "es": "A nombre de Alex Lee. Muchas gracias.",
+              "translation": {
+                "en": "Under Alex Lee. Thank you very much.",
+                "vi": "Tên Alex Lee. Cảm ơn nhiều."
+              },
+              "correct": true,
+              "response": "Con gusto. Lo esperamos.",
+              "responseTranslation": {
+                "en": "My pleasure. We'll see you then.",
+                "vi": "Rất hân hạnh. Hẹn gặp anh/chị."
+              }
+            },
+            {
+              "id": "message",
+              "es": "¿Le puedo dejar un mensaje?",
+              "translation": {
+                "en": "Can I leave a message?",
+                "vi": "Tôi để lại lời nhắn được không?"
+              },
+              "correct": false,
+              "correction": "A nombre de Alex Lee. Muchas gracias.",
+              "response": "No hace falta, ya casi terminamos. ¿Su nombre?",
+              "responseTranslation": {
+                "en": "No need, we're almost done. Your name?",
+                "vi": "Không cần đâu, sắp xong rồi. Tên anh/chị là gì?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

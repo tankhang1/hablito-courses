@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-28",
+  "version": 1,
+  "level": 28,
+  "cefr": "C1",
+  "title": {
+    "en": "Advanced 4: Nuance & tact",
+    "vi": "Cao cấp 4: Sắc thái & tế nhị"
+  },
+  "description": {
+    "en": "Hedge, soften, and say difficult things gracefully.",
+    "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo."
+  },
+  "lessons": [
+    {
+      "id": "hedging",
+      "title": {
+        "en": "Hedging & softening",
+        "vi": "Nói giảm & làm mềm"
+      },
+      "description": {
+        "en": "Sound careful, not blunt.",
+        "vi": "Nói thận trọng, không cộc lốc."
+      },
+      "focus": {
+        "en": "“Quizás + subjunctive” and “no es que + subjunctive” add doubt and tact: quizás no sea, no es que no me guste.",
+        "vi": "“Quizás + giả định” và “no es que + giả định” thêm sự hoài nghi và tế nhị: quizás no sea, no es que no me guste."
+      },
+      "icon": "sliders",
+      "phrases": [
+        {
+          "es": "Quizás no sea la mejor idea.",
+          "en": "Perhaps it isn't the best idea.",
+          "vi": "Có lẽ đó không phải ý hay nhất."
+        },
+        {
+          "es": "Igual me equivoco, pero…",
+          "en": "I might be wrong, but…",
+          "vi": "Có thể tôi sai, nhưng…"
+        },
+        {
+          "es": "No es que no me guste, es que…",
+          "en": "It's not that I don't like it, it's that…",
+          "vi": "Không phải tôi không thích, mà là…"
+        },
+        {
+          "es": "Habría que pensarlo un poco más.",
+          "en": "We'd need to think it over a bit more.",
+          "vi": "Có lẽ cần suy nghĩ thêm một chút."
+        },
+        {
+          "es": "Por así decirlo…",
+          "en": "So to speak…",
+          "vi": "Có thể nói là…"
+        },
+        {
+          "es": "No sé si me explico.",
+          "en": "I don't know if I'm making myself clear.",
+          "vi": "Không biết tôi nói vậy có rõ không."
+        }
+      ]
+    },
+    {
+      "id": "tough-talks",
+      "title": {
+        "en": "Difficult conversations",
+        "vi": "Những cuộc nói chuyện khó"
+      },
+      "description": {
+        "en": "Give feedback and apologize well.",
+        "vi": "Góp ý và xin lỗi khéo léo."
+      },
+      "focus": {
+        "en": "“Me hubiera gustado que + past subjunctive” voices disappointment without blaming.",
+        "vi": "“Me hubiera gustado que + giả định quá khứ” bày tỏ sự thất vọng mà không đổ lỗi."
+      },
+      "icon": "shield",
+      "phrases": [
+        {
+          "es": "Te lo digo con todo el cariño.",
+          "en": "I'm saying this with all my affection.",
+          "vi": "Tôi nói điều này với tất cả thiện ý."
+        },
+        {
+          "es": "Me hubiera gustado que me avisaras.",
+          "en": "I would have liked you to let me know.",
+          "vi": "Lẽ ra tôi mong bạn báo trước cho tôi."
+        },
+        {
+          "es": "Lamento mucho lo que pasó.",
+          "en": "I'm really sorry about what happened.",
+          "vi": "Tôi rất tiếc về những gì đã xảy ra."
+        },
+        {
+          "es": "No fue mi intención ofenderte.",
+          "en": "I didn't mean to offend you.",
+          "vi": "Tôi không có ý xúc phạm bạn."
+        },
+        {
+          "es": "Pongámonos en su lugar.",
+          "en": "Let's put ourselves in their shoes.",
+          "vi": "Hãy đặt mình vào vị trí của họ."
+        },
+        {
+          "es": "¿Cómo lo podemos resolver?",
+          "en": "How can we solve it?",
+          "vi": "Chúng ta giải quyết thế nào đây?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "feedback",
+      "title": {
+        "en": "Give honest feedback",
+        "vi": "Góp ý thẳng thắn"
+      },
+      "description": {
+        "en": "Tell a friend a hard truth, kindly.",
+        "vi": "Nói một sự thật khó nghe với bạn một cách tử tế."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "ask",
+      "nodes": [
+        {
+          "id": "ask",
+          "prompt": "Sé sincero: ¿qué te pareció mi presentación?",
+          "translation": {
+            "en": "Be honest: what did you think of my presentation?",
+            "vi": "Nói thật đi: bạn thấy bài thuyết trình của mình thế nào?"
+          },
+          "hint": {
+            "en": "Soften before the criticism.",
+            "vi": "Làm mềm trước khi góp ý."
+          },
+          "choices": [
+            {
+              "id": "soft",
+              "es": "Te lo digo con cariño: el contenido era bueno, pero fue un poco larga.",
+              "translation": {
+                "en": "I say this kindly: the content was good, but it was a bit long.",
+                "vi": "Mình nói với thiện ý: nội dung tốt, nhưng hơi dài."
+              },
+              "correct": true,
+              "response": "Ah… ¿muy larga?",
+              "responseTranslation": {
+                "en": "Oh… very long?",
+                "vi": "Ồ… dài lắm à?"
+              },
+              "next": "detail"
+            },
+            {
+              "id": "hedge",
+              "es": "Igual me equivoco, pero creo que quizás sobraban algunas diapositivas.",
+              "translation": {
+                "en": "I might be wrong, but maybe there were a few too many slides.",
+                "vi": "Có thể mình sai, nhưng có lẽ dư vài slide."
+              },
+              "correct": true,
+              "response": "Mmm, ¿cuáles quitarías?",
+              "responseTranslation": {
+                "en": "Hmm, which would you remove?",
+                "vi": "Ừm, bạn sẽ bỏ slide nào?"
+              },
+              "next": "detail"
+            },
+            {
+              "id": "blunt",
+              "es": "Fue aburrida.",
+              "translation": {
+                "en": "It was boring.",
+                "vi": "Chán lắm."
+              },
+              "correct": false,
+              "correction": "Te lo digo con cariño: el contenido era bueno, pero fue un poco larga.",
+              "response": "Auch… ¿no hubo nada bueno?",
+              "responseTranslation": {
+                "en": "Ouch… was nothing good?",
+                "vi": "Đau ghê… không có gì hay sao?"
+              },
+              "next": "detail"
+            }
+          ]
+        },
+        {
+          "id": "detail",
+          "prompt": "¿Qué cambiarías?",
+          "translation": {
+            "en": "What would you change?",
+            "vi": "Bạn sẽ thay đổi gì?"
+          },
+          "hint": {
+            "en": "Suggest with tact.",
+            "vi": "Gợi ý một cách tế nhị."
+          },
+          "choices": [
+            {
+              "id": "shorter",
+              "es": "No es que esté mal, es que con diez minutos menos sería perfecta.",
+              "translation": {
+                "en": "It's not that it's bad, it's that ten minutes shorter would make it perfect.",
+                "vi": "Không phải là dở, chỉ là ngắn đi mười phút sẽ hoàn hảo."
+              },
+              "correct": true,
+              "response": "Tiene sentido. ¿Algo más?",
+              "responseTranslation": {
+                "en": "Makes sense. Anything else?",
+                "vi": "Hợp lý. Còn gì nữa không?"
+              },
+              "next": "end"
+            },
+            {
+              "id": "think",
+              "es": "Habría que pensar qué es lo esencial para el público.",
+              "translation": {
+                "en": "We'd need to think about what's essential for the audience.",
+                "vi": "Có lẽ nên nghĩ xem điều gì là cốt lõi với khán giả."
+              },
+              "correct": true,
+              "response": "Buena idea. ¿Algo más?",
+              "responseTranslation": {
+                "en": "Good idea. Anything else?",
+                "vi": "Ý hay. Còn gì nữa không?"
+              },
+              "next": "end"
+            },
+            {
+              "id": "mood",
+              "es": "No es que está mal…",
+              "translation": {
+                "en": "It's not that it is bad… (wrong form)",
+                "vi": "Không phải là dở… (sai dạng)"
+              },
+              "correct": false,
+              "correction": "No es que esté mal, es que con diez minutos menos sería perfecta.",
+              "response": "Entiendo (“no es que esté”, ¿no?). ¿Algo más?",
+              "responseTranslation": {
+                "en": "I get it (“no es que esté”, right?). Anything else?",
+                "vi": "Mình hiểu (phải là “no es que esté” chứ?). Còn gì nữa không?"
+              },
+              "next": "end"
+            }
+          ]
+        },
+        {
+          "id": "end",
+          "prompt": "Gracias por ser honesto.",
+          "translation": {
+            "en": "Thanks for being honest.",
+            "vi": "Cảm ơn bạn đã thẳng thắn."
+          },
+          "hint": {
+            "en": "Close warmly.",
+            "vi": "Kết thúc ấm áp."
+          },
+          "choices": [
+            {
+              "id": "proud",
+              "es": "Para eso estamos. Y de verdad, se nota que te preparaste mucho.",
+              "translation": {
+                "en": "That's what friends are for. And honestly, it shows you prepared a lot.",
+                "vi": "Bạn bè mà. Thật sự là thấy rõ bạn đã chuẩn bị rất kỹ."
+              },
+              "correct": true,
+              "response": "Eso me anima mucho.",
+              "responseTranslation": {
+                "en": "That really encourages me.",
+                "vi": "Nghe vậy mình có động lực hẳn."
+              }
+            },
+            {
+              "id": "help",
+              "es": "Si quieres, la practicamos juntos mañana.",
+              "translation": {
+                "en": "If you want, we can practice it together tomorrow.",
+                "vi": "Nếu muốn, mai mình luyện cùng nhau."
+              },
+              "correct": true,
+              "response": "¡Me encantaría!",
+              "responseTranslation": {
+                "en": "I'd love that!",
+                "vi": "Mình rất muốn!"
+              }
+            },
+            {
+              "id": "sorry",
+              "es": "No fue mi intención ofenderte.",
+              "translation": {
+                "en": "I didn't mean to offend you.",
+                "vi": "Mình không có ý xúc phạm bạn."
+              },
+              "correct": false,
+              "correction": "Para eso estamos. Y de verdad, se nota que te preparaste mucho.",
+              "response": "No me ofendiste, ¡al contrario!",
+              "responseTranslation": {
+                "en": "You didn't offend me, quite the opposite!",
+                "vi": "Bạn đâu có xúc phạm mình, ngược lại thì có!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

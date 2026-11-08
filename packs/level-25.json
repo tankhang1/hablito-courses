@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-25",
+  "version": 1,
+  "level": 25,
+  "cefr": "C1",
+  "title": {
+    "en": "Advanced 1: Persuading & arguing",
+    "vi": "Cao cấp 1: Thuyết phục & lập luận"
+  },
+  "description": {
+    "en": "Build an argument and win people over.",
+    "vi": "Xây dựng lập luận và thuyết phục người khác."
+  },
+  "lessons": [
+    {
+      "id": "persuading",
+      "title": {
+        "en": "Persuading",
+        "vi": "Thuyết phục"
+      },
+      "description": {
+        "en": "Make a strong case.",
+        "vi": "Đưa ra lập luận mạnh mẽ."
+      },
+      "focus": {
+        "en": "Value judgments take the subjunctive: es fundamental / importante / necesario que + subjunctive.",
+        "vi": "Câu đánh giá đi với thức giả định: es fundamental / importante / necesario que + giả định."
+      },
+      "icon": "trending-up",
+      "phrases": [
+        {
+          "es": "Es fundamental que todos participen.",
+          "en": "It's essential that everyone takes part.",
+          "vi": "Điều cốt yếu là mọi người cùng tham gia."
+        },
+        {
+          "es": "No hay que olvidar que el presupuesto es limitado.",
+          "en": "We mustn't forget that the budget is limited.",
+          "vi": "Đừng quên rằng ngân sách có hạn."
+        },
+        {
+          "es": "Lo que quiero decir es que hay otra opción.",
+          "en": "What I mean is that there's another option.",
+          "vi": "Ý tôi là còn một lựa chọn khác."
+        },
+        {
+          "es": "Piénsalo bien: ¿qué perdemos?",
+          "en": "Think it over: what do we lose?",
+          "vi": "Nghĩ kỹ đi: chúng ta mất gì nào?"
+        },
+        {
+          "es": "Los datos demuestran que funciona.",
+          "en": "The data show that it works.",
+          "vi": "Số liệu chứng minh nó hiệu quả."
+        },
+        {
+          "es": "Te prometo que no te vas a arrepentir.",
+          "en": "I promise you won't regret it.",
+          "vi": "Tôi hứa bạn sẽ không hối tiếc."
+        }
+      ]
+    },
+    {
+      "id": "concessions",
+      "title": {
+        "en": "Conceding a point",
+        "vi": "Nhượng bộ một ý"
+      },
+      "description": {
+        "en": "Grant a point and still win.",
+        "vi": "Thừa nhận một ý mà vẫn giữ lập trường."
+      },
+      "focus": {
+        "en": "“Aunque + subjunctive” = even if (hypothetical); “aunque + indicative” = although (a fact).",
+        "vi": "“Aunque + giả định” = cho dù (giả định); “aunque + trần thuật” = mặc dù (sự thật)."
+      },
+      "icon": "git-merge",
+      "phrases": [
+        {
+          "es": "Aunque sea caro, vale la pena.",
+          "en": "Even if it's expensive, it's worth it.",
+          "vi": "Dù có đắt thì cũng đáng."
+        },
+        {
+          "es": "Aunque es caro, lo voy a comprar.",
+          "en": "Although it is expensive, I'm going to buy it.",
+          "vi": "Mặc dù nó đắt, tôi vẫn sẽ mua."
+        },
+        {
+          "es": "Es cierto que hay riesgos; no obstante…",
+          "en": "It's true there are risks; nevertheless…",
+          "vi": "Đúng là có rủi ro; tuy vậy…"
+        },
+        {
+          "es": "Si bien tienes razón en eso…",
+          "en": "While you're right about that…",
+          "vi": "Tuy bạn đúng ở điểm đó…"
+        },
+        {
+          "es": "A pesar de todo, sigo pensando lo mismo.",
+          "en": "Despite everything, I still think the same.",
+          "vi": "Dù vậy, tôi vẫn giữ ý kiến."
+        },
+        {
+          "es": "Te doy la razón en parte.",
+          "en": "I partly agree with you.",
+          "vi": "Tôi đồng ý với bạn một phần."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "pitch",
+      "title": {
+        "en": "Pitch an idea to your boss",
+        "vi": "Thuyết phục sếp duyệt ý tưởng"
+      },
+      "description": {
+        "en": "Persuade, handle objections, and close.",
+        "vi": "Thuyết phục, xử lý phản đối và chốt lại."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "pitch",
+      "nodes": [
+        {
+          "id": "pitch",
+          "prompt": "Tienes cinco minutos. ¿Qué propones?",
+          "translation": {
+            "en": "You have five minutes. What do you propose?",
+            "vi": "Bạn có năm phút. Bạn đề xuất gì?"
+          },
+          "hint": {
+            "en": "State your proposal with a value judgment.",
+            "vi": "Nêu đề xuất kèm một nhận định giá trị."
+          },
+          "choices": [
+            {
+              "id": "app",
+              "es": "Es fundamental que lancemos una app para nuestros clientes.",
+              "translation": {
+                "en": "It's essential that we launch an app for our clients.",
+                "vi": "Điều cốt yếu là chúng ta ra mắt ứng dụng cho khách hàng."
+              },
+              "correct": true,
+              "response": "Mmm. ¿No es muy caro?",
+              "responseTranslation": {
+                "en": "Hmm. Isn't it very expensive?",
+                "vi": "Ừm. Như vậy không đắt quá sao?"
+              },
+              "next": "cost"
+            },
+            {
+              "id": "data",
+              "es": "Los datos demuestran que los clientes quieren una app, así que propongo crearla.",
+              "translation": {
+                "en": "The data show clients want an app, so I propose building one.",
+                "vi": "Số liệu cho thấy khách hàng muốn có ứng dụng, nên tôi đề xuất làm."
+              },
+              "correct": true,
+              "response": "Interesante. ¿Y el costo?",
+              "responseTranslation": {
+                "en": "Interesting. And the cost?",
+                "vi": "Thú vị. Còn chi phí?"
+              },
+              "next": "cost"
+            },
+            {
+              "id": "indic",
+              "es": "Es importante que lanzamos una app.",
+              "translation": {
+                "en": "It's important that we launch an app (wrong form).",
+                "vi": "Điều quan trọng là chúng ta ra mắt ứng dụng (sai dạng)."
+              },
+              "correct": false,
+              "correction": "Es fundamental que lancemos una app para nuestros clientes.",
+              "response": "“Que lancemos”… sí, entiendo la idea. ¿Y el costo?",
+              "responseTranslation": {
+                "en": "“Que lancemos”… yes, I get the idea. And the cost?",
+                "vi": "“Que lancemos”… được, tôi hiểu ý. Còn chi phí?"
+              },
+              "next": "cost"
+            }
+          ]
+        },
+        {
+          "id": "cost",
+          "prompt": "No hay presupuesto para eso este año.",
+          "translation": {
+            "en": "There's no budget for that this year.",
+            "vi": "Năm nay không có ngân sách cho việc đó."
+          },
+          "hint": {
+            "en": "Concede, then counter.",
+            "vi": "Nhượng bộ, rồi phản biện."
+          },
+          "choices": [
+            {
+              "id": "although",
+              "es": "Aunque sea una inversión grande, vale la pena a largo plazo.",
+              "translation": {
+                "en": "Even if it's a big investment, it pays off in the long run.",
+                "vi": "Dù là khoản đầu tư lớn, về lâu dài vẫn đáng."
+              },
+              "correct": true,
+              "response": "Puede ser. ¿Qué riesgo hay?",
+              "responseTranslation": {
+                "en": "Maybe. What's the risk?",
+                "vi": "Có thể. Rủi ro là gì?"
+              },
+              "next": "risk"
+            },
+            {
+              "id": "cheaper",
+              "es": "Es cierto; no obstante, podemos empezar con una versión pequeña.",
+              "translation": {
+                "en": "True; nevertheless, we can start with a small version.",
+                "vi": "Đúng vậy; tuy nhiên, ta có thể bắt đầu với bản nhỏ."
+              },
+              "correct": true,
+              "response": "Eso me gusta más. ¿Riesgos?",
+              "responseTranslation": {
+                "en": "I like that better. Risks?",
+                "vi": "Tôi thích vậy hơn. Rủi ro thì sao?"
+              },
+              "next": "risk"
+            },
+            {
+              "id": "giveup",
+              "es": "Bueno, olvídalo.",
+              "translation": {
+                "en": "Well, forget it.",
+                "vi": "Thôi, bỏ qua đi."
+              },
+              "correct": false,
+              "correction": "Aunque sea una inversión grande, vale la pena a largo plazo.",
+              "response": "¿Tan rápido te rindes? Convénceme.",
+              "responseTranslation": {
+                "en": "Giving up that fast? Convince me.",
+                "vi": "Bỏ cuộc nhanh vậy sao? Thuyết phục tôi đi."
+              },
+              "next": "risk"
+            }
+          ]
+        },
+        {
+          "id": "risk",
+          "prompt": "¿Y si no funciona?",
+          "translation": {
+            "en": "And what if it doesn't work?",
+            "vi": "Còn nếu không hiệu quả thì sao?"
+          },
+          "hint": {
+            "en": "Reassure and close.",
+            "vi": "Trấn an và chốt lại."
+          },
+          "choices": [
+            {
+              "id": "pilot",
+              "es": "Hacemos una prueba de tres meses; si no funciona, la cancelamos.",
+              "translation": {
+                "en": "We run a three-month pilot; if it doesn't work, we cancel it.",
+                "vi": "Ta chạy thử ba tháng; nếu không hiệu quả thì dừng."
+              },
+              "correct": true,
+              "response": "Me convenciste. Prepárame una propuesta.",
+              "responseTranslation": {
+                "en": "You've convinced me. Prepare a proposal.",
+                "vi": "Bạn thuyết phục được tôi rồi. Chuẩn bị đề xuất đi."
+              }
+            },
+            {
+              "id": "promise",
+              "es": "Piénselo bien: ¿qué perdemos con intentarlo?",
+              "translation": {
+                "en": "Think it over: what do we lose by trying?",
+                "vi": "Anh/chị nghĩ kỹ xem: thử thì mất gì đâu?"
+              },
+              "correct": true,
+              "response": "Tienes razón. Adelante.",
+              "responseTranslation": {
+                "en": "You're right. Go ahead.",
+                "vi": "Bạn nói đúng. Cứ làm đi."
+              }
+            },
+            {
+              "id": "unsure",
+              "es": "No sé, tal vez.",
+              "translation": {
+                "en": "I don't know, maybe.",
+                "vi": "Không biết, có lẽ."
+              },
+              "correct": false,
+              "correction": "Hacemos una prueba de tres meses; si no funciona, la cancelamos.",
+              "response": "Necesito más seguridad que eso…",
+              "responseTranslation": {
+                "en": "I need more certainty than that…",
+                "vi": "Tôi cần chắc chắn hơn thế…"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

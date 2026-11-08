@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-19",
+  "version": 1,
+  "level": 19,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 3: Complaints & negotiation",
+    "vi": "Trung cao cấp 3: Khiếu nại & thương lượng"
+  },
+  "description": {
+    "en": "Complain politely and reach a fair deal.",
+    "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý."
+  },
+  "lessons": [
+    {
+      "id": "complaints",
+      "title": {
+        "en": "Making a complaint",
+        "vi": "Đưa ra khiếu nại"
+      },
+      "description": {
+        "en": "Be firm but polite.",
+        "vi": "Cương quyết nhưng lịch sự."
+      },
+      "focus": {
+        "en": "“Quisiera que + past subjunctive” (devolvieran, cambiaran) makes a request very polite.",
+        "vi": "“Quisiera que + giả định quá khứ” (devolvieran, cambiaran) khiến yêu cầu rất lịch sự."
+      },
+      "icon": "alert-circle",
+      "phrases": [
+        {
+          "es": "Quisiera hacer una reclamación.",
+          "en": "I'd like to make a complaint.",
+          "vi": "Tôi muốn khiếu nại."
+        },
+        {
+          "es": "El producto llegó dañado.",
+          "en": "The product arrived damaged.",
+          "vi": "Sản phẩm giao đến bị hỏng."
+        },
+        {
+          "es": "Me cobraron dos veces.",
+          "en": "They charged me twice.",
+          "vi": "Tôi bị tính tiền hai lần."
+        },
+        {
+          "es": "No es lo que pedí.",
+          "en": "It's not what I ordered.",
+          "vi": "Đây không phải món tôi đặt."
+        },
+        {
+          "es": "Esperaba un mejor servicio.",
+          "en": "I expected better service.",
+          "vi": "Tôi mong dịch vụ tốt hơn."
+        },
+        {
+          "es": "Quisiera que me devolvieran el dinero.",
+          "en": "I'd like a refund.",
+          "vi": "Tôi muốn được hoàn tiền."
+        }
+      ]
+    },
+    {
+      "id": "negotiation",
+      "title": {
+        "en": "Negotiating",
+        "vi": "Thương lượng"
+      },
+      "description": {
+        "en": "Propose, counter, and agree.",
+        "vi": "Đề xuất, trả giá và chốt."
+      },
+      "focus": {
+        "en": "“¿Y si…?” opens a counter-offer without sounding confrontational.",
+        "vi": "“¿Y si…?” mở lời trả giá mà không gây căng thẳng."
+      },
+      "icon": "repeat",
+      "phrases": [
+        {
+          "es": "¿Qué me puede ofrecer?",
+          "en": "What can you offer me?",
+          "vi": "Bạn có thể đề nghị gì?"
+        },
+        {
+          "es": "¿Y si me hace un descuento?",
+          "en": "What if you give me a discount?",
+          "vi": "Còn nếu bạn giảm giá cho tôi thì sao?"
+        },
+        {
+          "es": "Me parece justo.",
+          "en": "That seems fair to me.",
+          "vi": "Tôi thấy vậy là hợp lý."
+        },
+        {
+          "es": "Eso no me convence.",
+          "en": "That doesn't convince me.",
+          "vi": "Như vậy chưa thuyết phục tôi."
+        },
+        {
+          "es": "Podemos llegar a un acuerdo.",
+          "en": "We can reach an agreement.",
+          "vi": "Chúng ta có thể thỏa thuận được."
+        },
+        {
+          "es": "Trato hecho.",
+          "en": "Deal.",
+          "vi": "Chốt vậy nhé."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "refund",
+      "title": {
+        "en": "Get a refund",
+        "vi": "Đòi hoàn tiền"
+      },
+      "description": {
+        "en": "A damaged order: complain and negotiate a solution.",
+        "vi": "Đơn hàng bị hỏng: khiếu nại và thương lượng cách giải quyết."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "issue",
+      "nodes": [
+        {
+          "id": "issue",
+          "prompt": "Atención al cliente, ¿en qué le puedo ayudar?",
+          "translation": {
+            "en": "Customer service, how can I help?",
+            "vi": "Chăm sóc khách hàng xin nghe, tôi giúp gì được ạ?"
+          },
+          "hint": {
+            "en": "State the problem politely.",
+            "vi": "Nêu vấn đề lịch sự."
+          },
+          "choices": [
+            {
+              "id": "damaged",
+              "es": "Quisiera hacer una reclamación: el producto llegó dañado.",
+              "translation": {
+                "en": "I'd like to make a complaint: the product arrived damaged.",
+                "vi": "Tôi muốn khiếu nại: sản phẩm giao đến bị hỏng."
+              },
+              "correct": true,
+              "response": "Lo lamento mucho. ¿Qué solución prefiere?",
+              "responseTranslation": {
+                "en": "I'm very sorry. Which solution do you prefer?",
+                "vi": "Rất xin lỗi. Anh/chị muốn giải quyết thế nào?"
+              },
+              "next": "solution"
+            },
+            {
+              "id": "twice",
+              "es": "Me cobraron dos veces el mismo pedido.",
+              "translation": {
+                "en": "I was charged twice for the same order.",
+                "vi": "Tôi bị tính tiền hai lần cho cùng một đơn."
+              },
+              "correct": true,
+              "response": "Disculpe la molestia. ¿Qué solución prefiere?",
+              "responseTranslation": {
+                "en": "Sorry for the trouble. Which solution do you prefer?",
+                "vi": "Xin lỗi vì sự bất tiện. Anh/chị muốn giải quyết thế nào?"
+              },
+              "next": "solution"
+            },
+            {
+              "id": "angry",
+              "es": "¡Esto es horrible!",
+              "translation": {
+                "en": "This is horrible!",
+                "vi": "Thật kinh khủng!"
+              },
+              "correct": false,
+              "correction": "Quisiera hacer una reclamación: el producto llegó dañado.",
+              "response": "Entiendo su molestia. ¿Me explica qué pasó?",
+              "responseTranslation": {
+                "en": "I understand your frustration. Can you explain what happened?",
+                "vi": "Tôi hiểu sự bực bội của anh/chị. Anh/chị kể lại chuyện gì xảy ra được không?"
+              },
+              "next": "solution"
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "prompt": "Le podemos mandar otro en dos semanas.",
+          "translation": {
+            "en": "We can send you another one in two weeks.",
+            "vi": "Chúng tôi có thể gửi cái khác trong hai tuần."
+          },
+          "hint": {
+            "en": "Push back politely and ask for more.",
+            "vi": "Phản đối lịch sự và đề nghị thêm."
+          },
+          "choices": [
+            {
+              "id": "refund",
+              "es": "Eso no me convence. Quisiera que me devolvieran el dinero.",
+              "translation": {
+                "en": "That doesn't convince me. I'd like a refund.",
+                "vi": "Như vậy chưa thuyết phục tôi. Tôi muốn được hoàn tiền."
+              },
+              "correct": true,
+              "response": "Mmm… ¿y si le damos un descuento del veinte por ciento?",
+              "responseTranslation": {
+                "en": "Hmm… what if we give you a 20% discount?",
+                "vi": "Ừm… nếu chúng tôi giảm giá 20% thì sao?"
+              },
+              "next": "deal"
+            },
+            {
+              "id": "faster",
+              "es": "¿Y si me lo mandan esta semana?",
+              "translation": {
+                "en": "What if you send it this week?",
+                "vi": "Còn nếu gửi trong tuần này thì sao?"
+              },
+              "correct": true,
+              "response": "Podría ser, con envío exprés. ¿Le parece?",
+              "responseTranslation": {
+                "en": "Possibly, with express shipping. Does that work?",
+                "vi": "Có thể, bằng giao hàng nhanh. Anh/chị thấy sao?"
+              },
+              "next": "deal"
+            },
+            {
+              "id": "ok",
+              "es": "Está bien, no pasa nada.",
+              "translation": {
+                "en": "That's fine, no problem.",
+                "vi": "Được rồi, không sao."
+              },
+              "correct": false,
+              "correction": "Eso no me convence. Quisiera que me devolvieran el dinero.",
+              "response": "¿Seguro? Dos semanas es mucho tiempo…",
+              "responseTranslation": {
+                "en": "Are you sure? Two weeks is a long time…",
+                "vi": "Anh/chị chắc chứ? Hai tuần là lâu đấy…"
+              },
+              "next": "deal"
+            }
+          ]
+        },
+        {
+          "id": "deal",
+          "prompt": "¿Le parece bien así?",
+          "translation": {
+            "en": "Does that seem fair to you?",
+            "vi": "Anh/chị thấy vậy được chưa?"
+          },
+          "hint": {
+            "en": "Accept or make a final offer.",
+            "vi": "Đồng ý hoặc đưa ra đề nghị cuối."
+          },
+          "choices": [
+            {
+              "id": "fair",
+              "es": "Me parece justo. Trato hecho.",
+              "translation": {
+                "en": "That seems fair. Deal.",
+                "vi": "Tôi thấy hợp lý. Chốt vậy nhé."
+              },
+              "correct": true,
+              "response": "Perfecto. Le envío la confirmación por correo.",
+              "responseTranslation": {
+                "en": "Perfect. I'll email you the confirmation.",
+                "vi": "Tuyệt. Tôi gửi xác nhận qua email."
+              }
+            },
+            {
+              "id": "both",
+              "es": "Podemos llegar a un acuerdo si incluyen el envío gratis.",
+              "translation": {
+                "en": "We can reach an agreement if you include free shipping.",
+                "vi": "Ta có thể thỏa thuận nếu miễn phí giao hàng."
+              },
+              "correct": true,
+              "response": "De acuerdo, envío gratis incluido.",
+              "responseTranslation": {
+                "en": "Agreed, free shipping included.",
+                "vi": "Đồng ý, miễn phí giao hàng."
+              }
+            },
+            {
+              "id": "whatever",
+              "es": "Me da igual.",
+              "translation": {
+                "en": "I don't care.",
+                "vi": "Sao cũng được."
+              },
+              "correct": false,
+              "correction": "Me parece justo. Trato hecho.",
+              "response": "Entonces, ¿aceptamos así?",
+              "responseTranslation": {
+                "en": "So, shall we go with that?",
+                "vi": "Vậy mình chốt như thế nhé?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

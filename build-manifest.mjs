@@ -50,6 +50,7 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
     if (!lesson.id) fail(name, `${at} missing "id"`);
     checkText(name, lesson.title, `${at}.title`);
     checkText(name, lesson.description, `${at}.description`);
+    if (lesson.focus !== undefined) checkText(name, lesson.focus, `${at}.focus`);
     (lesson.phrases ?? []).forEach((phrase, j) => {
       if (!phrase.es || !phrase.en) fail(name, `${at}.phrases[${j}] needs "es" and "en"`);
       if (!phrase.vi) warnings.push(`${name}: ${at}.phrases[${j}] has no "vi"`);

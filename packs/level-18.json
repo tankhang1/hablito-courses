@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-18",
+  "version": 1,
+  "level": 18,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 2: Job interviews",
+    "vi": "Trung cao cấp 2: Phỏng vấn xin việc"
+  },
+  "description": {
+    "en": "Talk about your experience and strengths.",
+    "vi": "Nói về kinh nghiệm và điểm mạnh của bạn."
+  },
+  "lessons": [
+    {
+      "id": "experience",
+      "title": {
+        "en": "Experience",
+        "vi": "Kinh nghiệm"
+      },
+      "description": {
+        "en": "Describe what you have done.",
+        "vi": "Kể những việc bạn đã làm."
+      },
+      "focus": {
+        "en": "The present perfect (he trabajado, he liderado) connects past experience to now. “Acabo de…” = “I've just…”.",
+        "vi": "Thì hiện tại hoàn thành (he trabajado, he liderado) nối kinh nghiệm quá khứ với hiện tại. “Acabo de…” = “Tôi vừa mới…”."
+      },
+      "icon": "briefcase",
+      "phrases": [
+        {
+          "es": "He trabajado en ventas durante cinco años.",
+          "en": "I've worked in sales for five years.",
+          "vi": "Tôi đã làm bán hàng được năm năm."
+        },
+        {
+          "es": "He liderado un equipo de diez personas.",
+          "en": "I've led a team of ten people.",
+          "vi": "Tôi từng dẫn dắt một nhóm mười người."
+        },
+        {
+          "es": "Nunca he trabajado en el extranjero.",
+          "en": "I've never worked abroad.",
+          "vi": "Tôi chưa từng làm việc ở nước ngoài."
+        },
+        {
+          "es": "Estoy acostumbrado a trabajar bajo presión.",
+          "en": "I'm used to working under pressure.",
+          "vi": "Tôi quen làm việc dưới áp lực."
+        },
+        {
+          "es": "Me encargaba de atender a los clientes.",
+          "en": "I was in charge of looking after clients.",
+          "vi": "Tôi phụ trách chăm sóc khách hàng."
+        },
+        {
+          "es": "Acabo de terminar la maestría.",
+          "en": "I've just finished my master's degree.",
+          "vi": "Tôi vừa học xong thạc sĩ."
+        }
+      ]
+    },
+    {
+      "id": "strengths",
+      "title": {
+        "en": "Strengths & goals",
+        "vi": "Điểm mạnh & mục tiêu"
+      },
+      "description": {
+        "en": "Sell yourself without bragging.",
+        "vi": "Thể hiện bản thân mà không khoe khoang."
+      },
+      "focus": {
+        "en": "“Me cuesta + infinitive” is a gentle way to admit a weakness.",
+        "vi": "“Me cuesta + động từ” là cách nhẹ nhàng để thừa nhận điểm yếu."
+      },
+      "icon": "award",
+      "phrases": [
+        {
+          "es": "Mi punto fuerte es la comunicación.",
+          "en": "My strong point is communication.",
+          "vi": "Điểm mạnh của tôi là giao tiếp."
+        },
+        {
+          "es": "Soy una persona muy organizada.",
+          "en": "I'm a very organized person.",
+          "vi": "Tôi là người rất ngăn nắp."
+        },
+        {
+          "es": "Me cuesta delegar, pero estoy mejorando.",
+          "en": "I find it hard to delegate, but I'm improving.",
+          "vi": "Tôi khó giao việc cho người khác, nhưng đang tiến bộ."
+        },
+        {
+          "es": "Me interesa crecer dentro de la empresa.",
+          "en": "I'm interested in growing within the company.",
+          "vi": "Tôi muốn phát triển trong công ty."
+        },
+        {
+          "es": "Busco un puesto con más responsabilidad.",
+          "en": "I'm looking for a role with more responsibility.",
+          "vi": "Tôi tìm vị trí có nhiều trách nhiệm hơn."
+        },
+        {
+          "es": "¿Cuáles serían mis responsabilidades?",
+          "en": "What would my responsibilities be?",
+          "vi": "Trách nhiệm của tôi sẽ là gì?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "interview",
+      "title": {
+        "en": "A job interview",
+        "vi": "Buổi phỏng vấn"
+      },
+      "description": {
+        "en": "Answer the classic interview questions.",
+        "vi": "Trả lời những câu hỏi phỏng vấn kinh điển."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "about",
+      "nodes": [
+        {
+          "id": "about",
+          "prompt": "Cuénteme un poco sobre su experiencia.",
+          "translation": {
+            "en": "Tell me a little about your experience.",
+            "vi": "Hãy kể một chút về kinh nghiệm của anh/chị."
+          },
+          "hint": {
+            "en": "Use the present perfect.",
+            "vi": "Dùng thì hiện tại hoàn thành."
+          },
+          "choices": [
+            {
+              "id": "sales",
+              "es": "He trabajado en ventas durante cinco años y he liderado un equipo.",
+              "translation": {
+                "en": "I've worked in sales for five years and led a team.",
+                "vi": "Tôi đã làm bán hàng năm năm và từng dẫn dắt một nhóm."
+              },
+              "correct": true,
+              "response": "Muy interesante. ¿Cuál es su punto fuerte?",
+              "responseTranslation": {
+                "en": "Very interesting. What's your strong point?",
+                "vi": "Rất thú vị. Điểm mạnh của anh/chị là gì?"
+              },
+              "next": "strength"
+            },
+            {
+              "id": "new",
+              "es": "Acabo de terminar la maestría y he hecho prácticas en dos empresas.",
+              "translation": {
+                "en": "I've just finished my master's and done internships at two companies.",
+                "vi": "Tôi vừa học xong thạc sĩ và đã thực tập ở hai công ty."
+              },
+              "correct": true,
+              "response": "Bien. ¿Cuál es su punto fuerte?",
+              "responseTranslation": {
+                "en": "Good. What's your strong point?",
+                "vi": "Tốt. Điểm mạnh của anh/chị là gì?"
+              },
+              "next": "strength"
+            },
+            {
+              "id": "hobby",
+              "es": "Me gusta jugar fútbol.",
+              "translation": {
+                "en": "I like playing soccer.",
+                "vi": "Tôi thích đá bóng."
+              },
+              "correct": false,
+              "correction": "He trabajado en ventas durante cinco años y he liderado un equipo.",
+              "response": "Qué bien, pero hablemos de su experiencia laboral.",
+              "responseTranslation": {
+                "en": "Nice, but let's talk about your work experience.",
+                "vi": "Hay đấy, nhưng hãy nói về kinh nghiệm làm việc."
+              },
+              "next": "strength"
+            }
+          ]
+        },
+        {
+          "id": "strength",
+          "prompt": "¿Y algún punto débil?",
+          "translation": {
+            "en": "And any weak point?",
+            "vi": "Còn điểm yếu thì sao?"
+          },
+          "hint": {
+            "en": "Admit a weakness with “Me cuesta…”.",
+            "vi": "Thừa nhận điểm yếu bằng “Me cuesta…”."
+          },
+          "choices": [
+            {
+              "id": "delegate",
+              "es": "Me cuesta delegar, pero estoy aprendiendo a confiar en el equipo.",
+              "translation": {
+                "en": "I find it hard to delegate, but I'm learning to trust the team.",
+                "vi": "Tôi khó giao việc, nhưng đang học cách tin tưởng đồng đội."
+              },
+              "correct": true,
+              "response": "Es una respuesta honesta. ¿Tiene preguntas?",
+              "responseTranslation": {
+                "en": "That's an honest answer. Any questions?",
+                "vi": "Câu trả lời thành thật. Anh/chị có câu hỏi gì không?"
+              },
+              "next": "questions"
+            },
+            {
+              "id": "perfect",
+              "es": "A veces soy demasiado perfeccionista, así que me pongo plazos.",
+              "translation": {
+                "en": "Sometimes I'm too much of a perfectionist, so I set myself deadlines.",
+                "vi": "Đôi khi tôi quá cầu toàn, nên tôi tự đặt hạn chót."
+              },
+              "correct": true,
+              "response": "Entiendo. ¿Tiene alguna pregunta?",
+              "responseTranslation": {
+                "en": "I see. Do you have any questions?",
+                "vi": "Tôi hiểu. Anh/chị có câu hỏi gì không?"
+              },
+              "next": "questions"
+            },
+            {
+              "id": "none",
+              "es": "No tengo ninguno.",
+              "translation": {
+                "en": "I don't have any.",
+                "vi": "Tôi không có điểm yếu nào."
+              },
+              "correct": false,
+              "correction": "Me cuesta delegar, pero estoy aprendiendo a confiar en el equipo.",
+              "response": "Todos tenemos alguno… En fin, ¿tiene preguntas?",
+              "responseTranslation": {
+                "en": "We all have one… Anyway, any questions?",
+                "vi": "Ai cũng có mà… Thôi, anh/chị có câu hỏi gì không?"
+              },
+              "next": "questions"
+            }
+          ]
+        },
+        {
+          "id": "questions",
+          "prompt": "¿Tiene alguna pregunta para nosotros?",
+          "translation": {
+            "en": "Do you have any questions for us?",
+            "vi": "Anh/chị có câu hỏi nào cho chúng tôi không?"
+          },
+          "hint": {
+            "en": "Always ask something.",
+            "vi": "Luôn hỏi lại một điều gì đó."
+          },
+          "choices": [
+            {
+              "id": "duties",
+              "es": "Sí, ¿cuáles serían mis responsabilidades principales?",
+              "translation": {
+                "en": "Yes, what would my main responsibilities be?",
+                "vi": "Có, trách nhiệm chính của tôi sẽ là gì?"
+              },
+              "correct": true,
+              "response": "Excelente pregunta. Se lo explico.",
+              "responseTranslation": {
+                "en": "Excellent question. Let me explain.",
+                "vi": "Câu hỏi hay. Tôi sẽ giải thích."
+              }
+            },
+            {
+              "id": "growth",
+              "es": "¿Qué posibilidades hay de crecer en la empresa?",
+              "translation": {
+                "en": "What opportunities are there to grow in the company?",
+                "vi": "Có cơ hội phát triển nào trong công ty không?"
+              },
+              "correct": true,
+              "response": "Muchas. Valoramos mucho el talento interno.",
+              "responseTranslation": {
+                "en": "Many. We really value internal talent.",
+                "vi": "Nhiều lắm. Chúng tôi rất coi trọng nhân tài nội bộ."
+              }
+            },
+            {
+              "id": "no",
+              "es": "No, ninguna.",
+              "translation": {
+                "en": "No, none.",
+                "vi": "Không, không có."
+              },
+              "correct": false,
+              "correction": "Sí, ¿cuáles serían mis responsabilidades principales?",
+              "response": "De acuerdo… (Consejo: siempre haga una pregunta.)",
+              "responseTranslation": {
+                "en": "OK… (Tip: always ask a question.)",
+                "vi": "Được… (Mẹo: luôn đặt một câu hỏi.)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

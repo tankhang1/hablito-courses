@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-04",
-  "version": 1,
+  "version": 2,
   "level": 4,
   "cefr": "A1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "It's too big.",
           "vi": "Rộng quá."
         }
-      ]
+      ],
+      "focus": {
+        "en": "Adjectives come after the noun and match it: la camisa roja, los zapatos negros.",
+        "vi": "Tính từ đứng sau danh từ và hợp giống, số: la camisa roja, los zapatos negros."
+      }
     },
     {
       "id": "paying",
@@ -99,7 +103,11 @@
           "en": "Can I have the receipt?",
           "vi": "Cho tôi xin hóa đơn."
         }
-      ]
+      ],
+      "focus": {
+        "en": "“¿Cuánto es?” for a total, “¿Cuánto cuesta / cuestan?” for one item or several.",
+        "vi": "“¿Cuánto es?” để hỏi tổng tiền, “¿Cuánto cuesta / cuestan?” cho một hay nhiều món."
+      }
     }
   ],
   "conversations": [

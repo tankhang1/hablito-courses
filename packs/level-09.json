@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-09",
-  "version": 1,
+  "version": 2,
   "level": 9,
   "cefr": "B1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "I'd like to change rooms.",
           "vi": "Tôi muốn đổi phòng."
         }
-      ]
+      ],
+      "focus": {
+        "en": "“No funciona” is the go-to phrase for anything broken.",
+        "vi": "“No funciona” là câu dùng cho mọi thứ bị hỏng."
+      }
     },
     {
       "id": "problems",
@@ -99,7 +103,11 @@
           "en": "I need to speak to the manager.",
           "vi": "Tôi cần nói chuyện với quản lý."
         }
-      ]
+      ],
+      "focus": {
+        "en": "The preterite tells what happened once: perdí, tomé, me robaron.",
+        "vi": "Thì quá khứ đơn (pretérito) kể việc đã xảy ra: perdí, tomé, me robaron."
+      }
     }
   ],
   "conversations": [

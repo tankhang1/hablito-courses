@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-24",
+  "version": 1,
+  "level": 24,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 8: Telling a story",
+    "vi": "Trung cao cấp 8: Kể một câu chuyện"
+  },
+  "description": {
+    "en": "Tell vivid stories with the right past tenses.",
+    "vi": "Kể chuyện sinh động với đúng thì quá khứ."
+  },
+  "lessons": [
+    {
+      "id": "storytelling",
+      "title": {
+        "en": "Story tenses",
+        "vi": "Các thì khi kể chuyện"
+      },
+      "description": {
+        "en": "Background vs. events.",
+        "vi": "Bối cảnh và sự kiện."
+      },
+      "focus": {
+        "en": "Imperfect sets the scene (era, caminaba); preterite moves the story (sonó, vi); pluperfect goes further back (se había ido).",
+        "vi": "Imperfecto tả bối cảnh (era, caminaba); pretérito đẩy câu chuyện (sonó, vi); quá khứ hoàn thành lùi xa hơn (se había ido)."
+      },
+      "icon": "book-open",
+      "phrases": [
+        {
+          "es": "Era un día lluvioso y no había nadie en la calle.",
+          "en": "It was a rainy day and there was no one in the street.",
+          "vi": "Hôm đó trời mưa và ngoài đường không có ai."
+        },
+        {
+          "es": "Mientras caminaba, sonó mi teléfono.",
+          "en": "While I was walking, my phone rang.",
+          "vi": "Trong lúc tôi đang đi bộ thì điện thoại reo."
+        },
+        {
+          "es": "De repente, vi a mi antiguo profesor.",
+          "en": "Suddenly, I saw my old teacher.",
+          "vi": "Bỗng nhiên tôi thấy thầy giáo cũ."
+        },
+        {
+          "es": "Ya se había ido cuando llegué.",
+          "en": "He had already left when I arrived.",
+          "vi": "Khi tôi đến thì anh ấy đã đi rồi."
+        },
+        {
+          "es": "Estaba tan nervioso que no podía hablar.",
+          "en": "I was so nervous I couldn't speak.",
+          "vi": "Tôi hồi hộp đến mức không nói được."
+        },
+        {
+          "es": "Al final, todo salió bien.",
+          "en": "In the end, everything turned out fine.",
+          "vi": "Cuối cùng mọi chuyện đều ổn."
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "title": {
+        "en": "Keeping a story alive",
+        "vi": "Giữ nhịp câu chuyện"
+      },
+      "description": {
+        "en": "Listener reactions and story phrases.",
+        "vi": "Câu phản hồi của người nghe và cụm từ kể chuyện."
+      },
+      "focus": {
+        "en": "Fillers like “resulta que” and “total, que” make your stories sound native.",
+        "vi": "Những cụm như “resulta que” và “total, que” giúp bạn kể chuyện tự nhiên như người bản xứ."
+      },
+      "icon": "volume-2",
+      "phrases": [
+        {
+          "es": "¿Y luego qué pasó?",
+          "en": "And then what happened?",
+          "vi": "Rồi sao nữa?"
+        },
+        {
+          "es": "¡No me digas!",
+          "en": "You don't say!",
+          "vi": "Thật không đấy!"
+        },
+        {
+          "es": "Resulta que…",
+          "en": "It turns out that…",
+          "vi": "Hóa ra là…"
+        },
+        {
+          "es": "Total, que…",
+          "en": "So anyway…",
+          "vi": "Tóm lại là…"
+        },
+        {
+          "es": "No te lo vas a creer.",
+          "en": "You're not going to believe it.",
+          "vi": "Bạn sẽ không tin đâu."
+        },
+        {
+          "es": "¡Qué casualidad!",
+          "en": "What a coincidence!",
+          "vi": "Trùng hợp ghê!"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "crazy-day",
+      "title": {
+        "en": "A crazy day",
+        "vi": "Một ngày điên rồ"
+      },
+      "description": {
+        "en": "Tell a story and keep it flowing.",
+        "vi": "Kể chuyện và giữ nhịp kể."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "start",
+      "nodes": [
+        {
+          "id": "start",
+          "prompt": "Te veo raro, ¿qué te pasó?",
+          "translation": {
+            "en": "You look strange, what happened to you?",
+            "vi": "Trông bạn lạ thế, có chuyện gì vậy?"
+          },
+          "hint": {
+            "en": "Set the scene with the imperfect.",
+            "vi": "Mở đầu bối cảnh bằng imperfecto."
+          },
+          "choices": [
+            {
+              "id": "rain",
+              "es": "No te lo vas a creer. Era temprano y llovía muchísimo…",
+              "translation": {
+                "en": "You won't believe it. It was early and pouring rain…",
+                "vi": "Bạn không tin đâu. Hôm đó còn sớm và mưa rất to…"
+              },
+              "correct": true,
+              "response": "¿Y luego qué pasó?",
+              "responseTranslation": {
+                "en": "And then what happened?",
+                "vi": "Rồi sao nữa?"
+              },
+              "next": "event"
+            },
+            {
+              "id": "walk",
+              "es": "Resulta que iba caminando al trabajo, tranquilo…",
+              "translation": {
+                "en": "So I was walking to work, all calm…",
+                "vi": "Hóa ra là mình đang đi bộ đi làm, rất bình thường…"
+              },
+              "correct": true,
+              "response": "¿Y qué pasó?",
+              "responseTranslation": {
+                "en": "And what happened?",
+                "vi": "Rồi sao?"
+              },
+              "next": "event"
+            },
+            {
+              "id": "present",
+              "es": "Camino al trabajo.",
+              "translation": {
+                "en": "I walk to work.",
+                "vi": "Mình đi bộ đi làm."
+              },
+              "correct": false,
+              "correction": "No te lo vas a creer. Era temprano y llovía muchísimo…",
+              "response": "¿Ahora? Cuéntame lo que pasó.",
+              "responseTranslation": {
+                "en": "Now? Tell me what happened.",
+                "vi": "Bây giờ á? Kể chuyện đã xảy ra đi."
+              },
+              "next": "event"
+            }
+          ]
+        },
+        {
+          "id": "event",
+          "prompt": "¿Y luego?",
+          "translation": {
+            "en": "And then?",
+            "vi": "Rồi sao?"
+          },
+          "hint": {
+            "en": "Move the story with the preterite.",
+            "vi": "Đẩy câu chuyện bằng pretérito."
+          },
+          "choices": [
+            {
+              "id": "phone",
+              "es": "De repente, se me cayó el teléfono en un charco.",
+              "translation": {
+                "en": "Suddenly, my phone fell into a puddle.",
+                "vi": "Bỗng nhiên điện thoại mình rơi xuống vũng nước."
+              },
+              "correct": true,
+              "response": "¡No me digas! ¿Y funcionaba?",
+              "responseTranslation": {
+                "en": "You don't say! And did it work?",
+                "vi": "Thật hả! Thế nó còn chạy không?"
+              },
+              "next": "end"
+            },
+            {
+              "id": "teacher",
+              "es": "De repente, vi a mi antiguo profesor de la prepa.",
+              "translation": {
+                "en": "Suddenly, I saw my old high-school teacher.",
+                "vi": "Bỗng nhiên mình gặp thầy giáo cấp ba cũ."
+              },
+              "correct": true,
+              "response": "¡Qué casualidad! ¿Y qué te dijo?",
+              "responseTranslation": {
+                "en": "What a coincidence! What did he say?",
+                "vi": "Trùng hợp ghê! Thầy nói gì?"
+              },
+              "next": "end"
+            },
+            {
+              "id": "imperfect",
+              "es": "De repente, se me caía el teléfono.",
+              "translation": {
+                "en": "Suddenly, my phone was falling (wrong tense).",
+                "vi": "Bỗng nhiên điện thoại đang rơi (sai thì)."
+              },
+              "correct": false,
+              "correction": "De repente, se me cayó el teléfono en un charco.",
+              "response": "“Se te cayó”, ¿no? ¿Y luego?",
+              "responseTranslation": {
+                "en": "“Se te cayó”, right? And then?",
+                "vi": "Phải là “se te cayó” chứ? Rồi sao?"
+              },
+              "next": "end"
+            }
+          ]
+        },
+        {
+          "id": "end",
+          "prompt": "¿Y cómo terminó todo?",
+          "translation": {
+            "en": "And how did it all end?",
+            "vi": "Rồi mọi chuyện kết thúc thế nào?"
+          },
+          "hint": {
+            "en": "Wrap up with “Total, que…” or “Al final…”.",
+            "vi": "Kết thúc bằng “Total, que…” hoặc “Al final…”."
+          },
+          "choices": [
+            {
+              "id": "fine",
+              "es": "Total, que llegué tarde, pero al final todo salió bien.",
+              "translation": {
+                "en": "So anyway, I arrived late, but in the end it all worked out.",
+                "vi": "Tóm lại là mình đến trễ, nhưng cuối cùng mọi chuyện ổn."
+              },
+              "correct": true,
+              "response": "¡Qué historia! Me alegra que estés bien.",
+              "responseTranslation": {
+                "en": "What a story! I'm glad you're OK.",
+                "vi": "Chuyện hay thật! Mừng là bạn ổn."
+              }
+            },
+            {
+              "id": "gone",
+              "es": "Cuando llegué a la oficina, la reunión ya había terminado.",
+              "translation": {
+                "en": "When I got to the office, the meeting had already ended.",
+                "vi": "Khi mình tới văn phòng thì cuộc họp đã kết thúc rồi."
+              },
+              "correct": true,
+              "response": "¡Ay, qué mala suerte!",
+              "responseTranslation": {
+                "en": "Oh, what bad luck!",
+                "vi": "Ôi, xui thật!"
+              }
+            },
+            {
+              "id": "future",
+              "es": "Mañana voy a llegar temprano.",
+              "translation": {
+                "en": "Tomorrow I'll arrive early.",
+                "vi": "Mai mình sẽ đến sớm."
+              },
+              "correct": false,
+              "correction": "Total, que llegué tarde, pero al final todo salió bien.",
+              "response": "Buena idea, pero ¿cómo terminó hoy?",
+              "responseTranslation": {
+                "en": "Good idea, but how did today end?",
+                "vi": "Ý hay, nhưng hôm nay kết thúc sao?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

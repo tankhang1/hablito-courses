@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-05",
-  "version": 1,
+  "version": 2,
   "level": 5,
   "cefr": "A2",
   "title": {
@@ -55,7 +55,11 @@
           "en": "the train station",
           "vi": "ga tàu"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Use “estar” for location: “¿Dónde está el banco?” and “hay” for “there is”: “¿Hay un banco cerca?”",
+        "vi": "Dùng “estar” cho vị trí: “¿Dónde está el banco?”, và “hay” nghĩa là “có”: “¿Hay un banco cerca?”"
+      }
     },
     {
       "id": "directions",
@@ -99,7 +103,11 @@
           "en": "far from here",
           "vi": "xa đây"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Directions use polite commands: siga (keep going), gire (turn), cruce (cross).",
+        "vi": "Chỉ đường dùng câu mệnh lệnh lịch sự: siga (cứ đi), gire (rẽ), cruce (băng qua)."
+      }
     }
   ],
   "conversations": [

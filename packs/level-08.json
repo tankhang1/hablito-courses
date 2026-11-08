@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-08",
-  "version": 1,
+  "version": 2,
   "level": 8,
   "cefr": "A2",
   "title": {
@@ -59,7 +59,11 @@
           "en": "I'm looking for a job.",
           "vi": "Tôi đang tìm việc."
         }
-      ]
+      ],
+      "focus": {
+        "en": "Present tense endings: trabajo, estudio, vivo (I); trabajas, estudias, vives (you).",
+        "vi": "Đuôi động từ thì hiện tại: trabajo, estudio, vivo (tôi); trabajas, estudias, vives (bạn)."
+      }
     },
     {
       "id": "schedule",
@@ -103,7 +107,11 @@
           "en": "See you tomorrow.",
           "vi": "Mai gặp nhé."
         }
-      ]
+      ],
+      "focus": {
+        "en": "Some verbs change their stem: empezar → empiezo, poder → puedo.",
+        "vi": "Một số động từ đổi gốc: empezar → empiezo, poder → puedo."
+      }
     }
   ],
   "conversations": [

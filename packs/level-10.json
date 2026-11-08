@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-10",
-  "version": 1,
+  "version": 2,
   "level": 10,
   "cefr": "B1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "I didn't do anything.",
           "vi": "Tôi không làm gì cả."
         }
-      ]
+      ],
+      "focus": {
+        "en": "Common irregular pasts: fui (I went / I was), hice (I did), vi (I saw).",
+        "vi": "Quá khứ bất quy tắc hay gặp: fui (tôi đã đi / đã là), hice (tôi đã làm), vi (tôi đã thấy)."
+      }
     },
     {
       "id": "opinions",
@@ -99,7 +103,11 @@
           "en": "You're right.",
           "vi": "Bạn nói đúng."
         }
-      ]
+      ],
+      "focus": {
+        "en": "Soften opinions with “creo que…”, “me parece que…”, “en mi opinión…”.",
+        "vi": "Làm mềm ý kiến bằng “creo que…”, “me parece que…”, “en mi opinión…”."
+      }
     }
   ],
   "conversations": [

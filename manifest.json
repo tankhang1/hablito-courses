@@ -4,7 +4,7 @@
   "packs": [
     {
       "id": "level-01",
-      "version": 1,
+      "version": 2,
       "level": 1,
       "cefr": "A1",
       "title": {
@@ -23,7 +23,7 @@
     },
     {
       "id": "level-02",
-      "version": 1,
+      "version": 2,
       "level": 2,
       "cefr": "A1",
       "title": {
@@ -42,7 +42,7 @@
     },
     {
       "id": "level-03",
-      "version": 1,
+      "version": 2,
       "level": 3,
       "cefr": "A1",
       "title": {
@@ -61,7 +61,7 @@
     },
     {
       "id": "level-04",
-      "version": 1,
+      "version": 2,
       "level": 4,
       "cefr": "A1",
       "title": {
@@ -80,7 +80,7 @@
     },
     {
       "id": "level-05",
-      "version": 1,
+      "version": 2,
       "level": 5,
       "cefr": "A2",
       "title": {
@@ -99,7 +99,7 @@
     },
     {
       "id": "level-06",
-      "version": 1,
+      "version": 2,
       "level": 6,
       "cefr": "A2",
       "title": {
@@ -118,7 +118,7 @@
     },
     {
       "id": "level-07",
-      "version": 1,
+      "version": 2,
       "level": 7,
       "cefr": "A2",
       "title": {
@@ -133,11 +133,11 @@
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 9
+      "sizeKb": 10
     },
     {
       "id": "level-08",
-      "version": 1,
+      "version": 2,
       "level": 8,
       "cefr": "A2",
       "title": {
@@ -156,7 +156,7 @@
     },
     {
       "id": "level-09",
-      "version": 1,
+      "version": 2,
       "level": 9,
       "cefr": "B1",
       "title": {
@@ -175,7 +175,7 @@
     },
     {
       "id": "level-10",
-      "version": 1,
+      "version": 2,
       "level": 10,
       "cefr": "B1",
       "title": {
@@ -191,6 +191,386 @@
       "conversationCount": 1,
       "phraseCount": 12,
       "sizeKb": 10
+    },
+    {
+      "id": "level-11",
+      "version": 1,
+      "level": 11,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 3: Plans & the future",
+        "vi": "Trung cấp 3: Kế hoạch & tương lai"
+      },
+      "description": {
+        "en": "Talk about plans, intentions, and predictions.",
+        "vi": "Nói về kế hoạch, dự định và dự đoán."
+      },
+      "file": "packs/level-11.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    },
+    {
+      "id": "level-12",
+      "version": 1,
+      "level": 12,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 4: Describing people & places",
+        "vi": "Trung cấp 4: Miêu tả người & nơi chốn"
+      },
+      "description": {
+        "en": "Describe looks, personality, and places.",
+        "vi": "Miêu tả ngoại hình, tính cách và nơi chốn."
+      },
+      "file": "packs/level-12.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-13",
+      "version": 1,
+      "level": 13,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 5: Memories & childhood",
+        "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ"
+      },
+      "description": {
+        "en": "Tell what life used to be like.",
+        "vi": "Kể cuộc sống ngày xưa như thế nào."
+      },
+      "file": "packs/level-13.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-14",
+      "version": 1,
+      "level": 14,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 6: Calls & appointments",
+        "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn"
+      },
+      "description": {
+        "en": "Handle phone calls and book appointments politely.",
+        "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự."
+      },
+      "file": "packs/level-14.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-15",
+      "version": 1,
+      "level": 15,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 7: Renting & services",
+        "vi": "Trung cấp 7: Thuê nhà & dịch vụ"
+      },
+      "description": {
+        "en": "Rent a place, report problems, and get things fixed.",
+        "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa."
+      },
+      "file": "packs/level-15.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-16",
+      "version": 1,
+      "level": 16,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 8: Feelings & relationships",
+        "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ"
+      },
+      "description": {
+        "en": "Express emotions and react to others' news.",
+        "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác."
+      },
+      "file": "packs/level-16.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    },
+    {
+      "id": "level-17",
+      "version": 1,
+      "level": 17,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 1: Advice & recommendations",
+        "vi": "Trung cao cấp 1: Lời khuyên & đề xuất"
+      },
+      "description": {
+        "en": "Give and ask for advice naturally.",
+        "vi": "Đưa và xin lời khuyên một cách tự nhiên."
+      },
+      "file": "packs/level-17.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-18",
+      "version": 1,
+      "level": 18,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 2: Job interviews",
+        "vi": "Trung cao cấp 2: Phỏng vấn xin việc"
+      },
+      "description": {
+        "en": "Talk about your experience and strengths.",
+        "vi": "Nói về kinh nghiệm và điểm mạnh của bạn."
+      },
+      "file": "packs/level-18.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 12
+    },
+    {
+      "id": "level-19",
+      "version": 1,
+      "level": 19,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 3: Complaints & negotiation",
+        "vi": "Trung cao cấp 3: Khiếu nại & thương lượng"
+      },
+      "description": {
+        "en": "Complain politely and reach a fair deal.",
+        "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý."
+      },
+      "file": "packs/level-19.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-20",
+      "version": 1,
+      "level": 20,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 4: What if…?",
+        "vi": "Trung cao cấp 4: Nếu như…?"
+      },
+      "description": {
+        "en": "Imagine, wish, and talk about hypotheticals.",
+        "vi": "Tưởng tượng, ước muốn và nói về giả định."
+      },
+      "file": "packs/level-20.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-21",
+      "version": 1,
+      "level": 21,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 5: News & current events",
+        "vi": "Trung cao cấp 5: Tin tức & thời sự"
+      },
+      "description": {
+        "en": "Report what others said and discuss the news.",
+        "vi": "Thuật lại lời người khác và bàn luận tin tức."
+      },
+      "file": "packs/level-21.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-22",
+      "version": 1,
+      "level": 22,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 6: Mexican culture & traditions",
+        "vi": "Trung cao cấp 6: Văn hóa & truyền thống Mexico"
+      },
+      "description": {
+        "en": "Celebrations, food culture, and customs.",
+        "vi": "Lễ hội, ẩm thực và phong tục."
+      },
+      "file": "packs/level-22.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-23",
+      "version": 1,
+      "level": 23,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 7: Debating lifestyle",
+        "vi": "Trung cao cấp 7: Tranh luận về lối sống"
+      },
+      "description": {
+        "en": "Agree, disagree, and link your ideas.",
+        "vi": "Đồng ý, phản đối và liên kết ý tưởng."
+      },
+      "file": "packs/level-23.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-24",
+      "version": 1,
+      "level": 24,
+      "cefr": "B2",
+      "title": {
+        "en": "Upper-intermediate 8: Telling a story",
+        "vi": "Trung cao cấp 8: Kể một câu chuyện"
+      },
+      "description": {
+        "en": "Tell vivid stories with the right past tenses.",
+        "vi": "Kể chuyện sinh động với đúng thì quá khứ."
+      },
+      "file": "packs/level-24.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-25",
+      "version": 1,
+      "level": 25,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 1: Persuading & arguing",
+        "vi": "Cao cấp 1: Thuyết phục & lập luận"
+      },
+      "description": {
+        "en": "Build an argument and win people over.",
+        "vi": "Xây dựng lập luận và thuyết phục người khác."
+      },
+      "file": "packs/level-25.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-26",
+      "version": 1,
+      "level": 26,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 2: Idioms & Mexican slang",
+        "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico"
+      },
+      "description": {
+        "en": "Sound like a local with everyday expressions.",
+        "vi": "Nói như người bản xứ với các cách diễn đạt đời thường."
+      },
+      "file": "packs/level-26.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    },
+    {
+      "id": "level-27",
+      "version": 1,
+      "level": 27,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 3: Formal Spanish at work",
+        "vi": "Cao cấp 3: Tiếng Tây Ban Nha trang trọng nơi công sở"
+      },
+      "description": {
+        "en": "Emails, meetings, and professional tone.",
+        "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp."
+      },
+      "file": "packs/level-27.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 12
+    },
+    {
+      "id": "level-28",
+      "version": 1,
+      "level": 28,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 4: Nuance & tact",
+        "vi": "Cao cấp 4: Sắc thái & tế nhị"
+      },
+      "description": {
+        "en": "Hedge, soften, and say difficult things gracefully.",
+        "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo."
+      },
+      "file": "packs/level-28.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 11
+    },
+    {
+      "id": "level-29",
+      "version": 1,
+      "level": 29,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 5: Society & technology",
+        "vi": "Cao cấp 5: Xã hội & công nghệ"
+      },
+      "description": {
+        "en": "Discuss abstract topics with precision.",
+        "vi": "Bàn luận chủ đề trừu tượng một cách chính xác."
+      },
+      "file": "packs/level-29.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 12
+    },
+    {
+      "id": "level-30",
+      "version": 1,
+      "level": 30,
+      "cefr": "C1",
+      "title": {
+        "en": "Advanced 6: Fluent conversation",
+        "vi": "Cao cấp 6: Giao tiếp thành thạo"
+      },
+      "description": {
+        "en": "Natural fillers, recovery strategies, and deep talk.",
+        "vi": "Từ đệm tự nhiên, cách xử lý khi bí và trò chuyện sâu."
+      },
+      "file": "packs/level-30.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 12
     }
   ]
 }

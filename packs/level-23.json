@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-23",
+  "version": 1,
+  "level": 23,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 7: Debating lifestyle",
+    "vi": "Trung cao cấp 7: Tranh luận về lối sống"
+  },
+  "description": {
+    "en": "Agree, disagree, and link your ideas.",
+    "vi": "Đồng ý, phản đối và liên kết ý tưởng."
+  },
+  "lessons": [
+    {
+      "id": "connectors",
+      "title": {
+        "en": "Linking ideas",
+        "vi": "Liên kết ý"
+      },
+      "description": {
+        "en": "Connectors that make you sound fluent.",
+        "vi": "Từ nối giúp bạn nói trôi chảy."
+      },
+      "focus": {
+        "en": "Connectors turn lists into arguments: además (adding), sin embargo (contrast), por eso (result).",
+        "vi": "Từ nối biến liệt kê thành lập luận: además (thêm ý), sin embargo (tương phản), por eso (kết quả)."
+      },
+      "icon": "link",
+      "phrases": [
+        {
+          "es": "Además, es más barato.",
+          "en": "Besides, it's cheaper.",
+          "vi": "Hơn nữa, nó rẻ hơn."
+        },
+        {
+          "es": "Sin embargo, no todos pueden hacerlo.",
+          "en": "However, not everyone can do it.",
+          "vi": "Tuy nhiên, không phải ai cũng làm được."
+        },
+        {
+          "es": "Por un lado… por otro lado…",
+          "en": "On one hand… on the other hand…",
+          "vi": "Một mặt… mặt khác…"
+        },
+        {
+          "es": "Por eso prefiero caminar.",
+          "en": "That's why I prefer walking.",
+          "vi": "Vì vậy tôi thích đi bộ hơn."
+        },
+        {
+          "es": "En cambio, mi hermano odia el ejercicio.",
+          "en": "My brother, on the other hand, hates exercise.",
+          "vi": "Ngược lại, anh trai tôi ghét tập thể dục."
+        },
+        {
+          "es": "Al fin y al cabo, es cuestión de hábitos.",
+          "en": "At the end of the day, it's a matter of habits.",
+          "vi": "Suy cho cùng, đó là chuyện thói quen."
+        }
+      ]
+    },
+    {
+      "id": "agreeing",
+      "title": {
+        "en": "Agreeing & disagreeing",
+        "vi": "Đồng ý & phản đối"
+      },
+      "description": {
+        "en": "Disagree without sounding rude.",
+        "vi": "Phản đối mà không bất lịch sự."
+      },
+      "focus": {
+        "en": "“Entiendo tu punto, pero…” and “Hasta cierto punto…” soften disagreement.",
+        "vi": "“Entiendo tu punto, pero…” và “Hasta cierto punto…” làm mềm sự phản đối."
+      },
+      "icon": "users",
+      "phrases": [
+        {
+          "es": "Estoy totalmente de acuerdo.",
+          "en": "I completely agree.",
+          "vi": "Tôi hoàn toàn đồng ý."
+        },
+        {
+          "es": "Hasta cierto punto, sí.",
+          "en": "Up to a point, yes.",
+          "vi": "Ở một mức độ nào đó thì đúng."
+        },
+        {
+          "es": "Entiendo tu punto, pero…",
+          "en": "I see your point, but…",
+          "vi": "Tôi hiểu ý bạn, nhưng…"
+        },
+        {
+          "es": "No lo veo así.",
+          "en": "I don't see it that way.",
+          "vi": "Tôi không nghĩ như vậy."
+        },
+        {
+          "es": "Eso depende de cada persona.",
+          "en": "That depends on each person.",
+          "vi": "Điều đó tùy mỗi người."
+        },
+        {
+          "es": "Tienes toda la razón.",
+          "en": "You're absolutely right.",
+          "vi": "Bạn hoàn toàn đúng."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "work-from-home",
+      "title": {
+        "en": "Debate: working from home",
+        "vi": "Tranh luận: làm việc tại nhà"
+      },
+      "description": {
+        "en": "Argue your side with connectors.",
+        "vi": "Bảo vệ quan điểm bằng từ nối."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "view",
+      "nodes": [
+        {
+          "id": "view",
+          "prompt": "Yo creo que trabajar desde casa es mucho mejor.",
+          "translation": {
+            "en": "I think working from home is much better.",
+            "vi": "Mình nghĩ làm ở nhà tốt hơn nhiều."
+          },
+          "hint": {
+            "en": "Agree or disagree politely.",
+            "vi": "Đồng ý hoặc phản đối lịch sự."
+          },
+          "choices": [
+            {
+              "id": "partly",
+              "es": "Hasta cierto punto, sí. Sin embargo, extraño a mis compañeros.",
+              "translation": {
+                "en": "Up to a point, yes. However, I miss my coworkers.",
+                "vi": "Ở mức nào đó thì đúng. Tuy nhiên, mình nhớ đồng nghiệp."
+              },
+              "correct": true,
+              "response": "Entiendo. ¿Pero no ahorras tiempo?",
+              "responseTranslation": {
+                "en": "I get it. But don't you save time?",
+                "vi": "Mình hiểu. Nhưng bạn không tiết kiệm được thời gian à?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "agree",
+              "es": "Totalmente de acuerdo. Además, ahorro dinero en transporte.",
+              "translation": {
+                "en": "Totally agree. Besides, I save money on transport.",
+                "vi": "Hoàn toàn đồng ý. Hơn nữa, mình đỡ tiền đi lại."
+              },
+              "correct": true,
+              "response": "¡Exacto! ¿Y no te sientes solo?",
+              "responseTranslation": {
+                "en": "Exactly! And don't you feel lonely?",
+                "vi": "Chính xác! Thế bạn không thấy cô đơn à?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "rude",
+              "es": "Estás equivocado.",
+              "translation": {
+                "en": "You're wrong.",
+                "vi": "Bạn sai rồi."
+              },
+              "correct": false,
+              "correction": "Hasta cierto punto, sí. Sin embargo, extraño a mis compañeros.",
+              "response": "Uy, qué directo. ¿Por qué lo dices?",
+              "responseTranslation": {
+                "en": "Wow, that's blunt. Why do you say that?",
+                "vi": "Ôi, thẳng thế. Sao bạn nói vậy?"
+              },
+              "next": "time"
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "prompt": "Pero en casa ahorras dos horas de tráfico.",
+          "translation": {
+            "en": "But at home you save two hours of traffic.",
+            "vi": "Nhưng ở nhà bạn đỡ được hai tiếng kẹt xe."
+          },
+          "hint": {
+            "en": "Acknowledge, then add a counterpoint.",
+            "vi": "Thừa nhận, rồi đưa ra phản biện."
+          },
+          "choices": [
+            {
+              "id": "but",
+              "es": "Entiendo tu punto, pero me cuesta concentrarme en casa.",
+              "translation": {
+                "en": "I see your point, but I find it hard to focus at home.",
+                "vi": "Mình hiểu ý bạn, nhưng ở nhà mình khó tập trung."
+              },
+              "correct": true,
+              "response": "Eso depende de cada persona, ¿no?",
+              "responseTranslation": {
+                "en": "That depends on each person, right?",
+                "vi": "Cái đó tùy người, phải không?"
+              },
+              "next": "conclusion"
+            },
+            {
+              "id": "both",
+              "es": "Por un lado es verdad; por otro lado, no tengo oficina en casa.",
+              "translation": {
+                "en": "On one hand it's true; on the other hand, I don't have an office at home.",
+                "vi": "Một mặt là đúng; mặt khác, nhà mình không có chỗ làm việc."
+              },
+              "correct": true,
+              "response": "Tiene sentido. Depende de la situación.",
+              "responseTranslation": {
+                "en": "Makes sense. It depends on the situation.",
+                "vi": "Hợp lý. Tùy hoàn cảnh thôi."
+              },
+              "next": "conclusion"
+            },
+            {
+              "id": "random",
+              "es": "Por eso prefiero caminar.",
+              "translation": {
+                "en": "That's why I prefer walking.",
+                "vi": "Vì vậy mình thích đi bộ."
+              },
+              "correct": false,
+              "correction": "Entiendo tu punto, pero me cuesta concentrarme en casa.",
+              "response": "¿Caminar? No entiendo la relación…",
+              "responseTranslation": {
+                "en": "Walking? I don't see the connection…",
+                "vi": "Đi bộ á? Mình không thấy liên quan…"
+              },
+              "next": "conclusion"
+            }
+          ]
+        },
+        {
+          "id": "conclusion",
+          "prompt": "Entonces, ¿qué es lo ideal?",
+          "translation": {
+            "en": "So what's ideal?",
+            "vi": "Vậy thế nào là lý tưởng?"
+          },
+          "hint": {
+            "en": "Wrap up with “Al fin y al cabo…”.",
+            "vi": "Kết luận bằng “Al fin y al cabo…”."
+          },
+          "choices": [
+            {
+              "id": "hybrid",
+              "es": "Al fin y al cabo, lo mejor es un modelo híbrido.",
+              "translation": {
+                "en": "At the end of the day, a hybrid model is best.",
+                "vi": "Suy cho cùng, kết hợp cả hai là tốt nhất."
+              },
+              "correct": true,
+              "response": "Estoy totalmente de acuerdo contigo.",
+              "responseTranslation": {
+                "en": "I totally agree with you.",
+                "vi": "Mình hoàn toàn đồng ý với bạn."
+              }
+            },
+            {
+              "id": "depends",
+              "es": "Al fin y al cabo, depende de cada persona y de cada trabajo.",
+              "translation": {
+                "en": "In the end, it depends on each person and each job.",
+                "vi": "Suy cho cùng, nó tùy từng người và từng công việc."
+              },
+              "correct": true,
+              "response": "Tienes toda la razón.",
+              "responseTranslation": {
+                "en": "You're absolutely right.",
+                "vi": "Bạn hoàn toàn đúng."
+              }
+            },
+            {
+              "id": "nothing",
+              "es": "No sé, me da igual.",
+              "translation": {
+                "en": "I don't know, I don't care.",
+                "vi": "Không biết, sao cũng được."
+              },
+              "correct": false,
+              "correction": "Al fin y al cabo, lo mejor es un modelo híbrido.",
+              "response": "Jaja, ¡pero si estábamos debatiendo!",
+              "responseTranslation": {
+                "en": "Haha, but we were debating!",
+                "vi": "Haha, mình đang tranh luận mà!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

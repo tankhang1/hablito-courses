@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-20",
+  "version": 1,
+  "level": 20,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 4: What if…?",
+    "vi": "Trung cao cấp 4: Nếu như…?"
+  },
+  "description": {
+    "en": "Imagine, wish, and talk about hypotheticals.",
+    "vi": "Tưởng tượng, ước muốn và nói về giả định."
+  },
+  "lessons": [
+    {
+      "id": "hypotheticals",
+      "title": {
+        "en": "If I could…",
+        "vi": "Nếu tôi có thể…"
+      },
+      "description": {
+        "en": "Unreal situations in the present.",
+        "vi": "Tình huống không có thật ở hiện tại."
+      },
+      "focus": {
+        "en": "Si + past subjunctive, + conditional: si tuviera… aprendería; si fuera… aceptaría.",
+        "vi": "Si + giả định quá khứ, + điều kiện: si tuviera… aprendería; si fuera… aceptaría."
+      },
+      "icon": "cloud",
+      "phrases": [
+        {
+          "es": "Si tuviera más tiempo, aprendería a bailar.",
+          "en": "If I had more time, I'd learn to dance.",
+          "vi": "Nếu có nhiều thời gian hơn, tôi sẽ học nhảy."
+        },
+        {
+          "es": "Si ganara la lotería, viajaría por el mundo.",
+          "en": "If I won the lottery, I'd travel the world.",
+          "vi": "Nếu trúng số, tôi sẽ đi du lịch vòng quanh thế giới."
+        },
+        {
+          "es": "Si fuera tú, aceptaría la oferta.",
+          "en": "If I were you, I'd accept the offer.",
+          "vi": "Nếu là bạn, tôi sẽ nhận lời."
+        },
+        {
+          "es": "¿Qué harías si pudieras vivir en otro país?",
+          "en": "What would you do if you could live in another country?",
+          "vi": "Bạn sẽ làm gì nếu được sống ở nước khác?"
+        },
+        {
+          "es": "Me gustaría vivir cerca del mar.",
+          "en": "I'd like to live near the sea.",
+          "vi": "Tôi muốn sống gần biển."
+        },
+        {
+          "es": "Sería increíble.",
+          "en": "It would be amazing.",
+          "vi": "Sẽ tuyệt vời lắm."
+        }
+      ]
+    },
+    {
+      "id": "wishes",
+      "title": {
+        "en": "Wishes & regrets",
+        "vi": "Ước muốn & tiếc nuối"
+      },
+      "description": {
+        "en": "Say what you wish were different.",
+        "vi": "Nói điều bạn ước khác đi."
+      },
+      "focus": {
+        "en": "Past regrets: si hubiera + participle, habría + participle (si hubiera estudiado, habría aprobado).",
+        "vi": "Tiếc nuối quá khứ: si hubiera + phân từ, habría + phân từ (si hubiera estudiado, habría aprobado)."
+      },
+      "icon": "star",
+      "phrases": [
+        {
+          "es": "Ojalá pudiera ir contigo.",
+          "en": "I wish I could go with you.",
+          "vi": "Ước gì tôi đi cùng bạn được."
+        },
+        {
+          "es": "Ojalá no lloviera tanto.",
+          "en": "I wish it didn't rain so much.",
+          "vi": "Ước gì trời đừng mưa nhiều thế."
+        },
+        {
+          "es": "Si hubiera estudiado más, habría aprobado.",
+          "en": "If I had studied more, I would have passed.",
+          "vi": "Nếu học nhiều hơn, tôi đã đậu rồi."
+        },
+        {
+          "es": "Debí haberte llamado.",
+          "en": "I should have called you.",
+          "vi": "Lẽ ra tôi phải gọi cho bạn."
+        },
+        {
+          "es": "No me arrepiento de nada.",
+          "en": "I don't regret anything.",
+          "vi": "Tôi không hối tiếc điều gì."
+        },
+        {
+          "es": "Ya es tarde para eso.",
+          "en": "It's too late for that now.",
+          "vi": "Giờ thì muộn rồi."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "dream-life",
+      "title": {
+        "en": "Dream life",
+        "vi": "Cuộc sống mơ ước"
+      },
+      "description": {
+        "en": "Imagine a different life with a friend.",
+        "vi": "Cùng bạn tưởng tượng một cuộc sống khác."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "lottery",
+      "nodes": [
+        {
+          "id": "lottery",
+          "prompt": "¿Qué harías si ganaras la lotería?",
+          "translation": {
+            "en": "What would you do if you won the lottery?",
+            "vi": "Bạn sẽ làm gì nếu trúng số?"
+          },
+          "hint": {
+            "en": "Answer with the conditional: “-ría”.",
+            "vi": "Trả lời bằng thức điều kiện: “-ría”."
+          },
+          "choices": [
+            {
+              "id": "travel",
+              "es": "Viajaría por el mundo con mi familia.",
+              "translation": {
+                "en": "I'd travel the world with my family.",
+                "vi": "Mình sẽ đi khắp thế giới với gia đình."
+              },
+              "correct": true,
+              "response": "¡Qué bonito! ¿Y dejarías tu trabajo?",
+              "responseTranslation": {
+                "en": "How lovely! And would you quit your job?",
+                "vi": "Hay quá! Thế bạn có nghỉ việc không?"
+              },
+              "next": "job"
+            },
+            {
+              "id": "house",
+              "es": "Me compraría una casa cerca del mar.",
+              "translation": {
+                "en": "I'd buy myself a house near the sea.",
+                "vi": "Mình sẽ mua một căn nhà gần biển."
+              },
+              "correct": true,
+              "response": "¡Sería increíble! ¿Y dejarías tu trabajo?",
+              "responseTranslation": {
+                "en": "That would be amazing! And would you quit your job?",
+                "vi": "Tuyệt thật! Thế bạn có nghỉ việc không?"
+              },
+              "next": "job"
+            },
+            {
+              "id": "future",
+              "es": "Viajaré por el mundo.",
+              "translation": {
+                "en": "I will travel the world.",
+                "vi": "Mình sẽ đi khắp thế giới (thì tương lai)."
+              },
+              "correct": false,
+              "correction": "Viajaría por el mundo con mi familia.",
+              "response": "Jaja, “viajaría”, ¡todavía no ganas! ¿Dejarías tu trabajo?",
+              "responseTranslation": {
+                "en": "Haha, “viajaría”, you haven't won yet! Would you quit your job?",
+                "vi": "Haha, “viajaría” chứ, bạn đã trúng đâu! Bạn có nghỉ việc không?"
+              },
+              "next": "job"
+            }
+          ]
+        },
+        {
+          "id": "job",
+          "prompt": "¿Dejarías tu trabajo?",
+          "translation": {
+            "en": "Would you quit your job?",
+            "vi": "Bạn có nghỉ việc không?"
+          },
+          "hint": {
+            "en": "Give your answer with a reason.",
+            "vi": "Trả lời kèm lý do."
+          },
+          "choices": [
+            {
+              "id": "no",
+              "es": "No, me aburriría sin hacer nada.",
+              "translation": {
+                "en": "No, I'd get bored doing nothing.",
+                "vi": "Không, không làm gì mình sẽ chán lắm."
+              },
+              "correct": true,
+              "response": "Te entiendo. ¿Hay algo que te arrepientas de no haber hecho?",
+              "responseTranslation": {
+                "en": "I get it. Is there anything you regret not doing?",
+                "vi": "Mình hiểu. Có điều gì bạn tiếc vì chưa làm không?"
+              },
+              "next": "regret"
+            },
+            {
+              "id": "yes",
+              "es": "Sí, y abriría mi propio café.",
+              "translation": {
+                "en": "Yes, and I'd open my own café.",
+                "vi": "Có, và mình sẽ mở quán cà phê riêng."
+              },
+              "correct": true,
+              "response": "¡Iría todos los días! ¿Y algo de lo que te arrepientas?",
+              "responseTranslation": {
+                "en": "I'd go every day! And anything you regret?",
+                "vi": "Ngày nào mình cũng ghé! Thế có điều gì bạn tiếc không?"
+              },
+              "next": "regret"
+            },
+            {
+              "id": "yesterday",
+              "es": "Ayer trabajé mucho.",
+              "translation": {
+                "en": "Yesterday I worked a lot.",
+                "vi": "Hôm qua mình làm nhiều lắm."
+              },
+              "correct": false,
+              "correction": "No, me aburriría sin hacer nada.",
+              "response": "Pobre, pero ¿dejarías el trabajo con tanto dinero?",
+              "responseTranslation": {
+                "en": "Poor you, but would you quit with all that money?",
+                "vi": "Tội ghê, nhưng có nhiều tiền vậy bạn có nghỉ không?"
+              },
+              "next": "regret"
+            }
+          ]
+        },
+        {
+          "id": "regret",
+          "prompt": "¿Hay algo que te arrepientas de no haber hecho?",
+          "translation": {
+            "en": "Is there anything you regret not having done?",
+            "vi": "Có điều gì bạn tiếc vì chưa làm không?"
+          },
+          "hint": {
+            "en": "Use “Si hubiera…, habría…” or “Ojalá…”.",
+            "vi": "Dùng “Si hubiera…, habría…” hoặc “Ojalá…”."
+          },
+          "choices": [
+            {
+              "id": "studied",
+              "es": "Si hubiera estudiado música, habría sido feliz.",
+              "translation": {
+                "en": "If I had studied music, I would have been happy.",
+                "vi": "Nếu học nhạc, có lẽ mình đã hạnh phúc."
+              },
+              "correct": true,
+              "response": "Nunca es tarde para empezar.",
+              "responseTranslation": {
+                "en": "It's never too late to start.",
+                "vi": "Không bao giờ là quá muộn để bắt đầu."
+              }
+            },
+            {
+              "id": "nothing",
+              "es": "No me arrepiento de nada, la verdad.",
+              "translation": {
+                "en": "Honestly, I don't regret anything.",
+                "vi": "Thật lòng mình chẳng hối tiếc gì."
+              },
+              "correct": true,
+              "response": "¡Qué buena actitud!",
+              "responseTranslation": {
+                "en": "What a great attitude!",
+                "vi": "Thái độ tuyệt quá!"
+              }
+            },
+            {
+              "id": "wrong",
+              "es": "Si estudiaba música, era feliz.",
+              "translation": {
+                "en": "If I studied music, I was happy (wrong tenses).",
+                "vi": "Nếu học nhạc, mình đã vui (sai thì)."
+              },
+              "correct": false,
+              "correction": "Si hubiera estudiado música, habría sido feliz.",
+              "response": "Se dice “si hubiera estudiado… habría sido”. ¡Pero te entiendo!",
+              "responseTranslation": {
+                "en": "We say “si hubiera estudiado… habría sido”. But I get you!",
+                "vi": "Phải nói “si hubiera estudiado… habría sido”. Nhưng mình hiểu ý bạn!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

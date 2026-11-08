@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-21",
+  "version": 1,
+  "level": 21,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 5: News & current events",
+    "vi": "Trung cao cấp 5: Tin tức & thời sự"
+  },
+  "description": {
+    "en": "Report what others said and discuss the news.",
+    "vi": "Thuật lại lời người khác và bàn luận tin tức."
+  },
+  "lessons": [
+    {
+      "id": "reporting",
+      "title": {
+        "en": "Reporting what was said",
+        "vi": "Thuật lại lời nói"
+      },
+      "description": {
+        "en": "Pass on information accurately.",
+        "vi": "Truyền đạt thông tin chính xác."
+      },
+      "focus": {
+        "en": "Reported speech shifts tenses: “va a cerrar” → dijo que iba a cerrar / estaría cerrado.",
+        "vi": "Câu tường thuật lùi thì: “va a cerrar” → dijo que iba a cerrar / estaría cerrado."
+      },
+      "icon": "radio",
+      "phrases": [
+        {
+          "es": "Según el periódico, va a subir la gasolina.",
+          "en": "According to the newspaper, gas prices will rise.",
+          "vi": "Theo báo, giá xăng sẽ tăng."
+        },
+        {
+          "es": "Dijeron que el metro estaría cerrado.",
+          "en": "They said the metro would be closed.",
+          "vi": "Họ nói tàu điện ngầm sẽ đóng cửa."
+        },
+        {
+          "es": "El alcalde anunció que habrá nuevas ciclovías.",
+          "en": "The mayor announced there will be new bike lanes.",
+          "vi": "Thị trưởng thông báo sẽ có làn xe đạp mới."
+        },
+        {
+          "es": "Se dice que mañana habrá protestas.",
+          "en": "They say there will be protests tomorrow.",
+          "vi": "Nghe nói ngày mai sẽ có biểu tình."
+        },
+        {
+          "es": "Me contó que se había mudado.",
+          "en": "She told me she had moved.",
+          "vi": "Cô ấy kể với tôi là đã chuyển nhà."
+        },
+        {
+          "es": "No está confirmado todavía.",
+          "en": "It isn't confirmed yet.",
+          "vi": "Việc này vẫn chưa được xác nhận."
+        }
+      ]
+    },
+    {
+      "id": "discussing",
+      "title": {
+        "en": "Discussing the news",
+        "vi": "Bàn luận tin tức"
+      },
+      "description": {
+        "en": "React and give a measured view.",
+        "vi": "Phản hồi và nêu quan điểm chừng mực."
+      },
+      "focus": {
+        "en": "Doubt triggers the subjunctive: dudo que sea, no creo que tenga. Certainty doesn't: creo que es.",
+        "vi": "Nghi ngờ đi với thức giả định: dudo que sea, no creo que tenga. Chắc chắn thì không: creo que es."
+      },
+      "icon": "message-square",
+      "phrases": [
+        {
+          "es": "¿Viste lo que pasó con…?",
+          "en": "Did you see what happened with…?",
+          "vi": "Bạn thấy chuyện xảy ra với… chưa?"
+        },
+        {
+          "es": "Es un tema bastante polémico.",
+          "en": "It's quite a controversial topic.",
+          "vi": "Đó là chủ đề khá gây tranh cãi."
+        },
+        {
+          "es": "Hay que ver las dos caras de la moneda.",
+          "en": "You have to see both sides of the coin.",
+          "vi": "Phải nhìn cả hai mặt của vấn đề."
+        },
+        {
+          "es": "Dudo que eso sea verdad.",
+          "en": "I doubt that's true.",
+          "vi": "Tôi nghi ngờ điều đó là thật."
+        },
+        {
+          "es": "No me sorprende para nada.",
+          "en": "It doesn't surprise me at all.",
+          "vi": "Tôi chẳng ngạc nhiên chút nào."
+        },
+        {
+          "es": "Habrá que esperar a ver qué pasa.",
+          "en": "We'll have to wait and see what happens.",
+          "vi": "Phải chờ xem chuyện gì xảy ra."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "news-chat",
+      "title": {
+        "en": "Chat about the news",
+        "vi": "Tán gẫu về tin tức"
+      },
+      "description": {
+        "en": "Pass on a headline and discuss it.",
+        "vi": "Kể lại một tin và bàn luận."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "heard",
+      "nodes": [
+        {
+          "id": "heard",
+          "prompt": "¿Escuchaste las noticias de hoy?",
+          "translation": {
+            "en": "Did you hear today's news?",
+            "vi": "Bạn nghe tin hôm nay chưa?"
+          },
+          "hint": {
+            "en": "Report what you heard with “dijeron que…” or “según…”.",
+            "vi": "Thuật lại bằng “dijeron que…” hoặc “según…”."
+          },
+          "choices": [
+            {
+              "id": "metro",
+              "es": "Sí, dijeron que el metro estaría cerrado el domingo.",
+              "translation": {
+                "en": "Yes, they said the metro would be closed on Sunday.",
+                "vi": "Rồi, họ nói Chủ Nhật tàu điện ngầm sẽ đóng cửa."
+              },
+              "correct": true,
+              "response": "¿En serio? ¿Por qué?",
+              "responseTranslation": {
+                "en": "Seriously? Why?",
+                "vi": "Thật à? Sao vậy?"
+              },
+              "next": "why"
+            },
+            {
+              "id": "bikes",
+              "es": "Según el periódico, habrá nuevas ciclovías en el centro.",
+              "translation": {
+                "en": "According to the paper, there'll be new bike lanes downtown.",
+                "vi": "Theo báo, trung tâm sẽ có làn xe đạp mới."
+              },
+              "correct": true,
+              "response": "¡Ya era hora! ¿Y por qué ahora?",
+              "responseTranslation": {
+                "en": "About time! And why now?",
+                "vi": "Cuối cùng cũng có! Sao giờ mới làm?"
+              },
+              "next": "why"
+            },
+            {
+              "id": "direct",
+              "es": "El metro va a cerrar, dijo.",
+              "translation": {
+                "en": "The metro is going to close, he said.",
+                "vi": "Tàu điện sẽ đóng cửa, anh ta nói."
+              },
+              "correct": false,
+              "correction": "Sí, dijeron que el metro estaría cerrado el domingo.",
+              "response": "Ah, ¿dijeron que iba a cerrar? ¿Por qué?",
+              "responseTranslation": {
+                "en": "Ah, they said it would close? Why?",
+                "vi": "À, họ nói nó sẽ đóng à? Sao vậy?"
+              },
+              "next": "why"
+            }
+          ]
+        },
+        {
+          "id": "why",
+          "prompt": "¿Y por qué lo hacen?",
+          "translation": {
+            "en": "And why are they doing it?",
+            "vi": "Thế sao họ lại làm vậy?"
+          },
+          "hint": {
+            "en": "Share what you know, or admit it's unconfirmed.",
+            "vi": "Chia sẻ điều bạn biết, hoặc nói là chưa được xác nhận."
+          },
+          "choices": [
+            {
+              "id": "works",
+              "es": "Se dice que es por obras, pero no está confirmado.",
+              "translation": {
+                "en": "They say it's for construction, but it's not confirmed.",
+                "vi": "Nghe nói là do thi công, nhưng chưa xác nhận."
+              },
+              "correct": true,
+              "response": "Mmm, dudo que terminen a tiempo.",
+              "responseTranslation": {
+                "en": "Hmm, I doubt they'll finish on time.",
+                "vi": "Ừm, mình nghi là họ không xong đúng hạn."
+              },
+              "next": "opinion"
+            },
+            {
+              "id": "traffic",
+              "es": "Para reducir el tráfico, según el gobierno.",
+              "translation": {
+                "en": "To reduce traffic, according to the government.",
+                "vi": "Để giảm kẹt xe, theo chính quyền."
+              },
+              "correct": true,
+              "response": "No me sorprende. ¿Tú qué opinas?",
+              "responseTranslation": {
+                "en": "Doesn't surprise me. What do you think?",
+                "vi": "Chẳng lạ. Bạn nghĩ sao?"
+              },
+              "next": "opinion"
+            },
+            {
+              "id": "dunno",
+              "es": "No sé.",
+              "translation": {
+                "en": "I don't know.",
+                "vi": "Không biết."
+              },
+              "correct": false,
+              "correction": "Se dice que es por obras, pero no está confirmado.",
+              "response": "Bueno, ¿pero qué se dice?",
+              "responseTranslation": {
+                "en": "Well, but what are people saying?",
+                "vi": "Thế người ta nói gì?"
+              },
+              "next": "opinion"
+            }
+          ]
+        },
+        {
+          "id": "opinion",
+          "prompt": "¿Crees que va a funcionar?",
+          "translation": {
+            "en": "Do you think it'll work?",
+            "vi": "Bạn nghĩ có hiệu quả không?"
+          },
+          "hint": {
+            "en": "Use “dudo que / no creo que + subjunctive” or “creo que + indicative”.",
+            "vi": "Dùng “dudo que / no creo que + giả định” hoặc “creo que + trần thuật”."
+          },
+          "choices": [
+            {
+              "id": "doubt",
+              "es": "No creo que funcione, pero habrá que esperar.",
+              "translation": {
+                "en": "I don't think it'll work, but we'll have to wait.",
+                "vi": "Mình không nghĩ là hiệu quả, nhưng phải chờ xem."
+              },
+              "correct": true,
+              "response": "Pienso lo mismo.",
+              "responseTranslation": {
+                "en": "I think the same.",
+                "vi": "Mình cũng nghĩ vậy."
+              }
+            },
+            {
+              "id": "think",
+              "es": "Creo que sí, hay que ver las dos caras.",
+              "translation": {
+                "en": "I think so, you have to see both sides.",
+                "vi": "Mình nghĩ là có, phải nhìn cả hai mặt."
+              },
+              "correct": true,
+              "response": "Puede ser. Ojalá tengas razón.",
+              "responseTranslation": {
+                "en": "Could be. I hope you're right.",
+                "vi": "Có thể. Mong là bạn đúng."
+              }
+            },
+            {
+              "id": "mood",
+              "es": "No creo que funciona.",
+              "translation": {
+                "en": "I don't think it works (wrong form).",
+                "vi": "Mình không nghĩ là hiệu quả (sai dạng)."
+              },
+              "correct": false,
+              "correction": "No creo que funcione, pero habrá que esperar.",
+              "response": "“Que funcione”, ¿no? Pero sí, yo también lo dudo.",
+              "responseTranslation": {
+                "en": "“Que funcione”, right? But yes, I doubt it too.",
+                "vi": "Phải là “que funcione” chứ? Nhưng đúng, mình cũng nghi lắm."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

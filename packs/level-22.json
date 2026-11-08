@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-22",
+  "version": 1,
+  "level": 22,
+  "cefr": "B2",
+  "title": {
+    "en": "Upper-intermediate 6: Mexican culture & traditions",
+    "vi": "Trung cao cấp 6: Văn hóa & truyền thống Mexico"
+  },
+  "description": {
+    "en": "Celebrations, food culture, and customs.",
+    "vi": "Lễ hội, ẩm thực và phong tục."
+  },
+  "lessons": [
+    {
+      "id": "celebrations",
+      "title": {
+        "en": "Celebrations",
+        "vi": "Lễ hội"
+      },
+      "description": {
+        "en": "Talk about Mexico's big traditions.",
+        "vi": "Nói về những truyền thống lớn của Mexico."
+      },
+      "focus": {
+        "en": "Passive “se” describes customs: se pone, se celebra, se recuerda.",
+        "vi": "“Se” bị động dùng tả phong tục: se pone, se celebra, se recuerda."
+      },
+      "icon": "gift",
+      "phrases": [
+        {
+          "es": "En el Día de Muertos se pone una ofrenda.",
+          "en": "On the Day of the Dead, people set up an altar.",
+          "vi": "Vào Lễ Người Chết, người ta bày bàn thờ."
+        },
+        {
+          "es": "Se recuerda a los seres queridos que ya fallecieron.",
+          "en": "Loved ones who have passed away are remembered.",
+          "vi": "Người ta tưởng nhớ những người thân đã khuất."
+        },
+        {
+          "es": "Las posadas se celebran antes de Navidad.",
+          "en": "Las Posadas are celebrated before Christmas.",
+          "vi": "Lễ Posadas được tổ chức trước Giáng sinh."
+        },
+        {
+          "es": "En las fiestas siempre hay una piñata.",
+          "en": "There's always a piñata at parties.",
+          "vi": "Tiệc nào cũng có piñata."
+        },
+        {
+          "es": "El 16 de septiembre se celebra la Independencia.",
+          "en": "Independence is celebrated on September 16.",
+          "vi": "Ngày 16 tháng 9 là lễ Độc lập."
+        },
+        {
+          "es": "Es una tradición que pasa de generación en generación.",
+          "en": "It's a tradition passed from generation to generation.",
+          "vi": "Đó là truyền thống truyền từ đời này sang đời khác."
+        }
+      ]
+    },
+    {
+      "id": "customs",
+      "title": {
+        "en": "Everyday customs",
+        "vi": "Phong tục hằng ngày"
+      },
+      "description": {
+        "en": "Small habits that matter.",
+        "vi": "Những thói quen nhỏ mà quan trọng."
+      },
+      "focus": {
+        "en": "“Es costumbre…” and “Se acostumbra…” are handy ways to explain how things are done.",
+        "vi": "“Es costumbre…” và “Se acostumbra…” là cách tiện để giải thích phong tục."
+      },
+      "icon": "coffee",
+      "phrases": [
+        {
+          "es": "Es costumbre saludar con un beso en la mejilla.",
+          "en": "It's customary to greet with a kiss on the cheek.",
+          "vi": "Theo phong tục, người ta chào bằng một nụ hôn lên má."
+        },
+        {
+          "es": "La comida fuerte es a mediodía.",
+          "en": "The main meal is at midday.",
+          "vi": "Bữa chính là vào buổi trưa."
+        },
+        {
+          "es": "Se acostumbra dejar propina.",
+          "en": "It's customary to leave a tip.",
+          "vi": "Người ta thường để lại tiền boa."
+        },
+        {
+          "es": "Llegar un poco tarde a una fiesta es normal.",
+          "en": "Arriving a bit late to a party is normal.",
+          "vi": "Đến tiệc trễ một chút là chuyện bình thường."
+        },
+        {
+          "es": "¡Buen provecho!",
+          "en": "Enjoy your meal!",
+          "vi": "Chúc ngon miệng!"
+        },
+        {
+          "es": "¡Salud!",
+          "en": "Cheers! / Bless you!",
+          "vi": "Chúc sức khỏe! / Cụng ly!"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "day-of-dead",
+      "title": {
+        "en": "Explain the Day of the Dead",
+        "vi": "Giải thích Lễ Người Chết"
+      },
+      "description": {
+        "en": "Talk about a tradition with a curious visitor.",
+        "vi": "Trò chuyện về truyền thống với một du khách tò mò."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "what",
+      "nodes": [
+        {
+          "id": "what",
+          "prompt": "¿Qué es exactamente el Día de Muertos?",
+          "translation": {
+            "en": "What exactly is the Day of the Dead?",
+            "vi": "Lễ Người Chết chính xác là gì vậy?"
+          },
+          "hint": {
+            "en": "Explain using passive “se”.",
+            "vi": "Giải thích bằng “se” bị động."
+          },
+          "choices": [
+            {
+              "id": "remember",
+              "es": "Es una fiesta en la que se recuerda a los seres queridos que ya fallecieron.",
+              "translation": {
+                "en": "It's a celebration where loved ones who have passed are remembered.",
+                "vi": "Đó là lễ tưởng nhớ những người thân đã khuất."
+              },
+              "correct": true,
+              "response": "¿Y no es triste?",
+              "responseTranslation": {
+                "en": "And isn't it sad?",
+                "vi": "Thế có buồn không?"
+              },
+              "next": "sad"
+            },
+            {
+              "id": "altar",
+              "es": "Es una tradición: se pone una ofrenda con fotos, flores y comida.",
+              "translation": {
+                "en": "It's a tradition: you set up an altar with photos, flowers, and food.",
+                "vi": "Đó là truyền thống: người ta bày bàn thờ với ảnh, hoa và đồ ăn."
+              },
+              "correct": true,
+              "response": "¡Qué interesante! ¿Y no es triste?",
+              "responseTranslation": {
+                "en": "How interesting! And isn't it sad?",
+                "vi": "Thú vị quá! Thế có buồn không?"
+              },
+              "next": "sad"
+            },
+            {
+              "id": "halloween",
+              "es": "Es como Halloween.",
+              "translation": {
+                "en": "It's like Halloween.",
+                "vi": "Giống Halloween thôi."
+              },
+              "correct": false,
+              "correction": "Es una fiesta en la que se recuerda a los seres queridos que ya fallecieron.",
+              "response": "Mucha gente piensa eso, pero no es igual, ¿verdad?",
+              "responseTranslation": {
+                "en": "Many people think so, but it's not the same, right?",
+                "vi": "Nhiều người nghĩ vậy, nhưng đâu có giống, đúng không?"
+              },
+              "next": "sad"
+            }
+          ]
+        },
+        {
+          "id": "sad",
+          "prompt": "¿No es una fecha triste?",
+          "translation": {
+            "en": "Isn't it a sad date?",
+            "vi": "Đó không phải là ngày buồn sao?"
+          },
+          "hint": {
+            "en": "Explain the feeling behind it.",
+            "vi": "Giải thích cảm xúc đằng sau."
+          },
+          "choices": [
+            {
+              "id": "joy",
+              "es": "Al contrario, es una celebración llena de color y alegría.",
+              "translation": {
+                "en": "On the contrary, it's a celebration full of color and joy.",
+                "vi": "Ngược lại, đó là lễ hội đầy màu sắc và niềm vui."
+              },
+              "correct": true,
+              "response": "¡No lo sabía! ¿Se come algo especial?",
+              "responseTranslation": {
+                "en": "I didn't know! Do people eat anything special?",
+                "vi": "Mình không biết đấy! Có món gì đặc biệt không?"
+              },
+              "next": "food"
+            },
+            {
+              "id": "both",
+              "es": "Es un poco nostálgico, pero también muy alegre.",
+              "translation": {
+                "en": "It's a bit nostalgic, but also very joyful.",
+                "vi": "Hơi hoài niệm một chút nhưng cũng rất vui."
+              },
+              "correct": true,
+              "response": "Me encanta esa idea. ¿Se come algo especial?",
+              "responseTranslation": {
+                "en": "I love that idea. Do people eat anything special?",
+                "vi": "Mình thích ý đó. Có món gì đặc biệt không?"
+              },
+              "next": "food"
+            },
+            {
+              "id": "tip",
+              "es": "Se acostumbra dejar propina.",
+              "translation": {
+                "en": "It's customary to leave a tip.",
+                "vi": "Người ta thường để tiền boa."
+              },
+              "correct": false,
+              "correction": "Al contrario, es una celebración llena de color y alegría.",
+              "response": "Jaja, eso es en los restaurantes. ¿Pero es triste el Día de Muertos?",
+              "responseTranslation": {
+                "en": "Haha, that's at restaurants. But is the Day of the Dead sad?",
+                "vi": "Haha, đó là ở nhà hàng. Nhưng Lễ Người Chết có buồn không?"
+              },
+              "next": "food"
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "prompt": "¿Hay alguna comida típica?",
+          "translation": {
+            "en": "Is there a typical food?",
+            "vi": "Có món ăn truyền thống nào không?"
+          },
+          "hint": {
+            "en": "Name a food and invite them.",
+            "vi": "Kể một món và mời họ."
+          },
+          "choices": [
+            {
+              "id": "bread",
+              "es": "Sí, el pan de muerto. ¡Tienes que probarlo!",
+              "translation": {
+                "en": "Yes, pan de muerto. You have to try it!",
+                "vi": "Có, bánh pan de muerto. Bạn phải thử mới được!"
+              },
+              "correct": true,
+              "response": "¡Claro! Vamos a buscar uno.",
+              "responseTranslation": {
+                "en": "Sure! Let's go find one.",
+                "vi": "Chắc chắn rồi! Đi tìm mua thôi."
+              }
+            },
+            {
+              "id": "invite",
+              "es": "El pan de muerto y el chocolate caliente. Ven a casa a probarlos.",
+              "translation": {
+                "en": "Pan de muerto and hot chocolate. Come over to try them.",
+                "vi": "Bánh pan de muerto và sô-cô-la nóng. Ghé nhà mình thử nhé."
+              },
+              "correct": true,
+              "response": "¡Me encantaría, gracias!",
+              "responseTranslation": {
+                "en": "I'd love to, thanks!",
+                "vi": "Mình rất thích, cảm ơn nhé!"
+              }
+            },
+            {
+              "id": "cheers",
+              "es": "¡Salud!",
+              "translation": {
+                "en": "Cheers!",
+                "vi": "Cụng ly!"
+              },
+              "correct": false,
+              "correction": "Sí, el pan de muerto. ¡Tienes que probarlo!",
+              "response": "¡Salud! Pero, ¿qué se come?",
+              "responseTranslation": {
+                "en": "Cheers! But what do people eat?",
+                "vi": "Cụng ly! Nhưng người ta ăn gì?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

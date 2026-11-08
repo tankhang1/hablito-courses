@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-03",
-  "version": 1,
+  "version": 2,
   "level": 3,
   "cefr": "A1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "orange juice",
           "vi": "nước cam"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Every noun has a gender: el pan, el pollo (masculine); la fruta, la sopa (feminine).",
+        "vi": "Mỗi danh từ có giống: el pan, el pollo (giống đực); la fruta, la sopa (giống cái)."
+      }
     },
     {
       "id": "ordering",
@@ -99,7 +103,11 @@
           "en": "The check, please.",
           "vi": "Cho tôi tính tiền."
         }
-      ]
+      ],
+      "focus": {
+        "en": "“Quiero…” is fine; “Quisiera…” or “Me da…” sounds more polite.",
+        "vi": "“Quiero…” dùng được; “Quisiera…” hoặc “Me da…” nghe lịch sự hơn."
+      }
     }
   ],
   "conversations": [

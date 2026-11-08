@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-30",
+  "version": 1,
+  "level": 30,
+  "cefr": "C1",
+  "title": {
+    "en": "Advanced 6: Fluent conversation",
+    "vi": "Cao cấp 6: Giao tiếp thành thạo"
+  },
+  "description": {
+    "en": "Natural fillers, recovery strategies, and deep talk.",
+    "vi": "Từ đệm tự nhiên, cách xử lý khi bí và trò chuyện sâu."
+  },
+  "lessons": [
+    {
+      "id": "fillers",
+      "title": {
+        "en": "Sounding natural",
+        "vi": "Nói tự nhiên"
+      },
+      "description": {
+        "en": "Fillers and flow that natives use.",
+        "vi": "Từ đệm và nhịp nói của người bản xứ."
+      },
+      "focus": {
+        "en": "Fillers buy thinking time and keep the floor: “pues…”, “a ver…”, “o sea…”.",
+        "vi": "Từ đệm giúp bạn có thời gian suy nghĩ và giữ lượt nói: “pues…”, “a ver…”, “o sea…”."
+      },
+      "icon": "wind",
+      "phrases": [
+        {
+          "es": "O sea…",
+          "en": "I mean… / So…",
+          "vi": "Ý là…"
+        },
+        {
+          "es": "Pues, la verdad es que…",
+          "en": "Well, the truth is…",
+          "vi": "Ừ thì, thật ra là…"
+        },
+        {
+          "es": "Bueno, a ver…",
+          "en": "OK, let's see…",
+          "vi": "Rồi, để xem nào…"
+        },
+        {
+          "es": "¿Sabes a lo que me refiero?",
+          "en": "Do you know what I mean?",
+          "vi": "Bạn hiểu ý mình chứ?"
+        },
+        {
+          "es": "Es más, …",
+          "en": "What's more, …",
+          "vi": "Hơn thế nữa, …"
+        },
+        {
+          "es": "En fin, …",
+          "en": "Anyway, …",
+          "vi": "Thôi thì, …"
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": {
+        "en": "Getting unstuck",
+        "vi": "Thoát khỏi lúc bí từ"
+      },
+      "description": {
+        "en": "Keep talking when a word escapes you.",
+        "vi": "Tiếp tục nói khi quên mất một từ."
+      },
+      "focus": {
+        "en": "Fluency isn't knowing every word; it's describing around the gap and keeping going.",
+        "vi": "Thành thạo không phải là biết hết mọi từ, mà là diễn đạt vòng qua chỗ quên và nói tiếp."
+      },
+      "icon": "life-buoy",
+      "phrases": [
+        {
+          "es": "¿Cómo se dice…? Es una cosa que sirve para…",
+          "en": "How do you say…? It's a thing used for…",
+          "vi": "Nói thế nào nhỉ…? Là cái dùng để…"
+        },
+        {
+          "es": "Se me fue la palabra.",
+          "en": "The word slipped my mind.",
+          "vi": "Tôi quên mất từ đó rồi."
+        },
+        {
+          "es": "Lo que intento decir es…",
+          "en": "What I'm trying to say is…",
+          "vi": "Điều tôi muốn nói là…"
+        },
+        {
+          "es": "Dicho de otra manera…",
+          "en": "In other words…",
+          "vi": "Nói cách khác…"
+        },
+        {
+          "es": "Si no me equivoco…",
+          "en": "If I'm not mistaken…",
+          "vi": "Nếu tôi không nhầm thì…"
+        },
+        {
+          "es": "Corrígeme si me equivoco.",
+          "en": "Correct me if I'm wrong.",
+          "vi": "Sai thì sửa giúp tôi nhé."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "deep-talk",
+      "title": {
+        "en": "A deep conversation",
+        "vi": "Một cuộc trò chuyện sâu"
+      },
+      "description": {
+        "en": "Talk about life goals with a new friend, smoothly.",
+        "vi": "Trò chuyện trôi chảy về mục tiêu sống với một người bạn mới."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "goals",
+      "nodes": [
+        {
+          "id": "goals",
+          "prompt": "Oye, ¿y tú por qué decidiste aprender español?",
+          "translation": {
+            "en": "Hey, so why did you decide to learn Spanish?",
+            "vi": "Này, sao bạn quyết định học tiếng Tây Ban Nha?"
+          },
+          "hint": {
+            "en": "Use a filler, then answer at length.",
+            "vi": "Dùng từ đệm rồi trả lời đầy đủ."
+          },
+          "choices": [
+            {
+              "id": "people",
+              "es": "Pues, la verdad es que quería conectar con la gente de aquí, ¿sabes a lo que me refiero?",
+              "translation": {
+                "en": "Well, honestly I wanted to connect with people here, you know what I mean?",
+                "vi": "Ừ thì, thật ra mình muốn kết nối với mọi người ở đây, bạn hiểu ý mình chứ?"
+              },
+              "correct": true,
+              "response": "Totalmente. ¿Y qué ha sido lo más difícil?",
+              "responseTranslation": {
+                "en": "Totally. And what's been the hardest part?",
+                "vi": "Hiểu chứ. Thế điều gì khó nhất?"
+              },
+              "next": "hard"
+            },
+            {
+              "id": "work",
+              "es": "Bueno, a ver… empezó por trabajo, pero ahora es más una pasión.",
+              "translation": {
+                "en": "OK, let's see… it started for work, but now it's more of a passion.",
+                "vi": "Để xem nào… ban đầu là vì công việc, giờ thì thành đam mê rồi."
+              },
+              "correct": true,
+              "response": "¡Qué bonito! ¿Y qué te ha costado más?",
+              "responseTranslation": {
+                "en": "How lovely! And what's been toughest?",
+                "vi": "Hay quá! Thế điều gì làm bạn vất vả nhất?"
+              },
+              "next": "hard"
+            },
+            {
+              "id": "short",
+              "es": "Por trabajo.",
+              "translation": {
+                "en": "For work.",
+                "vi": "Vì công việc."
+              },
+              "correct": false,
+              "correction": "Pues, la verdad es que quería conectar con la gente de aquí, ¿sabes a lo que me refiero?",
+              "response": "Ah, ¿nada más? Cuéntame más, jaja.",
+              "responseTranslation": {
+                "en": "Oh, that's it? Tell me more, haha.",
+                "vi": "Ồ, chỉ vậy thôi à? Kể thêm đi, haha."
+              },
+              "next": "hard"
+            }
+          ]
+        },
+        {
+          "id": "hard",
+          "prompt": "¿Qué es lo que más te ha costado?",
+          "translation": {
+            "en": "What's been the hardest thing for you?",
+            "vi": "Điều gì làm bạn thấy khó nhất?"
+          },
+          "hint": {
+            "en": "If a word escapes you, describe it.",
+            "vi": "Nếu quên từ, hãy miêu tả nó."
+          },
+          "choices": [
+            {
+              "id": "subjunctive",
+              "es": "O sea, el… ¿cómo se dice? Ese modo verbal para deseos y dudas.",
+              "translation": {
+                "en": "I mean, the… how do you say it? That verb mood for wishes and doubts.",
+                "vi": "Ý là cái… nói sao nhỉ? Cái thức động từ dùng cho mong muốn và nghi ngờ ấy."
+              },
+              "correct": true,
+              "response": "¡El subjuntivo! A todos nos cuesta.",
+              "responseTranslation": {
+                "en": "The subjunctive! Everyone struggles with it.",
+                "vi": "Thức giả định! Ai cũng thấy khó."
+              },
+              "next": "advice"
+            },
+            {
+              "id": "speed",
+              "es": "Lo que intento decir es que ustedes hablan rapidísimo.",
+              "translation": {
+                "en": "What I'm trying to say is that you all talk super fast.",
+                "vi": "Điều mình muốn nói là các bạn nói nhanh kinh khủng."
+              },
+              "correct": true,
+              "response": "Jaja, es verdad. Perdón.",
+              "responseTranslation": {
+                "en": "Haha, that's true. Sorry.",
+                "vi": "Haha, đúng thật. Xin lỗi nhé."
+              },
+              "next": "advice"
+            },
+            {
+              "id": "english",
+              "es": "The subjunctive.",
+              "translation": {
+                "en": "The subjunctive (in English).",
+                "vi": "Thức giả định (nói bằng tiếng Anh)."
+              },
+              "correct": false,
+              "correction": "O sea, el… ¿cómo se dice? Ese modo verbal para deseos y dudas.",
+              "response": "Jaja, en español: el subjuntivo. ¡Pero te entendí!",
+              "responseTranslation": {
+                "en": "Haha, in Spanish: el subjuntivo. But I understood you!",
+                "vi": "Haha, tiếng Tây Ban Nha là “el subjuntivo”. Nhưng mình hiểu ý bạn!"
+              },
+              "next": "advice"
+            }
+          ]
+        },
+        {
+          "id": "advice",
+          "prompt": "¿Qué consejo le darías a alguien que empieza?",
+          "translation": {
+            "en": "What advice would you give someone who's starting out?",
+            "vi": "Bạn sẽ khuyên gì cho người mới bắt đầu?"
+          },
+          "hint": {
+            "en": "Give advice with the subjunctive, naturally.",
+            "vi": "Khuyên bằng thức giả định một cách tự nhiên."
+          },
+          "choices": [
+            {
+              "id": "speak",
+              "es": "Que hable desde el primer día, aunque se equivoque. Es más, que se equivoque mucho.",
+              "translation": {
+                "en": "To speak from day one, even if they make mistakes. What's more, to make lots of them.",
+                "vi": "Hãy nói ngay từ ngày đầu, dù có sai. Hơn nữa, cứ sai thật nhiều vào."
+              },
+              "correct": true,
+              "response": "¡Gran consejo! Se nota que ya hablas con fluidez.",
+              "responseTranslation": {
+                "en": "Great advice! You can tell you speak fluently now.",
+                "vi": "Lời khuyên hay! Thấy rõ là bạn đã nói trôi chảy rồi."
+              }
+            },
+            {
+              "id": "patience",
+              "es": "En fin, que tenga paciencia y que lo disfrute.",
+              "translation": {
+                "en": "Anyway, to be patient and enjoy it.",
+                "vi": "Thôi thì, hãy kiên nhẫn và tận hưởng nó."
+              },
+              "correct": true,
+              "response": "Me encanta. ¡Hablas increíble!",
+              "responseTranslation": {
+                "en": "I love that. You speak amazingly!",
+                "vi": "Mình thích câu đó. Bạn nói hay quá!"
+              }
+            },
+            {
+              "id": "indic",
+              "es": "Que habla desde el primer día.",
+              "translation": {
+                "en": "To speak from day one (wrong form).",
+                "vi": "Hãy nói ngay từ ngày đầu (sai dạng)."
+              },
+              "correct": false,
+              "correction": "Que hable desde el primer día, aunque se equivoque. Es más, que se equivoque mucho.",
+              "response": "“Que hable”, ¡ese subjuntivo! Pero buen consejo.",
+              "responseTranslation": {
+                "en": "“Que hable”, that subjunctive! But good advice.",
+                "vi": "“Que hable” chứ, cái thức giả định đó! Nhưng lời khuyên hay."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-13",
+  "version": 1,
+  "level": 13,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 5: Memories & childhood",
+    "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ"
+  },
+  "description": {
+    "en": "Tell what life used to be like.",
+    "vi": "Kể cuộc sống ngày xưa như thế nào."
+  },
+  "lessons": [
+    {
+      "id": "childhood",
+      "title": {
+        "en": "When I was a kid",
+        "vi": "Khi tôi còn nhỏ"
+      },
+      "description": {
+        "en": "Describe habits in the past.",
+        "vi": "Miêu tả thói quen trong quá khứ."
+      },
+      "focus": {
+        "en": "The imperfect describes habits and background in the past: vivía, jugaba, era, íbamos.",
+        "vi": "Thì quá khứ chưa hoàn thành (imperfecto) tả thói quen và bối cảnh: vivía, jugaba, era, íbamos."
+      },
+      "icon": "rewind",
+      "phrases": [
+        {
+          "es": "Cuando era niño, vivía en el campo.",
+          "en": "When I was a kid, I lived in the countryside.",
+          "vi": "Hồi nhỏ tôi sống ở quê."
+        },
+        {
+          "es": "Jugaba en la calle con mis primos.",
+          "en": "I used to play in the street with my cousins.",
+          "vi": "Tôi hay chơi ngoài đường với anh chị em họ."
+        },
+        {
+          "es": "Mi abuela siempre cocinaba los domingos.",
+          "en": "My grandmother always cooked on Sundays.",
+          "vi": "Bà tôi luôn nấu ăn vào Chủ Nhật."
+        },
+        {
+          "es": "No teníamos internet.",
+          "en": "We didn't have internet.",
+          "vi": "Hồi đó chúng tôi không có internet."
+        },
+        {
+          "es": "Me gustaba mucho leer.",
+          "en": "I really liked reading.",
+          "vi": "Tôi rất thích đọc sách."
+        },
+        {
+          "es": "Íbamos a la playa cada verano.",
+          "en": "We used to go to the beach every summer.",
+          "vi": "Mùa hè nào chúng tôi cũng đi biển."
+        }
+      ]
+    },
+    {
+      "id": "memories",
+      "title": {
+        "en": "Sharing memories",
+        "vi": "Chia sẻ kỷ niệm"
+      },
+      "description": {
+        "en": "React and connect with memories.",
+        "vi": "Phản hồi và kết nối qua kỷ niệm."
+      },
+      "focus": {
+        "en": "“Acordarse de” = to remember; “antes” + imperfect = “used to”; “ya no” = “not anymore”.",
+        "vi": "“Acordarse de” = nhớ lại; “antes” + imperfecto = “ngày xưa thường”; “ya no” = “không còn nữa”."
+      },
+      "icon": "image",
+      "phrases": [
+        {
+          "es": "Me acuerdo de mi primer día de escuela.",
+          "en": "I remember my first day of school.",
+          "vi": "Tôi nhớ ngày đầu tiên đi học."
+        },
+        {
+          "es": "¡Qué recuerdos!",
+          "en": "What memories!",
+          "vi": "Bao nhiêu kỷ niệm!"
+        },
+        {
+          "es": "Antes todo era más barato.",
+          "en": "Everything used to be cheaper.",
+          "vi": "Ngày xưa mọi thứ rẻ hơn."
+        },
+        {
+          "es": "Extraño esos tiempos.",
+          "en": "I miss those times.",
+          "vi": "Tôi nhớ những ngày đó."
+        },
+        {
+          "es": "Ya no lo hago.",
+          "en": "I don't do that anymore.",
+          "vi": "Giờ tôi không làm vậy nữa."
+        },
+        {
+          "es": "¿Tú también hacías eso?",
+          "en": "Did you used to do that too?",
+          "vi": "Bạn cũng từng làm vậy à?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "old-days",
+      "title": {
+        "en": "Talk about the old days",
+        "vi": "Kể chuyện ngày xưa"
+      },
+      "description": {
+        "en": "Swap childhood stories with a friend.",
+        "vi": "Trao đổi chuyện tuổi thơ với bạn."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "where",
+      "nodes": [
+        {
+          "id": "where",
+          "prompt": "¿Dónde vivías cuando eras niño?",
+          "translation": {
+            "en": "Where did you live when you were a kid?",
+            "vi": "Hồi nhỏ bạn sống ở đâu?"
+          },
+          "hint": {
+            "en": "Use the imperfect: “vivía…”.",
+            "vi": "Dùng imperfecto: “vivía…”."
+          },
+          "choices": [
+            {
+              "id": "country",
+              "es": "Vivía en un pueblo pequeño en el campo.",
+              "translation": {
+                "en": "I lived in a small town in the countryside.",
+                "vi": "Mình sống ở một thị trấn nhỏ ở quê."
+              },
+              "correct": true,
+              "response": "¡Qué bonito! ¿Qué hacías para divertirte?",
+              "responseTranslation": {
+                "en": "How lovely! What did you do for fun?",
+                "vi": "Hay quá! Hồi đó bạn chơi gì?"
+              },
+              "next": "fun"
+            },
+            {
+              "id": "city",
+              "es": "Vivía en la ciudad con mis abuelos.",
+              "translation": {
+                "en": "I lived in the city with my grandparents.",
+                "vi": "Mình sống ở thành phố với ông bà."
+              },
+              "correct": true,
+              "response": "Ah, ¿y qué hacías para divertirte?",
+              "responseTranslation": {
+                "en": "Ah, and what did you do for fun?",
+                "vi": "À, thế hồi đó bạn chơi gì?"
+              },
+              "next": "fun"
+            },
+            {
+              "id": "preterite",
+              "es": "Viví en México.",
+              "translation": {
+                "en": "I lived in Mexico (once, finished).",
+                "vi": "Mình đã sống ở Mexico."
+              },
+              "correct": false,
+              "correction": "Vivía en un pueblo pequeño en el campo.",
+              "response": "¿Y de niño? Cuéntame cómo era tu vida.",
+              "responseTranslation": {
+                "en": "And as a kid? Tell me what your life was like.",
+                "vi": "Còn hồi nhỏ thì sao? Kể mình nghe đi."
+              },
+              "next": "fun"
+            }
+          ]
+        },
+        {
+          "id": "fun",
+          "prompt": "¿Qué hacías para divertirte?",
+          "translation": {
+            "en": "What did you do for fun?",
+            "vi": "Hồi đó bạn làm gì để giải trí?"
+          },
+          "hint": {
+            "en": "Describe a habit with the imperfect.",
+            "vi": "Tả thói quen bằng imperfecto."
+          },
+          "choices": [
+            {
+              "id": "play",
+              "es": "Jugaba fútbol en la calle con mis primos.",
+              "translation": {
+                "en": "I played soccer in the street with my cousins.",
+                "vi": "Mình đá bóng ngoài đường với anh chị em họ."
+              },
+              "correct": true,
+              "response": "¡Yo también! ¿Lo extrañas?",
+              "responseTranslation": {
+                "en": "Me too! Do you miss it?",
+                "vi": "Mình cũng vậy! Bạn có nhớ không?"
+              },
+              "next": "miss"
+            },
+            {
+              "id": "read",
+              "es": "Me gustaba mucho leer cómics.",
+              "translation": {
+                "en": "I really liked reading comics.",
+                "vi": "Mình rất thích đọc truyện tranh."
+              },
+              "correct": true,
+              "response": "¡Qué buen recuerdo! ¿Lo extrañas?",
+              "responseTranslation": {
+                "en": "What a great memory! Do you miss it?",
+                "vi": "Kỷ niệm đẹp ghê! Bạn có nhớ không?"
+              },
+              "next": "miss"
+            },
+            {
+              "id": "future",
+              "es": "Voy a jugar fútbol.",
+              "translation": {
+                "en": "I'm going to play soccer.",
+                "vi": "Mình sắp đá bóng."
+              },
+              "correct": false,
+              "correction": "Jugaba fútbol en la calle con mis primos.",
+              "response": "Eso es el futuro. ¿Y de niño?",
+              "responseTranslation": {
+                "en": "That's the future. And as a kid?",
+                "vi": "Đó là tương lai mà. Còn hồi nhỏ?"
+              },
+              "next": "miss"
+            }
+          ]
+        },
+        {
+          "id": "miss",
+          "prompt": "¿Extrañas esos tiempos?",
+          "translation": {
+            "en": "Do you miss those times?",
+            "vi": "Bạn có nhớ thời đó không?"
+          },
+          "hint": {
+            "en": "Say if you miss it and why.",
+            "vi": "Nói bạn có nhớ không và vì sao."
+          },
+          "choices": [
+            {
+              "id": "yes",
+              "es": "Sí, extraño esos tiempos. Todo era más simple.",
+              "translation": {
+                "en": "Yes, I miss those times. Everything was simpler.",
+                "vi": "Có, mình nhớ lắm. Mọi thứ đơn giản hơn."
+              },
+              "correct": true,
+              "response": "Te entiendo perfectamente.",
+              "responseTranslation": {
+                "en": "I totally understand.",
+                "vi": "Mình hoàn toàn hiểu."
+              }
+            },
+            {
+              "id": "no",
+              "es": "A veces, pero ya no lo hago y estoy bien.",
+              "translation": {
+                "en": "Sometimes, but I don't do it anymore and I'm fine.",
+                "vi": "Thỉnh thoảng, nhưng giờ mình không làm vậy nữa và vẫn ổn."
+              },
+              "correct": true,
+              "response": "Es normal, la vida cambia.",
+              "responseTranslation": {
+                "en": "That's normal, life changes.",
+                "vi": "Bình thường thôi, cuộc sống thay đổi mà."
+              }
+            },
+            {
+              "id": "remember",
+              "es": "Me acuerdo.",
+              "translation": {
+                "en": "I remember.",
+                "vi": "Mình nhớ."
+              },
+              "correct": false,
+              "correction": "Sí, extraño esos tiempos. Todo era más simple.",
+              "response": "¿Pero los extrañas?",
+              "responseTranslation": {
+                "en": "But do you miss them?",
+                "vi": "Nhưng bạn có thấy nhớ không?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

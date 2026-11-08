@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-16",
+  "version": 1,
+  "level": 16,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 8: Feelings & relationships",
+    "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ"
+  },
+  "description": {
+    "en": "Express emotions and react to others' news.",
+    "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác."
+  },
+  "lessons": [
+    {
+      "id": "emotions",
+      "title": {
+        "en": "Talking about emotions",
+        "vi": "Nói về cảm xúc"
+      },
+      "description": {
+        "en": "Say how things make you feel.",
+        "vi": "Nói điều gì khiến bạn cảm thấy thế nào."
+      },
+      "focus": {
+        "en": "Many feelings work like “gustar”: me molesta, me da miedo, me pone nervioso + the thing that causes it.",
+        "vi": "Nhiều cảm xúc dùng như “gustar”: me molesta, me da miedo, me pone nervioso + điều gây ra cảm xúc."
+      },
+      "icon": "heart",
+      "phrases": [
+        {
+          "es": "Me pone nervioso hablar en público.",
+          "en": "Speaking in public makes me nervous.",
+          "vi": "Nói trước đám đông làm tôi lo lắng."
+        },
+        {
+          "es": "Me molesta el ruido.",
+          "en": "The noise bothers me.",
+          "vi": "Tiếng ồn làm tôi khó chịu."
+        },
+        {
+          "es": "Me da miedo volar.",
+          "en": "Flying scares me.",
+          "vi": "Tôi sợ đi máy bay."
+        },
+        {
+          "es": "Me siento orgulloso de ti.",
+          "en": "I'm proud of you.",
+          "vi": "Tôi tự hào về bạn."
+        },
+        {
+          "es": "Estoy harto del tráfico.",
+          "en": "I'm fed up with the traffic.",
+          "vi": "Tôi chán ngấy kẹt xe rồi."
+        },
+        {
+          "es": "Me encanta pasar tiempo contigo.",
+          "en": "I love spending time with you.",
+          "vi": "Tôi rất thích ở bên bạn."
+        }
+      ]
+    },
+    {
+      "id": "reactions",
+      "title": {
+        "en": "Reacting to news",
+        "vi": "Phản hồi tin tức"
+      },
+      "description": {
+        "en": "Share joy and sympathy.",
+        "vi": "Chia vui và chia buồn."
+      },
+      "focus": {
+        "en": "After emotions about someone else, use the subjunctive: me alegra que estés, siento que te sientas, ojalá que salga.",
+        "vi": "Sau cảm xúc về người khác, dùng thức giả định: me alegra que estés, siento que te sientas, ojalá que salga."
+      },
+      "icon": "message-circle",
+      "phrases": [
+        {
+          "es": "¡Me alegra que estés bien!",
+          "en": "I'm glad you're OK!",
+          "vi": "Mừng là bạn ổn!"
+        },
+        {
+          "es": "Siento mucho que te sientas así.",
+          "en": "I'm so sorry you feel that way.",
+          "vi": "Tôi rất tiếc khi bạn cảm thấy như vậy."
+        },
+        {
+          "es": "¡Qué buena noticia!",
+          "en": "What great news!",
+          "vi": "Tin vui quá!"
+        },
+        {
+          "es": "¡No puede ser!",
+          "en": "No way! / It can't be!",
+          "vi": "Không thể nào!"
+        },
+        {
+          "es": "Cuenta conmigo.",
+          "en": "You can count on me.",
+          "vi": "Cứ tin ở tôi."
+        },
+        {
+          "es": "Ojalá que todo salga bien.",
+          "en": "I hope everything goes well.",
+          "vi": "Mong mọi chuyện suôn sẻ."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "big-news",
+      "title": {
+        "en": "A friend's big news",
+        "vi": "Tin lớn của bạn bè"
+      },
+      "description": {
+        "en": "React to good news, then offer support.",
+        "vi": "Phản hồi tin vui, rồi động viên."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "news",
+      "nodes": [
+        {
+          "id": "news",
+          "prompt": "¡Tengo noticias! Me dieron el trabajo en Monterrey.",
+          "translation": {
+            "en": "I have news! I got the job in Monterrey.",
+            "vi": "Mình có tin này! Mình được nhận việc ở Monterrey rồi."
+          },
+          "hint": {
+            "en": "React with joy.",
+            "vi": "Phản hồi vui mừng."
+          },
+          "choices": [
+            {
+              "id": "glad",
+              "es": "¡Qué buena noticia! Me alegra mucho por ti.",
+              "translation": {
+                "en": "What great news! I'm so happy for you.",
+                "vi": "Tin vui quá! Mình mừng cho bạn lắm."
+              },
+              "correct": true,
+              "response": "Gracias… aunque me da un poco de miedo mudarme.",
+              "responseTranslation": {
+                "en": "Thanks… although moving scares me a bit.",
+                "vi": "Cảm ơn… dù chuyển nhà làm mình hơi sợ."
+              },
+              "next": "worry"
+            },
+            {
+              "id": "wow",
+              "es": "¡No puede ser! ¡Felicidades!",
+              "translation": {
+                "en": "No way! Congratulations!",
+                "vi": "Không thể tin được! Chúc mừng nhé!"
+              },
+              "correct": true,
+              "response": "¡Gracias! Pero estoy un poco nerviosa por la mudanza.",
+              "responseTranslation": {
+                "en": "Thanks! But I'm a bit nervous about the move.",
+                "vi": "Cảm ơn! Nhưng mình hơi lo về việc chuyển nhà."
+              },
+              "next": "worry"
+            },
+            {
+              "id": "sorry",
+              "es": "Lo siento mucho.",
+              "translation": {
+                "en": "I'm very sorry.",
+                "vi": "Mình rất tiếc."
+              },
+              "correct": false,
+              "correction": "¡Qué buena noticia! Me alegra mucho por ti.",
+              "response": "¿Por qué? ¡Es algo bueno!",
+              "responseTranslation": {
+                "en": "Why? It's a good thing!",
+                "vi": "Sao lại tiếc? Chuyện tốt mà!"
+              },
+              "next": "worry"
+            }
+          ]
+        },
+        {
+          "id": "worry",
+          "prompt": "No conozco a nadie allá.",
+          "translation": {
+            "en": "I don't know anyone there.",
+            "vi": "Ở đó mình không quen ai cả."
+          },
+          "hint": {
+            "en": "Offer support.",
+            "vi": "Động viên bạn."
+          },
+          "choices": [
+            {
+              "id": "count",
+              "es": "Cuenta conmigo, te visito pronto.",
+              "translation": {
+                "en": "Count on me, I'll visit you soon.",
+                "vi": "Có mình đây, mình sẽ sớm ghé thăm bạn."
+              },
+              "correct": true,
+              "response": "Eso me hace sentir mucho mejor.",
+              "responseTranslation": {
+                "en": "That makes me feel much better.",
+                "vi": "Nghe vậy mình thấy đỡ hơn nhiều."
+              },
+              "next": "hope"
+            },
+            {
+              "id": "friends",
+              "es": "Vas a hacer amigos rápido, eres muy simpática.",
+              "translation": {
+                "en": "You'll make friends fast, you're very friendly.",
+                "vi": "Bạn sẽ có bạn mới nhanh thôi, bạn thân thiện mà."
+              },
+              "correct": true,
+              "response": "Ojalá tengas razón.",
+              "responseTranslation": {
+                "en": "I hope you're right.",
+                "vi": "Mong là bạn nói đúng."
+              },
+              "next": "hope"
+            },
+            {
+              "id": "fed",
+              "es": "Estoy harto del tráfico.",
+              "translation": {
+                "en": "I'm fed up with the traffic.",
+                "vi": "Mình chán kẹt xe lắm rồi."
+              },
+              "correct": false,
+              "correction": "Cuenta conmigo, te visito pronto.",
+              "response": "Jaja, yo también. Pero hablaba de la mudanza…",
+              "responseTranslation": {
+                "en": "Haha, me too. But I was talking about the move…",
+                "vi": "Haha, mình cũng vậy. Nhưng mình đang nói chuyện chuyển nhà mà…"
+              },
+              "next": "hope"
+            }
+          ]
+        },
+        {
+          "id": "hope",
+          "prompt": "Me voy el próximo mes.",
+          "translation": {
+            "en": "I'm leaving next month.",
+            "vi": "Tháng sau mình đi rồi."
+          },
+          "hint": {
+            "en": "Wish them well with “Ojalá que…”.",
+            "vi": "Chúc bạn bằng “Ojalá que…”."
+          },
+          "choices": [
+            {
+              "id": "hope",
+              "es": "Ojalá que todo salga muy bien.",
+              "translation": {
+                "en": "I hope everything goes really well.",
+                "vi": "Mong mọi chuyện thật suôn sẻ."
+              },
+              "correct": true,
+              "response": "Gracias, de verdad.",
+              "responseTranslation": {
+                "en": "Thank you, really.",
+                "vi": "Thật sự cảm ơn bạn."
+              }
+            },
+            {
+              "id": "party",
+              "es": "¡Hay que hacer una fiesta de despedida!",
+              "translation": {
+                "en": "We have to throw a goodbye party!",
+                "vi": "Phải làm tiệc chia tay mới được!"
+              },
+              "correct": true,
+              "response": "¡Sí! Me encanta la idea.",
+              "responseTranslation": {
+                "en": "Yes! I love the idea.",
+                "vi": "Đúng rồi! Ý hay quá."
+              }
+            },
+            {
+              "id": "indicative",
+              "es": "Ojalá que todo sale bien.",
+              "translation": {
+                "en": "I hope everything goes well (wrong form).",
+                "vi": "Mong mọi chuyện suôn sẻ (sai dạng)."
+              },
+              "correct": false,
+              "correction": "Ojalá que todo salga muy bien.",
+              "response": "Gracias. (Se dice “salga”, ¡ojo!)",
+              "responseTranslation": {
+                "en": "Thanks. (It's “salga”, careful!)",
+                "vi": "Cảm ơn. (Phải nói “salga” nhé!)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

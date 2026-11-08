@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "level-01",
-  "version": 1,
+  "version": 2,
   "level": 1,
   "cefr": "A1",
   "title": {
@@ -55,7 +55,11 @@
           "en": "I'm sorry",
           "vi": "Tôi xin lỗi"
         }
-      ]
+      ],
+      "focus": {
+        "en": "“Por favor” and “gracias” go at the end of a request: “Agua, por favor.”",
+        "vi": "“Por favor” và “gracias” thường đặt cuối câu: “Agua, por favor.”"
+      }
     },
     {
       "id": "feelings",
@@ -103,7 +107,11 @@
           "en": "I'm cold",
           "vi": "Tôi lạnh"
         }
-      ]
+      ],
+      "focus": {
+        "en": "Use “estar” for how you feel now (estoy bien) and “tener” for hunger, thirst, and cold (tengo hambre).",
+        "vi": "Dùng “estar” cho cảm giác lúc này (estoy bien) và “tener” cho đói, khát, lạnh (tengo hambre)."
+      }
     }
   ],
   "conversations": [

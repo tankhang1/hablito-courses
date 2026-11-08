@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "id": "level-11",
+  "version": 1,
+  "level": 11,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 3: Plans & the future",
+    "vi": "Trung cấp 3: Kế hoạch & tương lai"
+  },
+  "description": {
+    "en": "Talk about plans, intentions, and predictions.",
+    "vi": "Nói về kế hoạch, dự định và dự đoán."
+  },
+  "lessons": [
+    {
+      "id": "plans",
+      "title": {
+        "en": "Making plans",
+        "vi": "Lên kế hoạch"
+      },
+      "description": {
+        "en": "Say what you are going to do.",
+        "vi": "Nói điều bạn sắp làm."
+      },
+      "focus": {
+        "en": "“Ir a + infinitive” is the everyday future: voy a comer, vas a ver.",
+        "vi": "“Ir a + động từ nguyên mẫu” là cách nói tương lai thông dụng: voy a comer, vas a ver."
+      },
+      "icon": "calendar",
+      "phrases": [
+        {
+          "es": "Voy a viajar a Oaxaca.",
+          "en": "I'm going to travel to Oaxaca.",
+          "vi": "Tôi sắp đi du lịch Oaxaca."
+        },
+        {
+          "es": "Vamos a cenar juntos.",
+          "en": "We're going to have dinner together.",
+          "vi": "Chúng ta sẽ ăn tối cùng nhau."
+        },
+        {
+          "es": "¿Qué vas a hacer mañana?",
+          "en": "What are you going to do tomorrow?",
+          "vi": "Mai bạn định làm gì?"
+        },
+        {
+          "es": "Pienso estudiar más.",
+          "en": "I plan to study more.",
+          "vi": "Tôi định học nhiều hơn."
+        },
+        {
+          "es": "Tengo ganas de descansar.",
+          "en": "I feel like resting.",
+          "vi": "Tôi muốn nghỉ ngơi."
+        },
+        {
+          "es": "Todavía no lo sé.",
+          "en": "I don't know yet.",
+          "vi": "Tôi vẫn chưa biết."
+        }
+      ]
+    },
+    {
+      "id": "predictions",
+      "title": {
+        "en": "Predictions & promises",
+        "vi": "Dự đoán & lời hứa"
+      },
+      "description": {
+        "en": "Use the simple future for predictions.",
+        "vi": "Dùng thì tương lai đơn để dự đoán."
+      },
+      "focus": {
+        "en": "Simple future = infinitive + é, ás, á…: hablaré, comerás. Common irregulars: haré, tendré, saldré, podré.",
+        "vi": "Tương lai đơn = động từ nguyên mẫu + é, ás, á…: hablaré, comerás. Bất quy tắc hay gặp: haré, tendré, saldré, podré."
+      },
+      "icon": "sun",
+      "phrases": [
+        {
+          "es": "Mañana lloverá.",
+          "en": "It will rain tomorrow.",
+          "vi": "Ngày mai trời sẽ mưa."
+        },
+        {
+          "es": "Te llamaré esta noche.",
+          "en": "I'll call you tonight.",
+          "vi": "Tối nay tôi sẽ gọi cho bạn."
+        },
+        {
+          "es": "Seguro que te gustará.",
+          "en": "I'm sure you'll like it.",
+          "vi": "Chắc chắn bạn sẽ thích."
+        },
+        {
+          "es": "Algún día hablaré español perfectamente.",
+          "en": "Someday I'll speak Spanish perfectly.",
+          "vi": "Một ngày nào đó tôi sẽ nói tiếng Tây Ban Nha thật giỏi."
+        },
+        {
+          "es": "No te preocupes, todo saldrá bien.",
+          "en": "Don't worry, everything will turn out fine.",
+          "vi": "Đừng lo, mọi chuyện sẽ ổn thôi."
+        },
+        {
+          "es": "¿Qué harás en las vacaciones?",
+          "en": "What will you do on vacation?",
+          "vi": "Kỳ nghỉ bạn sẽ làm gì?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "vacation-plans",
+      "title": {
+        "en": "Plan a vacation",
+        "vi": "Lên kế hoạch kỳ nghỉ"
+      },
+      "description": {
+        "en": "Share plans and make a prediction.",
+        "vi": "Chia sẻ kế hoạch và đưa ra dự đoán."
+      },
+      "icon": "map-pin",
+      "duration": "3 min",
+      "start": "plans",
+      "nodes": [
+        {
+          "id": "plans",
+          "prompt": "¿Qué vas a hacer en las vacaciones?",
+          "translation": {
+            "en": "What are you going to do on vacation?",
+            "vi": "Kỳ nghỉ bạn định làm gì?"
+          },
+          "hint": {
+            "en": "Use “Voy a…”.",
+            "vi": "Dùng “Voy a…”."
+          },
+          "choices": [
+            {
+              "id": "travel",
+              "es": "Voy a viajar a Oaxaca con mi familia.",
+              "translation": {
+                "en": "I'm going to travel to Oaxaca with my family.",
+                "vi": "Mình sẽ đi Oaxaca với gia đình."
+              },
+              "correct": true,
+              "response": "¡Qué padre! ¿Cuánto tiempo van a estar allá?",
+              "responseTranslation": {
+                "en": "How cool! How long will you be there?",
+                "vi": "Hay quá! Mọi người ở đó bao lâu?"
+              },
+              "next": "length"
+            },
+            {
+              "id": "rest",
+              "es": "Voy a descansar en casa, tengo ganas.",
+              "translation": {
+                "en": "I'm going to rest at home, I feel like it.",
+                "vi": "Mình sẽ nghỉ ở nhà, mình muốn vậy."
+              },
+              "correct": true,
+              "response": "Buena idea. ¿Y no vas a salir nada?",
+              "responseTranslation": {
+                "en": "Good idea. And you won't go out at all?",
+                "vi": "Ý hay. Thế bạn không đi đâu cả à?"
+              },
+              "next": "length"
+            },
+            {
+              "id": "past",
+              "es": "Fui a la playa.",
+              "translation": {
+                "en": "I went to the beach.",
+                "vi": "Mình đã đi biển."
+              },
+              "correct": false,
+              "correction": "Voy a viajar a Oaxaca con mi familia.",
+              "response": "Eso fue antes. ¿Y en estas vacaciones?",
+              "responseTranslation": {
+                "en": "That was before. And these holidays?",
+                "vi": "Đó là lần trước. Còn kỳ nghỉ này?"
+              },
+              "next": "length"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "prompt": "¿Cuánto tiempo vas a quedarte?",
+          "translation": {
+            "en": "How long are you going to stay?",
+            "vi": "Bạn định ở lại bao lâu?"
+          },
+          "hint": {
+            "en": "Answer with a length of time.",
+            "vi": "Trả lời bằng một khoảng thời gian."
+          },
+          "choices": [
+            {
+              "id": "week",
+              "es": "Una semana, más o menos.",
+              "translation": {
+                "en": "A week, more or less.",
+                "vi": "Khoảng một tuần."
+              },
+              "correct": true,
+              "response": "Perfecto. ¿Crees que hará calor?",
+              "responseTranslation": {
+                "en": "Perfect. Do you think it'll be hot?",
+                "vi": "Tuyệt. Bạn nghĩ trời có nóng không?"
+              },
+              "next": "weather"
+            },
+            {
+              "id": "unsure",
+              "es": "Todavía no lo sé, quizás diez días.",
+              "translation": {
+                "en": "I don't know yet, maybe ten days.",
+                "vi": "Mình chưa biết, có lẽ mười ngày."
+              },
+              "correct": true,
+              "response": "Bueno. ¿Crees que hará calor?",
+              "responseTranslation": {
+                "en": "OK. Do you think it'll be hot?",
+                "vi": "Được. Bạn nghĩ trời có nóng không?"
+              },
+              "next": "weather"
+            },
+            {
+              "id": "tomorrow",
+              "es": "Mañana.",
+              "translation": {
+                "en": "Tomorrow.",
+                "vi": "Ngày mai."
+              },
+              "correct": false,
+              "correction": "Una semana, más o menos.",
+              "response": "¿Te vas mañana? ¿Y por cuánto tiempo?",
+              "responseTranslation": {
+                "en": "You leave tomorrow? And for how long?",
+                "vi": "Mai bạn đi à? Rồi ở bao lâu?"
+              },
+              "next": "weather"
+            }
+          ]
+        },
+        {
+          "id": "weather",
+          "prompt": "¿Crees que hará buen tiempo?",
+          "translation": {
+            "en": "Do you think the weather will be good?",
+            "vi": "Bạn nghĩ thời tiết sẽ đẹp không?"
+          },
+          "hint": {
+            "en": "Make a prediction with the future.",
+            "vi": "Dự đoán bằng thì tương lai."
+          },
+          "choices": [
+            {
+              "id": "sun",
+              "es": "Creo que hará sol y mucho calor.",
+              "translation": {
+                "en": "I think it'll be sunny and very hot.",
+                "vi": "Mình nghĩ trời sẽ nắng và rất nóng."
+              },
+              "correct": true,
+              "response": "¡Lleva protector solar!",
+              "responseTranslation": {
+                "en": "Take sunscreen!",
+                "vi": "Nhớ mang kem chống nắng nhé!"
+              }
+            },
+            {
+              "id": "rain",
+              "es": "Seguro que lloverá un poco.",
+              "translation": {
+                "en": "I'm sure it'll rain a bit.",
+                "vi": "Chắc chắn sẽ mưa một chút."
+              },
+              "correct": true,
+              "response": "Entonces lleva un paraguas.",
+              "responseTranslation": {
+                "en": "Then take an umbrella.",
+                "vi": "Vậy mang theo ô nhé."
+              }
+            },
+            {
+              "id": "cold",
+              "es": "Tengo frío.",
+              "translation": {
+                "en": "I'm cold.",
+                "vi": "Mình lạnh."
+              },
+              "correct": false,
+              "correction": "Creo que hará sol y mucho calor.",
+              "response": "¿Ahora? Te pregunto por el clima en Oaxaca.",
+              "responseTranslation": {
+                "en": "Now? I'm asking about the weather in Oaxaca.",
+                "vi": "Bây giờ á? Mình hỏi thời tiết ở Oaxaca mà."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
