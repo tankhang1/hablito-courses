@@ -8,7 +8,7 @@
       "nativeName": "Tiếng Việt",
       "version": 5,
       "contentHash": "3a3d23addef50f5a",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/vi.json",
+      "file": "vi.json",
       "stringCount": 1631,
       "sizeKb": 136
     },
@@ -18,7 +18,7 @@
       "nativeName": "Português (Brasil)",
       "version": 5,
       "contentHash": "2a4a32b1d99e9e12",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/pt-BR.json",
+      "file": "pt-BR.json",
       "stringCount": 1036,
       "sizeKb": 70
     },
@@ -28,7 +28,7 @@
       "nativeName": "Français",
       "version": 5,
       "contentHash": "70e916fe6a92a23c",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/fr.json",
+      "file": "fr.json",
       "stringCount": 1036,
       "sizeKb": 74
     },
@@ -38,7 +38,7 @@
       "nativeName": "Deutsch",
       "version": 5,
       "contentHash": "7c8d81412371be7f",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/de.json",
+      "file": "de.json",
       "stringCount": 1036,
       "sizeKb": 72
     },
@@ -48,7 +48,7 @@
       "nativeName": "Italiano",
       "version": 5,
       "contentHash": "df6383e8f2d31173",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/it.json",
+      "file": "it.json",
       "stringCount": 1036,
       "sizeKb": 70
     },
@@ -58,7 +58,7 @@
       "nativeName": "日本語",
       "version": 5,
       "contentHash": "7a604ed8ca1771f0",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/ja.json",
+      "file": "ja.json",
       "stringCount": 1036,
       "sizeKb": 82
     },
@@ -68,7 +68,7 @@
       "nativeName": "简体中文",
       "version": 5,
       "contentHash": "57142307dfe6b498",
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@3c12c07131b9e3ad01aef99f7f0ec95a570cbd73/i18n/zh-Hans.json",
+      "file": "zh-Hans.json",
       "stringCount": 1036,
       "sizeKb": 68
     }
