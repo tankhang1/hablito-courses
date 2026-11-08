@@ -93,6 +93,45 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
   });
 }
 
+// ── UI languages ─────────────────────────────────────────────────────────────
+// i18n/languages.json lists the languages; each i18n/<code>.json maps English
+// source text to its translation. Placeholders like {count} must match exactly.
+const i18nDir = join(here, 'i18n');
+const languageEntries = [];
+const placeholders = (text) => (text.match(/\{\w+\}/g) ?? []).sort().join(',');
+let languages = [];
+try {
+  languages = JSON.parse(readFileSync(join(i18nDir, 'languages.json'), 'utf8'));
+} catch (error) {
+  fail('i18n/languages.json', `unreadable (${error.message})`);
+}
+for (const language of languages) {
+  const file = `${language.code}.json`;
+  let strings;
+  try {
+    strings = JSON.parse(readFileSync(join(i18nDir, file), 'utf8'));
+  } catch (error) {
+    fail(`i18n/${file}`, `missing or invalid JSON (${error.message})`);
+    continue;
+  }
+  for (const [source, translated] of Object.entries(strings)) {
+    if (typeof translated !== 'string' || !translated.trim()) fail(`i18n/${file}`, `empty translation for "${source}"`);
+    else if (placeholders(source) !== placeholders(translated)) {
+      fail(`i18n/${file}`, `placeholders differ for "${source}"`);
+    }
+  }
+  languageEntries.push({
+    code: language.code,
+    name: language.name,
+    nativeName: language.nativeName,
+    version: language.version ?? 1,
+    // Relative to i18n/manifest.json itself.
+    file,
+    stringCount: Object.keys(strings).length,
+    sizeKb: Math.max(1, Math.round(statSync(join(i18nDir, file)).size / 1024)),
+  });
+}
+
 warnings.forEach((message) => console.warn(`warning  ${message}`));
 if (errors.length) {
   errors.forEach((message) => console.error(`error    ${message}`));
@@ -104,3 +143,6 @@ entries.sort((a, b) => a.level - b.level);
 const manifest = { schemaVersion: SCHEMA_VERSION, updatedAt: new Date().toISOString().slice(0, 10), packs: entries };
 writeFileSync(join(here, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
 console.log(`manifest.json written with ${entries.length} level(s).`);
+const i18nManifest = { schemaVersion: SCHEMA_VERSION, updatedAt: manifest.updatedAt, languages: languageEntries };
+writeFileSync(join(i18nDir, 'manifest.json'), `${JSON.stringify(i18nManifest, null, 2)}\n`);
+console.log(`i18n/manifest.json written with ${languageEntries.length} language(s).`);

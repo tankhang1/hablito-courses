@@ -36,14 +36,19 @@ SHA="$(git rev-parse HEAD)"
 node -e '
   const fs = require("fs");
   const [repo, sha] = process.argv.slice(1);
-  const manifest = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
-  for (const pack of manifest.packs) {
-    const file = pack.file.replace(/^https?:\/\/[^]*?@[0-9a-f]+\//, "");
-    pack.file = `https://cdn.jsdelivr.net/gh/${repo}@${sha}/${file}`;
+  const pin = (file) => `https://cdn.jsdelivr.net/gh/${repo}@${sha}/${file.replace(/^https?:\/\/[^]*?@[0-9a-f]+\//, "")}`;
+  const courses = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
+  for (const pack of courses.packs) pack.file = pin(pack.file);
+  fs.writeFileSync("manifest.json", JSON.stringify(courses, null, 2) + "\n");
+  if (fs.existsSync("i18n/manifest.json")) {
+    const i18n = JSON.parse(fs.readFileSync("i18n/manifest.json", "utf8"));
+    for (const language of i18n.languages) {
+      if (!/^https?:/.test(language.file)) language.file = pin(`i18n/${language.file}`);
+    }
+    fs.writeFileSync("i18n/manifest.json", JSON.stringify(i18n, null, 2) + "\n");
   }
-  fs.writeFileSync("manifest.json", JSON.stringify(manifest, null, 2) + "\n");
 ' "$REPO" "$SHA"
-git add manifest.json
+git add manifest.json i18n/manifest.json 2>/dev/null || git add manifest.json
 git commit --quiet -m "Pin pack URLs to $SHA"
 git push --quiet origin "$BRANCH"
 echo "Published to https://github.com/$REPO"

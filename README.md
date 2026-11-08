@@ -8,7 +8,8 @@ on-device SQLite database and work offline.
 ```
 content/courses/
 ├── manifest.json        generated: the list of levels the app shows
-├── build-manifest.mjs   checks every pack and regenerates manifest.json
+├── build-manifest.mjs   checks every pack and language, regenerates both manifests
+├── i18n/                UI language files (languages.json, <code>.json, manifest.json)
 └── packs/
     ├── level-01.json    one file per level
     └── …

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-08",
+  "languages": [
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "nativeName": "Tiếng Việt",
+      "version": 1,
+      "file": "vi.json",
+      "stringCount": 1172,
+      "sizeKb": 101
+    },
+    {
+      "code": "pt-BR",
+      "name": "Portuguese (Brazil)",
+      "nativeName": "Português (Brasil)",
+      "version": 1,
+      "file": "pt-BR.json",
+      "stringCount": 373,
+      "sizeKb": 22
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "version": 1,
+      "file": "fr.json",
+      "stringCount": 373,
+      "sizeKb": 23
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "version": 1,
+      "file": "de.json",
+      "stringCount": 373,
+      "sizeKb": 22
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "version": 1,
+      "file": "it.json",
+      "stringCount": 373,
+      "sizeKb": 22
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "version": 1,
+      "file": "ja.json",
+      "stringCount": 373,
+      "sizeKb": 24
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Chinese (Simplified)",
+      "nativeName": "简体中文",
+      "version": 1,
+      "file": "zh-Hans.json",
+      "stringCount": 373,
+      "sizeKb": 21
+    }
+  ]
+}
