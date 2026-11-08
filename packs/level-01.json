@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "level-01",
+  "version": 1,
+  "level": 1,
+  "cefr": "A1",
+  "title": {
+    "en": "Starter 1: First words",
+    "vi": "Khởi đầu 1: Những từ đầu tiên"
+  },
+  "description": {
+    "en": "Tiny everyday words and how you feel.",
+    "vi": "Những từ nhỏ hằng ngày và cảm xúc của bạn."
+  },
+  "lessons": [
+    {
+      "id": "everyday-words",
+      "title": {
+        "en": "Everyday words",
+        "vi": "Từ dùng hằng ngày"
+      },
+      "description": {
+        "en": "Yes, no, and the polite basics.",
+        "vi": "Có, không và những từ lịch sự cơ bản."
+      },
+      "icon": "message-circle",
+      "phrases": [
+        {
+          "es": "Sí",
+          "en": "Yes",
+          "vi": "Có / Vâng"
+        },
+        {
+          "es": "No",
+          "en": "No",
+          "vi": "Không"
+        },
+        {
+          "es": "Por favor",
+          "en": "Please",
+          "vi": "Làm ơn"
+        },
+        {
+          "es": "Muchas gracias",
+          "en": "Thank you very much",
+          "vi": "Cảm ơn rất nhiều"
+        },
+        {
+          "es": "Con permiso",
+          "en": "Excuse me (to pass)",
+          "vi": "Xin phép cho tôi qua"
+        },
+        {
+          "es": "Lo siento",
+          "en": "I'm sorry",
+          "vi": "Tôi xin lỗi"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "title": {
+        "en": "How I feel",
+        "vi": "Cảm xúc của tôi"
+      },
+      "description": {
+        "en": "Say if you are tired, hungry, or happy.",
+        "vi": "Nói bạn mệt, đói hay vui."
+      },
+      "icon": "smile",
+      "phrases": [
+        {
+          "es": "Estoy bien",
+          "en": "I'm fine",
+          "vi": "Tôi ổn"
+        },
+        {
+          "es": "Estoy cansado",
+          "en": "I'm tired",
+          "vi": "Tôi mệt",
+          "note": {
+            "en": "Women say “cansada”.",
+            "vi": "Nữ nói “cansada”."
+          }
+        },
+        {
+          "es": "Tengo hambre",
+          "en": "I'm hungry",
+          "vi": "Tôi đói"
+        },
+        {
+          "es": "Tengo sed",
+          "en": "I'm thirsty",
+          "vi": "Tôi khát"
+        },
+        {
+          "es": "Estoy feliz",
+          "en": "I'm happy",
+          "vi": "Tôi vui"
+        },
+        {
+          "es": "Tengo frío",
+          "en": "I'm cold",
+          "vi": "Tôi lạnh"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "classmate",
+      "title": {
+        "en": "Meet a classmate",
+        "vi": "Gặp bạn cùng lớp"
+      },
+      "description": {
+        "en": "Say hi and share how you feel today.",
+        "vi": "Chào hỏi và chia sẻ hôm nay bạn thế nào."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "hi",
+      "nodes": [
+        {
+          "id": "hi",
+          "prompt": "¡Hola! ¿Cómo estás?",
+          "translation": {
+            "en": "Hi! How are you?",
+            "vi": "Chào bạn! Bạn khỏe không?"
+          },
+          "hint": {
+            "en": "Answer with “Estoy…”.",
+            "vi": "Trả lời bằng “Estoy…”."
+          },
+          "choices": [
+            {
+              "id": "fine",
+              "es": "Estoy bien, gracias.",
+              "translation": {
+                "en": "I'm fine, thanks.",
+                "vi": "Mình ổn, cảm ơn."
+              },
+              "correct": true,
+              "response": "¡Qué bueno! ¿Tienes hambre?",
+              "responseTranslation": {
+                "en": "Great! Are you hungry?",
+                "vi": "Tốt quá! Bạn có đói không?"
+              },
+              "next": "hungry"
+            },
+            {
+              "id": "tired",
+              "es": "Estoy cansado.",
+              "translation": {
+                "en": "I'm tired.",
+                "vi": "Mình mệt."
+              },
+              "correct": true,
+              "response": "Ay, lo siento. ¿Tienes hambre?",
+              "responseTranslation": {
+                "en": "Oh, sorry. Are you hungry?",
+                "vi": "Ôi, tiếc quá. Bạn có đói không?"
+              },
+              "next": "hungry"
+            },
+            {
+              "id": "thanks",
+              "es": "De nada.",
+              "translation": {
+                "en": "You're welcome.",
+                "vi": "Không có gì."
+              },
+              "correct": false,
+              "correction": "Estoy bien, gracias.",
+              "response": "Mmm… ¿pero cómo estás?",
+              "responseTranslation": {
+                "en": "Hmm… but how are you?",
+                "vi": "Ừm… nhưng bạn khỏe không?"
+              },
+              "next": "hungry"
+            }
+          ]
+        },
+        {
+          "id": "hungry",
+          "prompt": "¿Tienes hambre?",
+          "translation": {
+            "en": "Are you hungry?",
+            "vi": "Bạn có đói không?"
+          },
+          "hint": {
+            "en": "“Sí” or “No”, then a short reason.",
+            "vi": "“Sí” hoặc “No”, kèm một lý do ngắn."
+          },
+          "choices": [
+            {
+              "id": "yes",
+              "es": "Sí, tengo hambre.",
+              "translation": {
+                "en": "Yes, I'm hungry.",
+                "vi": "Có, mình đói."
+              },
+              "correct": true,
+              "response": "Yo también. ¿Vamos a comer?",
+              "responseTranslation": {
+                "en": "Me too. Shall we eat?",
+                "vi": "Mình cũng vậy. Đi ăn nhé?"
+              },
+              "next": "eat"
+            },
+            {
+              "id": "no",
+              "es": "No, gracias. Tengo sed.",
+              "translation": {
+                "en": "No, thanks. I'm thirsty.",
+                "vi": "Không, cảm ơn. Mình khát."
+              },
+              "correct": true,
+              "response": "Hay agua aquí. ¿Vamos?",
+              "responseTranslation": {
+                "en": "There's water here. Shall we go?",
+                "vi": "Ở đây có nước. Đi nhé?"
+              },
+              "next": "eat"
+            },
+            {
+              "id": "cold",
+              "es": "Tengo frío.",
+              "translation": {
+                "en": "I'm cold.",
+                "vi": "Mình lạnh."
+              },
+              "correct": false,
+              "correction": "Sí, tengo hambre.",
+              "response": "Toma mi chaqueta. ¿Y hambre?",
+              "responseTranslation": {
+                "en": "Take my jacket. And hungry?",
+                "vi": "Cầm áo khoác của mình đi. Còn đói không?"
+              },
+              "next": "eat"
+            }
+          ]
+        },
+        {
+          "id": "eat",
+          "prompt": "¡Vamos! Hasta luego, ¿sí?",
+          "translation": {
+            "en": "Let's go! See you later, OK?",
+            "vi": "Đi thôi! Lát gặp nhé?"
+          },
+          "hint": {
+            "en": "Say thank you and goodbye.",
+            "vi": "Cảm ơn và tạm biệt."
+          },
+          "choices": [
+            {
+              "id": "bye",
+              "es": "Sí, muchas gracias. ¡Hasta luego!",
+              "translation": {
+                "en": "Yes, thanks a lot. See you later!",
+                "vi": "Ừ, cảm ơn nhiều. Lát gặp!"
+              },
+              "correct": true,
+              "response": "¡Hasta luego!",
+              "responseTranslation": {
+                "en": "See you later!",
+                "vi": "Lát gặp nhé!"
+              }
+            },
+            {
+              "id": "please",
+              "es": "Sí, por favor.",
+              "translation": {
+                "en": "Yes, please.",
+                "vi": "Ừ, làm ơn."
+              },
+              "correct": true,
+              "response": "¡Perfecto!",
+              "responseTranslation": {
+                "en": "Perfect!",
+                "vi": "Tuyệt!"
+              }
+            },
+            {
+              "id": "sorry",
+              "es": "Lo siento.",
+              "translation": {
+                "en": "I'm sorry.",
+                "vi": "Mình xin lỗi."
+              },
+              "correct": false,
+              "correction": "Sí, muchas gracias. ¡Hasta luego!",
+              "response": "¿Por qué? ¡Todo bien!",
+              "responseTranslation": {
+                "en": "Why? All good!",
+                "vi": "Sao vậy? Mọi thứ ổn mà!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

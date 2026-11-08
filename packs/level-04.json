@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-04",
+  "version": 1,
+  "level": 4,
+  "cefr": "A1",
+  "title": {
+    "en": "Beginner 2: Shopping & money",
+    "vi": "Sơ cấp 2: Mua sắm & tiền bạc"
+  },
+  "description": {
+    "en": "Colors, clothes, prices, and paying.",
+    "vi": "Màu sắc, quần áo, giá cả và thanh toán."
+  },
+  "lessons": [
+    {
+      "id": "clothes",
+      "title": {
+        "en": "Colors & clothes",
+        "vi": "Màu sắc & quần áo"
+      },
+      "description": {
+        "en": "Describe what you want to buy.",
+        "vi": "Mô tả món đồ bạn muốn mua."
+      },
+      "icon": "shopping-bag",
+      "phrases": [
+        {
+          "es": "la camisa roja",
+          "en": "the red shirt",
+          "vi": "chiếc áo sơ mi đỏ"
+        },
+        {
+          "es": "los zapatos negros",
+          "en": "the black shoes",
+          "vi": "đôi giày đen"
+        },
+        {
+          "es": "el vestido azul",
+          "en": "the blue dress",
+          "vi": "chiếc váy xanh dương"
+        },
+        {
+          "es": "una chaqueta verde",
+          "en": "a green jacket",
+          "vi": "một chiếc áo khoác xanh lá"
+        },
+        {
+          "es": "¿Lo tiene en blanco?",
+          "en": "Do you have it in white?",
+          "vi": "Có màu trắng không?"
+        },
+        {
+          "es": "Es muy grande.",
+          "en": "It's too big.",
+          "vi": "Rộng quá."
+        }
+      ]
+    },
+    {
+      "id": "paying",
+      "title": {
+        "en": "Prices & paying",
+        "vi": "Giá cả & thanh toán"
+      },
+      "description": {
+        "en": "Ask the price and pay.",
+        "vi": "Hỏi giá và trả tiền."
+      },
+      "icon": "credit-card",
+      "phrases": [
+        {
+          "es": "¿Cuánto es?",
+          "en": "How much is it?",
+          "vi": "Bao nhiêu tiền?"
+        },
+        {
+          "es": "¿Hay descuento?",
+          "en": "Is there a discount?",
+          "vi": "Có giảm giá không?"
+        },
+        {
+          "es": "Pago en efectivo.",
+          "en": "I'll pay in cash.",
+          "vi": "Tôi trả tiền mặt."
+        },
+        {
+          "es": "Pago con tarjeta.",
+          "en": "I'll pay by card.",
+          "vi": "Tôi trả bằng thẻ."
+        },
+        {
+          "es": "Es barato.",
+          "en": "It's cheap.",
+          "vi": "Rẻ."
+        },
+        {
+          "es": "¿Me da el recibo?",
+          "en": "Can I have the receipt?",
+          "vi": "Cho tôi xin hóa đơn."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "shoes",
+      "title": {
+        "en": "Buy shoes",
+        "vi": "Mua giày"
+      },
+      "description": {
+        "en": "Find a color, check the price, and pay.",
+        "vi": "Chọn màu, hỏi giá và thanh toán."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "look",
+      "nodes": [
+        {
+          "id": "look",
+          "prompt": "Hola, ¿qué busca?",
+          "translation": {
+            "en": "Hi, what are you looking for?",
+            "vi": "Chào bạn, bạn tìm gì?"
+          },
+          "hint": {
+            "en": "Say the item and its color.",
+            "vi": "Nói món đồ và màu sắc."
+          },
+          "choices": [
+            {
+              "id": "black",
+              "es": "Busco zapatos negros.",
+              "translation": {
+                "en": "I'm looking for black shoes.",
+                "vi": "Tôi tìm giày đen."
+              },
+              "correct": true,
+              "response": "Tenemos estos. ¿Le gustan?",
+              "responseTranslation": {
+                "en": "We have these. Do you like them?",
+                "vi": "Có đôi này. Bạn thích không?"
+              },
+              "next": "price"
+            },
+            {
+              "id": "white",
+              "es": "¿Tiene estos zapatos en blanco?",
+              "translation": {
+                "en": "Do you have these shoes in white?",
+                "vi": "Đôi này có màu trắng không?"
+              },
+              "correct": true,
+              "response": "Sí, aquí están. ¿Le gustan?",
+              "responseTranslation": {
+                "en": "Yes, here they are. Do you like them?",
+                "vi": "Có, đây ạ. Bạn thích không?"
+              },
+              "next": "price"
+            },
+            {
+              "id": "hungry",
+              "es": "Tengo hambre.",
+              "translation": {
+                "en": "I'm hungry.",
+                "vi": "Tôi đói."
+              },
+              "correct": false,
+              "correction": "Busco zapatos negros.",
+              "response": "Aquí vendemos zapatos. ¿Qué color busca?",
+              "responseTranslation": {
+                "en": "We sell shoes here. What color?",
+                "vi": "Ở đây bán giày. Bạn tìm màu gì?"
+              },
+              "next": "price"
+            }
+          ]
+        },
+        {
+          "id": "price",
+          "prompt": "Son muy bonitos, ¿verdad?",
+          "translation": {
+            "en": "They're very nice, right?",
+            "vi": "Đẹp lắm phải không?"
+          },
+          "hint": {
+            "en": "Ask “¿Cuánto…?”.",
+            "vi": "Hỏi “¿Cuánto…?”."
+          },
+          "choices": [
+            {
+              "id": "howmuch",
+              "es": "Sí. ¿Cuánto es?",
+              "translation": {
+                "en": "Yes. How much is it?",
+                "vi": "Ừ. Bao nhiêu tiền?"
+              },
+              "correct": true,
+              "response": "Son seiscientos pesos.",
+              "responseTranslation": {
+                "en": "They're 600 pesos.",
+                "vi": "Sáu trăm peso."
+              },
+              "next": "pay"
+            },
+            {
+              "id": "discount",
+              "es": "Sí. ¿Hay descuento?",
+              "translation": {
+                "en": "Yes. Is there a discount?",
+                "vi": "Ừ. Có giảm giá không?"
+              },
+              "correct": true,
+              "response": "Hoy hay diez por ciento. Son quinientos cuarenta.",
+              "responseTranslation": {
+                "en": "Today there's 10% off. It's 540.",
+                "vi": "Hôm nay giảm 10%. Còn 540."
+              },
+              "next": "pay"
+            },
+            {
+              "id": "big",
+              "es": "Es muy grande.",
+              "translation": {
+                "en": "It's too big.",
+                "vi": "Rộng quá."
+              },
+              "correct": false,
+              "correction": "Sí. ¿Cuánto es?",
+              "response": "Le traigo otra talla. Cuestan seiscientos.",
+              "responseTranslation": {
+                "en": "I'll bring another size. They're 600.",
+                "vi": "Tôi lấy cỡ khác. Giá 600."
+              },
+              "next": "pay"
+            }
+          ]
+        },
+        {
+          "id": "pay",
+          "prompt": "¿Cómo va a pagar?",
+          "translation": {
+            "en": "How will you pay?",
+            "vi": "Bạn thanh toán thế nào?"
+          },
+          "hint": {
+            "en": "“Pago con…” or “Pago en…”.",
+            "vi": "“Pago con…” hoặc “Pago en…”."
+          },
+          "choices": [
+            {
+              "id": "card",
+              "es": "Pago con tarjeta.",
+              "translation": {
+                "en": "I'll pay by card.",
+                "vi": "Tôi trả bằng thẻ."
+              },
+              "correct": true,
+              "response": "Perfecto. Aquí tiene su recibo.",
+              "responseTranslation": {
+                "en": "Perfect. Here's your receipt.",
+                "vi": "Tuyệt. Hóa đơn của bạn đây."
+              }
+            },
+            {
+              "id": "cash",
+              "es": "Pago en efectivo.",
+              "translation": {
+                "en": "I'll pay in cash.",
+                "vi": "Tôi trả tiền mặt."
+              },
+              "correct": true,
+              "response": "Muy bien. Gracias por su compra.",
+              "responseTranslation": {
+                "en": "Very good. Thanks for shopping.",
+                "vi": "Được ạ. Cảm ơn bạn đã mua hàng."
+              }
+            },
+            {
+              "id": "cheap",
+              "es": "Es barato.",
+              "translation": {
+                "en": "It's cheap.",
+                "vi": "Rẻ."
+              },
+              "correct": false,
+              "correction": "Pago con tarjeta.",
+              "response": "¡Sí! ¿Pero con tarjeta o en efectivo?",
+              "responseTranslation": {
+                "en": "Yes! But card or cash?",
+                "vi": "Đúng! Nhưng thẻ hay tiền mặt?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

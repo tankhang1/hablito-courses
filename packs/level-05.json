@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-05",
+  "version": 1,
+  "level": 5,
+  "cefr": "A2",
+  "title": {
+    "en": "Elementary 1: Getting around",
+    "vi": "Sơ trung 1: Đi lại trong thành phố"
+  },
+  "description": {
+    "en": "Places in town and simple directions.",
+    "vi": "Địa điểm trong thành phố và chỉ đường đơn giản."
+  },
+  "lessons": [
+    {
+      "id": "places",
+      "title": {
+        "en": "Places in town",
+        "vi": "Địa điểm trong thành phố"
+      },
+      "description": {
+        "en": "Name the places you need.",
+        "vi": "Gọi tên những nơi bạn cần đến."
+      },
+      "icon": "map",
+      "phrases": [
+        {
+          "es": "el banco",
+          "en": "the bank",
+          "vi": "ngân hàng"
+        },
+        {
+          "es": "la farmacia",
+          "en": "the pharmacy",
+          "vi": "hiệu thuốc"
+        },
+        {
+          "es": "la parada de autobús",
+          "en": "the bus stop",
+          "vi": "trạm xe buýt"
+        },
+        {
+          "es": "el supermercado",
+          "en": "the supermarket",
+          "vi": "siêu thị"
+        },
+        {
+          "es": "el hospital",
+          "en": "the hospital",
+          "vi": "bệnh viện"
+        },
+        {
+          "es": "la estación de tren",
+          "en": "the train station",
+          "vi": "ga tàu"
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": {
+        "en": "Directions",
+        "vi": "Chỉ đường"
+      },
+      "description": {
+        "en": "Understand left, right, and straight ahead.",
+        "vi": "Hiểu trái, phải và đi thẳng."
+      },
+      "icon": "navigation",
+      "phrases": [
+        {
+          "es": "a la derecha",
+          "en": "to the right",
+          "vi": "bên phải"
+        },
+        {
+          "es": "a la izquierda",
+          "en": "to the left",
+          "vi": "bên trái"
+        },
+        {
+          "es": "todo recto",
+          "en": "straight ahead",
+          "vi": "đi thẳng"
+        },
+        {
+          "es": "en la esquina",
+          "en": "on the corner",
+          "vi": "ở góc đường"
+        },
+        {
+          "es": "cerca de aquí",
+          "en": "near here",
+          "vi": "gần đây"
+        },
+        {
+          "es": "lejos de aquí",
+          "en": "far from here",
+          "vi": "xa đây"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "pharmacy",
+      "title": {
+        "en": "Find the pharmacy",
+        "vi": "Tìm hiệu thuốc"
+      },
+      "description": {
+        "en": "Ask the way and confirm the directions.",
+        "vi": "Hỏi đường và xác nhận lại."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "ask",
+      "nodes": [
+        {
+          "id": "ask",
+          "prompt": "¿Le puedo ayudar?",
+          "translation": {
+            "en": "Can I help you?",
+            "vi": "Tôi giúp gì được cho bạn?"
+          },
+          "hint": {
+            "en": "Ask “¿Dónde está…?”.",
+            "vi": "Hỏi “¿Dónde está…?”."
+          },
+          "choices": [
+            {
+              "id": "where",
+              "es": "Sí. ¿Dónde está la farmacia?",
+              "translation": {
+                "en": "Yes. Where is the pharmacy?",
+                "vi": "Vâng. Hiệu thuốc ở đâu?"
+              },
+              "correct": true,
+              "response": "Siga todo recto y a la derecha.",
+              "responseTranslation": {
+                "en": "Go straight and then right.",
+                "vi": "Đi thẳng rồi rẽ phải."
+              },
+              "next": "repeat"
+            },
+            {
+              "id": "near",
+              "es": "¿Hay una farmacia cerca de aquí?",
+              "translation": {
+                "en": "Is there a pharmacy near here?",
+                "vi": "Gần đây có hiệu thuốc không?"
+              },
+              "correct": true,
+              "response": "Sí, siga todo recto y a la derecha.",
+              "responseTranslation": {
+                "en": "Yes, go straight and then right.",
+                "vi": "Có, đi thẳng rồi rẽ phải."
+              },
+              "next": "repeat"
+            },
+            {
+              "id": "cash",
+              "es": "Pago en efectivo.",
+              "translation": {
+                "en": "I'll pay in cash.",
+                "vi": "Tôi trả tiền mặt."
+              },
+              "correct": false,
+              "correction": "Sí. ¿Dónde está la farmacia?",
+              "response": "¿Busca algo? ¿La farmacia? Está a la derecha.",
+              "responseTranslation": {
+                "en": "Looking for something? The pharmacy? It's on the right.",
+                "vi": "Bạn tìm gì à? Hiệu thuốc? Ở bên phải."
+              },
+              "next": "repeat"
+            }
+          ]
+        },
+        {
+          "id": "repeat",
+          "prompt": "Todo recto y luego a la derecha.",
+          "translation": {
+            "en": "Straight ahead and then right.",
+            "vi": "Đi thẳng rồi rẽ phải."
+          },
+          "hint": {
+            "en": "Repeat back to confirm.",
+            "vi": "Nhắc lại để xác nhận."
+          },
+          "choices": [
+            {
+              "id": "confirm",
+              "es": "Todo recto y a la derecha, ¿verdad?",
+              "translation": {
+                "en": "Straight and to the right, right?",
+                "vi": "Đi thẳng rồi rẽ phải, đúng không?"
+              },
+              "correct": true,
+              "response": "Exacto. Está en la esquina.",
+              "responseTranslation": {
+                "en": "Exactly. It's on the corner.",
+                "vi": "Đúng vậy. Ở góc đường."
+              },
+              "next": "far"
+            },
+            {
+              "id": "slow",
+              "es": "Más despacio, por favor.",
+              "translation": {
+                "en": "More slowly, please.",
+                "vi": "Làm ơn nói chậm hơn."
+              },
+              "correct": true,
+              "response": "To-do rec-to… y a la derecha. En la esquina.",
+              "responseTranslation": {
+                "en": "Straight… and right. On the corner.",
+                "vi": "Đi thẳng… rồi rẽ phải. Ở góc đường."
+              },
+              "next": "far"
+            },
+            {
+              "id": "left",
+              "es": "¿A la izquierda?",
+              "translation": {
+                "en": "To the left?",
+                "vi": "Rẽ trái à?"
+              },
+              "correct": false,
+              "correction": "Todo recto y a la derecha, ¿verdad?",
+              "response": "No, a la derecha. En la esquina.",
+              "responseTranslation": {
+                "en": "No, to the right. On the corner.",
+                "vi": "Không, rẽ phải. Ở góc đường."
+              },
+              "next": "far"
+            }
+          ]
+        },
+        {
+          "id": "far",
+          "prompt": "Está muy cerca, cinco minutos.",
+          "translation": {
+            "en": "It's very close, five minutes.",
+            "vi": "Rất gần, năm phút thôi."
+          },
+          "hint": {
+            "en": "Thank them.",
+            "vi": "Cảm ơn họ."
+          },
+          "choices": [
+            {
+              "id": "thanks",
+              "es": "¡Muchas gracias por su ayuda!",
+              "translation": {
+                "en": "Thanks a lot for your help!",
+                "vi": "Cảm ơn bạn đã giúp!"
+              },
+              "correct": true,
+              "response": "De nada. ¡Que le vaya bien!",
+              "responseTranslation": {
+                "en": "You're welcome. Take care!",
+                "vi": "Không có gì. Chúc bạn may mắn!"
+              }
+            },
+            {
+              "id": "great",
+              "es": "Perfecto, gracias.",
+              "translation": {
+                "en": "Perfect, thanks.",
+                "vi": "Tuyệt, cảm ơn."
+              },
+              "correct": true,
+              "response": "De nada.",
+              "responseTranslation": {
+                "en": "You're welcome.",
+                "vi": "Không có gì."
+              }
+            },
+            {
+              "id": "hospital",
+              "es": "¿Dónde está el hospital?",
+              "translation": {
+                "en": "Where is the hospital?",
+                "vi": "Bệnh viện ở đâu?"
+              },
+              "correct": false,
+              "correction": "¡Muchas gracias por su ayuda!",
+              "response": "¿El hospital? Está lejos de aquí. Tome un taxi.",
+              "responseTranslation": {
+                "en": "The hospital? It's far. Take a taxi.",
+                "vi": "Bệnh viện à? Xa lắm. Bạn đi taxi nhé."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

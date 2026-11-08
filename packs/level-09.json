@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-09",
+  "version": 1,
+  "level": 9,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 1: Travel problems",
+    "vi": "Trung cấp 1: Sự cố khi du lịch"
+  },
+  "description": {
+    "en": "Solve problems at the hotel and on the road.",
+    "vi": "Xử lý sự cố ở khách sạn và trên đường."
+  },
+  "lessons": [
+    {
+      "id": "hotel",
+      "title": {
+        "en": "At the hotel",
+        "vi": "Ở khách sạn"
+      },
+      "description": {
+        "en": "Ask for what you need at reception.",
+        "vi": "Yêu cầu những gì bạn cần ở quầy lễ tân."
+      },
+      "icon": "key",
+      "phrases": [
+        {
+          "es": "Tengo una reserva a nombre de Lee.",
+          "en": "I have a reservation under Lee.",
+          "vi": "Tôi đã đặt phòng tên Lee."
+        },
+        {
+          "es": "El aire acondicionado no funciona.",
+          "en": "The air conditioning doesn't work.",
+          "vi": "Máy lạnh không hoạt động."
+        },
+        {
+          "es": "¿A qué hora es el desayuno?",
+          "en": "What time is breakfast?",
+          "vi": "Bữa sáng lúc mấy giờ?"
+        },
+        {
+          "es": "Necesito otra toalla.",
+          "en": "I need another towel.",
+          "vi": "Tôi cần thêm một cái khăn."
+        },
+        {
+          "es": "¿Puedo dejar mi equipaje aquí?",
+          "en": "Can I leave my luggage here?",
+          "vi": "Tôi gửi hành lý ở đây được không?"
+        },
+        {
+          "es": "Quiero cambiar de habitación.",
+          "en": "I'd like to change rooms.",
+          "vi": "Tôi muốn đổi phòng."
+        }
+      ]
+    },
+    {
+      "id": "problems",
+      "title": {
+        "en": "When things go wrong",
+        "vi": "Khi gặp sự cố"
+      },
+      "description": {
+        "en": "Explain a problem calmly and clearly.",
+        "vi": "Trình bày sự cố bình tĩnh và rõ ràng."
+      },
+      "icon": "alert-circle",
+      "phrases": [
+        {
+          "es": "Perdí mi pasaporte.",
+          "en": "I lost my passport.",
+          "vi": "Tôi bị mất hộ chiếu."
+        },
+        {
+          "es": "Mi vuelo está retrasado.",
+          "en": "My flight is delayed.",
+          "vi": "Chuyến bay của tôi bị hoãn."
+        },
+        {
+          "es": "Me robaron la cartera.",
+          "en": "My wallet was stolen.",
+          "vi": "Tôi bị trộm ví."
+        },
+        {
+          "es": "Tomé el autobús equivocado.",
+          "en": "I took the wrong bus.",
+          "vi": "Tôi đi nhầm xe buýt."
+        },
+        {
+          "es": "¿Me puede ayudar, por favor?",
+          "en": "Can you help me, please?",
+          "vi": "Bạn giúp tôi được không?"
+        },
+        {
+          "es": "Necesito hablar con el gerente.",
+          "en": "I need to speak to the manager.",
+          "vi": "Tôi cần nói chuyện với quản lý."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "hotel-fix",
+      "title": {
+        "en": "Fix a hotel problem",
+        "vi": "Xử lý sự cố khách sạn"
+      },
+      "description": {
+        "en": "Report a broken air conditioner and get a new room.",
+        "vi": "Báo máy lạnh hỏng và được đổi phòng."
+      },
+      "icon": "map-pin",
+      "duration": "3 min",
+      "start": "problem",
+      "nodes": [
+        {
+          "id": "problem",
+          "prompt": "Recepción, buenas noches. ¿En qué le ayudo?",
+          "translation": {
+            "en": "Reception, good evening. How can I help?",
+            "vi": "Lễ tân xin nghe, chào buổi tối. Tôi giúp gì được ạ?"
+          },
+          "hint": {
+            "en": "Describe the problem with “no funciona”.",
+            "vi": "Mô tả sự cố bằng “no funciona”."
+          },
+          "choices": [
+            {
+              "id": "ac",
+              "es": "El aire acondicionado no funciona.",
+              "translation": {
+                "en": "The air conditioning doesn't work.",
+                "vi": "Máy lạnh không hoạt động."
+              },
+              "correct": true,
+              "response": "Lo siento mucho. ¿Cuál es su habitación?",
+              "responseTranslation": {
+                "en": "I'm very sorry. What's your room?",
+                "vi": "Thành thật xin lỗi. Bạn ở phòng nào?"
+              },
+              "next": "room"
+            },
+            {
+              "id": "help",
+              "es": "¿Me puede ayudar? Hace mucho calor en mi habitación.",
+              "translation": {
+                "en": "Can you help me? It's very hot in my room.",
+                "vi": "Giúp tôi được không? Phòng tôi nóng quá."
+              },
+              "correct": true,
+              "response": "Claro. ¿Cuál es su habitación?",
+              "responseTranslation": {
+                "en": "Of course. What's your room?",
+                "vi": "Tất nhiên. Bạn ở phòng nào?"
+              },
+              "next": "room"
+            },
+            {
+              "id": "breakfast",
+              "es": "¿A qué hora es el desayuno?",
+              "translation": {
+                "en": "What time is breakfast?",
+                "vi": "Bữa sáng lúc mấy giờ?"
+              },
+              "correct": false,
+              "correction": "El aire acondicionado no funciona.",
+              "response": "A las siete. ¿Hay algún otro problema?",
+              "responseTranslation": {
+                "en": "At seven. Is there any other problem?",
+                "vi": "Lúc bảy giờ. Còn vấn đề gì khác không?"
+              },
+              "next": "room"
+            }
+          ]
+        },
+        {
+          "id": "room",
+          "prompt": "¿Cuál es su número de habitación?",
+          "translation": {
+            "en": "What's your room number?",
+            "vi": "Số phòng của bạn là bao nhiêu?"
+          },
+          "hint": {
+            "en": "Say “Es la…” plus the number.",
+            "vi": "Nói “Es la…” kèm số phòng."
+          },
+          "choices": [
+            {
+              "id": "num",
+              "es": "Es la doscientos cinco.",
+              "translation": {
+                "en": "It's 205.",
+                "vi": "Phòng 205."
+              },
+              "correct": true,
+              "response": "Gracias. Mando a alguien ahora.",
+              "responseTranslation": {
+                "en": "Thanks. I'll send someone now.",
+                "vi": "Cảm ơn. Tôi cho người lên ngay."
+              },
+              "next": "change"
+            },
+            {
+              "id": "change",
+              "es": "La doscientos cinco. ¿Puedo cambiar de habitación?",
+              "translation": {
+                "en": "205. Can I change rooms?",
+                "vi": "Phòng 205. Tôi đổi phòng được không?"
+              },
+              "correct": true,
+              "response": "Déjeme revisar…",
+              "responseTranslation": {
+                "en": "Let me check…",
+                "vi": "Để tôi kiểm tra…"
+              },
+              "next": "change"
+            },
+            {
+              "id": "passport",
+              "es": "Perdí mi pasaporte.",
+              "translation": {
+                "en": "I lost my passport.",
+                "vi": "Tôi mất hộ chiếu."
+              },
+              "correct": false,
+              "correction": "Es la doscientos cinco.",
+              "response": "¡Ay! Lo buscamos luego. ¿Su habitación?",
+              "responseTranslation": {
+                "en": "Oh! We'll look later. Your room?",
+                "vi": "Ôi! Lát mình tìm sau. Phòng của bạn?"
+              },
+              "next": "change"
+            }
+          ]
+        },
+        {
+          "id": "change",
+          "prompt": "Tenemos otra habitación libre en el tercer piso.",
+          "translation": {
+            "en": "We have another free room on the third floor.",
+            "vi": "Chúng tôi còn một phòng trống ở tầng ba."
+          },
+          "hint": {
+            "en": "Accept politely.",
+            "vi": "Đồng ý một cách lịch sự."
+          },
+          "choices": [
+            {
+              "id": "perfect",
+              "es": "Perfecto, muchas gracias por su ayuda.",
+              "translation": {
+                "en": "Perfect, thank you for your help.",
+                "vi": "Tuyệt, cảm ơn bạn đã giúp."
+              },
+              "correct": true,
+              "response": "Con gusto. Aquí tiene la nueva llave.",
+              "responseTranslation": {
+                "en": "My pleasure. Here's the new key.",
+                "vi": "Rất sẵn lòng. Chìa khóa mới đây ạ."
+              }
+            },
+            {
+              "id": "luggage",
+              "es": "Genial. ¿Me ayudan con el equipaje?",
+              "translation": {
+                "en": "Great. Can you help with my luggage?",
+                "vi": "Tuyệt. Có ai giúp tôi mang hành lý không?"
+              },
+              "correct": true,
+              "response": "Claro, el botones sube ahora.",
+              "responseTranslation": {
+                "en": "Sure, the bellhop is coming up.",
+                "vi": "Vâng, nhân viên hành lý lên ngay."
+              }
+            },
+            {
+              "id": "manager",
+              "es": "Necesito hablar con el gerente.",
+              "translation": {
+                "en": "I need to speak to the manager.",
+                "vi": "Tôi cần gặp quản lý."
+              },
+              "correct": false,
+              "correction": "Perfecto, muchas gracias por su ayuda.",
+              "response": "Ya está resuelto, pero si quiere, lo llamo.",
+              "responseTranslation": {
+                "en": "It's solved already, but I can call him if you want.",
+                "vi": "Đã giải quyết rồi, nhưng nếu muốn tôi sẽ gọi quản lý."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

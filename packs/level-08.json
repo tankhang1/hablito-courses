@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "level-08",
+  "version": 1,
+  "level": 8,
+  "cefr": "A2",
+  "title": {
+    "en": "Pre-intermediate 2: Work & study",
+    "vi": "Tiền trung cấp 2: Công việc & học tập"
+  },
+  "description": {
+    "en": "Jobs, schedules, and small talk at work.",
+    "vi": "Nghề nghiệp, lịch làm việc và trò chuyện nơi công sở."
+  },
+  "lessons": [
+    {
+      "id": "jobs",
+      "title": {
+        "en": "Jobs",
+        "vi": "Nghề nghiệp"
+      },
+      "description": {
+        "en": "Say what you do.",
+        "vi": "Nói bạn làm nghề gì."
+      },
+      "icon": "briefcase",
+      "phrases": [
+        {
+          "es": "¿A qué te dedicas?",
+          "en": "What do you do?",
+          "vi": "Bạn làm nghề gì?"
+        },
+        {
+          "es": "Soy profesor.",
+          "en": "I'm a teacher.",
+          "vi": "Tôi là giáo viên.",
+          "note": {
+            "en": "Women say “profesora”.",
+            "vi": "Nữ nói “profesora”."
+          }
+        },
+        {
+          "es": "Trabajo en una oficina.",
+          "en": "I work in an office.",
+          "vi": "Tôi làm việc ở văn phòng."
+        },
+        {
+          "es": "Estudio en la universidad.",
+          "en": "I study at the university.",
+          "vi": "Tôi học đại học."
+        },
+        {
+          "es": "Trabajo desde casa.",
+          "en": "I work from home.",
+          "vi": "Tôi làm việc tại nhà."
+        },
+        {
+          "es": "Busco trabajo.",
+          "en": "I'm looking for a job.",
+          "vi": "Tôi đang tìm việc."
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": {
+        "en": "My schedule",
+        "vi": "Lịch của tôi"
+      },
+      "description": {
+        "en": "Talk about your day at work.",
+        "vi": "Nói về một ngày làm việc."
+      },
+      "icon": "clock",
+      "phrases": [
+        {
+          "es": "Empiezo a las nueve.",
+          "en": "I start at nine.",
+          "vi": "Tôi bắt đầu lúc chín giờ."
+        },
+        {
+          "es": "Termino a las cinco.",
+          "en": "I finish at five.",
+          "vi": "Tôi xong lúc năm giờ."
+        },
+        {
+          "es": "Tengo una reunión.",
+          "en": "I have a meeting.",
+          "vi": "Tôi có cuộc họp."
+        },
+        {
+          "es": "Estoy ocupado ahora.",
+          "en": "I'm busy right now.",
+          "vi": "Bây giờ tôi đang bận."
+        },
+        {
+          "es": "¿Tienes un minuto?",
+          "en": "Do you have a minute?",
+          "vi": "Bạn có rảnh một phút không?"
+        },
+        {
+          "es": "Nos vemos mañana.",
+          "en": "See you tomorrow.",
+          "vi": "Mai gặp nhé."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "work-chat",
+      "title": {
+        "en": "Small talk at work",
+        "vi": "Trò chuyện ở chỗ làm"
+      },
+      "description": {
+        "en": "Chat with a new coworker.",
+        "vi": "Nói chuyện với đồng nghiệp mới."
+      },
+      "icon": "briefcase",
+      "duration": "3 min",
+      "start": "job",
+      "nodes": [
+        {
+          "id": "job",
+          "prompt": "Hola, soy Carla. ¿Eres nuevo aquí?",
+          "translation": {
+            "en": "Hi, I'm Carla. Are you new here?",
+            "vi": "Chào, mình là Carla. Bạn mới vào à?"
+          },
+          "hint": {
+            "en": "Say yes and what your role is.",
+            "vi": "Nói “có” và vị trí của bạn."
+          },
+          "choices": [
+            {
+              "id": "new",
+              "es": "Sí, soy el nuevo diseñador.",
+              "translation": {
+                "en": "Yes, I'm the new designer.",
+                "vi": "Ừ, mình là nhà thiết kế mới."
+              },
+              "correct": true,
+              "response": "¡Bienvenido! ¿A qué hora empiezas?",
+              "responseTranslation": {
+                "en": "Welcome! What time do you start?",
+                "vi": "Chào mừng! Bạn bắt đầu lúc mấy giờ?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "study",
+              "es": "Sí, y también estudio en la universidad.",
+              "translation": {
+                "en": "Yes, and I also study at the university.",
+                "vi": "Ừ, và mình cũng đang học đại học."
+              },
+              "correct": true,
+              "response": "¡Qué bien! ¿A qué hora empiezas?",
+              "responseTranslation": {
+                "en": "Nice! What time do you start?",
+                "vi": "Hay quá! Bạn bắt đầu lúc mấy giờ?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "dog",
+              "es": "Tengo un perro.",
+              "translation": {
+                "en": "I have a dog.",
+                "vi": "Mình có một con chó."
+              },
+              "correct": false,
+              "correction": "Sí, soy el nuevo diseñador.",
+              "response": "¡Qué lindo! Pero, ¿trabajas aquí?",
+              "responseTranslation": {
+                "en": "Cute! But do you work here?",
+                "vi": "Dễ thương ghê! Nhưng bạn làm ở đây à?"
+              },
+              "next": "time"
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "prompt": "¿A qué hora empiezas y terminas?",
+          "translation": {
+            "en": "What time do you start and finish?",
+            "vi": "Bạn bắt đầu và kết thúc lúc mấy giờ?"
+          },
+          "hint": {
+            "en": "“Empiezo a las…, termino a las…”.",
+            "vi": "“Empiezo a las…, termino a las…”."
+          },
+          "choices": [
+            {
+              "id": "nine",
+              "es": "Empiezo a las nueve y termino a las cinco.",
+              "translation": {
+                "en": "I start at nine and finish at five.",
+                "vi": "Mình bắt đầu lúc chín giờ, xong lúc năm giờ."
+              },
+              "correct": true,
+              "response": "Igual que yo. ¿Tienes un minuto ahora?",
+              "responseTranslation": {
+                "en": "Same as me. Do you have a minute now?",
+                "vi": "Giống mình. Giờ bạn rảnh một phút không?"
+              },
+              "next": "minute"
+            },
+            {
+              "id": "home",
+              "es": "Los viernes trabajo desde casa.",
+              "translation": {
+                "en": "On Fridays I work from home.",
+                "vi": "Thứ Sáu mình làm ở nhà."
+              },
+              "correct": true,
+              "response": "¡Qué suerte! ¿Tienes un minuto ahora?",
+              "responseTranslation": {
+                "en": "Lucky! Do you have a minute now?",
+                "vi": "Sướng thế! Giờ bạn rảnh một phút không?"
+              },
+              "next": "minute"
+            },
+            {
+              "id": "meeting",
+              "es": "Nos vemos mañana.",
+              "translation": {
+                "en": "See you tomorrow.",
+                "vi": "Mai gặp nhé."
+              },
+              "correct": false,
+              "correction": "Empiezo a las nueve y termino a las cinco.",
+              "response": "¡Pero si acabamos de conocernos! ¿A qué hora empiezas?",
+              "responseTranslation": {
+                "en": "But we just met! What time do you start?",
+                "vi": "Mình vừa mới gặp mà! Bạn bắt đầu lúc mấy giờ?"
+              },
+              "next": "minute"
+            }
+          ]
+        },
+        {
+          "id": "minute",
+          "prompt": "¿Tienes un minuto para un café?",
+          "translation": {
+            "en": "Do you have a minute for a coffee?",
+            "vi": "Bạn có rảnh uống cà phê không?"
+          },
+          "hint": {
+            "en": "Accept, or say you're busy.",
+            "vi": "Đồng ý, hoặc nói bạn đang bận."
+          },
+          "choices": [
+            {
+              "id": "yes",
+              "es": "¡Claro! Vamos.",
+              "translation": {
+                "en": "Sure! Let's go.",
+                "vi": "Được chứ! Đi thôi."
+              },
+              "correct": true,
+              "response": "Genial. Te enseño la cafetería.",
+              "responseTranslation": {
+                "en": "Great. I'll show you the café.",
+                "vi": "Tuyệt. Mình dẫn bạn đi quán cà phê."
+              }
+            },
+            {
+              "id": "busy",
+              "es": "Ahora estoy ocupado, tengo una reunión.",
+              "translation": {
+                "en": "I'm busy now, I have a meeting.",
+                "vi": "Giờ mình bận, mình có họp."
+              },
+              "correct": true,
+              "response": "No pasa nada. ¡Nos vemos luego!",
+              "responseTranslation": {
+                "en": "No problem. See you later!",
+                "vi": "Không sao. Gặp sau nhé!"
+              }
+            },
+            {
+              "id": "job",
+              "es": "Busco trabajo.",
+              "translation": {
+                "en": "I'm looking for a job.",
+                "vi": "Mình đang tìm việc."
+              },
+              "correct": false,
+              "correction": "¡Claro! Vamos.",
+              "response": "¡Pero ya trabajas aquí! ¿Vamos por café?",
+              "responseTranslation": {
+                "en": "But you already work here! Coffee?",
+                "vi": "Nhưng bạn làm ở đây rồi mà! Đi cà phê không?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

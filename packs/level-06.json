@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-06",
+  "version": 1,
+  "level": 6,
+  "cefr": "A2",
+  "title": {
+    "en": "Elementary 2: Home & family",
+    "vi": "Sơ trung 2: Nhà cửa & gia đình"
+  },
+  "description": {
+    "en": "Talk about your family and your home.",
+    "vi": "Nói về gia đình và nhà của bạn."
+  },
+  "lessons": [
+    {
+      "id": "family",
+      "title": {
+        "en": "My family",
+        "vi": "Gia đình tôi"
+      },
+      "description": {
+        "en": "Introduce the people at home.",
+        "vi": "Giới thiệu những người trong nhà."
+      },
+      "icon": "users",
+      "phrases": [
+        {
+          "es": "mi madre",
+          "en": "my mother",
+          "vi": "mẹ tôi"
+        },
+        {
+          "es": "mi padre",
+          "en": "my father",
+          "vi": "bố tôi"
+        },
+        {
+          "es": "mi hermano mayor",
+          "en": "my older brother",
+          "vi": "anh trai tôi"
+        },
+        {
+          "es": "mi hermana menor",
+          "en": "my younger sister",
+          "vi": "em gái tôi"
+        },
+        {
+          "es": "mis hijos",
+          "en": "my children",
+          "vi": "các con tôi"
+        },
+        {
+          "es": "mis abuelos",
+          "en": "my grandparents",
+          "vi": "ông bà tôi"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": {
+        "en": "At home",
+        "vi": "Ở nhà"
+      },
+      "description": {
+        "en": "Rooms, pets, and where you live.",
+        "vi": "Phòng ốc, thú cưng và nơi bạn sống."
+      },
+      "icon": "home",
+      "phrases": [
+        {
+          "es": "la cocina",
+          "en": "the kitchen",
+          "vi": "nhà bếp"
+        },
+        {
+          "es": "el dormitorio",
+          "en": "the bedroom",
+          "vi": "phòng ngủ"
+        },
+        {
+          "es": "Vivo en un apartamento.",
+          "en": "I live in an apartment.",
+          "vi": "Tôi sống ở căn hộ."
+        },
+        {
+          "es": "Tengo un perro.",
+          "en": "I have a dog.",
+          "vi": "Tôi có một con chó."
+        },
+        {
+          "es": "Mi casa es pequeña.",
+          "en": "My house is small.",
+          "vi": "Nhà tôi nhỏ."
+        },
+        {
+          "es": "Vivo con mi familia.",
+          "en": "I live with my family.",
+          "vi": "Tôi sống cùng gia đình."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "family-talk",
+      "title": {
+        "en": "Talk about your family",
+        "vi": "Kể về gia đình"
+      },
+      "description": {
+        "en": "Answer questions about who you live with.",
+        "vi": "Trả lời câu hỏi về người bạn sống cùng."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "live",
+      "nodes": [
+        {
+          "id": "live",
+          "prompt": "¿Con quién vives?",
+          "translation": {
+            "en": "Who do you live with?",
+            "vi": "Bạn sống với ai?"
+          },
+          "hint": {
+            "en": "Start with “Vivo con…”.",
+            "vi": "Bắt đầu bằng “Vivo con…”."
+          },
+          "choices": [
+            {
+              "id": "family",
+              "es": "Vivo con mi familia.",
+              "translation": {
+                "en": "I live with my family.",
+                "vi": "Mình sống với gia đình."
+              },
+              "correct": true,
+              "response": "¡Qué bien! ¿Tienes hermanos?",
+              "responseTranslation": {
+                "en": "Nice! Do you have siblings?",
+                "vi": "Hay quá! Bạn có anh chị em không?"
+              },
+              "next": "siblings"
+            },
+            {
+              "id": "alone",
+              "es": "Vivo solo en un apartamento.",
+              "translation": {
+                "en": "I live alone in an apartment.",
+                "vi": "Mình sống một mình ở căn hộ."
+              },
+              "correct": true,
+              "response": "Ah, ¿y tienes hermanos?",
+              "responseTranslation": {
+                "en": "Ah, and do you have siblings?",
+                "vi": "À, thế bạn có anh chị em không?"
+              },
+              "next": "siblings"
+            },
+            {
+              "id": "kitchen",
+              "es": "La cocina.",
+              "translation": {
+                "en": "The kitchen.",
+                "vi": "Nhà bếp."
+              },
+              "correct": false,
+              "correction": "Vivo con mi familia.",
+              "response": "Jaja, ¿con quién vives?",
+              "responseTranslation": {
+                "en": "Haha, who do you live with?",
+                "vi": "Haha, bạn sống với ai?"
+              },
+              "next": "siblings"
+            }
+          ]
+        },
+        {
+          "id": "siblings",
+          "prompt": "¿Tienes hermanos?",
+          "translation": {
+            "en": "Do you have brothers or sisters?",
+            "vi": "Bạn có anh chị em không?"
+          },
+          "hint": {
+            "en": "Use “Tengo…”.",
+            "vi": "Dùng “Tengo…”."
+          },
+          "choices": [
+            {
+              "id": "brother",
+              "es": "Sí, tengo un hermano mayor.",
+              "translation": {
+                "en": "Yes, I have an older brother.",
+                "vi": "Có, mình có một anh trai."
+              },
+              "correct": true,
+              "response": "Yo tengo dos hermanas. ¿Y mascotas?",
+              "responseTranslation": {
+                "en": "I have two sisters. And pets?",
+                "vi": "Mình có hai chị gái. Còn thú cưng?"
+              },
+              "next": "pets"
+            },
+            {
+              "id": "none",
+              "es": "No, soy hijo único.",
+              "translation": {
+                "en": "No, I'm an only child.",
+                "vi": "Không, mình là con một."
+              },
+              "correct": true,
+              "response": "Ah, entiendo. ¿Y mascotas?",
+              "responseTranslation": {
+                "en": "Ah, I see. And pets?",
+                "vi": "À, mình hiểu. Còn thú cưng?"
+              },
+              "next": "pets"
+            },
+            {
+              "id": "grand",
+              "es": "Mis abuelos.",
+              "translation": {
+                "en": "My grandparents.",
+                "vi": "Ông bà mình."
+              },
+              "correct": false,
+              "correction": "Sí, tengo un hermano mayor.",
+              "response": "¡Qué bonito! Pero, ¿tienes hermanos?",
+              "responseTranslation": {
+                "en": "Lovely! But do you have siblings?",
+                "vi": "Dễ thương quá! Nhưng bạn có anh chị em không?"
+              },
+              "next": "pets"
+            }
+          ]
+        },
+        {
+          "id": "pets",
+          "prompt": "¿Tienes mascotas en casa?",
+          "translation": {
+            "en": "Do you have pets at home?",
+            "vi": "Ở nhà bạn có thú cưng không?"
+          },
+          "hint": {
+            "en": "Say what pet you have.",
+            "vi": "Nói bạn nuôi con gì."
+          },
+          "choices": [
+            {
+              "id": "dog",
+              "es": "Sí, tengo un perro.",
+              "translation": {
+                "en": "Yes, I have a dog.",
+                "vi": "Có, mình nuôi một con chó."
+              },
+              "correct": true,
+              "response": "¡Me encantan los perros!",
+              "responseTranslation": {
+                "en": "I love dogs!",
+                "vi": "Mình rất thích chó!"
+              }
+            },
+            {
+              "id": "no",
+              "es": "No, mi casa es pequeña.",
+              "translation": {
+                "en": "No, my house is small.",
+                "vi": "Không, nhà mình nhỏ."
+              },
+              "correct": true,
+              "response": "Claro, tiene sentido.",
+              "responseTranslation": {
+                "en": "Sure, that makes sense.",
+                "vi": "Ừ, hợp lý."
+              }
+            },
+            {
+              "id": "bed",
+              "es": "El dormitorio.",
+              "translation": {
+                "en": "The bedroom.",
+                "vi": "Phòng ngủ."
+              },
+              "correct": false,
+              "correction": "Sí, tengo un perro.",
+              "response": "¿Tu mascota duerme en el dormitorio?",
+              "responseTranslation": {
+                "en": "Does your pet sleep in the bedroom?",
+                "vi": "Thú cưng của bạn ngủ trong phòng ngủ à?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

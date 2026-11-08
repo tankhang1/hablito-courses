@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-03",
+  "version": 1,
+  "level": 3,
+  "cefr": "A1",
+  "title": {
+    "en": "Beginner 1: Food & drinks",
+    "vi": "Sơ cấp 1: Đồ ăn & đồ uống"
+  },
+  "description": {
+    "en": "Common foods and how to order them.",
+    "vi": "Món ăn phổ biến và cách gọi món."
+  },
+  "lessons": [
+    {
+      "id": "food",
+      "title": {
+        "en": "At the table",
+        "vi": "Trên bàn ăn"
+      },
+      "description": {
+        "en": "Everyday foods and drinks.",
+        "vi": "Món ăn, đồ uống hằng ngày."
+      },
+      "icon": "coffee",
+      "phrases": [
+        {
+          "es": "el agua",
+          "en": "water",
+          "vi": "nước"
+        },
+        {
+          "es": "el pan",
+          "en": "bread",
+          "vi": "bánh mì"
+        },
+        {
+          "es": "el pollo",
+          "en": "chicken",
+          "vi": "thịt gà"
+        },
+        {
+          "es": "el arroz",
+          "en": "rice",
+          "vi": "cơm / gạo"
+        },
+        {
+          "es": "la fruta",
+          "en": "fruit",
+          "vi": "trái cây"
+        },
+        {
+          "es": "el jugo de naranja",
+          "en": "orange juice",
+          "vi": "nước cam"
+        }
+      ]
+    },
+    {
+      "id": "ordering",
+      "title": {
+        "en": "Ordering food",
+        "vi": "Gọi món"
+      },
+      "description": {
+        "en": "Ask, order, and pay at a restaurant.",
+        "vi": "Hỏi, gọi món và thanh toán ở nhà hàng."
+      },
+      "icon": "list",
+      "phrases": [
+        {
+          "es": "Quiero el pollo, por favor.",
+          "en": "I'd like the chicken, please.",
+          "vi": "Cho tôi món gà."
+        },
+        {
+          "es": "¿Qué me recomienda?",
+          "en": "What do you recommend?",
+          "vi": "Bạn gợi ý món gì?"
+        },
+        {
+          "es": "Sin picante, por favor.",
+          "en": "Not spicy, please.",
+          "vi": "Đừng cho cay nhé."
+        },
+        {
+          "es": "Para llevar.",
+          "en": "To go.",
+          "vi": "Mang đi."
+        },
+        {
+          "es": "Está delicioso.",
+          "en": "It's delicious.",
+          "vi": "Ngon quá."
+        },
+        {
+          "es": "La cuenta, por favor.",
+          "en": "The check, please.",
+          "vi": "Cho tôi tính tiền."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "lunch",
+      "title": {
+        "en": "Order lunch",
+        "vi": "Gọi bữa trưa"
+      },
+      "description": {
+        "en": "Choose a dish, a drink, and pay.",
+        "vi": "Chọn món, đồ uống và thanh toán."
+      },
+      "icon": "coffee",
+      "duration": "3 min",
+      "start": "order",
+      "nodes": [
+        {
+          "id": "order",
+          "prompt": "Buenas tardes. ¿Qué va a comer?",
+          "translation": {
+            "en": "Good afternoon. What will you have?",
+            "vi": "Chào buổi chiều. Bạn dùng món gì?"
+          },
+          "hint": {
+            "en": "Start with “Quiero…”.",
+            "vi": "Bắt đầu bằng “Quiero…”."
+          },
+          "choices": [
+            {
+              "id": "chicken",
+              "es": "Quiero el pollo con arroz.",
+              "translation": {
+                "en": "I'd like chicken with rice.",
+                "vi": "Cho tôi gà với cơm."
+              },
+              "correct": true,
+              "response": "Muy bien. ¿Y para tomar?",
+              "responseTranslation": {
+                "en": "Very good. And to drink?",
+                "vi": "Được ạ. Còn đồ uống?"
+              },
+              "next": "drink"
+            },
+            {
+              "id": "recommend",
+              "es": "¿Qué me recomienda?",
+              "translation": {
+                "en": "What do you recommend?",
+                "vi": "Bạn gợi ý món gì?"
+              },
+              "correct": true,
+              "response": "El pollo está delicioso. ¿Y para tomar?",
+              "responseTranslation": {
+                "en": "The chicken is delicious. And to drink?",
+                "vi": "Món gà rất ngon. Còn đồ uống?"
+              },
+              "next": "drink"
+            },
+            {
+              "id": "bill",
+              "es": "La cuenta, por favor.",
+              "translation": {
+                "en": "The check, please.",
+                "vi": "Cho tôi tính tiền."
+              },
+              "correct": false,
+              "correction": "Quiero el pollo con arroz.",
+              "response": "¡Pero todavía no come! ¿Qué quiere?",
+              "responseTranslation": {
+                "en": "But you haven't eaten yet! What would you like?",
+                "vi": "Nhưng bạn chưa ăn mà! Bạn muốn gì?"
+              },
+              "next": "drink"
+            }
+          ]
+        },
+        {
+          "id": "drink",
+          "prompt": "¿Algo para tomar?",
+          "translation": {
+            "en": "Anything to drink?",
+            "vi": "Bạn uống gì không?"
+          },
+          "hint": {
+            "en": "Name a drink and add “por favor”.",
+            "vi": "Nói tên đồ uống và thêm “por favor”."
+          },
+          "choices": [
+            {
+              "id": "juice",
+              "es": "Un jugo de naranja, por favor.",
+              "translation": {
+                "en": "An orange juice, please.",
+                "vi": "Cho tôi một ly nước cam."
+              },
+              "correct": true,
+              "response": "Claro, ahora se lo traigo.",
+              "responseTranslation": {
+                "en": "Sure, I'll bring it now.",
+                "vi": "Vâng, tôi mang ra ngay."
+              },
+              "next": "pay"
+            },
+            {
+              "id": "water",
+              "es": "Agua, por favor.",
+              "translation": {
+                "en": "Water, please.",
+                "vi": "Cho tôi nước lọc."
+              },
+              "correct": true,
+              "response": "Muy bien.",
+              "responseTranslation": {
+                "en": "Very good.",
+                "vi": "Được ạ."
+              },
+              "next": "pay"
+            },
+            {
+              "id": "bread",
+              "es": "El pan.",
+              "translation": {
+                "en": "The bread.",
+                "vi": "Bánh mì."
+              },
+              "correct": false,
+              "correction": "Agua, por favor.",
+              "response": "El pan viene con la comida. ¿Para tomar?",
+              "responseTranslation": {
+                "en": "Bread comes with the meal. To drink?",
+                "vi": "Bánh mì có kèm món rồi. Còn đồ uống?"
+              },
+              "next": "pay"
+            }
+          ]
+        },
+        {
+          "id": "pay",
+          "prompt": "¿Le gustó la comida?",
+          "translation": {
+            "en": "Did you like the food?",
+            "vi": "Bạn thấy món ăn thế nào?"
+          },
+          "hint": {
+            "en": "Compliment the food, then ask for the check.",
+            "vi": "Khen món ăn, rồi xin tính tiền."
+          },
+          "choices": [
+            {
+              "id": "delicious",
+              "es": "Sí, está delicioso. La cuenta, por favor.",
+              "translation": {
+                "en": "Yes, it's delicious. The check, please.",
+                "vi": "Có, ngon lắm. Cho tôi tính tiền."
+              },
+              "correct": true,
+              "response": "Gracias. Aquí tiene.",
+              "responseTranslation": {
+                "en": "Thank you. Here you go.",
+                "vi": "Cảm ơn. Của bạn đây."
+              }
+            },
+            {
+              "id": "togo",
+              "es": "Sí. ¿Me lo pone para llevar?",
+              "translation": {
+                "en": "Yes. Could you pack it to go?",
+                "vi": "Có. Gói mang đi giúp tôi nhé?"
+              },
+              "correct": true,
+              "response": "Claro que sí.",
+              "responseTranslation": {
+                "en": "Of course.",
+                "vi": "Tất nhiên rồi."
+              }
+            },
+            {
+              "id": "spicy",
+              "es": "Sin picante.",
+              "translation": {
+                "en": "Not spicy.",
+                "vi": "Đừng cho cay."
+              },
+              "correct": false,
+              "correction": "Sí, está delicioso. La cuenta, por favor.",
+              "response": "Ya comió… ¿Le traigo la cuenta?",
+              "responseTranslation": {
+                "en": "You already ate… Shall I bring the check?",
+                "vi": "Bạn ăn xong rồi mà… Tôi mang hóa đơn nhé?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

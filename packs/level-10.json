@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "level-10",
+  "version": 1,
+  "level": 10,
+  "cefr": "B1",
+  "title": {
+    "en": "Intermediate 2: Past & opinions",
+    "vi": "Trung cấp 2: Quá khứ & ý kiến"
+  },
+  "description": {
+    "en": "Tell what you did and share what you think.",
+    "vi": "Kể bạn đã làm gì và chia sẻ suy nghĩ."
+  },
+  "lessons": [
+    {
+      "id": "past",
+      "title": {
+        "en": "Talking about the past",
+        "vi": "Nói về quá khứ"
+      },
+      "description": {
+        "en": "Simple past for weekend stories.",
+        "vi": "Thì quá khứ đơn để kể chuyện cuối tuần."
+      },
+      "icon": "rewind",
+      "phrases": [
+        {
+          "es": "Ayer fui al mercado.",
+          "en": "Yesterday I went to the market.",
+          "vi": "Hôm qua tôi đi chợ."
+        },
+        {
+          "es": "Comí tacos con mis amigos.",
+          "en": "I ate tacos with my friends.",
+          "vi": "Tôi ăn tacos với bạn bè."
+        },
+        {
+          "es": "Fue muy divertido.",
+          "en": "It was a lot of fun.",
+          "vi": "Rất vui."
+        },
+        {
+          "es": "Vi una película.",
+          "en": "I watched a movie.",
+          "vi": "Tôi đã xem một bộ phim."
+        },
+        {
+          "es": "Viví en México dos años.",
+          "en": "I lived in Mexico for two years.",
+          "vi": "Tôi đã sống ở Mexico hai năm."
+        },
+        {
+          "es": "No hice nada.",
+          "en": "I didn't do anything.",
+          "vi": "Tôi không làm gì cả."
+        }
+      ]
+    },
+    {
+      "id": "opinions",
+      "title": {
+        "en": "Giving opinions",
+        "vi": "Nêu ý kiến"
+      },
+      "description": {
+        "en": "Agree, disagree, and say what you like.",
+        "vi": "Đồng ý, phản đối và nói điều bạn thích."
+      },
+      "icon": "message-square",
+      "phrases": [
+        {
+          "es": "Creo que sí.",
+          "en": "I think so.",
+          "vi": "Tôi nghĩ là có."
+        },
+        {
+          "es": "No estoy de acuerdo.",
+          "en": "I don't agree.",
+          "vi": "Tôi không đồng ý."
+        },
+        {
+          "es": "Me encanta.",
+          "en": "I love it.",
+          "vi": "Tôi rất thích."
+        },
+        {
+          "es": "No me gusta mucho.",
+          "en": "I don't like it much.",
+          "vi": "Tôi không thích lắm."
+        },
+        {
+          "es": "En mi opinión, es caro.",
+          "en": "In my opinion, it's expensive.",
+          "vi": "Theo tôi thì nó đắt."
+        },
+        {
+          "es": "Tienes razón.",
+          "en": "You're right.",
+          "vi": "Bạn nói đúng."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "weekend",
+      "title": {
+        "en": "Weekend recap",
+        "vi": "Kể chuyện cuối tuần"
+      },
+      "description": {
+        "en": "Share what you did and what you thought.",
+        "vi": "Kể bạn đã làm gì và cảm nhận thế nào."
+      },
+      "icon": "compass",
+      "duration": "3 min",
+      "start": "did",
+      "nodes": [
+        {
+          "id": "did",
+          "prompt": "¿Qué hiciste el fin de semana?",
+          "translation": {
+            "en": "What did you do on the weekend?",
+            "vi": "Cuối tuần bạn làm gì?"
+          },
+          "hint": {
+            "en": "Use the past: “fui”, “comí”, “vi”.",
+            "vi": "Dùng thì quá khứ: “fui”, “comí”, “vi”."
+          },
+          "choices": [
+            {
+              "id": "market",
+              "es": "Fui al mercado y comí tacos.",
+              "translation": {
+                "en": "I went to the market and ate tacos.",
+                "vi": "Mình đi chợ và ăn tacos."
+              },
+              "correct": true,
+              "response": "¡Qué rico! ¿Te gustaron?",
+              "responseTranslation": {
+                "en": "Yum! Did you like them?",
+                "vi": "Ngon thế! Bạn có thích không?"
+              },
+              "next": "opinion"
+            },
+            {
+              "id": "movie",
+              "es": "Vi una película nueva.",
+              "translation": {
+                "en": "I watched a new movie.",
+                "vi": "Mình xem một bộ phim mới."
+              },
+              "correct": true,
+              "response": "¿Ah, sí? ¿Te gustó?",
+              "responseTranslation": {
+                "en": "Oh yeah? Did you like it?",
+                "vi": "Thế à? Bạn có thích không?"
+              },
+              "next": "opinion"
+            },
+            {
+              "id": "present",
+              "es": "Voy al mercado.",
+              "translation": {
+                "en": "I'm going to the market.",
+                "vi": "Mình đang đi chợ."
+              },
+              "correct": false,
+              "correction": "Fui al mercado y comí tacos.",
+              "response": "¿Ahora? Te pregunto por el fin de semana pasado.",
+              "responseTranslation": {
+                "en": "Now? I'm asking about last weekend.",
+                "vi": "Bây giờ á? Mình hỏi cuối tuần trước mà."
+              },
+              "next": "opinion"
+            }
+          ]
+        },
+        {
+          "id": "opinion",
+          "prompt": "¿Y qué te pareció?",
+          "translation": {
+            "en": "And what did you think?",
+            "vi": "Bạn thấy thế nào?"
+          },
+          "hint": {
+            "en": "Give an opinion: “Me encantó…”, “No me gustó…”.",
+            "vi": "Nêu ý kiến: “Me encantó…”, “No me gustó…”."
+          },
+          "choices": [
+            {
+              "id": "loved",
+              "es": "Me encantó. Fue muy divertido.",
+              "translation": {
+                "en": "I loved it. It was a lot of fun.",
+                "vi": "Mình rất thích. Vui lắm."
+              },
+              "correct": true,
+              "response": "¡Qué bueno! Yo quiero ir también.",
+              "responseTranslation": {
+                "en": "Great! I want to go too.",
+                "vi": "Hay quá! Mình cũng muốn đi."
+              },
+              "next": "plan"
+            },
+            {
+              "id": "notmuch",
+              "es": "No me gustó mucho, en mi opinión fue caro.",
+              "translation": {
+                "en": "I didn't like it much; I think it was expensive.",
+                "vi": "Mình không thích lắm, theo mình thì đắt."
+              },
+              "correct": true,
+              "response": "Entiendo. A veces es caro.",
+              "responseTranslation": {
+                "en": "I get it. Sometimes it's expensive.",
+                "vi": "Mình hiểu. Đôi khi nó đắt thật."
+              },
+              "next": "plan"
+            },
+            {
+              "id": "agree",
+              "es": "Tienes razón.",
+              "translation": {
+                "en": "You're right.",
+                "vi": "Bạn nói đúng."
+              },
+              "correct": false,
+              "correction": "Me encantó. Fue muy divertido.",
+              "response": "¿Razón de qué? Cuéntame, ¿te gustó?",
+              "responseTranslation": {
+                "en": "Right about what? Tell me, did you like it?",
+                "vi": "Đúng về chuyện gì? Kể đi, bạn có thích không?"
+              },
+              "next": "plan"
+            }
+          ]
+        },
+        {
+          "id": "plan",
+          "prompt": "¿Vamos juntos el próximo sábado?",
+          "translation": {
+            "en": "Shall we go together next Saturday?",
+            "vi": "Thứ Bảy tới mình đi cùng nhé?"
+          },
+          "hint": {
+            "en": "Agree or suggest something else.",
+            "vi": "Đồng ý hoặc đề xuất việc khác."
+          },
+          "choices": [
+            {
+              "id": "yes",
+              "es": "¡Claro! Creo que va a ser genial.",
+              "translation": {
+                "en": "Sure! I think it'll be great.",
+                "vi": "Được chứ! Mình nghĩ sẽ rất vui."
+              },
+              "correct": true,
+              "response": "¡Perfecto! Nos vemos el sábado.",
+              "responseTranslation": {
+                "en": "Perfect! See you Saturday.",
+                "vi": "Tuyệt! Hẹn thứ Bảy nhé."
+              }
+            },
+            {
+              "id": "other",
+              "es": "No estoy seguro. ¿Y si vamos al cine?",
+              "translation": {
+                "en": "I'm not sure. What if we go to the movies?",
+                "vi": "Mình chưa chắc. Hay mình đi xem phim?"
+              },
+              "correct": true,
+              "response": "¡Buena idea! El cine entonces.",
+              "responseTranslation": {
+                "en": "Good idea! The movies then.",
+                "vi": "Ý hay! Vậy đi xem phim."
+              }
+            },
+            {
+              "id": "nothing",
+              "es": "No hice nada.",
+              "translation": {
+                "en": "I didn't do anything.",
+                "vi": "Mình chẳng làm gì cả."
+              },
+              "correct": false,
+              "correction": "¡Claro! Creo que va a ser genial.",
+              "response": "Jaja, eso fue el pasado. ¿Vamos el sábado?",
+              "responseTranslation": {
+                "en": "Haha, that was the past. Shall we go Saturday?",
+                "vi": "Haha, đó là chuyện cũ rồi. Thứ Bảy đi nhé?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

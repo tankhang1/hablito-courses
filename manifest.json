@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-08",
+  "packs": [
+    {
+      "id": "level-01",
+      "version": 1,
+      "level": 1,
+      "cefr": "A1",
+      "title": {
+        "en": "Starter 1: First words",
+        "vi": "Khởi đầu 1: Những từ đầu tiên"
+      },
+      "description": {
+        "en": "Tiny everyday words and how you feel.",
+        "vi": "Những từ nhỏ hằng ngày và cảm xúc của bạn."
+      },
+      "file": "packs/level-01.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-02",
+      "version": 1,
+      "level": 2,
+      "cefr": "A1",
+      "title": {
+        "en": "Starter 2: Time & days",
+        "vi": "Khởi đầu 2: Thời gian & ngày"
+      },
+      "description": {
+        "en": "Days of the week and telling the time.",
+        "vi": "Các ngày trong tuần và cách nói giờ."
+      },
+      "file": "packs/level-02.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-03",
+      "version": 1,
+      "level": 3,
+      "cefr": "A1",
+      "title": {
+        "en": "Beginner 1: Food & drinks",
+        "vi": "Sơ cấp 1: Đồ ăn & đồ uống"
+      },
+      "description": {
+        "en": "Common foods and how to order them.",
+        "vi": "Món ăn phổ biến và cách gọi món."
+      },
+      "file": "packs/level-03.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-04",
+      "version": 1,
+      "level": 4,
+      "cefr": "A1",
+      "title": {
+        "en": "Beginner 2: Shopping & money",
+        "vi": "Sơ cấp 2: Mua sắm & tiền bạc"
+      },
+      "description": {
+        "en": "Colors, clothes, prices, and paying.",
+        "vi": "Màu sắc, quần áo, giá cả và thanh toán."
+      },
+      "file": "packs/level-04.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-05",
+      "version": 1,
+      "level": 5,
+      "cefr": "A2",
+      "title": {
+        "en": "Elementary 1: Getting around",
+        "vi": "Sơ trung 1: Đi lại trong thành phố"
+      },
+      "description": {
+        "en": "Places in town and simple directions.",
+        "vi": "Địa điểm trong thành phố và chỉ đường đơn giản."
+      },
+      "file": "packs/level-05.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-06",
+      "version": 1,
+      "level": 6,
+      "cefr": "A2",
+      "title": {
+        "en": "Elementary 2: Home & family",
+        "vi": "Sơ trung 2: Nhà cửa & gia đình"
+      },
+      "description": {
+        "en": "Talk about your family and your home.",
+        "vi": "Nói về gia đình và nhà của bạn."
+      },
+      "file": "packs/level-06.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-07",
+      "version": 1,
+      "level": 7,
+      "cefr": "A2",
+      "title": {
+        "en": "Pre-intermediate 1: Health & emergencies",
+        "vi": "Tiền trung cấp 1: Sức khỏe & khẩn cấp"
+      },
+      "description": {
+        "en": "Describe pain and get help fast.",
+        "vi": "Mô tả cơn đau và nhờ giúp đỡ nhanh."
+      },
+      "file": "packs/level-07.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 9
+    },
+    {
+      "id": "level-08",
+      "version": 1,
+      "level": 8,
+      "cefr": "A2",
+      "title": {
+        "en": "Pre-intermediate 2: Work & study",
+        "vi": "Tiền trung cấp 2: Công việc & học tập"
+      },
+      "description": {
+        "en": "Jobs, schedules, and small talk at work.",
+        "vi": "Nghề nghiệp, lịch làm việc và trò chuyện nơi công sở."
+      },
+      "file": "packs/level-08.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    },
+    {
+      "id": "level-09",
+      "version": 1,
+      "level": 9,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 1: Travel problems",
+        "vi": "Trung cấp 1: Sự cố khi du lịch"
+      },
+      "description": {
+        "en": "Solve problems at the hotel and on the road.",
+        "vi": "Xử lý sự cố ở khách sạn và trên đường."
+      },
+      "file": "packs/level-09.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    },
+    {
+      "id": "level-10",
+      "version": 1,
+      "level": 10,
+      "cefr": "B1",
+      "title": {
+        "en": "Intermediate 2: Past & opinions",
+        "vi": "Trung cấp 2: Quá khứ & ý kiến"
+      },
+      "description": {
+        "en": "Tell what you did and share what you think.",
+        "vi": "Kể bạn đã làm gì và chia sẻ suy nghĩ."
+      },
+      "file": "packs/level-10.json",
+      "lessonCount": 2,
+      "conversationCount": 1,
+      "phraseCount": 12,
+      "sizeKb": 10
+    }
+  ]
+}

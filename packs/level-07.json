@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "level-07",
+  "version": 1,
+  "level": 7,
+  "cefr": "A2",
+  "title": {
+    "en": "Pre-intermediate 1: Health & emergencies",
+    "vi": "Tiền trung cấp 1: Sức khỏe & khẩn cấp"
+  },
+  "description": {
+    "en": "Describe pain and get help fast.",
+    "vi": "Mô tả cơn đau và nhờ giúp đỡ nhanh."
+  },
+  "lessons": [
+    {
+      "id": "pain",
+      "title": {
+        "en": "Body & pain",
+        "vi": "Cơ thể & cơn đau"
+      },
+      "description": {
+        "en": "Tell a doctor what hurts.",
+        "vi": "Nói với bác sĩ chỗ nào đau."
+      },
+      "icon": "activity",
+      "phrases": [
+        {
+          "es": "Me duele la cabeza.",
+          "en": "My head hurts.",
+          "vi": "Tôi đau đầu."
+        },
+        {
+          "es": "Me duele el estómago.",
+          "en": "My stomach hurts.",
+          "vi": "Tôi đau bụng."
+        },
+        {
+          "es": "Me duele la garganta.",
+          "en": "My throat hurts.",
+          "vi": "Tôi đau họng."
+        },
+        {
+          "es": "Tengo fiebre.",
+          "en": "I have a fever.",
+          "vi": "Tôi bị sốt."
+        },
+        {
+          "es": "Tengo tos.",
+          "en": "I have a cough.",
+          "vi": "Tôi bị ho."
+        },
+        {
+          "es": "Estoy mareado.",
+          "en": "I feel dizzy.",
+          "vi": "Tôi chóng mặt.",
+          "note": {
+            "en": "Women say “mareada”.",
+            "vi": "Nữ nói “mareada”."
+          }
+        }
+      ]
+    },
+    {
+      "id": "help",
+      "title": {
+        "en": "Getting help",
+        "vi": "Nhờ giúp đỡ"
+      },
+      "description": {
+        "en": "Phrases for urgent moments.",
+        "vi": "Những câu cho lúc khẩn cấp."
+      },
+      "icon": "alert-triangle",
+      "phrases": [
+        {
+          "es": "¡Ayuda!",
+          "en": "Help!",
+          "vi": "Cứu với!"
+        },
+        {
+          "es": "Llame a una ambulancia.",
+          "en": "Call an ambulance.",
+          "vi": "Gọi xe cứu thương giúp tôi."
+        },
+        {
+          "es": "Necesito un médico.",
+          "en": "I need a doctor.",
+          "vi": "Tôi cần bác sĩ."
+        },
+        {
+          "es": "¿Dónde está el hospital?",
+          "en": "Where is the hospital?",
+          "vi": "Bệnh viện ở đâu?"
+        },
+        {
+          "es": "Soy alérgico a la penicilina.",
+          "en": "I'm allergic to penicillin.",
+          "vi": "Tôi dị ứng với penicillin."
+        },
+        {
+          "es": "Es urgente.",
+          "en": "It's urgent.",
+          "vi": "Việc này khẩn cấp."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "doctor",
+      "title": {
+        "en": "At the doctor",
+        "vi": "Đi khám bác sĩ"
+      },
+      "description": {
+        "en": "Explain your symptoms and allergies.",
+        "vi": "Trình bày triệu chứng và dị ứng."
+      },
+      "icon": "heart",
+      "duration": "3 min",
+      "start": "what",
+      "nodes": [
+        {
+          "id": "what",
+          "prompt": "¿Qué le pasa?",
+          "translation": {
+            "en": "What's wrong?",
+            "vi": "Bạn bị sao vậy?"
+          },
+          "hint": {
+            "en": "Use “Me duele…” or “Tengo…”.",
+            "vi": "Dùng “Me duele…” hoặc “Tengo…”."
+          },
+          "choices": [
+            {
+              "id": "throat",
+              "es": "Me duele la garganta y tengo tos.",
+              "translation": {
+                "en": "My throat hurts and I have a cough.",
+                "vi": "Tôi đau họng và bị ho."
+              },
+              "correct": true,
+              "response": "¿Desde cuándo?",
+              "responseTranslation": {
+                "en": "Since when?",
+                "vi": "Từ khi nào?"
+              },
+              "next": "since"
+            },
+            {
+              "id": "fever",
+              "es": "Tengo fiebre y estoy mareado.",
+              "translation": {
+                "en": "I have a fever and feel dizzy.",
+                "vi": "Tôi bị sốt và chóng mặt."
+              },
+              "correct": true,
+              "response": "Entiendo. ¿Desde cuándo?",
+              "responseTranslation": {
+                "en": "I see. Since when?",
+                "vi": "Tôi hiểu. Từ khi nào?"
+              },
+              "next": "since"
+            },
+            {
+              "id": "bank",
+              "es": "¿Dónde está el banco?",
+              "translation": {
+                "en": "Where is the bank?",
+                "vi": "Ngân hàng ở đâu?"
+              },
+              "correct": false,
+              "correction": "Me duele la garganta y tengo tos.",
+              "response": "Esto es una clínica. ¿Qué le duele?",
+              "responseTranslation": {
+                "en": "This is a clinic. What hurts?",
+                "vi": "Đây là phòng khám. Bạn đau ở đâu?"
+              },
+              "next": "since"
+            }
+          ]
+        },
+        {
+          "id": "since",
+          "prompt": "¿Desde cuándo se siente así?",
+          "translation": {
+            "en": "How long have you felt like this?",
+            "vi": "Bạn bị thế này bao lâu rồi?"
+          },
+          "hint": {
+            "en": "“Desde ayer” means “since yesterday”.",
+            "vi": "“Desde ayer” nghĩa là “từ hôm qua”."
+          },
+          "choices": [
+            {
+              "id": "yesterday",
+              "es": "Desde ayer por la noche.",
+              "translation": {
+                "en": "Since last night.",
+                "vi": "Từ tối hôm qua."
+              },
+              "correct": true,
+              "response": "Bien. ¿Es alérgico a algún medicamento?",
+              "responseTranslation": {
+                "en": "OK. Are you allergic to any medicine?",
+                "vi": "Được. Bạn có dị ứng thuốc nào không?"
+              },
+              "next": "allergy"
+            },
+            {
+              "id": "days",
+              "es": "Desde hace dos días.",
+              "translation": {
+                "en": "For two days.",
+                "vi": "Hai ngày nay rồi."
+              },
+              "correct": true,
+              "response": "Bien. ¿Es alérgico a algún medicamento?",
+              "responseTranslation": {
+                "en": "OK. Are you allergic to any medicine?",
+                "vi": "Được. Bạn có dị ứng thuốc nào không?"
+              },
+              "next": "allergy"
+            },
+            {
+              "id": "help",
+              "es": "¡Ayuda!",
+              "translation": {
+                "en": "Help!",
+                "vi": "Cứu với!"
+              },
+              "correct": false,
+              "correction": "Desde ayer por la noche.",
+              "response": "Tranquilo, está en buenas manos. ¿Desde cuándo?",
+              "responseTranslation": {
+                "en": "Relax, you're in good hands. Since when?",
+                "vi": "Bình tĩnh, bạn đang được chăm sóc. Từ khi nào?"
+              },
+              "next": "allergy"
+            }
+          ]
+        },
+        {
+          "id": "allergy",
+          "prompt": "¿Es alérgico a algún medicamento?",
+          "translation": {
+            "en": "Are you allergic to any medicine?",
+            "vi": "Bạn có dị ứng thuốc nào không?"
+          },
+          "hint": {
+            "en": "Say “Soy alérgico a…” or “No”.",
+            "vi": "Nói “Soy alérgico a…” hoặc “No”."
+          },
+          "choices": [
+            {
+              "id": "pen",
+              "es": "Sí, soy alérgico a la penicilina.",
+              "translation": {
+                "en": "Yes, I'm allergic to penicillin.",
+                "vi": "Có, tôi dị ứng penicillin."
+              },
+              "correct": true,
+              "response": "Gracias. Le doy otro medicamento.",
+              "responseTranslation": {
+                "en": "Thanks. I'll give you a different medicine.",
+                "vi": "Cảm ơn. Tôi sẽ cho bạn thuốc khác."
+              }
+            },
+            {
+              "id": "none",
+              "es": "No, a ninguno.",
+              "translation": {
+                "en": "No, none.",
+                "vi": "Không, không có."
+              },
+              "correct": true,
+              "response": "Muy bien. Tome esto cada ocho horas.",
+              "responseTranslation": {
+                "en": "Very good. Take this every eight hours.",
+                "vi": "Được. Uống thuốc này mỗi tám tiếng."
+              }
+            },
+            {
+              "id": "urgent",
+              "es": "Es urgente.",
+              "translation": {
+                "en": "It's urgent.",
+                "vi": "Khẩn cấp lắm."
+              },
+              "correct": false,
+              "correction": "No, a ninguno.",
+              "response": "Ya lo estoy atendiendo. ¿Alergias?",
+              "responseTranslation": {
+                "en": "I'm already treating you. Allergies?",
+                "vi": "Tôi đang khám cho bạn rồi. Có dị ứng không?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

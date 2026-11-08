@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "level-02",
+  "version": 1,
+  "level": 2,
+  "cefr": "A1",
+  "title": {
+    "en": "Starter 2: Time & days",
+    "vi": "Khởi đầu 2: Thời gian & ngày"
+  },
+  "description": {
+    "en": "Days of the week and telling the time.",
+    "vi": "Các ngày trong tuần và cách nói giờ."
+  },
+  "lessons": [
+    {
+      "id": "days",
+      "title": {
+        "en": "Days of the week",
+        "vi": "Các ngày trong tuần"
+      },
+      "description": {
+        "en": "Plan your week in Spanish.",
+        "vi": "Lên kế hoạch tuần bằng tiếng Tây Ban Nha."
+      },
+      "icon": "calendar",
+      "phrases": [
+        {
+          "es": "el lunes",
+          "en": "Monday",
+          "vi": "Thứ Hai"
+        },
+        {
+          "es": "el martes",
+          "en": "Tuesday",
+          "vi": "Thứ Ba"
+        },
+        {
+          "es": "el miércoles",
+          "en": "Wednesday",
+          "vi": "Thứ Tư"
+        },
+        {
+          "es": "el viernes",
+          "en": "Friday",
+          "vi": "Thứ Sáu"
+        },
+        {
+          "es": "el fin de semana",
+          "en": "the weekend",
+          "vi": "cuối tuần"
+        },
+        {
+          "es": "hoy y mañana",
+          "en": "today and tomorrow",
+          "vi": "hôm nay và ngày mai"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title": {
+        "en": "Telling the time",
+        "vi": "Nói giờ"
+      },
+      "description": {
+        "en": "Ask and say what time it is.",
+        "vi": "Hỏi và nói bây giờ là mấy giờ."
+      },
+      "icon": "clock",
+      "phrases": [
+        {
+          "es": "¿Qué hora es?",
+          "en": "What time is it?",
+          "vi": "Mấy giờ rồi?"
+        },
+        {
+          "es": "Es la una.",
+          "en": "It's one o'clock.",
+          "vi": "Một giờ.",
+          "note": {
+            "en": "Only one o'clock uses “es la”.",
+            "vi": "Chỉ một giờ mới dùng “es la”."
+          }
+        },
+        {
+          "es": "Son las tres.",
+          "en": "It's three o'clock.",
+          "vi": "Ba giờ."
+        },
+        {
+          "es": "Son las cinco y media.",
+          "en": "It's half past five.",
+          "vi": "Năm giờ rưỡi."
+        },
+        {
+          "es": "por la mañana",
+          "en": "in the morning",
+          "vi": "vào buổi sáng"
+        },
+        {
+          "es": "por la noche",
+          "en": "at night",
+          "vi": "vào buổi tối"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "friday-plan",
+      "title": {
+        "en": "Make a plan for Friday",
+        "vi": "Hẹn nhau thứ Sáu"
+      },
+      "description": {
+        "en": "Agree on a day and a time.",
+        "vi": "Thống nhất ngày và giờ."
+      },
+      "icon": "map-pin",
+      "duration": "3 min",
+      "start": "day",
+      "nodes": [
+        {
+          "id": "day",
+          "prompt": "¿Quieres ir al cine?",
+          "translation": {
+            "en": "Do you want to go to the movies?",
+            "vi": "Bạn muốn đi xem phim không?"
+          },
+          "hint": {
+            "en": "Suggest a day with “el…”.",
+            "vi": "Đề xuất một ngày với “el…”."
+          },
+          "choices": [
+            {
+              "id": "friday",
+              "es": "Sí, ¿el viernes?",
+              "translation": {
+                "en": "Yes, on Friday?",
+                "vi": "Có, thứ Sáu nhé?"
+              },
+              "correct": true,
+              "response": "¡Perfecto! ¿A qué hora?",
+              "responseTranslation": {
+                "en": "Perfect! What time?",
+                "vi": "Tuyệt! Mấy giờ?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "weekend",
+              "es": "Sí, el fin de semana.",
+              "translation": {
+                "en": "Yes, on the weekend.",
+                "vi": "Có, cuối tuần nhé."
+              },
+              "correct": true,
+              "response": "Bien, el sábado. ¿A qué hora?",
+              "responseTranslation": {
+                "en": "Good, Saturday. What time?",
+                "vi": "Được, thứ Bảy. Mấy giờ?"
+              },
+              "next": "time"
+            },
+            {
+              "id": "tired",
+              "es": "Estoy cansado.",
+              "translation": {
+                "en": "I'm tired.",
+                "vi": "Mình mệt."
+              },
+              "correct": false,
+              "correction": "Sí, ¿el viernes?",
+              "response": "Entonces otro día. ¿El viernes? ¿A qué hora?",
+              "responseTranslation": {
+                "en": "Another day then. Friday? What time?",
+                "vi": "Vậy hôm khác. Thứ Sáu nhé? Mấy giờ?"
+              },
+              "next": "time"
+            }
+          ]
+        },
+        {
+          "id": "time",
+          "prompt": "¿A qué hora nos vemos?",
+          "translation": {
+            "en": "What time shall we meet?",
+            "vi": "Mấy giờ mình gặp nhau?"
+          },
+          "hint": {
+            "en": "Use “a las…” to give a time.",
+            "vi": "Dùng “a las…” để nói giờ."
+          },
+          "choices": [
+            {
+              "id": "seven",
+              "es": "A las siete de la noche.",
+              "translation": {
+                "en": "At seven in the evening.",
+                "vi": "Lúc bảy giờ tối."
+              },
+              "correct": true,
+              "response": "Muy bien, a las siete.",
+              "responseTranslation": {
+                "en": "Great, at seven.",
+                "vi": "Được, bảy giờ nhé."
+              },
+              "next": "confirm"
+            },
+            {
+              "id": "five",
+              "es": "A las cinco y media.",
+              "translation": {
+                "en": "At half past five.",
+                "vi": "Lúc năm giờ rưỡi."
+              },
+              "correct": true,
+              "response": "Perfecto, a las cinco y media.",
+              "responseTranslation": {
+                "en": "Perfect, at half past five.",
+                "vi": "Tuyệt, năm giờ rưỡi."
+              },
+              "next": "confirm"
+            },
+            {
+              "id": "monday",
+              "es": "El lunes.",
+              "translation": {
+                "en": "Monday.",
+                "vi": "Thứ Hai."
+              },
+              "correct": false,
+              "correction": "A las siete de la noche.",
+              "response": "No, la hora… ¿a las siete?",
+              "responseTranslation": {
+                "en": "No, the time… at seven?",
+                "vi": "Không, giờ cơ… bảy giờ nhé?"
+              },
+              "next": "confirm"
+            }
+          ]
+        },
+        {
+          "id": "confirm",
+          "prompt": "Entonces, nos vemos el viernes.",
+          "translation": {
+            "en": "So, see you on Friday.",
+            "vi": "Vậy hẹn gặp thứ Sáu nhé."
+          },
+          "hint": {
+            "en": "Close with “Nos vemos” or “Hasta…”.",
+            "vi": "Kết thúc bằng “Nos vemos” hoặc “Hasta…”."
+          },
+          "choices": [
+            {
+              "id": "see",
+              "es": "¡Sí, nos vemos!",
+              "translation": {
+                "en": "Yes, see you!",
+                "vi": "Ừ, hẹn gặp!"
+              },
+              "correct": true,
+              "response": "¡Chao!",
+              "responseTranslation": {
+                "en": "Bye!",
+                "vi": "Chào nhé!"
+              }
+            },
+            {
+              "id": "until",
+              "es": "¡Hasta el viernes!",
+              "translation": {
+                "en": "See you Friday!",
+                "vi": "Hẹn thứ Sáu!"
+              },
+              "correct": true,
+              "response": "¡Hasta el viernes!",
+              "responseTranslation": {
+                "en": "See you Friday!",
+                "vi": "Hẹn thứ Sáu!"
+              }
+            },
+            {
+              "id": "what",
+              "es": "¿Qué hora es?",
+              "translation": {
+                "en": "What time is it?",
+                "vi": "Mấy giờ rồi?"
+              },
+              "correct": false,
+              "correction": "¡Sí, nos vemos!",
+              "response": "Son las tres. ¡Nos vemos el viernes!",
+              "responseTranslation": {
+                "en": "It's three. See you Friday!",
+                "vi": "Ba giờ rồi. Hẹn thứ Sáu nhé!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
