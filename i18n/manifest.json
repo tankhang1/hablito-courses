@@ -7,7 +7,8 @@
       "name": "Vietnamese",
       "nativeName": "Tiếng Việt",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/vi.json",
+      "contentHash": "fbb62656384ee1c6",
+      "file": "vi.json",
       "stringCount": 1174,
       "sizeKb": 101
     },
@@ -16,7 +17,8 @@
       "name": "Portuguese (Brazil)",
       "nativeName": "Português (Brasil)",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/pt-BR.json",
+      "contentHash": "8e3a7e39562e67cf",
+      "file": "pt-BR.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -25,7 +27,8 @@
       "name": "French",
       "nativeName": "Français",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/fr.json",
+      "contentHash": "62200b2550e05785",
+      "file": "fr.json",
       "stringCount": 375,
       "sizeKb": 23
     },
@@ -34,7 +37,8 @@
       "name": "German",
       "nativeName": "Deutsch",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/de.json",
+      "contentHash": "12a4c7084ee5ad8a",
+      "file": "de.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -43,7 +47,8 @@
       "name": "Italian",
       "nativeName": "Italiano",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/it.json",
+      "contentHash": "d3c03380c2155e1f",
+      "file": "it.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -52,7 +57,8 @@
       "name": "Japanese",
       "nativeName": "日本語",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/ja.json",
+      "contentHash": "93e77238206ac4e0",
+      "file": "ja.json",
       "stringCount": 375,
       "sizeKb": 24
     },
@@ -61,7 +67,8 @@
       "name": "Chinese (Simplified)",
       "nativeName": "简体中文",
       "version": 2,
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/zh-Hans.json",
+      "contentHash": "15b9ea12f834a302",
+      "file": "zh-Hans.json",
       "stringCount": 375,
       "sizeKb": 21
     }

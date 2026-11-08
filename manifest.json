@@ -5,6 +5,7 @@
     {
       "id": "level-01",
       "version": 2,
+      "contentHash": "83b648c3baeb5ad1",
       "level": 1,
       "cefr": "A1",
       "title": {
@@ -15,7 +16,7 @@
         "en": "Tiny everyday words and how you feel.",
         "vi": "Những từ nhỏ hằng ngày và cảm xúc của bạn."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-01.json",
+      "file": "packs/level-01.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -24,6 +25,7 @@
     {
       "id": "level-02",
       "version": 2,
+      "contentHash": "9d9f075e92e4f8c0",
       "level": 2,
       "cefr": "A1",
       "title": {
@@ -34,7 +36,7 @@
         "en": "Days of the week and telling the time.",
         "vi": "Các ngày trong tuần và cách nói giờ."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-02.json",
+      "file": "packs/level-02.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -43,6 +45,7 @@
     {
       "id": "level-03",
       "version": 2,
+      "contentHash": "afb466974550067f",
       "level": 3,
       "cefr": "A1",
       "title": {
@@ -53,7 +56,7 @@
         "en": "Common foods and how to order them.",
         "vi": "Món ăn phổ biến và cách gọi món."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-03.json",
+      "file": "packs/level-03.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -62,6 +65,7 @@
     {
       "id": "level-04",
       "version": 2,
+      "contentHash": "d285dc4a4eb3d518",
       "level": 4,
       "cefr": "A1",
       "title": {
@@ -72,7 +76,7 @@
         "en": "Colors, clothes, prices, and paying.",
         "vi": "Màu sắc, quần áo, giá cả và thanh toán."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-04.json",
+      "file": "packs/level-04.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -81,6 +85,7 @@
     {
       "id": "level-05",
       "version": 2,
+      "contentHash": "4360d1d9d5ca3b31",
       "level": 5,
       "cefr": "A2",
       "title": {
@@ -91,7 +96,7 @@
         "en": "Places in town and simple directions.",
         "vi": "Địa điểm trong thành phố và chỉ đường đơn giản."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-05.json",
+      "file": "packs/level-05.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -100,6 +105,7 @@
     {
       "id": "level-06",
       "version": 2,
+      "contentHash": "0755f0d385009ad7",
       "level": 6,
       "cefr": "A2",
       "title": {
@@ -110,7 +116,7 @@
         "en": "Talk about your family and your home.",
         "vi": "Nói về gia đình và nhà của bạn."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-06.json",
+      "file": "packs/level-06.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -119,6 +125,7 @@
     {
       "id": "level-07",
       "version": 2,
+      "contentHash": "49e144df66d5131a",
       "level": 7,
       "cefr": "A2",
       "title": {
@@ -129,7 +136,7 @@
         "en": "Describe pain and get help fast.",
         "vi": "Mô tả cơn đau và nhờ giúp đỡ nhanh."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-07.json",
+      "file": "packs/level-07.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -138,6 +145,7 @@
     {
       "id": "level-08",
       "version": 2,
+      "contentHash": "30d4bbe5de2fe5a7",
       "level": 8,
       "cefr": "A2",
       "title": {
@@ -148,7 +156,7 @@
         "en": "Jobs, schedules, and small talk at work.",
         "vi": "Nghề nghiệp, lịch làm việc và trò chuyện nơi công sở."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-08.json",
+      "file": "packs/level-08.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -157,6 +165,7 @@
     {
       "id": "level-09",
       "version": 2,
+      "contentHash": "31d47f622fcc020e",
       "level": 9,
       "cefr": "B1",
       "title": {
@@ -167,7 +176,7 @@
         "en": "Solve problems at the hotel and on the road.",
         "vi": "Xử lý sự cố ở khách sạn và trên đường."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-09.json",
+      "file": "packs/level-09.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -176,6 +185,7 @@
     {
       "id": "level-10",
       "version": 2,
+      "contentHash": "c8bfcebe268271c7",
       "level": 10,
       "cefr": "B1",
       "title": {
@@ -186,7 +196,7 @@
         "en": "Tell what you did and share what you think.",
         "vi": "Kể bạn đã làm gì và chia sẻ suy nghĩ."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-10.json",
+      "file": "packs/level-10.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -195,6 +205,7 @@
     {
       "id": "level-11",
       "version": 1,
+      "contentHash": "6580b5f3a7604fbc",
       "level": 11,
       "cefr": "B1",
       "title": {
@@ -205,7 +216,7 @@
         "en": "Talk about plans, intentions, and predictions.",
         "vi": "Nói về kế hoạch, dự định và dự đoán."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-11.json",
+      "file": "packs/level-11.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -214,6 +225,7 @@
     {
       "id": "level-12",
       "version": 1,
+      "contentHash": "b95637612ac2156a",
       "level": 12,
       "cefr": "B1",
       "title": {
@@ -224,7 +236,7 @@
         "en": "Describe looks, personality, and places.",
         "vi": "Miêu tả ngoại hình, tính cách và nơi chốn."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-12.json",
+      "file": "packs/level-12.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -233,6 +245,7 @@
     {
       "id": "level-13",
       "version": 1,
+      "contentHash": "1a93d3a3b006f75b",
       "level": 13,
       "cefr": "B1",
       "title": {
@@ -243,7 +256,7 @@
         "en": "Tell what life used to be like.",
         "vi": "Kể cuộc sống ngày xưa như thế nào."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-13.json",
+      "file": "packs/level-13.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -252,6 +265,7 @@
     {
       "id": "level-14",
       "version": 1,
+      "contentHash": "ce4fa491a9cab514",
       "level": 14,
       "cefr": "B1",
       "title": {
@@ -262,7 +276,7 @@
         "en": "Handle phone calls and book appointments politely.",
         "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-14.json",
+      "file": "packs/level-14.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -271,6 +285,7 @@
     {
       "id": "level-15",
       "version": 1,
+      "contentHash": "2d05e96b5db30333",
       "level": 15,
       "cefr": "B1",
       "title": {
@@ -281,7 +296,7 @@
         "en": "Rent a place, report problems, and get things fixed.",
         "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-15.json",
+      "file": "packs/level-15.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -290,6 +305,7 @@
     {
       "id": "level-16",
       "version": 1,
+      "contentHash": "62fca118c68ecd6f",
       "level": 16,
       "cefr": "B1",
       "title": {
@@ -300,7 +316,7 @@
         "en": "Express emotions and react to others' news.",
         "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-16.json",
+      "file": "packs/level-16.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -309,6 +325,7 @@
     {
       "id": "level-17",
       "version": 1,
+      "contentHash": "e37d18ddb1767498",
       "level": 17,
       "cefr": "B2",
       "title": {
@@ -319,7 +336,7 @@
         "en": "Give and ask for advice naturally.",
         "vi": "Đưa và xin lời khuyên một cách tự nhiên."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-17.json",
+      "file": "packs/level-17.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -328,6 +345,7 @@
     {
       "id": "level-18",
       "version": 1,
+      "contentHash": "193452874e6d1810",
       "level": 18,
       "cefr": "B2",
       "title": {
@@ -338,7 +356,7 @@
         "en": "Talk about your experience and strengths.",
         "vi": "Nói về kinh nghiệm và điểm mạnh của bạn."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-18.json",
+      "file": "packs/level-18.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -347,6 +365,7 @@
     {
       "id": "level-19",
       "version": 1,
+      "contentHash": "8c66bebe8d2c546a",
       "level": 19,
       "cefr": "B2",
       "title": {
@@ -357,7 +376,7 @@
         "en": "Complain politely and reach a fair deal.",
         "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-19.json",
+      "file": "packs/level-19.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -366,6 +385,7 @@
     {
       "id": "level-20",
       "version": 1,
+      "contentHash": "8d0741766cb806b8",
       "level": 20,
       "cefr": "B2",
       "title": {
@@ -376,7 +396,7 @@
         "en": "Imagine, wish, and talk about hypotheticals.",
         "vi": "Tưởng tượng, ước muốn và nói về giả định."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-20.json",
+      "file": "packs/level-20.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -385,6 +405,7 @@
     {
       "id": "level-21",
       "version": 1,
+      "contentHash": "5308974657e262f2",
       "level": 21,
       "cefr": "B2",
       "title": {
@@ -395,7 +416,7 @@
         "en": "Report what others said and discuss the news.",
         "vi": "Thuật lại lời người khác và bàn luận tin tức."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-21.json",
+      "file": "packs/level-21.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -404,6 +425,7 @@
     {
       "id": "level-22",
       "version": 1,
+      "contentHash": "8362fcfc6b823ec5",
       "level": 22,
       "cefr": "B2",
       "title": {
@@ -414,7 +436,7 @@
         "en": "Celebrations, food culture, and customs.",
         "vi": "Lễ hội, ẩm thực và phong tục."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-22.json",
+      "file": "packs/level-22.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -423,6 +445,7 @@
     {
       "id": "level-23",
       "version": 1,
+      "contentHash": "58acd96ef8558728",
       "level": 23,
       "cefr": "B2",
       "title": {
@@ -433,7 +456,7 @@
         "en": "Agree, disagree, and link your ideas.",
         "vi": "Đồng ý, phản đối và liên kết ý tưởng."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-23.json",
+      "file": "packs/level-23.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -442,6 +465,7 @@
     {
       "id": "level-24",
       "version": 1,
+      "contentHash": "2f2f5f3e036cfada",
       "level": 24,
       "cefr": "B2",
       "title": {
@@ -452,7 +476,7 @@
         "en": "Tell vivid stories with the right past tenses.",
         "vi": "Kể chuyện sinh động với đúng thì quá khứ."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-24.json",
+      "file": "packs/level-24.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -461,6 +485,7 @@
     {
       "id": "level-25",
       "version": 1,
+      "contentHash": "8301f5b685c94c36",
       "level": 25,
       "cefr": "C1",
       "title": {
@@ -471,7 +496,7 @@
         "en": "Build an argument and win people over.",
         "vi": "Xây dựng lập luận và thuyết phục người khác."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-25.json",
+      "file": "packs/level-25.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -480,6 +505,7 @@
     {
       "id": "level-26",
       "version": 1,
+      "contentHash": "4d364529728c1777",
       "level": 26,
       "cefr": "C1",
       "title": {
@@ -490,7 +516,7 @@
         "en": "Sound like a local with everyday expressions.",
         "vi": "Nói như người bản xứ với các cách diễn đạt đời thường."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-26.json",
+      "file": "packs/level-26.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -499,6 +525,7 @@
     {
       "id": "level-27",
       "version": 1,
+      "contentHash": "6224723217846289",
       "level": 27,
       "cefr": "C1",
       "title": {
@@ -509,7 +536,7 @@
         "en": "Emails, meetings, and professional tone.",
         "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-27.json",
+      "file": "packs/level-27.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -518,6 +545,7 @@
     {
       "id": "level-28",
       "version": 1,
+      "contentHash": "64bfdde37e6f9fb5",
       "level": 28,
       "cefr": "C1",
       "title": {
@@ -528,7 +556,7 @@
         "en": "Hedge, soften, and say difficult things gracefully.",
         "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-28.json",
+      "file": "packs/level-28.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -537,6 +565,7 @@
     {
       "id": "level-29",
       "version": 1,
+      "contentHash": "c6b20b1b1e1b2443",
       "level": 29,
       "cefr": "C1",
       "title": {
@@ -547,7 +576,7 @@
         "en": "Discuss abstract topics with precision.",
         "vi": "Bàn luận chủ đề trừu tượng một cách chính xác."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-29.json",
+      "file": "packs/level-29.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -556,6 +585,7 @@
     {
       "id": "level-30",
       "version": 1,
+      "contentHash": "2ab032e93a4ef94c",
       "level": 30,
       "cefr": "C1",
       "title": {
@@ -566,7 +596,7 @@
         "en": "Natural fillers, recovery strategies, and deep talk.",
         "vi": "Từ đệm tự nhiên, cách xử lý khi bí và trò chuyện sâu."
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/packs/level-30.json",
+      "file": "packs/level-30.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,

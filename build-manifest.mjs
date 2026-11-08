@@ -5,7 +5,8 @@
  *
  *   node content/courses/build-manifest.mjs
  */
-import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -25,6 +26,27 @@ function checkText(file, value, where) {
 
 const entries = [];
 const seenIds = new Set();
+
+// ── Automatic versioning ─────────────────────────────────────────────────────
+// Each manifest entry records a hash of its file's content (ignoring "version").
+// When the content changes since the last build, the version goes up by one
+// automatically, so apps that downloaded the old copy fetch the new one.
+const hashOf = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex').slice(0, 16);
+const readPrevious = (file, key) => {
+  try {
+    return Object.fromEntries(JSON.parse(readFileSync(file, 'utf8'))[key].map((entry) => [entry.id ?? entry.code, entry]));
+  } catch {
+    return {};
+  }
+};
+const previousPacks = readPrevious(join(here, 'manifest.json'), 'packs');
+const previousLanguages = readPrevious(join(here, 'i18n', 'manifest.json'), 'languages');
+const bumped = [];
+/** Returns the version to publish, raising it when the content changed. */
+function nextVersion(previous, hash, current = 1) {
+  if (!previous?.contentHash || previous.contentHash === hash) return Math.max(current, previous?.version ?? current);
+  return Math.max(current, (previous.version ?? 1) + 1);
+}
 
 for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json')).sort()) {
   const path = join(packDir, name);
@@ -78,9 +100,18 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
     });
   });
 
+  const { version: _ignored, ...packContent } = pack;
+  const contentHash = hashOf(packContent);
+  const version = nextVersion(previousPacks[pack.id], contentHash, pack.version ?? 1);
+  if (version !== (pack.version ?? 1)) {
+    pack.version = version;
+    writeFileSync(path, `${JSON.stringify(pack, null, 2)}\n`);
+    bumped.push(`${pack.id} → v${version}`);
+  }
   entries.push({
     id: pack.id,
-    version: pack.version ?? 1,
+    version,
+    contentHash,
     level: pack.level,
     cefr: pack.cefr ?? '',
     title: pack.title,
@@ -98,6 +129,7 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
 // source text to its translation. Placeholders like {count} must match exactly.
 const i18nDir = join(here, 'i18n');
 const languageEntries = [];
+let languagesChanged = false;
 const placeholders = (text) => (text.match(/\{\w+\}/g) ?? []).sort().join(',');
 let languages = [];
 try {
@@ -120,11 +152,19 @@ for (const language of languages) {
       fail(`i18n/${file}`, `placeholders differ for "${source}"`);
     }
   }
+  const contentHash = hashOf(strings);
+  const version = nextVersion(previousLanguages[language.code], contentHash, language.version ?? 1);
+  if (version !== (language.version ?? 1)) {
+    language.version = version;
+    languagesChanged = true;
+    bumped.push(`${language.code} → v${version}`);
+  }
   languageEntries.push({
     code: language.code,
     name: language.name,
     nativeName: language.nativeName,
-    version: language.version ?? 1,
+    version,
+    contentHash,
     // Relative to i18n/manifest.json itself.
     file,
     stringCount: Object.keys(strings).length,
@@ -146,3 +186,7 @@ console.log(`manifest.json written with ${entries.length} level(s).`);
 const i18nManifest = { schemaVersion: SCHEMA_VERSION, updatedAt: manifest.updatedAt, languages: languageEntries };
 writeFileSync(join(i18nDir, 'manifest.json'), `${JSON.stringify(i18nManifest, null, 2)}\n`);
 console.log(`i18n/manifest.json written with ${languageEntries.length} language(s).`);
+if (languagesChanged) {
+  writeFileSync(join(i18nDir, 'languages.json'), `${JSON.stringify(languages, null, 2)}\n`);
+}
+console.log(bumped.length ? `Version bumped: ${bumped.join(', ')}` : 'No content changes; versions unchanged.');
