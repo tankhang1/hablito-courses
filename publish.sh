@@ -28,11 +28,23 @@ if [ -z "$(git status --porcelain)" ]; then
 fi
 git add -A
 git commit --quiet -m "$MESSAGE"
-git push --quiet origin "$BRANCH"
-echo "Pushed to https://github.com/$REPO"
 
-# jsDelivr caches @main for up to 12 hours; purge so learners see the update now.
-for path in manifest.json $(cd "$HERE" && ls packs/*.json); do
-  curl -s -o /dev/null "https://purge.jsdelivr.net/gh/$REPO@$BRANCH/$path" || true
-done
-echo "CDN cache purged: https://cdn.jsdelivr.net/gh/$REPO@$BRANCH/manifest.json"
+# Pin every pack URL to this exact commit on jsDelivr. A commit URL never changes, so
+# learners can never get a stale pack, while the manifest itself is read from
+# raw.githubusercontent.com (cached for at most 5 minutes).
+SHA="$(git rev-parse HEAD)"
+node -e '
+  const fs = require("fs");
+  const [repo, sha] = process.argv.slice(1);
+  const manifest = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
+  for (const pack of manifest.packs) {
+    const file = pack.file.replace(/^https?:\/\/[^]*?@[0-9a-f]+\//, "");
+    pack.file = `https://cdn.jsdelivr.net/gh/${repo}@${sha}/${file}`;
+  }
+  fs.writeFileSync("manifest.json", JSON.stringify(manifest, null, 2) + "\n");
+' "$REPO" "$SHA"
+git add manifest.json
+git commit --quiet -m "Pin pack URLs to $SHA"
+git push --quiet origin "$BRANCH"
+echo "Published to https://github.com/$REPO"
+echo "Course list: https://raw.githubusercontent.com/$REPO/$BRANCH/manifest.json (live within 5 minutes)"

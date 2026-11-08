@@ -17,14 +17,19 @@ content/courses/
 ## Where it's hosted
 
 Published to the public repo [tankhang1/hablito-courses](https://github.com/tankhang1/hablito-courses)
-and served by jsDelivr at `https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@main/manifest.json`.
+and served by jsDelivr at `https://raw.githubusercontent.com/tankhang1/hablito-courses/main/manifest.json`.
 This folder is the source of truth; never edit the public repo directly.
 
 ## Publishing changes
 
 **Quick path:** `bash content/courses/publish.sh "What changed"` validates, rebuilds the
-manifest, syncs to the public repo, pushes, and purges the jsDelivr cache. The manual
-steps below do the same thing.
+manifest, syncs to the public repo, rewrites every pack URL to a commit-pinned jsDelivr
+URL, and pushes. Learners see changes within 5 minutes.
+
+The manifest is read from `raw.githubusercontent.com` (5-minute cache, CORS `*`). Pack
+files are served by jsDelivr at `@<commit>` URLs, which never go stale. Don't point the
+app at a jsDelivr `@main` URL: branch-level caching there can serve files up to 12
+hours old.
 
 
 1. Edit or add a file in `packs/`. To publish a change to an existing level, raise its
