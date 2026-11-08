@@ -7,7 +7,7 @@
       "name": "Vietnamese",
       "nativeName": "Tiếng Việt",
       "version": 2,
-      "file": "vi.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/vi.json",
       "stringCount": 1174,
       "sizeKb": 101
     },
@@ -16,7 +16,7 @@
       "name": "Portuguese (Brazil)",
       "nativeName": "Português (Brasil)",
       "version": 2,
-      "file": "pt-BR.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/pt-BR.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -25,7 +25,7 @@
       "name": "French",
       "nativeName": "Français",
       "version": 2,
-      "file": "fr.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/fr.json",
       "stringCount": 375,
       "sizeKb": 23
     },
@@ -34,7 +34,7 @@
       "name": "German",
       "nativeName": "Deutsch",
       "version": 2,
-      "file": "de.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/de.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -43,7 +43,7 @@
       "name": "Italian",
       "nativeName": "Italiano",
       "version": 2,
-      "file": "it.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/it.json",
       "stringCount": 375,
       "sizeKb": 22
     },
@@ -52,7 +52,7 @@
       "name": "Japanese",
       "nativeName": "日本語",
       "version": 2,
-      "file": "ja.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/ja.json",
       "stringCount": 375,
       "sizeKb": 24
     },
@@ -61,7 +61,7 @@
       "name": "Chinese (Simplified)",
       "nativeName": "简体中文",
       "version": 2,
-      "file": "zh-Hans.json",
+      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@7626aff5c57d011ef35aa686bb9ca8b56c456e79/i18n/zh-Hans.json",
       "stringCount": 375,
       "sizeKb": 21
     }
