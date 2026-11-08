@@ -65,6 +65,8 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
   checkText(name, pack.title, 'title');
   checkText(name, pack.description, 'description');
 
+  if (pack.kind !== 'practice' && !pack.lessons?.length) fail(name, 'a level pack needs lessons');
+  if (pack.kind === 'practice' && !pack.conversations?.length) fail(name, 'a practice pack needs conversations');
   const lessons = Array.isArray(pack.lessons) ? pack.lessons : (fail(name, '"lessons" must be a list'), []);
   let phraseCount = 0;
   lessons.forEach((lesson, i) => {
@@ -110,6 +112,7 @@ for (const name of readdirSync(packDir).filter((file) => file.endsWith('.json'))
   }
   entries.push({
     id: pack.id,
+    kind: pack.kind === 'practice' ? 'practice' : 'level',
     version,
     contentHash,
     level: pack.level,
@@ -182,7 +185,7 @@ if (errors.length) {
 entries.sort((a, b) => a.level - b.level);
 const manifest = { schemaVersion: SCHEMA_VERSION, updatedAt: new Date().toISOString().slice(0, 10), packs: entries };
 writeFileSync(join(here, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
-console.log(`manifest.json written with ${entries.length} level(s).`);
+console.log(`manifest.json written with ${entries.length} pack(s).`);
 const i18nManifest = { schemaVersion: SCHEMA_VERSION, updatedAt: manifest.updatedAt, languages: languageEntries };
 writeFileSync(join(i18nDir, 'manifest.json'), `${JSON.stringify(i18nManifest, null, 2)}\n`);
 console.log(`i18n/manifest.json written with ${languageEntries.length} language(s).`);

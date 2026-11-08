@@ -1,0 +1,261 @@
+# Built-in conversations 1–8: extra turns after the original ending.
+
+@coffee
+N ¿Para tomar aquí o para llevar? | For here or to go? | “Para llevar” means to go.
++ Para llevar, por favor. | To go, please. | Muy bien, se lo pongo en vaso. | Very well, I'll put it in a cup.
++ Para tomar aquí, gracias. | For here, thanks. | Perfecto, se lo sirvo en taza. | Perfect, I'll serve it in a mug.
+- Tengo una reservación. | I have a reservation. | Para llevar, por favor. | Aquí no hay reservaciones. ¿Para aquí o para llevar? | No reservations here. For here or to go?
+N ¿Le pongo azúcar? | Should I add sugar? | Answer with “Sí, por favor” or “Sin azúcar”.
++ Sin azúcar, gracias. | No sugar, thanks. | Muy bien, sin azúcar. | All right, no sugar.
++ Sí, un poco, por favor. | Yes, a little, please. | Claro, un poquito. | Sure, just a little.
+- Voy al centro. | I'm going downtown. | Sin azúcar, gracias. | ¡Qué bien! Pero, ¿le pongo azúcar? | Nice! But should I add sugar?
+N ¿Quiere algo para comer? Tenemos pan dulce. | Would you like something to eat? We have sweet bread. | “Pan dulce” is Mexican sweet bread.
++ Sí, una concha, por favor. | Yes, a concha, please. | ¡Buena elección! Es la más popular. | Good choice! It's the most popular.
++ No, gracias. Solo el café. | No, thanks. Just the coffee. | Muy bien, solo el café. | All right, just the coffee.
+- ¿Dónde está la parada? | Where is the stop? | No, gracias. Solo el café. | La parada está afuera. ¿Algo para comer? | The stop is outside. Anything to eat?
+N ¿Cómo va a pagar? | How will you pay? | “En efectivo” is cash; “con tarjeta” is by card.
++ Con tarjeta, por favor. | By card, please. | Claro, acerque la tarjeta aquí. | Sure, tap your card here.
++ En efectivo. Aquí tiene. | In cash. Here you go. | Gracias. Ahorita le doy su cambio. | Thanks. I'll get your change right away.
+- Una mesa para dos. | A table for two. | Con tarjeta, por favor. | Puede sentarse donde quiera. ¿Cómo va a pagar? | You can sit anywhere. How will you pay?
+N ¿Me dice su nombre para el pedido? | Can you tell me your name for the order? | Say “Me llamo…” or just your name.
++ Me llamo Alex. | My name is Alex. | Gracias, Alex. Le llamo cuando esté listo. | Thanks, Alex. I'll call you when it's ready.
++ Alex, con equis. | Alex, with an x. | Perfecto, Alex con equis. | Perfect, Alex with an x.
+- Estoy bien, gracias. | I'm fine, thanks. | Me llamo Alex. | ¡Qué bueno! ¿Y su nombre? | Glad to hear it! And your name?
+N ¿Es la primera vez que viene? | Is this your first time here? | “Primera vez” means first time.
++ Sí, es mi primera vez aquí. | Yes, it's my first time here. | ¡Bienvenido! Ojalá le guste. | Welcome! I hope you like it.
++ No, vengo seguido. | No, I come often. | ¡Qué gusto verlo otra vez! | Great to see you again!
+- Grande, por favor. | Large, please. | Sí, es mi primera vez aquí. | Su café ya está pedido. ¿Es su primera vez aquí? | Your coffee is already ordered. Is it your first time here?
+N ¿Necesita la clave del wifi? | Do you need the Wi-Fi password? | “La clave” means the password.
++ Sí, por favor. ¿Cuál es? | Yes, please. What is it? | Es “cafe2024”, todo junto. | It's “cafe2024”, all together.
++ No, gracias. No la necesito. | No, thanks. I don't need it. | Muy bien. | All right.
+- Me duele la cabeza. | I have a headache. | Sí, por favor. ¿Cuál es? | Lo siento. Hay una farmacia enfrente. ¿Y el wifi? | Sorry. There's a pharmacy across the street. And the Wi-Fi?
+N ¡Alex, su café está listo! | Alex, your coffee is ready! | Thank them and say goodbye.
++ ¡Gracias! Que tenga buen día. | Thanks! Have a nice day. | Igualmente. ¡Vuelva pronto! | You too. Come back soon!
++ Muchas gracias. Huele delicioso. | Thank you very much. It smells delicious. | ¡Que lo disfrute! | Enjoy it!
+- ¿Pequeño o grande? | Small or large? | ¡Gracias! Que tenga buen día. | Ya está listo, es grande. ¡Que lo disfrute! | It's ready, it's a large. Enjoy it!
+
+@hotel
+N ¿Me firma aquí, por favor? | Could you sign here, please? | “Firmar” means to sign.
++ Claro. ¿Aquí abajo? | Sure. Down here? | Sí, ahí mismo. Gracias. | Yes, right there. Thanks.
++ Sí. ¿Me presta una pluma? | Yes. Could I borrow a pen? | Claro, aquí tiene. | Sure, here you go.
+- Un café negro, por favor. | A black coffee, please. | Claro. ¿Aquí abajo? | La cafetería abre a las siete. ¿Me firma aquí? | The café opens at seven. Could you sign here?
+N Su habitación es la 305, en el tercer piso. | Your room is 305, on the third floor. | Repeat the number to check it.
++ ¿La 305? Muy bien. | 305? Great. | Sí, la 305. El elevador está a la derecha. | Yes, 305. The elevator is on the right.
++ ¿Dónde está el elevador? | Where is the elevator? | Está a la derecha, junto a la escalera. | It's on the right, next to the stairs.
+- Para dos noches. | For two nights. | ¿La 305? Muy bien. | Sí, ya está anotado. Su habitación es la 305. | Yes, that's noted. Your room is 305.
+N ¿A qué hora quiere el desayuno? | What time would you like breakfast? | Answer with “A las…”.
++ A las ocho, por favor. | At eight, please. | Perfecto. El desayuno es en el primer piso. | Perfect. Breakfast is on the first floor.
++ ¿Hasta qué hora hay desayuno? | Until what time is breakfast served? | Hay desayuno de siete a diez. | Breakfast is from seven to ten.
+- Me llamo Lee. | My name is Lee. | A las ocho, por favor. | Ya lo sé, señor Lee. ¿A qué hora desayuna? | I know, Mr. Lee. What time do you have breakfast?
+N ¿Necesita ayuda con sus maletas? | Do you need help with your bags? | “Maletas” means suitcases.
++ Sí, por favor. Son dos. | Yes, please. There are two. | Claro, el botones se las sube. | Sure, the bellhop will take them up.
++ No, gracias. Puedo solo. | No, thanks. I can manage. | Muy bien, como guste. | All right, as you like.
+- ¿Cuánto cuesta el taxi? | How much is the taxi? | Sí, por favor. Son dos. | Le puedo pedir un taxi después. ¿Y sus maletas? | I can call you a taxi later. And your bags?
+N ¿Tiene alguna otra pregunta? | Do you have any other questions? | Ask about Wi-Fi, the pool, or checkout time.
++ ¿A qué hora es la salida? | What time is checkout? | La salida es a las doce del día. | Checkout is at noon.
++ ¿Hay alberca en el hotel? | Is there a pool at the hotel? | Sí, en la azotea. Abre de ocho a ocho. | Yes, on the roof. It's open from eight to eight.
+- ¿Me da tres tacos? | Can I have three tacos? | ¿A qué hora es la salida? | Hay una taquería en la esquina. ¿Alguna pregunta del hotel? | There's a taco stand on the corner. Any questions about the hotel?
+N ¿Cómo prefiere su habitación, con vista a la calle o al jardín? | Would you prefer your room facing the street or the garden? | “Vista” means view.
++ Al jardín, por favor. Es más tranquilo. | The garden, please. It's quieter. | Buena idea. Le cambio a la 308. | Good idea. I'll switch you to 308.
++ A la calle está bien. | The street is fine. | Muy bien, se queda en la 305. | All right, you'll stay in 305.
+- Sin azúcar, gracias. | No sugar, thanks. | Al jardín, por favor. | ¿Azúcar? ¿Prefiere la vista a la calle o al jardín? | Sugar? Would you prefer the street or the garden view?
+N Aquí tiene su llave. ¿Necesita algo más? | Here's your key. Do you need anything else? | “Nada más” means nothing else.
++ Nada más, muchas gracias. | Nothing else, thank you very much. | Con gusto. Que descanse. | My pleasure. Get some rest.
++ ¿Me puede despertar a las siete? | Can you wake me up at seven? | Claro, le llamamos a las siete. | Sure, we'll call you at seven.
+- ¿Tiene algo para la tos? | Do you have something for a cough? | Nada más, muchas gracias. | Hay una farmacia cerca. ¿Algo más del hotel? | There's a pharmacy nearby. Anything else from the hotel?
+N ¡Bienvenido! Disfrute su estancia. | Welcome! Enjoy your stay. | Thank them before you go.
++ ¡Gracias! Hasta luego. | Thanks! See you later. | Hasta luego. | See you later.
++ Muy amable. Buenas noches. | Very kind. Good night. | Buenas noches. | Good night.
+- ¿Ya saben qué van a pedir? | Do you know what you'll order? | ¡Gracias! Hasta luego. | Eso lo pregunta el mesero. ¡Buenas noches! | The waiter asks that. Good night!
+
+@airport
+N ¿Tiene equipaje? | Do you have luggage? | “Equipaje” means luggage.
++ Sí, una maleta grande. | Yes, one big suitcase. | Muy bien, cabe en la cajuela. | All right, it fits in the trunk.
++ Solo esta mochila. | Just this backpack. | Perfecto, puede llevarla con usted. | Perfect, you can keep it with you.
+- Un café con leche, por favor. | A coffee with milk, please. | Sí, una maleta grande. | La cafetería está adentro. ¿Tiene equipaje? | The café is inside. Do you have luggage?
+N ¿Es su primera vez en la Ciudad de México? | Is this your first time in Mexico City? | Answer “Sí, es mi primera vez” or “No”.
++ Sí, es mi primera vez. | Yes, it's my first time. | ¡Bienvenido! Le va a encantar. | Welcome! You're going to love it.
++ No, ya vine el año pasado. | No, I came last year. | ¡Qué bien que regresó! | Great that you came back!
+- Para dos noches. | For two nights. | Sí, es mi primera vez. | ¿Dos noches? Qué bien. ¿Es su primera vez aquí? | Two nights? Nice. Is it your first time here?
+N ¿Viene de vacaciones o por trabajo? | Are you here on vacation or for work? | “De vacaciones” means on vacation.
++ De vacaciones. | On vacation. | ¡Qué bien! Hay mucho que ver. | Great! There's a lot to see.
++ Por trabajo, por una semana. | For work, for a week. | Entiendo. Ojalá tenga tiempo para pasear. | I see. I hope you have time to look around.
+- Sin cebolla, por favor. | No onion, please. | De vacaciones. | Ja, eso es para los tacos. ¿Viene de vacaciones? | Ha, that's for tacos. Are you on vacation?
+N ¿Cuánto tiempo tarda el viaje al centro? | How long does the trip downtown take? | Ask “¿Cuánto tiempo…?” yourself if you're unsure.
++ No sé. ¿Cuánto tiempo tarda? | I don't know. How long does it take? | Unos cuarenta minutos, depende del tráfico. | About forty minutes, depending on traffic.
++ ¿Hay mucho tráfico ahora? | Is there a lot of traffic now? | Un poco. Llegamos en unos cuarenta minutos. | A little. We'll get there in about forty minutes.
+- Me llamo Alex. | My name is Alex. | No sé. ¿Cuánto tiempo tarda? | Mucho gusto, Alex. Son unos cuarenta minutos. | Nice to meet you, Alex. It's about forty minutes.
+N ¿Me da la dirección exacta? | Can you give me the exact address? | Read it out or show it on your phone.
++ Es avenida Juárez, número cincuenta. | It's Juárez Avenue, number fifty. | Perfecto, ya sé dónde es. | Perfect, I know where it is.
++ Aquí está en mi teléfono. | Here it is on my phone. | Gracias, ya la vi. | Thanks, I've got it.
+- ¿Dónde está el baño? | Where is the restroom? | Es avenida Juárez, número cincuenta. | Está junto a la salida. ¿Y la dirección? | It's next to the exit. And the address?
+N ¿Le molesta si pongo música? | Do you mind if I play some music? | “No me molesta” means it doesn't bother me.
++ No, para nada. | No, not at all. | ¡Perfecto! Algo de mariachi. | Perfect! Some mariachi.
++ Prefiero sin música, por favor. | I'd prefer no music, please. | Claro, sin problema. | Sure, no problem.
+- Con tarjeta, por favor. | By card, please. | No, para nada. | Eso es al final del viaje. ¿Pongo música? | That's at the end of the trip. Shall I play music?
+N Ya llegamos. Son trescientos pesos. | We're here. It's three hundred pesos. | Ask about card payment or pay in cash.
++ Aquí tiene. Gracias. | Here you go. Thanks. | Gracias a usted. | Thank you.
++ ¿Acepta tarjeta? | Do you take cards? | Sí, aquí tiene la terminal. | Yes, here's the card reader.
+- ¿Taxi o autobús? | Taxi or bus? | Aquí tiene. Gracias. | Ya estamos en el taxi. Son trescientos pesos. | We're already in the taxi. It's three hundred pesos.
+N ¡Que disfrute su viaje! | Enjoy your trip! | Say goodbye kindly.
++ ¡Gracias! Que le vaya bien. | Thanks! Take care. | Igualmente. ¡Hasta luego! | You too. See you!
++ Muchas gracias por todo. | Thank you for everything. | De nada. ¡Bienvenido a México! | You're welcome. Welcome to Mexico!
+- Voy al hotel del centro. | I'm going to the downtown hotel. | ¡Gracias! Que le vaya bien. | Ya llegamos al hotel. ¡Que le vaya bien! | We're at the hotel now. Take care!
+
+@directions
+N ¿Sabe cómo se llama el museo? | Do you know the name of the museum? | Say the name: “el Museo de Arte”.
++ El Museo de Arte Moderno. | The Museum of Modern Art. | Ah, sí. Está en el parque. | Ah, yes. It's in the park.
++ No me acuerdo del nombre. | I don't remember the name. | No importa, el único cerca es el de Arte Moderno. | Doesn't matter, the only one nearby is Modern Art.
+- Dos tacos, por favor. | Two tacos, please. | El Museo de Arte Moderno. | Los tacos están en la esquina. ¿Qué museo busca? | The tacos are on the corner. Which museum are you looking for?
+N En la esquina, dé vuelta a la izquierda. | At the corner, turn left. | “A la izquierda” is left; “a la derecha” is right.
++ ¿A la izquierda en la esquina? | Left at the corner? | Exacto. Luego siga derecho. | Exactly. Then keep going straight.
++ Más despacio, por favor. | More slowly, please. | En la esquina… a la izquierda. | At the corner… to the left.
+- A la derecha, gracias. | To the right, thanks. | ¿A la izquierda en la esquina? | No, a la izquierda. Con cuidado. | No, to the left. Careful.
+N Después va a ver un parque grande. | Then you'll see a big park. | “Parque” means park.
++ ¿El museo está dentro del parque? | Is the museum inside the park? | Sí, a la entrada del parque. | Yes, at the park entrance.
++ ¿Cruzo el parque? | Do I cross the park? | No, el museo está en la entrada. | No, the museum is at the entrance.
+- Quisiera una habitación. | I'd like a room. | ¿El museo está dentro del parque? | Los hoteles están más lejos. ¿Me sigue? | The hotels are farther away. Are you following me?
+N ¿Lo anota o se lo repito? | Will you write it down, or shall I repeat it? | “Repetir” means to repeat.
++ ¿Me lo repite, por favor? | Could you repeat it, please? | Izquierda en la esquina, y luego el parque. | Left at the corner, then the park.
++ No, ya entendí. Gracias. | No, I got it. Thanks. | Muy bien. | Great.
+- Sin hielo, gracias. | No ice, thanks. | ¿Me lo repite, por favor? | Esto no es un café. ¿Se lo repito? | This isn't a café. Shall I repeat it?
+N ¿A qué hora cierra el museo? Cierra temprano. | What time does the museum close? It closes early. | Ask “¿A qué hora cierra?”.
++ ¿A qué hora cierra? | What time does it close? | Cierra a las cinco. | It closes at five.
++ ¿Abre los lunes? | Is it open on Mondays? | No, los lunes está cerrado. | No, it's closed on Mondays.
+- ¿Cuánto cuesta el boleto de autobús? | How much is the bus ticket? | ¿A qué hora cierra? | No sé del autobús. El museo cierra a las cinco. | I don't know about the bus. The museum closes at five.
+N ¿Ya tiene boleto? | Do you already have a ticket? | “Boleto” means ticket.
++ No. ¿Dónde lo compro? | No. Where do I buy it? | En la taquilla, en la entrada. | At the ticket office, at the entrance.
++ Sí, lo compré en línea. | Yes, I bought it online. | ¡Perfecto! Solo muéstrelo en la entrada. | Perfect! Just show it at the entrance.
+- Me duele la cabeza. | I have a headache. | No. ¿Dónde lo compro? | Ay, lo siento. ¿Ya tiene boleto para el museo? | Oh, I'm sorry. Do you have a museum ticket yet?
+N ¿Le recomiendo un lugar para comer cerca? | Shall I recommend a place to eat nearby? | Answer “Sí, por favor” to get a tip.
++ Sí, por favor. | Yes, please. | El café del museo es muy bueno. | The museum café is very good.
++ No, gracias. Ya comí. | No, thanks. I already ate. | Muy bien. | All right.
+- Somos cuatro. | There are four of us. | Sí, por favor. | Para cuatro, el restaurante del parque es mejor. | For four, the park restaurant is better.
+N Bueno, ¡que disfrute el museo! | Well, enjoy the museum! | Thank them for the help.
++ Muchas gracias por su ayuda. | Thank you very much for your help. | De nada. ¡Que le vaya bien! | You're welcome. Take care!
++ Es usted muy amable. Gracias. | You're very kind. Thanks. | Con gusto. | My pleasure.
+- ¿A la derecha? | To the right? | Muchas gracias por su ayuda. | No, a la izquierda. ¡Suerte! | No, to the left. Good luck!
+
+@family
+N ¿Tienes hermanos? | Do you have brothers or sisters? | “Hermanos” can mean siblings.
++ Sí, tengo una hermana. | Yes, I have a sister. | ¡Qué bien! ¿Es mayor o menor? | Nice! Is she older or younger?
++ No, soy hijo único. | No, I'm an only child. | Ah, entonces aquí vas a tener una familia grande. | Ah, then here you'll have a big family.
+- Un boleto para Puebla. | A ticket to Puebla. | Sí, tengo una hermana. | Ja, aquí no vendemos boletos. ¿Tienes hermanos? | Ha, we don't sell tickets here. Do you have siblings?
+N ¿A qué te dedicas? | What do you do for a living? | Answer “Soy…” plus your job.
++ Soy maestro de inglés. | I'm an English teacher. | ¡Qué interesante! | How interesting!
++ Trabajo en una oficina. | I work in an office. | Ah, muy bien. | Ah, very good.
+- Tengo sed. | I'm thirsty. | Soy maestro de inglés. | Ahorita te traigo agua. Pero, ¿a qué te dedicas? | I'll get you some water. But what do you do?
+N ¿Cuánto tiempo llevas aprendiendo español? | How long have you been learning Spanish? | “Llevo… meses” means I've been… months.
++ Llevo seis meses. | Six months. | ¡Hablas muy bien! | You speak very well!
++ Poco tiempo, todavía estoy aprendiendo. | Not long, I'm still learning. | Vas muy bien. | You're doing great.
+- Tengo veinte años. | I'm twenty years old. | Llevo seis meses. | Qué joven. ¿Y cuánto tiempo llevas con el español? | So young. And how long have you studied Spanish?
+N ¿Tienes hambre? Hice pozole. | Are you hungry? I made pozole. | Pozole is a traditional Mexican soup.
++ Sí, ¡huele delicioso! | Yes, it smells delicious! | ¡Siéntate, por favor! | Sit down, please!
++ Un poco, gracias. Nunca lo he probado. | A little, thanks. I've never tried it. | Te va a gustar, ya verás. | You'll like it, you'll see.
+- ¿Dónde está mi habitación? | Where is my room? | Sí, ¡huele delicioso! | Primero a comer. ¿Tienes hambre? | First, let's eat. Are you hungry?
+N ¿Te gusta? ¿No pica mucho? | Do you like it? It's not too spicy? | “Picar” means to be spicy.
++ Está riquísimo. Pica un poco. | It's delicious. It's a little spicy. | ¡Qué bueno! Aquí está el agua. | Great! Here's some water.
++ Me encanta. No pica nada. | I love it. It's not spicy at all. | ¡Eres de los nuestros! | You're one of us!
+- Cien pesos, por favor. | A hundred pesos, please. | Está riquísimo. Pica un poco. | No, aquí no se paga. ¿Te gusta? | No, you don't pay here. Do you like it?
+N ¿Te sirvo más? | Shall I give you more? | Accept or decline politely.
++ Sí, por favor. Un poquito más. | Yes, please. A little more. | Con mucho gusto. | With pleasure.
++ No, gracias. Estoy lleno. | No, thanks. I'm full. | Bueno, pero llévate un poco a casa. | Okay, but take some home.
+- Me la llevo. | I'll take it. | Sí, por favor. Un poquito más. | ¿Más pozole, entonces? Aquí tienes. | More pozole, then? Here you go.
+N El domingo hacemos una comida familiar. ¿Vienes? | On Sunday we're having a family meal. Will you come? | Accept with “Me encantaría”.
++ ¡Me encantaría! ¿A qué hora? | I'd love to! What time? | A las dos de la tarde. | At two in the afternoon.
++ Claro. ¿Llevo algo? | Of course. Should I bring something? | Solo tu buen humor. | Just your good mood.
+- No, gracias, solo estoy viendo. | No, thanks, I'm just looking. | ¡Me encantaría! ¿A qué hora? | Ja, ¿viendo? Te invito el domingo. | Ha, just looking? I'm inviting you on Sunday.
+N Bueno, ya es tarde. ¡Fue un gusto conocerte! | Well, it's late. It was a pleasure to meet you! | Say it was a pleasure too.
++ El gusto fue mío. ¡Gracias por todo! | The pleasure was mine. Thanks for everything! | ¡Esta es tu casa! | Make yourself at home anytime!
++ Igualmente. Nos vemos el domingo. | Likewise. See you on Sunday. | ¡Hasta el domingo! | See you Sunday!
+- Mucho gusto. Soy Alex. | Nice to meet you. I'm Alex. | El gusto fue mío. ¡Gracias por todo! | Ja, ya nos conocemos. ¡Hasta pronto, Alex! | Ha, we already met. See you soon, Alex!
+
+@tacos
+N ¿Para comer aquí o para llevar? | For here or to go? | “Para llevar” means to go.
++ Para comer aquí. | For here. | Siéntese, ahorita se los llevo. | Have a seat, I'll bring them right away.
++ Para llevar, por favor. | To go, please. | Va, se los envuelvo. | Okay, I'll wrap them up.
+- Una habitación doble. | A double room. | Para comer aquí. | Aquí solo hay tacos. ¿Para aquí o para llevar? | We only have tacos here. For here or to go?
+N ¿Quiere agregar una quesadilla? | Would you like to add a quesadilla? | Say “Sí, de…” to choose a filling.
++ Sí, una de queso, por favor. | Yes, a cheese one, please. | ¡Claro! Sale una de queso. | Sure! One cheese coming up.
++ No, gracias, con esto es suficiente. | No, thanks, this is enough. | Muy bien. | Very well.
+- ¿Tiene servicio de lavandería? | Do you have laundry service? | No, gracias, con esto es suficiente. | Eso es en el hotel. ¿Una quesadilla? | That's at the hotel. A quesadilla?
+N ¿Qué tal están los tacos? | How are the tacos? | React with “¡Están buenísimos!”.
++ ¡Están buenísimos! | They're delicious! | ¡Qué bueno que le gustaron! | Glad you liked them!
++ Muy ricos, pero la salsa pica mucho. | Very tasty, but the salsa is very spicy. | Jaja, es la salsa de la casa. | Haha, it's the house salsa.
+- Tengo una reservación. | I have a reservation. | ¡Están buenísimos! | No hace falta. Pero, ¿qué tal los tacos? | No need. But how are the tacos?
+N ¿Le traigo unas servilletas? | Shall I bring you some napkins? | “Servilletas” are napkins.
++ Sí, por favor. | Yes, please. | Aquí tiene. | Here you go.
++ ¿Me trae también limones? | Could you also bring me limes? | Claro, aquí tiene limones. | Sure, here are some limes.
+- Al centro, por favor. | Downtown, please. | Sí, por favor. | Primero termine sus tacos. ¿Servilletas? | Finish your tacos first. Napkins?
+N ¿Va a querer algo de postre? Tenemos flan. | Would you like dessert? We have flan. | “Postre” means dessert.
++ Sí, un flan, por favor. | Yes, a flan, please. | Muy bien, un flan. | All right, one flan.
++ No, gracias. Ya estoy lleno. | No, thanks. I'm already full. | Entendido. | Understood.
+- ¿Dónde está la salida? | Where is the exit? | Sí, un flan, por favor. | La salida está ahí. Pero, ¿un postre? | The exit is there. But a dessert?
+N ¡Gracias por venir! Vuelva pronto. | Thanks for coming! Come back soon. | Say goodbye and compliment the food.
++ ¡Gracias! Los mejores tacos de la ciudad. | Thanks! The best tacos in town. | ¡Muchas gracias! Hasta pronto. | Thank you so much! See you soon.
++ Claro que vuelvo. ¡Hasta luego! | I'll definitely come back. See you! | ¡Aquí lo esperamos! | We'll be waiting for you!
+- ¿Cuántos tacos? | How many tacos? | ¡Gracias! Los mejores tacos de la ciudad. | Ya comió, jaja. ¡Hasta pronto! | You already ate, haha. See you soon!
+
+@restaurant-table
+N ¿Y para tomar? | And to drink? | Ask for an “agua fresca” or a soda.
++ Un agua de jamaica, por favor. | A hibiscus water, please. | Muy bien. ¿Grande o chica? | All right. Large or small?
++ Una limonada, por favor. | A lemonade, please. | Claro. ¿Natural o mineral? | Sure. Still or sparkling?
+- La cuenta, por favor. | The check, please. | Un agua de jamaica, por favor. | ¡Todavía no comen! ¿Qué van a tomar? | You haven't eaten yet! What will you drink?
+N ¿Grande o chica? | Large or small? | “Chica” means small.
++ Grande, por favor. | Large, please. | Perfecto. | Perfect.
++ Chica, gracias. | Small, thanks. | Muy bien. | All right.
+- Somos dos. | There are two of us. | Grande, por favor. | Sí, ya lo sé. ¿La bebida grande o chica? | Yes, I know. Large or small drink?
+N ¿Desean una entrada? Tenemos guacamole. | Would you like a starter? We have guacamole. | “Entrada” is a starter.
++ Sí, un guacamole para compartir. | Yes, a guacamole to share. | Excelente elección. | Excellent choice.
++ No, gracias. Solo el plato fuerte. | No, thanks. Just the main course. | Muy bien. | Very well.
+- ¿Dónde está el museo? | Where is the museum? | Sí, un guacamole para compartir. | El museo está cerca. ¿Quieren entrada? | The museum is nearby. Would you like a starter?
+N ¿Cómo quiere la carne? | How would you like the meat? | “Bien cocida” is well done; “término medio” is medium.
++ Término medio, por favor. | Medium, please. | Muy bien, término medio. | All right, medium.
++ Bien cocida, por favor. | Well done, please. | Entendido. | Understood.
+- Con hielo, gracias. | With ice, thanks. | Término medio, por favor. | El hielo es para la bebida. ¿Y la carne? | Ice is for the drink. And the meat?
+N ¿Alguna alergia o algo que no coma? | Any allergies or anything you don't eat? | Say “Soy alérgico a…” or “No como…”.
++ No, ninguna. Gracias. | No, none. Thanks. | Perfecto. | Perfect.
++ Sí, no como cacahuates. | Yes, I don't eat peanuts. | Gracias por avisar. Le aviso a la cocina. | Thanks for letting me know. I'll tell the kitchen.
+- Tengo veinte años. | I'm twenty years old. | No, ninguna. Gracias. | Muy bien. ¿Y alergias? | Very good. And allergies?
+N Aquí está su comida. ¡Buen provecho! | Here's your food. Enjoy your meal! | Thank them.
++ ¡Gracias! Se ve delicioso. | Thanks! It looks delicious. | ¡Que lo disfruten! | Enjoy it!
++ Muchas gracias. ¿Me trae más tortillas? | Thank you very much. Could you bring more tortillas? | Claro, ahorita se las traigo. | Sure, I'll bring them right away.
+- ¿Tiene habitación? | Do you have a room? | ¡Gracias! Se ve delicioso. | Esto es un restaurante. ¡Buen provecho! | This is a restaurant. Enjoy your meal!
+N ¿Todo bien con la comida? | Is everything okay with the food? | Answer with “Todo está muy rico”.
++ Sí, todo está muy rico. | Yes, everything is very tasty. | ¡Me alegra mucho! | I'm very glad!
++ Sí, gracias. Pero está un poco frío. | Yes, thanks. But it's a little cold. | Lo siento. Se lo caliento enseguida. | I'm sorry. I'll heat it up right away.
+- Un boleto, por favor. | A ticket, please. | Sí, todo está muy rico. | No vendemos boletos. ¿Todo bien? | We don't sell tickets. Is everything okay?
+
+@restaurant-bill
+N ¿Desea agregar la propina? | Would you like to add a tip? | Ten to fifteen percent is common in Mexico.
++ Sí, el quince por ciento. | Yes, fifteen percent. | Muchas gracias, muy amable. | Thank you very much, very kind.
++ Sí, el diez por ciento, por favor. | Yes, ten percent, please. | Gracias. | Thank you.
+- ¿Tiene una mesa? | Do you have a table? | Sí, el quince por ciento. | Ya comieron, jaja. ¿Agrega la propina? | You've already eaten, haha. Will you add the tip?
+N ¿Necesita factura? | Do you need an invoice? | “Factura” is an official receipt; “ticket” is a simple one.
++ No, solo el ticket, por favor. | No, just the receipt, please. | Aquí tiene su ticket. | Here's your receipt.
++ Sí, la necesito para mi trabajo. | Yes, I need it for work. | Claro. ¿Me da sus datos? | Sure. Can you give me your details?
+- Una limonada. | A lemonade. | No, solo el ticket, por favor. | ¿Otra bebida? Primero, ¿necesita factura? | Another drink? First, do you need an invoice?
+N ¿Qué tal estuvo todo? | How was everything? | Give positive feedback.
++ Todo estuvo delicioso. | Everything was delicious. | ¡Qué bueno! Gracias por venir. | Great! Thanks for coming.
++ Muy bien. El servicio fue excelente. | Very good. The service was excellent. | ¡Muchas gracias! | Thank you so much!
+- Tengo una reservación. | I have a reservation. | Todo estuvo delicioso. | Ya comieron. ¿Qué tal estuvo todo? | You've already eaten. How was everything?
+N ¿Les puedo pedir un taxi? | Can I call you a taxi? | Accept or say you'll walk.
++ Sí, por favor. | Yes, please. | Claro, llega en cinco minutos. | Sure, it'll arrive in five minutes.
++ No, gracias. Vamos a caminar. | No, thanks. We'll walk. | Muy bien, ¡que les vaya bien! | All right, take care!
+- Sin cebolla. | No onion. | Sí, por favor. | Jaja, ya terminaron. ¿Les pido un taxi? | Haha, you've finished. Shall I call a taxi?
+N ¿Ya conocían este restaurante? | Had you been to this restaurant before? | “Ya” means already.
++ No, es la primera vez. | No, it's the first time. | ¡Ojalá vuelvan pronto! | I hope you come back soon!
++ Sí, venimos cada mes. | Yes, we come every month. | ¡Qué gusto tenerlos otra vez! | So nice to have you again!
+- Un kilo de mangos. | A kilo of mangoes. | No, es la primera vez. | Eso es del mercado. ¿Ya conocían el restaurante? | That's from the market. Had you been here before?
+N ¿Quieren llevarse lo que sobró? | Would you like to take the leftovers? | “Para llevar” means to take away.
++ Sí, por favor. | Yes, please. | Ahorita se lo pongo para llevar. | I'll pack it to go right away.
++ No, gracias. | No, thanks. | Muy bien. | All right.
+- La línea dos. | Line two. | Sí, por favor. | ¿El metro? Primero, ¿quieren llevarse la comida? | The metro? First, do you want to take the food?
+N Aquí está su cambio. | Here's your change. | Check it and thank them.
++ Gracias. Está completo. | Thanks. It's all there. | Perfecto. | Perfect.
++ Quédese con el cambio. | Keep the change. | ¡Muchas gracias! | Thank you very much!
+- ¿Cuánto cuesta? | How much is it? | Gracias. Está completo. | Ya pagó. Aquí está su cambio. | You already paid. Here's your change.
+N ¡Gracias por su visita! | Thanks for your visit! | Say goodbye.
++ ¡Hasta luego! Todo muy rico. | See you! Everything was very tasty. | ¡Hasta luego! | See you!
++ Gracias a ustedes. ¡Buenas noches! | Thank you. Good night! | ¡Buenas noches! | Good night!
+- ¿Qué me recomienda? | What do you recommend? | ¡Hasta luego! Todo muy rico. | Para la próxima, ¡el mole! Hasta luego. | Next time, the mole! See you.
