@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-14",
-  "version": 1,
+  "version": 2,
   "level": 14,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 6: Calls & appointments",
-    "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn"
+    "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn",
+    "pt-BR": "Intermediário 6: Ligações e agendamentos",
+    "fr": "Intermédiaire 6 : Appels et rendez-vous",
+    "de": "Mittelstufe 6: Anrufe und Termine",
+    "it": "Intermedio 6: Telefonate e appuntamenti",
+    "ja": "中級 6：電話と予約",
+    "zh-Hans": "中级 6：电话和预约"
   },
   "description": {
     "en": "Handle phone calls and book appointments politely.",
-    "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự."
+    "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự.",
+    "pt-BR": "Atenda ligações e marque horários com educação.",
+    "fr": "Gérez les appels et prenez rendez-vous poliment.",
+    "de": "Führe Telefonate und vereinbare höflich Termine.",
+    "it": "Gestisci le telefonate e prendi appuntamenti con cortesia.",
+    "ja": "丁寧に電話をして予約を取ろう。",
+    "zh-Hans": "礼貌地打电话和预约。"
   },
   "lessons": [
     {
       "id": "phone",
       "title": {
         "en": "On the phone",
-        "vi": "Gọi điện thoại"
+        "vi": "Gọi điện thoại",
+        "pt-BR": "Ao telefone",
+        "fr": "Au téléphone",
+        "de": "Am Telefon",
+        "it": "Al telefono",
+        "ja": "電話で",
+        "zh-Hans": "打电话"
       },
       "description": {
         "en": "Start, hold, and end a call.",
-        "vi": "Bắt đầu, chờ và kết thúc cuộc gọi."
+        "vi": "Bắt đầu, chờ và kết thúc cuộc gọi.",
+        "pt-BR": "Comece, aguarde e termine uma ligação.",
+        "fr": "Commencer, faire patienter et terminer un appel.",
+        "de": "Ein Gespräch beginnen, warten lassen und beenden.",
+        "it": "Iniziare, mettere in attesa e chiudere una chiamata.",
+        "ja": "電話のかけ方、保留、切り方。",
+        "zh-Hans": "开始、等待和结束通话。"
       },
       "focus": {
         "en": "Use “usted” and “le” on formal calls: “¿Le puedo…?”, “¿Me comunica…?”.",
-        "vi": "Dùng “usted” và “le” khi gọi trang trọng: “¿Le puedo…?”, “¿Me comunica…?”."
+        "vi": "Dùng “usted” và “le” khi gọi trang trọng: “¿Le puedo…?”, “¿Me comunica…?”.",
+        "pt-BR": "Use “usted” e “le” em ligações formais: “¿Le puedo…?”, “¿Me comunica…?”.",
+        "fr": "Utilisez « usted » et « le » dans les appels formels : « ¿Le puedo…? », « ¿Me comunica…? ».",
+        "de": "Benutze „usted“ und „le“ bei förmlichen Anrufen: „¿Le puedo…?“, „¿Me comunica…?“.",
+        "it": "Usa “usted” e “le” nelle chiamate formali: “¿Le puedo…?”, “¿Me comunica…?”.",
+        "ja": "改まった電話では「usted」と「le」を使う：「¿Le puedo…?」「¿Me comunica…?」。",
+        "zh-Hans": "正式通话用“usted”和“le”：“¿Le puedo…?”、“¿Me comunica…?”。"
       },
       "icon": "phone",
       "phrases": [
         {
           "es": "¿Bueno?",
           "en": "Hello? (answering in Mexico)",
-          "vi": "A lô? (nghe máy ở Mexico)"
+          "vi": "A lô? (nghe máy ở Mexico)",
+          "pt-BR": "Alô? (atendendo no México)",
+          "fr": "Allô ? (en décrochant au Mexique)",
+          "de": "Hallo? (Melden am Telefon in Mexiko)",
+          "it": "Pronto? (rispondendo in Messico)",
+          "ja": "もしもし？（メキシコでの電話の出方）",
+          "zh-Hans": "喂？（墨西哥接电话的说法）"
         },
         {
           "es": "¿Me comunica con la señora Ruiz?",
           "en": "Could you put me through to Mrs. Ruiz?",
-          "vi": "Cho tôi nói chuyện với bà Ruiz được không?"
+          "vi": "Cho tôi nói chuyện với bà Ruiz được không?",
+          "pt-BR": "Pode me passar para a Sra. Ruiz?",
+          "fr": "Pourriez-vous me passer Mme Ruiz ?",
+          "de": "Könnten Sie mich mit Frau Ruiz verbinden?",
+          "it": "Mi può passare la signora Ruiz?",
+          "ja": "ルイスさんにつないでいただけますか？",
+          "zh-Hans": "能帮我转接鲁伊斯女士吗？"
         },
         {
           "es": "¿De parte de quién?",
           "en": "Who's calling?",
-          "vi": "Ai đang gọi vậy ạ?"
+          "vi": "Ai đang gọi vậy ạ?",
+          "pt-BR": "Quem fala?",
+          "fr": "C’est de la part de qui ?",
+          "de": "Wer spricht da?",
+          "it": "Chi parla?",
+          "ja": "どちら様ですか？",
+          "zh-Hans": "请问是哪位？"
         },
         {
           "es": "Un momento, por favor.",
           "en": "One moment, please.",
-          "vi": "Xin chờ một chút."
+          "vi": "Xin chờ một chút.",
+          "pt-BR": "Um momento, por favor.",
+          "fr": "Un instant, s’il vous plaît.",
+          "de": "Einen Moment, bitte.",
+          "it": "Un momento, per favore.",
+          "ja": "少々お待ちください。",
+          "zh-Hans": "请稍等。"
         },
         {
           "es": "¿Le puedo dejar un mensaje?",
           "en": "Can I leave her a message?",
-          "vi": "Tôi để lại lời nhắn được không?"
+          "vi": "Tôi để lại lời nhắn được không?",
+          "pt-BR": "Posso deixar um recado para ela?",
+          "fr": "Puis-je lui laisser un message ?",
+          "de": "Kann ich ihr eine Nachricht hinterlassen?",
+          "it": "Posso lasciarle un messaggio?",
+          "ja": "彼女に伝言をお願いできますか？",
+          "zh-Hans": "我可以给她留个言吗？"
         },
         {
           "es": "Se cortó la llamada.",
           "en": "The call dropped.",
-          "vi": "Cuộc gọi bị ngắt."
+          "vi": "Cuộc gọi bị ngắt.",
+          "pt-BR": "A ligação caiu.",
+          "fr": "L’appel a coupé.",
+          "de": "Die Verbindung ist abgebrochen.",
+          "it": "È caduta la linea.",
+          "ja": "電話が切れました。",
+          "zh-Hans": "电话断了。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "booking",
       "title": {
         "en": "Booking appointments",
-        "vi": "Đặt lịch hẹn"
+        "vi": "Đặt lịch hẹn",
+        "pt-BR": "Marcando horários",
+        "fr": "Prendre rendez-vous",
+        "de": "Termine vereinbaren",
+        "it": "Prendere appuntamenti",
+        "ja": "予約を取る",
+        "zh-Hans": "预约"
       },
       "description": {
         "en": "Ask for times and confirm details.",
-        "vi": "Hỏi giờ và xác nhận thông tin."
+        "vi": "Hỏi giờ và xác nhận thông tin.",
+        "pt-BR": "Pergunte horários e confirme detalhes.",
+        "fr": "Demandez des horaires et confirmez les détails.",
+        "de": "Frag nach Zeiten und bestätige Details.",
+        "it": "Chiedi orari e conferma i dettagli.",
+        "ja": "時間を聞いて詳細を確認しよう。",
+        "zh-Hans": "询问时间并确认细节。"
       },
       "focus": {
         "en": "“Quería…” and “¿Podría…?” are softer than “quiero” and “¿puede?”.",
-        "vi": "“Quería…” và “¿Podría…?” mềm mỏng hơn “quiero” và “¿puede?”."
+        "vi": "“Quería…” và “¿Podría…?” mềm mỏng hơn “quiero” và “¿puede?”.",
+        "pt-BR": "“Quería…” e “¿Podría…?” são mais suaves que “quiero” e “¿puede?”.",
+        "fr": "« Quería… » et « ¿Podría…? » sont plus doux que « quiero » et « ¿puede? ».",
+        "de": "„Quería…“ und „¿Podría…?“ klingen sanfter als „quiero“ und „¿puede?“.",
+        "it": "“Quería…” e “¿Podría…?” sono più gentili di “quiero” e “¿puede?”.",
+        "ja": "「Quería…」「¿Podría…?」は「quiero」「¿puede?」より柔らかい。",
+        "zh-Hans": "“Quería…”和“¿Podría…?”比“quiero”和“¿puede?”更委婉。"
       },
       "icon": "calendar",
       "phrases": [
         {
           "es": "Quería hacer una cita.",
           "en": "I'd like to make an appointment.",
-          "vi": "Tôi muốn đặt lịch hẹn."
+          "vi": "Tôi muốn đặt lịch hẹn.",
+          "pt-BR": "Eu gostaria de marcar uma consulta.",
+          "fr": "Je voudrais prendre rendez-vous.",
+          "de": "Ich hätte gern einen Termin.",
+          "it": "Vorrei prendere un appuntamento.",
+          "ja": "予約をお願いしたいのですが。",
+          "zh-Hans": "我想预约一下。"
         },
         {
           "es": "¿Tiene algo disponible el jueves?",
           "en": "Do you have anything available on Thursday?",
-          "vi": "Thứ Năm còn lịch trống không?"
+          "vi": "Thứ Năm còn lịch trống không?",
+          "pt-BR": "Tem algum horário na quinta?",
+          "fr": "Avez-vous une disponibilité jeudi ?",
+          "de": "Haben Sie am Donnerstag etwas frei?",
+          "it": "Avete qualcosa di libero giovedì?",
+          "ja": "木曜日に空きはありますか？",
+          "zh-Hans": "周四有空位吗？"
         },
         {
           "es": "¿Podría ser más temprano?",
           "en": "Could it be earlier?",
-          "vi": "Có thể sớm hơn được không?"
+          "vi": "Có thể sớm hơn được không?",
+          "pt-BR": "Pode ser mais cedo?",
+          "fr": "Ce serait possible plus tôt ?",
+          "de": "Ginge es auch früher?",
+          "it": "Si potrebbe fare prima?",
+          "ja": "もっと早い時間は可能ですか？",
+          "zh-Hans": "能早一点吗？"
         },
         {
           "es": "Me queda bien a las cuatro.",
           "en": "Four o'clock works for me.",
-          "vi": "Bốn giờ là tiện cho tôi."
+          "vi": "Bốn giờ là tiện cho tôi.",
+          "pt-BR": "Às quatro fica bom para mim.",
+          "fr": "Seize heures me convient.",
+          "de": "Um vier passt es mir.",
+          "it": "Alle quattro mi va bene.",
+          "ja": "4時なら大丈夫です。",
+          "zh-Hans": "四点我可以。"
         },
         {
           "es": "Necesito cancelar mi cita.",
           "en": "I need to cancel my appointment.",
-          "vi": "Tôi cần hủy lịch hẹn."
+          "vi": "Tôi cần hủy lịch hẹn.",
+          "pt-BR": "Preciso cancelar minha consulta.",
+          "fr": "Je dois annuler mon rendez-vous.",
+          "de": "Ich muss meinen Termin absagen.",
+          "it": "Devo cancellare il mio appuntamento.",
+          "ja": "予約をキャンセルしなければなりません。",
+          "zh-Hans": "我需要取消预约。"
         },
         {
           "es": "¿Me lo puede confirmar por correo?",
           "en": "Could you confirm it by email?",
-          "vi": "Bạn xác nhận qua email giúp tôi được không?"
+          "vi": "Bạn xác nhận qua email giúp tôi được không?",
+          "pt-BR": "Pode confirmar por e-mail?",
+          "fr": "Pourriez-vous le confirmer par e-mail ?",
+          "de": "Könnten Sie ihn per E-Mail bestätigen?",
+          "it": "Potrebbe confermarlo via e-mail?",
+          "ja": "メールで確認していただけますか？",
+          "zh-Hans": "能用邮件确认一下吗？"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "dentist",
       "title": {
         "en": "Book a dentist appointment",
-        "vi": "Đặt lịch khám nha sĩ"
+        "vi": "Đặt lịch khám nha sĩ",
+        "pt-BR": "Marque uma consulta no dentista",
+        "fr": "Rendez-vous chez le dentiste",
+        "de": "Einen Zahnarzttermin machen",
+        "it": "Prenota dal dentista",
+        "ja": "歯医者の予約",
+        "zh-Hans": "预约看牙医"
       },
       "description": {
         "en": "Call a clinic and find a time that works.",
-        "vi": "Gọi phòng khám và chọn giờ phù hợp."
+        "vi": "Gọi phòng khám và chọn giờ phù hợp.",
+        "pt-BR": "Ligue para uma clínica e encontre um horário bom.",
+        "fr": "Appelez un cabinet et trouvez un créneau.",
+        "de": "Ruf eine Praxis an und finde einen passenden Termin.",
+        "it": "Chiama uno studio e trova un orario adatto.",
+        "ja": "クリニックに電話して都合のいい時間を見つけよう。",
+        "zh-Hans": "给诊所打电话，找一个合适的时间。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Clínica Dental Sonrisa, buenas tardes.",
           "translation": {
             "en": "Sonrisa Dental Clinic, good afternoon.",
-            "vi": "Phòng khám Nha khoa Sonrisa xin nghe, chào buổi chiều."
+            "vi": "Phòng khám Nha khoa Sonrisa xin nghe, chào buổi chiều.",
+            "pt-BR": "Clínica Dental Sonrisa, boa tarde.",
+            "fr": "Cabinet dentaire Sonrisa, bonjour.",
+            "de": "Zahnklinik Sonrisa, guten Tag.",
+            "it": "Clinica Dentale Sonrisa, buon pomeriggio.",
+            "ja": "ソンリサ歯科です、こんにちは。",
+            "zh-Hans": "微笑牙科诊所，下午好。"
           },
           "hint": {
             "en": "Say why you're calling with “Quería…”.",
-            "vi": "Nói lý do gọi bằng “Quería…”."
+            "vi": "Nói lý do gọi bằng “Quería…”.",
+            "pt-BR": "Diga por que está ligando com “Quería…”.",
+            "fr": "Dites pourquoi vous appelez avec « Quería… ».",
+            "de": "Sag mit „Quería…“, warum du anrufst.",
+            "it": "Di’ perché chiami con “Quería…”.",
+            "ja": "「Quería…」で電話の用件を言おう。",
+            "zh-Hans": "用“Quería…”说明来电目的。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Buenas tardes, quería hacer una cita.",
               "translation": {
                 "en": "Good afternoon, I'd like to make an appointment.",
-                "vi": "Chào buổi chiều, tôi muốn đặt lịch hẹn."
+                "vi": "Chào buổi chiều, tôi muốn đặt lịch hẹn.",
+                "pt-BR": "Boa tarde, eu gostaria de marcar uma consulta.",
+                "fr": "Bonjour, je voudrais prendre rendez-vous.",
+                "de": "Guten Tag, ich hätte gern einen Termin.",
+                "it": "Buon pomeriggio, vorrei prendere un appuntamento.",
+                "ja": "こんにちは、予約をお願いしたいのですが。",
+                "zh-Hans": "下午好，我想预约一下。"
               },
               "correct": true,
               "response": "Claro. ¿Qué día le queda mejor?",
               "responseTranslation": {
                 "en": "Sure. Which day works best for you?",
-                "vi": "Vâng. Ngày nào tiện cho anh/chị?"
+                "vi": "Vâng. Ngày nào tiện cho anh/chị?",
+                "pt-BR": "Claro. Que dia é melhor para você?",
+                "fr": "Bien sûr. Quel jour vous arrange ?",
+                "de": "Gern. Welcher Tag passt Ihnen am besten?",
+                "it": "Certo. Che giorno le va meglio?",
+                "ja": "かしこまりました。何曜日がご都合よろしいですか？",
+                "zh-Hans": "好的。您哪天方便？"
               },
               "next": "day"
             },
@@ -157,13 +313,25 @@
               "es": "Hola, quería una revisión con el dentista.",
               "translation": {
                 "en": "Hi, I'd like a check-up with the dentist.",
-                "vi": "Chào, tôi muốn khám tổng quát với nha sĩ."
+                "vi": "Chào, tôi muốn khám tổng quát với nha sĩ.",
+                "pt-BR": "Olá, eu queria uma revisão com o dentista.",
+                "fr": "Bonjour, je voudrais un contrôle chez le dentiste.",
+                "de": "Hallo, ich hätte gern eine Kontrolle beim Zahnarzt.",
+                "it": "Salve, vorrei un controllo dal dentista.",
+                "ja": "こんにちは、歯の検診をお願いしたいのですが。",
+                "zh-Hans": "您好，我想找牙医做个检查。"
               },
               "correct": true,
               "response": "Con gusto. ¿Qué día le queda mejor?",
               "responseTranslation": {
                 "en": "Gladly. Which day works best?",
-                "vi": "Rất sẵn lòng. Ngày nào tiện ạ?"
+                "vi": "Rất sẵn lòng. Ngày nào tiện ạ?",
+                "pt-BR": "Com prazer. Que dia é melhor?",
+                "fr": "Avec plaisir. Quel jour vous arrange ?",
+                "de": "Sehr gern. Welcher Tag passt am besten?",
+                "it": "Con piacere. Che giorno le va meglio?",
+                "ja": "喜んで。何曜日がよろしいですか？",
+                "zh-Hans": "乐意效劳。您哪天方便？"
               },
               "next": "day"
             },
@@ -172,14 +340,26 @@
               "es": "¿Bueno?",
               "translation": {
                 "en": "Hello?",
-                "vi": "A lô?"
+                "vi": "A lô?",
+                "pt-BR": "Alô?",
+                "fr": "Allô ?",
+                "de": "Hallo?",
+                "it": "Pronto?",
+                "ja": "もしもし？",
+                "zh-Hans": "喂？"
               },
               "correct": false,
               "correction": "Buenas tardes, quería hacer una cita.",
               "response": "Sí, le escucho. ¿En qué le puedo ayudar?",
               "responseTranslation": {
                 "en": "Yes, I hear you. How can I help?",
-                "vi": "Vâng, tôi nghe. Tôi giúp gì được ạ?"
+                "vi": "Vâng, tôi nghe. Tôi giúp gì được ạ?",
+                "pt-BR": "Sim, estou ouvindo. Como posso ajudar?",
+                "fr": "Oui, je vous entends. Que puis-je faire pour vous ?",
+                "de": "Ja, ich höre Sie. Wie kann ich helfen?",
+                "it": "Sì, la sento. Come posso aiutarla?",
+                "ja": "はい、聞こえています。ご用件は？",
+                "zh-Hans": "是的，我听得到。有什么可以帮您？"
               },
               "next": "day"
             }
@@ -190,11 +370,23 @@
           "prompt": "Tenemos el jueves a las once o el viernes a las cuatro.",
           "translation": {
             "en": "We have Thursday at eleven or Friday at four.",
-            "vi": "Còn thứ Năm lúc mười một giờ hoặc thứ Sáu lúc bốn giờ."
+            "vi": "Còn thứ Năm lúc mười một giờ hoặc thứ Sáu lúc bốn giờ.",
+            "pt-BR": "Temos quinta às onze ou sexta às quatro.",
+            "fr": "Nous avons jeudi à onze heures ou vendredi à seize heures.",
+            "de": "Wir haben Donnerstag um elf oder Freitag um vier.",
+            "it": "Abbiamo giovedì alle undici o venerdì alle quattro.",
+            "ja": "木曜の11時か金曜の4時が空いています。",
+            "zh-Hans": "我们有周四十一点或周五四点。"
           },
           "hint": {
             "en": "Pick one, or ask for another time.",
-            "vi": "Chọn một, hoặc hỏi giờ khác."
+            "vi": "Chọn một, hoặc hỏi giờ khác.",
+            "pt-BR": "Escolha um ou peça outro horário.",
+            "fr": "Choisissez-en un ou demandez un autre horaire.",
+            "de": "Wähle einen oder frag nach einer anderen Zeit.",
+            "it": "Scegline uno o chiedi un altro orario.",
+            "ja": "どちらかを選ぶか、別の時間を頼もう。",
+            "zh-Hans": "选一个，或者要求换个时间。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "El viernes a las cuatro me queda bien.",
               "translation": {
                 "en": "Friday at four works for me.",
-                "vi": "Thứ Sáu lúc bốn giờ là tiện cho tôi."
+                "vi": "Thứ Sáu lúc bốn giờ là tiện cho tôi.",
+                "pt-BR": "Sexta às quatro fica bom para mim.",
+                "fr": "Vendredi à seize heures me convient.",
+                "de": "Freitag um vier passt mir.",
+                "it": "Venerdì alle quattro mi va bene.",
+                "ja": "金曜の4時でお願いします。",
+                "zh-Hans": "周五四点我可以。"
               },
               "correct": true,
               "response": "Perfecto. ¿A nombre de quién?",
               "responseTranslation": {
                 "en": "Perfect. Under what name?",
-                "vi": "Tuyệt. Đặt tên ai ạ?"
+                "vi": "Tuyệt. Đặt tên ai ạ?",
+                "pt-BR": "Perfeito. Em nome de quem?",
+                "fr": "Parfait. À quel nom ?",
+                "de": "Perfekt. Auf welchen Namen?",
+                "it": "Perfetto. A che nome?",
+                "ja": "かしこまりました。お名前は？",
+                "zh-Hans": "好的。用什么名字预约？"
               },
               "next": "name"
             },
@@ -217,13 +421,25 @@
               "es": "¿Podría ser el jueves más temprano?",
               "translation": {
                 "en": "Could it be Thursday, earlier?",
-                "vi": "Thứ Năm sớm hơn được không?"
+                "vi": "Thứ Năm sớm hơn được không?",
+                "pt-BR": "Pode ser na quinta, mais cedo?",
+                "fr": "Ce serait possible jeudi, plus tôt ?",
+                "de": "Ginge Donnerstag, etwas früher?",
+                "it": "Si potrebbe giovedì, più presto?",
+                "ja": "木曜のもっと早い時間はできますか？",
+                "zh-Hans": "周四能早一点吗？"
               },
               "correct": true,
               "response": "A las nueve también hay. ¿A nombre de quién?",
               "responseTranslation": {
                 "en": "Nine is also open. Under what name?",
-                "vi": "Chín giờ cũng còn. Đặt tên ai ạ?"
+                "vi": "Chín giờ cũng còn. Đặt tên ai ạ?",
+                "pt-BR": "Às nove também está livre. Em nome de quem?",
+                "fr": "Neuf heures est libre aussi. À quel nom ?",
+                "de": "Um neun ist auch frei. Auf welchen Namen?",
+                "it": "Anche alle nove è libero. A che nome?",
+                "ja": "9時も空いています。お名前は？",
+                "zh-Hans": "九点也有空。用什么名字预约？"
               },
               "next": "name"
             },
@@ -232,14 +448,26 @@
               "es": "Necesito cancelar mi cita.",
               "translation": {
                 "en": "I need to cancel my appointment.",
-                "vi": "Tôi cần hủy lịch."
+                "vi": "Tôi cần hủy lịch.",
+                "pt-BR": "Preciso cancelar minha consulta.",
+                "fr": "Je dois annuler mon rendez-vous.",
+                "de": "Ich muss meinen Termin absagen.",
+                "it": "Devo cancellare il mio appuntamento.",
+                "ja": "予約をキャンセルしなければなりません。",
+                "zh-Hans": "我需要取消预约。"
               },
               "correct": false,
               "correction": "El viernes a las cuatro me queda bien.",
               "response": "Pero todavía no tiene cita. ¿Cuál prefiere?",
               "responseTranslation": {
                 "en": "But you don't have one yet. Which do you prefer?",
-                "vi": "Nhưng anh/chị chưa có lịch mà. Chọn giờ nào ạ?"
+                "vi": "Nhưng anh/chị chưa có lịch mà. Chọn giờ nào ạ?",
+                "pt-BR": "Mas você ainda não tem. Qual prefere?",
+                "fr": "Mais vous n’en avez pas encore. Lequel préférez-vous ?",
+                "de": "Aber Sie haben noch keinen. Welchen möchten Sie?",
+                "it": "Ma non ce l’ha ancora. Quale preferisce?",
+                "ja": "でもまだ予約されていませんよ。どちらがよろしいですか？",
+                "zh-Hans": "但您还没有预约呢。您想要哪个？"
               },
               "next": "name"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿A nombre de quién la registro?",
           "translation": {
             "en": "Under whose name shall I book it?",
-            "vi": "Tôi đặt dưới tên ai ạ?"
+            "vi": "Tôi đặt dưới tên ai ạ?",
+            "pt-BR": "Em nome de quem eu marco?",
+            "fr": "À quel nom dois-je le réserver ?",
+            "de": "Auf wessen Namen soll ich ihn eintragen?",
+            "it": "A nome di chi lo prenoto?",
+            "ja": "どなたのお名前で予約しましょうか？",
+            "zh-Hans": "用谁的名字预约？"
           },
           "hint": {
             "en": "Give your name and ask for a confirmation.",
-            "vi": "Nói tên và xin xác nhận."
+            "vi": "Nói tên và xin xác nhận.",
+            "pt-BR": "Diga seu nome e peça uma confirmação.",
+            "fr": "Donnez votre nom et demandez une confirmation.",
+            "de": "Nenne deinen Namen und bitte um eine Bestätigung.",
+            "it": "Di’ il tuo nome e chiedi una conferma.",
+            "ja": "名前を伝えて、確認を頼もう。",
+            "zh-Hans": "报上姓名并要求确认。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "A nombre de Alex Lee. ¿Me lo puede confirmar por correo?",
               "translation": {
                 "en": "Under Alex Lee. Could you confirm it by email?",
-                "vi": "Tên Alex Lee. Bạn xác nhận qua email giúp tôi nhé?"
+                "vi": "Tên Alex Lee. Bạn xác nhận qua email giúp tôi nhé?",
+                "pt-BR": "Em nome de Alex Lee. Pode confirmar por e-mail?",
+                "fr": "Au nom d’Alex Lee. Pourriez-vous le confirmer par e-mail ?",
+                "de": "Auf Alex Lee. Könnten Sie ihn per E-Mail bestätigen?",
+                "it": "A nome di Alex Lee. Potrebbe confermarlo via e-mail?",
+                "ja": "アレックス・リーです。メールで確認していただけますか？",
+                "zh-Hans": "Alex Lee。能用邮件确认一下吗？"
               },
               "correct": true,
               "response": "Claro, le llega en unos minutos. ¡Hasta el viernes!",
               "responseTranslation": {
                 "en": "Sure, it'll arrive in a few minutes. See you Friday!",
-                "vi": "Vâng, vài phút nữa sẽ tới. Hẹn gặp thứ Sáu!"
+                "vi": "Vâng, vài phút nữa sẽ tới. Hẹn gặp thứ Sáu!",
+                "pt-BR": "Claro, chega em alguns minutos. Até sexta!",
+                "fr": "Bien sûr, vous le recevrez dans quelques minutes. À vendredi !",
+                "de": "Natürlich, sie kommt in ein paar Minuten. Bis Freitag!",
+                "it": "Certo, arriverà tra pochi minuti. A venerdì!",
+                "ja": "もちろんです、数分で届きます。では金曜日に！",
+                "zh-Hans": "当然，几分钟后就会收到。周五见！"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "A nombre de Alex Lee. Muchas gracias.",
               "translation": {
                 "en": "Under Alex Lee. Thank you very much.",
-                "vi": "Tên Alex Lee. Cảm ơn nhiều."
+                "vi": "Tên Alex Lee. Cảm ơn nhiều.",
+                "pt-BR": "Em nome de Alex Lee. Muito obrigado.",
+                "fr": "Au nom d’Alex Lee. Merci beaucoup.",
+                "de": "Auf Alex Lee. Vielen Dank.",
+                "it": "A nome di Alex Lee. Grazie mille.",
+                "ja": "アレックス・リーです。ありがとうございます。",
+                "zh-Hans": "Alex Lee。非常感谢。"
               },
               "correct": true,
               "response": "Con gusto. Lo esperamos.",
               "responseTranslation": {
                 "en": "My pleasure. We'll see you then.",
-                "vi": "Rất hân hạnh. Hẹn gặp anh/chị."
+                "vi": "Rất hân hạnh. Hẹn gặp anh/chị.",
+                "pt-BR": "Por nada. Até lá.",
+                "fr": "Avec plaisir. À bientôt.",
+                "de": "Gern geschehen. Bis dann.",
+                "it": "Di niente. Ci vediamo allora.",
+                "ja": "どういたしまして。お待ちしております。",
+                "zh-Hans": "不客气。到时见。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "¿Le puedo dejar un mensaje?",
               "translation": {
                 "en": "Can I leave a message?",
-                "vi": "Tôi để lại lời nhắn được không?"
+                "vi": "Tôi để lại lời nhắn được không?",
+                "pt-BR": "Posso deixar um recado?",
+                "fr": "Puis-je laisser un message ?",
+                "de": "Kann ich eine Nachricht hinterlassen?",
+                "it": "Posso lasciare un messaggio?",
+                "ja": "伝言をお願いできますか？",
+                "zh-Hans": "我可以留言吗？"
               },
               "correct": false,
               "correction": "A nombre de Alex Lee. Muchas gracias.",
               "response": "No hace falta, ya casi terminamos. ¿Su nombre?",
               "responseTranslation": {
                 "en": "No need, we're almost done. Your name?",
-                "vi": "Không cần đâu, sắp xong rồi. Tên anh/chị là gì?"
+                "vi": "Không cần đâu, sắp xong rồi. Tên anh/chị là gì?",
+                "pt-BR": "Não precisa, estamos quase terminando. Seu nome?",
+                "fr": "Pas la peine, on a presque fini. Votre nom ?",
+                "de": "Nicht nötig, wir sind fast fertig. Ihr Name?",
+                "it": "Non serve, abbiamo quasi finito. Il suo nome?",
+                "ja": "大丈夫です、もうすぐ終わりますので。お名前は？",
+                "zh-Hans": "不用了，我们快弄好了。您的名字？"
               }
             }
           ]

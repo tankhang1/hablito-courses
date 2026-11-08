@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-13",
-  "version": 1,
+  "version": 2,
   "level": 13,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 5: Memories & childhood",
-    "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ"
+    "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ",
+    "pt-BR": "Intermediário 5: Lembranças e infância",
+    "fr": "Intermédiaire 5 : Souvenirs et enfance",
+    "de": "Mittelstufe 5: Erinnerungen und Kindheit",
+    "it": "Intermedio 5: Ricordi e infanzia",
+    "ja": "中級 5：思い出と子ども時代",
+    "zh-Hans": "中级 5：回忆和童年"
   },
   "description": {
     "en": "Tell what life used to be like.",
-    "vi": "Kể cuộc sống ngày xưa như thế nào."
+    "vi": "Kể cuộc sống ngày xưa như thế nào.",
+    "pt-BR": "Conte como era a vida antes.",
+    "fr": "Racontez comment était la vie avant.",
+    "de": "Erzähl, wie das Leben früher war.",
+    "it": "Racconta com’era la vita una volta.",
+    "ja": "昔の暮らしを話そう。",
+    "zh-Hans": "讲讲以前的生活是什么样。"
   },
   "lessons": [
     {
       "id": "childhood",
       "title": {
         "en": "When I was a kid",
-        "vi": "Khi tôi còn nhỏ"
+        "vi": "Khi tôi còn nhỏ",
+        "pt-BR": "Quando eu era criança",
+        "fr": "Quand j’étais petit",
+        "de": "Als ich klein war",
+        "it": "Quando ero piccolo",
+        "ja": "子どものころ",
+        "zh-Hans": "我小时候"
       },
       "description": {
         "en": "Describe habits in the past.",
-        "vi": "Miêu tả thói quen trong quá khứ."
+        "vi": "Miêu tả thói quen trong quá khứ.",
+        "pt-BR": "Descreva hábitos no passado.",
+        "fr": "Décrivez des habitudes passées.",
+        "de": "Beschreibe Gewohnheiten in der Vergangenheit.",
+        "it": "Descrivi abitudini del passato.",
+        "ja": "過去の習慣を説明しよう。",
+        "zh-Hans": "描述过去的习惯。"
       },
       "focus": {
         "en": "The imperfect describes habits and background in the past: vivía, jugaba, era, íbamos.",
-        "vi": "Thì quá khứ chưa hoàn thành (imperfecto) tả thói quen và bối cảnh: vivía, jugaba, era, íbamos."
+        "vi": "Thì quá khứ chưa hoàn thành (imperfecto) tả thói quen và bối cảnh: vivía, jugaba, era, íbamos.",
+        "pt-BR": "O imperfeito descreve hábitos e o contexto no passado: vivía, jugaba, era, íbamos.",
+        "fr": "L’imparfait décrit les habitudes et le contexte passés : vivía, jugaba, era, íbamos.",
+        "de": "Das Imperfekt beschreibt Gewohnheiten und Hintergrund in der Vergangenheit: vivía, jugaba, era, íbamos.",
+        "it": "L’imperfetto descrive abitudini e contesto nel passato: vivía, jugaba, era, íbamos.",
+        "ja": "線過去は過去の習慣や背景を表す：vivía, jugaba, era, íbamos。",
+        "zh-Hans": "未完成过去时描述过去的习惯和背景：vivía, jugaba, era, íbamos。"
       },
       "icon": "rewind",
       "phrases": [
         {
           "es": "Cuando era niño, vivía en el campo.",
           "en": "When I was a kid, I lived in the countryside.",
-          "vi": "Hồi nhỏ tôi sống ở quê."
+          "vi": "Hồi nhỏ tôi sống ở quê.",
+          "pt-BR": "Quando eu era criança, morava no campo.",
+          "fr": "Quand j’étais petit, je vivais à la campagne.",
+          "de": "Als ich klein war, lebte ich auf dem Land.",
+          "it": "Quando ero piccolo, vivevo in campagna.",
+          "ja": "子どものころ、田舎に住んでいました。",
+          "zh-Hans": "我小时候住在乡下。"
         },
         {
           "es": "Jugaba en la calle con mis primos.",
           "en": "I used to play in the street with my cousins.",
-          "vi": "Tôi hay chơi ngoài đường với anh chị em họ."
+          "vi": "Tôi hay chơi ngoài đường với anh chị em họ.",
+          "pt-BR": "Eu brincava na rua com meus primos.",
+          "fr": "Je jouais dans la rue avec mes cousins.",
+          "de": "Ich spielte immer mit meinen Cousins auf der Straße.",
+          "it": "Giocavo per strada con i miei cugini.",
+          "ja": "いとこたちとよく通りで遊んでいました。",
+          "zh-Hans": "我以前常和表兄弟在街上玩。"
         },
         {
           "es": "Mi abuela siempre cocinaba los domingos.",
           "en": "My grandmother always cooked on Sundays.",
-          "vi": "Bà tôi luôn nấu ăn vào Chủ Nhật."
+          "vi": "Bà tôi luôn nấu ăn vào Chủ Nhật.",
+          "pt-BR": "Minha avó sempre cozinhava aos domingos.",
+          "fr": "Ma grand-mère cuisinait toujours le dimanche.",
+          "de": "Meine Oma kochte sonntags immer.",
+          "it": "Mia nonna cucinava sempre la domenica.",
+          "ja": "祖母は日曜日にいつも料理をしていました。",
+          "zh-Hans": "我奶奶每个星期天都做饭。"
         },
         {
           "es": "No teníamos internet.",
           "en": "We didn't have internet.",
-          "vi": "Hồi đó chúng tôi không có internet."
+          "vi": "Hồi đó chúng tôi không có internet.",
+          "pt-BR": "Não tínhamos internet.",
+          "fr": "Nous n’avions pas internet.",
+          "de": "Wir hatten kein Internet.",
+          "it": "Non avevamo internet.",
+          "ja": "インターネットはありませんでした。",
+          "zh-Hans": "我们那时没有网络。"
         },
         {
           "es": "Me gustaba mucho leer.",
           "en": "I really liked reading.",
-          "vi": "Tôi rất thích đọc sách."
+          "vi": "Tôi rất thích đọc sách.",
+          "pt-BR": "Eu gostava muito de ler.",
+          "fr": "J’aimais beaucoup lire.",
+          "de": "Ich habe sehr gern gelesen.",
+          "it": "Mi piaceva molto leggere.",
+          "ja": "読書が大好きでした。",
+          "zh-Hans": "我以前很喜欢看书。"
         },
         {
           "es": "Íbamos a la playa cada verano.",
           "en": "We used to go to the beach every summer.",
-          "vi": "Mùa hè nào chúng tôi cũng đi biển."
+          "vi": "Mùa hè nào chúng tôi cũng đi biển.",
+          "pt-BR": "Íamos à praia todo verão.",
+          "fr": "Nous allions à la plage chaque été.",
+          "de": "Wir fuhren jeden Sommer ans Meer.",
+          "it": "Andavamo al mare ogni estate.",
+          "ja": "毎年夏は海に行っていました。",
+          "zh-Hans": "我们每年夏天都去海边。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "memories",
       "title": {
         "en": "Sharing memories",
-        "vi": "Chia sẻ kỷ niệm"
+        "vi": "Chia sẻ kỷ niệm",
+        "pt-BR": "Compartilhando lembranças",
+        "fr": "Partager des souvenirs",
+        "de": "Erinnerungen teilen",
+        "it": "Condividere ricordi",
+        "ja": "思い出を語り合う",
+        "zh-Hans": "分享回忆"
       },
       "description": {
         "en": "React and connect with memories.",
-        "vi": "Phản hồi và kết nối qua kỷ niệm."
+        "vi": "Phản hồi và kết nối qua kỷ niệm.",
+        "pt-BR": "Reaja e se conecte com lembranças.",
+        "fr": "Réagissez et échangez des souvenirs.",
+        "de": "Reagiere auf Erinnerungen und tausche sie aus.",
+        "it": "Reagisci e collegati ai ricordi.",
+        "ja": "思い出に反応して共感しよう。",
+        "zh-Hans": "回应并分享回忆。"
       },
       "focus": {
         "en": "“Acordarse de” = to remember; “antes” + imperfect = “used to”; “ya no” = “not anymore”.",
-        "vi": "“Acordarse de” = nhớ lại; “antes” + imperfecto = “ngày xưa thường”; “ya no” = “không còn nữa”."
+        "vi": "“Acordarse de” = nhớ lại; “antes” + imperfecto = “ngày xưa thường”; “ya no” = “không còn nữa”.",
+        "pt-BR": "“Acordarse de” = lembrar-se; “antes” + imperfeito = “costumava”; “ya no” = “não mais”.",
+        "fr": "« Acordarse de » = se souvenir de ; « antes » + imparfait = « avant, je… » ; « ya no » = « ne… plus ».",
+        "de": "„Acordarse de“ = sich erinnern an; „antes“ + Imperfekt = „früher“; „ya no“ = „nicht mehr“.",
+        "it": "“Acordarse de” = ricordarsi di; “antes” + imperfetto = “prima, una volta”; “ya no” = “non più”.",
+        "ja": "「Acordarse de」＝〜を覚えている。「antes」＋線過去＝「以前は〜していた」。「ya no」＝「もう〜ない」。",
+        "zh-Hans": "“Acordarse de”= 记得；“antes”+ 未完成过去时 =“以前常常”；“ya no”=“不再”。"
       },
       "icon": "image",
       "phrases": [
         {
           "es": "Me acuerdo de mi primer día de escuela.",
           "en": "I remember my first day of school.",
-          "vi": "Tôi nhớ ngày đầu tiên đi học."
+          "vi": "Tôi nhớ ngày đầu tiên đi học.",
+          "pt-BR": "Eu me lembro do meu primeiro dia de aula.",
+          "fr": "Je me souviens de mon premier jour d’école.",
+          "de": "Ich erinnere mich an meinen ersten Schultag.",
+          "it": "Mi ricordo il mio primo giorno di scuola.",
+          "ja": "学校の初日を覚えています。",
+          "zh-Hans": "我记得上学的第一天。"
         },
         {
           "es": "¡Qué recuerdos!",
           "en": "What memories!",
-          "vi": "Bao nhiêu kỷ niệm!"
+          "vi": "Bao nhiêu kỷ niệm!",
+          "pt-BR": "Que lembranças!",
+          "fr": "Que de souvenirs !",
+          "de": "Was für Erinnerungen!",
+          "it": "Che ricordi!",
+          "ja": "懐かしい！",
+          "zh-Hans": "好怀念啊！"
         },
         {
           "es": "Antes todo era más barato.",
           "en": "Everything used to be cheaper.",
-          "vi": "Ngày xưa mọi thứ rẻ hơn."
+          "vi": "Ngày xưa mọi thứ rẻ hơn.",
+          "pt-BR": "Antes tudo era mais barato.",
+          "fr": "Avant, tout était moins cher.",
+          "de": "Früher war alles billiger.",
+          "it": "Prima era tutto più economico.",
+          "ja": "昔は何でも安かった。",
+          "zh-Hans": "以前什么都更便宜。"
         },
         {
           "es": "Extraño esos tiempos.",
           "en": "I miss those times.",
-          "vi": "Tôi nhớ những ngày đó."
+          "vi": "Tôi nhớ những ngày đó.",
+          "pt-BR": "Sinto falta daqueles tempos.",
+          "fr": "Cette époque me manque.",
+          "de": "Ich vermisse diese Zeiten.",
+          "it": "Mi mancano quei tempi.",
+          "ja": "あのころが懐かしい。",
+          "zh-Hans": "我怀念那些日子。"
         },
         {
           "es": "Ya no lo hago.",
           "en": "I don't do that anymore.",
-          "vi": "Giờ tôi không làm vậy nữa."
+          "vi": "Giờ tôi không làm vậy nữa.",
+          "pt-BR": "Já não faço mais isso.",
+          "fr": "Je ne fais plus ça.",
+          "de": "Das mache ich nicht mehr.",
+          "it": "Non lo faccio più.",
+          "ja": "もうそれはしていません。",
+          "zh-Hans": "我已经不那样做了。"
         },
         {
           "es": "¿Tú también hacías eso?",
           "en": "Did you used to do that too?",
-          "vi": "Bạn cũng từng làm vậy à?"
+          "vi": "Bạn cũng từng làm vậy à?",
+          "pt-BR": "Você também fazia isso?",
+          "fr": "Tu faisais ça aussi ?",
+          "de": "Hast du das auch immer gemacht?",
+          "it": "Anche tu lo facevi?",
+          "ja": "あなたもそうしていた？",
+          "zh-Hans": "你以前也那样吗？"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "old-days",
       "title": {
         "en": "Talk about the old days",
-        "vi": "Kể chuyện ngày xưa"
+        "vi": "Kể chuyện ngày xưa",
+        "pt-BR": "Falando dos velhos tempos",
+        "fr": "Parler du bon vieux temps",
+        "de": "Über alte Zeiten reden",
+        "it": "Parlare dei vecchi tempi",
+        "ja": "昔話をしよう",
+        "zh-Hans": "聊聊过去"
       },
       "description": {
         "en": "Swap childhood stories with a friend.",
-        "vi": "Trao đổi chuyện tuổi thơ với bạn."
+        "vi": "Trao đổi chuyện tuổi thơ với bạn.",
+        "pt-BR": "Troque histórias de infância com um amigo.",
+        "fr": "Échangez des histoires d’enfance avec un ami.",
+        "de": "Tausche Kindheitsgeschichten mit einem Freund aus.",
+        "it": "Scambia storie d’infanzia con un amico.",
+        "ja": "友だちと子ども時代の話をしよう。",
+        "zh-Hans": "和朋友交换童年故事。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Dónde vivías cuando eras niño?",
           "translation": {
             "en": "Where did you live when you were a kid?",
-            "vi": "Hồi nhỏ bạn sống ở đâu?"
+            "vi": "Hồi nhỏ bạn sống ở đâu?",
+            "pt-BR": "Onde você morava quando era criança?",
+            "fr": "Où vivais-tu quand tu étais petit ?",
+            "de": "Wo hast du als Kind gewohnt?",
+            "it": "Dove vivevi quando eri piccolo?",
+            "ja": "子どものころ、どこに住んでいたの？",
+            "zh-Hans": "你小时候住在哪儿？"
           },
           "hint": {
             "en": "Use the imperfect: “vivía…”.",
-            "vi": "Dùng imperfecto: “vivía…”."
+            "vi": "Dùng imperfecto: “vivía…”.",
+            "pt-BR": "Use o imperfeito: “vivía…”.",
+            "fr": "Utilisez l’imparfait : « vivía… ».",
+            "de": "Benutze das Imperfekt: „vivía…“.",
+            "it": "Usa l’imperfetto: “vivía…”.",
+            "ja": "線過去を使おう：「vivía…」。",
+            "zh-Hans": "用未完成过去时：“vivía…”。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Vivía en un pueblo pequeño en el campo.",
               "translation": {
                 "en": "I lived in a small town in the countryside.",
-                "vi": "Mình sống ở một thị trấn nhỏ ở quê."
+                "vi": "Mình sống ở một thị trấn nhỏ ở quê.",
+                "pt-BR": "Eu morava numa cidadezinha no interior.",
+                "fr": "Je vivais dans un petit village à la campagne.",
+                "de": "Ich wohnte in einem kleinen Dorf auf dem Land.",
+                "it": "Vivevo in un paesino in campagna.",
+                "ja": "田舎の小さな村に住んでいました。",
+                "zh-Hans": "我住在乡下的一个小镇。"
               },
               "correct": true,
               "response": "¡Qué bonito! ¿Qué hacías para divertirte?",
               "responseTranslation": {
                 "en": "How lovely! What did you do for fun?",
-                "vi": "Hay quá! Hồi đó bạn chơi gì?"
+                "vi": "Hay quá! Hồi đó bạn chơi gì?",
+                "pt-BR": "Que lindo! O que você fazia para se divertir?",
+                "fr": "Que c’est joli ! Que faisais-tu pour t’amuser ?",
+                "de": "Wie schön! Was hast du zum Spaß gemacht?",
+                "it": "Che bello! Cosa facevi per divertirti?",
+                "ja": "すてき！遊びは何をしていたの？",
+                "zh-Hans": "真好！你那时玩什么？"
               },
               "next": "fun"
             },
@@ -157,13 +313,25 @@
               "es": "Vivía en la ciudad con mis abuelos.",
               "translation": {
                 "en": "I lived in the city with my grandparents.",
-                "vi": "Mình sống ở thành phố với ông bà."
+                "vi": "Mình sống ở thành phố với ông bà.",
+                "pt-BR": "Eu morava na cidade com meus avós.",
+                "fr": "Je vivais en ville avec mes grands-parents.",
+                "de": "Ich wohnte in der Stadt bei meinen Großeltern.",
+                "it": "Vivevo in città con i miei nonni.",
+                "ja": "祖父母と都会に住んでいました。",
+                "zh-Hans": "我和爷爷奶奶住在城里。"
               },
               "correct": true,
               "response": "Ah, ¿y qué hacías para divertirte?",
               "responseTranslation": {
                 "en": "Ah, and what did you do for fun?",
-                "vi": "À, thế hồi đó bạn chơi gì?"
+                "vi": "À, thế hồi đó bạn chơi gì?",
+                "pt-BR": "Ah, e o que você fazia para se divertir?",
+                "fr": "Ah, et que faisais-tu pour t’amuser ?",
+                "de": "Ah, und was hast du zum Spaß gemacht?",
+                "it": "Ah, e cosa facevi per divertirti?",
+                "ja": "へえ、遊びは何をしていたの？",
+                "zh-Hans": "啊，那你那时玩什么？"
               },
               "next": "fun"
             },
@@ -172,14 +340,26 @@
               "es": "Viví en México.",
               "translation": {
                 "en": "I lived in Mexico (once, finished).",
-                "vi": "Mình đã sống ở Mexico."
+                "vi": "Mình đã sống ở Mexico.",
+                "pt-BR": "Morei no México (uma vez, terminado).",
+                "fr": "J’ai vécu au Mexique (une fois, terminé).",
+                "de": "Ich habe in Mexiko gelebt (einmalig, abgeschlossen).",
+                "it": "Ho vissuto in Messico (una volta, concluso).",
+                "ja": "メキシコに住んだ（一回きり、完了）。",
+                "zh-Hans": "我在墨西哥住过（一次性，已完成）。"
               },
               "correct": false,
               "correction": "Vivía en un pueblo pequeño en el campo.",
               "response": "¿Y de niño? Cuéntame cómo era tu vida.",
               "responseTranslation": {
                 "en": "And as a kid? Tell me what your life was like.",
-                "vi": "Còn hồi nhỏ thì sao? Kể mình nghe đi."
+                "vi": "Còn hồi nhỏ thì sao? Kể mình nghe đi.",
+                "pt-BR": "E quando criança? Conte como era sua vida.",
+                "fr": "Et quand tu étais petit ? Raconte-moi ta vie.",
+                "de": "Und als Kind? Erzähl mir, wie dein Leben war.",
+                "it": "E da piccolo? Raccontami com’era la tua vita.",
+                "ja": "子どものころは？どんな生活だったか教えて。",
+                "zh-Hans": "那小时候呢？告诉我你那时的生活。"
               },
               "next": "fun"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Qué hacías para divertirte?",
           "translation": {
             "en": "What did you do for fun?",
-            "vi": "Hồi đó bạn làm gì để giải trí?"
+            "vi": "Hồi đó bạn làm gì để giải trí?",
+            "pt-BR": "O que você fazia para se divertir?",
+            "fr": "Que faisais-tu pour t’amuser ?",
+            "de": "Was hast du zum Spaß gemacht?",
+            "it": "Cosa facevi per divertirti?",
+            "ja": "遊びは何をしていたの？",
+            "zh-Hans": "你那时玩什么？"
           },
           "hint": {
             "en": "Describe a habit with the imperfect.",
-            "vi": "Tả thói quen bằng imperfecto."
+            "vi": "Tả thói quen bằng imperfecto.",
+            "pt-BR": "Descreva um hábito com o imperfeito.",
+            "fr": "Décrivez une habitude à l’imparfait.",
+            "de": "Beschreibe eine Gewohnheit im Imperfekt.",
+            "it": "Descrivi un’abitudine con l’imperfetto.",
+            "ja": "線過去で習慣を説明しよう。",
+            "zh-Hans": "用未完成过去时描述习惯。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Jugaba fútbol en la calle con mis primos.",
               "translation": {
                 "en": "I played soccer in the street with my cousins.",
-                "vi": "Mình đá bóng ngoài đường với anh chị em họ."
+                "vi": "Mình đá bóng ngoài đường với anh chị em họ.",
+                "pt-BR": "Eu jogava futebol na rua com meus primos.",
+                "fr": "Je jouais au foot dans la rue avec mes cousins.",
+                "de": "Ich spielte mit meinen Cousins auf der Straße Fußball.",
+                "it": "Giocavo a calcio per strada con i miei cugini.",
+                "ja": "いとこたちと通りでサッカーをしていました。",
+                "zh-Hans": "我以前和表兄弟在街上踢足球。"
               },
               "correct": true,
               "response": "¡Yo también! ¿Lo extrañas?",
               "responseTranslation": {
                 "en": "Me too! Do you miss it?",
-                "vi": "Mình cũng vậy! Bạn có nhớ không?"
+                "vi": "Mình cũng vậy! Bạn có nhớ không?",
+                "pt-BR": "Eu também! Sente falta?",
+                "fr": "Moi aussi ! Ça te manque ?",
+                "de": "Ich auch! Vermisst du das?",
+                "it": "Anch’io! Ti manca?",
+                "ja": "私も！懐かしい？",
+                "zh-Hans": "我也是！你怀念吗？"
               },
               "next": "miss"
             },
@@ -217,13 +421,25 @@
               "es": "Me gustaba mucho leer cómics.",
               "translation": {
                 "en": "I really liked reading comics.",
-                "vi": "Mình rất thích đọc truyện tranh."
+                "vi": "Mình rất thích đọc truyện tranh.",
+                "pt-BR": "Eu gostava muito de ler gibis.",
+                "fr": "J’aimais beaucoup lire des BD.",
+                "de": "Ich habe sehr gern Comics gelesen.",
+                "it": "Mi piaceva molto leggere fumetti.",
+                "ja": "マンガを読むのが大好きでした。",
+                "zh-Hans": "我以前特别喜欢看漫画。"
               },
               "correct": true,
               "response": "¡Qué buen recuerdo! ¿Lo extrañas?",
               "responseTranslation": {
                 "en": "What a great memory! Do you miss it?",
-                "vi": "Kỷ niệm đẹp ghê! Bạn có nhớ không?"
+                "vi": "Kỷ niệm đẹp ghê! Bạn có nhớ không?",
+                "pt-BR": "Que lembrança boa! Sente falta?",
+                "fr": "Quel beau souvenir ! Ça te manque ?",
+                "de": "Was für eine schöne Erinnerung! Vermisst du das?",
+                "it": "Che bel ricordo! Ti manca?",
+                "ja": "いい思い出だね！懐かしい？",
+                "zh-Hans": "多美好的回忆！你怀念吗？"
               },
               "next": "miss"
             },
@@ -232,14 +448,26 @@
               "es": "Voy a jugar fútbol.",
               "translation": {
                 "en": "I'm going to play soccer.",
-                "vi": "Mình sắp đá bóng."
+                "vi": "Mình sắp đá bóng.",
+                "pt-BR": "Vou jogar futebol.",
+                "fr": "Je vais jouer au foot.",
+                "de": "Ich werde Fußball spielen.",
+                "it": "Giocherò a calcio.",
+                "ja": "サッカーをするつもりです。",
+                "zh-Hans": "我要去踢足球。"
               },
               "correct": false,
               "correction": "Jugaba fútbol en la calle con mis primos.",
               "response": "Eso es el futuro. ¿Y de niño?",
               "responseTranslation": {
                 "en": "That's the future. And as a kid?",
-                "vi": "Đó là tương lai mà. Còn hồi nhỏ?"
+                "vi": "Đó là tương lai mà. Còn hồi nhỏ?",
+                "pt-BR": "Isso é futuro. E quando criança?",
+                "fr": "Ça, c’est le futur. Et quand tu étais petit ?",
+                "de": "Das ist Zukunft. Und als Kind?",
+                "it": "Quello è il futuro. E da piccolo?",
+                "ja": "それは未来だよ。子どものころは？",
+                "zh-Hans": "那是将来时。那小时候呢？"
               },
               "next": "miss"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Extrañas esos tiempos?",
           "translation": {
             "en": "Do you miss those times?",
-            "vi": "Bạn có nhớ thời đó không?"
+            "vi": "Bạn có nhớ thời đó không?",
+            "pt-BR": "Você sente falta daqueles tempos?",
+            "fr": "Cette époque te manque ?",
+            "de": "Vermisst du diese Zeiten?",
+            "it": "Ti mancano quei tempi?",
+            "ja": "あのころが懐かしい？",
+            "zh-Hans": "你怀念那些日子吗？"
           },
           "hint": {
             "en": "Say if you miss it and why.",
-            "vi": "Nói bạn có nhớ không và vì sao."
+            "vi": "Nói bạn có nhớ không và vì sao.",
+            "pt-BR": "Diga se sente falta e por quê.",
+            "fr": "Dites si elle vous manque et pourquoi.",
+            "de": "Sag, ob du sie vermisst und warum.",
+            "it": "Di’ se ti mancano e perché.",
+            "ja": "懐かしいかどうかと、その理由を言おう。",
+            "zh-Hans": "说说你是否怀念，以及为什么。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Sí, extraño esos tiempos. Todo era más simple.",
               "translation": {
                 "en": "Yes, I miss those times. Everything was simpler.",
-                "vi": "Có, mình nhớ lắm. Mọi thứ đơn giản hơn."
+                "vi": "Có, mình nhớ lắm. Mọi thứ đơn giản hơn.",
+                "pt-BR": "Sim, sinto falta daqueles tempos. Tudo era mais simples.",
+                "fr": "Oui, cette époque me manque. Tout était plus simple.",
+                "de": "Ja, ich vermisse diese Zeiten. Alles war einfacher.",
+                "it": "Sì, mi mancano quei tempi. Era tutto più semplice.",
+                "ja": "うん、あのころが懐かしい。何もかもシンプルだった。",
+                "zh-Hans": "是的，我怀念那些日子。那时一切都更简单。"
               },
               "correct": true,
               "response": "Te entiendo perfectamente.",
               "responseTranslation": {
                 "en": "I totally understand.",
-                "vi": "Mình hoàn toàn hiểu."
+                "vi": "Mình hoàn toàn hiểu.",
+                "pt-BR": "Entendo totalmente.",
+                "fr": "Je comprends tout à fait.",
+                "de": "Das verstehe ich total.",
+                "it": "Ti capisco benissimo.",
+                "ja": "すごくわかる。",
+                "zh-Hans": "我完全理解。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "A veces, pero ya no lo hago y estoy bien.",
               "translation": {
                 "en": "Sometimes, but I don't do it anymore and I'm fine.",
-                "vi": "Thỉnh thoảng, nhưng giờ mình không làm vậy nữa và vẫn ổn."
+                "vi": "Thỉnh thoảng, nhưng giờ mình không làm vậy nữa và vẫn ổn.",
+                "pt-BR": "Às vezes, mas já não faço isso e estou bem.",
+                "fr": "Parfois, mais je ne le fais plus et ça va.",
+                "de": "Manchmal, aber ich mache es nicht mehr und es geht mir gut.",
+                "it": "A volte, ma non lo faccio più e sto bene.",
+                "ja": "ときどきね。でももうやってないし、平気だよ。",
+                "zh-Hans": "有时候吧，但我已经不做了，挺好的。"
               },
               "correct": true,
               "response": "Es normal, la vida cambia.",
               "responseTranslation": {
                 "en": "That's normal, life changes.",
-                "vi": "Bình thường thôi, cuộc sống thay đổi mà."
+                "vi": "Bình thường thôi, cuộc sống thay đổi mà.",
+                "pt-BR": "É normal, a vida muda.",
+                "fr": "C’est normal, la vie change.",
+                "de": "Das ist normal, das Leben ändert sich.",
+                "it": "È normale, la vita cambia.",
+                "ja": "普通だよ、人生は変わるもの。",
+                "zh-Hans": "很正常，生活会变的。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Me acuerdo.",
               "translation": {
                 "en": "I remember.",
-                "vi": "Mình nhớ."
+                "vi": "Mình nhớ.",
+                "pt-BR": "Eu me lembro.",
+                "fr": "Je me souviens.",
+                "de": "Ich erinnere mich.",
+                "it": "Mi ricordo.",
+                "ja": "覚えています。",
+                "zh-Hans": "我记得。"
               },
               "correct": false,
               "correction": "Sí, extraño esos tiempos. Todo era más simple.",
               "response": "¿Pero los extrañas?",
               "responseTranslation": {
                 "en": "But do you miss them?",
-                "vi": "Nhưng bạn có thấy nhớ không?"
+                "vi": "Nhưng bạn có thấy nhớ không?",
+                "pt-BR": "Mas você sente falta?",
+                "fr": "Mais est-ce qu’elle te manque ?",
+                "de": "Aber vermisst du sie?",
+                "it": "Ma ti mancano?",
+                "ja": "でも懐かしい？",
+                "zh-Hans": "但你怀念吗？"
               }
             }
           ]

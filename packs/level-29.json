@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-29",
-  "version": 1,
+  "version": 2,
   "level": 29,
   "cefr": "C1",
   "title": {
     "en": "Advanced 5: Society & technology",
-    "vi": "Cao cấp 5: Xã hội & công nghệ"
+    "vi": "Cao cấp 5: Xã hội & công nghệ",
+    "pt-BR": "Avançado 5: Sociedade e tecnologia",
+    "fr": "Avancé 5 : Société et technologie",
+    "de": "Fortgeschritten 5: Gesellschaft und Technologie",
+    "it": "Avanzato 5: Società e tecnologia",
+    "ja": "上級 5：社会とテクノロジー",
+    "zh-Hans": "高级 5：社会与科技"
   },
   "description": {
     "en": "Discuss abstract topics with precision.",
-    "vi": "Bàn luận chủ đề trừu tượng một cách chính xác."
+    "vi": "Bàn luận chủ đề trừu tượng một cách chính xác.",
+    "pt-BR": "Discuta temas abstratos com precisão.",
+    "fr": "Discutez de sujets abstraits avec précision.",
+    "de": "Diskutiere abstrakte Themen präzise.",
+    "it": "Discuti temi astratti con precisione.",
+    "ja": "抽象的なテーマを正確に議論しよう。",
+    "zh-Hans": "准确地讨论抽象话题。"
   },
   "lessons": [
     {
       "id": "cause-effect",
       "title": {
         "en": "Cause & effect",
-        "vi": "Nguyên nhân & kết quả"
+        "vi": "Nguyên nhân & kết quả",
+        "pt-BR": "Causa e efeito",
+        "fr": "Cause et effet",
+        "de": "Ursache und Wirkung",
+        "it": "Causa ed effetto",
+        "ja": "原因と結果",
+        "zh-Hans": "因果关系"
       },
       "description": {
         "en": "Explain why things happen.",
-        "vi": "Giải thích vì sao sự việc xảy ra."
+        "vi": "Giải thích vì sao sự việc xảy ra.",
+        "pt-BR": "Explique por que as coisas acontecem.",
+        "fr": "Expliquez pourquoi les choses arrivent.",
+        "de": "Erkläre, warum Dinge passieren.",
+        "it": "Spiega perché succedono le cose.",
+        "ja": "物事が起こる理由を説明しよう。",
+        "zh-Hans": "解释事情为什么会发生。"
       },
       "focus": {
         "en": "Formal connectors: debido a + noun, dado que + clause, por lo tanto / como consecuencia for results.",
-        "vi": "Từ nối trang trọng: debido a + danh từ, dado que + mệnh đề, por lo tanto / como consecuencia cho kết quả."
+        "vi": "Từ nối trang trọng: debido a + danh từ, dado que + mệnh đề, por lo tanto / como consecuencia cho kết quả.",
+        "pt-BR": "Conectores formais: debido a + substantivo, dado que + oração, por lo tanto / como consecuencia para resultados.",
+        "fr": "Connecteurs formels : debido a + nom, dado que + proposition, por lo tanto / como consecuencia pour les résultats.",
+        "de": "Formelle Konnektoren: debido a + Nomen, dado que + Satz, por lo tanto / como consecuencia für Folgen.",
+        "it": "Connettivi formali: debido a + nome, dado que + frase, por lo tanto / como consecuencia per le conseguenze.",
+        "ja": "改まった接続表現：debido a＋名詞、dado que＋節、結果には por lo tanto / como consecuencia。",
+        "zh-Hans": "正式连接词：debido a + 名词，dado que + 从句，表示结果用 por lo tanto / como consecuencia。"
       },
       "icon": "cpu",
       "phrases": [
         {
           "es": "Debido al uso de las redes sociales, leemos menos.",
           "en": "Due to social media use, we read less.",
-          "vi": "Do sử dụng mạng xã hội, chúng ta đọc ít hơn."
+          "vi": "Do sử dụng mạng xã hội, chúng ta đọc ít hơn.",
+          "pt-BR": "Devido ao uso das redes sociais, lemos menos.",
+          "fr": "À cause des réseaux sociaux, nous lisons moins.",
+          "de": "Wegen der sozialen Medien lesen wir weniger.",
+          "it": "A causa dei social, leggiamo meno.",
+          "ja": "SNSの利用のせいで、私たちは本を読まなくなっています。",
+          "zh-Hans": "由于使用社交媒体，我们读书少了。"
         },
         {
           "es": "La inteligencia artificial está transformando el trabajo.",
           "en": "Artificial intelligence is transforming work.",
-          "vi": "Trí tuệ nhân tạo đang thay đổi công việc."
+          "vi": "Trí tuệ nhân tạo đang thay đổi công việc.",
+          "pt-BR": "A inteligência artificial está transformando o trabalho.",
+          "fr": "L’intelligence artificielle transforme le travail.",
+          "de": "Künstliche Intelligenz verändert die Arbeitswelt.",
+          "it": "L’intelligenza artificiale sta trasformando il lavoro.",
+          "ja": "人工知能は仕事を変えつつあります。",
+          "zh-Hans": "人工智能正在改变工作。"
         },
         {
           "es": "Por lo tanto, hay que adaptarse.",
           "en": "Therefore, we have to adapt.",
-          "vi": "Vì vậy, chúng ta phải thích nghi."
+          "vi": "Vì vậy, chúng ta phải thích nghi.",
+          "pt-BR": "Portanto, temos que nos adaptar.",
+          "fr": "Par conséquent, nous devons nous adapter.",
+          "de": "Daher müssen wir uns anpassen.",
+          "it": "Quindi, dobbiamo adattarci.",
+          "ja": "したがって、私たちは適応しなければなりません。",
+          "zh-Hans": "因此，我们必须适应。"
         },
         {
           "es": "Esto se debe a varios factores.",
           "en": "This is due to several factors.",
-          "vi": "Điều này do nhiều yếu tố."
+          "vi": "Điều này do nhiều yếu tố.",
+          "pt-BR": "Isso se deve a vários fatores.",
+          "fr": "C’est dû à plusieurs facteurs.",
+          "de": "Das liegt an mehreren Faktoren.",
+          "it": "Questo è dovuto a diversi fattori.",
+          "ja": "これはいくつかの要因によるものです。",
+          "zh-Hans": "这是由多种因素造成的。"
         },
         {
           "es": "Como consecuencia, cambian los hábitos.",
           "en": "As a result, habits change.",
-          "vi": "Kết quả là thói quen thay đổi."
+          "vi": "Kết quả là thói quen thay đổi.",
+          "pt-BR": "Como consequência, os hábitos mudam.",
+          "fr": "En conséquence, les habitudes changent.",
+          "de": "Infolgedessen ändern sich die Gewohnheiten.",
+          "it": "Di conseguenza, le abitudini cambiano.",
+          "ja": "その結果、習慣が変わります。",
+          "zh-Hans": "结果，习惯发生了变化。"
         },
         {
           "es": "Dado que todo está en línea, la privacidad importa más.",
           "en": "Given that everything is online, privacy matters more.",
-          "vi": "Vì mọi thứ đều trực tuyến, quyền riêng tư càng quan trọng."
+          "vi": "Vì mọi thứ đều trực tuyến, quyền riêng tư càng quan trọng.",
+          "pt-BR": "Dado que tudo está online, a privacidade importa mais.",
+          "fr": "Étant donné que tout est en ligne, la vie privée compte davantage.",
+          "de": "Da alles online ist, wird Datenschutz wichtiger.",
+          "it": "Dato che tutto è online, la privacy conta di più.",
+          "ja": "すべてがオンラインなので、プライバシーがより重要になります。",
+          "zh-Hans": "鉴于一切都在网上，隐私变得更重要了。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "speculating",
       "title": {
         "en": "Speculating about the future",
-        "vi": "Suy đoán về tương lai"
+        "vi": "Suy đoán về tương lai",
+        "pt-BR": "Especulando sobre o futuro",
+        "fr": "Spéculer sur l’avenir",
+        "de": "Über die Zukunft spekulieren",
+        "it": "Fare ipotesi sul futuro",
+        "ja": "未来を推測する",
+        "zh-Hans": "推测未来"
       },
       "description": {
         "en": "Talk about what may happen.",
-        "vi": "Nói về điều có thể xảy ra."
+        "vi": "Nói về điều có thể xảy ra.",
+        "pt-BR": "Fale sobre o que pode acontecer.",
+        "fr": "Parlez de ce qui pourrait arriver.",
+        "de": "Sprich darüber, was passieren könnte.",
+        "it": "Parla di ciò che potrebbe succedere.",
+        "ja": "起こりうることについて話そう。",
+        "zh-Hans": "谈论可能发生的事。"
       },
       "focus": {
         "en": "Probability + subjunctive (es probable que, puede que); certainty + indicative (no cabe duda de que es).",
-        "vi": "Khả năng + giả định (es probable que, puede que); chắc chắn + trần thuật (no cabe duda de que es)."
+        "vi": "Khả năng + giả định (es probable que, puede que); chắc chắn + trần thuật (no cabe duda de que es).",
+        "pt-BR": "Probabilidade + subjuntivo (es probable que, puede que); certeza + indicativo (no cabe duda de que es).",
+        "fr": "Probabilité + subjonctif (es probable que, puede que) ; certitude + indicatif (no cabe duda de que es).",
+        "de": "Wahrscheinlichkeit + Subjuntivo (es probable que, puede que); Gewissheit + Indikativ (no cabe duda de que es).",
+        "it": "Probabilità + congiuntivo (es probable que, puede que); certezza + indicativo (no cabe duda de que es).",
+        "ja": "可能性＋接続法（es probable que, puede que）、確信＋直説法（no cabe duda de que es）。",
+        "zh-Hans": "可能性 + 虚拟式（es probable que, puede que）；确定性 + 陈述式（no cabe duda de que es）。"
       },
       "icon": "trending-up",
       "phrases": [
         {
           "es": "Es probable que muchos trabajos desaparezcan.",
           "en": "It's likely that many jobs will disappear.",
-          "vi": "Có khả năng nhiều công việc sẽ biến mất."
+          "vi": "Có khả năng nhiều công việc sẽ biến mất.",
+          "pt-BR": "É provável que muitos empregos desapareçam.",
+          "fr": "Il est probable que beaucoup d’emplois disparaissent.",
+          "de": "Wahrscheinlich werden viele Jobs verschwinden.",
+          "it": "È probabile che molti lavori scompaiano.",
+          "ja": "多くの仕事がなくなる可能性が高いです。",
+          "zh-Hans": "很多工作很可能会消失。"
         },
         {
           "es": "Puede que en diez años no usemos efectivo.",
           "en": "It may be that in ten years we won't use cash.",
-          "vi": "Có thể mười năm nữa chúng ta không dùng tiền mặt."
+          "vi": "Có thể mười năm nữa chúng ta không dùng tiền mặt.",
+          "pt-BR": "Pode ser que em dez anos não usemos dinheiro vivo.",
+          "fr": "Il se peut que dans dix ans on n’utilise plus d’espèces.",
+          "de": "Es kann sein, dass wir in zehn Jahren kein Bargeld mehr benutzen.",
+          "it": "Può darsi che tra dieci anni non useremo più i contanti.",
+          "ja": "10年後には現金を使っていないかもしれません。",
+          "zh-Hans": "也许十年后我们不再用现金了。"
         },
         {
           "es": "Para entonces, habremos cambiado mucho.",
           "en": "By then, we will have changed a lot.",
-          "vi": "Đến lúc đó, chúng ta đã thay đổi rất nhiều."
+          "vi": "Đến lúc đó, chúng ta đã thay đổi rất nhiều.",
+          "pt-BR": "Até lá, teremos mudado muito.",
+          "fr": "D’ici là, nous aurons beaucoup changé.",
+          "de": "Bis dahin werden wir uns stark verändert haben.",
+          "it": "Per allora, saremo cambiati molto.",
+          "ja": "そのころには、私たちは大きく変わっているでしょう。",
+          "zh-Hans": "到那时，我们会改变很多。"
         },
         {
           "es": "Todo dependerá de cómo lo usemos.",
           "en": "It will all depend on how we use it.",
-          "vi": "Mọi thứ sẽ tùy vào cách chúng ta sử dụng."
+          "vi": "Mọi thứ sẽ tùy vào cách chúng ta sử dụng.",
+          "pt-BR": "Tudo vai depender de como a usarmos.",
+          "fr": "Tout dépendra de la façon dont nous l’utiliserons.",
+          "de": "Alles wird davon abhängen, wie wir sie nutzen.",
+          "it": "Tutto dipenderà da come la useremo.",
+          "ja": "すべては使い方次第です。",
+          "zh-Hans": "一切取决于我们如何使用它。"
         },
         {
           "es": "No cabe duda de que es útil.",
           "en": "There's no doubt that it's useful.",
-          "vi": "Không còn nghi ngờ gì là nó hữu ích."
+          "vi": "Không còn nghi ngờ gì là nó hữu ích.",
+          "pt-BR": "Não há dúvida de que é útil.",
+          "fr": "Il ne fait aucun doute que c’est utile.",
+          "de": "Es besteht kein Zweifel, dass es nützlich ist.",
+          "it": "Non c’è dubbio che sia utile.",
+          "ja": "役に立つことは間違いありません。",
+          "zh-Hans": "毫无疑问它是有用的。"
         },
         {
           "es": "Está por verse.",
           "en": "That remains to be seen.",
-          "vi": "Điều đó còn phải chờ xem."
+          "vi": "Điều đó còn phải chờ xem.",
+          "pt-BR": "Isso ainda está por ver.",
+          "fr": "Ça reste à voir.",
+          "de": "Das bleibt abzuwarten.",
+          "it": "Resta da vedere.",
+          "ja": "それはまだわかりません。",
+          "zh-Hans": "那还有待观察。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "ai-debate",
       "title": {
         "en": "Discuss AI and work",
-        "vi": "Bàn về AI và việc làm"
+        "vi": "Bàn về AI và việc làm",
+        "pt-BR": "Discuta IA e trabalho",
+        "fr": "Débattre de l’IA et du travail",
+        "de": "Über KI und Arbeit diskutieren",
+        "it": "Discuti di IA e lavoro",
+        "ja": "AIと仕事について話す",
+        "zh-Hans": "讨论人工智能与工作"
       },
       "description": {
         "en": "Explain causes and speculate about the future.",
-        "vi": "Giải thích nguyên nhân và suy đoán tương lai."
+        "vi": "Giải thích nguyên nhân và suy đoán tương lai.",
+        "pt-BR": "Explique causas e especule sobre o futuro.",
+        "fr": "Expliquez des causes et spéculez sur l’avenir.",
+        "de": "Erkläre Ursachen und spekuliere über die Zukunft.",
+        "it": "Spiega le cause e fai ipotesi sul futuro.",
+        "ja": "原因を説明し、未来を推測しよう。",
+        "zh-Hans": "解释原因并推测未来。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Tú crees que la inteligencia artificial nos va a quitar el trabajo?",
           "translation": {
             "en": "Do you think AI is going to take our jobs?",
-            "vi": "Bạn có nghĩ AI sẽ cướp việc của chúng ta không?"
+            "vi": "Bạn có nghĩ AI sẽ cướp việc của chúng ta không?",
+            "pt-BR": "Você acha que a IA vai tirar nossos empregos?",
+            "fr": "Tu crois que l’IA va nous prendre nos emplois ?",
+            "de": "Glaubst du, KI wird uns die Jobs wegnehmen?",
+            "it": "Pensi che l’IA ci porterà via il lavoro?",
+            "ja": "AIに仕事を奪われると思う？",
+            "zh-Hans": "你觉得人工智能会抢走我们的工作吗？"
           },
           "hint": {
             "en": "Speculate with “es probable que / puede que”.",
-            "vi": "Suy đoán với “es probable que / puede que”."
+            "vi": "Suy đoán với “es probable que / puede que”.",
+            "pt-BR": "Especule com “es probable que / puede que”.",
+            "fr": "Spéculez avec « es probable que / puede que ».",
+            "de": "Spekuliere mit „es probable que / puede que“.",
+            "it": "Fai ipotesi con “es probable que / puede que”.",
+            "ja": "「es probable que / puede que」で推測しよう。",
+            "zh-Hans": "用“es probable que / puede que”来推测。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Es probable que algunos trabajos desaparezcan, pero surgirán otros.",
               "translation": {
                 "en": "It's likely some jobs will disappear, but others will emerge.",
-                "vi": "Có khả năng một số việc biến mất, nhưng việc mới sẽ xuất hiện."
+                "vi": "Có khả năng một số việc biến mất, nhưng việc mới sẽ xuất hiện.",
+                "pt-BR": "É provável que alguns empregos desapareçam, mas outros vão surgir.",
+                "fr": "Il est probable que certains emplois disparaissent, mais d’autres apparaîtront.",
+                "de": "Wahrscheinlich verschwinden einige Jobs, aber andere entstehen.",
+                "it": "È probabile che alcuni lavori scompaiano, ma ne nasceranno altri.",
+                "ja": "なくなる仕事もあるだろうけど、新しい仕事も生まれると思う。",
+                "zh-Hans": "有些工作很可能会消失，但也会出现新的工作。"
               },
               "correct": true,
               "response": "¿Por qué lo piensas?",
               "responseTranslation": {
                 "en": "Why do you think so?",
-                "vi": "Sao bạn nghĩ vậy?"
+                "vi": "Sao bạn nghĩ vậy?",
+                "pt-BR": "Por que você acha isso?",
+                "fr": "Pourquoi tu penses ça ?",
+                "de": "Warum glaubst du das?",
+                "it": "Perché lo pensi?",
+                "ja": "どうしてそう思うの？",
+                "zh-Hans": "你为什么这么想？"
               },
               "next": "why"
             },
@@ -157,13 +313,25 @@
               "es": "Puede que sí, pero todo dependerá de cómo lo usemos.",
               "translation": {
                 "en": "Maybe, but it'll all depend on how we use it.",
-                "vi": "Có thể, nhưng tất cả tùy cách chúng ta dùng nó."
+                "vi": "Có thể, nhưng tất cả tùy cách chúng ta dùng nó.",
+                "pt-BR": "Talvez, mas tudo vai depender de como a usarmos.",
+                "fr": "Peut-être, mais tout dépendra de la façon dont on l’utilise.",
+                "de": "Vielleicht, aber alles hängt davon ab, wie wir sie nutzen.",
+                "it": "Forse, ma tutto dipenderà da come la useremo.",
+                "ja": "かもね。でも全部使い方次第だよ。",
+                "zh-Hans": "也许吧，但一切都取决于我们怎么用它。"
               },
               "correct": true,
               "response": "Interesante. ¿Por qué?",
               "responseTranslation": {
                 "en": "Interesting. Why?",
-                "vi": "Thú vị. Vì sao?"
+                "vi": "Thú vị. Vì sao?",
+                "pt-BR": "Interessante. Por quê?",
+                "fr": "Intéressant. Pourquoi ?",
+                "de": "Interessant. Warum?",
+                "it": "Interessante. Perché?",
+                "ja": "興味深いね。なぜ？",
+                "zh-Hans": "有意思。为什么？"
               },
               "next": "why"
             },
@@ -172,14 +340,26 @@
               "es": "Es probable que algunos trabajos desaparecen.",
               "translation": {
                 "en": "It's likely some jobs disappear (wrong form).",
-                "vi": "Có khả năng vài việc biến mất (sai dạng)."
+                "vi": "Có khả năng vài việc biến mất (sai dạng).",
+                "pt-BR": "É provável que alguns empregos desaparecem (forma errada).",
+                "fr": "Il est probable que certains emplois disparaissent (mauvaise forme).",
+                "de": "Wahrscheinlich verschwinden einige Jobs (falsche Form).",
+                "it": "È probabile che alcuni lavori scompaiono (forma sbagliata).",
+                "ja": "なくなる仕事がある可能性が高い（形の誤り）。",
+                "zh-Hans": "有些工作很可能会消失（形式错误）。"
               },
               "correct": false,
               "correction": "Es probable que algunos trabajos desaparezcan, pero surgirán otros.",
               "response": "“Desaparezcan”, ¿verdad? ¿Y por qué lo crees?",
               "responseTranslation": {
                 "en": "“Desaparezcan”, right? And why do you think so?",
-                "vi": "Phải là “desaparezcan” nhỉ? Thế sao bạn nghĩ vậy?"
+                "vi": "Phải là “desaparezcan” nhỉ? Thế sao bạn nghĩ vậy?",
+                "pt-BR": "“Desaparezcan”, né? E por que acha isso?",
+                "fr": "« Desaparezcan », non ? Et pourquoi tu penses ça ?",
+                "de": "„Desaparezcan“, oder? Und warum glaubst du das?",
+                "it": "“Desaparezcan”, no? E perché lo pensi?",
+                "ja": "「desaparezcan」だよね？で、どうしてそう思うの？",
+                "zh-Hans": "应该是“desaparezcan”吧？那你为什么这么想？"
               },
               "next": "why"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿En qué te basas?",
           "translation": {
             "en": "What are you basing that on?",
-            "vi": "Bạn dựa vào đâu để nói vậy?"
+            "vi": "Bạn dựa vào đâu để nói vậy?",
+            "pt-BR": "Em que você se baseia?",
+            "fr": "Sur quoi tu te bases ?",
+            "de": "Worauf stützt du dich?",
+            "it": "Su cosa ti basi?",
+            "ja": "何を根拠にそう言うの？",
+            "zh-Hans": "你的依据是什么？"
           },
           "hint": {
             "en": "Explain causes with formal connectors.",
-            "vi": "Giải thích nguyên nhân bằng từ nối trang trọng."
+            "vi": "Giải thích nguyên nhân bằng từ nối trang trọng.",
+            "pt-BR": "Explique causas com conectores formais.",
+            "fr": "Expliquez les causes avec des connecteurs formels.",
+            "de": "Erkläre Ursachen mit formellen Konnektoren.",
+            "it": "Spiega le cause con connettivi formali.",
+            "ja": "改まった接続表現で原因を説明しよう。",
+            "zh-Hans": "用正式连接词解释原因。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Dado que ya pasó con otras tecnologías, por lo tanto creo que nos adaptaremos.",
               "translation": {
                 "en": "Given it already happened with other technologies, I believe we'll adapt.",
-                "vi": "Vì chuyện này đã xảy ra với các công nghệ khác, nên mình tin chúng ta sẽ thích nghi."
+                "vi": "Vì chuyện này đã xảy ra với các công nghệ khác, nên mình tin chúng ta sẽ thích nghi.",
+                "pt-BR": "Dado que já aconteceu com outras tecnologias, acredito que vamos nos adaptar.",
+                "fr": "Étant donné que c’est déjà arrivé avec d’autres technologies, je pense qu’on s’adaptera.",
+                "de": "Da es schon bei anderen Technologien so war, glaube ich, dass wir uns anpassen.",
+                "it": "Dato che è già successo con altre tecnologie, credo che ci adatteremo.",
+                "ja": "ほかの技術でもすでに起きたことだから、私たちは適応すると思う。",
+                "zh-Hans": "鉴于其他技术也经历过这种情况，我相信我们会适应的。"
               },
               "correct": true,
               "response": "Tiene lógica. ¿Y en diez años?",
               "responseTranslation": {
                 "en": "That's logical. And in ten years?",
-                "vi": "Có lý. Thế mười năm nữa?"
+                "vi": "Có lý. Thế mười năm nữa?",
+                "pt-BR": "Faz sentido. E daqui a dez anos?",
+                "fr": "C’est logique. Et dans dix ans ?",
+                "de": "Das ist logisch. Und in zehn Jahren?",
+                "it": "È logico. E tra dieci anni?",
+                "ja": "筋が通ってるね。10年後は？",
+                "zh-Hans": "有道理。那十年后呢？"
               },
               "next": "future"
             },
@@ -217,13 +421,25 @@
               "es": "Debido a la velocidad del cambio, hay que aprender cosas nuevas siempre.",
               "translation": {
                 "en": "Due to the speed of change, we always have to learn new things.",
-                "vi": "Do tốc độ thay đổi, chúng ta luôn phải học điều mới."
+                "vi": "Do tốc độ thay đổi, chúng ta luôn phải học điều mới.",
+                "pt-BR": "Devido à velocidade da mudança, sempre teremos que aprender coisas novas.",
+                "fr": "À cause de la vitesse du changement, on devra toujours apprendre de nouvelles choses.",
+                "de": "Wegen des schnellen Wandels müssen wir immer Neues lernen.",
+                "it": "A causa della velocità del cambiamento, dovremo sempre imparare cose nuove.",
+                "ja": "変化のスピードのせいで、常に新しいことを学ばなきゃいけない。",
+                "zh-Hans": "由于变化太快，我们总得学习新东西。"
               },
               "correct": true,
               "response": "Totalmente. ¿Y en diez años cómo lo ves?",
               "responseTranslation": {
                 "en": "Totally. And how do you see it in ten years?",
-                "vi": "Đúng vậy. Thế mười năm nữa bạn thấy sao?"
+                "vi": "Đúng vậy. Thế mười năm nữa bạn thấy sao?",
+                "pt-BR": "Totalmente. E como você vê daqui a dez anos?",
+                "fr": "Tout à fait. Et comment tu vois les choses dans dix ans ?",
+                "de": "Absolut. Und wie siehst du es in zehn Jahren?",
+                "it": "Assolutamente. E come la vedi tra dieci anni?",
+                "ja": "そのとおり。10年後はどうなってると思う？",
+                "zh-Hans": "完全同意。那你觉得十年后会怎样？"
               },
               "next": "future"
             },
@@ -232,14 +448,26 @@
               "es": "Porque sí.",
               "translation": {
                 "en": "Just because.",
-                "vi": "Vì vậy thôi."
+                "vi": "Vì vậy thôi.",
+                "pt-BR": "Porque sim.",
+                "fr": "Parce que.",
+                "de": "Einfach so.",
+                "it": "Perché sì.",
+                "ja": "なんとなく。",
+                "zh-Hans": "就是这样。"
               },
               "correct": false,
               "correction": "Dado que ya pasó con otras tecnologías, por lo tanto creo que nos adaptaremos.",
               "response": "Mmm, necesito un argumento mejor, jaja.",
               "responseTranslation": {
                 "en": "Hmm, I need a better argument, haha.",
-                "vi": "Ừm, mình cần lý lẽ thuyết phục hơn, haha."
+                "vi": "Ừm, mình cần lý lẽ thuyết phục hơn, haha.",
+                "pt-BR": "Hmm, preciso de um argumento melhor, haha.",
+                "fr": "Hmm, il me faut un meilleur argument, haha.",
+                "de": "Hmm, ich brauche ein besseres Argument, haha.",
+                "it": "Mmm, mi serve un argomento migliore, haha.",
+                "ja": "うーん、もっといい根拠がほしいな、はは。",
+                "zh-Hans": "嗯，我需要更好的论据，哈哈。"
               },
               "next": "future"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Cómo será el trabajo en diez años?",
           "translation": {
             "en": "What will work be like in ten years?",
-            "vi": "Mười năm nữa công việc sẽ thế nào?"
+            "vi": "Mười năm nữa công việc sẽ thế nào?",
+            "pt-BR": "Como será o trabalho daqui a dez anos?",
+            "fr": "À quoi ressemblera le travail dans dix ans ?",
+            "de": "Wie wird die Arbeit in zehn Jahren aussehen?",
+            "it": "Come sarà il lavoro tra dieci anni?",
+            "ja": "10年後の仕事はどうなっている？",
+            "zh-Hans": "十年后的工作会是什么样子？"
           },
           "hint": {
             "en": "Use the future perfect or “está por verse”.",
-            "vi": "Dùng tương lai hoàn thành hoặc “está por verse”."
+            "vi": "Dùng tương lai hoàn thành hoặc “está por verse”.",
+            "pt-BR": "Use o futuro perfeito ou “está por verse”.",
+            "fr": "Utilisez le futur antérieur ou « está por verse ».",
+            "de": "Benutze das Futur II oder „está por verse“.",
+            "it": "Usa il futuro anteriore o “está por verse”.",
+            "ja": "未来完了か「está por verse」を使おう。",
+            "zh-Hans": "用将来完成时或“está por verse”。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Para entonces, habremos cambiado nuestra forma de trabajar por completo.",
               "translation": {
                 "en": "By then, we'll have completely changed the way we work.",
-                "vi": "Đến lúc đó, cách chúng ta làm việc sẽ đã thay đổi hoàn toàn."
+                "vi": "Đến lúc đó, cách chúng ta làm việc sẽ đã thay đổi hoàn toàn.",
+                "pt-BR": "Até lá, teremos mudado completamente a forma de trabalhar.",
+                "fr": "D’ici là, nous aurons complètement changé notre façon de travailler.",
+                "de": "Bis dahin werden wir unsere Arbeitsweise komplett verändert haben.",
+                "it": "Per allora, avremo cambiato completamente il modo di lavorare.",
+                "ja": "そのころには、働き方が完全に変わっているだろうね。",
+                "zh-Hans": "到那时，我们的工作方式会彻底改变。"
               },
               "correct": true,
               "response": "No cabe duda. Fue una buena charla.",
               "responseTranslation": {
                 "en": "No doubt. That was a good chat.",
-                "vi": "Chắc chắn rồi. Cuộc nói chuyện hay đấy."
+                "vi": "Chắc chắn rồi. Cuộc nói chuyện hay đấy.",
+                "pt-BR": "Sem dúvida. Foi uma boa conversa.",
+                "fr": "Sans aucun doute. C’était une bonne discussion.",
+                "de": "Ohne Zweifel. Das war ein gutes Gespräch.",
+                "it": "Senza dubbio. È stata una bella chiacchierata.",
+                "ja": "間違いないね。いい話ができた。",
+                "zh-Hans": "毫无疑问。这次聊得很好。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Sinceramente, está por verse.",
               "translation": {
                 "en": "Honestly, it remains to be seen.",
-                "vi": "Thật lòng mà nói, còn phải chờ xem."
+                "vi": "Thật lòng mà nói, còn phải chờ xem.",
+                "pt-BR": "Sinceramente, isso ainda está por ver.",
+                "fr": "Franchement, ça reste à voir.",
+                "de": "Ehrlich gesagt bleibt das abzuwarten.",
+                "it": "Sinceramente, resta da vedere.",
+                "ja": "正直、それはまだわからないね。",
+                "zh-Hans": "说实话，那还有待观察。"
               },
               "correct": true,
               "response": "Es verdad. Nadie lo sabe.",
               "responseTranslation": {
                 "en": "True. Nobody knows.",
-                "vi": "Đúng vậy. Không ai biết được."
+                "vi": "Đúng vậy. Không ai biết được.",
+                "pt-BR": "É verdade. Ninguém sabe.",
+                "fr": "C’est vrai. Personne ne sait.",
+                "de": "Stimmt. Niemand weiß es.",
+                "it": "È vero. Nessuno lo sa.",
+                "ja": "確かに。誰にもわからない。",
+                "zh-Hans": "没错。谁也不知道。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Hace diez años no había smartphones.",
               "translation": {
                 "en": "Ten years ago there were no smartphones.",
-                "vi": "Mười năm trước chưa có điện thoại thông minh."
+                "vi": "Mười năm trước chưa có điện thoại thông minh.",
+                "pt-BR": "Há dez anos não existiam smartphones.",
+                "fr": "Il y a dix ans, il n’y avait pas de smartphones.",
+                "de": "Vor zehn Jahren gab es keine Smartphones.",
+                "it": "Dieci anni fa non c’erano gli smartphone.",
+                "ja": "10年前にはスマホはありませんでした。",
+                "zh-Hans": "十年前还没有智能手机。"
               },
               "correct": false,
               "correction": "Para entonces, habremos cambiado nuestra forma de trabajar por completo.",
               "response": "Eso es el pasado. ¿Y el futuro?",
               "responseTranslation": {
                 "en": "That's the past. And the future?",
-                "vi": "Đó là quá khứ. Còn tương lai?"
+                "vi": "Đó là quá khứ. Còn tương lai?",
+                "pt-BR": "Isso é o passado. E o futuro?",
+                "fr": "Ça, c’est le passé. Et l’avenir ?",
+                "de": "Das ist die Vergangenheit. Und die Zukunft?",
+                "it": "Quello è il passato. E il futuro?",
+                "ja": "それは過去の話。未来は？",
+                "zh-Hans": "那是过去。那未来呢？"
               }
             }
           ]

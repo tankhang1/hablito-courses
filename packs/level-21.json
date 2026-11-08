@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-21",
-  "version": 1,
+  "version": 2,
   "level": 21,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 5: News & current events",
-    "vi": "Trung cao cấp 5: Tin tức & thời sự"
+    "vi": "Trung cao cấp 5: Tin tức & thời sự",
+    "pt-BR": "Intermediário superior 5: Notícias e atualidades",
+    "fr": "Intermédiaire supérieur 5 : Infos et actualité",
+    "de": "Obere Mittelstufe 5: Nachrichten und Aktuelles",
+    "it": "Intermedio superiore 5: Notizie e attualità",
+    "ja": "中上級 5：ニュースと時事",
+    "zh-Hans": "中高级 5：新闻和时事"
   },
   "description": {
     "en": "Report what others said and discuss the news.",
-    "vi": "Thuật lại lời người khác và bàn luận tin tức."
+    "vi": "Thuật lại lời người khác và bàn luận tin tức.",
+    "pt-BR": "Relate o que outros disseram e discuta as notícias.",
+    "fr": "Rapportez ce que d’autres ont dit et discutez de l’actualité.",
+    "de": "Gib wieder, was andere gesagt haben, und diskutiere die Nachrichten.",
+    "it": "Riferisci ciò che hanno detto gli altri e discuti le notizie.",
+    "ja": "人の発言を伝えて、ニュースについて話そう。",
+    "zh-Hans": "转述别人说的话，讨论新闻。"
   },
   "lessons": [
     {
       "id": "reporting",
       "title": {
         "en": "Reporting what was said",
-        "vi": "Thuật lại lời nói"
+        "vi": "Thuật lại lời nói",
+        "pt-BR": "Relatando o que foi dito",
+        "fr": "Rapporter des paroles",
+        "de": "Gesagtes wiedergeben",
+        "it": "Riferire ciò che è stato detto",
+        "ja": "発言を伝える",
+        "zh-Hans": "转述"
       },
       "description": {
         "en": "Pass on information accurately.",
-        "vi": "Truyền đạt thông tin chính xác."
+        "vi": "Truyền đạt thông tin chính xác.",
+        "pt-BR": "Repasse informações com precisão.",
+        "fr": "Transmettez une information avec précision.",
+        "de": "Gib Informationen genau weiter.",
+        "it": "Trasmetti le informazioni con precisione.",
+        "ja": "情報を正確に伝えよう。",
+        "zh-Hans": "准确地传递信息。"
       },
       "focus": {
         "en": "Reported speech shifts tenses: “va a cerrar” → dijo que iba a cerrar / estaría cerrado.",
-        "vi": "Câu tường thuật lùi thì: “va a cerrar” → dijo que iba a cerrar / estaría cerrado."
+        "vi": "Câu tường thuật lùi thì: “va a cerrar” → dijo que iba a cerrar / estaría cerrado.",
+        "pt-BR": "O discurso indireto muda os tempos: “va a cerrar” → dijo que iba a cerrar / estaría cerrado.",
+        "fr": "Le discours rapporté décale les temps : « va a cerrar » → dijo que iba a cerrar / estaría cerrado.",
+        "de": "Die indirekte Rede verschiebt die Zeiten: „va a cerrar“ → dijo que iba a cerrar / estaría cerrado.",
+        "it": "Il discorso indiretto sposta i tempi: “va a cerrar” → dijo que iba a cerrar / estaría cerrado.",
+        "ja": "間接話法では時制がずれる：「va a cerrar」→ dijo que iba a cerrar / estaría cerrado。",
+        "zh-Hans": "间接引语要变时态：“va a cerrar”→ dijo que iba a cerrar / estaría cerrado。"
       },
       "icon": "radio",
       "phrases": [
         {
           "es": "Según el periódico, va a subir la gasolina.",
           "en": "According to the newspaper, gas prices will rise.",
-          "vi": "Theo báo, giá xăng sẽ tăng."
+          "vi": "Theo báo, giá xăng sẽ tăng.",
+          "pt-BR": "Segundo o jornal, a gasolina vai subir.",
+          "fr": "D’après le journal, l’essence va augmenter.",
+          "de": "Laut Zeitung steigt der Benzinpreis.",
+          "it": "Secondo il giornale, la benzina aumenterà.",
+          "ja": "新聞によると、ガソリンが値上がりするそうです。",
+          "zh-Hans": "据报纸说，油价要涨了。"
         },
         {
           "es": "Dijeron que el metro estaría cerrado.",
           "en": "They said the metro would be closed.",
-          "vi": "Họ nói tàu điện ngầm sẽ đóng cửa."
+          "vi": "Họ nói tàu điện ngầm sẽ đóng cửa.",
+          "pt-BR": "Disseram que o metrô estaria fechado.",
+          "fr": "Ils ont dit que le métro serait fermé.",
+          "de": "Sie sagten, die U-Bahn würde geschlossen sein.",
+          "it": "Hanno detto che la metro sarebbe stata chiusa.",
+          "ja": "地下鉄は閉鎖されると言っていました。",
+          "zh-Hans": "他们说地铁会关闭。"
         },
         {
           "es": "El alcalde anunció que habrá nuevas ciclovías.",
           "en": "The mayor announced there will be new bike lanes.",
-          "vi": "Thị trưởng thông báo sẽ có làn xe đạp mới."
+          "vi": "Thị trưởng thông báo sẽ có làn xe đạp mới.",
+          "pt-BR": "O prefeito anunciou que haverá novas ciclovias.",
+          "fr": "Le maire a annoncé qu’il y aura de nouvelles pistes cyclables.",
+          "de": "Der Bürgermeister hat neue Radwege angekündigt.",
+          "it": "Il sindaco ha annunciato che ci saranno nuove piste ciclabili.",
+          "ja": "市長が新しい自転車レーンができると発表しました。",
+          "zh-Hans": "市长宣布将建新的自行车道。"
         },
         {
           "es": "Se dice que mañana habrá protestas.",
           "en": "They say there will be protests tomorrow.",
-          "vi": "Nghe nói ngày mai sẽ có biểu tình."
+          "vi": "Nghe nói ngày mai sẽ có biểu tình.",
+          "pt-BR": "Dizem que amanhã haverá protestos.",
+          "fr": "On dit qu’il y aura des manifestations demain.",
+          "de": "Es heißt, morgen gibt es Proteste.",
+          "it": "Dicono che domani ci saranno proteste.",
+          "ja": "明日デモがあるそうです。",
+          "zh-Hans": "听说明天有抗议活动。"
         },
         {
           "es": "Me contó que se había mudado.",
           "en": "She told me she had moved.",
-          "vi": "Cô ấy kể với tôi là đã chuyển nhà."
+          "vi": "Cô ấy kể với tôi là đã chuyển nhà.",
+          "pt-BR": "Ela me disse que tinha se mudado.",
+          "fr": "Elle m’a dit qu’elle avait déménagé.",
+          "de": "Sie hat mir erzählt, dass sie umgezogen war.",
+          "it": "Mi ha detto che si era trasferita.",
+          "ja": "彼女は引っ越したと言っていました。",
+          "zh-Hans": "她告诉我她搬家了。"
         },
         {
           "es": "No está confirmado todavía.",
           "en": "It isn't confirmed yet.",
-          "vi": "Việc này vẫn chưa được xác nhận."
+          "vi": "Việc này vẫn chưa được xác nhận.",
+          "pt-BR": "Ainda não está confirmado.",
+          "fr": "Ce n’est pas encore confirmé.",
+          "de": "Das ist noch nicht bestätigt.",
+          "it": "Non è ancora confermato.",
+          "ja": "まだ確定していません。",
+          "zh-Hans": "还没确认。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "discussing",
       "title": {
         "en": "Discussing the news",
-        "vi": "Bàn luận tin tức"
+        "vi": "Bàn luận tin tức",
+        "pt-BR": "Discutindo as notícias",
+        "fr": "Discuter de l’actualité",
+        "de": "Über Nachrichten diskutieren",
+        "it": "Discutere le notizie",
+        "ja": "ニュースについて話す",
+        "zh-Hans": "讨论新闻"
       },
       "description": {
         "en": "React and give a measured view.",
-        "vi": "Phản hồi và nêu quan điểm chừng mực."
+        "vi": "Phản hồi và nêu quan điểm chừng mực.",
+        "pt-BR": "Reaja e dê uma opinião ponderada.",
+        "fr": "Réagissez et donnez un avis nuancé.",
+        "de": "Reagiere und gib eine ausgewogene Meinung.",
+        "it": "Reagisci e dai un parere equilibrato.",
+        "ja": "反応して、バランスの取れた意見を言おう。",
+        "zh-Hans": "做出回应并给出理性的看法。"
       },
       "focus": {
         "en": "Doubt triggers the subjunctive: dudo que sea, no creo que tenga. Certainty doesn't: creo que es.",
-        "vi": "Nghi ngờ đi với thức giả định: dudo que sea, no creo que tenga. Chắc chắn thì không: creo que es."
+        "vi": "Nghi ngờ đi với thức giả định: dudo que sea, no creo que tenga. Chắc chắn thì không: creo que es.",
+        "pt-BR": "A dúvida pede subjuntivo: dudo que sea, no creo que tenga. A certeza não: creo que es.",
+        "fr": "Le doute entraîne le subjonctif : dudo que sea, no creo que tenga. La certitude non : creo que es.",
+        "de": "Zweifel verlangt den Subjuntivo: dudo que sea, no creo que tenga. Gewissheit nicht: creo que es.",
+        "it": "Il dubbio richiede il congiuntivo: dudo que sea, no creo que tenga. La certezza no: creo que es.",
+        "ja": "疑いには接続法：dudo que sea, no creo que tenga。確信には使わない：creo que es。",
+        "zh-Hans": "表示怀疑用虚拟式：dudo que sea, no creo que tenga。表示肯定则不用：creo que es。"
       },
       "icon": "message-square",
       "phrases": [
         {
           "es": "¿Viste lo que pasó con…?",
           "en": "Did you see what happened with…?",
-          "vi": "Bạn thấy chuyện xảy ra với… chưa?"
+          "vi": "Bạn thấy chuyện xảy ra với… chưa?",
+          "pt-BR": "Você viu o que aconteceu com…?",
+          "fr": "Tu as vu ce qui s’est passé avec… ?",
+          "de": "Hast du gesehen, was mit … passiert ist?",
+          "it": "Hai visto cos’è successo con…?",
+          "ja": "…のこと、見た？",
+          "zh-Hans": "你看到……发生的事了吗？"
         },
         {
           "es": "Es un tema bastante polémico.",
           "en": "It's quite a controversial topic.",
-          "vi": "Đó là chủ đề khá gây tranh cãi."
+          "vi": "Đó là chủ đề khá gây tranh cãi.",
+          "pt-BR": "É um tema bem polêmico.",
+          "fr": "C’est un sujet assez controversé.",
+          "de": "Das ist ein ziemlich umstrittenes Thema.",
+          "it": "È un tema piuttosto controverso.",
+          "ja": "かなり議論を呼ぶテーマです。",
+          "zh-Hans": "这是个挺有争议的话题。"
         },
         {
           "es": "Hay que ver las dos caras de la moneda.",
           "en": "You have to see both sides of the coin.",
-          "vi": "Phải nhìn cả hai mặt của vấn đề."
+          "vi": "Phải nhìn cả hai mặt của vấn đề.",
+          "pt-BR": "É preciso ver os dois lados da moeda.",
+          "fr": "Il faut voir les deux côtés de la médaille.",
+          "de": "Man muss beide Seiten der Medaille sehen.",
+          "it": "Bisogna vedere entrambe le facce della medaglia.",
+          "ja": "物事の両面を見ないとね。",
+          "zh-Hans": "要看到事情的两面。"
         },
         {
           "es": "Dudo que eso sea verdad.",
           "en": "I doubt that's true.",
-          "vi": "Tôi nghi ngờ điều đó là thật."
+          "vi": "Tôi nghi ngờ điều đó là thật.",
+          "pt-BR": "Duvido que seja verdade.",
+          "fr": "Je doute que ce soit vrai.",
+          "de": "Ich bezweifle, dass das stimmt.",
+          "it": "Dubito che sia vero.",
+          "ja": "それが本当かどうか疑わしいです。",
+          "zh-Hans": "我怀疑那是真的。"
         },
         {
           "es": "No me sorprende para nada.",
           "en": "It doesn't surprise me at all.",
-          "vi": "Tôi chẳng ngạc nhiên chút nào."
+          "vi": "Tôi chẳng ngạc nhiên chút nào.",
+          "pt-BR": "Não me surpreende nem um pouco.",
+          "fr": "Ça ne me surprend pas du tout.",
+          "de": "Das überrascht mich überhaupt nicht.",
+          "it": "Non mi sorprende per niente.",
+          "ja": "全然驚かないよ。",
+          "zh-Hans": "我一点都不意外。"
         },
         {
           "es": "Habrá que esperar a ver qué pasa.",
           "en": "We'll have to wait and see what happens.",
-          "vi": "Phải chờ xem chuyện gì xảy ra."
+          "vi": "Phải chờ xem chuyện gì xảy ra.",
+          "pt-BR": "Vamos ter que esperar para ver o que acontece.",
+          "fr": "Il faudra attendre de voir ce qui se passe.",
+          "de": "Wir müssen abwarten, was passiert.",
+          "it": "Bisognerà aspettare e vedere cosa succede.",
+          "ja": "どうなるか様子を見るしかないね。",
+          "zh-Hans": "我们得等着看会怎样。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "news-chat",
       "title": {
         "en": "Chat about the news",
-        "vi": "Tán gẫu về tin tức"
+        "vi": "Tán gẫu về tin tức",
+        "pt-BR": "Conversando sobre as notícias",
+        "fr": "Parler de l’actualité",
+        "de": "Über die Nachrichten plaudern",
+        "it": "Chiacchierare di attualità",
+        "ja": "ニュースについておしゃべり",
+        "zh-Hans": "聊聊新闻"
       },
       "description": {
         "en": "Pass on a headline and discuss it.",
-        "vi": "Kể lại một tin và bàn luận."
+        "vi": "Kể lại một tin và bàn luận.",
+        "pt-BR": "Repasse uma manchete e discuta.",
+        "fr": "Transmettez un gros titre et discutez-en.",
+        "de": "Gib eine Schlagzeile weiter und diskutiere sie.",
+        "it": "Riferisci un titolo e discutine.",
+        "ja": "見出しを伝えて話し合おう。",
+        "zh-Hans": "转述一条头条并讨论。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Escuchaste las noticias de hoy?",
           "translation": {
             "en": "Did you hear today's news?",
-            "vi": "Bạn nghe tin hôm nay chưa?"
+            "vi": "Bạn nghe tin hôm nay chưa?",
+            "pt-BR": "Você viu as notícias de hoje?",
+            "fr": "Tu as vu les infos d’aujourd’hui ?",
+            "de": "Hast du die Nachrichten von heute gesehen?",
+            "it": "Hai visto le notizie di oggi?",
+            "ja": "今日のニュース見た？",
+            "zh-Hans": "你看到今天的新闻了吗？"
           },
           "hint": {
             "en": "Report what you heard with “dijeron que…” or “según…”.",
-            "vi": "Thuật lại bằng “dijeron que…” hoặc “según…”."
+            "vi": "Thuật lại bằng “dijeron que…” hoặc “según…”.",
+            "pt-BR": "Relate o que ouviu com “dijeron que…” ou “según…”.",
+            "fr": "Rapportez ce que vous avez entendu avec « dijeron que… » ou « según… ».",
+            "de": "Gib Gehörtes mit „dijeron que…“ oder „según…“ wieder.",
+            "it": "Riferisci ciò che hai sentito con “dijeron que…” o “según…”.",
+            "ja": "「dijeron que…」や「según…」で聞いたことを伝えよう。",
+            "zh-Hans": "用“dijeron que…”或“según…”转述你听到的。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Sí, dijeron que el metro estaría cerrado el domingo.",
               "translation": {
                 "en": "Yes, they said the metro would be closed on Sunday.",
-                "vi": "Rồi, họ nói Chủ Nhật tàu điện ngầm sẽ đóng cửa."
+                "vi": "Rồi, họ nói Chủ Nhật tàu điện ngầm sẽ đóng cửa.",
+                "pt-BR": "Sim, disseram que o metrô estaria fechado no domingo.",
+                "fr": "Oui, ils ont dit que le métro serait fermé dimanche.",
+                "de": "Ja, sie sagten, die U-Bahn wäre am Sonntag geschlossen.",
+                "it": "Sì, hanno detto che domenica la metro sarebbe stata chiusa.",
+                "ja": "うん、日曜日は地下鉄が閉鎖されるって言ってた。",
+                "zh-Hans": "看到了，说周日地铁会关闭。"
               },
               "correct": true,
               "response": "¿En serio? ¿Por qué?",
               "responseTranslation": {
                 "en": "Seriously? Why?",
-                "vi": "Thật à? Sao vậy?"
+                "vi": "Thật à? Sao vậy?",
+                "pt-BR": "Sério? Por quê?",
+                "fr": "Sérieux ? Pourquoi ?",
+                "de": "Echt? Warum?",
+                "it": "Davvero? Perché?",
+                "ja": "本当？どうして？",
+                "zh-Hans": "真的吗？为什么？"
               },
               "next": "why"
             },
@@ -157,13 +313,25 @@
               "es": "Según el periódico, habrá nuevas ciclovías en el centro.",
               "translation": {
                 "en": "According to the paper, there'll be new bike lanes downtown.",
-                "vi": "Theo báo, trung tâm sẽ có làn xe đạp mới."
+                "vi": "Theo báo, trung tâm sẽ có làn xe đạp mới.",
+                "pt-BR": "Segundo o jornal, vai ter novas ciclovias no centro.",
+                "fr": "D’après le journal, il y aura de nouvelles pistes cyclables en centre-ville.",
+                "de": "Laut Zeitung gibt es neue Radwege in der Innenstadt.",
+                "it": "Secondo il giornale, ci saranno nuove piste ciclabili in centro.",
+                "ja": "新聞によると、中心街に新しい自転車レーンができるって。",
+                "zh-Hans": "据报纸说，市中心会有新的自行车道。"
               },
               "correct": true,
               "response": "¡Ya era hora! ¿Y por qué ahora?",
               "responseTranslation": {
                 "en": "About time! And why now?",
-                "vi": "Cuối cùng cũng có! Sao giờ mới làm?"
+                "vi": "Cuối cùng cũng có! Sao giờ mới làm?",
+                "pt-BR": "Já não era sem tempo! E por que agora?",
+                "fr": "Il était temps ! Et pourquoi maintenant ?",
+                "de": "Wurde auch Zeit! Und warum jetzt?",
+                "it": "Era ora! E perché proprio adesso?",
+                "ja": "やっとだね！でもなぜ今？",
+                "zh-Hans": "早该这样了！那为什么是现在？"
               },
               "next": "why"
             },
@@ -172,14 +340,26 @@
               "es": "El metro va a cerrar, dijo.",
               "translation": {
                 "en": "The metro is going to close, he said.",
-                "vi": "Tàu điện sẽ đóng cửa, anh ta nói."
+                "vi": "Tàu điện sẽ đóng cửa, anh ta nói.",
+                "pt-BR": "O metrô vai fechar, ele disse.",
+                "fr": "Le métro va fermer, il a dit.",
+                "de": "Die U-Bahn wird schließen, hat er gesagt.",
+                "it": "La metro chiuderà, ha detto.",
+                "ja": "地下鉄が閉まる、と彼は言った。",
+                "zh-Hans": "地铁要关了，他说。"
               },
               "correct": false,
               "correction": "Sí, dijeron que el metro estaría cerrado el domingo.",
               "response": "Ah, ¿dijeron que iba a cerrar? ¿Por qué?",
               "responseTranslation": {
                 "en": "Ah, they said it would close? Why?",
-                "vi": "À, họ nói nó sẽ đóng à? Sao vậy?"
+                "vi": "À, họ nói nó sẽ đóng à? Sao vậy?",
+                "pt-BR": "Ah, disseram que ia fechar? Por quê?",
+                "fr": "Ah, ils ont dit qu’il fermerait ? Pourquoi ?",
+                "de": "Ah, sie sagten, sie würde schließen? Warum?",
+                "it": "Ah, hanno detto che avrebbe chiuso? Perché?",
+                "ja": "へえ、閉まるって言ってたの？どうして？",
+                "zh-Hans": "啊，他们说会关闭？为什么？"
               },
               "next": "why"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Y por qué lo hacen?",
           "translation": {
             "en": "And why are they doing it?",
-            "vi": "Thế sao họ lại làm vậy?"
+            "vi": "Thế sao họ lại làm vậy?",
+            "pt-BR": "E por que estão fazendo isso?",
+            "fr": "Et pourquoi ils font ça ?",
+            "de": "Und warum machen sie das?",
+            "it": "E perché lo fanno?",
+            "ja": "で、なぜそうするの？",
+            "zh-Hans": "那他们为什么这么做？"
           },
           "hint": {
             "en": "Share what you know, or admit it's unconfirmed.",
-            "vi": "Chia sẻ điều bạn biết, hoặc nói là chưa được xác nhận."
+            "vi": "Chia sẻ điều bạn biết, hoặc nói là chưa được xác nhận.",
+            "pt-BR": "Conte o que sabe ou admita que não está confirmado.",
+            "fr": "Dites ce que vous savez, ou admettez que ce n’est pas confirmé.",
+            "de": "Sag, was du weißt, oder gib zu, dass es unbestätigt ist.",
+            "it": "Di’ quello che sai, o ammetti che non è confermato.",
+            "ja": "知っていることを話すか、未確認だと認めよう。",
+            "zh-Hans": "说出你知道的，或者承认还没确认。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Se dice que es por obras, pero no está confirmado.",
               "translation": {
                 "en": "They say it's for construction, but it's not confirmed.",
-                "vi": "Nghe nói là do thi công, nhưng chưa xác nhận."
+                "vi": "Nghe nói là do thi công, nhưng chưa xác nhận.",
+                "pt-BR": "Dizem que é por causa de obras, mas não está confirmado.",
+                "fr": "On dit que c’est pour des travaux, mais ce n’est pas confirmé.",
+                "de": "Es heißt, wegen Bauarbeiten, aber das ist nicht bestätigt.",
+                "it": "Dicono che sia per dei lavori, ma non è confermato.",
+                "ja": "工事のためらしいけど、確定じゃないよ。",
+                "zh-Hans": "听说是因为施工，但还没确认。"
               },
               "correct": true,
               "response": "Mmm, dudo que terminen a tiempo.",
               "responseTranslation": {
                 "en": "Hmm, I doubt they'll finish on time.",
-                "vi": "Ừm, mình nghi là họ không xong đúng hạn."
+                "vi": "Ừm, mình nghi là họ không xong đúng hạn.",
+                "pt-BR": "Hmm, duvido que terminem a tempo.",
+                "fr": "Hmm, je doute qu’ils finissent à temps.",
+                "de": "Hmm, ich bezweifle, dass sie rechtzeitig fertig werden.",
+                "it": "Mmm, dubito che finiscano in tempo.",
+                "ja": "うーん、予定どおり終わるとは思えないな。",
+                "zh-Hans": "嗯，我怀疑他们能按时完工。"
               },
               "next": "opinion"
             },
@@ -217,13 +421,25 @@
               "es": "Para reducir el tráfico, según el gobierno.",
               "translation": {
                 "en": "To reduce traffic, according to the government.",
-                "vi": "Để giảm kẹt xe, theo chính quyền."
+                "vi": "Để giảm kẹt xe, theo chính quyền.",
+                "pt-BR": "Para reduzir o trânsito, segundo o governo.",
+                "fr": "Pour réduire la circulation, d’après le gouvernement.",
+                "de": "Um den Verkehr zu verringern, laut Regierung.",
+                "it": "Per ridurre il traffico, secondo il governo.",
+                "ja": "政府によると、交通量を減らすためだって。",
+                "zh-Hans": "据政府说，是为了减少交通拥堵。"
               },
               "correct": true,
               "response": "No me sorprende. ¿Tú qué opinas?",
               "responseTranslation": {
                 "en": "Doesn't surprise me. What do you think?",
-                "vi": "Chẳng lạ. Bạn nghĩ sao?"
+                "vi": "Chẳng lạ. Bạn nghĩ sao?",
+                "pt-BR": "Não me surpreende. O que você acha?",
+                "fr": "Ça ne m’étonne pas. Tu en penses quoi ?",
+                "de": "Überrascht mich nicht. Was meinst du?",
+                "it": "Non mi sorprende. Tu che ne pensi?",
+                "ja": "驚かないね。どう思う？",
+                "zh-Hans": "我不意外。你怎么看？"
               },
               "next": "opinion"
             },
@@ -232,14 +448,26 @@
               "es": "No sé.",
               "translation": {
                 "en": "I don't know.",
-                "vi": "Không biết."
+                "vi": "Không biết.",
+                "pt-BR": "Não sei.",
+                "fr": "Je ne sais pas.",
+                "de": "Ich weiß nicht.",
+                "it": "Non lo so.",
+                "ja": "わかりません。",
+                "zh-Hans": "我不知道。"
               },
               "correct": false,
               "correction": "Se dice que es por obras, pero no está confirmado.",
               "response": "Bueno, ¿pero qué se dice?",
               "responseTranslation": {
                 "en": "Well, but what are people saying?",
-                "vi": "Thế người ta nói gì?"
+                "vi": "Thế người ta nói gì?",
+                "pt-BR": "Bem, mas o que as pessoas estão dizendo?",
+                "fr": "Bon, mais qu’est-ce que les gens disent ?",
+                "de": "Na ja, aber was sagen die Leute?",
+                "it": "Va bene, ma cosa dice la gente?",
+                "ja": "まあ、でもみんなは何て言ってる？",
+                "zh-Hans": "好吧，那大家怎么说？"
               },
               "next": "opinion"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Crees que va a funcionar?",
           "translation": {
             "en": "Do you think it'll work?",
-            "vi": "Bạn nghĩ có hiệu quả không?"
+            "vi": "Bạn nghĩ có hiệu quả không?",
+            "pt-BR": "Você acha que vai funcionar?",
+            "fr": "Tu crois que ça va marcher ?",
+            "de": "Glaubst du, es wird funktionieren?",
+            "it": "Pensi che funzionerà?",
+            "ja": "うまくいくと思う？",
+            "zh-Hans": "你觉得会有效吗？"
           },
           "hint": {
             "en": "Use “dudo que / no creo que + subjunctive” or “creo que + indicative”.",
-            "vi": "Dùng “dudo que / no creo que + giả định” hoặc “creo que + trần thuật”."
+            "vi": "Dùng “dudo que / no creo que + giả định” hoặc “creo que + trần thuật”.",
+            "pt-BR": "Use “dudo que / no creo que + subjuntivo” ou “creo que + indicativo”.",
+            "fr": "Utilisez « dudo que / no creo que + subjonctif » ou « creo que + indicatif ».",
+            "de": "Benutze „dudo que / no creo que + Subjuntivo“ oder „creo que + Indikativ“.",
+            "it": "Usa “dudo que / no creo que + congiuntivo” o “creo que + indicativo”.",
+            "ja": "「dudo que / no creo que＋接続法」か「creo que＋直説法」を使おう。",
+            "zh-Hans": "用“dudo que / no creo que + 虚拟式”或“creo que + 陈述式”。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "No creo que funcione, pero habrá que esperar.",
               "translation": {
                 "en": "I don't think it'll work, but we'll have to wait.",
-                "vi": "Mình không nghĩ là hiệu quả, nhưng phải chờ xem."
+                "vi": "Mình không nghĩ là hiệu quả, nhưng phải chờ xem.",
+                "pt-BR": "Não acho que vá funcionar, mas vamos ter que esperar.",
+                "fr": "Je ne crois pas que ça marche, mais il faudra attendre.",
+                "de": "Ich glaube nicht, dass es funktioniert, aber wir müssen abwarten.",
+                "it": "Non credo che funzioni, ma bisognerà aspettare.",
+                "ja": "うまくいくとは思わないけど、様子を見ないとね。",
+                "zh-Hans": "我不认为会有效，但得等等看。"
               },
               "correct": true,
               "response": "Pienso lo mismo.",
               "responseTranslation": {
                 "en": "I think the same.",
-                "vi": "Mình cũng nghĩ vậy."
+                "vi": "Mình cũng nghĩ vậy.",
+                "pt-BR": "Penso o mesmo.",
+                "fr": "Je pense la même chose.",
+                "de": "Das denke ich auch.",
+                "it": "La penso allo stesso modo.",
+                "ja": "私も同じ考え。",
+                "zh-Hans": "我也这么想。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Creo que sí, hay que ver las dos caras.",
               "translation": {
                 "en": "I think so, you have to see both sides.",
-                "vi": "Mình nghĩ là có, phải nhìn cả hai mặt."
+                "vi": "Mình nghĩ là có, phải nhìn cả hai mặt.",
+                "pt-BR": "Acho que sim, é preciso ver os dois lados.",
+                "fr": "Je crois que oui, il faut voir les deux côtés.",
+                "de": "Ich glaube schon, man muss beide Seiten sehen.",
+                "it": "Credo di sì, bisogna vedere entrambi i lati.",
+                "ja": "そう思うよ、両面を見ないとね。",
+                "zh-Hans": "我觉得会，要看到两面。"
               },
               "correct": true,
               "response": "Puede ser. Ojalá tengas razón.",
               "responseTranslation": {
                 "en": "Could be. I hope you're right.",
-                "vi": "Có thể. Mong là bạn đúng."
+                "vi": "Có thể. Mong là bạn đúng.",
+                "pt-BR": "Pode ser. Espero que você tenha razão.",
+                "fr": "Peut-être. J’espère que tu as raison.",
+                "de": "Kann sein. Ich hoffe, du hast recht.",
+                "it": "Può darsi. Spero che tu abbia ragione.",
+                "ja": "そうかもね。あなたの言うとおりだといいな。",
+                "zh-Hans": "可能吧。希望你说得对。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No creo que funciona.",
               "translation": {
                 "en": "I don't think it works (wrong form).",
-                "vi": "Mình không nghĩ là hiệu quả (sai dạng)."
+                "vi": "Mình không nghĩ là hiệu quả (sai dạng).",
+                "pt-BR": "Não acho que funciona (forma errada).",
+                "fr": "Je ne crois pas que ça marche (mauvaise forme).",
+                "de": "Ich glaube nicht, dass es funktioniert (falsche Form).",
+                "it": "Non credo che funziona (forma sbagliata).",
+                "ja": "うまくいくとは思わない（形の誤り）。",
+                "zh-Hans": "我不认为会有效（形式错误）。"
               },
               "correct": false,
               "correction": "No creo que funcione, pero habrá que esperar.",
               "response": "“Que funcione”, ¿no? Pero sí, yo también lo dudo.",
               "responseTranslation": {
                 "en": "“Que funcione”, right? But yes, I doubt it too.",
-                "vi": "Phải là “que funcione” chứ? Nhưng đúng, mình cũng nghi lắm."
+                "vi": "Phải là “que funcione” chứ? Nhưng đúng, mình cũng nghi lắm.",
+                "pt-BR": "“Que funcione”, né? Mas sim, eu também duvido.",
+                "fr": "« Que funcione », non ? Mais oui, j’en doute aussi.",
+                "de": "„Que funcione“, oder? Aber ja, ich bezweifle es auch.",
+                "it": "“Que funcione”, no? Ma sì, anch’io ne dubito.",
+                "ja": "「que funcione」だよね？でも、私も疑問だな。",
+                "zh-Hans": "应该是“que funcione”吧？不过，我也怀疑。"
               }
             }
           ]

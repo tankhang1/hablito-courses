@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-11",
-  "version": 1,
+  "version": 2,
   "level": 11,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 3: Plans & the future",
-    "vi": "Trung cấp 3: Kế hoạch & tương lai"
+    "vi": "Trung cấp 3: Kế hoạch & tương lai",
+    "pt-BR": "Intermediário 3: Planos e futuro",
+    "fr": "Intermédiaire 3 : Projets et futur",
+    "de": "Mittelstufe 3: Pläne und Zukunft",
+    "it": "Intermedio 3: Progetti e futuro",
+    "ja": "中級 3：予定と未来",
+    "zh-Hans": "中级 3：计划和未来"
   },
   "description": {
     "en": "Talk about plans, intentions, and predictions.",
-    "vi": "Nói về kế hoạch, dự định và dự đoán."
+    "vi": "Nói về kế hoạch, dự định và dự đoán.",
+    "pt-BR": "Fale sobre planos, intenções e previsões.",
+    "fr": "Parlez de projets, d’intentions et de prévisions.",
+    "de": "Sprich über Pläne, Absichten und Vorhersagen.",
+    "it": "Parla di progetti, intenzioni e previsioni.",
+    "ja": "予定、意図、予想について話そう。",
+    "zh-Hans": "谈论计划、打算和预测。"
   },
   "lessons": [
     {
       "id": "plans",
       "title": {
         "en": "Making plans",
-        "vi": "Lên kế hoạch"
+        "vi": "Lên kế hoạch",
+        "pt-BR": "Fazendo planos",
+        "fr": "Faire des projets",
+        "de": "Pläne machen",
+        "it": "Fare progetti",
+        "ja": "予定を立てる",
+        "zh-Hans": "制定计划"
       },
       "description": {
         "en": "Say what you are going to do.",
-        "vi": "Nói điều bạn sắp làm."
+        "vi": "Nói điều bạn sắp làm.",
+        "pt-BR": "Diga o que você vai fazer.",
+        "fr": "Dites ce que vous allez faire.",
+        "de": "Sag, was du vorhast.",
+        "it": "Di’ cosa farai.",
+        "ja": "これからすることを言おう。",
+        "zh-Hans": "说说你打算做什么。"
       },
       "focus": {
         "en": "“Ir a + infinitive” is the everyday future: voy a comer, vas a ver.",
-        "vi": "“Ir a + động từ nguyên mẫu” là cách nói tương lai thông dụng: voy a comer, vas a ver."
+        "vi": "“Ir a + động từ nguyên mẫu” là cách nói tương lai thông dụng: voy a comer, vas a ver.",
+        "pt-BR": "“Ir a + infinitivo” é o futuro do dia a dia: voy a comer, vas a ver.",
+        "fr": "« Ir a + infinitif » est le futur du quotidien : voy a comer, vas a ver.",
+        "de": "„Ir a + Infinitiv“ ist die Alltagszukunft: voy a comer, vas a ver.",
+        "it": "“Ir a + infinito” è il futuro di tutti i giorni: voy a comer, vas a ver.",
+        "ja": "「Ir a + 不定詞」は日常的な未来表現：voy a comer, vas a ver.",
+        "zh-Hans": "“Ir a + 动词原形”是日常的将来时：voy a comer, vas a ver."
       },
       "icon": "calendar",
       "phrases": [
         {
           "es": "Voy a viajar a Oaxaca.",
           "en": "I'm going to travel to Oaxaca.",
-          "vi": "Tôi sắp đi du lịch Oaxaca."
+          "vi": "Tôi sắp đi du lịch Oaxaca.",
+          "pt-BR": "Vou viajar para Oaxaca.",
+          "fr": "Je vais voyager à Oaxaca.",
+          "de": "Ich werde nach Oaxaca reisen.",
+          "it": "Andrò in viaggio a Oaxaca.",
+          "ja": "オアハカに旅行するつもりです。",
+          "zh-Hans": "我打算去瓦哈卡旅行。"
         },
         {
           "es": "Vamos a cenar juntos.",
           "en": "We're going to have dinner together.",
-          "vi": "Chúng ta sẽ ăn tối cùng nhau."
+          "vi": "Chúng ta sẽ ăn tối cùng nhau.",
+          "pt-BR": "Vamos jantar juntos.",
+          "fr": "Nous allons dîner ensemble.",
+          "de": "Wir gehen zusammen zu Abend essen.",
+          "it": "Ceneremo insieme.",
+          "ja": "一緒に夕食を食べましょう。",
+          "zh-Hans": "我们一起吃晚饭吧。"
         },
         {
           "es": "¿Qué vas a hacer mañana?",
           "en": "What are you going to do tomorrow?",
-          "vi": "Mai bạn định làm gì?"
+          "vi": "Mai bạn định làm gì?",
+          "pt-BR": "O que você vai fazer amanhã?",
+          "fr": "Qu’est-ce que tu vas faire demain ?",
+          "de": "Was machst du morgen?",
+          "it": "Cosa farai domani?",
+          "ja": "明日は何をするの？",
+          "zh-Hans": "你明天打算做什么？"
         },
         {
           "es": "Pienso estudiar más.",
           "en": "I plan to study more.",
-          "vi": "Tôi định học nhiều hơn."
+          "vi": "Tôi định học nhiều hơn.",
+          "pt-BR": "Pretendo estudar mais.",
+          "fr": "Je compte étudier davantage.",
+          "de": "Ich habe vor, mehr zu lernen.",
+          "it": "Penso di studiare di più.",
+          "ja": "もっと勉強するつもりです。",
+          "zh-Hans": "我打算多学习。"
         },
         {
           "es": "Tengo ganas de descansar.",
           "en": "I feel like resting.",
-          "vi": "Tôi muốn nghỉ ngơi."
+          "vi": "Tôi muốn nghỉ ngơi.",
+          "pt-BR": "Estou com vontade de descansar.",
+          "fr": "J’ai envie de me reposer.",
+          "de": "Ich habe Lust, mich auszuruhen.",
+          "it": "Ho voglia di riposare.",
+          "ja": "休みたい気分です。",
+          "zh-Hans": "我想休息一下。"
         },
         {
           "es": "Todavía no lo sé.",
           "en": "I don't know yet.",
-          "vi": "Tôi vẫn chưa biết."
+          "vi": "Tôi vẫn chưa biết.",
+          "pt-BR": "Ainda não sei.",
+          "fr": "Je ne sais pas encore.",
+          "de": "Ich weiß es noch nicht.",
+          "it": "Non lo so ancora.",
+          "ja": "まだわかりません。",
+          "zh-Hans": "我还不知道。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "predictions",
       "title": {
         "en": "Predictions & promises",
-        "vi": "Dự đoán & lời hứa"
+        "vi": "Dự đoán & lời hứa",
+        "pt-BR": "Previsões e promessas",
+        "fr": "Prévisions et promesses",
+        "de": "Vorhersagen und Versprechen",
+        "it": "Previsioni e promesse",
+        "ja": "予想と約束",
+        "zh-Hans": "预测和承诺"
       },
       "description": {
         "en": "Use the simple future for predictions.",
-        "vi": "Dùng thì tương lai đơn để dự đoán."
+        "vi": "Dùng thì tương lai đơn để dự đoán.",
+        "pt-BR": "Use o futuro simples para previsões.",
+        "fr": "Utilisez le futur simple pour les prévisions.",
+        "de": "Benutze das Futur für Vorhersagen.",
+        "it": "Usa il futuro semplice per le previsioni.",
+        "ja": "予想には未来形を使おう。",
+        "zh-Hans": "用简单将来时来预测。"
       },
       "focus": {
         "en": "Simple future = infinitive + é, ás, á…: hablaré, comerás. Common irregulars: haré, tendré, saldré, podré.",
-        "vi": "Tương lai đơn = động từ nguyên mẫu + é, ás, á…: hablaré, comerás. Bất quy tắc hay gặp: haré, tendré, saldré, podré."
+        "vi": "Tương lai đơn = động từ nguyên mẫu + é, ás, á…: hablaré, comerás. Bất quy tắc hay gặp: haré, tendré, saldré, podré.",
+        "pt-BR": "Futuro simples = infinitivo + é, ás, á…: hablaré, comerás. Irregulares comuns: haré, tendré, saldré, podré.",
+        "fr": "Futur simple = infinitif + é, ás, á… : hablaré, comerás. Irréguliers courants : haré, tendré, saldré, podré.",
+        "de": "Futur = Infinitiv + é, ás, á…: hablaré, comerás. Häufige Unregelmäßige: haré, tendré, saldré, podré.",
+        "it": "Futuro semplice = infinito + é, ás, á…: hablaré, comerás. Irregolari comuni: haré, tendré, saldré, podré.",
+        "ja": "未来形＝不定詞＋é, ás, á…：hablaré, comerás。よく使う不規則形：haré, tendré, saldré, podré。",
+        "zh-Hans": "简单将来时 = 动词原形 + é, ás, á…：hablaré, comerás。常见不规则：haré, tendré, saldré, podré。"
       },
       "icon": "sun",
       "phrases": [
         {
           "es": "Mañana lloverá.",
           "en": "It will rain tomorrow.",
-          "vi": "Ngày mai trời sẽ mưa."
+          "vi": "Ngày mai trời sẽ mưa.",
+          "pt-BR": "Amanhã vai chover.",
+          "fr": "Il pleuvra demain.",
+          "de": "Morgen wird es regnen.",
+          "it": "Domani pioverà.",
+          "ja": "明日は雨が降るでしょう。",
+          "zh-Hans": "明天会下雨。"
         },
         {
           "es": "Te llamaré esta noche.",
           "en": "I'll call you tonight.",
-          "vi": "Tối nay tôi sẽ gọi cho bạn."
+          "vi": "Tối nay tôi sẽ gọi cho bạn.",
+          "pt-BR": "Te ligo hoje à noite.",
+          "fr": "Je t’appelle ce soir.",
+          "de": "Ich rufe dich heute Abend an.",
+          "it": "Ti chiamo stasera.",
+          "ja": "今夜電話するね。",
+          "zh-Hans": "我今晚给你打电话。"
         },
         {
           "es": "Seguro que te gustará.",
           "en": "I'm sure you'll like it.",
-          "vi": "Chắc chắn bạn sẽ thích."
+          "vi": "Chắc chắn bạn sẽ thích.",
+          "pt-BR": "Tenho certeza de que você vai gostar.",
+          "fr": "Je suis sûr que ça va te plaire.",
+          "de": "Ich bin sicher, es wird dir gefallen.",
+          "it": "Sono sicuro che ti piacerà.",
+          "ja": "きっと気に入るよ。",
+          "zh-Hans": "我相信你会喜欢的。"
         },
         {
           "es": "Algún día hablaré español perfectamente.",
           "en": "Someday I'll speak Spanish perfectly.",
-          "vi": "Một ngày nào đó tôi sẽ nói tiếng Tây Ban Nha thật giỏi."
+          "vi": "Một ngày nào đó tôi sẽ nói tiếng Tây Ban Nha thật giỏi.",
+          "pt-BR": "Um dia vou falar espanhol perfeitamente.",
+          "fr": "Un jour, je parlerai parfaitement espagnol.",
+          "de": "Eines Tages werde ich perfekt Spanisch sprechen.",
+          "it": "Un giorno parlerò spagnolo perfettamente.",
+          "ja": "いつか完璧にスペイン語を話せるようになる。",
+          "zh-Hans": "总有一天我会说一口完美的西班牙语。"
         },
         {
           "es": "No te preocupes, todo saldrá bien.",
           "en": "Don't worry, everything will turn out fine.",
-          "vi": "Đừng lo, mọi chuyện sẽ ổn thôi."
+          "vi": "Đừng lo, mọi chuyện sẽ ổn thôi.",
+          "pt-BR": "Não se preocupe, tudo vai dar certo.",
+          "fr": "Ne t’inquiète pas, tout ira bien.",
+          "de": "Keine Sorge, alles wird gut.",
+          "it": "Non preoccuparti, andrà tutto bene.",
+          "ja": "心配しないで、全部うまくいくよ。",
+          "zh-Hans": "别担心，一切都会好的。"
         },
         {
           "es": "¿Qué harás en las vacaciones?",
           "en": "What will you do on vacation?",
-          "vi": "Kỳ nghỉ bạn sẽ làm gì?"
+          "vi": "Kỳ nghỉ bạn sẽ làm gì?",
+          "pt-BR": "O que você vai fazer nas férias?",
+          "fr": "Que feras-tu pendant les vacances ?",
+          "de": "Was machst du im Urlaub?",
+          "it": "Cosa farai in vacanza?",
+          "ja": "休暇は何をするの？",
+          "zh-Hans": "你假期会做什么？"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "vacation-plans",
       "title": {
         "en": "Plan a vacation",
-        "vi": "Lên kế hoạch kỳ nghỉ"
+        "vi": "Lên kế hoạch kỳ nghỉ",
+        "pt-BR": "Planeje as férias",
+        "fr": "Préparer des vacances",
+        "de": "Einen Urlaub planen",
+        "it": "Pianifica una vacanza",
+        "ja": "休暇の計画",
+        "zh-Hans": "计划一次度假"
       },
       "description": {
         "en": "Share plans and make a prediction.",
-        "vi": "Chia sẻ kế hoạch và đưa ra dự đoán."
+        "vi": "Chia sẻ kế hoạch và đưa ra dự đoán.",
+        "pt-BR": "Conte seus planos e faça uma previsão.",
+        "fr": "Partagez vos projets et faites une prévision.",
+        "de": "Erzähl von Plänen und mach eine Vorhersage.",
+        "it": "Racconta i tuoi piani e fai una previsione.",
+        "ja": "予定を話して予想をしよう。",
+        "zh-Hans": "分享计划并做个预测。"
       },
       "icon": "map-pin",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Qué vas a hacer en las vacaciones?",
           "translation": {
             "en": "What are you going to do on vacation?",
-            "vi": "Kỳ nghỉ bạn định làm gì?"
+            "vi": "Kỳ nghỉ bạn định làm gì?",
+            "pt-BR": "O que você vai fazer nas férias?",
+            "fr": "Qu’est-ce que tu vas faire pendant les vacances ?",
+            "de": "Was machst du im Urlaub?",
+            "it": "Cosa farai in vacanza?",
+            "ja": "休暇は何をするの？",
+            "zh-Hans": "你假期打算做什么？"
           },
           "hint": {
             "en": "Use “Voy a…”.",
-            "vi": "Dùng “Voy a…”."
+            "vi": "Dùng “Voy a…”.",
+            "pt-BR": "Use “Voy a…”.",
+            "fr": "Utilisez « Voy a… ».",
+            "de": "Benutze „Voy a…“.",
+            "it": "Usa “Voy a…”.",
+            "ja": "「Voy a…」を使おう。",
+            "zh-Hans": "用“Voy a…”。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Voy a viajar a Oaxaca con mi familia.",
               "translation": {
                 "en": "I'm going to travel to Oaxaca with my family.",
-                "vi": "Mình sẽ đi Oaxaca với gia đình."
+                "vi": "Mình sẽ đi Oaxaca với gia đình.",
+                "pt-BR": "Vou viajar para Oaxaca com minha família.",
+                "fr": "Je vais voyager à Oaxaca avec ma famille.",
+                "de": "Ich werde mit meiner Familie nach Oaxaca reisen.",
+                "it": "Andrò a Oaxaca con la mia famiglia.",
+                "ja": "家族とオアハカに旅行するつもりです。",
+                "zh-Hans": "我打算和家人去瓦哈卡旅行。"
               },
               "correct": true,
               "response": "¡Qué padre! ¿Cuánto tiempo van a estar allá?",
               "responseTranslation": {
                 "en": "How cool! How long will you be there?",
-                "vi": "Hay quá! Mọi người ở đó bao lâu?"
+                "vi": "Hay quá! Mọi người ở đó bao lâu?",
+                "pt-BR": "Que legal! Quanto tempo vai ficar lá?",
+                "fr": "Trop bien ! Tu y seras combien de temps ?",
+                "de": "Wie cool! Wie lange bleibst du dort?",
+                "it": "Che bello! Quanto tempo starai lì?",
+                "ja": "いいね！どのくらいいるの？",
+                "zh-Hans": "太棒了！你要在那儿待多久？"
               },
               "next": "length"
             },
@@ -157,13 +313,25 @@
               "es": "Voy a descansar en casa, tengo ganas.",
               "translation": {
                 "en": "I'm going to rest at home, I feel like it.",
-                "vi": "Mình sẽ nghỉ ở nhà, mình muốn vậy."
+                "vi": "Mình sẽ nghỉ ở nhà, mình muốn vậy.",
+                "pt-BR": "Vou descansar em casa, estou com vontade.",
+                "fr": "Je vais me reposer à la maison, j’en ai envie.",
+                "de": "Ich werde mich zu Hause ausruhen, darauf habe ich Lust.",
+                "it": "Mi riposerò a casa, ne ho voglia.",
+                "ja": "家で休むつもり、そういう気分なんだ。",
+                "zh-Hans": "我打算在家休息，我想这样。"
               },
               "correct": true,
               "response": "Buena idea. ¿Y no vas a salir nada?",
               "responseTranslation": {
                 "en": "Good idea. And you won't go out at all?",
-                "vi": "Ý hay. Thế bạn không đi đâu cả à?"
+                "vi": "Ý hay. Thế bạn không đi đâu cả à?",
+                "pt-BR": "Boa ideia. E não vai sair nada?",
+                "fr": "Bonne idée. Et tu ne sortiras pas du tout ?",
+                "de": "Gute Idee. Und du gehst gar nicht raus?",
+                "it": "Buona idea. E non uscirai per niente?",
+                "ja": "いい考えだね。全然出かけないの？",
+                "zh-Hans": "好主意。那你完全不出门吗？"
               },
               "next": "length"
             },
@@ -172,14 +340,26 @@
               "es": "Fui a la playa.",
               "translation": {
                 "en": "I went to the beach.",
-                "vi": "Mình đã đi biển."
+                "vi": "Mình đã đi biển.",
+                "pt-BR": "Fui à praia.",
+                "fr": "Je suis allé à la plage.",
+                "de": "Ich war am Strand.",
+                "it": "Sono andato al mare.",
+                "ja": "ビーチに行きました。",
+                "zh-Hans": "我去了海边。"
               },
               "correct": false,
               "correction": "Voy a viajar a Oaxaca con mi familia.",
               "response": "Eso fue antes. ¿Y en estas vacaciones?",
               "responseTranslation": {
                 "en": "That was before. And these holidays?",
-                "vi": "Đó là lần trước. Còn kỳ nghỉ này?"
+                "vi": "Đó là lần trước. Còn kỳ nghỉ này?",
+                "pt-BR": "Isso foi antes. E nestas férias?",
+                "fr": "Ça, c’était avant. Et ces vacances-ci ?",
+                "de": "Das war früher. Und in diesen Ferien?",
+                "it": "Quello era prima. E queste vacanze?",
+                "ja": "それは前の話でしょ。今度の休みは？",
+                "zh-Hans": "那是以前。这个假期呢？"
               },
               "next": "length"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Cuánto tiempo vas a quedarte?",
           "translation": {
             "en": "How long are you going to stay?",
-            "vi": "Bạn định ở lại bao lâu?"
+            "vi": "Bạn định ở lại bao lâu?",
+            "pt-BR": "Quanto tempo você vai ficar?",
+            "fr": "Combien de temps vas-tu rester ?",
+            "de": "Wie lange bleibst du?",
+            "it": "Quanto tempo resterai?",
+            "ja": "どのくらい滞在するの？",
+            "zh-Hans": "你要待多久？"
           },
           "hint": {
             "en": "Answer with a length of time.",
-            "vi": "Trả lời bằng một khoảng thời gian."
+            "vi": "Trả lời bằng một khoảng thời gian.",
+            "pt-BR": "Responda com um período de tempo.",
+            "fr": "Répondez avec une durée.",
+            "de": "Antworte mit einer Zeitdauer.",
+            "it": "Rispondi con una durata.",
+            "ja": "期間で答えよう。",
+            "zh-Hans": "用一段时间来回答。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Una semana, más o menos.",
               "translation": {
                 "en": "A week, more or less.",
-                "vi": "Khoảng một tuần."
+                "vi": "Khoảng một tuần.",
+                "pt-BR": "Uma semana, mais ou menos.",
+                "fr": "Une semaine, à peu près.",
+                "de": "Ungefähr eine Woche.",
+                "it": "Una settimana, più o meno.",
+                "ja": "だいたい1週間です。",
+                "zh-Hans": "大概一周。"
               },
               "correct": true,
               "response": "Perfecto. ¿Crees que hará calor?",
               "responseTranslation": {
                 "en": "Perfect. Do you think it'll be hot?",
-                "vi": "Tuyệt. Bạn nghĩ trời có nóng không?"
+                "vi": "Tuyệt. Bạn nghĩ trời có nóng không?",
+                "pt-BR": "Perfeito. Você acha que vai fazer calor?",
+                "fr": "Parfait. Tu crois qu’il fera chaud ?",
+                "de": "Perfekt. Glaubst du, es wird heiß?",
+                "it": "Perfetto. Pensi che farà caldo?",
+                "ja": "いいね。暑くなると思う？",
+                "zh-Hans": "好的。你觉得会热吗？"
               },
               "next": "weather"
             },
@@ -217,13 +421,25 @@
               "es": "Todavía no lo sé, quizás diez días.",
               "translation": {
                 "en": "I don't know yet, maybe ten days.",
-                "vi": "Mình chưa biết, có lẽ mười ngày."
+                "vi": "Mình chưa biết, có lẽ mười ngày.",
+                "pt-BR": "Ainda não sei, talvez dez dias.",
+                "fr": "Je ne sais pas encore, peut-être dix jours.",
+                "de": "Ich weiß es noch nicht, vielleicht zehn Tage.",
+                "it": "Non lo so ancora, forse dieci giorni.",
+                "ja": "まだわからない、たぶん10日くらい。",
+                "zh-Hans": "我还不知道，也许十天。"
               },
               "correct": true,
               "response": "Bueno. ¿Crees que hará calor?",
               "responseTranslation": {
                 "en": "OK. Do you think it'll be hot?",
-                "vi": "Được. Bạn nghĩ trời có nóng không?"
+                "vi": "Được. Bạn nghĩ trời có nóng không?",
+                "pt-BR": "Certo. Você acha que vai fazer calor?",
+                "fr": "D’accord. Tu crois qu’il fera chaud ?",
+                "de": "Okay. Glaubst du, es wird heiß?",
+                "it": "Ok. Pensi che farà caldo?",
+                "ja": "わかった。暑くなると思う？",
+                "zh-Hans": "好的。你觉得会热吗？"
               },
               "next": "weather"
             },
@@ -232,14 +448,26 @@
               "es": "Mañana.",
               "translation": {
                 "en": "Tomorrow.",
-                "vi": "Ngày mai."
+                "vi": "Ngày mai.",
+                "pt-BR": "Amanhã.",
+                "fr": "Demain.",
+                "de": "Morgen.",
+                "it": "Domani.",
+                "ja": "明日です。",
+                "zh-Hans": "明天。"
               },
               "correct": false,
               "correction": "Una semana, más o menos.",
               "response": "¿Te vas mañana? ¿Y por cuánto tiempo?",
               "responseTranslation": {
                 "en": "You leave tomorrow? And for how long?",
-                "vi": "Mai bạn đi à? Rồi ở bao lâu?"
+                "vi": "Mai bạn đi à? Rồi ở bao lâu?",
+                "pt-BR": "Você vai amanhã? E por quanto tempo?",
+                "fr": "Tu pars demain ? Et pour combien de temps ?",
+                "de": "Du fährst morgen? Und für wie lange?",
+                "it": "Parti domani? E per quanto tempo?",
+                "ja": "明日出発？で、どのくらい？",
+                "zh-Hans": "你明天走？要去多久？"
               },
               "next": "weather"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Crees que hará buen tiempo?",
           "translation": {
             "en": "Do you think the weather will be good?",
-            "vi": "Bạn nghĩ thời tiết sẽ đẹp không?"
+            "vi": "Bạn nghĩ thời tiết sẽ đẹp không?",
+            "pt-BR": "Você acha que o tempo vai estar bom?",
+            "fr": "Tu crois qu’il fera beau ?",
+            "de": "Glaubst du, das Wetter wird gut?",
+            "it": "Pensi che farà bel tempo?",
+            "ja": "天気はいいと思う？",
+            "zh-Hans": "你觉得天气会好吗？"
           },
           "hint": {
             "en": "Make a prediction with the future.",
-            "vi": "Dự đoán bằng thì tương lai."
+            "vi": "Dự đoán bằng thì tương lai.",
+            "pt-BR": "Faça uma previsão com o futuro.",
+            "fr": "Faites une prévision au futur.",
+            "de": "Mach eine Vorhersage im Futur.",
+            "it": "Fai una previsione con il futuro.",
+            "ja": "未来形で予想しよう。",
+            "zh-Hans": "用将来时做个预测。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Creo que hará sol y mucho calor.",
               "translation": {
                 "en": "I think it'll be sunny and very hot.",
-                "vi": "Mình nghĩ trời sẽ nắng và rất nóng."
+                "vi": "Mình nghĩ trời sẽ nắng và rất nóng.",
+                "pt-BR": "Acho que vai fazer sol e muito calor.",
+                "fr": "Je pense qu’il y aura du soleil et qu’il fera très chaud.",
+                "de": "Ich glaube, es wird sonnig und sehr heiß.",
+                "it": "Penso che ci sarà il sole e farà molto caldo.",
+                "ja": "晴れてとても暑くなると思う。",
+                "zh-Hans": "我觉得会是晴天，而且很热。"
               },
               "correct": true,
               "response": "¡Lleva protector solar!",
               "responseTranslation": {
                 "en": "Take sunscreen!",
-                "vi": "Nhớ mang kem chống nắng nhé!"
+                "vi": "Nhớ mang kem chống nắng nhé!",
+                "pt-BR": "Leve protetor solar!",
+                "fr": "Prends de la crème solaire !",
+                "de": "Nimm Sonnencreme mit!",
+                "it": "Porta la crema solare!",
+                "ja": "日焼け止めを持っていってね！",
+                "zh-Hans": "带上防晒霜！"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Seguro que lloverá un poco.",
               "translation": {
                 "en": "I'm sure it'll rain a bit.",
-                "vi": "Chắc chắn sẽ mưa một chút."
+                "vi": "Chắc chắn sẽ mưa một chút.",
+                "pt-BR": "Tenho certeza de que vai chover um pouco.",
+                "fr": "Je suis sûr qu’il va pleuvoir un peu.",
+                "de": "Ich bin sicher, es wird ein bisschen regnen.",
+                "it": "Sono sicuro che pioverà un po’.",
+                "ja": "きっと少し雨が降ると思う。",
+                "zh-Hans": "我肯定会下点雨。"
               },
               "correct": true,
               "response": "Entonces lleva un paraguas.",
               "responseTranslation": {
                 "en": "Then take an umbrella.",
-                "vi": "Vậy mang theo ô nhé."
+                "vi": "Vậy mang theo ô nhé.",
+                "pt-BR": "Então leve um guarda-chuva.",
+                "fr": "Alors prends un parapluie.",
+                "de": "Dann nimm einen Regenschirm mit.",
+                "it": "Allora porta un ombrello.",
+                "ja": "じゃあ傘を持っていって。",
+                "zh-Hans": "那就带把伞。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Tengo frío.",
               "translation": {
                 "en": "I'm cold.",
-                "vi": "Mình lạnh."
+                "vi": "Mình lạnh.",
+                "pt-BR": "Estou com frio.",
+                "fr": "J’ai froid.",
+                "de": "Mir ist kalt.",
+                "it": "Ho freddo.",
+                "ja": "寒いです。",
+                "zh-Hans": "我很冷。"
               },
               "correct": false,
               "correction": "Creo que hará sol y mucho calor.",
               "response": "¿Ahora? Te pregunto por el clima en Oaxaca.",
               "responseTranslation": {
                 "en": "Now? I'm asking about the weather in Oaxaca.",
-                "vi": "Bây giờ á? Mình hỏi thời tiết ở Oaxaca mà."
+                "vi": "Bây giờ á? Mình hỏi thời tiết ở Oaxaca mà.",
+                "pt-BR": "Agora? Estou perguntando sobre o tempo em Oaxaca.",
+                "fr": "Maintenant ? Je te parle du temps à Oaxaca.",
+                "de": "Jetzt? Ich frage nach dem Wetter in Oaxaca.",
+                "it": "Adesso? Ti chiedo del tempo a Oaxaca.",
+                "ja": "今？オアハカの天気を聞いてるんだよ。",
+                "zh-Hans": "现在？我问的是瓦哈卡的天气。"
               }
             }
           ]

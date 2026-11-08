@@ -28,7 +28,7 @@
         "ja": "日常の小さな言葉と気持ちの表し方。",
         "zh-Hans": "日常小词和表达你的感受。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-01.json",
+      "file": "packs/level-01.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -60,7 +60,7 @@
         "ja": "曜日と時刻の言い方。",
         "zh-Hans": "一周中的日子和怎么说时间。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-02.json",
+      "file": "packs/level-02.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -92,7 +92,7 @@
         "ja": "よく食べる物と注文のしかた。",
         "zh-Hans": "常见食物以及如何点餐。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-03.json",
+      "file": "packs/level-03.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -124,7 +124,7 @@
         "ja": "色、服、値段、支払い。",
         "zh-Hans": "颜色、衣服、价格和付款。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-04.json",
+      "file": "packs/level-04.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -156,7 +156,7 @@
         "ja": "街の場所と簡単な道案内。",
         "zh-Hans": "城里的地点和简单的路线。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-05.json",
+      "file": "packs/level-05.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -188,7 +188,7 @@
         "ja": "家族と家について話そう。",
         "zh-Hans": "谈谈你的家人和你的家。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-06.json",
+      "file": "packs/level-06.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -220,7 +220,7 @@
         "ja": "痛みを説明して、すぐに助けを求めよう。",
         "zh-Hans": "描述疼痛并快速求助。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-07.json",
+      "file": "packs/level-07.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -252,7 +252,7 @@
         "ja": "職業、スケジュール、職場での雑談。",
         "zh-Hans": "职业、日程和职场闲聊。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-08.json",
+      "file": "packs/level-08.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -284,7 +284,7 @@
         "ja": "ホテルや移動中の問題を解決しよう。",
         "zh-Hans": "解决酒店和路上遇到的问题。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-09.json",
+      "file": "packs/level-09.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -316,7 +316,7 @@
         "ja": "したことを話し、考えを伝えよう。",
         "zh-Hans": "讲讲你做了什么，说说你的想法。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-10.json",
+      "file": "packs/level-10.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
@@ -324,403 +324,643 @@
     },
     {
       "id": "level-11",
-      "version": 1,
-      "contentHash": "6580b5f3a7604fbc",
+      "version": 2,
+      "contentHash": "b48a4ed6a2d7cdb7",
       "level": 11,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 3: Plans & the future",
-        "vi": "Trung cấp 3: Kế hoạch & tương lai"
+        "vi": "Trung cấp 3: Kế hoạch & tương lai",
+        "pt-BR": "Intermediário 3: Planos e futuro",
+        "fr": "Intermédiaire 3 : Projets et futur",
+        "de": "Mittelstufe 3: Pläne und Zukunft",
+        "it": "Intermedio 3: Progetti e futuro",
+        "ja": "中級 3：予定と未来",
+        "zh-Hans": "中级 3：计划和未来"
       },
       "description": {
         "en": "Talk about plans, intentions, and predictions.",
-        "vi": "Nói về kế hoạch, dự định và dự đoán."
+        "vi": "Nói về kế hoạch, dự định và dự đoán.",
+        "pt-BR": "Fale sobre planos, intenções e previsões.",
+        "fr": "Parlez de projets, d’intentions et de prévisions.",
+        "de": "Sprich über Pläne, Absichten und Vorhersagen.",
+        "it": "Parla di progetti, intenzioni e previsioni.",
+        "ja": "予定、意図、予想について話そう。",
+        "zh-Hans": "谈论计划、打算和预测。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-11.json",
+      "file": "packs/level-11.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 10
+      "sizeKb": 26
     },
     {
       "id": "level-12",
-      "version": 1,
-      "contentHash": "b95637612ac2156a",
+      "version": 2,
+      "contentHash": "ea900abc7cac3fba",
       "level": 12,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 4: Describing people & places",
-        "vi": "Trung cấp 4: Miêu tả người & nơi chốn"
+        "vi": "Trung cấp 4: Miêu tả người & nơi chốn",
+        "pt-BR": "Intermediário 4: Descrevendo pessoas e lugares",
+        "fr": "Intermédiaire 4 : Décrire les gens et les lieux",
+        "de": "Mittelstufe 4: Menschen und Orte beschreiben",
+        "it": "Intermedio 4: Descrivere persone e luoghi",
+        "ja": "中級 4：人と場所を描写する",
+        "zh-Hans": "中级 4：描述人和地方"
       },
       "description": {
         "en": "Describe looks, personality, and places.",
-        "vi": "Miêu tả ngoại hình, tính cách và nơi chốn."
+        "vi": "Miêu tả ngoại hình, tính cách và nơi chốn.",
+        "pt-BR": "Descreva aparência, personalidade e lugares.",
+        "fr": "Décrivez l’apparence, la personnalité et les lieux.",
+        "de": "Beschreibe Aussehen, Persönlichkeit und Orte.",
+        "it": "Descrivi aspetto, carattere e luoghi.",
+        "ja": "外見、性格、場所を説明しよう。",
+        "zh-Hans": "描述外貌、性格和地方。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-12.json",
+      "file": "packs/level-12.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 27
     },
     {
       "id": "level-13",
-      "version": 1,
-      "contentHash": "1a93d3a3b006f75b",
+      "version": 2,
+      "contentHash": "9b2e46a168544ac6",
       "level": 13,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 5: Memories & childhood",
-        "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ"
+        "vi": "Trung cấp 5: Kỷ niệm & tuổi thơ",
+        "pt-BR": "Intermediário 5: Lembranças e infância",
+        "fr": "Intermédiaire 5 : Souvenirs et enfance",
+        "de": "Mittelstufe 5: Erinnerungen und Kindheit",
+        "it": "Intermedio 5: Ricordi e infanzia",
+        "ja": "中級 5：思い出と子ども時代",
+        "zh-Hans": "中级 5：回忆和童年"
       },
       "description": {
         "en": "Tell what life used to be like.",
-        "vi": "Kể cuộc sống ngày xưa như thế nào."
+        "vi": "Kể cuộc sống ngày xưa như thế nào.",
+        "pt-BR": "Conte como era a vida antes.",
+        "fr": "Racontez comment était la vie avant.",
+        "de": "Erzähl, wie das Leben früher war.",
+        "it": "Racconta com’era la vita una volta.",
+        "ja": "昔の暮らしを話そう。",
+        "zh-Hans": "讲讲以前的生活是什么样。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-13.json",
+      "file": "packs/level-13.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 27
     },
     {
       "id": "level-14",
-      "version": 1,
-      "contentHash": "ce4fa491a9cab514",
+      "version": 2,
+      "contentHash": "4c583b7576a1104e",
       "level": 14,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 6: Calls & appointments",
-        "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn"
+        "vi": "Trung cấp 6: Gọi điện & đặt lịch hẹn",
+        "pt-BR": "Intermediário 6: Ligações e agendamentos",
+        "fr": "Intermédiaire 6 : Appels et rendez-vous",
+        "de": "Mittelstufe 6: Anrufe und Termine",
+        "it": "Intermedio 6: Telefonate e appuntamenti",
+        "ja": "中級 6：電話と予約",
+        "zh-Hans": "中级 6：电话和预约"
       },
       "description": {
         "en": "Handle phone calls and book appointments politely.",
-        "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự."
+        "vi": "Gọi điện và đặt lịch hẹn một cách lịch sự.",
+        "pt-BR": "Atenda ligações e marque horários com educação.",
+        "fr": "Gérez les appels et prenez rendez-vous poliment.",
+        "de": "Führe Telefonate und vereinbare höflich Termine.",
+        "it": "Gestisci le telefonate e prendi appuntamenti con cortesia.",
+        "ja": "丁寧に電話をして予約を取ろう。",
+        "zh-Hans": "礼貌地打电话和预约。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-14.json",
+      "file": "packs/level-14.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 27
     },
     {
       "id": "level-15",
-      "version": 1,
-      "contentHash": "2d05e96b5db30333",
+      "version": 2,
+      "contentHash": "b120730684130346",
       "level": 15,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 7: Renting & services",
-        "vi": "Trung cấp 7: Thuê nhà & dịch vụ"
+        "vi": "Trung cấp 7: Thuê nhà & dịch vụ",
+        "pt-BR": "Intermediário 7: Aluguel e serviços",
+        "fr": "Intermédiaire 7 : Location et services",
+        "de": "Mittelstufe 7: Mieten und Dienstleistungen",
+        "it": "Intermedio 7: Affitti e servizi",
+        "ja": "中級 7：賃貸と各種サービス",
+        "zh-Hans": "中级 7：租房和服务"
       },
       "description": {
         "en": "Rent a place, report problems, and get things fixed.",
-        "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa."
+        "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa.",
+        "pt-BR": "Alugue um lugar, relate problemas e resolva consertos.",
+        "fr": "Louez un logement, signalez des problèmes et faites réparer.",
+        "de": "Miete eine Wohnung, melde Probleme und lass Dinge reparieren.",
+        "it": "Affitta una casa, segnala problemi e fai riparare le cose.",
+        "ja": "部屋を借りて、トラブルを伝えて、修理してもらおう。",
+        "zh-Hans": "租房、反映问题、找人修理。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-15.json",
+      "file": "packs/level-15.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-16",
-      "version": 1,
-      "contentHash": "62fca118c68ecd6f",
+      "version": 2,
+      "contentHash": "7cb3e6c1a21881d8",
       "level": 16,
       "cefr": "B1",
       "title": {
         "en": "Intermediate 8: Feelings & relationships",
-        "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ"
+        "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ",
+        "pt-BR": "Intermediário 8: Sentimentos e relacionamentos",
+        "fr": "Intermédiaire 8 : Sentiments et relations",
+        "de": "Mittelstufe 8: Gefühle und Beziehungen",
+        "it": "Intermedio 8: Sentimenti e relazioni",
+        "ja": "中級 8：気持ちと人間関係",
+        "zh-Hans": "中级 8：情感和人际关系"
       },
       "description": {
         "en": "Express emotions and react to others' news.",
-        "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác."
+        "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác.",
+        "pt-BR": "Expresse emoções e reaja às notícias dos outros.",
+        "fr": "Exprimez vos émotions et réagissez aux nouvelles des autres.",
+        "de": "Drücke Gefühle aus und reagiere auf Neuigkeiten anderer.",
+        "it": "Esprimi emozioni e reagisci alle notizie degli altri.",
+        "ja": "感情を表して、人の知らせに反応しよう。",
+        "zh-Hans": "表达情绪，回应别人的消息。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-16.json",
+      "file": "packs/level-16.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 10
+      "sizeKb": 27
     },
     {
       "id": "level-17",
-      "version": 1,
-      "contentHash": "e37d18ddb1767498",
+      "version": 2,
+      "contentHash": "1091ae6a11050036",
       "level": 17,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 1: Advice & recommendations",
-        "vi": "Trung cao cấp 1: Lời khuyên & đề xuất"
+        "vi": "Trung cao cấp 1: Lời khuyên & đề xuất",
+        "pt-BR": "Intermediário superior 1: Conselhos e recomendações",
+        "fr": "Intermédiaire supérieur 1 : Conseils et recommandations",
+        "de": "Obere Mittelstufe 1: Ratschläge und Empfehlungen",
+        "it": "Intermedio superiore 1: Consigli e raccomandazioni",
+        "ja": "中上級 1：アドバイスとおすすめ",
+        "zh-Hans": "中高级 1：建议和推荐"
       },
       "description": {
         "en": "Give and ask for advice naturally.",
-        "vi": "Đưa và xin lời khuyên một cách tự nhiên."
+        "vi": "Đưa và xin lời khuyên một cách tự nhiên.",
+        "pt-BR": "Dê e peça conselhos com naturalidade.",
+        "fr": "Donnez et demandez des conseils naturellement.",
+        "de": "Gib und hol dir ganz natürlich Rat.",
+        "it": "Dai e chiedi consigli in modo naturale.",
+        "ja": "自然にアドバイスをしたり求めたりしよう。",
+        "zh-Hans": "自然地给出和寻求建议。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-17.json",
+      "file": "packs/level-17.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-18",
-      "version": 1,
-      "contentHash": "193452874e6d1810",
+      "version": 2,
+      "contentHash": "355a4f5413cbb165",
       "level": 18,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 2: Job interviews",
-        "vi": "Trung cao cấp 2: Phỏng vấn xin việc"
+        "vi": "Trung cao cấp 2: Phỏng vấn xin việc",
+        "pt-BR": "Intermediário superior 2: Entrevistas de emprego",
+        "fr": "Intermédiaire supérieur 2 : Entretiens d’embauche",
+        "de": "Obere Mittelstufe 2: Vorstellungsgespräche",
+        "it": "Intermedio superiore 2: Colloqui di lavoro",
+        "ja": "中上級 2：就職面接",
+        "zh-Hans": "中高级 2：求职面试"
       },
       "description": {
         "en": "Talk about your experience and strengths.",
-        "vi": "Nói về kinh nghiệm và điểm mạnh của bạn."
+        "vi": "Nói về kinh nghiệm và điểm mạnh của bạn.",
+        "pt-BR": "Fale sobre sua experiência e seus pontos fortes.",
+        "fr": "Parlez de votre expérience et de vos points forts.",
+        "de": "Sprich über deine Erfahrung und Stärken.",
+        "it": "Parla della tua esperienza e dei tuoi punti di forza.",
+        "ja": "経験と強みについて話そう。",
+        "zh-Hans": "谈谈你的经验和优势。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-18.json",
+      "file": "packs/level-18.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 12
+      "sizeKb": 29
     },
     {
       "id": "level-19",
-      "version": 1,
-      "contentHash": "8c66bebe8d2c546a",
+      "version": 2,
+      "contentHash": "02f8cb63084416f4",
       "level": 19,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 3: Complaints & negotiation",
-        "vi": "Trung cao cấp 3: Khiếu nại & thương lượng"
+        "vi": "Trung cao cấp 3: Khiếu nại & thương lượng",
+        "pt-BR": "Intermediário superior 3: Reclamações e negociação",
+        "fr": "Intermédiaire supérieur 3 : Réclamations et négociation",
+        "de": "Obere Mittelstufe 3: Beschwerden und Verhandeln",
+        "it": "Intermedio superiore 3: Reclami e trattative",
+        "ja": "中上級 3：苦情と交渉",
+        "zh-Hans": "中高级 3：投诉和谈判"
       },
       "description": {
         "en": "Complain politely and reach a fair deal.",
-        "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý."
+        "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý.",
+        "pt-BR": "Reclame com educação e chegue a um acordo justo.",
+        "fr": "Réclamez poliment et trouvez un accord équitable.",
+        "de": "Beschwere dich höflich und finde eine faire Lösung.",
+        "it": "Reclama con cortesia e raggiungi un accordo equo.",
+        "ja": "丁寧に苦情を伝えて、公平な合意を目指そう。",
+        "zh-Hans": "礼貌地投诉，达成公平的协议。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-19.json",
+      "file": "packs/level-19.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-20",
-      "version": 1,
-      "contentHash": "8d0741766cb806b8",
+      "version": 2,
+      "contentHash": "c2689a8a2cbee0fd",
       "level": 20,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 4: What if…?",
-        "vi": "Trung cao cấp 4: Nếu như…?"
+        "vi": "Trung cao cấp 4: Nếu như…?",
+        "pt-BR": "Intermediário superior 4: E se…?",
+        "fr": "Intermédiaire supérieur 4 : Et si… ?",
+        "de": "Obere Mittelstufe 4: Was wäre, wenn…?",
+        "it": "Intermedio superiore 4: E se…?",
+        "ja": "中上級 4：もし〜なら？",
+        "zh-Hans": "中高级 4：如果……？"
       },
       "description": {
         "en": "Imagine, wish, and talk about hypotheticals.",
-        "vi": "Tưởng tượng, ước muốn và nói về giả định."
+        "vi": "Tưởng tượng, ước muốn và nói về giả định.",
+        "pt-BR": "Imagine, deseje e fale de hipóteses.",
+        "fr": "Imaginez, souhaitez et parlez d’hypothèses.",
+        "de": "Stell dir Dinge vor, äußere Wünsche und sprich über Hypothesen.",
+        "it": "Immagina, esprimi desideri e parla di ipotesi.",
+        "ja": "想像したり、願ったり、仮定の話をしよう。",
+        "zh-Hans": "想象、许愿和谈论假设。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-20.json",
+      "file": "packs/level-20.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 29
     },
     {
       "id": "level-21",
-      "version": 1,
-      "contentHash": "5308974657e262f2",
+      "version": 2,
+      "contentHash": "c20d870f1d80c879",
       "level": 21,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 5: News & current events",
-        "vi": "Trung cao cấp 5: Tin tức & thời sự"
+        "vi": "Trung cao cấp 5: Tin tức & thời sự",
+        "pt-BR": "Intermediário superior 5: Notícias e atualidades",
+        "fr": "Intermédiaire supérieur 5 : Infos et actualité",
+        "de": "Obere Mittelstufe 5: Nachrichten und Aktuelles",
+        "it": "Intermedio superiore 5: Notizie e attualità",
+        "ja": "中上級 5：ニュースと時事",
+        "zh-Hans": "中高级 5：新闻和时事"
       },
       "description": {
         "en": "Report what others said and discuss the news.",
-        "vi": "Thuật lại lời người khác và bàn luận tin tức."
+        "vi": "Thuật lại lời người khác và bàn luận tin tức.",
+        "pt-BR": "Relate o que outros disseram e discuta as notícias.",
+        "fr": "Rapportez ce que d’autres ont dit et discutez de l’actualité.",
+        "de": "Gib wieder, was andere gesagt haben, und diskutiere die Nachrichten.",
+        "it": "Riferisci ciò che hanno detto gli altri e discuti le notizie.",
+        "ja": "人の発言を伝えて、ニュースについて話そう。",
+        "zh-Hans": "转述别人说的话，讨论新闻。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-21.json",
+      "file": "packs/level-21.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 29
     },
     {
       "id": "level-22",
-      "version": 1,
-      "contentHash": "8362fcfc6b823ec5",
+      "version": 2,
+      "contentHash": "256591e00647a800",
       "level": 22,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 6: Mexican culture & traditions",
-        "vi": "Trung cao cấp 6: Văn hóa & truyền thống Mexico"
+        "vi": "Trung cao cấp 6: Văn hóa & truyền thống Mexico",
+        "pt-BR": "Intermediário superior 6: Cultura e tradições mexicanas",
+        "fr": "Intermédiaire supérieur 6 : Culture et traditions mexicaines",
+        "de": "Obere Mittelstufe 6: Mexikanische Kultur und Traditionen",
+        "it": "Intermedio superiore 6: Cultura e tradizioni messicane",
+        "ja": "中上級 6：メキシコの文化と伝統",
+        "zh-Hans": "中高级 6：墨西哥文化和传统"
       },
       "description": {
         "en": "Celebrations, food culture, and customs.",
-        "vi": "Lễ hội, ẩm thực và phong tục."
+        "vi": "Lễ hội, ẩm thực và phong tục.",
+        "pt-BR": "Festas, cultura gastronômica e costumes.",
+        "fr": "Fêtes, culture culinaire et coutumes.",
+        "de": "Feste, Esskultur und Bräuche.",
+        "it": "Feste, cultura del cibo e usanze.",
+        "ja": "祭り、食文化、習慣。",
+        "zh-Hans": "节庆、饮食文化和习俗。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-22.json",
+      "file": "packs/level-22.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 29
     },
     {
       "id": "level-23",
-      "version": 1,
-      "contentHash": "58acd96ef8558728",
+      "version": 2,
+      "contentHash": "8337574b3c39dcae",
       "level": 23,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 7: Debating lifestyle",
-        "vi": "Trung cao cấp 7: Tranh luận về lối sống"
+        "vi": "Trung cao cấp 7: Tranh luận về lối sống",
+        "pt-BR": "Intermediário superior 7: Debatendo estilos de vida",
+        "fr": "Intermédiaire supérieur 7 : Débattre du mode de vie",
+        "de": "Obere Mittelstufe 7: Über Lebensstil diskutieren",
+        "it": "Intermedio superiore 7: Dibattere sugli stili di vita",
+        "ja": "中上級 7：ライフスタイルを議論する",
+        "zh-Hans": "中高级 7：辩论生活方式"
       },
       "description": {
         "en": "Agree, disagree, and link your ideas.",
-        "vi": "Đồng ý, phản đối và liên kết ý tưởng."
+        "vi": "Đồng ý, phản đối và liên kết ý tưởng.",
+        "pt-BR": "Concorde, discorde e conecte suas ideias.",
+        "fr": "Soyez d’accord, en désaccord, et reliez vos idées.",
+        "de": "Stimme zu, widersprich und verbinde deine Ideen.",
+        "it": "Concorda, dissenti e collega le tue idee.",
+        "ja": "賛成・反対を伝えて、考えをつなげよう。",
+        "zh-Hans": "表示同意、反对，并把观点连起来。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-23.json",
+      "file": "packs/level-23.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-24",
-      "version": 1,
-      "contentHash": "2f2f5f3e036cfada",
+      "version": 2,
+      "contentHash": "91a2230070df0535",
       "level": 24,
       "cefr": "B2",
       "title": {
         "en": "Upper-intermediate 8: Telling a story",
-        "vi": "Trung cao cấp 8: Kể một câu chuyện"
+        "vi": "Trung cao cấp 8: Kể một câu chuyện",
+        "pt-BR": "Intermediário superior 8: Contando uma história",
+        "fr": "Intermédiaire supérieur 8 : Raconter une histoire",
+        "de": "Obere Mittelstufe 8: Eine Geschichte erzählen",
+        "it": "Intermedio superiore 8: Raccontare una storia",
+        "ja": "中上級 8：話を語る",
+        "zh-Hans": "中高级 8：讲故事"
       },
       "description": {
         "en": "Tell vivid stories with the right past tenses.",
-        "vi": "Kể chuyện sinh động với đúng thì quá khứ."
+        "vi": "Kể chuyện sinh động với đúng thì quá khứ.",
+        "pt-BR": "Conte histórias vivas com os tempos passados certos.",
+        "fr": "Racontez des histoires vivantes avec les bons temps du passé.",
+        "de": "Erzähle lebendige Geschichten mit den richtigen Vergangenheitszeiten.",
+        "it": "Racconta storie vivaci con i tempi passati giusti.",
+        "ja": "正しい過去時制で生き生きと話そう。",
+        "zh-Hans": "用正确的过去时讲生动的故事。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-24.json",
+      "file": "packs/level-24.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-25",
-      "version": 1,
-      "contentHash": "8301f5b685c94c36",
+      "version": 2,
+      "contentHash": "35cd853a5a8d6aa2",
       "level": 25,
       "cefr": "C1",
       "title": {
         "en": "Advanced 1: Persuading & arguing",
-        "vi": "Cao cấp 1: Thuyết phục & lập luận"
+        "vi": "Cao cấp 1: Thuyết phục & lập luận",
+        "pt-BR": "Avançado 1: Persuadir e argumentar",
+        "fr": "Avancé 1 : Persuader et argumenter",
+        "de": "Fortgeschritten 1: Überzeugen und argumentieren",
+        "it": "Avanzato 1: Persuadere e argomentare",
+        "ja": "上級 1：説得と議論",
+        "zh-Hans": "高级 1：说服与论证"
       },
       "description": {
         "en": "Build an argument and win people over.",
-        "vi": "Xây dựng lập luận và thuyết phục người khác."
+        "vi": "Xây dựng lập luận và thuyết phục người khác.",
+        "pt-BR": "Construa um argumento e conquiste as pessoas.",
+        "fr": "Construisez un argument et convainquez.",
+        "de": "Bau ein Argument auf und überzeuge andere.",
+        "it": "Costruisci un argomento e conquista le persone.",
+        "ja": "論を組み立てて人を納得させよう。",
+        "zh-Hans": "构建论点，赢得他人认同。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-25.json",
+      "file": "packs/level-25.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 29
     },
     {
       "id": "level-26",
-      "version": 1,
-      "contentHash": "4d364529728c1777",
+      "version": 2,
+      "contentHash": "5bc6aa3c036b0c08",
       "level": 26,
       "cefr": "C1",
       "title": {
         "en": "Advanced 2: Idioms & Mexican slang",
-        "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico"
+        "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico",
+        "pt-BR": "Avançado 2: Expressões e gírias mexicanas",
+        "fr": "Avancé 2 : Expressions et argot mexicain",
+        "de": "Fortgeschritten 2: Redewendungen und mexikanischer Slang",
+        "it": "Avanzato 2: Modi di dire e slang messicano",
+        "ja": "上級 2：慣用句とメキシコのスラング",
+        "zh-Hans": "高级 2：习语和墨西哥俚语"
       },
       "description": {
         "en": "Sound like a local with everyday expressions.",
-        "vi": "Nói như người bản xứ với các cách diễn đạt đời thường."
+        "vi": "Nói như người bản xứ với các cách diễn đạt đời thường.",
+        "pt-BR": "Soe como um local com expressões do dia a dia.",
+        "fr": "Parlez comme un local avec des expressions du quotidien.",
+        "de": "Klinge wie ein Einheimischer mit Alltagsausdrücken.",
+        "it": "Parla come un locale con le espressioni di tutti i giorni.",
+        "ja": "日常表現で地元の人のように話そう。",
+        "zh-Hans": "用日常表达说得像本地人。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-26.json",
+      "file": "packs/level-26.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 10
+      "sizeKb": 27
     },
     {
       "id": "level-27",
-      "version": 1,
-      "contentHash": "6224723217846289",
+      "version": 2,
+      "contentHash": "5eb7f419f787cdee",
       "level": 27,
       "cefr": "C1",
       "title": {
         "en": "Advanced 3: Formal Spanish at work",
-        "vi": "Cao cấp 3: Tiếng Tây Ban Nha trang trọng nơi công sở"
+        "vi": "Cao cấp 3: Tiếng Tây Ban Nha trang trọng nơi công sở",
+        "pt-BR": "Avançado 3: Espanhol formal no trabalho",
+        "fr": "Avancé 3 : L’espagnol formel au travail",
+        "de": "Fortgeschritten 3: Formelles Spanisch im Beruf",
+        "it": "Avanzato 3: Spagnolo formale al lavoro",
+        "ja": "上級 3：仕事での改まったスペイン語",
+        "zh-Hans": "高级 3：职场正式西班牙语"
       },
       "description": {
         "en": "Emails, meetings, and professional tone.",
-        "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp."
+        "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp.",
+        "pt-BR": "E-mails, reuniões e tom profissional.",
+        "fr": "E-mails, réunions et ton professionnel.",
+        "de": "E-Mails, Meetings und professioneller Ton.",
+        "it": "E-mail, riunioni e tono professionale.",
+        "ja": "メール、会議、プロらしい言葉づかい。",
+        "zh-Hans": "邮件、会议和职业语气。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-27.json",
+      "file": "packs/level-27.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 12
+      "sizeKb": 31
     },
     {
       "id": "level-28",
-      "version": 1,
-      "contentHash": "64bfdde37e6f9fb5",
+      "version": 2,
+      "contentHash": "1bd9ff9c498e9938",
       "level": 28,
       "cefr": "C1",
       "title": {
         "en": "Advanced 4: Nuance & tact",
-        "vi": "Cao cấp 4: Sắc thái & tế nhị"
+        "vi": "Cao cấp 4: Sắc thái & tế nhị",
+        "pt-BR": "Avançado 4: Nuance e tato",
+        "fr": "Avancé 4 : Nuance et tact",
+        "de": "Fortgeschritten 4: Nuancen und Taktgefühl",
+        "it": "Avanzato 4: Sfumature e tatto",
+        "ja": "上級 4：ニュアンスと気配り",
+        "zh-Hans": "高级 4：分寸与得体"
       },
       "description": {
         "en": "Hedge, soften, and say difficult things gracefully.",
-        "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo."
+        "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo.",
+        "pt-BR": "Atenue, suavize e diga coisas difíceis com elegância.",
+        "fr": "Nuancez, adoucissez et dites les choses difficiles avec élégance.",
+        "de": "Relativiere, mildere ab und sag Schwieriges mit Feingefühl.",
+        "it": "Attenua, ammorbidisci e di’ cose difficili con garbo.",
+        "ja": "ぼかしたり和らげたりして、言いにくいことを上手に伝えよう。",
+        "zh-Hans": "委婉、缓和，得体地说出难说的话。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-28.json",
+      "file": "packs/level-28.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 11
+      "sizeKb": 28
     },
     {
       "id": "level-29",
-      "version": 1,
-      "contentHash": "c6b20b1b1e1b2443",
+      "version": 2,
+      "contentHash": "fc32fafb96a5311d",
       "level": 29,
       "cefr": "C1",
       "title": {
         "en": "Advanced 5: Society & technology",
-        "vi": "Cao cấp 5: Xã hội & công nghệ"
+        "vi": "Cao cấp 5: Xã hội & công nghệ",
+        "pt-BR": "Avançado 5: Sociedade e tecnologia",
+        "fr": "Avancé 5 : Société et technologie",
+        "de": "Fortgeschritten 5: Gesellschaft und Technologie",
+        "it": "Avanzato 5: Società e tecnologia",
+        "ja": "上級 5：社会とテクノロジー",
+        "zh-Hans": "高级 5：社会与科技"
       },
       "description": {
         "en": "Discuss abstract topics with precision.",
-        "vi": "Bàn luận chủ đề trừu tượng một cách chính xác."
+        "vi": "Bàn luận chủ đề trừu tượng một cách chính xác.",
+        "pt-BR": "Discuta temas abstratos com precisão.",
+        "fr": "Discutez de sujets abstraits avec précision.",
+        "de": "Diskutiere abstrakte Themen präzise.",
+        "it": "Discuti temi astratti con precisione.",
+        "ja": "抽象的なテーマを正確に議論しよう。",
+        "zh-Hans": "准确地讨论抽象话题。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-29.json",
+      "file": "packs/level-29.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 12
+      "sizeKb": 30
     },
     {
       "id": "level-30",
-      "version": 1,
-      "contentHash": "2ab032e93a4ef94c",
+      "version": 2,
+      "contentHash": "f9ab3b00d113f5d1",
       "level": 30,
       "cefr": "C1",
       "title": {
         "en": "Advanced 6: Fluent conversation",
-        "vi": "Cao cấp 6: Giao tiếp thành thạo"
+        "vi": "Cao cấp 6: Giao tiếp thành thạo",
+        "pt-BR": "Avançado 6: Conversa fluente",
+        "fr": "Avancé 6 : Conversation fluide",
+        "de": "Fortgeschritten 6: Flüssige Konversation",
+        "it": "Avanzato 6: Conversazione fluente",
+        "ja": "上級 6：流暢な会話",
+        "zh-Hans": "高级 6：流利对话"
       },
       "description": {
         "en": "Natural fillers, recovery strategies, and deep talk.",
-        "vi": "Từ đệm tự nhiên, cách xử lý khi bí và trò chuyện sâu."
+        "vi": "Từ đệm tự nhiên, cách xử lý khi bí và trò chuyện sâu.",
+        "pt-BR": "Marcadores naturais, estratégias de recuperação e conversas profundas.",
+        "fr": "Mots de remplissage naturels, stratégies de rattrapage et conversations profondes.",
+        "de": "Natürliche Füllwörter, Rettungsstrategien und tiefgründige Gespräche.",
+        "it": "Riempitivi naturali, strategie di recupero e conversazioni profonde.",
+        "ja": "自然なつなぎ言葉、言葉に詰まったときの切り抜け方、深い会話。",
+        "zh-Hans": "自然的口头语、卡壳时的应对策略和深度交谈。"
       },
-      "file": "https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@062ac4a2e6a61ff7fe701e33f06692377dbcf0d5/packs/level-30.json",
+      "file": "packs/level-30.json",
       "lessonCount": 2,
       "conversationCount": 1,
       "phraseCount": 12,
-      "sizeKb": 12
+      "sizeKb": 30
     }
   ]
 }

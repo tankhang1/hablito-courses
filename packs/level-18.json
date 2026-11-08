@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-18",
-  "version": 1,
+  "version": 2,
   "level": 18,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 2: Job interviews",
-    "vi": "Trung cao cấp 2: Phỏng vấn xin việc"
+    "vi": "Trung cao cấp 2: Phỏng vấn xin việc",
+    "pt-BR": "Intermediário superior 2: Entrevistas de emprego",
+    "fr": "Intermédiaire supérieur 2 : Entretiens d’embauche",
+    "de": "Obere Mittelstufe 2: Vorstellungsgespräche",
+    "it": "Intermedio superiore 2: Colloqui di lavoro",
+    "ja": "中上級 2：就職面接",
+    "zh-Hans": "中高级 2：求职面试"
   },
   "description": {
     "en": "Talk about your experience and strengths.",
-    "vi": "Nói về kinh nghiệm và điểm mạnh của bạn."
+    "vi": "Nói về kinh nghiệm và điểm mạnh của bạn.",
+    "pt-BR": "Fale sobre sua experiência e seus pontos fortes.",
+    "fr": "Parlez de votre expérience et de vos points forts.",
+    "de": "Sprich über deine Erfahrung und Stärken.",
+    "it": "Parla della tua esperienza e dei tuoi punti di forza.",
+    "ja": "経験と強みについて話そう。",
+    "zh-Hans": "谈谈你的经验和优势。"
   },
   "lessons": [
     {
       "id": "experience",
       "title": {
         "en": "Experience",
-        "vi": "Kinh nghiệm"
+        "vi": "Kinh nghiệm",
+        "pt-BR": "Experiência",
+        "fr": "Expérience",
+        "de": "Erfahrung",
+        "it": "Esperienza",
+        "ja": "経験",
+        "zh-Hans": "经验"
       },
       "description": {
         "en": "Describe what you have done.",
-        "vi": "Kể những việc bạn đã làm."
+        "vi": "Kể những việc bạn đã làm.",
+        "pt-BR": "Descreva o que você já fez.",
+        "fr": "Décrivez ce que vous avez fait.",
+        "de": "Beschreibe, was du gemacht hast.",
+        "it": "Descrivi cosa hai fatto.",
+        "ja": "これまでしてきたことを説明しよう。",
+        "zh-Hans": "描述你做过的事。"
       },
       "focus": {
         "en": "The present perfect (he trabajado, he liderado) connects past experience to now. “Acabo de…” = “I've just…”.",
-        "vi": "Thì hiện tại hoàn thành (he trabajado, he liderado) nối kinh nghiệm quá khứ với hiện tại. “Acabo de…” = “Tôi vừa mới…”."
+        "vi": "Thì hiện tại hoàn thành (he trabajado, he liderado) nối kinh nghiệm quá khứ với hiện tại. “Acabo de…” = “Tôi vừa mới…”.",
+        "pt-BR": "O pretérito perfeito composto (he trabajado, he liderado) liga a experiência passada ao presente. “Acabo de…” = “Acabei de…”.",
+        "fr": "Le passé composé espagnol (he trabajado, he liderado) relie l’expérience passée au présent. « Acabo de… » = « Je viens de… ».",
+        "de": "Das Perfekt (he trabajado, he liderado) verbindet frühere Erfahrung mit der Gegenwart. „Acabo de…“ = „Ich habe gerade…“.",
+        "it": "Il passato prossimo (he trabajado, he liderado) collega l’esperienza passata al presente. “Acabo de…” = “Ho appena…”.",
+        "ja": "現在完了（he trabajado, he liderado）は過去の経験を現在につなぐ。「Acabo de…」＝「〜したばかり」。",
+        "zh-Hans": "现在完成时（he trabajado, he liderado）把过去的经验和现在联系起来。“Acabo de…”=“我刚刚……”。"
       },
       "icon": "briefcase",
       "phrases": [
         {
           "es": "He trabajado en ventas durante cinco años.",
           "en": "I've worked in sales for five years.",
-          "vi": "Tôi đã làm bán hàng được năm năm."
+          "vi": "Tôi đã làm bán hàng được năm năm.",
+          "pt-BR": "Trabalho com vendas há cinco anos.",
+          "fr": "Je travaille dans la vente depuis cinq ans.",
+          "de": "Ich arbeite seit fünf Jahren im Vertrieb.",
+          "it": "Lavoro nelle vendite da cinque anni.",
+          "ja": "営業の仕事を5年しています。",
+          "zh-Hans": "我做销售五年了。"
         },
         {
           "es": "He liderado un equipo de diez personas.",
           "en": "I've led a team of ten people.",
-          "vi": "Tôi từng dẫn dắt một nhóm mười người."
+          "vi": "Tôi từng dẫn dắt một nhóm mười người.",
+          "pt-BR": "Liderei uma equipe de dez pessoas.",
+          "fr": "J’ai dirigé une équipe de dix personnes.",
+          "de": "Ich habe ein Team von zehn Leuten geleitet.",
+          "it": "Ho guidato un team di dieci persone.",
+          "ja": "10人のチームを率いてきました。",
+          "zh-Hans": "我带过一个十人的团队。"
         },
         {
           "es": "Nunca he trabajado en el extranjero.",
           "en": "I've never worked abroad.",
-          "vi": "Tôi chưa từng làm việc ở nước ngoài."
+          "vi": "Tôi chưa từng làm việc ở nước ngoài.",
+          "pt-BR": "Nunca trabalhei no exterior.",
+          "fr": "Je n’ai jamais travaillé à l’étranger.",
+          "de": "Ich habe noch nie im Ausland gearbeitet.",
+          "it": "Non ho mai lavorato all’estero.",
+          "ja": "海外で働いたことはありません。",
+          "zh-Hans": "我从没在国外工作过。"
         },
         {
           "es": "Estoy acostumbrado a trabajar bajo presión.",
           "en": "I'm used to working under pressure.",
-          "vi": "Tôi quen làm việc dưới áp lực."
+          "vi": "Tôi quen làm việc dưới áp lực.",
+          "pt-BR": "Estou acostumado a trabalhar sob pressão.",
+          "fr": "J’ai l’habitude de travailler sous pression.",
+          "de": "Ich bin es gewohnt, unter Druck zu arbeiten.",
+          "it": "Sono abituato a lavorare sotto pressione.",
+          "ja": "プレッシャーの中で働くのには慣れています。",
+          "zh-Hans": "我习惯在压力下工作。"
         },
         {
           "es": "Me encargaba de atender a los clientes.",
           "en": "I was in charge of looking after clients.",
-          "vi": "Tôi phụ trách chăm sóc khách hàng."
+          "vi": "Tôi phụ trách chăm sóc khách hàng.",
+          "pt-BR": "Eu era responsável pelo atendimento aos clientes.",
+          "fr": "J’étais chargé de m’occuper des clients.",
+          "de": "Ich war für die Kundenbetreuung zuständig.",
+          "it": "Mi occupavo dell’assistenza ai clienti.",
+          "ja": "顧客対応を担当していました。",
+          "zh-Hans": "我以前负责客户服务。"
         },
         {
           "es": "Acabo de terminar la maestría.",
           "en": "I've just finished my master's degree.",
-          "vi": "Tôi vừa học xong thạc sĩ."
+          "vi": "Tôi vừa học xong thạc sĩ.",
+          "pt-BR": "Acabei de terminar meu mestrado.",
+          "fr": "Je viens de terminer mon master.",
+          "de": "Ich habe gerade meinen Master abgeschlossen.",
+          "it": "Ho appena finito il master.",
+          "ja": "修士課程を修了したばかりです。",
+          "zh-Hans": "我刚读完硕士。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "strengths",
       "title": {
         "en": "Strengths & goals",
-        "vi": "Điểm mạnh & mục tiêu"
+        "vi": "Điểm mạnh & mục tiêu",
+        "pt-BR": "Pontos fortes e objetivos",
+        "fr": "Points forts et objectifs",
+        "de": "Stärken und Ziele",
+        "it": "Punti di forza e obiettivi",
+        "ja": "強みと目標",
+        "zh-Hans": "优势和目标"
       },
       "description": {
         "en": "Sell yourself without bragging.",
-        "vi": "Thể hiện bản thân mà không khoe khoang."
+        "vi": "Thể hiện bản thân mà không khoe khoang.",
+        "pt-BR": "Venda seu peixe sem se gabar.",
+        "fr": "Mettez-vous en valeur sans vous vanter.",
+        "de": "Verkaufe dich, ohne anzugeben.",
+        "it": "Valorizzati senza vantarti.",
+        "ja": "自慢せずに自分を売り込もう。",
+        "zh-Hans": "推销自己但不自夸。"
       },
       "focus": {
         "en": "“Me cuesta + infinitive” is a gentle way to admit a weakness.",
-        "vi": "“Me cuesta + động từ” là cách nhẹ nhàng để thừa nhận điểm yếu."
+        "vi": "“Me cuesta + động từ” là cách nhẹ nhàng để thừa nhận điểm yếu.",
+        "pt-BR": "“Me cuesta + infinitivo” é um jeito suave de admitir um ponto fraco.",
+        "fr": "« Me cuesta + infinitif » est une façon douce d’admettre une faiblesse.",
+        "de": "„Me cuesta + Infinitiv“ ist eine sanfte Art, eine Schwäche zuzugeben.",
+        "it": "“Me cuesta + infinito” è un modo gentile per ammettere un punto debole.",
+        "ja": "「Me cuesta＋不定詞」は弱みを柔らかく認める言い方。",
+        "zh-Hans": "“Me cuesta + 动词原形”是委婉承认缺点的说法。"
       },
       "icon": "award",
       "phrases": [
         {
           "es": "Mi punto fuerte es la comunicación.",
           "en": "My strong point is communication.",
-          "vi": "Điểm mạnh của tôi là giao tiếp."
+          "vi": "Điểm mạnh của tôi là giao tiếp.",
+          "pt-BR": "Meu ponto forte é a comunicação.",
+          "fr": "Mon point fort, c’est la communication.",
+          "de": "Meine Stärke ist Kommunikation.",
+          "it": "Il mio punto di forza è la comunicazione.",
+          "ja": "私の強みはコミュニケーションです。",
+          "zh-Hans": "我的优势是沟通。"
         },
         {
           "es": "Soy una persona muy organizada.",
           "en": "I'm a very organized person.",
-          "vi": "Tôi là người rất ngăn nắp."
+          "vi": "Tôi là người rất ngăn nắp.",
+          "pt-BR": "Sou uma pessoa muito organizada.",
+          "fr": "Je suis quelqu’un de très organisé.",
+          "de": "Ich bin ein sehr organisierter Mensch.",
+          "it": "Sono una persona molto organizzata.",
+          "ja": "とても几帳面な人間です。",
+          "zh-Hans": "我是个很有条理的人。"
         },
         {
           "es": "Me cuesta delegar, pero estoy mejorando.",
           "en": "I find it hard to delegate, but I'm improving.",
-          "vi": "Tôi khó giao việc cho người khác, nhưng đang tiến bộ."
+          "vi": "Tôi khó giao việc cho người khác, nhưng đang tiến bộ.",
+          "pt-BR": "Tenho dificuldade em delegar, mas estou melhorando.",
+          "fr": "J’ai du mal à déléguer, mais je progresse.",
+          "de": "Delegieren fällt mir schwer, aber ich werde besser.",
+          "it": "Faccio fatica a delegare, ma sto migliorando.",
+          "ja": "人に任せるのが苦手ですが、改善しています。",
+          "zh-Hans": "我不太擅长授权，但在进步。"
         },
         {
           "es": "Me interesa crecer dentro de la empresa.",
           "en": "I'm interested in growing within the company.",
-          "vi": "Tôi muốn phát triển trong công ty."
+          "vi": "Tôi muốn phát triển trong công ty.",
+          "pt-BR": "Tenho interesse em crescer dentro da empresa.",
+          "fr": "Je souhaite évoluer au sein de l’entreprise.",
+          "de": "Ich möchte mich im Unternehmen weiterentwickeln.",
+          "it": "Mi interessa crescere all’interno dell’azienda.",
+          "ja": "社内で成長することに関心があります。",
+          "zh-Hans": "我希望在公司内部发展。"
         },
         {
           "es": "Busco un puesto con más responsabilidad.",
           "en": "I'm looking for a role with more responsibility.",
-          "vi": "Tôi tìm vị trí có nhiều trách nhiệm hơn."
+          "vi": "Tôi tìm vị trí có nhiều trách nhiệm hơn.",
+          "pt-BR": "Busco um cargo com mais responsabilidade.",
+          "fr": "Je cherche un poste avec plus de responsabilités.",
+          "de": "Ich suche eine Stelle mit mehr Verantwortung.",
+          "it": "Cerco un ruolo con più responsabilità.",
+          "ja": "より責任のある役職を探しています。",
+          "zh-Hans": "我在寻找责任更大的职位。"
         },
         {
           "es": "¿Cuáles serían mis responsabilidades?",
           "en": "What would my responsibilities be?",
-          "vi": "Trách nhiệm của tôi sẽ là gì?"
+          "vi": "Trách nhiệm của tôi sẽ là gì?",
+          "pt-BR": "Quais seriam minhas responsabilidades?",
+          "fr": "Quelles seraient mes responsabilités ?",
+          "de": "Was wären meine Aufgaben?",
+          "it": "Quali sarebbero le mie responsabilità?",
+          "ja": "私の担当業務は何になりますか？",
+          "zh-Hans": "我的职责会是什么？"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "interview",
       "title": {
         "en": "A job interview",
-        "vi": "Buổi phỏng vấn"
+        "vi": "Buổi phỏng vấn",
+        "pt-BR": "Uma entrevista de emprego",
+        "fr": "Un entretien d’embauche",
+        "de": "Ein Vorstellungsgespräch",
+        "it": "Un colloquio di lavoro",
+        "ja": "就職面接",
+        "zh-Hans": "求职面试"
       },
       "description": {
         "en": "Answer the classic interview questions.",
-        "vi": "Trả lời những câu hỏi phỏng vấn kinh điển."
+        "vi": "Trả lời những câu hỏi phỏng vấn kinh điển.",
+        "pt-BR": "Responda às perguntas clássicas de entrevista.",
+        "fr": "Répondez aux questions classiques d’entretien.",
+        "de": "Beantworte die klassischen Interviewfragen.",
+        "it": "Rispondi alle classiche domande del colloquio.",
+        "ja": "面接の定番質問に答えよう。",
+        "zh-Hans": "回答经典的面试问题。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Cuénteme un poco sobre su experiencia.",
           "translation": {
             "en": "Tell me a little about your experience.",
-            "vi": "Hãy kể một chút về kinh nghiệm của anh/chị."
+            "vi": "Hãy kể một chút về kinh nghiệm của anh/chị.",
+            "pt-BR": "Fale um pouco sobre sua experiência.",
+            "fr": "Parlez-moi un peu de votre expérience.",
+            "de": "Erzählen Sie mir etwas über Ihre Erfahrung.",
+            "it": "Mi parli un po’ della sua esperienza.",
+            "ja": "これまでのご経験について少し教えてください。",
+            "zh-Hans": "请简单介绍一下您的经验。"
           },
           "hint": {
             "en": "Use the present perfect.",
-            "vi": "Dùng thì hiện tại hoàn thành."
+            "vi": "Dùng thì hiện tại hoàn thành.",
+            "pt-BR": "Use o pretérito perfeito composto.",
+            "fr": "Utilisez le passé composé.",
+            "de": "Benutze das Perfekt.",
+            "it": "Usa il passato prossimo.",
+            "ja": "現在完了を使おう。",
+            "zh-Hans": "用现在完成时。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "He trabajado en ventas durante cinco años y he liderado un equipo.",
               "translation": {
                 "en": "I've worked in sales for five years and led a team.",
-                "vi": "Tôi đã làm bán hàng năm năm và từng dẫn dắt một nhóm."
+                "vi": "Tôi đã làm bán hàng năm năm và từng dẫn dắt một nhóm.",
+                "pt-BR": "Trabalho com vendas há cinco anos e liderei uma equipe.",
+                "fr": "Je travaille dans la vente depuis cinq ans et j’ai dirigé une équipe.",
+                "de": "Ich arbeite seit fünf Jahren im Vertrieb und habe ein Team geleitet.",
+                "it": "Lavoro nelle vendite da cinque anni e ho guidato un team.",
+                "ja": "営業を5年して、チームを率いてきました。",
+                "zh-Hans": "我做销售五年了，还带过团队。"
               },
               "correct": true,
               "response": "Muy interesante. ¿Cuál es su punto fuerte?",
               "responseTranslation": {
                 "en": "Very interesting. What's your strong point?",
-                "vi": "Rất thú vị. Điểm mạnh của anh/chị là gì?"
+                "vi": "Rất thú vị. Điểm mạnh của anh/chị là gì?",
+                "pt-BR": "Muito interessante. Qual é o seu ponto forte?",
+                "fr": "Très intéressant. Quel est votre point fort ?",
+                "de": "Sehr interessant. Was ist Ihre Stärke?",
+                "it": "Molto interessante. Qual è il suo punto di forza?",
+                "ja": "とても興味深いですね。あなたの強みは何ですか？",
+                "zh-Hans": "很有意思。您的优势是什么？"
               },
               "next": "strength"
             },
@@ -157,13 +313,25 @@
               "es": "Acabo de terminar la maestría y he hecho prácticas en dos empresas.",
               "translation": {
                 "en": "I've just finished my master's and done internships at two companies.",
-                "vi": "Tôi vừa học xong thạc sĩ và đã thực tập ở hai công ty."
+                "vi": "Tôi vừa học xong thạc sĩ và đã thực tập ở hai công ty.",
+                "pt-BR": "Acabei de terminar o mestrado e fiz estágio em duas empresas.",
+                "fr": "Je viens de terminer mon master et j’ai fait des stages dans deux entreprises.",
+                "de": "Ich habe gerade meinen Master abgeschlossen und Praktika in zwei Firmen gemacht.",
+                "it": "Ho appena finito il master e ho fatto stage in due aziende.",
+                "ja": "修士課程を修了したばかりで、2社でインターンをしました。",
+                "zh-Hans": "我刚读完硕士，在两家公司实习过。"
               },
               "correct": true,
               "response": "Bien. ¿Cuál es su punto fuerte?",
               "responseTranslation": {
                 "en": "Good. What's your strong point?",
-                "vi": "Tốt. Điểm mạnh của anh/chị là gì?"
+                "vi": "Tốt. Điểm mạnh của anh/chị là gì?",
+                "pt-BR": "Bom. Qual é o seu ponto forte?",
+                "fr": "Bien. Quel est votre point fort ?",
+                "de": "Gut. Was ist Ihre Stärke?",
+                "it": "Bene. Qual è il suo punto di forza?",
+                "ja": "いいですね。あなたの強みは何ですか？",
+                "zh-Hans": "好的。您的优势是什么？"
               },
               "next": "strength"
             },
@@ -172,14 +340,26 @@
               "es": "Me gusta jugar fútbol.",
               "translation": {
                 "en": "I like playing soccer.",
-                "vi": "Tôi thích đá bóng."
+                "vi": "Tôi thích đá bóng.",
+                "pt-BR": "Gosto de jogar futebol.",
+                "fr": "J’aime jouer au foot.",
+                "de": "Ich spiele gern Fußball.",
+                "it": "Mi piace giocare a calcio.",
+                "ja": "サッカーをするのが好きです。",
+                "zh-Hans": "我喜欢踢足球。"
               },
               "correct": false,
               "correction": "He trabajado en ventas durante cinco años y he liderado un equipo.",
               "response": "Qué bien, pero hablemos de su experiencia laboral.",
               "responseTranslation": {
                 "en": "Nice, but let's talk about your work experience.",
-                "vi": "Hay đấy, nhưng hãy nói về kinh nghiệm làm việc."
+                "vi": "Hay đấy, nhưng hãy nói về kinh nghiệm làm việc.",
+                "pt-BR": "Legal, mas vamos falar da sua experiência profissional.",
+                "fr": "Sympa, mais parlons de votre expérience professionnelle.",
+                "de": "Schön, aber reden wir über Ihre Berufserfahrung.",
+                "it": "Bello, ma parliamo della sua esperienza lavorativa.",
+                "ja": "いいですね、でも職務経験について話しましょう。",
+                "zh-Hans": "不错，但我们来谈谈您的工作经验。"
               },
               "next": "strength"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Y algún punto débil?",
           "translation": {
             "en": "And any weak point?",
-            "vi": "Còn điểm yếu thì sao?"
+            "vi": "Còn điểm yếu thì sao?",
+            "pt-BR": "E algum ponto fraco?",
+            "fr": "Et un point faible ?",
+            "de": "Und eine Schwäche?",
+            "it": "E un punto debole?",
+            "ja": "では弱みは？",
+            "zh-Hans": "那缺点呢？"
           },
           "hint": {
             "en": "Admit a weakness with “Me cuesta…”.",
-            "vi": "Thừa nhận điểm yếu bằng “Me cuesta…”."
+            "vi": "Thừa nhận điểm yếu bằng “Me cuesta…”.",
+            "pt-BR": "Admita um ponto fraco com “Me cuesta…”.",
+            "fr": "Admettez une faiblesse avec « Me cuesta… ».",
+            "de": "Gib eine Schwäche mit „Me cuesta…“ zu.",
+            "it": "Ammetti un punto debole con “Me cuesta…”.",
+            "ja": "「Me cuesta…」で弱みを認めよう。",
+            "zh-Hans": "用“Me cuesta…”承认一个缺点。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Me cuesta delegar, pero estoy aprendiendo a confiar en el equipo.",
               "translation": {
                 "en": "I find it hard to delegate, but I'm learning to trust the team.",
-                "vi": "Tôi khó giao việc, nhưng đang học cách tin tưởng đồng đội."
+                "vi": "Tôi khó giao việc, nhưng đang học cách tin tưởng đồng đội.",
+                "pt-BR": "Tenho dificuldade em delegar, mas estou aprendendo a confiar na equipe.",
+                "fr": "J’ai du mal à déléguer, mais j’apprends à faire confiance à l’équipe.",
+                "de": "Delegieren fällt mir schwer, aber ich lerne, dem Team zu vertrauen.",
+                "it": "Faccio fatica a delegare, ma sto imparando a fidarmi del team.",
+                "ja": "人に任せるのが苦手ですが、チームを信頼することを学んでいます。",
+                "zh-Hans": "我不太擅长授权，但我在学着信任团队。"
               },
               "correct": true,
               "response": "Es una respuesta honesta. ¿Tiene preguntas?",
               "responseTranslation": {
                 "en": "That's an honest answer. Any questions?",
-                "vi": "Câu trả lời thành thật. Anh/chị có câu hỏi gì không?"
+                "vi": "Câu trả lời thành thật. Anh/chị có câu hỏi gì không?",
+                "pt-BR": "É uma resposta honesta. Alguma pergunta?",
+                "fr": "C’est une réponse honnête. Des questions ?",
+                "de": "Das ist eine ehrliche Antwort. Haben Sie Fragen?",
+                "it": "È una risposta onesta. Ha domande?",
+                "ja": "正直な答えですね。何か質問はありますか？",
+                "zh-Hans": "这是个诚实的回答。您有什么问题吗？"
               },
               "next": "questions"
             },
@@ -217,13 +421,25 @@
               "es": "A veces soy demasiado perfeccionista, así que me pongo plazos.",
               "translation": {
                 "en": "Sometimes I'm too much of a perfectionist, so I set myself deadlines.",
-                "vi": "Đôi khi tôi quá cầu toàn, nên tôi tự đặt hạn chót."
+                "vi": "Đôi khi tôi quá cầu toàn, nên tôi tự đặt hạn chót.",
+                "pt-BR": "Às vezes sou perfeccionista demais, então me dou prazos.",
+                "fr": "Parfois je suis trop perfectionniste, alors je me fixe des délais.",
+                "de": "Manchmal bin ich zu perfektionistisch, deshalb setze ich mir Fristen.",
+                "it": "A volte sono troppo perfezionista, quindi mi do delle scadenze.",
+                "ja": "ときどき完璧主義すぎるので、自分で締め切りを決めています。",
+                "zh-Hans": "我有时太追求完美，所以会给自己定截止时间。"
               },
               "correct": true,
               "response": "Entiendo. ¿Tiene alguna pregunta?",
               "responseTranslation": {
                 "en": "I see. Do you have any questions?",
-                "vi": "Tôi hiểu. Anh/chị có câu hỏi gì không?"
+                "vi": "Tôi hiểu. Anh/chị có câu hỏi gì không?",
+                "pt-BR": "Entendo. Você tem alguma pergunta?",
+                "fr": "Je vois. Avez-vous des questions ?",
+                "de": "Verstehe. Haben Sie Fragen?",
+                "it": "Capisco. Ha delle domande?",
+                "ja": "なるほど。何か質問はありますか？",
+                "zh-Hans": "明白了。您有什么问题吗？"
               },
               "next": "questions"
             },
@@ -232,14 +448,26 @@
               "es": "No tengo ninguno.",
               "translation": {
                 "en": "I don't have any.",
-                "vi": "Tôi không có điểm yếu nào."
+                "vi": "Tôi không có điểm yếu nào.",
+                "pt-BR": "Não tenho nenhum.",
+                "fr": "Je n’en ai pas.",
+                "de": "Ich habe keine.",
+                "it": "Non ne ho.",
+                "ja": "ありません。",
+                "zh-Hans": "我没有。"
               },
               "correct": false,
               "correction": "Me cuesta delegar, pero estoy aprendiendo a confiar en el equipo.",
               "response": "Todos tenemos alguno… En fin, ¿tiene preguntas?",
               "responseTranslation": {
                 "en": "We all have one… Anyway, any questions?",
-                "vi": "Ai cũng có mà… Thôi, anh/chị có câu hỏi gì không?"
+                "vi": "Ai cũng có mà… Thôi, anh/chị có câu hỏi gì không?",
+                "pt-BR": "Todos temos… Enfim, alguma pergunta?",
+                "fr": "On en a tous un… Bref, des questions ?",
+                "de": "Jeder hat eine… Egal, haben Sie Fragen?",
+                "it": "Tutti ne abbiamo uno… Comunque, ha domande?",
+                "ja": "誰にでもあるものですよ…まあいいでしょう、質問はありますか？",
+                "zh-Hans": "人人都有的……算了，您有什么问题吗？"
               },
               "next": "questions"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Tiene alguna pregunta para nosotros?",
           "translation": {
             "en": "Do you have any questions for us?",
-            "vi": "Anh/chị có câu hỏi nào cho chúng tôi không?"
+            "vi": "Anh/chị có câu hỏi nào cho chúng tôi không?",
+            "pt-BR": "Você tem alguma pergunta para nós?",
+            "fr": "Avez-vous des questions pour nous ?",
+            "de": "Haben Sie Fragen an uns?",
+            "it": "Ha domande per noi?",
+            "ja": "私たちに何か質問はありますか？",
+            "zh-Hans": "您有什么想问我们的吗？"
           },
           "hint": {
             "en": "Always ask something.",
-            "vi": "Luôn hỏi lại một điều gì đó."
+            "vi": "Luôn hỏi lại một điều gì đó.",
+            "pt-BR": "Sempre pergunte algo.",
+            "fr": "Posez toujours une question.",
+            "de": "Stell immer eine Frage.",
+            "it": "Fai sempre una domanda.",
+            "ja": "必ず何か質問しよう。",
+            "zh-Hans": "一定要问点什么。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Sí, ¿cuáles serían mis responsabilidades principales?",
               "translation": {
                 "en": "Yes, what would my main responsibilities be?",
-                "vi": "Có, trách nhiệm chính của tôi sẽ là gì?"
+                "vi": "Có, trách nhiệm chính của tôi sẽ là gì?",
+                "pt-BR": "Sim, quais seriam minhas principais responsabilidades?",
+                "fr": "Oui, quelles seraient mes principales responsabilités ?",
+                "de": "Ja, was wären meine Hauptaufgaben?",
+                "it": "Sì, quali sarebbero le mie principali responsabilità?",
+                "ja": "はい、主な担当業務は何になりますか？",
+                "zh-Hans": "有，我的主要职责会是什么？"
               },
               "correct": true,
               "response": "Excelente pregunta. Se lo explico.",
               "responseTranslation": {
                 "en": "Excellent question. Let me explain.",
-                "vi": "Câu hỏi hay. Tôi sẽ giải thích."
+                "vi": "Câu hỏi hay. Tôi sẽ giải thích.",
+                "pt-BR": "Excelente pergunta. Vou explicar.",
+                "fr": "Excellente question. Je vous explique.",
+                "de": "Sehr gute Frage. Ich erkläre es Ihnen.",
+                "it": "Ottima domanda. Le spiego.",
+                "ja": "いい質問ですね。ご説明します。",
+                "zh-Hans": "很好的问题。我来解释一下。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "¿Qué posibilidades hay de crecer en la empresa?",
               "translation": {
                 "en": "What opportunities are there to grow in the company?",
-                "vi": "Có cơ hội phát triển nào trong công ty không?"
+                "vi": "Có cơ hội phát triển nào trong công ty không?",
+                "pt-BR": "Que oportunidades de crescimento existem na empresa?",
+                "fr": "Quelles sont les possibilités d’évolution dans l’entreprise ?",
+                "de": "Welche Entwicklungsmöglichkeiten gibt es im Unternehmen?",
+                "it": "Che opportunità di crescita ci sono in azienda?",
+                "ja": "社内ではどんな成長の機会がありますか？",
+                "zh-Hans": "公司里有什么发展机会？"
               },
               "correct": true,
               "response": "Muchas. Valoramos mucho el talento interno.",
               "responseTranslation": {
                 "en": "Many. We really value internal talent.",
-                "vi": "Nhiều lắm. Chúng tôi rất coi trọng nhân tài nội bộ."
+                "vi": "Nhiều lắm. Chúng tôi rất coi trọng nhân tài nội bộ.",
+                "pt-BR": "Muitas. Valorizamos muito o talento interno.",
+                "fr": "Beaucoup. Nous valorisons beaucoup les talents internes.",
+                "de": "Viele. Wir schätzen interne Talente sehr.",
+                "it": "Molte. Diamo molto valore ai talenti interni.",
+                "ja": "たくさんあります。社内の人材をとても大切にしています。",
+                "zh-Hans": "很多。我们非常重视内部人才。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No, ninguna.",
               "translation": {
                 "en": "No, none.",
-                "vi": "Không, không có."
+                "vi": "Không, không có.",
+                "pt-BR": "Não, nenhuma.",
+                "fr": "Non, aucune.",
+                "de": "Nein, keine.",
+                "it": "No, nessuna.",
+                "ja": "いいえ、ありません。",
+                "zh-Hans": "没有，没什么问题。"
               },
               "correct": false,
               "correction": "Sí, ¿cuáles serían mis responsabilidades principales?",
               "response": "De acuerdo… (Consejo: siempre haga una pregunta.)",
               "responseTranslation": {
                 "en": "OK… (Tip: always ask a question.)",
-                "vi": "Được… (Mẹo: luôn đặt một câu hỏi.)"
+                "vi": "Được… (Mẹo: luôn đặt một câu hỏi.)",
+                "pt-BR": "Certo… (Dica: sempre faça uma pergunta.)",
+                "fr": "D’accord… (Astuce : posez toujours une question.)",
+                "de": "Okay… (Tipp: Stell immer eine Frage.)",
+                "it": "Ok… (Consiglio: fai sempre una domanda.)",
+                "ja": "わかりました…（ヒント：必ず質問をしましょう。）",
+                "zh-Hans": "好吧……（提示：一定要提个问题。）"
               }
             }
           ]

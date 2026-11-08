@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-23",
-  "version": 1,
+  "version": 2,
   "level": 23,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 7: Debating lifestyle",
-    "vi": "Trung cao cấp 7: Tranh luận về lối sống"
+    "vi": "Trung cao cấp 7: Tranh luận về lối sống",
+    "pt-BR": "Intermediário superior 7: Debatendo estilos de vida",
+    "fr": "Intermédiaire supérieur 7 : Débattre du mode de vie",
+    "de": "Obere Mittelstufe 7: Über Lebensstil diskutieren",
+    "it": "Intermedio superiore 7: Dibattere sugli stili di vita",
+    "ja": "中上級 7：ライフスタイルを議論する",
+    "zh-Hans": "中高级 7：辩论生活方式"
   },
   "description": {
     "en": "Agree, disagree, and link your ideas.",
-    "vi": "Đồng ý, phản đối và liên kết ý tưởng."
+    "vi": "Đồng ý, phản đối và liên kết ý tưởng.",
+    "pt-BR": "Concorde, discorde e conecte suas ideias.",
+    "fr": "Soyez d’accord, en désaccord, et reliez vos idées.",
+    "de": "Stimme zu, widersprich und verbinde deine Ideen.",
+    "it": "Concorda, dissenti e collega le tue idee.",
+    "ja": "賛成・反対を伝えて、考えをつなげよう。",
+    "zh-Hans": "表示同意、反对，并把观点连起来。"
   },
   "lessons": [
     {
       "id": "connectors",
       "title": {
         "en": "Linking ideas",
-        "vi": "Liên kết ý"
+        "vi": "Liên kết ý",
+        "pt-BR": "Conectando ideias",
+        "fr": "Relier ses idées",
+        "de": "Ideen verbinden",
+        "it": "Collegare le idee",
+        "ja": "考えをつなげる",
+        "zh-Hans": "连接观点"
       },
       "description": {
         "en": "Connectors that make you sound fluent.",
-        "vi": "Từ nối giúp bạn nói trôi chảy."
+        "vi": "Từ nối giúp bạn nói trôi chảy.",
+        "pt-BR": "Conectores que fazem você soar fluente.",
+        "fr": "Des connecteurs pour paraître fluide.",
+        "de": "Konnektoren, mit denen du flüssig klingst.",
+        "it": "Connettivi che ti fanno sembrare fluente.",
+        "ja": "流暢に聞こえるつなぎの言葉。",
+        "zh-Hans": "让你听起来更流利的连接词。"
       },
       "focus": {
         "en": "Connectors turn lists into arguments: además (adding), sin embargo (contrast), por eso (result).",
-        "vi": "Từ nối biến liệt kê thành lập luận: además (thêm ý), sin embargo (tương phản), por eso (kết quả)."
+        "vi": "Từ nối biến liệt kê thành lập luận: además (thêm ý), sin embargo (tương phản), por eso (kết quả).",
+        "pt-BR": "Conectores transformam listas em argumentos: además (acrescentar), sin embargo (contraste), por eso (consequência).",
+        "fr": "Les connecteurs transforment une liste en argumentation : además (ajout), sin embargo (contraste), por eso (conséquence).",
+        "de": "Konnektoren machen aus Listen Argumente: además (ergänzen), sin embargo (Gegensatz), por eso (Folge).",
+        "it": "I connettivi trasformano elenchi in argomentazioni: además (aggiungere), sin embargo (contrasto), por eso (conseguenza).",
+        "ja": "接続詞で羅列が論理になる：además（追加）、sin embargo（対比）、por eso（結果）。",
+        "zh-Hans": "连接词能把罗列变成论证：además（补充）、sin embargo（转折）、por eso（结果）。"
       },
       "icon": "link",
       "phrases": [
         {
           "es": "Además, es más barato.",
           "en": "Besides, it's cheaper.",
-          "vi": "Hơn nữa, nó rẻ hơn."
+          "vi": "Hơn nữa, nó rẻ hơn.",
+          "pt-BR": "Além disso, é mais barato.",
+          "fr": "En plus, c’est moins cher.",
+          "de": "Außerdem ist es billiger.",
+          "it": "Inoltre, costa meno.",
+          "ja": "それに、安いです。",
+          "zh-Hans": "而且，更便宜。"
         },
         {
           "es": "Sin embargo, no todos pueden hacerlo.",
           "en": "However, not everyone can do it.",
-          "vi": "Tuy nhiên, không phải ai cũng làm được."
+          "vi": "Tuy nhiên, không phải ai cũng làm được.",
+          "pt-BR": "No entanto, nem todo mundo consegue.",
+          "fr": "Cependant, tout le monde ne peut pas le faire.",
+          "de": "Allerdings kann das nicht jeder.",
+          "it": "Tuttavia, non tutti possono farlo.",
+          "ja": "しかし、誰でもできるわけではありません。",
+          "zh-Hans": "然而，不是每个人都能做到。"
         },
         {
           "es": "Por un lado… por otro lado…",
           "en": "On one hand… on the other hand…",
-          "vi": "Một mặt… mặt khác…"
+          "vi": "Một mặt… mặt khác…",
+          "pt-BR": "Por um lado… por outro lado…",
+          "fr": "D’un côté… de l’autre…",
+          "de": "Einerseits… andererseits…",
+          "it": "Da un lato… dall’altro…",
+          "ja": "一方では…他方では…",
+          "zh-Hans": "一方面……另一方面……"
         },
         {
           "es": "Por eso prefiero caminar.",
           "en": "That's why I prefer walking.",
-          "vi": "Vì vậy tôi thích đi bộ hơn."
+          "vi": "Vì vậy tôi thích đi bộ hơn.",
+          "pt-BR": "Por isso prefiro caminhar.",
+          "fr": "C’est pour ça que je préfère marcher.",
+          "de": "Deshalb gehe ich lieber zu Fuß.",
+          "it": "Per questo preferisco camminare.",
+          "ja": "だから歩くほうが好きです。",
+          "zh-Hans": "所以我更喜欢走路。"
         },
         {
           "es": "En cambio, mi hermano odia el ejercicio.",
           "en": "My brother, on the other hand, hates exercise.",
-          "vi": "Ngược lại, anh trai tôi ghét tập thể dục."
+          "vi": "Ngược lại, anh trai tôi ghét tập thể dục.",
+          "pt-BR": "Meu irmão, por outro lado, odeia exercício.",
+          "fr": "Mon frère, en revanche, déteste le sport.",
+          "de": "Mein Bruder dagegen hasst Sport.",
+          "it": "Mio fratello, invece, odia lo sport.",
+          "ja": "一方、兄は運動が大嫌いです。",
+          "zh-Hans": "而我哥哥讨厌运动。"
         },
         {
           "es": "Al fin y al cabo, es cuestión de hábitos.",
           "en": "At the end of the day, it's a matter of habits.",
-          "vi": "Suy cho cùng, đó là chuyện thói quen."
+          "vi": "Suy cho cùng, đó là chuyện thói quen.",
+          "pt-BR": "No fim das contas, é questão de hábito.",
+          "fr": "Au bout du compte, c’est une question d’habitudes.",
+          "de": "Letztendlich ist es eine Frage der Gewohnheit.",
+          "it": "Alla fine dei conti, è una questione di abitudini.",
+          "ja": "結局は習慣の問題です。",
+          "zh-Hans": "说到底，这是习惯问题。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "agreeing",
       "title": {
         "en": "Agreeing & disagreeing",
-        "vi": "Đồng ý & phản đối"
+        "vi": "Đồng ý & phản đối",
+        "pt-BR": "Concordando e discordando",
+        "fr": "Être d’accord ou pas",
+        "de": "Zustimmen und widersprechen",
+        "it": "Essere d’accordo o no",
+        "ja": "賛成と反対",
+        "zh-Hans": "同意和反对"
       },
       "description": {
         "en": "Disagree without sounding rude.",
-        "vi": "Phản đối mà không bất lịch sự."
+        "vi": "Phản đối mà không bất lịch sự.",
+        "pt-BR": "Discorde sem ser grosseiro.",
+        "fr": "Contredire sans paraître impoli.",
+        "de": "Widersprich, ohne unhöflich zu klingen.",
+        "it": "Dissenti senza sembrare scortese.",
+        "ja": "失礼にならずに反対しよう。",
+        "zh-Hans": "反对时不显得无礼。"
       },
       "focus": {
         "en": "“Entiendo tu punto, pero…” and “Hasta cierto punto…” soften disagreement.",
-        "vi": "“Entiendo tu punto, pero…” và “Hasta cierto punto…” làm mềm sự phản đối."
+        "vi": "“Entiendo tu punto, pero…” và “Hasta cierto punto…” làm mềm sự phản đối.",
+        "pt-BR": "“Entiendo tu punto, pero…” e “Hasta cierto punto…” suavizam a discordância.",
+        "fr": "« Entiendo tu punto, pero… » et « Hasta cierto punto… » adoucissent un désaccord.",
+        "de": "„Entiendo tu punto, pero…“ und „Hasta cierto punto…“ mildern Widerspruch ab.",
+        "it": "“Entiendo tu punto, pero…” e “Hasta cierto punto…” ammorbidiscono il disaccordo.",
+        "ja": "「Entiendo tu punto, pero…」「Hasta cierto punto…」で反対を和らげる。",
+        "zh-Hans": "“Entiendo tu punto, pero…”和“Hasta cierto punto…”能让反对更委婉。"
       },
       "icon": "users",
       "phrases": [
         {
           "es": "Estoy totalmente de acuerdo.",
           "en": "I completely agree.",
-          "vi": "Tôi hoàn toàn đồng ý."
+          "vi": "Tôi hoàn toàn đồng ý.",
+          "pt-BR": "Concordo totalmente.",
+          "fr": "Je suis tout à fait d’accord.",
+          "de": "Ich stimme voll und ganz zu.",
+          "it": "Sono completamente d’accordo.",
+          "ja": "まったく同感です。",
+          "zh-Hans": "我完全同意。"
         },
         {
           "es": "Hasta cierto punto, sí.",
           "en": "Up to a point, yes.",
-          "vi": "Ở một mức độ nào đó thì đúng."
+          "vi": "Ở một mức độ nào đó thì đúng.",
+          "pt-BR": "Até certo ponto, sim.",
+          "fr": "Jusqu’à un certain point, oui.",
+          "de": "Bis zu einem gewissen Punkt, ja.",
+          "it": "Fino a un certo punto, sì.",
+          "ja": "ある程度はね。",
+          "zh-Hans": "在某种程度上，是的。"
         },
         {
           "es": "Entiendo tu punto, pero…",
           "en": "I see your point, but…",
-          "vi": "Tôi hiểu ý bạn, nhưng…"
+          "vi": "Tôi hiểu ý bạn, nhưng…",
+          "pt-BR": "Entendo seu ponto, mas…",
+          "fr": "Je comprends ton point de vue, mais…",
+          "de": "Ich verstehe deinen Punkt, aber…",
+          "it": "Capisco il tuo punto di vista, ma…",
+          "ja": "言いたいことはわかるけど…",
+          "zh-Hans": "我理解你的意思，但是……"
         },
         {
           "es": "No lo veo así.",
           "en": "I don't see it that way.",
-          "vi": "Tôi không nghĩ như vậy."
+          "vi": "Tôi không nghĩ như vậy.",
+          "pt-BR": "Não vejo assim.",
+          "fr": "Je ne le vois pas comme ça.",
+          "de": "So sehe ich das nicht.",
+          "it": "Non la vedo così.",
+          "ja": "私はそうは思いません。",
+          "zh-Hans": "我不这么看。"
         },
         {
           "es": "Eso depende de cada persona.",
           "en": "That depends on each person.",
-          "vi": "Điều đó tùy mỗi người."
+          "vi": "Điều đó tùy mỗi người.",
+          "pt-BR": "Isso depende de cada pessoa.",
+          "fr": "Ça dépend de chacun.",
+          "de": "Das hängt von jedem selbst ab.",
+          "it": "Dipende da ciascuno.",
+          "ja": "それは人によります。",
+          "zh-Hans": "这因人而异。"
         },
         {
           "es": "Tienes toda la razón.",
           "en": "You're absolutely right.",
-          "vi": "Bạn hoàn toàn đúng."
+          "vi": "Bạn hoàn toàn đúng.",
+          "pt-BR": "Você tem toda a razão.",
+          "fr": "Tu as entièrement raison.",
+          "de": "Du hast völlig recht.",
+          "it": "Hai assolutamente ragione.",
+          "ja": "まったくそのとおりです。",
+          "zh-Hans": "你说得完全对。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "work-from-home",
       "title": {
         "en": "Debate: working from home",
-        "vi": "Tranh luận: làm việc tại nhà"
+        "vi": "Tranh luận: làm việc tại nhà",
+        "pt-BR": "Debate: trabalhar de casa",
+        "fr": "Débat : le télétravail",
+        "de": "Debatte: Homeoffice",
+        "it": "Dibattito: lavorare da casa",
+        "ja": "議論：在宅勤務",
+        "zh-Hans": "辩论：居家办公"
       },
       "description": {
         "en": "Argue your side with connectors.",
-        "vi": "Bảo vệ quan điểm bằng từ nối."
+        "vi": "Bảo vệ quan điểm bằng từ nối.",
+        "pt-BR": "Defenda seu lado com conectores.",
+        "fr": "Défendez votre position avec des connecteurs.",
+        "de": "Vertritt deine Position mit Konnektoren.",
+        "it": "Sostieni la tua posizione con i connettivi.",
+        "ja": "接続詞を使って自分の立場を主張しよう。",
+        "zh-Hans": "用连接词捍卫你的立场。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Yo creo que trabajar desde casa es mucho mejor.",
           "translation": {
             "en": "I think working from home is much better.",
-            "vi": "Mình nghĩ làm ở nhà tốt hơn nhiều."
+            "vi": "Mình nghĩ làm ở nhà tốt hơn nhiều.",
+            "pt-BR": "Acho que trabalhar de casa é muito melhor.",
+            "fr": "Je pense que le télétravail, c’est bien mieux.",
+            "de": "Ich finde Homeoffice viel besser.",
+            "it": "Penso che lavorare da casa sia molto meglio.",
+            "ja": "在宅勤務のほうがずっといいと思う。",
+            "zh-Hans": "我觉得居家办公好多了。"
           },
           "hint": {
             "en": "Agree or disagree politely.",
-            "vi": "Đồng ý hoặc phản đối lịch sự."
+            "vi": "Đồng ý hoặc phản đối lịch sự.",
+            "pt-BR": "Concorde ou discorde com educação.",
+            "fr": "Soyez d’accord ou non, poliment.",
+            "de": "Stimme höflich zu oder widersprich.",
+            "it": "Concorda o dissenti con cortesia.",
+            "ja": "丁寧に賛成か反対をしよう。",
+            "zh-Hans": "礼貌地表示同意或反对。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Hasta cierto punto, sí. Sin embargo, extraño a mis compañeros.",
               "translation": {
                 "en": "Up to a point, yes. However, I miss my coworkers.",
-                "vi": "Ở mức nào đó thì đúng. Tuy nhiên, mình nhớ đồng nghiệp."
+                "vi": "Ở mức nào đó thì đúng. Tuy nhiên, mình nhớ đồng nghiệp.",
+                "pt-BR": "Até certo ponto, sim. No entanto, sinto falta dos colegas.",
+                "fr": "Jusqu’à un certain point, oui. Cependant, mes collègues me manquent.",
+                "de": "Bis zu einem gewissen Punkt, ja. Allerdings vermisse ich meine Kollegen.",
+                "it": "Fino a un certo punto, sì. Tuttavia, mi mancano i colleghi.",
+                "ja": "ある程度はね。でも同僚に会えないのは寂しい。",
+                "zh-Hans": "在某种程度上是的。不过，我想念同事们。"
               },
               "correct": true,
               "response": "Entiendo. ¿Pero no ahorras tiempo?",
               "responseTranslation": {
                 "en": "I get it. But don't you save time?",
-                "vi": "Mình hiểu. Nhưng bạn không tiết kiệm được thời gian à?"
+                "vi": "Mình hiểu. Nhưng bạn không tiết kiệm được thời gian à?",
+                "pt-BR": "Entendo. Mas você não economiza tempo?",
+                "fr": "Je comprends. Mais tu ne gagnes pas du temps ?",
+                "de": "Verstehe. Aber sparst du nicht Zeit?",
+                "it": "Capisco. Ma non risparmi tempo?",
+                "ja": "わかる。でも時間の節約にならない？",
+                "zh-Hans": "我懂。但你不是能省时间吗？"
               },
               "next": "time"
             },
@@ -157,13 +313,25 @@
               "es": "Totalmente de acuerdo. Además, ahorro dinero en transporte.",
               "translation": {
                 "en": "Totally agree. Besides, I save money on transport.",
-                "vi": "Hoàn toàn đồng ý. Hơn nữa, mình đỡ tiền đi lại."
+                "vi": "Hoàn toàn đồng ý. Hơn nữa, mình đỡ tiền đi lại.",
+                "pt-BR": "Concordo totalmente. Além disso, economizo com transporte.",
+                "fr": "Tout à fait d’accord. En plus, j’économise sur les transports.",
+                "de": "Völlig einverstanden. Außerdem spare ich Fahrtkosten.",
+                "it": "Completamente d’accordo. Inoltre, risparmio sui trasporti.",
+                "ja": "完全に同感。それに交通費も浮くし。",
+                "zh-Hans": "完全同意。而且我还省了交通费。"
               },
               "correct": true,
               "response": "¡Exacto! ¿Y no te sientes solo?",
               "responseTranslation": {
                 "en": "Exactly! And don't you feel lonely?",
-                "vi": "Chính xác! Thế bạn không thấy cô đơn à?"
+                "vi": "Chính xác! Thế bạn không thấy cô đơn à?",
+                "pt-BR": "Exatamente! E você não se sente sozinho?",
+                "fr": "Exactement ! Et tu ne te sens pas seul ?",
+                "de": "Genau! Und fühlst du dich nicht einsam?",
+                "it": "Esatto! E non ti senti solo?",
+                "ja": "そのとおり！で、寂しくならない？",
+                "zh-Hans": "没错！那你不觉得孤单吗？"
               },
               "next": "time"
             },
@@ -172,14 +340,26 @@
               "es": "Estás equivocado.",
               "translation": {
                 "en": "You're wrong.",
-                "vi": "Bạn sai rồi."
+                "vi": "Bạn sai rồi.",
+                "pt-BR": "Você está errado.",
+                "fr": "Tu as tort.",
+                "de": "Du liegst falsch.",
+                "it": "Ti sbagli.",
+                "ja": "あなたは間違っています。",
+                "zh-Hans": "你错了。"
               },
               "correct": false,
               "correction": "Hasta cierto punto, sí. Sin embargo, extraño a mis compañeros.",
               "response": "Uy, qué directo. ¿Por qué lo dices?",
               "responseTranslation": {
                 "en": "Wow, that's blunt. Why do you say that?",
-                "vi": "Ôi, thẳng thế. Sao bạn nói vậy?"
+                "vi": "Ôi, thẳng thế. Sao bạn nói vậy?",
+                "pt-BR": "Nossa, que direto. Por que diz isso?",
+                "fr": "Waouh, c’est direct. Pourquoi tu dis ça ?",
+                "de": "Wow, ganz schön direkt. Warum sagst du das?",
+                "it": "Wow, che diretto. Perché lo dici?",
+                "ja": "わあ、ストレートだね。どうしてそう言うの？",
+                "zh-Hans": "哇，好直接。你为什么这么说？"
               },
               "next": "time"
             }
@@ -190,11 +370,23 @@
           "prompt": "Pero en casa ahorras dos horas de tráfico.",
           "translation": {
             "en": "But at home you save two hours of traffic.",
-            "vi": "Nhưng ở nhà bạn đỡ được hai tiếng kẹt xe."
+            "vi": "Nhưng ở nhà bạn đỡ được hai tiếng kẹt xe.",
+            "pt-BR": "Mas em casa você economiza duas horas de trânsito.",
+            "fr": "Mais chez toi, tu gagnes deux heures de bouchons.",
+            "de": "Aber zu Hause sparst du zwei Stunden Stau.",
+            "it": "Ma a casa risparmi due ore di traffico.",
+            "ja": "でも家なら渋滞の2時間が浮くよ。",
+            "zh-Hans": "但在家你能省下两小时堵车时间。"
           },
           "hint": {
             "en": "Acknowledge, then add a counterpoint.",
-            "vi": "Thừa nhận, rồi đưa ra phản biện."
+            "vi": "Thừa nhận, rồi đưa ra phản biện.",
+            "pt-BR": "Reconheça e depois traga um contraponto.",
+            "fr": "Reconnaissez, puis apportez un contrepoint.",
+            "de": "Erkenne an und bring dann einen Gegenpunkt.",
+            "it": "Riconosci, poi aggiungi un controargomento.",
+            "ja": "認めてから反論を加えよう。",
+            "zh-Hans": "先认可，再提出反驳。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Entiendo tu punto, pero me cuesta concentrarme en casa.",
               "translation": {
                 "en": "I see your point, but I find it hard to focus at home.",
-                "vi": "Mình hiểu ý bạn, nhưng ở nhà mình khó tập trung."
+                "vi": "Mình hiểu ý bạn, nhưng ở nhà mình khó tập trung.",
+                "pt-BR": "Entendo seu ponto, mas me custa me concentrar em casa.",
+                "fr": "Je comprends ton point de vue, mais j’ai du mal à me concentrer chez moi.",
+                "de": "Ich verstehe deinen Punkt, aber zu Hause fällt es mir schwer, mich zu konzentrieren.",
+                "it": "Capisco il tuo punto, ma a casa faccio fatica a concentrarmi.",
+                "ja": "言いたいことはわかるけど、家だと集中しにくいんだ。",
+                "zh-Hans": "我理解你的意思，但我在家很难集中注意力。"
               },
               "correct": true,
               "response": "Eso depende de cada persona, ¿no?",
               "responseTranslation": {
                 "en": "That depends on each person, right?",
-                "vi": "Cái đó tùy người, phải không?"
+                "vi": "Cái đó tùy người, phải không?",
+                "pt-BR": "Isso depende de cada pessoa, né?",
+                "fr": "Ça dépend de chacun, non ?",
+                "de": "Das hängt von jedem ab, oder?",
+                "it": "Dipende da ciascuno, no?",
+                "ja": "それは人によるよね？",
+                "zh-Hans": "这因人而异，对吧？"
               },
               "next": "conclusion"
             },
@@ -217,13 +421,25 @@
               "es": "Por un lado es verdad; por otro lado, no tengo oficina en casa.",
               "translation": {
                 "en": "On one hand it's true; on the other hand, I don't have an office at home.",
-                "vi": "Một mặt là đúng; mặt khác, nhà mình không có chỗ làm việc."
+                "vi": "Một mặt là đúng; mặt khác, nhà mình không có chỗ làm việc.",
+                "pt-BR": "Por um lado é verdade; por outro, não tenho escritório em casa.",
+                "fr": "D’un côté c’est vrai ; de l’autre, je n’ai pas de bureau chez moi.",
+                "de": "Einerseits stimmt das; andererseits habe ich zu Hause kein Büro.",
+                "it": "Da un lato è vero; dall’altro, a casa non ho un ufficio.",
+                "ja": "一方では確かにそう。でも他方では、家に仕事部屋がないんだ。",
+                "zh-Hans": "一方面确实如此；另一方面，我家里没有办公室。"
               },
               "correct": true,
               "response": "Tiene sentido. Depende de la situación.",
               "responseTranslation": {
                 "en": "Makes sense. It depends on the situation.",
-                "vi": "Hợp lý. Tùy hoàn cảnh thôi."
+                "vi": "Hợp lý. Tùy hoàn cảnh thôi.",
+                "pt-BR": "Faz sentido. Depende da situação.",
+                "fr": "Logique. Ça dépend de la situation.",
+                "de": "Ergibt Sinn. Es hängt von der Situation ab.",
+                "it": "Ha senso. Dipende dalla situazione.",
+                "ja": "なるほど。状況次第だね。",
+                "zh-Hans": "有道理。要看情况。"
               },
               "next": "conclusion"
             },
@@ -232,14 +448,26 @@
               "es": "Por eso prefiero caminar.",
               "translation": {
                 "en": "That's why I prefer walking.",
-                "vi": "Vì vậy mình thích đi bộ."
+                "vi": "Vì vậy mình thích đi bộ.",
+                "pt-BR": "Por isso prefiro caminhar.",
+                "fr": "C’est pour ça que je préfère marcher.",
+                "de": "Deshalb gehe ich lieber zu Fuß.",
+                "it": "Per questo preferisco camminare.",
+                "ja": "だから歩くほうが好きです。",
+                "zh-Hans": "所以我更喜欢走路。"
               },
               "correct": false,
               "correction": "Entiendo tu punto, pero me cuesta concentrarme en casa.",
               "response": "¿Caminar? No entiendo la relación…",
               "responseTranslation": {
                 "en": "Walking? I don't see the connection…",
-                "vi": "Đi bộ á? Mình không thấy liên quan…"
+                "vi": "Đi bộ á? Mình không thấy liên quan…",
+                "pt-BR": "Caminhar? Não vejo a relação…",
+                "fr": "Marcher ? Je ne vois pas le rapport…",
+                "de": "Zu Fuß gehen? Ich sehe den Zusammenhang nicht…",
+                "it": "Camminare? Non vedo il collegamento…",
+                "ja": "歩く？関係がわからないけど…",
+                "zh-Hans": "走路？我看不出有什么关系……"
               },
               "next": "conclusion"
             }
@@ -250,11 +478,23 @@
           "prompt": "Entonces, ¿qué es lo ideal?",
           "translation": {
             "en": "So what's ideal?",
-            "vi": "Vậy thế nào là lý tưởng?"
+            "vi": "Vậy thế nào là lý tưởng?",
+            "pt-BR": "Então, o que é o ideal?",
+            "fr": "Alors, l’idéal, c’est quoi ?",
+            "de": "Was ist also ideal?",
+            "it": "Allora, qual è l’ideale?",
+            "ja": "じゃあ、理想は何？",
+            "zh-Hans": "那什么是最理想的？"
           },
           "hint": {
             "en": "Wrap up with “Al fin y al cabo…”.",
-            "vi": "Kết luận bằng “Al fin y al cabo…”."
+            "vi": "Kết luận bằng “Al fin y al cabo…”.",
+            "pt-BR": "Conclua com “Al fin y al cabo…”.",
+            "fr": "Concluez avec « Al fin y al cabo… ».",
+            "de": "Schließe mit „Al fin y al cabo…“ ab.",
+            "it": "Concludi con “Al fin y al cabo…”.",
+            "ja": "「Al fin y al cabo…」でまとめよう。",
+            "zh-Hans": "用“Al fin y al cabo…”总结。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Al fin y al cabo, lo mejor es un modelo híbrido.",
               "translation": {
                 "en": "At the end of the day, a hybrid model is best.",
-                "vi": "Suy cho cùng, kết hợp cả hai là tốt nhất."
+                "vi": "Suy cho cùng, kết hợp cả hai là tốt nhất.",
+                "pt-BR": "No fim das contas, o modelo híbrido é o melhor.",
+                "fr": "Au bout du compte, le mieux, c’est un modèle hybride.",
+                "de": "Letztendlich ist ein Hybridmodell am besten.",
+                "it": "Alla fine dei conti, il modello ibrido è il migliore.",
+                "ja": "結局、ハイブリッドが一番だね。",
+                "zh-Hans": "说到底，混合模式最好。"
               },
               "correct": true,
               "response": "Estoy totalmente de acuerdo contigo.",
               "responseTranslation": {
                 "en": "I totally agree with you.",
-                "vi": "Mình hoàn toàn đồng ý với bạn."
+                "vi": "Mình hoàn toàn đồng ý với bạn.",
+                "pt-BR": "Concordo totalmente com você.",
+                "fr": "Je suis tout à fait d’accord avec toi.",
+                "de": "Da stimme ich dir völlig zu.",
+                "it": "Sono completamente d’accordo con te.",
+                "ja": "まったく同感です。",
+                "zh-Hans": "我完全同意你。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Al fin y al cabo, depende de cada persona y de cada trabajo.",
               "translation": {
                 "en": "In the end, it depends on each person and each job.",
-                "vi": "Suy cho cùng, nó tùy từng người và từng công việc."
+                "vi": "Suy cho cùng, nó tùy từng người và từng công việc.",
+                "pt-BR": "No final, depende de cada pessoa e de cada trabalho.",
+                "fr": "Au final, ça dépend de chacun et de chaque travail.",
+                "de": "Am Ende hängt es von jedem Menschen und jedem Job ab.",
+                "it": "Alla fine, dipende da ogni persona e da ogni lavoro.",
+                "ja": "最終的には、人と仕事次第だね。",
+                "zh-Hans": "最终还是要看每个人和每份工作。"
               },
               "correct": true,
               "response": "Tienes toda la razón.",
               "responseTranslation": {
                 "en": "You're absolutely right.",
-                "vi": "Bạn hoàn toàn đúng."
+                "vi": "Bạn hoàn toàn đúng.",
+                "pt-BR": "Você tem toda a razão.",
+                "fr": "Tu as entièrement raison.",
+                "de": "Du hast völlig recht.",
+                "it": "Hai assolutamente ragione.",
+                "ja": "まったくそのとおりです。",
+                "zh-Hans": "你说得完全对。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No sé, me da igual.",
               "translation": {
                 "en": "I don't know, I don't care.",
-                "vi": "Không biết, sao cũng được."
+                "vi": "Không biết, sao cũng được.",
+                "pt-BR": "Sei lá, tanto faz.",
+                "fr": "Je ne sais pas, ça m’est égal.",
+                "de": "Keine Ahnung, ist mir egal.",
+                "it": "Non so, mi è indifferente.",
+                "ja": "わからない、どうでもいい。",
+                "zh-Hans": "不知道，我无所谓。"
               },
               "correct": false,
               "correction": "Al fin y al cabo, lo mejor es un modelo híbrido.",
               "response": "Jaja, ¡pero si estábamos debatiendo!",
               "responseTranslation": {
                 "en": "Haha, but we were debating!",
-                "vi": "Haha, mình đang tranh luận mà!"
+                "vi": "Haha, mình đang tranh luận mà!",
+                "pt-BR": "Haha, mas estávamos debatendo!",
+                "fr": "Haha, mais on débattait !",
+                "de": "Haha, aber wir haben doch diskutiert!",
+                "it": "Haha, ma stavamo dibattendo!",
+                "ja": "はは、でも議論してたんだよ！",
+                "zh-Hans": "哈哈，可我们在辩论呀！"
               }
             }
           ]

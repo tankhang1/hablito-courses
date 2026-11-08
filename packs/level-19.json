@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-19",
-  "version": 1,
+  "version": 2,
   "level": 19,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 3: Complaints & negotiation",
-    "vi": "Trung cao cấp 3: Khiếu nại & thương lượng"
+    "vi": "Trung cao cấp 3: Khiếu nại & thương lượng",
+    "pt-BR": "Intermediário superior 3: Reclamações e negociação",
+    "fr": "Intermédiaire supérieur 3 : Réclamations et négociation",
+    "de": "Obere Mittelstufe 3: Beschwerden und Verhandeln",
+    "it": "Intermedio superiore 3: Reclami e trattative",
+    "ja": "中上級 3：苦情と交渉",
+    "zh-Hans": "中高级 3：投诉和谈判"
   },
   "description": {
     "en": "Complain politely and reach a fair deal.",
-    "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý."
+    "vi": "Khiếu nại lịch sự và đạt thỏa thuận hợp lý.",
+    "pt-BR": "Reclame com educação e chegue a um acordo justo.",
+    "fr": "Réclamez poliment et trouvez un accord équitable.",
+    "de": "Beschwere dich höflich und finde eine faire Lösung.",
+    "it": "Reclama con cortesia e raggiungi un accordo equo.",
+    "ja": "丁寧に苦情を伝えて、公平な合意を目指そう。",
+    "zh-Hans": "礼貌地投诉，达成公平的协议。"
   },
   "lessons": [
     {
       "id": "complaints",
       "title": {
         "en": "Making a complaint",
-        "vi": "Đưa ra khiếu nại"
+        "vi": "Đưa ra khiếu nại",
+        "pt-BR": "Fazendo uma reclamação",
+        "fr": "Faire une réclamation",
+        "de": "Sich beschweren",
+        "it": "Fare un reclamo",
+        "ja": "苦情を言う",
+        "zh-Hans": "投诉"
       },
       "description": {
         "en": "Be firm but polite.",
-        "vi": "Cương quyết nhưng lịch sự."
+        "vi": "Cương quyết nhưng lịch sự.",
+        "pt-BR": "Seja firme, mas educado.",
+        "fr": "Soyez ferme mais poli.",
+        "de": "Sei bestimmt, aber höflich.",
+        "it": "Sii deciso ma educato.",
+        "ja": "きっぱり、でも丁寧に。",
+        "zh-Hans": "坚定但有礼貌。"
       },
       "focus": {
         "en": "“Quisiera que + past subjunctive” (devolvieran, cambiaran) makes a request very polite.",
-        "vi": "“Quisiera que + giả định quá khứ” (devolvieran, cambiaran) khiến yêu cầu rất lịch sự."
+        "vi": "“Quisiera que + giả định quá khứ” (devolvieran, cambiaran) khiến yêu cầu rất lịch sự.",
+        "pt-BR": "“Quisiera que + subjuntivo passado” (devolvieran, cambiaran) torna um pedido muito educado.",
+        "fr": "« Quisiera que + subjonctif passé » (devolvieran, cambiaran) rend une demande très polie.",
+        "de": "„Quisiera que + Subjuntivo der Vergangenheit“ (devolvieran, cambiaran) macht eine Bitte sehr höflich.",
+        "it": "“Quisiera que + congiuntivo imperfetto” (devolvieran, cambiaran) rende una richiesta molto cortese.",
+        "ja": "「Quisiera que＋接続法過去」（devolvieran, cambiaran）でとても丁寧な依頼になる。",
+        "zh-Hans": "“Quisiera que + 过去虚拟式”（devolvieran, cambiaran）让请求非常客气。"
       },
       "icon": "alert-circle",
       "phrases": [
         {
           "es": "Quisiera hacer una reclamación.",
           "en": "I'd like to make a complaint.",
-          "vi": "Tôi muốn khiếu nại."
+          "vi": "Tôi muốn khiếu nại.",
+          "pt-BR": "Eu gostaria de fazer uma reclamação.",
+          "fr": "Je voudrais faire une réclamation.",
+          "de": "Ich möchte mich beschweren.",
+          "it": "Vorrei fare un reclamo.",
+          "ja": "苦情を申し上げたいのですが。",
+          "zh-Hans": "我想投诉。"
         },
         {
           "es": "El producto llegó dañado.",
           "en": "The product arrived damaged.",
-          "vi": "Sản phẩm giao đến bị hỏng."
+          "vi": "Sản phẩm giao đến bị hỏng.",
+          "pt-BR": "O produto chegou danificado.",
+          "fr": "Le produit est arrivé endommagé.",
+          "de": "Das Produkt kam beschädigt an.",
+          "it": "Il prodotto è arrivato danneggiato.",
+          "ja": "商品が破損して届きました。",
+          "zh-Hans": "产品到货时已经损坏了。"
         },
         {
           "es": "Me cobraron dos veces.",
           "en": "They charged me twice.",
-          "vi": "Tôi bị tính tiền hai lần."
+          "vi": "Tôi bị tính tiền hai lần.",
+          "pt-BR": "Me cobraram duas vezes.",
+          "fr": "On m’a débité deux fois.",
+          "de": "Mir wurde doppelt abgebucht.",
+          "it": "Mi hanno addebitato due volte.",
+          "ja": "二重に請求されました。",
+          "zh-Hans": "我被扣了两次款。"
         },
         {
           "es": "No es lo que pedí.",
           "en": "It's not what I ordered.",
-          "vi": "Đây không phải món tôi đặt."
+          "vi": "Đây không phải món tôi đặt.",
+          "pt-BR": "Não é o que eu pedi.",
+          "fr": "Ce n’est pas ce que j’ai commandé.",
+          "de": "Das habe ich nicht bestellt.",
+          "it": "Non è quello che ho ordinato.",
+          "ja": "注文したものと違います。",
+          "zh-Hans": "这不是我订的东西。"
         },
         {
           "es": "Esperaba un mejor servicio.",
           "en": "I expected better service.",
-          "vi": "Tôi mong dịch vụ tốt hơn."
+          "vi": "Tôi mong dịch vụ tốt hơn.",
+          "pt-BR": "Eu esperava um serviço melhor.",
+          "fr": "Je m’attendais à un meilleur service.",
+          "de": "Ich hatte besseren Service erwartet.",
+          "it": "Mi aspettavo un servizio migliore.",
+          "ja": "もっと良いサービスを期待していました。",
+          "zh-Hans": "我期待更好的服务。"
         },
         {
           "es": "Quisiera que me devolvieran el dinero.",
           "en": "I'd like a refund.",
-          "vi": "Tôi muốn được hoàn tiền."
+          "vi": "Tôi muốn được hoàn tiền.",
+          "pt-BR": "Eu gostaria de um reembolso.",
+          "fr": "Je voudrais un remboursement.",
+          "de": "Ich hätte gern mein Geld zurück.",
+          "it": "Vorrei un rimborso.",
+          "ja": "返金をお願いします。",
+          "zh-Hans": "我想退款。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "negotiation",
       "title": {
         "en": "Negotiating",
-        "vi": "Thương lượng"
+        "vi": "Thương lượng",
+        "pt-BR": "Negociando",
+        "fr": "Négocier",
+        "de": "Verhandeln",
+        "it": "Trattare",
+        "ja": "交渉する",
+        "zh-Hans": "谈判"
       },
       "description": {
         "en": "Propose, counter, and agree.",
-        "vi": "Đề xuất, trả giá và chốt."
+        "vi": "Đề xuất, trả giá và chốt.",
+        "pt-BR": "Proponha, contraproponha e feche acordo.",
+        "fr": "Proposez, contre-proposez et concluez.",
+        "de": "Vorschlagen, Gegenangebot machen, einigen.",
+        "it": "Proponi, controproponi e accordati.",
+        "ja": "提案、対案、合意。",
+        "zh-Hans": "提议、还价、达成一致。"
       },
       "focus": {
         "en": "“¿Y si…?” opens a counter-offer without sounding confrontational.",
-        "vi": "“¿Y si…?” mở lời trả giá mà không gây căng thẳng."
+        "vi": "“¿Y si…?” mở lời trả giá mà không gây căng thẳng.",
+        "pt-BR": "“¿Y si…?” abre uma contraproposta sem soar agressivo.",
+        "fr": "« ¿Y si…? » ouvre une contre-proposition sans paraître agressif.",
+        "de": "„¿Y si…?“ leitet ein Gegenangebot ein, ohne konfrontativ zu klingen.",
+        "it": "“¿Y si…?” apre una controproposta senza sembrare aggressivo.",
+        "ja": "「¿Y si…?」は角を立てずに対案を出せる。",
+        "zh-Hans": "“¿Y si…?”可以提出反建议而不显得对立。"
       },
       "icon": "repeat",
       "phrases": [
         {
           "es": "¿Qué me puede ofrecer?",
           "en": "What can you offer me?",
-          "vi": "Bạn có thể đề nghị gì?"
+          "vi": "Bạn có thể đề nghị gì?",
+          "pt-BR": "O que você pode me oferecer?",
+          "fr": "Que pouvez-vous me proposer ?",
+          "de": "Was können Sie mir anbieten?",
+          "it": "Cosa mi può offrire?",
+          "ja": "何をご提案いただけますか？",
+          "zh-Hans": "您能给我什么方案？"
         },
         {
           "es": "¿Y si me hace un descuento?",
           "en": "What if you give me a discount?",
-          "vi": "Còn nếu bạn giảm giá cho tôi thì sao?"
+          "vi": "Còn nếu bạn giảm giá cho tôi thì sao?",
+          "pt-BR": "E se você me der um desconto?",
+          "fr": "Et si vous me faisiez une réduction ?",
+          "de": "Und wenn Sie mir einen Rabatt geben?",
+          "it": "E se mi fa uno sconto?",
+          "ja": "割引していただけませんか？",
+          "zh-Hans": "要不您给我打个折？"
         },
         {
           "es": "Me parece justo.",
           "en": "That seems fair to me.",
-          "vi": "Tôi thấy vậy là hợp lý."
+          "vi": "Tôi thấy vậy là hợp lý.",
+          "pt-BR": "Me parece justo.",
+          "fr": "Ça me paraît juste.",
+          "de": "Das finde ich fair.",
+          "it": "Mi sembra giusto.",
+          "ja": "それなら公平だと思います。",
+          "zh-Hans": "我觉得这很公平。"
         },
         {
           "es": "Eso no me convence.",
           "en": "That doesn't convince me.",
-          "vi": "Như vậy chưa thuyết phục tôi."
+          "vi": "Như vậy chưa thuyết phục tôi.",
+          "pt-BR": "Isso não me convence.",
+          "fr": "Ça ne me convainc pas.",
+          "de": "Das überzeugt mich nicht.",
+          "it": "Non mi convince.",
+          "ja": "それでは納得できません。",
+          "zh-Hans": "这说服不了我。"
         },
         {
           "es": "Podemos llegar a un acuerdo.",
           "en": "We can reach an agreement.",
-          "vi": "Chúng ta có thể thỏa thuận được."
+          "vi": "Chúng ta có thể thỏa thuận được.",
+          "pt-BR": "Podemos chegar a um acordo.",
+          "fr": "Nous pouvons trouver un accord.",
+          "de": "Wir können uns einigen.",
+          "it": "Possiamo trovare un accordo.",
+          "ja": "合意できると思います。",
+          "zh-Hans": "我们可以达成协议。"
         },
         {
           "es": "Trato hecho.",
           "en": "Deal.",
-          "vi": "Chốt vậy nhé."
+          "vi": "Chốt vậy nhé.",
+          "pt-BR": "Fechado.",
+          "fr": "Marché conclu.",
+          "de": "Abgemacht.",
+          "it": "Affare fatto.",
+          "ja": "それで決まりです。",
+          "zh-Hans": "成交。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "refund",
       "title": {
         "en": "Get a refund",
-        "vi": "Đòi hoàn tiền"
+        "vi": "Đòi hoàn tiền",
+        "pt-BR": "Consiga um reembolso",
+        "fr": "Obtenir un remboursement",
+        "de": "Eine Rückerstattung bekommen",
+        "it": "Ottieni un rimborso",
+        "ja": "返金してもらう",
+        "zh-Hans": "争取退款"
       },
       "description": {
         "en": "A damaged order: complain and negotiate a solution.",
-        "vi": "Đơn hàng bị hỏng: khiếu nại và thương lượng cách giải quyết."
+        "vi": "Đơn hàng bị hỏng: khiếu nại và thương lượng cách giải quyết.",
+        "pt-BR": "Um pedido danificado: reclame e negocie uma solução.",
+        "fr": "Une commande endommagée : réclamez et négociez une solution.",
+        "de": "Eine beschädigte Bestellung: beschwere dich und verhandle eine Lösung.",
+        "it": "Un ordine danneggiato: reclama e tratta una soluzione.",
+        "ja": "破損した注文：苦情を伝えて解決策を交渉しよう。",
+        "zh-Hans": "订单损坏：投诉并协商解决方案。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Atención al cliente, ¿en qué le puedo ayudar?",
           "translation": {
             "en": "Customer service, how can I help?",
-            "vi": "Chăm sóc khách hàng xin nghe, tôi giúp gì được ạ?"
+            "vi": "Chăm sóc khách hàng xin nghe, tôi giúp gì được ạ?",
+            "pt-BR": "Atendimento ao cliente, como posso ajudar?",
+            "fr": "Service client, que puis-je faire pour vous ?",
+            "de": "Kundenservice, wie kann ich helfen?",
+            "it": "Servizio clienti, come posso aiutarla?",
+            "ja": "カスタマーサービスです、ご用件は？",
+            "zh-Hans": "客服中心，有什么可以帮您？"
           },
           "hint": {
             "en": "State the problem politely.",
-            "vi": "Nêu vấn đề lịch sự."
+            "vi": "Nêu vấn đề lịch sự.",
+            "pt-BR": "Explique o problema com educação.",
+            "fr": "Exposez le problème poliment.",
+            "de": "Schildere das Problem höflich.",
+            "it": "Esponi il problema con cortesia.",
+            "ja": "丁寧に問題を伝えよう。",
+            "zh-Hans": "礼貌地说明问题。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Quisiera hacer una reclamación: el producto llegó dañado.",
               "translation": {
                 "en": "I'd like to make a complaint: the product arrived damaged.",
-                "vi": "Tôi muốn khiếu nại: sản phẩm giao đến bị hỏng."
+                "vi": "Tôi muốn khiếu nại: sản phẩm giao đến bị hỏng.",
+                "pt-BR": "Eu gostaria de fazer uma reclamação: o produto chegou danificado.",
+                "fr": "Je voudrais faire une réclamation : le produit est arrivé endommagé.",
+                "de": "Ich möchte mich beschweren: Das Produkt kam beschädigt an.",
+                "it": "Vorrei fare un reclamo: il prodotto è arrivato danneggiato.",
+                "ja": "苦情を申し上げたいのですが、商品が破損して届きました。",
+                "zh-Hans": "我想投诉：产品到货时已经损坏了。"
               },
               "correct": true,
               "response": "Lo lamento mucho. ¿Qué solución prefiere?",
               "responseTranslation": {
                 "en": "I'm very sorry. Which solution do you prefer?",
-                "vi": "Rất xin lỗi. Anh/chị muốn giải quyết thế nào?"
+                "vi": "Rất xin lỗi. Anh/chị muốn giải quyết thế nào?",
+                "pt-BR": "Sinto muito. Qual solução você prefere?",
+                "fr": "Je suis vraiment désolé. Quelle solution préférez-vous ?",
+                "de": "Das tut mir sehr leid. Welche Lösung möchten Sie?",
+                "it": "Mi dispiace molto. Quale soluzione preferisce?",
+                "ja": "大変申し訳ございません。どの解決方法がよろしいですか？",
+                "zh-Hans": "非常抱歉。您希望怎么解决？"
               },
               "next": "solution"
             },
@@ -157,13 +313,25 @@
               "es": "Me cobraron dos veces el mismo pedido.",
               "translation": {
                 "en": "I was charged twice for the same order.",
-                "vi": "Tôi bị tính tiền hai lần cho cùng một đơn."
+                "vi": "Tôi bị tính tiền hai lần cho cùng một đơn.",
+                "pt-BR": "Fui cobrado duas vezes pelo mesmo pedido.",
+                "fr": "On m’a débité deux fois la même commande.",
+                "de": "Mir wurde dieselbe Bestellung zweimal berechnet.",
+                "it": "Mi hanno addebitato due volte lo stesso ordine.",
+                "ja": "同じ注文で二重に請求されました。",
+                "zh-Hans": "同一个订单我被扣了两次款。"
               },
               "correct": true,
               "response": "Disculpe la molestia. ¿Qué solución prefiere?",
               "responseTranslation": {
                 "en": "Sorry for the trouble. Which solution do you prefer?",
-                "vi": "Xin lỗi vì sự bất tiện. Anh/chị muốn giải quyết thế nào?"
+                "vi": "Xin lỗi vì sự bất tiện. Anh/chị muốn giải quyết thế nào?",
+                "pt-BR": "Desculpe o transtorno. Qual solução você prefere?",
+                "fr": "Désolé pour le désagrément. Quelle solution préférez-vous ?",
+                "de": "Entschuldigen Sie die Unannehmlichkeiten. Welche Lösung möchten Sie?",
+                "it": "Ci scusi per il disagio. Quale soluzione preferisce?",
+                "ja": "ご迷惑をおかけしました。どの解決方法がよろしいですか？",
+                "zh-Hans": "给您添麻烦了。您希望怎么解决？"
               },
               "next": "solution"
             },
@@ -172,14 +340,26 @@
               "es": "¡Esto es horrible!",
               "translation": {
                 "en": "This is horrible!",
-                "vi": "Thật kinh khủng!"
+                "vi": "Thật kinh khủng!",
+                "pt-BR": "Isso é horrível!",
+                "fr": "C’est horrible !",
+                "de": "Das ist ja furchtbar!",
+                "it": "È orribile!",
+                "ja": "ひどすぎる！",
+                "zh-Hans": "太糟糕了！"
               },
               "correct": false,
               "correction": "Quisiera hacer una reclamación: el producto llegó dañado.",
               "response": "Entiendo su molestia. ¿Me explica qué pasó?",
               "responseTranslation": {
                 "en": "I understand your frustration. Can you explain what happened?",
-                "vi": "Tôi hiểu sự bực bội của anh/chị. Anh/chị kể lại chuyện gì xảy ra được không?"
+                "vi": "Tôi hiểu sự bực bội của anh/chị. Anh/chị kể lại chuyện gì xảy ra được không?",
+                "pt-BR": "Entendo sua frustração. Pode explicar o que aconteceu?",
+                "fr": "Je comprends votre frustration. Pouvez-vous expliquer ce qui s’est passé ?",
+                "de": "Ich verstehe Ihren Ärger. Können Sie erklären, was passiert ist?",
+                "it": "Capisco la sua frustrazione. Può spiegarmi cos’è successo?",
+                "ja": "お怒りはごもっともです。何があったかご説明いただけますか？",
+                "zh-Hans": "我理解您的不满。能说说发生了什么吗？"
               },
               "next": "solution"
             }
@@ -190,11 +370,23 @@
           "prompt": "Le podemos mandar otro en dos semanas.",
           "translation": {
             "en": "We can send you another one in two weeks.",
-            "vi": "Chúng tôi có thể gửi cái khác trong hai tuần."
+            "vi": "Chúng tôi có thể gửi cái khác trong hai tuần.",
+            "pt-BR": "Podemos enviar outro em duas semanas.",
+            "fr": "Nous pouvons vous en envoyer un autre dans deux semaines.",
+            "de": "Wir können Ihnen in zwei Wochen ein neues schicken.",
+            "it": "Possiamo mandargliene un altro tra due settimane.",
+            "ja": "2週間後に代わりの品をお送りできます。",
+            "zh-Hans": "我们可以两周后给您寄一个新的。"
           },
           "hint": {
             "en": "Push back politely and ask for more.",
-            "vi": "Phản đối lịch sự và đề nghị thêm."
+            "vi": "Phản đối lịch sự và đề nghị thêm.",
+            "pt-BR": "Discorde com educação e peça mais.",
+            "fr": "Contestez poliment et demandez davantage.",
+            "de": "Widersprich höflich und fordere mehr.",
+            "it": "Obietta con cortesia e chiedi di più.",
+            "ja": "丁寧に反論して、もっと求めよう。",
+            "zh-Hans": "礼貌地反驳并争取更多。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Eso no me convence. Quisiera que me devolvieran el dinero.",
               "translation": {
                 "en": "That doesn't convince me. I'd like a refund.",
-                "vi": "Như vậy chưa thuyết phục tôi. Tôi muốn được hoàn tiền."
+                "vi": "Như vậy chưa thuyết phục tôi. Tôi muốn được hoàn tiền.",
+                "pt-BR": "Isso não me convence. Eu gostaria de um reembolso.",
+                "fr": "Ça ne me convainc pas. Je voudrais un remboursement.",
+                "de": "Das überzeugt mich nicht. Ich hätte gern mein Geld zurück.",
+                "it": "Non mi convince. Vorrei un rimborso.",
+                "ja": "それでは納得できません。返金をお願いします。",
+                "zh-Hans": "这说服不了我。我想退款。"
               },
               "correct": true,
               "response": "Mmm… ¿y si le damos un descuento del veinte por ciento?",
               "responseTranslation": {
                 "en": "Hmm… what if we give you a 20% discount?",
-                "vi": "Ừm… nếu chúng tôi giảm giá 20% thì sao?"
+                "vi": "Ừm… nếu chúng tôi giảm giá 20% thì sao?",
+                "pt-BR": "Hmm… e se lhe dermos 20% de desconto?",
+                "fr": "Hmm… et si nous vous accordions 20 % de réduction ?",
+                "de": "Hmm… und wenn wir Ihnen 20 % Rabatt geben?",
+                "it": "Mmm… e se le facessimo il 20% di sconto?",
+                "ja": "うーん…では20％割引ではいかがでしょう？",
+                "zh-Hans": "嗯……要不我们给您打八折？"
               },
               "next": "deal"
             },
@@ -217,13 +421,25 @@
               "es": "¿Y si me lo mandan esta semana?",
               "translation": {
                 "en": "What if you send it this week?",
-                "vi": "Còn nếu gửi trong tuần này thì sao?"
+                "vi": "Còn nếu gửi trong tuần này thì sao?",
+                "pt-BR": "E se vocês enviarem esta semana?",
+                "fr": "Et si vous l’envoyiez cette semaine ?",
+                "de": "Und wenn Sie es diese Woche schicken?",
+                "it": "E se lo spediste questa settimana?",
+                "ja": "今週中に送っていただけませんか？",
+                "zh-Hans": "要不你们这周就寄？"
               },
               "correct": true,
               "response": "Podría ser, con envío exprés. ¿Le parece?",
               "responseTranslation": {
                 "en": "Possibly, with express shipping. Does that work?",
-                "vi": "Có thể, bằng giao hàng nhanh. Anh/chị thấy sao?"
+                "vi": "Có thể, bằng giao hàng nhanh. Anh/chị thấy sao?",
+                "pt-BR": "É possível, com envio expresso. Serve?",
+                "fr": "C’est possible, en livraison express. Ça vous va ?",
+                "de": "Möglich, mit Expressversand. Passt das?",
+                "it": "È possibile, con spedizione express. Le va bene?",
+                "ja": "速達便なら可能です。それでよろしいですか？",
+                "zh-Hans": "可以，用加急快递。这样行吗？"
               },
               "next": "deal"
             },
@@ -232,14 +448,26 @@
               "es": "Está bien, no pasa nada.",
               "translation": {
                 "en": "That's fine, no problem.",
-                "vi": "Được rồi, không sao."
+                "vi": "Được rồi, không sao.",
+                "pt-BR": "Tudo bem, sem problema.",
+                "fr": "Ça va, pas de problème.",
+                "de": "Das ist in Ordnung, kein Problem.",
+                "it": "Va bene, nessun problema.",
+                "ja": "それで大丈夫です、問題ありません。",
+                "zh-Hans": "可以，没问题。"
               },
               "correct": false,
               "correction": "Eso no me convence. Quisiera que me devolvieran el dinero.",
               "response": "¿Seguro? Dos semanas es mucho tiempo…",
               "responseTranslation": {
                 "en": "Are you sure? Two weeks is a long time…",
-                "vi": "Anh/chị chắc chứ? Hai tuần là lâu đấy…"
+                "vi": "Anh/chị chắc chứ? Hai tuần là lâu đấy…",
+                "pt-BR": "Tem certeza? Duas semanas é muito tempo…",
+                "fr": "Vous êtes sûr ? Deux semaines, c’est long…",
+                "de": "Sicher? Zwei Wochen sind lang…",
+                "it": "È sicuro? Due settimane sono tante…",
+                "ja": "本当によろしいですか？2週間は長いですよ…",
+                "zh-Hans": "您确定？两周可挺久的……"
               },
               "next": "deal"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Le parece bien así?",
           "translation": {
             "en": "Does that seem fair to you?",
-            "vi": "Anh/chị thấy vậy được chưa?"
+            "vi": "Anh/chị thấy vậy được chưa?",
+            "pt-BR": "Isso lhe parece justo?",
+            "fr": "Ça vous paraît juste ?",
+            "de": "Finden Sie das fair?",
+            "it": "Le sembra giusto?",
+            "ja": "これで公平だと思われますか？",
+            "zh-Hans": "您觉得这样公平吗？"
           },
           "hint": {
             "en": "Accept or make a final offer.",
-            "vi": "Đồng ý hoặc đưa ra đề nghị cuối."
+            "vi": "Đồng ý hoặc đưa ra đề nghị cuối.",
+            "pt-BR": "Aceite ou faça uma última oferta.",
+            "fr": "Acceptez ou faites une dernière offre.",
+            "de": "Nimm an oder mach ein letztes Angebot.",
+            "it": "Accetta o fai un’ultima offerta.",
+            "ja": "受け入れるか、最後の提案をしよう。",
+            "zh-Hans": "接受或者提出最后的条件。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Me parece justo. Trato hecho.",
               "translation": {
                 "en": "That seems fair. Deal.",
-                "vi": "Tôi thấy hợp lý. Chốt vậy nhé."
+                "vi": "Tôi thấy hợp lý. Chốt vậy nhé.",
+                "pt-BR": "Me parece justo. Fechado.",
+                "fr": "Ça me paraît juste. Marché conclu.",
+                "de": "Das finde ich fair. Abgemacht.",
+                "it": "Mi sembra giusto. Affare fatto.",
+                "ja": "公平だと思います。それで決まりです。",
+                "zh-Hans": "我觉得很公平。成交。"
               },
               "correct": true,
               "response": "Perfecto. Le envío la confirmación por correo.",
               "responseTranslation": {
                 "en": "Perfect. I'll email you the confirmation.",
-                "vi": "Tuyệt. Tôi gửi xác nhận qua email."
+                "vi": "Tuyệt. Tôi gửi xác nhận qua email.",
+                "pt-BR": "Perfeito. Envio a confirmação por e-mail.",
+                "fr": "Parfait. Je vous envoie la confirmation par e-mail.",
+                "de": "Perfekt. Ich schicke Ihnen die Bestätigung per E-Mail.",
+                "it": "Perfetto. Le mando la conferma via e-mail.",
+                "ja": "かしこまりました。確認をメールでお送りします。",
+                "zh-Hans": "好的。我会用邮件把确认发给您。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Podemos llegar a un acuerdo si incluyen el envío gratis.",
               "translation": {
                 "en": "We can reach an agreement if you include free shipping.",
-                "vi": "Ta có thể thỏa thuận nếu miễn phí giao hàng."
+                "vi": "Ta có thể thỏa thuận nếu miễn phí giao hàng.",
+                "pt-BR": "Podemos chegar a um acordo se incluírem o frete grátis.",
+                "fr": "Nous pouvons trouver un accord si vous incluez la livraison gratuite.",
+                "de": "Wir können uns einigen, wenn der Versand kostenlos ist.",
+                "it": "Possiamo trovare un accordo se includete la spedizione gratuita.",
+                "ja": "送料無料にしていただけるなら合意できます。",
+                "zh-Hans": "如果包邮，我们可以达成协议。"
               },
               "correct": true,
               "response": "De acuerdo, envío gratis incluido.",
               "responseTranslation": {
                 "en": "Agreed, free shipping included.",
-                "vi": "Đồng ý, miễn phí giao hàng."
+                "vi": "Đồng ý, miễn phí giao hàng.",
+                "pt-BR": "Combinado, frete grátis incluído.",
+                "fr": "Entendu, livraison gratuite incluse.",
+                "de": "Einverstanden, Versand inklusive.",
+                "it": "D’accordo, spedizione gratuita inclusa.",
+                "ja": "承知しました、送料無料で。",
+                "zh-Hans": "同意，包邮。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Me da igual.",
               "translation": {
                 "en": "I don't care.",
-                "vi": "Sao cũng được."
+                "vi": "Sao cũng được.",
+                "pt-BR": "Tanto faz.",
+                "fr": "Ça m’est égal.",
+                "de": "Das ist mir egal.",
+                "it": "Mi è indifferente.",
+                "ja": "どうでもいいです。",
+                "zh-Hans": "我无所谓。"
               },
               "correct": false,
               "correction": "Me parece justo. Trato hecho.",
               "response": "Entonces, ¿aceptamos así?",
               "responseTranslation": {
                 "en": "So, shall we go with that?",
-                "vi": "Vậy mình chốt như thế nhé?"
+                "vi": "Vậy mình chốt như thế nhé?",
+                "pt-BR": "Então, ficamos com isso?",
+                "fr": "Alors, on part là-dessus ?",
+                "de": "Also, bleiben wir dabei?",
+                "it": "Allora, restiamo così?",
+                "ja": "では、それでよろしいですか？",
+                "zh-Hans": "那就这么定了？"
               }
             }
           ]

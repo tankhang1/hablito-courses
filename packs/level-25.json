@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-25",
-  "version": 1,
+  "version": 2,
   "level": 25,
   "cefr": "C1",
   "title": {
     "en": "Advanced 1: Persuading & arguing",
-    "vi": "Cao cấp 1: Thuyết phục & lập luận"
+    "vi": "Cao cấp 1: Thuyết phục & lập luận",
+    "pt-BR": "Avançado 1: Persuadir e argumentar",
+    "fr": "Avancé 1 : Persuader et argumenter",
+    "de": "Fortgeschritten 1: Überzeugen und argumentieren",
+    "it": "Avanzato 1: Persuadere e argomentare",
+    "ja": "上級 1：説得と議論",
+    "zh-Hans": "高级 1：说服与论证"
   },
   "description": {
     "en": "Build an argument and win people over.",
-    "vi": "Xây dựng lập luận và thuyết phục người khác."
+    "vi": "Xây dựng lập luận và thuyết phục người khác.",
+    "pt-BR": "Construa um argumento e conquiste as pessoas.",
+    "fr": "Construisez un argument et convainquez.",
+    "de": "Bau ein Argument auf und überzeuge andere.",
+    "it": "Costruisci un argomento e conquista le persone.",
+    "ja": "論を組み立てて人を納得させよう。",
+    "zh-Hans": "构建论点，赢得他人认同。"
   },
   "lessons": [
     {
       "id": "persuading",
       "title": {
         "en": "Persuading",
-        "vi": "Thuyết phục"
+        "vi": "Thuyết phục",
+        "pt-BR": "Persuadindo",
+        "fr": "Persuader",
+        "de": "Überzeugen",
+        "it": "Persuadere",
+        "ja": "説得する",
+        "zh-Hans": "说服"
       },
       "description": {
         "en": "Make a strong case.",
-        "vi": "Đưa ra lập luận mạnh mẽ."
+        "vi": "Đưa ra lập luận mạnh mẽ.",
+        "pt-BR": "Defenda sua ideia com força.",
+        "fr": "Défendez fermement votre idée.",
+        "de": "Vertritt deinen Standpunkt überzeugend.",
+        "it": "Sostieni la tua tesi con forza.",
+        "ja": "説得力のある主張をしよう。",
+        "zh-Hans": "有力地陈述你的观点。"
       },
       "focus": {
         "en": "Value judgments take the subjunctive: es fundamental / importante / necesario que + subjunctive.",
-        "vi": "Câu đánh giá đi với thức giả định: es fundamental / importante / necesario que + giả định."
+        "vi": "Câu đánh giá đi với thức giả định: es fundamental / importante / necesario que + giả định.",
+        "pt-BR": "Juízos de valor pedem subjuntivo: es fundamental / importante / necesario que + subjuntivo.",
+        "fr": "Les jugements de valeur demandent le subjonctif : es fundamental / importante / necesario que + subjonctif.",
+        "de": "Werturteile verlangen den Subjuntivo: es fundamental / importante / necesario que + Subjuntivo.",
+        "it": "I giudizi di valore richiedono il congiuntivo: es fundamental / importante / necesario que + congiuntivo.",
+        "ja": "価値判断には接続法：es fundamental / importante / necesario que＋接続法。",
+        "zh-Hans": "价值判断用虚拟式：es fundamental / importante / necesario que + 虚拟式。"
       },
       "icon": "trending-up",
       "phrases": [
         {
           "es": "Es fundamental que todos participen.",
           "en": "It's essential that everyone takes part.",
-          "vi": "Điều cốt yếu là mọi người cùng tham gia."
+          "vi": "Điều cốt yếu là mọi người cùng tham gia.",
+          "pt-BR": "É fundamental que todos participem.",
+          "fr": "Il est essentiel que tout le monde participe.",
+          "de": "Es ist entscheidend, dass alle mitmachen.",
+          "it": "È fondamentale che tutti partecipino.",
+          "ja": "全員が参加することが欠かせません。",
+          "zh-Hans": "大家都参与是至关重要的。"
         },
         {
           "es": "No hay que olvidar que el presupuesto es limitado.",
           "en": "We mustn't forget that the budget is limited.",
-          "vi": "Đừng quên rằng ngân sách có hạn."
+          "vi": "Đừng quên rằng ngân sách có hạn.",
+          "pt-BR": "Não podemos esquecer que o orçamento é limitado.",
+          "fr": "N’oublions pas que le budget est limité.",
+          "de": "Wir dürfen nicht vergessen, dass das Budget begrenzt ist.",
+          "it": "Non dobbiamo dimenticare che il budget è limitato.",
+          "ja": "予算が限られていることを忘れてはいけません。",
+          "zh-Hans": "我们不能忘记预算有限。"
         },
         {
           "es": "Lo que quiero decir es que hay otra opción.",
           "en": "What I mean is that there's another option.",
-          "vi": "Ý tôi là còn một lựa chọn khác."
+          "vi": "Ý tôi là còn một lựa chọn khác.",
+          "pt-BR": "O que quero dizer é que existe outra opção.",
+          "fr": "Ce que je veux dire, c’est qu’il existe une autre option.",
+          "de": "Was ich meine, ist, dass es eine andere Option gibt.",
+          "it": "Quello che intendo è che c’è un’altra opzione.",
+          "ja": "つまり、別の選択肢があるということです。",
+          "zh-Hans": "我的意思是还有另一个选择。"
         },
         {
           "es": "Piénsalo bien: ¿qué perdemos?",
           "en": "Think it over: what do we lose?",
-          "vi": "Nghĩ kỹ đi: chúng ta mất gì nào?"
+          "vi": "Nghĩ kỹ đi: chúng ta mất gì nào?",
+          "pt-BR": "Pense bem: o que perdemos?",
+          "fr": "Réfléchis bien : qu’est-ce qu’on perd ?",
+          "de": "Denk mal nach: Was verlieren wir?",
+          "it": "Pensaci bene: cosa perdiamo?",
+          "ja": "よく考えて。何を失う？",
+          "zh-Hans": "好好想想：我们会失去什么？"
         },
         {
           "es": "Los datos demuestran que funciona.",
           "en": "The data show that it works.",
-          "vi": "Số liệu chứng minh nó hiệu quả."
+          "vi": "Số liệu chứng minh nó hiệu quả.",
+          "pt-BR": "Os dados mostram que funciona.",
+          "fr": "Les données montrent que ça marche.",
+          "de": "Die Daten zeigen, dass es funktioniert.",
+          "it": "I dati dimostrano che funziona.",
+          "ja": "データが効果を示しています。",
+          "zh-Hans": "数据表明这是有效的。"
         },
         {
           "es": "Te prometo que no te vas a arrepentir.",
           "en": "I promise you won't regret it.",
-          "vi": "Tôi hứa bạn sẽ không hối tiếc."
+          "vi": "Tôi hứa bạn sẽ không hối tiếc.",
+          "pt-BR": "Garanto que você não vai se arrepender.",
+          "fr": "Je te promets que tu ne le regretteras pas.",
+          "de": "Ich verspreche dir, du wirst es nicht bereuen.",
+          "it": "Ti prometto che non te ne pentirai.",
+          "ja": "後悔させないと約束します。",
+          "zh-Hans": "我保证你不会后悔。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "concessions",
       "title": {
         "en": "Conceding a point",
-        "vi": "Nhượng bộ một ý"
+        "vi": "Nhượng bộ một ý",
+        "pt-BR": "Fazendo concessões",
+        "fr": "Concéder un point",
+        "de": "Einen Punkt einräumen",
+        "it": "Concedere un punto",
+        "ja": "譲歩する",
+        "zh-Hans": "让步"
       },
       "description": {
         "en": "Grant a point and still win.",
-        "vi": "Thừa nhận một ý mà vẫn giữ lập trường."
+        "vi": "Thừa nhận một ý mà vẫn giữ lập trường.",
+        "pt-BR": "Conceda um ponto e ainda assim vença.",
+        "fr": "Accordez un point et gagnez quand même.",
+        "de": "Gib einen Punkt zu und gewinne trotzdem.",
+        "it": "Concedi un punto e vinci comunque.",
+        "ja": "一歩譲っても勝とう。",
+        "zh-Hans": "让一步也能赢。"
       },
       "focus": {
         "en": "“Aunque + subjunctive” = even if (hypothetical); “aunque + indicative” = although (a fact).",
-        "vi": "“Aunque + giả định” = cho dù (giả định); “aunque + trần thuật” = mặc dù (sự thật)."
+        "vi": "“Aunque + giả định” = cho dù (giả định); “aunque + trần thuật” = mặc dù (sự thật).",
+        "pt-BR": "“Aunque + subjuntivo” = mesmo que (hipotético); “aunque + indicativo” = embora (um fato).",
+        "fr": "« Aunque + subjonctif » = même si (hypothèse) ; « aunque + indicatif » = bien que (un fait).",
+        "de": "„Aunque + Subjuntivo“ = selbst wenn (hypothetisch); „aunque + Indikativ“ = obwohl (Tatsache).",
+        "it": "“Aunque + congiuntivo” = anche se (ipotesi); “aunque + indicativo” = sebbene (un fatto).",
+        "ja": "「Aunque＋接続法」＝たとえ〜でも（仮定）、「aunque＋直説法」＝〜だけれども（事実）。",
+        "zh-Hans": "“Aunque + 虚拟式”= 即使（假设）；“aunque + 陈述式”= 虽然（事实）。"
       },
       "icon": "git-merge",
       "phrases": [
         {
           "es": "Aunque sea caro, vale la pena.",
           "en": "Even if it's expensive, it's worth it.",
-          "vi": "Dù có đắt thì cũng đáng."
+          "vi": "Dù có đắt thì cũng đáng.",
+          "pt-BR": "Mesmo que seja caro, vale a pena.",
+          "fr": "Même si c’est cher, ça vaut le coup.",
+          "de": "Selbst wenn es teuer ist, lohnt es sich.",
+          "it": "Anche se costa caro, ne vale la pena.",
+          "ja": "たとえ高くても、その価値はあります。",
+          "zh-Hans": "即使贵，也值得。"
         },
         {
           "es": "Aunque es caro, lo voy a comprar.",
           "en": "Although it is expensive, I'm going to buy it.",
-          "vi": "Mặc dù nó đắt, tôi vẫn sẽ mua."
+          "vi": "Mặc dù nó đắt, tôi vẫn sẽ mua.",
+          "pt-BR": "Embora seja caro, vou comprar.",
+          "fr": "Bien que ce soit cher, je vais l’acheter.",
+          "de": "Obwohl es teuer ist, kaufe ich es.",
+          "it": "Anche se è caro, lo compro.",
+          "ja": "高いけど、買います。",
+          "zh-Hans": "虽然贵，我还是要买。"
         },
         {
           "es": "Es cierto que hay riesgos; no obstante…",
           "en": "It's true there are risks; nevertheless…",
-          "vi": "Đúng là có rủi ro; tuy vậy…"
+          "vi": "Đúng là có rủi ro; tuy vậy…",
+          "pt-BR": "É verdade que há riscos; no entanto…",
+          "fr": "C’est vrai qu’il y a des risques ; néanmoins…",
+          "de": "Es stimmt, dass es Risiken gibt; trotzdem…",
+          "it": "È vero che ci sono dei rischi; tuttavia…",
+          "ja": "リスクがあるのは確かです。それでも…",
+          "zh-Hans": "确实有风险；尽管如此……"
         },
         {
           "es": "Si bien tienes razón en eso…",
           "en": "While you're right about that…",
-          "vi": "Tuy bạn đúng ở điểm đó…"
+          "vi": "Tuy bạn đúng ở điểm đó…",
+          "pt-BR": "Embora você tenha razão nisso…",
+          "fr": "Même si tu as raison sur ce point…",
+          "de": "Auch wenn du damit recht hast…",
+          "it": "Anche se su questo hai ragione…",
+          "ja": "その点ではあなたが正しいけれど…",
+          "zh-Hans": "虽然你在这点上说得对……"
         },
         {
           "es": "A pesar de todo, sigo pensando lo mismo.",
           "en": "Despite everything, I still think the same.",
-          "vi": "Dù vậy, tôi vẫn giữ ý kiến."
+          "vi": "Dù vậy, tôi vẫn giữ ý kiến.",
+          "pt-BR": "Apesar de tudo, continuo pensando o mesmo.",
+          "fr": "Malgré tout, je pense toujours la même chose.",
+          "de": "Trotz allem denke ich immer noch dasselbe.",
+          "it": "Nonostante tutto, continuo a pensarla allo stesso modo.",
+          "ja": "それでも、考えは変わりません。",
+          "zh-Hans": "尽管如此，我的看法不变。"
         },
         {
           "es": "Te doy la razón en parte.",
           "en": "I partly agree with you.",
-          "vi": "Tôi đồng ý với bạn một phần."
+          "vi": "Tôi đồng ý với bạn một phần.",
+          "pt-BR": "Concordo em parte com você.",
+          "fr": "Je suis en partie d’accord avec toi.",
+          "de": "Ich stimme dir teilweise zu.",
+          "it": "Sono in parte d’accordo con te.",
+          "ja": "部分的には賛成です。",
+          "zh-Hans": "我部分同意你。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "pitch",
       "title": {
         "en": "Pitch an idea to your boss",
-        "vi": "Thuyết phục sếp duyệt ý tưởng"
+        "vi": "Thuyết phục sếp duyệt ý tưởng",
+        "pt-BR": "Apresente uma ideia ao chefe",
+        "fr": "Présenter une idée à son chef",
+        "de": "Dem Chef eine Idee vorstellen",
+        "it": "Proponi un’idea al capo",
+        "ja": "上司にアイデアを売り込む",
+        "zh-Hans": "向老板推销一个想法"
       },
       "description": {
         "en": "Persuade, handle objections, and close.",
-        "vi": "Thuyết phục, xử lý phản đối và chốt lại."
+        "vi": "Thuyết phục, xử lý phản đối và chốt lại.",
+        "pt-BR": "Persuada, lide com objeções e feche.",
+        "fr": "Persuadez, répondez aux objections et concluez.",
+        "de": "Überzeuge, entkräfte Einwände und mach den Abschluss.",
+        "it": "Persuadi, gestisci le obiezioni e chiudi.",
+        "ja": "説得し、反論に対応し、話をまとめよう。",
+        "zh-Hans": "说服、应对异议并达成结论。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Tienes cinco minutos. ¿Qué propones?",
           "translation": {
             "en": "You have five minutes. What do you propose?",
-            "vi": "Bạn có năm phút. Bạn đề xuất gì?"
+            "vi": "Bạn có năm phút. Bạn đề xuất gì?",
+            "pt-BR": "Você tem cinco minutos. O que propõe?",
+            "fr": "Vous avez cinq minutes. Que proposez-vous ?",
+            "de": "Sie haben fünf Minuten. Was schlagen Sie vor?",
+            "it": "Ha cinque minuti. Cosa propone?",
+            "ja": "5分あげます。何を提案しますか？",
+            "zh-Hans": "你有五分钟。你提议什么？"
           },
           "hint": {
             "en": "State your proposal with a value judgment.",
-            "vi": "Nêu đề xuất kèm một nhận định giá trị."
+            "vi": "Nêu đề xuất kèm một nhận định giá trị.",
+            "pt-BR": "Apresente sua proposta com um juízo de valor.",
+            "fr": "Présentez votre proposition avec un jugement de valeur.",
+            "de": "Stell deinen Vorschlag mit einem Werturteil vor.",
+            "it": "Presenta la tua proposta con un giudizio di valore.",
+            "ja": "価値判断を使って提案しよう。",
+            "zh-Hans": "用价值判断提出你的建议。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Es fundamental que lancemos una app para nuestros clientes.",
               "translation": {
                 "en": "It's essential that we launch an app for our clients.",
-                "vi": "Điều cốt yếu là chúng ta ra mắt ứng dụng cho khách hàng."
+                "vi": "Điều cốt yếu là chúng ta ra mắt ứng dụng cho khách hàng.",
+                "pt-BR": "É fundamental que lancemos um app para nossos clientes.",
+                "fr": "Il est essentiel que nous lancions une appli pour nos clients.",
+                "de": "Es ist entscheidend, dass wir eine App für unsere Kunden starten.",
+                "it": "È fondamentale che lanciamo un’app per i nostri clienti.",
+                "ja": "お客様向けのアプリを出すことが欠かせません。",
+                "zh-Hans": "我们为客户推出一款应用是至关重要的。"
               },
               "correct": true,
               "response": "Mmm. ¿No es muy caro?",
               "responseTranslation": {
                 "en": "Hmm. Isn't it very expensive?",
-                "vi": "Ừm. Như vậy không đắt quá sao?"
+                "vi": "Ừm. Như vậy không đắt quá sao?",
+                "pt-BR": "Hmm. Não é muito caro?",
+                "fr": "Hmm. Ce n’est pas très cher ?",
+                "de": "Hmm. Ist das nicht sehr teuer?",
+                "it": "Mmm. Non costa molto?",
+                "ja": "うーん。すごく高くない？",
+                "zh-Hans": "嗯。不是很贵吗？"
               },
               "next": "cost"
             },
@@ -157,13 +313,25 @@
               "es": "Los datos demuestran que los clientes quieren una app, así que propongo crearla.",
               "translation": {
                 "en": "The data show clients want an app, so I propose building one.",
-                "vi": "Số liệu cho thấy khách hàng muốn có ứng dụng, nên tôi đề xuất làm."
+                "vi": "Số liệu cho thấy khách hàng muốn có ứng dụng, nên tôi đề xuất làm.",
+                "pt-BR": "Os dados mostram que os clientes querem um app, por isso proponho criá-lo.",
+                "fr": "Les données montrent que les clients veulent une appli, je propose donc de la créer.",
+                "de": "Die Daten zeigen, dass Kunden eine App wollen, deshalb schlage ich vor, eine zu bauen.",
+                "it": "I dati mostrano che i clienti vogliono un’app, quindi propongo di crearla.",
+                "ja": "データでお客様がアプリを求めているとわかったので、作ることを提案します。",
+                "zh-Hans": "数据显示客户想要一款应用，所以我提议开发一个。"
               },
               "correct": true,
               "response": "Interesante. ¿Y el costo?",
               "responseTranslation": {
                 "en": "Interesting. And the cost?",
-                "vi": "Thú vị. Còn chi phí?"
+                "vi": "Thú vị. Còn chi phí?",
+                "pt-BR": "Interessante. E o custo?",
+                "fr": "Intéressant. Et le coût ?",
+                "de": "Interessant. Und die Kosten?",
+                "it": "Interessante. E il costo?",
+                "ja": "興味深いね。コストは？",
+                "zh-Hans": "有意思。成本呢？"
               },
               "next": "cost"
             },
@@ -172,14 +340,26 @@
               "es": "Es importante que lanzamos una app.",
               "translation": {
                 "en": "It's important that we launch an app (wrong form).",
-                "vi": "Điều quan trọng là chúng ta ra mắt ứng dụng (sai dạng)."
+                "vi": "Điều quan trọng là chúng ta ra mắt ứng dụng (sai dạng).",
+                "pt-BR": "É importante que lançamos um app (forma errada).",
+                "fr": "Il est important que nous lançons une appli (mauvaise forme).",
+                "de": "Es ist wichtig, dass wir eine App starten (falsche Form).",
+                "it": "È importante che lanciamo un’app (forma sbagliata).",
+                "ja": "アプリを出すことが大切です（形の誤り）。",
+                "zh-Hans": "我们推出一款应用很重要（形式错误）。"
               },
               "correct": false,
               "correction": "Es fundamental que lancemos una app para nuestros clientes.",
               "response": "“Que lancemos”… sí, entiendo la idea. ¿Y el costo?",
               "responseTranslation": {
                 "en": "“Que lancemos”… yes, I get the idea. And the cost?",
-                "vi": "“Que lancemos”… được, tôi hiểu ý. Còn chi phí?"
+                "vi": "“Que lancemos”… được, tôi hiểu ý. Còn chi phí?",
+                "pt-BR": "“Que lancemos”… sim, entendi a ideia. E o custo?",
+                "fr": "« Que lancemos »… oui, je vois l’idée. Et le coût ?",
+                "de": "„Que lancemos“… ja, ich verstehe die Idee. Und die Kosten?",
+                "it": "“Que lancemos”… sì, ho capito l’idea. E il costo?",
+                "ja": "「que lancemos」…うん、言いたいことはわかる。コストは？",
+                "zh-Hans": "“Que lancemos”……对，我明白你的意思。成本呢？"
               },
               "next": "cost"
             }
@@ -190,11 +370,23 @@
           "prompt": "No hay presupuesto para eso este año.",
           "translation": {
             "en": "There's no budget for that this year.",
-            "vi": "Năm nay không có ngân sách cho việc đó."
+            "vi": "Năm nay không có ngân sách cho việc đó.",
+            "pt-BR": "Não há orçamento para isso este ano.",
+            "fr": "Il n’y a pas de budget pour ça cette année.",
+            "de": "Dafür gibt es dieses Jahr kein Budget.",
+            "it": "Quest’anno non c’è budget per questo.",
+            "ja": "今年はそのための予算がありません。",
+            "zh-Hans": "今年没有这方面的预算。"
           },
           "hint": {
             "en": "Concede, then counter.",
-            "vi": "Nhượng bộ, rồi phản biện."
+            "vi": "Nhượng bộ, rồi phản biện.",
+            "pt-BR": "Conceda e depois rebata.",
+            "fr": "Concédez, puis répliquez.",
+            "de": "Räume ein und kontere dann.",
+            "it": "Concedi, poi ribatti.",
+            "ja": "譲歩してから反論しよう。",
+            "zh-Hans": "先让步，再反驳。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Aunque sea una inversión grande, vale la pena a largo plazo.",
               "translation": {
                 "en": "Even if it's a big investment, it pays off in the long run.",
-                "vi": "Dù là khoản đầu tư lớn, về lâu dài vẫn đáng."
+                "vi": "Dù là khoản đầu tư lớn, về lâu dài vẫn đáng.",
+                "pt-BR": "Mesmo que seja um grande investimento, compensa a longo prazo.",
+                "fr": "Même si c’est un gros investissement, c’est rentable à long terme.",
+                "de": "Selbst wenn es eine große Investition ist, zahlt es sich langfristig aus.",
+                "it": "Anche se è un grosso investimento, a lungo termine conviene.",
+                "ja": "たとえ大きな投資でも、長い目で見れば元が取れます。",
+                "zh-Hans": "即使是一笔大投资，长远来看也是值得的。"
               },
               "correct": true,
               "response": "Puede ser. ¿Qué riesgo hay?",
               "responseTranslation": {
                 "en": "Maybe. What's the risk?",
-                "vi": "Có thể. Rủi ro là gì?"
+                "vi": "Có thể. Rủi ro là gì?",
+                "pt-BR": "Talvez. Qual é o risco?",
+                "fr": "Peut-être. Quel est le risque ?",
+                "de": "Vielleicht. Was ist das Risiko?",
+                "it": "Forse. Qual è il rischio?",
+                "ja": "かもね。リスクは？",
+                "zh-Hans": "也许吧。风险是什么？"
               },
               "next": "risk"
             },
@@ -217,13 +421,25 @@
               "es": "Es cierto; no obstante, podemos empezar con una versión pequeña.",
               "translation": {
                 "en": "True; nevertheless, we can start with a small version.",
-                "vi": "Đúng vậy; tuy nhiên, ta có thể bắt đầu với bản nhỏ."
+                "vi": "Đúng vậy; tuy nhiên, ta có thể bắt đầu với bản nhỏ.",
+                "pt-BR": "É verdade; no entanto, podemos começar com uma versão pequena.",
+                "fr": "C’est vrai ; néanmoins, on peut commencer par une petite version.",
+                "de": "Stimmt; trotzdem können wir mit einer kleinen Version anfangen.",
+                "it": "Vero; tuttavia, possiamo partire con una versione ridotta.",
+                "ja": "確かに。それでも、小さなバージョンから始められます。",
+                "zh-Hans": "没错；尽管如此，我们可以从一个小版本开始。"
               },
               "correct": true,
               "response": "Eso me gusta más. ¿Riesgos?",
               "responseTranslation": {
                 "en": "I like that better. Risks?",
-                "vi": "Tôi thích vậy hơn. Rủi ro thì sao?"
+                "vi": "Tôi thích vậy hơn. Rủi ro thì sao?",
+                "pt-BR": "Gosto mais disso. Riscos?",
+                "fr": "Ça me plaît davantage. Les risques ?",
+                "de": "Das gefällt mir besser. Risiken?",
+                "it": "Questo mi piace di più. Rischi?",
+                "ja": "そのほうがいいね。リスクは？",
+                "zh-Hans": "这个我更喜欢。风险呢？"
               },
               "next": "risk"
             },
@@ -232,14 +448,26 @@
               "es": "Bueno, olvídalo.",
               "translation": {
                 "en": "Well, forget it.",
-                "vi": "Thôi, bỏ qua đi."
+                "vi": "Thôi, bỏ qua đi.",
+                "pt-BR": "Bom, deixa pra lá.",
+                "fr": "Bon, laissez tomber.",
+                "de": "Na gut, vergessen Sie es.",
+                "it": "Va bene, lasci perdere.",
+                "ja": "じゃあ、やめておきます。",
+                "zh-Hans": "好吧，那算了。"
               },
               "correct": false,
               "correction": "Aunque sea una inversión grande, vale la pena a largo plazo.",
               "response": "¿Tan rápido te rindes? Convénceme.",
               "responseTranslation": {
                 "en": "Giving up that fast? Convince me.",
-                "vi": "Bỏ cuộc nhanh vậy sao? Thuyết phục tôi đi."
+                "vi": "Bỏ cuộc nhanh vậy sao? Thuyết phục tôi đi.",
+                "pt-BR": "Desistindo tão rápido? Me convença.",
+                "fr": "Vous abandonnez si vite ? Convainquez-moi.",
+                "de": "So schnell aufgeben? Überzeugen Sie mich.",
+                "it": "Si arrende così presto? Mi convinca.",
+                "ja": "そんなにすぐ諦めるの？説得してみて。",
+                "zh-Hans": "这么快就放弃了？说服我。"
               },
               "next": "risk"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Y si no funciona?",
           "translation": {
             "en": "And what if it doesn't work?",
-            "vi": "Còn nếu không hiệu quả thì sao?"
+            "vi": "Còn nếu không hiệu quả thì sao?",
+            "pt-BR": "E se não funcionar?",
+            "fr": "Et si ça ne marche pas ?",
+            "de": "Und wenn es nicht funktioniert?",
+            "it": "E se non funziona?",
+            "ja": "うまくいかなかったら？",
+            "zh-Hans": "如果没效果呢？"
           },
           "hint": {
             "en": "Reassure and close.",
-            "vi": "Trấn an và chốt lại."
+            "vi": "Trấn an và chốt lại.",
+            "pt-BR": "Tranquilize e feche.",
+            "fr": "Rassurez et concluez.",
+            "de": "Beruhige und schließe ab.",
+            "it": "Rassicura e chiudi.",
+            "ja": "安心させて話をまとめよう。",
+            "zh-Hans": "打消疑虑并收尾。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Hacemos una prueba de tres meses; si no funciona, la cancelamos.",
               "translation": {
                 "en": "We run a three-month pilot; if it doesn't work, we cancel it.",
-                "vi": "Ta chạy thử ba tháng; nếu không hiệu quả thì dừng."
+                "vi": "Ta chạy thử ba tháng; nếu không hiệu quả thì dừng.",
+                "pt-BR": "Fazemos um piloto de três meses; se não funcionar, cancelamos.",
+                "fr": "On fait un pilote de trois mois ; si ça ne marche pas, on l’annule.",
+                "de": "Wir machen ein dreimonatiges Pilotprojekt; wenn es nicht funktioniert, stoppen wir es.",
+                "it": "Facciamo un progetto pilota di tre mesi; se non funziona, lo annulliamo.",
+                "ja": "3か月の試験運用をして、うまくいかなければ中止します。",
+                "zh-Hans": "我们做三个月的试点；如果没效果，就取消。"
               },
               "correct": true,
               "response": "Me convenciste. Prepárame una propuesta.",
               "responseTranslation": {
                 "en": "You've convinced me. Prepare a proposal.",
-                "vi": "Bạn thuyết phục được tôi rồi. Chuẩn bị đề xuất đi."
+                "vi": "Bạn thuyết phục được tôi rồi. Chuẩn bị đề xuất đi.",
+                "pt-BR": "Você me convenceu. Prepare uma proposta.",
+                "fr": "Vous m’avez convaincu. Préparez une proposition.",
+                "de": "Sie haben mich überzeugt. Bereiten Sie einen Vorschlag vor.",
+                "it": "Mi ha convinto. Prepari una proposta.",
+                "ja": "納得したよ。企画書を用意して。",
+                "zh-Hans": "你说服我了。准备一份方案吧。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Piénselo bien: ¿qué perdemos con intentarlo?",
               "translation": {
                 "en": "Think it over: what do we lose by trying?",
-                "vi": "Anh/chị nghĩ kỹ xem: thử thì mất gì đâu?"
+                "vi": "Anh/chị nghĩ kỹ xem: thử thì mất gì đâu?",
+                "pt-BR": "Pense bem: o que perdemos tentando?",
+                "fr": "Réfléchissez : qu’est-ce qu’on perd à essayer ?",
+                "de": "Denken Sie nach: Was verlieren wir, wenn wir es versuchen?",
+                "it": "Ci pensi: cosa perdiamo a provare?",
+                "ja": "考えてみてください。試して何を失いますか？",
+                "zh-Hans": "想想看：试一试我们会失去什么？"
               },
               "correct": true,
               "response": "Tienes razón. Adelante.",
               "responseTranslation": {
                 "en": "You're right. Go ahead.",
-                "vi": "Bạn nói đúng. Cứ làm đi."
+                "vi": "Bạn nói đúng. Cứ làm đi.",
+                "pt-BR": "Você tem razão. Vá em frente.",
+                "fr": "Vous avez raison. Allez-y.",
+                "de": "Sie haben recht. Machen Sie weiter.",
+                "it": "Ha ragione. Vada avanti.",
+                "ja": "そのとおりだね。進めて。",
+                "zh-Hans": "你说得对。去做吧。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No sé, tal vez.",
               "translation": {
                 "en": "I don't know, maybe.",
-                "vi": "Không biết, có lẽ."
+                "vi": "Không biết, có lẽ.",
+                "pt-BR": "Não sei, talvez.",
+                "fr": "Je ne sais pas, peut-être.",
+                "de": "Weiß nicht, vielleicht.",
+                "it": "Non so, forse.",
+                "ja": "わかりません、たぶん。",
+                "zh-Hans": "不知道，也许吧。"
               },
               "correct": false,
               "correction": "Hacemos una prueba de tres meses; si no funciona, la cancelamos.",
               "response": "Necesito más seguridad que eso…",
               "responseTranslation": {
                 "en": "I need more certainty than that…",
-                "vi": "Tôi cần chắc chắn hơn thế…"
+                "vi": "Tôi cần chắc chắn hơn thế…",
+                "pt-BR": "Preciso de mais certeza que isso…",
+                "fr": "Il me faut plus de certitude que ça…",
+                "de": "Ich brauche mehr Sicherheit als das…",
+                "it": "Mi serve più certezza di così…",
+                "ja": "それだけじゃ確信が持てないな…",
+                "zh-Hans": "我需要比这更有把握的……"
               }
             }
           ]

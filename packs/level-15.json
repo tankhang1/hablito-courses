@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-15",
-  "version": 1,
+  "version": 2,
   "level": 15,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 7: Renting & services",
-    "vi": "Trung cấp 7: Thuê nhà & dịch vụ"
+    "vi": "Trung cấp 7: Thuê nhà & dịch vụ",
+    "pt-BR": "Intermediário 7: Aluguel e serviços",
+    "fr": "Intermédiaire 7 : Location et services",
+    "de": "Mittelstufe 7: Mieten und Dienstleistungen",
+    "it": "Intermedio 7: Affitti e servizi",
+    "ja": "中級 7：賃貸と各種サービス",
+    "zh-Hans": "中级 7：租房和服务"
   },
   "description": {
     "en": "Rent a place, report problems, and get things fixed.",
-    "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa."
+    "vi": "Thuê nhà, báo sự cố và nhờ sửa chữa.",
+    "pt-BR": "Alugue um lugar, relate problemas e resolva consertos.",
+    "fr": "Louez un logement, signalez des problèmes et faites réparer.",
+    "de": "Miete eine Wohnung, melde Probleme und lass Dinge reparieren.",
+    "it": "Affitta una casa, segnala problemi e fai riparare le cose.",
+    "ja": "部屋を借りて、トラブルを伝えて、修理してもらおう。",
+    "zh-Hans": "租房、反映问题、找人修理。"
   },
   "lessons": [
     {
       "id": "renting",
       "title": {
         "en": "Renting a place",
-        "vi": "Thuê nhà"
+        "vi": "Thuê nhà",
+        "pt-BR": "Alugando um lugar",
+        "fr": "Louer un logement",
+        "de": "Eine Wohnung mieten",
+        "it": "Affittare una casa",
+        "ja": "部屋を借りる",
+        "zh-Hans": "租房"
       },
       "description": {
         "en": "Ask the right questions before you sign.",
-        "vi": "Hỏi đúng câu trước khi ký hợp đồng."
+        "vi": "Hỏi đúng câu trước khi ký hợp đồng.",
+        "pt-BR": "Faça as perguntas certas antes de assinar.",
+        "fr": "Posez les bonnes questions avant de signer.",
+        "de": "Stell die richtigen Fragen, bevor du unterschreibst.",
+        "it": "Fai le domande giuste prima di firmare.",
+        "ja": "契約前に正しい質問をしよう。",
+        "zh-Hans": "签约前问对问题。"
       },
       "focus": {
         "en": "Impersonal “se” asks about rules in general: “¿Se aceptan mascotas?”, “¿Se puede fumar?”.",
-        "vi": "“Se” vô nhân xưng dùng hỏi quy định chung: “¿Se aceptan mascotas?”, “¿Se puede fumar?”."
+        "vi": "“Se” vô nhân xưng dùng hỏi quy định chung: “¿Se aceptan mascotas?”, “¿Se puede fumar?”.",
+        "pt-BR": "O “se” impessoal pergunta sobre regras em geral: “¿Se aceptan mascotas?”, “¿Se puede fumar?”.",
+        "fr": "Le « se » impersonnel sert à demander les règles : « ¿Se aceptan mascotas? », « ¿Se puede fumar? ».",
+        "de": "Das unpersönliche „se“ fragt nach allgemeinen Regeln: „¿Se aceptan mascotas?“, „¿Se puede fumar?“.",
+        "it": "Il “se” impersonale chiede regole generali: “¿Se aceptan mascotas?”, “¿Se puede fumar?”.",
+        "ja": "非人称の「se」で一般的なルールを聞く：「¿Se aceptan mascotas?」「¿Se puede fumar?」。",
+        "zh-Hans": "无人称的“se”用来询问一般规定：“¿Se aceptan mascotas?”、“¿Se puede fumar?”。"
       },
       "icon": "home",
       "phrases": [
         {
           "es": "Busco un departamento amueblado.",
           "en": "I'm looking for a furnished apartment.",
-          "vi": "Tôi tìm căn hộ có sẵn nội thất."
+          "vi": "Tôi tìm căn hộ có sẵn nội thất.",
+          "pt-BR": "Estou procurando um apartamento mobiliado.",
+          "fr": "Je cherche un appartement meublé.",
+          "de": "Ich suche eine möblierte Wohnung.",
+          "it": "Cerco un appartamento ammobiliato.",
+          "ja": "家具付きのアパートを探しています。",
+          "zh-Hans": "我在找一套带家具的公寓。"
         },
         {
           "es": "¿Cuánto es la renta al mes?",
           "en": "How much is the rent per month?",
-          "vi": "Tiền thuê mỗi tháng bao nhiêu?"
+          "vi": "Tiền thuê mỗi tháng bao nhiêu?",
+          "pt-BR": "Quanto é o aluguel por mês?",
+          "fr": "Combien coûte le loyer par mois ?",
+          "de": "Wie hoch ist die Miete pro Monat?",
+          "it": "Quant’è l’affitto al mese?",
+          "ja": "家賃は月いくらですか？",
+          "zh-Hans": "每月房租多少？"
         },
         {
           "es": "¿Están incluidos los servicios?",
           "en": "Are utilities included?",
-          "vi": "Đã gồm điện nước chưa?"
+          "vi": "Đã gồm điện nước chưa?",
+          "pt-BR": "As contas estão incluídas?",
+          "fr": "Les charges sont comprises ?",
+          "de": "Sind die Nebenkosten inklusive?",
+          "it": "Le utenze sono incluse?",
+          "ja": "光熱費は含まれていますか？",
+          "zh-Hans": "水电费包含在内吗？"
         },
         {
           "es": "¿Se aceptan mascotas?",
           "en": "Are pets allowed?",
-          "vi": "Có cho nuôi thú cưng không?"
+          "vi": "Có cho nuôi thú cưng không?",
+          "pt-BR": "Aceitam animais de estimação?",
+          "fr": "Les animaux sont acceptés ?",
+          "de": "Sind Haustiere erlaubt?",
+          "it": "Sono ammessi animali?",
+          "ja": "ペットは大丈夫ですか？",
+          "zh-Hans": "可以养宠物吗？"
         },
         {
           "es": "¿Cuánto hay que dejar de depósito?",
           "en": "How much is the deposit?",
-          "vi": "Phải đặt cọc bao nhiêu?"
+          "vi": "Phải đặt cọc bao nhiêu?",
+          "pt-BR": "Quanto é o depósito?",
+          "fr": "Combien est la caution ?",
+          "de": "Wie hoch ist die Kaution?",
+          "it": "Quant’è la caparra?",
+          "ja": "敷金はいくらですか？",
+          "zh-Hans": "押金多少？"
         },
         {
           "es": "¿Cuándo me puedo mudar?",
           "en": "When can I move in?",
-          "vi": "Khi nào tôi chuyển vào được?"
+          "vi": "Khi nào tôi chuyển vào được?",
+          "pt-BR": "Quando posso me mudar?",
+          "fr": "Quand puis-je emménager ?",
+          "de": "Wann kann ich einziehen?",
+          "it": "Quando posso trasferirmi?",
+          "ja": "いつ入居できますか？",
+          "zh-Hans": "我什么时候可以搬进去？"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "repairs",
       "title": {
         "en": "Repairs & services",
-        "vi": "Sửa chữa & dịch vụ"
+        "vi": "Sửa chữa & dịch vụ",
+        "pt-BR": "Consertos e serviços",
+        "fr": "Réparations et services",
+        "de": "Reparaturen und Dienstleistungen",
+        "it": "Riparazioni e servizi",
+        "ja": "修理とサービス",
+        "zh-Hans": "维修和服务"
       },
       "description": {
         "en": "Report problems and arrange a fix.",
-        "vi": "Báo sự cố và hẹn sửa."
+        "vi": "Báo sự cố và hẹn sửa.",
+        "pt-BR": "Relate problemas e combine um conserto.",
+        "fr": "Signalez des problèmes et organisez une réparation.",
+        "de": "Melde Probleme und vereinbare eine Reparatur.",
+        "it": "Segnala problemi e organizza una riparazione.",
+        "ja": "トラブルを伝えて修理を手配しよう。",
+        "zh-Hans": "反映问题并安排维修。"
       },
       "focus": {
         "en": "“Para” for purpose and deadlines (para mañana, para mi cocina); “por” for cause and exchange (gracias por, por cien pesos).",
-        "vi": "“Para” chỉ mục đích và hạn chót (para mañana, para mi cocina); “por” chỉ nguyên nhân và trao đổi (gracias por, por cien pesos)."
+        "vi": "“Para” chỉ mục đích và hạn chót (para mañana, para mi cocina); “por” chỉ nguyên nhân và trao đổi (gracias por, por cien pesos).",
+        "pt-BR": "“Para” para finalidade e prazos (para mañana, para mi cocina); “por” para causa e troca (gracias por, por cien pesos).",
+        "fr": "« Para » pour le but et les délais (para mañana, para mi cocina) ; « por » pour la cause et l’échange (gracias por, por cien pesos).",
+        "de": "„Para“ für Zweck und Fristen (para mañana, para mi cocina); „por“ für Grund und Tausch (gracias por, por cien pesos).",
+        "it": "“Para” per scopo e scadenze (para mañana, para mi cocina); “por” per causa e scambio (gracias por, por cien pesos).",
+        "ja": "目的や期限には「para」（para mañana, para mi cocina）、原因や交換には「por」（gracias por, por cien pesos）。",
+        "zh-Hans": "“para”表示目的和期限（para mañana, para mi cocina）；“por”表示原因和交换（gracias por, por cien pesos）。"
       },
       "icon": "tool",
       "phrases": [
         {
           "es": "Hay una fuga de agua en el baño.",
           "en": "There's a water leak in the bathroom.",
-          "vi": "Nhà tắm bị rò nước."
+          "vi": "Nhà tắm bị rò nước.",
+          "pt-BR": "Tem um vazamento de água no banheiro.",
+          "fr": "Il y a une fuite d’eau dans la salle de bain.",
+          "de": "Im Bad ist ein Wasserleck.",
+          "it": "C’è una perdita d’acqua in bagno.",
+          "ja": "浴室で水漏れしています。",
+          "zh-Hans": "浴室漏水了。"
         },
         {
           "es": "Se fue la luz.",
           "en": "The power went out.",
-          "vi": "Mất điện rồi."
+          "vi": "Mất điện rồi.",
+          "pt-BR": "Acabou a luz.",
+          "fr": "Il y a une coupure de courant.",
+          "de": "Der Strom ist ausgefallen.",
+          "it": "È saltata la corrente.",
+          "ja": "停電しました。",
+          "zh-Hans": "停电了。"
         },
         {
           "es": "El refrigerador no enfría.",
           "en": "The fridge isn't cooling.",
-          "vi": "Tủ lạnh không lạnh."
+          "vi": "Tủ lạnh không lạnh.",
+          "pt-BR": "A geladeira não está gelando.",
+          "fr": "Le frigo ne refroidit pas.",
+          "de": "Der Kühlschrank kühlt nicht.",
+          "it": "Il frigo non raffredda.",
+          "ja": "冷蔵庫が冷えません。",
+          "zh-Hans": "冰箱不制冷了。"
         },
         {
           "es": "¿Cuándo pueden venir a arreglarlo?",
           "en": "When can you come to fix it?",
-          "vi": "Khi nào các anh đến sửa được?"
+          "vi": "Khi nào các anh đến sửa được?",
+          "pt-BR": "Quando você pode vir consertar?",
+          "fr": "Quand pouvez-vous venir réparer ?",
+          "de": "Wann können Sie zum Reparieren kommen?",
+          "it": "Quando può venire a ripararlo?",
+          "ja": "いつ修理に来ていただけますか？",
+          "zh-Hans": "您什么时候能来修？"
         },
         {
           "es": "Lo necesito para mañana.",
           "en": "I need it by tomorrow.",
-          "vi": "Tôi cần xong trước ngày mai."
+          "vi": "Tôi cần xong trước ngày mai.",
+          "pt-BR": "Preciso disso para amanhã.",
+          "fr": "J’en ai besoin pour demain.",
+          "de": "Ich brauche es bis morgen.",
+          "it": "Mi serve per domani.",
+          "ja": "明日までに必要です。",
+          "zh-Hans": "我明天之前需要。"
         },
         {
           "es": "Es para mi cocina.",
           "en": "It's for my kitchen.",
-          "vi": "Cái này là cho bếp nhà tôi."
+          "vi": "Cái này là cho bếp nhà tôi.",
+          "pt-BR": "É para a minha cozinha.",
+          "fr": "C’est pour ma cuisine.",
+          "de": "Es ist für meine Küche.",
+          "it": "È per la mia cucina.",
+          "ja": "台所用です。",
+          "zh-Hans": "是给我厨房用的。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "landlord",
       "title": {
         "en": "Call the landlord",
-        "vi": "Gọi cho chủ nhà"
+        "vi": "Gọi cho chủ nhà",
+        "pt-BR": "Ligue para o proprietário",
+        "fr": "Appeler le propriétaire",
+        "de": "Den Vermieter anrufen",
+        "it": "Chiama il padrone di casa",
+        "ja": "大家さんに電話する",
+        "zh-Hans": "给房东打电话"
       },
       "description": {
         "en": "Report a leak and agree on a repair time.",
-        "vi": "Báo rò nước và hẹn giờ sửa."
+        "vi": "Báo rò nước và hẹn giờ sửa.",
+        "pt-BR": "Relate um vazamento e combine o horário do conserto.",
+        "fr": "Signalez une fuite et fixez l’heure de la réparation.",
+        "de": "Melde ein Leck und vereinbare einen Reparaturtermin.",
+        "it": "Segnala una perdita e concorda l’orario della riparazione.",
+        "ja": "水漏れを伝えて修理の時間を決めよう。",
+        "zh-Hans": "反映漏水并约定维修时间。"
       },
       "icon": "map-pin",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Bueno? Habla el señor Ramírez.",
           "translation": {
             "en": "Hello? Mr. Ramírez speaking.",
-            "vi": "A lô? Ramírez nghe đây."
+            "vi": "A lô? Ramírez nghe đây.",
+            "pt-BR": "Alô? Aqui é o Sr. Ramírez.",
+            "fr": "Allô ? M. Ramírez à l’appareil.",
+            "de": "Hallo? Hier Herr Ramírez.",
+            "it": "Pronto? Sono il signor Ramírez.",
+            "ja": "もしもし？ラミレスです。",
+            "zh-Hans": "喂？我是拉米雷斯先生。"
           },
           "hint": {
             "en": "Explain the problem clearly.",
-            "vi": "Trình bày sự cố rõ ràng."
+            "vi": "Trình bày sự cố rõ ràng.",
+            "pt-BR": "Explique o problema com clareza.",
+            "fr": "Expliquez clairement le problème.",
+            "de": "Erkläre das Problem klar.",
+            "it": "Spiega chiaramente il problema.",
+            "ja": "問題をはっきり説明しよう。",
+            "zh-Hans": "清楚地说明问题。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Hola, soy su inquilino. Hay una fuga de agua en el baño.",
               "translation": {
                 "en": "Hi, I'm your tenant. There's a water leak in the bathroom.",
-                "vi": "Chào ông, tôi là người thuê nhà. Nhà tắm bị rò nước."
+                "vi": "Chào ông, tôi là người thuê nhà. Nhà tắm bị rò nước.",
+                "pt-BR": "Olá, sou seu inquilino. Tem um vazamento de água no banheiro.",
+                "fr": "Bonjour, je suis votre locataire. Il y a une fuite d’eau dans la salle de bain.",
+                "de": "Hallo, ich bin Ihr Mieter. Im Bad ist ein Wasserleck.",
+                "it": "Salve, sono il suo inquilino. C’è una perdita d’acqua in bagno.",
+                "ja": "こんにちは、入居者です。浴室で水漏れしています。",
+                "zh-Hans": "您好，我是您的租客。浴室漏水了。"
               },
               "correct": true,
               "response": "¡Ay, no! ¿Es mucha agua?",
               "responseTranslation": {
                 "en": "Oh no! Is it a lot of water?",
-                "vi": "Ôi không! Rò nhiều không?"
+                "vi": "Ôi không! Rò nhiều không?",
+                "pt-BR": "Ah, não! É muita água?",
+                "fr": "Oh non ! Il y a beaucoup d’eau ?",
+                "de": "Oh nein! Ist es viel Wasser?",
+                "it": "Oh no! È tanta acqua?",
+                "ja": "ええっ！水はたくさん出ていますか？",
+                "zh-Hans": "哎呀！水多吗？"
               },
               "next": "how-bad"
             },
@@ -157,13 +313,25 @@
               "es": "Buenas, soy del departamento 3. El refrigerador no enfría.",
               "translation": {
                 "en": "Hello, I'm in apartment 3. The fridge isn't cooling.",
-                "vi": "Chào ông, tôi ở căn số 3. Tủ lạnh không lạnh."
+                "vi": "Chào ông, tôi ở căn số 3. Tủ lạnh không lạnh.",
+                "pt-BR": "Olá, sou do apartamento 3. A geladeira não está gelando.",
+                "fr": "Bonjour, je suis de l’appartement 3. Le frigo ne refroidit pas.",
+                "de": "Hallo, ich wohne in Wohnung 3. Der Kühlschrank kühlt nicht.",
+                "it": "Salve, sono dell’appartamento 3. Il frigo non raffredda.",
+                "ja": "こんにちは、3号室の者です。冷蔵庫が冷えません。",
+                "zh-Hans": "您好，我是3号公寓的。冰箱不制冷了。"
               },
               "correct": true,
               "response": "Entiendo. ¿Desde cuándo?",
               "responseTranslation": {
                 "en": "I see. Since when?",
-                "vi": "Tôi hiểu. Từ khi nào?"
+                "vi": "Tôi hiểu. Từ khi nào?",
+                "pt-BR": "Entendi. Desde quando?",
+                "fr": "Je vois. Depuis quand ?",
+                "de": "Verstehe. Seit wann?",
+                "it": "Capisco. Da quando?",
+                "ja": "なるほど。いつからですか？",
+                "zh-Hans": "明白了。从什么时候开始的？"
               },
               "next": "how-bad"
             },
@@ -172,14 +340,26 @@
               "es": "¿Cuánto es la renta al mes?",
               "translation": {
                 "en": "How much is the rent per month?",
-                "vi": "Tiền thuê mỗi tháng bao nhiêu?"
+                "vi": "Tiền thuê mỗi tháng bao nhiêu?",
+                "pt-BR": "Quanto é o aluguel por mês?",
+                "fr": "Combien coûte le loyer par mois ?",
+                "de": "Wie hoch ist die Miete pro Monat?",
+                "it": "Quant’è l’affitto al mese?",
+                "ja": "家賃は月いくらですか？",
+                "zh-Hans": "每月房租多少？"
               },
               "correct": false,
               "correction": "Hola, soy su inquilino. Hay una fuga de agua en el baño.",
               "response": "Usted ya vive ahí… ¿Pasa algo en el departamento?",
               "responseTranslation": {
                 "en": "You already live there… Is something wrong in the apartment?",
-                "vi": "Anh đã ở đó rồi mà… Căn hộ có vấn đề gì à?"
+                "vi": "Anh đã ở đó rồi mà… Căn hộ có vấn đề gì à?",
+                "pt-BR": "Você já mora aí… Tem algum problema no apartamento?",
+                "fr": "Vous y habitez déjà… Il y a un problème dans l’appartement ?",
+                "de": "Sie wohnen ja schon dort… Ist etwas mit der Wohnung nicht in Ordnung?",
+                "it": "Lei ci abita già… C’è qualche problema nell’appartamento?",
+                "ja": "もう住んでいらっしゃいますよね…部屋に何か問題がありますか？",
+                "zh-Hans": "您已经住进去了……公寓有什么问题吗？"
               },
               "next": "how-bad"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Es urgente o puede esperar?",
           "translation": {
             "en": "Is it urgent or can it wait?",
-            "vi": "Có gấp không hay đợi được?"
+            "vi": "Có gấp không hay đợi được?",
+            "pt-BR": "É urgente ou pode esperar?",
+            "fr": "C’est urgent ou ça peut attendre ?",
+            "de": "Ist es dringend oder kann es warten?",
+            "it": "È urgente o può aspettare?",
+            "ja": "急ぎですか、それとも待てますか？",
+            "zh-Hans": "紧急吗，还是可以等等？"
           },
           "hint": {
             "en": "Explain how serious it is.",
-            "vi": "Giải thích mức độ nghiêm trọng."
+            "vi": "Giải thích mức độ nghiêm trọng.",
+            "pt-BR": "Explique a gravidade.",
+            "fr": "Expliquez la gravité.",
+            "de": "Erkläre, wie ernst es ist.",
+            "it": "Spiega quanto è grave.",
+            "ja": "どれくらい深刻か説明しよう。",
+            "zh-Hans": "说明情况有多严重。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Es bastante urgente, el piso está mojado.",
               "translation": {
                 "en": "It's quite urgent, the floor is wet.",
-                "vi": "Khá gấp, sàn nhà ướt hết rồi."
+                "vi": "Khá gấp, sàn nhà ướt hết rồi.",
+                "pt-BR": "É bem urgente, o chão está molhado.",
+                "fr": "C’est assez urgent, le sol est mouillé.",
+                "de": "Es ist ziemlich dringend, der Boden ist nass.",
+                "it": "È piuttosto urgente, il pavimento è bagnato.",
+                "ja": "かなり急ぎです、床が濡れています。",
+                "zh-Hans": "挺紧急的，地板都湿了。"
               },
               "correct": true,
               "response": "Mando al plomero hoy mismo. ¿A qué hora está en casa?",
               "responseTranslation": {
                 "en": "I'll send the plumber today. What time are you home?",
-                "vi": "Tôi gửi thợ ống nước ngay hôm nay. Mấy giờ anh ở nhà?"
+                "vi": "Tôi gửi thợ ống nước ngay hôm nay. Mấy giờ anh ở nhà?",
+                "pt-BR": "Mando o encanador hoje. A que horas você está em casa?",
+                "fr": "J’envoie le plombier aujourd’hui. À quelle heure êtes-vous chez vous ?",
+                "de": "Ich schicke heute den Klempner. Wann sind Sie zu Hause?",
+                "it": "Le mando l’idraulico oggi. A che ora è a casa?",
+                "ja": "今日配管工を行かせます。何時にご在宅ですか？",
+                "zh-Hans": "我今天就派水管工过去。您几点在家？"
               },
               "next": "time"
             },
@@ -217,13 +421,25 @@
               "es": "Puede esperar, pero lo necesito para el viernes.",
               "translation": {
                 "en": "It can wait, but I need it done by Friday.",
-                "vi": "Đợi được, nhưng tôi cần sửa xong trước thứ Sáu."
+                "vi": "Đợi được, nhưng tôi cần sửa xong trước thứ Sáu.",
+                "pt-BR": "Pode esperar, mas preciso que fique pronto até sexta.",
+                "fr": "Ça peut attendre, mais il me le faut pour vendredi.",
+                "de": "Es kann warten, aber bis Freitag muss es erledigt sein.",
+                "it": "Può aspettare, ma mi serve sistemato entro venerdì.",
+                "ja": "待てますが、金曜までには直してほしいです。",
+                "zh-Hans": "可以等，但我需要周五前修好。"
               },
               "correct": true,
               "response": "Bien, el jueves va alguien. ¿A qué hora está en casa?",
               "responseTranslation": {
                 "en": "OK, someone will go Thursday. What time are you home?",
-                "vi": "Được, thứ Năm có người đến. Mấy giờ anh ở nhà?"
+                "vi": "Được, thứ Năm có người đến. Mấy giờ anh ở nhà?",
+                "pt-BR": "Certo, alguém vai na quinta. A que horas você está em casa?",
+                "fr": "D’accord, quelqu’un passera jeudi. À quelle heure êtes-vous chez vous ?",
+                "de": "Okay, am Donnerstag kommt jemand. Wann sind Sie zu Hause?",
+                "it": "Va bene, qualcuno passerà giovedì. A che ora è a casa?",
+                "ja": "わかりました、木曜に誰か行かせます。何時にご在宅ですか？",
+                "zh-Hans": "好，周四有人过去。您几点在家？"
               },
               "next": "time"
             },
@@ -232,14 +448,26 @@
               "es": "Se fue la luz.",
               "translation": {
                 "en": "The power went out.",
-                "vi": "Mất điện rồi."
+                "vi": "Mất điện rồi.",
+                "pt-BR": "Acabou a luz.",
+                "fr": "Il y a une coupure de courant.",
+                "de": "Der Strom ist ausgefallen.",
+                "it": "È saltata la corrente.",
+                "ja": "停電しました。",
+                "zh-Hans": "停电了。"
               },
               "correct": false,
               "correction": "Es bastante urgente, el piso está mojado.",
               "response": "¿También eso? Primero el agua: ¿es urgente?",
               "responseTranslation": {
                 "en": "That too? Water first: is it urgent?",
-                "vi": "Cả cái đó nữa à? Trước hết là nước: có gấp không?"
+                "vi": "Cả cái đó nữa à? Trước hết là nước: có gấp không?",
+                "pt-BR": "Isso também? Primeiro a água: é urgente?",
+                "fr": "Ça aussi ? D’abord l’eau : c’est urgent ?",
+                "de": "Das auch? Erst das Wasser: Ist es dringend?",
+                "it": "Anche quello? Prima l’acqua: è urgente?",
+                "ja": "それも？まずは水です：急ぎですか？",
+                "zh-Hans": "那个也坏了？先说水：紧急吗？"
               },
               "next": "time"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿A qué hora puede estar en casa?",
           "translation": {
             "en": "What time can you be home?",
-            "vi": "Mấy giờ anh có ở nhà?"
+            "vi": "Mấy giờ anh có ở nhà?",
+            "pt-BR": "A que horas você pode estar em casa?",
+            "fr": "À quelle heure pouvez-vous être chez vous ?",
+            "de": "Wann können Sie zu Hause sein?",
+            "it": "A che ora può essere a casa?",
+            "ja": "何時なら家にいられますか？",
+            "zh-Hans": "您几点能在家？"
           },
           "hint": {
             "en": "Give a time that works.",
-            "vi": "Nói giờ tiện cho bạn."
+            "vi": "Nói giờ tiện cho bạn.",
+            "pt-BR": "Diga um horário que funcione.",
+            "fr": "Donnez une heure qui convient.",
+            "de": "Nenne eine passende Uhrzeit.",
+            "it": "Indica un orario che vada bene.",
+            "ja": "都合のいい時間を言おう。",
+            "zh-Hans": "说一个合适的时间。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Después de las seis estoy en casa.",
               "translation": {
                 "en": "I'm home after six.",
-                "vi": "Sau sáu giờ tôi ở nhà."
+                "vi": "Sau sáu giờ tôi ở nhà.",
+                "pt-BR": "Estou em casa depois das seis.",
+                "fr": "Je suis chez moi après dix-huit heures.",
+                "de": "Ich bin ab sechs zu Hause.",
+                "it": "Sono a casa dopo le sei.",
+                "ja": "6時以降は家にいます。",
+                "zh-Hans": "我六点以后在家。"
               },
               "correct": true,
               "response": "Perfecto, el plomero llega a las seis y media.",
               "responseTranslation": {
                 "en": "Perfect, the plumber will arrive at six-thirty.",
-                "vi": "Tuyệt, thợ sẽ đến lúc sáu rưỡi."
+                "vi": "Tuyệt, thợ sẽ đến lúc sáu rưỡi.",
+                "pt-BR": "Perfeito, o encanador chega às seis e meia.",
+                "fr": "Parfait, le plombier arrivera à dix-huit heures trente.",
+                "de": "Perfekt, der Klempner kommt um halb sieben.",
+                "it": "Perfetto, l’idraulico arriverà alle sei e mezza.",
+                "ja": "わかりました、配管工は6時半に着きます。",
+                "zh-Hans": "好的，水管工六点半到。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Mañana en la mañana, antes de las diez.",
               "translation": {
                 "en": "Tomorrow morning, before ten.",
-                "vi": "Sáng mai, trước mười giờ."
+                "vi": "Sáng mai, trước mười giờ.",
+                "pt-BR": "Amanhã de manhã, antes das dez.",
+                "fr": "Demain matin, avant dix heures.",
+                "de": "Morgen früh, vor zehn.",
+                "it": "Domani mattina, prima delle dieci.",
+                "ja": "明日の朝、10時前です。",
+                "zh-Hans": "明天早上，十点以前。"
               },
               "correct": true,
               "response": "De acuerdo, a las nueve llega.",
               "responseTranslation": {
                 "en": "Agreed, he'll arrive at nine.",
-                "vi": "Được, chín giờ thợ đến."
+                "vi": "Được, chín giờ thợ đến.",
+                "pt-BR": "Combinado, ele chega às nove.",
+                "fr": "Entendu, il arrivera à neuf heures.",
+                "de": "Abgemacht, er kommt um neun.",
+                "it": "D’accordo, arriverà alle nove.",
+                "ja": "了解です、9時に伺います。",
+                "zh-Hans": "说定了，他九点到。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Gracias por todo.",
               "translation": {
                 "en": "Thanks for everything.",
-                "vi": "Cảm ơn ông vì mọi thứ."
+                "vi": "Cảm ơn ông vì mọi thứ.",
+                "pt-BR": "Obrigado por tudo.",
+                "fr": "Merci pour tout.",
+                "de": "Danke für alles.",
+                "it": "Grazie di tutto.",
+                "ja": "いろいろありがとうございます。",
+                "zh-Hans": "谢谢您的帮忙。"
               },
               "correct": false,
               "correction": "Después de las seis estoy en casa.",
               "response": "De nada, pero ¿a qué hora lo encuentro?",
               "responseTranslation": {
                 "en": "You're welcome, but what time will you be there?",
-                "vi": "Không có gì, nhưng mấy giờ anh ở nhà?"
+                "vi": "Không có gì, nhưng mấy giờ anh ở nhà?",
+                "pt-BR": "De nada, mas a que horas você vai estar aí?",
+                "fr": "De rien, mais à quelle heure serez-vous là ?",
+                "de": "Gern geschehen, aber wann sind Sie da?",
+                "it": "Prego, ma a che ora sarà lì?",
+                "ja": "どういたしまして。でも何時にいらっしゃいますか？",
+                "zh-Hans": "不客气，但您几点在那儿？"
               }
             }
           ]

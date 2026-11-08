@@ -1,31 +1,61 @@
 {
   "schemaVersion": 1,
   "id": "level-27",
-  "version": 1,
+  "version": 2,
   "level": 27,
   "cefr": "C1",
   "title": {
     "en": "Advanced 3: Formal Spanish at work",
-    "vi": "Cao cấp 3: Tiếng Tây Ban Nha trang trọng nơi công sở"
+    "vi": "Cao cấp 3: Tiếng Tây Ban Nha trang trọng nơi công sở",
+    "pt-BR": "Avançado 3: Espanhol formal no trabalho",
+    "fr": "Avancé 3 : L’espagnol formel au travail",
+    "de": "Fortgeschritten 3: Formelles Spanisch im Beruf",
+    "it": "Avanzato 3: Spagnolo formale al lavoro",
+    "ja": "上級 3：仕事での改まったスペイン語",
+    "zh-Hans": "高级 3：职场正式西班牙语"
   },
   "description": {
     "en": "Emails, meetings, and professional tone.",
-    "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp."
+    "vi": "Email, cuộc họp và giọng điệu chuyên nghiệp.",
+    "pt-BR": "E-mails, reuniões e tom profissional.",
+    "fr": "E-mails, réunions et ton professionnel.",
+    "de": "E-Mails, Meetings und professioneller Ton.",
+    "it": "E-mail, riunioni e tono professionale.",
+    "ja": "メール、会議、プロらしい言葉づかい。",
+    "zh-Hans": "邮件、会议和职业语气。"
   },
   "lessons": [
     {
       "id": "emails",
       "title": {
         "en": "Professional emails",
-        "vi": "Email công việc"
+        "vi": "Email công việc",
+        "pt-BR": "E-mails profissionais",
+        "fr": "E-mails professionnels",
+        "de": "Berufliche E-Mails",
+        "it": "E-mail professionali",
+        "ja": "ビジネスメール",
+        "zh-Hans": "职场邮件"
       },
       "description": {
         "en": "Open, request, and close formally.",
-        "vi": "Mở đầu, đề nghị và kết thúc trang trọng."
+        "vi": "Mở đầu, đề nghị và kết thúc trang trọng.",
+        "pt-BR": "Abra, peça e encerre de forma formal.",
+        "fr": "Ouvrez, demandez et concluez formellement.",
+        "de": "Formell einleiten, bitten und abschließen.",
+        "it": "Apri, chiedi e chiudi in modo formale.",
+        "ja": "改まった書き出し、依頼、結び。",
+        "zh-Hans": "正式地开头、提出请求和结尾。"
       },
       "focus": {
         "en": "“Le agradecería que + past subjunctive” is the most polite way to request something in writing.",
-        "vi": "“Le agradecería que + giả định quá khứ” là cách lịch sự nhất để đề nghị trong văn viết."
+        "vi": "“Le agradecería que + giả định quá khứ” là cách lịch sự nhất để đề nghị trong văn viết.",
+        "pt-BR": "“Le agradecería que + subjuntivo passado” é o jeito mais educado de pedir algo por escrito.",
+        "fr": "« Le agradecería que + subjonctif passé » est la façon la plus polie de demander quelque chose par écrit.",
+        "de": "„Le agradecería que + Subjuntivo der Vergangenheit“ ist die höflichste Art, schriftlich um etwas zu bitten.",
+        "it": "“Le agradecería que + congiuntivo imperfetto” è il modo più cortese di chiedere qualcosa per iscritto.",
+        "ja": "「Le agradecería que＋接続法過去」は書面で最も丁寧な依頼の仕方。",
+        "zh-Hans": "“Le agradecería que + 过去虚拟式”是书面请求最礼貌的说法。"
       },
       "icon": "mail",
       "phrases": [
@@ -35,33 +65,75 @@
           "vi": "Kính gửi bà García:",
           "note": {
             "en": "Mexicans often use titles: licenciado/a, ingeniero/a, doctor/a.",
-            "vi": "Người Mexico hay dùng danh xưng: licenciado/a, ingeniero/a, doctor/a."
-          }
+            "vi": "Người Mexico hay dùng danh xưng: licenciado/a, ingeniero/a, doctor/a.",
+            "pt-BR": "Os mexicanos costumam usar títulos: licenciado/a, ingeniero/a, doctor/a.",
+            "fr": "Les Mexicains utilisent souvent des titres : licenciado/a, ingeniero/a, doctor/a.",
+            "de": "Mexikaner verwenden oft Titel: licenciado/a, ingeniero/a, doctor/a.",
+            "it": "I messicani usano spesso i titoli: licenciado/a, ingeniero/a, doctor/a.",
+            "ja": "メキシコでは肩書きをよく使う：licenciado/a, ingeniero/a, doctor/a。",
+            "zh-Hans": "墨西哥人常用头衔：licenciado/a, ingeniero/a, doctor/a。"
+          },
+          "pt-BR": "Prezada Sra. García:",
+          "fr": "Madame García,",
+          "de": "Sehr geehrte Frau García,",
+          "it": "Gentile signora García,",
+          "ja": "ガルシア様",
+          "zh-Hans": "尊敬的加西亚女士："
         },
         {
           "es": "Le escribo para solicitar información sobre…",
           "en": "I'm writing to request information about…",
-          "vi": "Tôi viết thư này để xin thông tin về…"
+          "vi": "Tôi viết thư này để xin thông tin về…",
+          "pt-BR": "Escrevo para solicitar informações sobre…",
+          "fr": "Je vous écris pour demander des informations sur…",
+          "de": "Ich schreibe Ihnen, um Informationen über … zu erbitten.",
+          "it": "Le scrivo per richiedere informazioni su…",
+          "ja": "…についての情報をお伺いしたく、ご連絡いたしました。",
+          "zh-Hans": "我写信是想询问有关……的信息。"
         },
         {
           "es": "Le agradecería que me enviara el informe.",
           "en": "I would appreciate it if you sent me the report.",
-          "vi": "Tôi rất cảm kích nếu bà gửi cho tôi bản báo cáo."
+          "vi": "Tôi rất cảm kích nếu bà gửi cho tôi bản báo cáo.",
+          "pt-BR": "Agradeceria se o senhor me enviasse o relatório.",
+          "fr": "Je vous serais reconnaissant de m’envoyer le rapport.",
+          "de": "Ich wäre Ihnen dankbar, wenn Sie mir den Bericht schicken würden.",
+          "it": "Le sarei grato se mi inviasse il rapporto.",
+          "ja": "報告書をお送りいただけますと幸いです。",
+          "zh-Hans": "如蒙寄送报告，不胜感激。"
         },
         {
           "es": "Adjunto encontrará el documento.",
           "en": "Please find the document attached.",
-          "vi": "Tài liệu được đính kèm."
+          "vi": "Tài liệu được đính kèm.",
+          "pt-BR": "Segue o documento em anexo.",
+          "fr": "Veuillez trouver le document ci-joint.",
+          "de": "Anbei finden Sie das Dokument.",
+          "it": "In allegato trova il documento.",
+          "ja": "資料を添付いたします。",
+          "zh-Hans": "附件为相关文件。"
         },
         {
           "es": "Quedo atento a sus comentarios.",
           "en": "I look forward to your comments.",
-          "vi": "Tôi chờ ý kiến phản hồi của bà."
+          "vi": "Tôi chờ ý kiến phản hồi của bà.",
+          "pt-BR": "Aguardo seus comentários.",
+          "fr": "Dans l’attente de vos commentaires.",
+          "de": "Ich freue mich auf Ihre Rückmeldung.",
+          "it": "In attesa di un suo riscontro.",
+          "ja": "ご意見をお待ちしております。",
+          "zh-Hans": "期待您的意见。"
         },
         {
           "es": "Saludos cordiales.",
           "en": "Kind regards.",
-          "vi": "Trân trọng."
+          "vi": "Trân trọng.",
+          "pt-BR": "Atenciosamente.",
+          "fr": "Cordialement.",
+          "de": "Mit freundlichen Grüßen.",
+          "it": "Cordiali saluti.",
+          "ja": "よろしくお願いいたします。",
+          "zh-Hans": "此致敬礼。"
         }
       ]
     },
@@ -69,47 +141,101 @@
       "id": "meetings",
       "title": {
         "en": "Meetings",
-        "vi": "Cuộc họp"
+        "vi": "Cuộc họp",
+        "pt-BR": "Reuniões",
+        "fr": "Réunions",
+        "de": "Meetings",
+        "it": "Riunioni",
+        "ja": "会議",
+        "zh-Hans": "会议"
       },
       "description": {
         "en": "Lead and take part in meetings.",
-        "vi": "Điều phối và tham gia cuộc họp."
+        "vi": "Điều phối và tham gia cuộc họp.",
+        "pt-BR": "Conduza e participe de reuniões.",
+        "fr": "Animez et participez à des réunions.",
+        "de": "Meetings leiten und daran teilnehmen.",
+        "it": "Guida e partecipa alle riunioni.",
+        "ja": "会議を進行し、参加しよう。",
+        "zh-Hans": "主持和参加会议。"
       },
       "focus": {
         "en": "Use “usted/ustedes” and softeners like “si les parece” to keep meetings polite.",
-        "vi": "Dùng “usted/ustedes” và những câu làm mềm như “si les parece” để cuộc họp lịch sự."
+        "vi": "Dùng “usted/ustedes” và những câu làm mềm như “si les parece” để cuộc họp lịch sự.",
+        "pt-BR": "Use “usted/ustedes” e suavizadores como “si les parece” para manter a cortesia.",
+        "fr": "Utilisez « usted/ustedes » et des formules comme « si les parece » pour rester courtois.",
+        "de": "Benutze „usted/ustedes“ und Abschwächungen wie „si les parece“, um höflich zu bleiben.",
+        "it": "Usa “usted/ustedes” e attenuanti come “si les parece” per mantenere la cortesia.",
+        "ja": "「usted/ustedes」や「si les parece」のような和らげ表現で丁寧さを保とう。",
+        "zh-Hans": "用“usted/ustedes”和“si les parece”这类缓和语让会议保持礼貌。"
       },
       "icon": "users",
       "phrases": [
         {
           "es": "Si les parece, empezamos.",
           "en": "If you all agree, let's begin.",
-          "vi": "Nếu mọi người đồng ý, ta bắt đầu."
+          "vi": "Nếu mọi người đồng ý, ta bắt đầu.",
+          "pt-BR": "Se todos concordarem, vamos começar.",
+          "fr": "Si vous êtes d’accord, commençons.",
+          "de": "Wenn Sie einverstanden sind, fangen wir an.",
+          "it": "Se siete d’accordo, cominciamo.",
+          "ja": "皆さんよろしければ、始めましょう。",
+          "zh-Hans": "如果大家同意，我们开始吧。"
         },
         {
           "es": "El primer punto del orden del día es…",
           "en": "The first item on the agenda is…",
-          "vi": "Mục đầu tiên trong chương trình là…"
+          "vi": "Mục đầu tiên trong chương trình là…",
+          "pt-BR": "O primeiro item da pauta é…",
+          "fr": "Le premier point à l’ordre du jour est…",
+          "de": "Der erste Punkt auf der Tagesordnung ist…",
+          "it": "Il primo punto all’ordine del giorno è…",
+          "ja": "最初の議題は…",
+          "zh-Hans": "第一项议程是……"
         },
         {
           "es": "Perdón que interrumpa, pero…",
           "en": "Sorry to interrupt, but…",
-          "vi": "Xin lỗi đã ngắt lời, nhưng…"
+          "vi": "Xin lỗi đã ngắt lời, nhưng…",
+          "pt-BR": "Desculpe interromper, mas…",
+          "fr": "Désolé de vous interrompre, mais…",
+          "de": "Entschuldigung, dass ich unterbreche, aber…",
+          "it": "Scusate se interrompo, ma…",
+          "ja": "お話の途中ですみませんが…",
+          "zh-Hans": "抱歉打断一下，但是……"
         },
         {
           "es": "¿Podría ampliar un poco esa idea?",
           "en": "Could you expand on that idea a bit?",
-          "vi": "Anh/chị có thể nói rõ hơn ý đó không?"
+          "vi": "Anh/chị có thể nói rõ hơn ý đó không?",
+          "pt-BR": "Poderia desenvolver um pouco essa ideia?",
+          "fr": "Pourriez-vous développer un peu cette idée ?",
+          "de": "Könnten Sie diese Idee etwas ausführen?",
+          "it": "Potrebbe approfondire un po’ quest’idea?",
+          "ja": "その考えをもう少し詳しく説明していただけますか？",
+          "zh-Hans": "您能把这个想法再展开说说吗？"
         },
         {
           "es": "Retomando lo que decía Luis…",
           "en": "Going back to what Luis was saying…",
-          "vi": "Quay lại ý anh Luis vừa nói…"
+          "vi": "Quay lại ý anh Luis vừa nói…",
+          "pt-BR": "Voltando ao que o Luis dizia…",
+          "fr": "Pour revenir à ce que disait Luis…",
+          "de": "Um auf das zurückzukommen, was Luis sagte…",
+          "it": "Tornando a quello che diceva Luis…",
+          "ja": "ルイスさんの話に戻りますが…",
+          "zh-Hans": "回到路易斯刚才说的……"
         },
         {
           "es": "Para resumir, acordamos que…",
           "en": "To sum up, we agreed that…",
-          "vi": "Tóm lại, chúng ta thống nhất rằng…"
+          "vi": "Tóm lại, chúng ta thống nhất rằng…",
+          "pt-BR": "Resumindo, combinamos que…",
+          "fr": "Pour résumer, nous avons convenu que…",
+          "de": "Zusammengefasst haben wir vereinbart, dass…",
+          "it": "Riassumendo, abbiamo concordato che…",
+          "ja": "まとめると、…ということで合意しました。",
+          "zh-Hans": "总结一下，我们达成一致……"
         }
       ]
     }
@@ -119,11 +245,23 @@
       "id": "meeting",
       "title": {
         "en": "Lead a team meeting",
-        "vi": "Điều phối cuộc họp nhóm"
+        "vi": "Điều phối cuộc họp nhóm",
+        "pt-BR": "Conduza uma reunião de equipe",
+        "fr": "Animer une réunion d’équipe",
+        "de": "Ein Teammeeting leiten",
+        "it": "Guida una riunione di team",
+        "ja": "チーム会議を進行する",
+        "zh-Hans": "主持团队会议"
       },
       "description": {
         "en": "Open, manage, and close a meeting professionally.",
-        "vi": "Mở đầu, điều phối và kết thúc cuộc họp chuyên nghiệp."
+        "vi": "Mở đầu, điều phối và kết thúc cuộc họp chuyên nghiệp.",
+        "pt-BR": "Abra, conduza e encerre uma reunião com profissionalismo.",
+        "fr": "Ouvrez, gérez et concluez une réunion de façon professionnelle.",
+        "de": "Eröffne, leite und beende ein Meeting professionell.",
+        "it": "Apri, gestisci e chiudi una riunione in modo professionale.",
+        "ja": "会議をプロらしく始め、進め、締めくくろう。",
+        "zh-Hans": "专业地开场、主持和结束会议。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -134,11 +272,23 @@
           "prompt": "Ya estamos todos. Cuando quieras.",
           "translation": {
             "en": "We're all here. Whenever you're ready.",
-            "vi": "Mọi người đủ rồi. Bạn bắt đầu đi."
+            "vi": "Mọi người đủ rồi. Bạn bắt đầu đi.",
+            "pt-BR": "Estamos todos aqui. Quando quiser.",
+            "fr": "Nous sommes tous là. Quand vous voulez.",
+            "de": "Wir sind alle da. Wann immer Sie bereit sind.",
+            "it": "Ci siamo tutti. Quando vuole.",
+            "ja": "全員そろいました。いつでもどうぞ。",
+            "zh-Hans": "大家都到了。您随时可以开始。"
           },
           "hint": {
             "en": "Open the meeting formally.",
-            "vi": "Mở đầu cuộc họp trang trọng."
+            "vi": "Mở đầu cuộc họp trang trọng.",
+            "pt-BR": "Abra a reunião formalmente.",
+            "fr": "Ouvrez la réunion formellement.",
+            "de": "Eröffne das Meeting formell.",
+            "it": "Apri la riunione in modo formale.",
+            "ja": "改まった形で会議を始めよう。",
+            "zh-Hans": "正式地开场。"
           },
           "choices": [
             {
@@ -146,13 +296,25 @@
               "es": "Muy bien, si les parece, empezamos. El primer punto es el presupuesto.",
               "translation": {
                 "en": "Great, if you all agree, let's begin. The first item is the budget.",
-                "vi": "Được, nếu mọi người đồng ý thì ta bắt đầu. Mục đầu tiên là ngân sách."
+                "vi": "Được, nếu mọi người đồng ý thì ta bắt đầu. Mục đầu tiên là ngân sách.",
+                "pt-BR": "Ótimo, se todos concordarem, vamos começar. O primeiro item é o orçamento.",
+                "fr": "Très bien, si vous êtes d’accord, commençons. Le premier point est le budget.",
+                "de": "Gut, wenn Sie einverstanden sind, fangen wir an. Der erste Punkt ist das Budget.",
+                "it": "Bene, se siete d’accordo, cominciamo. Il primo punto è il budget.",
+                "ja": "では、皆さんよろしければ始めましょう。最初の議題は予算です。",
+                "zh-Hans": "好的，如果大家同意，我们开始吧。第一项是预算。"
               },
               "correct": true,
               "response": "Perdón que interrumpa, pero ¿no íbamos a ver primero las fechas?",
               "responseTranslation": {
                 "en": "Sorry to interrupt, but weren't we going to look at dates first?",
-                "vi": "Xin lỗi ngắt lời, nhưng không phải ta xem lịch trước sao?"
+                "vi": "Xin lỗi ngắt lời, nhưng không phải ta xem lịch trước sao?",
+                "pt-BR": "Desculpe interromper, mas não íamos ver as datas primeiro?",
+                "fr": "Désolé de vous interrompre, mais on ne devait pas voir les dates d’abord ?",
+                "de": "Entschuldigung, dass ich unterbreche, aber wollten wir nicht zuerst die Termine besprechen?",
+                "it": "Scusi se interrompo, ma non dovevamo vedere prima le date?",
+                "ja": "すみません、先に日程を確認する予定ではありませんでしたか？",
+                "zh-Hans": "抱歉打断，我们不是要先看日期吗？"
               },
               "next": "interrupt"
             },
@@ -161,13 +323,25 @@
               "es": "Gracias por venir. El primer punto del orden del día es el presupuesto.",
               "translation": {
                 "en": "Thanks for coming. The first item on the agenda is the budget.",
-                "vi": "Cảm ơn mọi người đã đến. Mục đầu tiên trong chương trình là ngân sách."
+                "vi": "Cảm ơn mọi người đã đến. Mục đầu tiên trong chương trình là ngân sách.",
+                "pt-BR": "Obrigado por virem. O primeiro item da pauta é o orçamento.",
+                "fr": "Merci d’être venus. Le premier point à l’ordre du jour est le budget.",
+                "de": "Danke fürs Kommen. Der erste Punkt auf der Tagesordnung ist das Budget.",
+                "it": "Grazie di essere venuti. Il primo punto all’ordine del giorno è il budget.",
+                "ja": "お集まりいただきありがとうございます。最初の議題は予算です。",
+                "zh-Hans": "谢谢大家来参加。第一项议程是预算。"
               },
               "correct": true,
               "response": "Perdón que interrumpa, ¿podemos ver primero las fechas?",
               "responseTranslation": {
                 "en": "Sorry to interrupt, can we look at dates first?",
-                "vi": "Xin lỗi ngắt lời, ta xem lịch trước được không?"
+                "vi": "Xin lỗi ngắt lời, ta xem lịch trước được không?",
+                "pt-BR": "Desculpe interromper, podemos ver as datas primeiro?",
+                "fr": "Désolé de vous interrompre, on peut voir les dates d’abord ?",
+                "de": "Entschuldigung, dass ich unterbreche, können wir zuerst die Termine ansehen?",
+                "it": "Scusate se interrompo, possiamo vedere prima le date?",
+                "ja": "すみません、先に日程を見てもいいですか？",
+                "zh-Hans": "抱歉打断，我们能先看日期吗？"
               },
               "next": "interrupt"
             },
@@ -176,14 +350,26 @@
               "es": "¿Qué onda, banda? Empezamos.",
               "translation": {
                 "en": "What's up, gang? Let's start.",
-                "vi": "Sao rồi cả nhà? Bắt đầu thôi."
+                "vi": "Sao rồi cả nhà? Bắt đầu thôi.",
+                "pt-BR": "E aí, galera? Bora começar.",
+                "fr": "Salut la bande ! On commence.",
+                "de": "Was geht, Leute? Fangen wir an.",
+                "it": "Ciao ragazzi! Cominciamo.",
+                "ja": "みんな、元気？始めよう。",
+                "zh-Hans": "嘿，伙计们，开始吧。"
               },
               "correct": false,
               "correction": "Muy bien, si les parece, empezamos. El primer punto es el presupuesto.",
               "response": "Mmm, es una junta con el director… mejor más formal.",
               "responseTranslation": {
                 "en": "Hmm, it's a meeting with the director… better be more formal.",
-                "vi": "Ừm, họp với giám đốc đấy… nên trang trọng hơn."
+                "vi": "Ừm, họp với giám đốc đấy… nên trang trọng hơn.",
+                "pt-BR": "Hmm, é uma reunião com a diretora… melhor ser mais formal.",
+                "fr": "Hmm, c’est une réunion avec la directrice… mieux vaut être plus formel.",
+                "de": "Hmm, es ist ein Meeting mit der Direktorin… lieber etwas förmlicher.",
+                "it": "Mmm, è una riunione con la direttrice… meglio essere più formali.",
+                "ja": "うーん、部長との会議だから…もっと改まったほうがいいね。",
+                "zh-Hans": "嗯，这是和总监的会议……最好正式一点。"
               },
               "next": "interrupt"
             }
@@ -194,11 +380,23 @@
           "prompt": "Creo que las fechas son más urgentes.",
           "translation": {
             "en": "I think the dates are more urgent.",
-            "vi": "Tôi nghĩ lịch trình gấp hơn."
+            "vi": "Tôi nghĩ lịch trình gấp hơn.",
+            "pt-BR": "Acho que as datas são mais urgentes.",
+            "fr": "Je pense que les dates sont plus urgentes.",
+            "de": "Ich finde, die Termine sind dringender.",
+            "it": "Credo che le date siano più urgenti.",
+            "ja": "日程のほうが急ぎだと思います。",
+            "zh-Hans": "我觉得日期更紧急。"
           },
           "hint": {
             "en": "Handle the interruption politely.",
-            "vi": "Xử lý việc bị ngắt lời một cách lịch sự."
+            "vi": "Xử lý việc bị ngắt lời một cách lịch sự.",
+            "pt-BR": "Lide com a interrupção com educação.",
+            "fr": "Gérez l’interruption poliment.",
+            "de": "Geh höflich mit der Unterbrechung um.",
+            "it": "Gestisci l’interruzione con cortesia.",
+            "ja": "割り込みに丁寧に対応しよう。",
+            "zh-Hans": "礼貌地处理打断。"
           },
           "choices": [
             {
@@ -206,13 +404,25 @@
               "es": "Buen punto. ¿Podría ampliar un poco por qué?",
               "translation": {
                 "en": "Good point. Could you expand a bit on why?",
-                "vi": "Ý hay. Anh/chị nói rõ hơn vì sao được không?"
+                "vi": "Ý hay. Anh/chị nói rõ hơn vì sao được không?",
+                "pt-BR": "Bom ponto. Poderia explicar um pouco o porquê?",
+                "fr": "Bonne remarque. Pourriez-vous expliquer un peu pourquoi ?",
+                "de": "Guter Punkt. Könnten Sie kurz erklären, warum?",
+                "it": "Buona osservazione. Potrebbe spiegare un po’ perché?",
+                "ja": "いいご指摘です。理由を少し説明していただけますか？",
+                "zh-Hans": "说得好。能稍微解释一下原因吗？"
               },
               "correct": true,
               "response": "Porque el cliente quiere el proyecto en marzo.",
               "responseTranslation": {
                 "en": "Because the client wants the project in March.",
-                "vi": "Vì khách hàng muốn dự án xong trong tháng Ba."
+                "vi": "Vì khách hàng muốn dự án xong trong tháng Ba.",
+                "pt-BR": "Porque o cliente quer o projeto em março.",
+                "fr": "Parce que le client veut le projet en mars.",
+                "de": "Weil der Kunde das Projekt im März will.",
+                "it": "Perché il cliente vuole il progetto a marzo.",
+                "ja": "お客様が3月にプロジェクトを求めているからです。",
+                "zh-Hans": "因为客户希望三月拿到项目。"
               },
               "next": "close"
             },
@@ -221,13 +431,25 @@
               "es": "De acuerdo, cambiamos el orden. Hablemos de las fechas.",
               "translation": {
                 "en": "Agreed, let's change the order. Let's talk dates.",
-                "vi": "Đồng ý, ta đổi thứ tự. Bàn về lịch trình nhé."
+                "vi": "Đồng ý, ta đổi thứ tự. Bàn về lịch trình nhé.",
+                "pt-BR": "De acordo, vamos mudar a ordem. Vamos falar das datas.",
+                "fr": "D’accord, changeons l’ordre. Parlons des dates.",
+                "de": "Einverstanden, ändern wir die Reihenfolge. Reden wir über die Termine.",
+                "it": "D’accordo, cambiamo l’ordine. Parliamo delle date.",
+                "ja": "わかりました、順番を変えましょう。日程について話しましょう。",
+                "zh-Hans": "同意，我们换一下顺序。先谈日期。"
               },
               "correct": true,
               "response": "Gracias. El cliente quiere todo para marzo.",
               "responseTranslation": {
                 "en": "Thanks. The client wants everything by March.",
-                "vi": "Cảm ơn. Khách hàng muốn mọi thứ xong trước tháng Ba."
+                "vi": "Cảm ơn. Khách hàng muốn mọi thứ xong trước tháng Ba.",
+                "pt-BR": "Obrigado. O cliente quer tudo para março.",
+                "fr": "Merci. Le client veut tout pour mars.",
+                "de": "Danke. Der Kunde will alles bis März.",
+                "it": "Grazie. Il cliente vuole tutto per marzo.",
+                "ja": "ありがとうございます。お客様は3月までに全部ほしいそうです。",
+                "zh-Hans": "谢谢。客户希望三月前全部完成。"
               },
               "next": "close"
             },
@@ -236,14 +458,26 @@
               "es": "No, primero el presupuesto.",
               "translation": {
                 "en": "No, budget first.",
-                "vi": "Không, ngân sách trước."
+                "vi": "Không, ngân sách trước.",
+                "pt-BR": "Não, primeiro o orçamento.",
+                "fr": "Non, d’abord le budget.",
+                "de": "Nein, zuerst das Budget.",
+                "it": "No, prima il budget.",
+                "ja": "いいえ、まず予算です。",
+                "zh-Hans": "不，先谈预算。"
               },
               "correct": false,
               "correction": "Buen punto. ¿Podría ampliar un poco por qué?",
               "response": "Está bien… aunque las fechas son importantes.",
               "responseTranslation": {
                 "en": "OK… although the dates are important.",
-                "vi": "Được thôi… dù lịch trình cũng quan trọng."
+                "vi": "Được thôi… dù lịch trình cũng quan trọng.",
+                "pt-BR": "Certo… embora as datas sejam importantes.",
+                "fr": "D’accord… même si les dates sont importantes.",
+                "de": "Okay… obwohl die Termine wichtig sind.",
+                "it": "Ok… anche se le date sono importanti.",
+                "ja": "わかりました…日程も大事ですが。",
+                "zh-Hans": "好吧……不过日期也很重要。"
               },
               "next": "close"
             }
@@ -254,11 +488,23 @@
           "prompt": "Creo que ya cubrimos todo.",
           "translation": {
             "en": "I think we've covered everything.",
-            "vi": "Tôi nghĩ ta đã bàn hết rồi."
+            "vi": "Tôi nghĩ ta đã bàn hết rồi.",
+            "pt-BR": "Acho que já cobrimos tudo.",
+            "fr": "Je pense que nous avons tout couvert.",
+            "de": "Ich denke, wir haben alles besprochen.",
+            "it": "Credo che abbiamo trattato tutto.",
+            "ja": "すべて話し合えたと思います。",
+            "zh-Hans": "我想我们已经都讨论过了。"
           },
           "hint": {
             "en": "Summarize and close.",
-            "vi": "Tóm tắt và kết thúc."
+            "vi": "Tóm tắt và kết thúc.",
+            "pt-BR": "Resuma e encerre.",
+            "fr": "Résumez et concluez.",
+            "de": "Fasse zusammen und schließe ab.",
+            "it": "Riassumi e chiudi.",
+            "ja": "まとめて締めくくろう。",
+            "zh-Hans": "总结并结束。"
           },
           "choices": [
             {
@@ -266,13 +512,25 @@
               "es": "Para resumir, acordamos entregar en marzo y revisar el presupuesto. Les envío la minuta.",
               "translation": {
                 "en": "To sum up, we agreed to deliver in March and review the budget. I'll send you the minutes.",
-                "vi": "Tóm lại, ta thống nhất giao trong tháng Ba và xem lại ngân sách. Tôi sẽ gửi biên bản cho mọi người."
+                "vi": "Tóm lại, ta thống nhất giao trong tháng Ba và xem lại ngân sách. Tôi sẽ gửi biên bản cho mọi người.",
+                "pt-BR": "Resumindo, combinamos entregar em março e revisar o orçamento. Envio a ata para vocês.",
+                "fr": "Pour résumer, nous avons convenu de livrer en mars et de revoir le budget. Je vous envoie le compte rendu.",
+                "de": "Zusammengefasst haben wir vereinbart, im März zu liefern und das Budget zu überprüfen. Ich schicke Ihnen das Protokoll.",
+                "it": "Riassumendo, abbiamo concordato di consegnare a marzo e di rivedere il budget. Vi mando il verbale.",
+                "ja": "まとめると、3月に納品し、予算を見直すことで合意しました。議事録をお送りします。",
+                "zh-Hans": "总结一下，我们同意三月交付，并重新审核预算。我会把会议纪要发给大家。"
               },
               "correct": true,
               "response": "Perfecto, muchas gracias.",
               "responseTranslation": {
                 "en": "Perfect, thank you very much.",
-                "vi": "Tuyệt, cảm ơn nhiều."
+                "vi": "Tuyệt, cảm ơn nhiều.",
+                "pt-BR": "Perfeito, muito obrigado.",
+                "fr": "Parfait, merci beaucoup.",
+                "de": "Perfekt, vielen Dank.",
+                "it": "Perfetto, grazie mille.",
+                "ja": "完璧です、ありがとうございました。",
+                "zh-Hans": "很好，非常感谢。"
               }
             },
             {
@@ -280,13 +538,25 @@
               "es": "Muy bien. Para resumir: fechas en marzo; la próxima semana vemos el presupuesto.",
               "translation": {
                 "en": "Great. To sum up: dates in March; next week we'll look at the budget.",
-                "vi": "Được. Tóm lại: lịch trình trong tháng Ba; tuần sau xem ngân sách."
+                "vi": "Được. Tóm lại: lịch trình trong tháng Ba; tuần sau xem ngân sách.",
+                "pt-BR": "Ótimo. Resumindo: datas em março; semana que vem vemos o orçamento.",
+                "fr": "Très bien. Pour résumer : dates en mars ; la semaine prochaine, on voit le budget.",
+                "de": "Gut. Zusammengefasst: Termine im März; nächste Woche schauen wir uns das Budget an.",
+                "it": "Bene. Riassumendo: date a marzo; la prossima settimana vediamo il budget.",
+                "ja": "いいですね。まとめ：日程は3月、来週予算を確認します。",
+                "zh-Hans": "好。总结：日期定在三月；下周我们看预算。"
               },
               "correct": true,
               "response": "De acuerdo. ¡Buen trabajo!",
               "responseTranslation": {
                 "en": "Agreed. Good job!",
-                "vi": "Đồng ý. Làm tốt lắm!"
+                "vi": "Đồng ý. Làm tốt lắm!",
+                "pt-BR": "De acordo. Bom trabalho!",
+                "fr": "D’accord. Beau travail !",
+                "de": "Einverstanden. Gute Arbeit!",
+                "it": "D’accordo. Ottimo lavoro!",
+                "ja": "了解です。お疲れさまでした！",
+                "zh-Hans": "同意。辛苦了！"
               }
             },
             {
@@ -294,14 +564,26 @@
               "es": "¡Bye!",
               "translation": {
                 "en": "Bye!",
-                "vi": "Bye!"
+                "vi": "Bye!",
+                "pt-BR": "Tchau!",
+                "fr": "Salut !",
+                "de": "Tschüss!",
+                "it": "Ciao!",
+                "ja": "じゃあね！",
+                "zh-Hans": "拜拜！"
               },
               "correct": false,
               "correction": "Para resumir, acordamos entregar en marzo y revisar el presupuesto. Les envío la minuta.",
               "response": "¿Y el resumen? Siempre es bueno cerrar con los acuerdos.",
               "responseTranslation": {
                 "en": "And the summary? It's always good to close with the agreements.",
-                "vi": "Còn phần tóm tắt? Nên kết thúc bằng các điểm đã thống nhất."
+                "vi": "Còn phần tóm tắt? Nên kết thúc bằng các điểm đã thống nhất.",
+                "pt-BR": "E o resumo? É sempre bom encerrar com os acordos.",
+                "fr": "Et le résumé ? C’est toujours bien de conclure avec les décisions.",
+                "de": "Und die Zusammenfassung? Es ist immer gut, mit den Vereinbarungen abzuschließen.",
+                "it": "E il riassunto? È sempre bene chiudere con gli accordi presi.",
+                "ja": "まとめは？合意事項で締めくくるのがいつもいいですよ。",
+                "zh-Hans": "总结呢？最好用达成的共识来收尾。"
               }
             }
           ]

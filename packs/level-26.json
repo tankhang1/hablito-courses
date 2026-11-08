@@ -1,38 +1,74 @@
 {
   "schemaVersion": 1,
   "id": "level-26",
-  "version": 1,
+  "version": 2,
   "level": 26,
   "cefr": "C1",
   "title": {
     "en": "Advanced 2: Idioms & Mexican slang",
-    "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico"
+    "vi": "Cao cấp 2: Thành ngữ & tiếng lóng Mexico",
+    "pt-BR": "Avançado 2: Expressões e gírias mexicanas",
+    "fr": "Avancé 2 : Expressions et argot mexicain",
+    "de": "Fortgeschritten 2: Redewendungen und mexikanischer Slang",
+    "it": "Avanzato 2: Modi di dire e slang messicano",
+    "ja": "上級 2：慣用句とメキシコのスラング",
+    "zh-Hans": "高级 2：习语和墨西哥俚语"
   },
   "description": {
     "en": "Sound like a local with everyday expressions.",
-    "vi": "Nói như người bản xứ với các cách diễn đạt đời thường."
+    "vi": "Nói như người bản xứ với các cách diễn đạt đời thường.",
+    "pt-BR": "Soe como um local com expressões do dia a dia.",
+    "fr": "Parlez comme un local avec des expressions du quotidien.",
+    "de": "Klinge wie ein Einheimischer mit Alltagsausdrücken.",
+    "it": "Parla come un locale con le espressioni di tutti i giorni.",
+    "ja": "日常表現で地元の人のように話そう。",
+    "zh-Hans": "用日常表达说得像本地人。"
   },
   "lessons": [
     {
       "id": "slang",
       "title": {
         "en": "Mexican slang",
-        "vi": "Tiếng lóng Mexico"
+        "vi": "Tiếng lóng Mexico",
+        "pt-BR": "Gírias mexicanas",
+        "fr": "L’argot mexicain",
+        "de": "Mexikanischer Slang",
+        "it": "Slang messicano",
+        "ja": "メキシコのスラング",
+        "zh-Hans": "墨西哥俚语"
       },
       "description": {
         "en": "Casual words you'll hear every day.",
-        "vi": "Những từ thân mật bạn sẽ nghe mỗi ngày."
+        "vi": "Những từ thân mật bạn sẽ nghe mỗi ngày.",
+        "pt-BR": "Palavras informais que você vai ouvir todo dia.",
+        "fr": "Des mots familiers que vous entendrez tous les jours.",
+        "de": "Lockere Wörter, die du jeden Tag hörst.",
+        "it": "Parole informali che sentirai ogni giorno.",
+        "ja": "毎日耳にするくだけた言葉。",
+        "zh-Hans": "每天都会听到的口语词。"
       },
       "focus": {
         "en": "Slang is for friends. In formal settings, switch back to neutral Spanish.",
-        "vi": "Tiếng lóng chỉ dùng với bạn bè. Khi trang trọng, quay lại tiếng Tây Ban Nha chuẩn."
+        "vi": "Tiếng lóng chỉ dùng với bạn bè. Khi trang trọng, quay lại tiếng Tây Ban Nha chuẩn.",
+        "pt-BR": "Gíria é para amigos. Em contextos formais, volte ao espanhol neutro.",
+        "fr": "L’argot, c’est entre amis. Dans un cadre formel, revenez à un espagnol neutre.",
+        "de": "Slang ist für Freunde. In formellen Situationen wechsle zu neutralem Spanisch.",
+        "it": "Lo slang è per gli amici. In contesti formali, torna allo spagnolo neutro.",
+        "ja": "スラングは友だち同士で。改まった場では標準的なスペイン語に戻そう。",
+        "zh-Hans": "俚语是朋友间用的。在正式场合，换回标准西班牙语。"
       },
       "icon": "smile",
       "phrases": [
         {
           "es": "¡Qué padre!",
           "en": "How cool!",
-          "vi": "Hay quá! / Đỉnh ghê!"
+          "vi": "Hay quá! / Đỉnh ghê!",
+          "pt-BR": "Que legal!",
+          "fr": "Trop cool !",
+          "de": "Wie cool!",
+          "it": "Che figata!",
+          "ja": "かっこいい！",
+          "zh-Hans": "太酷了！"
         },
         {
           "es": "¡No manches!",
@@ -40,13 +76,31 @@
           "vi": "Không thể nào! / Đùa à!",
           "note": {
             "en": "Very casual; avoid it in formal settings.",
-            "vi": "Rất thân mật; tránh dùng khi trang trọng."
-          }
+            "vi": "Rất thân mật; tránh dùng khi trang trọng.",
+            "pt-BR": "Muito informal; evite em contextos formais.",
+            "fr": "Très familier ; à éviter dans un cadre formel.",
+            "de": "Sehr umgangssprachlich; in formellen Situationen vermeiden.",
+            "it": "Molto informale; evitalo nei contesti formali.",
+            "ja": "とてもくだけた表現。改まった場では避けよう。",
+            "zh-Hans": "非常口语；正式场合避免使用。"
+          },
+          "pt-BR": "Não acredito! / Tá brincando!",
+          "fr": "C’est pas vrai ! / Tu rigoles !",
+          "de": "Echt jetzt? / Du machst Witze!",
+          "it": "Non ci credo! / Stai scherzando!",
+          "ja": "うそでしょ！／冗談でしょ！",
+          "zh-Hans": "不会吧！／开玩笑吧！"
         },
         {
           "es": "¿Qué onda?",
           "en": "What's up?",
-          "vi": "Sao rồi? / Có gì không?"
+          "vi": "Sao rồi? / Có gì không?",
+          "pt-BR": "E aí?",
+          "fr": "Quoi de neuf ?",
+          "de": "Was geht?",
+          "it": "Come va?",
+          "ja": "元気？／どう？",
+          "zh-Hans": "最近怎么样？"
         },
         {
           "es": "Ahorita lo hago.",
@@ -54,18 +108,42 @@
           "vi": "Tôi làm ngay đây (hoặc… lát nữa).",
           "note": {
             "en": "“Ahorita” can mean now, soon, or much later!",
-            "vi": "“Ahorita” có thể là ngay, lát nữa hoặc rất lâu nữa!"
-          }
+            "vi": "“Ahorita” có thể là ngay, lát nữa hoặc rất lâu nữa!",
+            "pt-BR": "“Ahorita” pode significar agora, já já ou muito depois!",
+            "fr": "« Ahorita » peut vouloir dire maintenant, bientôt ou bien plus tard !",
+            "de": "„Ahorita“ kann jetzt, gleich oder viel später bedeuten!",
+            "it": "“Ahorita” può voler dire adesso, tra poco o molto più tardi!",
+            "ja": "「Ahorita」は「今」「すぐ」「ずっと後」のどれにもなる！",
+            "zh-Hans": "“Ahorita”可能指现在、马上，也可能是很久以后！"
+          },
+          "pt-BR": "Faço daqui a pouco (ou… algum dia).",
+          "fr": "Je le fais tout à l’heure (ou… un jour).",
+          "de": "Ich mach’s gleich (oder… irgendwann).",
+          "it": "Lo faccio tra un attimo (o… prima o poi).",
+          "ja": "あとでやるよ（または…いつか）。",
+          "zh-Hans": "我等一下就做（或者……改天）。"
         },
         {
           "es": "Está chido.",
           "en": "It's cool / nice.",
-          "vi": "Hay đấy / Được đấy."
+          "vi": "Hay đấy / Được đấy.",
+          "pt-BR": "É legal / bacana.",
+          "fr": "C’est sympa / cool.",
+          "de": "Das ist cool / schön.",
+          "it": "È carino / bello.",
+          "ja": "いいね／すてき。",
+          "zh-Hans": "挺好的／挺酷的。"
         },
         {
           "es": "¡Aguas!",
           "en": "Watch out!",
-          "vi": "Coi chừng!"
+          "vi": "Coi chừng!",
+          "pt-BR": "Cuidado!",
+          "fr": "Attention !",
+          "de": "Pass auf!",
+          "it": "Attento!",
+          "ja": "気をつけて！",
+          "zh-Hans": "小心！"
         }
       ]
     },
@@ -73,47 +151,101 @@
       "id": "idioms",
       "title": {
         "en": "Common idioms",
-        "vi": "Thành ngữ thông dụng"
+        "vi": "Thành ngữ thông dụng",
+        "pt-BR": "Expressões comuns",
+        "fr": "Expressions courantes",
+        "de": "Häufige Redewendungen",
+        "it": "Modi di dire comuni",
+        "ja": "よく使う慣用句",
+        "zh-Hans": "常见习语"
       },
       "description": {
         "en": "Expressions that don't translate word for word.",
-        "vi": "Những cách nói không dịch từng chữ được."
+        "vi": "Những cách nói không dịch từng chữ được.",
+        "pt-BR": "Expressões que não se traduzem palavra por palavra.",
+        "fr": "Des expressions qui ne se traduisent pas mot à mot.",
+        "de": "Ausdrücke, die man nicht Wort für Wort übersetzen kann.",
+        "it": "Espressioni che non si traducono parola per parola.",
+        "ja": "直訳できない表現。",
+        "zh-Hans": "无法逐字翻译的表达。"
       },
       "focus": {
         "en": "Learn idioms as whole chunks, with the situation they belong to.",
-        "vi": "Học thành ngữ theo cả cụm, gắn với tình huống sử dụng."
+        "vi": "Học thành ngữ theo cả cụm, gắn với tình huống sử dụng.",
+        "pt-BR": "Aprenda expressões como blocos inteiros, junto com a situação em que se usam.",
+        "fr": "Apprenez les expressions en bloc, avec la situation où elles s’utilisent.",
+        "de": "Lerne Redewendungen als ganze Blöcke, mit der passenden Situation.",
+        "it": "Impara i modi di dire come blocchi interi, con la situazione in cui si usano.",
+        "ja": "慣用句は使う場面と一緒にまとめて覚えよう。",
+        "zh-Hans": "把习语当作整体来学，连同使用的情境一起记。"
       },
       "icon": "feather",
       "phrases": [
         {
           "es": "Me cayó el veinte.",
           "en": "The penny dropped. / I finally got it.",
-          "vi": "Giờ tôi mới vỡ lẽ."
+          "vi": "Giờ tôi mới vỡ lẽ.",
+          "pt-BR": "Caiu a ficha.",
+          "fr": "Ça y est, j’ai pigé.",
+          "de": "Der Groschen ist gefallen.",
+          "it": "Mi si è accesa la lampadina.",
+          "ja": "やっとわかった。",
+          "zh-Hans": "终于明白了。"
         },
         {
           "es": "Estoy hasta el gorro.",
           "en": "I'm fed up.",
-          "vi": "Tôi chán ngấy rồi."
+          "vi": "Tôi chán ngấy rồi.",
+          "pt-BR": "Estou de saco cheio.",
+          "fr": "J’en ai ras le bol.",
+          "de": "Ich hab die Nase voll.",
+          "it": "Sono stufo.",
+          "ja": "もううんざり。",
+          "zh-Hans": "我受够了。"
         },
         {
           "es": "Es pan comido.",
           "en": "It's a piece of cake.",
-          "vi": "Dễ như ăn bánh."
+          "vi": "Dễ như ăn bánh.",
+          "pt-BR": "É moleza.",
+          "fr": "C’est du gâteau.",
+          "de": "Das ist ein Kinderspiel.",
+          "it": "È un gioco da ragazzi.",
+          "ja": "朝飯前だよ。",
+          "zh-Hans": "小菜一碟。"
         },
         {
           "es": "Echarle ganas.",
           "en": "To give it your all.",
-          "vi": "Cố gắng hết sức."
+          "vi": "Cố gắng hết sức.",
+          "pt-BR": "Dar o seu melhor.",
+          "fr": "Donner le meilleur de soi-même.",
+          "de": "Alles geben.",
+          "it": "Dare il massimo.",
+          "ja": "全力を尽くす。",
+          "zh-Hans": "全力以赴。"
         },
         {
           "es": "No tiene pelos en la lengua.",
           "en": "He doesn't mince his words.",
-          "vi": "Anh ta ăn nói thẳng thừng."
+          "vi": "Anh ta ăn nói thẳng thừng.",
+          "pt-BR": "Ele não tem papas na língua.",
+          "fr": "Il ne mâche pas ses mots.",
+          "de": "Er nimmt kein Blatt vor den Mund.",
+          "it": "Non ha peli sulla lingua.",
+          "ja": "彼は歯に衣着せない。",
+          "zh-Hans": "他说话从不拐弯抹角。"
         },
         {
           "es": "Más vale tarde que nunca.",
           "en": "Better late than never.",
-          "vi": "Muộn còn hơn không."
+          "vi": "Muộn còn hơn không.",
+          "pt-BR": "Antes tarde do que nunca.",
+          "fr": "Mieux vaut tard que jamais.",
+          "de": "Besser spät als nie.",
+          "it": "Meglio tardi che mai.",
+          "ja": "遅くてもしないよりまし。",
+          "zh-Hans": "迟做总比不做好。"
         }
       ]
     }
@@ -123,11 +255,23 @@
       "id": "friends-hangout",
       "title": {
         "en": "Hang out with friends",
-        "vi": "Đi chơi với bạn bè"
+        "vi": "Đi chơi với bạn bè",
+        "pt-BR": "Saindo com amigos",
+        "fr": "Traîner avec des amis",
+        "de": "Mit Freunden abhängen",
+        "it": "Uscire con gli amici",
+        "ja": "友だちと遊ぶ",
+        "zh-Hans": "和朋友出去玩"
       },
       "description": {
         "en": "Keep up with casual Mexican Spanish.",
-        "vi": "Theo kịp tiếng Tây Ban Nha Mexico thân mật."
+        "vi": "Theo kịp tiếng Tây Ban Nha Mexico thân mật.",
+        "pt-BR": "Acompanhe o espanhol mexicano informal.",
+        "fr": "Suivez l’espagnol mexicain familier.",
+        "de": "Halte mit lockerem mexikanischem Spanisch mit.",
+        "it": "Stai al passo con lo spagnolo messicano informale.",
+        "ja": "くだけたメキシコのスペイン語についていこう。",
+        "zh-Hans": "跟上墨西哥的口语西班牙语。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -138,11 +282,23 @@
           "prompt": "¡Qué onda! ¿Cómo te fue en el examen?",
           "translation": {
             "en": "What's up! How did the exam go?",
-            "vi": "Sao rồi! Thi cử thế nào?"
+            "vi": "Sao rồi! Thi cử thế nào?",
+            "pt-BR": "E aí! Como foi a prova?",
+            "fr": "Salut ! Comment s’est passé l’examen ?",
+            "de": "Was geht! Wie war die Prüfung?",
+            "it": "Ehi! Com’è andato l’esame?",
+            "ja": "よう！試験どうだった？",
+            "zh-Hans": "嘿！考试怎么样？"
           },
           "hint": {
             "en": "Answer casually, maybe with an idiom.",
-            "vi": "Trả lời thân mật, có thể dùng thành ngữ."
+            "vi": "Trả lời thân mật, có thể dùng thành ngữ.",
+            "pt-BR": "Responda de forma informal, talvez com uma expressão.",
+            "fr": "Répondez de façon familière, avec une expression si possible.",
+            "de": "Antworte locker, vielleicht mit einer Redewendung.",
+            "it": "Rispondi in modo informale, magari con un modo di dire.",
+            "ja": "くだけた感じで、できれば慣用句を使って答えよう。",
+            "zh-Hans": "随意地回答，最好用个习语。"
           },
           "choices": [
             {
@@ -150,13 +306,25 @@
               "es": "¡Bien! Fue pan comido.",
               "translation": {
                 "en": "Good! It was a piece of cake.",
-                "vi": "Ổn! Dễ như ăn bánh."
+                "vi": "Ổn! Dễ như ăn bánh.",
+                "pt-BR": "Bem! Foi moleza.",
+                "fr": "Bien ! C’était du gâteau.",
+                "de": "Gut! Es war ein Kinderspiel.",
+                "it": "Bene! È stato un gioco da ragazzi.",
+                "ja": "よかった！朝飯前だったよ。",
+                "zh-Hans": "不错！小菜一碟。"
               },
               "correct": true,
               "response": "¡Qué padre! Hay que celebrar.",
               "responseTranslation": {
                 "en": "How cool! We have to celebrate.",
-                "vi": "Đỉnh thật! Phải ăn mừng thôi."
+                "vi": "Đỉnh thật! Phải ăn mừng thôi.",
+                "pt-BR": "Que legal! Temos que comemorar.",
+                "fr": "Trop cool ! Il faut fêter ça.",
+                "de": "Wie cool! Das müssen wir feiern.",
+                "it": "Che figata! Dobbiamo festeggiare.",
+                "ja": "すごい！お祝いしなきゃ。",
+                "zh-Hans": "太酷了！我们得庆祝一下。"
               },
               "next": "plan"
             },
@@ -165,13 +333,25 @@
               "es": "Uf, difícil, pero le eché ganas.",
               "translation": {
                 "en": "Ugh, tough, but I gave it my all.",
-                "vi": "Ôi, khó lắm, nhưng mình đã cố hết sức."
+                "vi": "Ôi, khó lắm, nhưng mình đã cố hết sức.",
+                "pt-BR": "Ufa, difícil, mas dei o meu melhor.",
+                "fr": "Pff, dur, mais j’ai tout donné.",
+                "de": "Puh, schwer, aber ich habe alles gegeben.",
+                "it": "Uff, difficile, ma ho dato il massimo.",
+                "ja": "うわ、難しかったけど全力を尽くしたよ。",
+                "zh-Hans": "唉，挺难的，但我尽力了。"
               },
               "correct": true,
               "response": "Eso es lo importante. Vamos a celebrar.",
               "responseTranslation": {
                 "en": "That's what matters. Let's celebrate.",
-                "vi": "Thế là được rồi. Đi ăn mừng nào."
+                "vi": "Thế là được rồi. Đi ăn mừng nào.",
+                "pt-BR": "É isso que importa. Vamos comemorar.",
+                "fr": "C’est ce qui compte. Allez, on fête ça.",
+                "de": "Das ist es, was zählt. Lass uns feiern.",
+                "it": "È questo che conta. Festeggiamo.",
+                "ja": "それが大事。お祝いしよう。",
+                "zh-Hans": "这才是最重要的。我们去庆祝吧。"
               },
               "next": "plan"
             },
@@ -180,14 +360,26 @@
               "es": "Estimado amigo, el examen transcurrió de forma satisfactoria.",
               "translation": {
                 "en": "Dear friend, the exam proceeded satisfactorily.",
-                "vi": "Bạn thân mến, kỳ thi đã diễn ra tốt đẹp."
+                "vi": "Bạn thân mến, kỳ thi đã diễn ra tốt đẹp.",
+                "pt-BR": "Prezado amigo, o exame transcorreu de forma satisfatória.",
+                "fr": "Cher ami, l’examen s’est déroulé de manière satisfaisante.",
+                "de": "Lieber Freund, die Prüfung ist zufriedenstellend verlaufen.",
+                "it": "Caro amico, l’esame si è svolto in modo soddisfacente.",
+                "ja": "親愛なる友よ、試験はつつがなく終了いたしました。",
+                "zh-Hans": "亲爱的朋友，考试进行得令人满意。"
               },
               "correct": false,
               "correction": "¡Bien! Fue pan comido.",
               "response": "Jaja, ¡qué formal! Relájate, wey.",
               "responseTranslation": {
                 "en": "Haha, so formal! Relax, dude.",
-                "vi": "Haha, trang trọng thế! Thả lỏng đi bạn."
+                "vi": "Haha, trang trọng thế! Thả lỏng đi bạn.",
+                "pt-BR": "Haha, que formal! Relaxa, cara.",
+                "fr": "Haha, que c’est formel ! Détends-toi, mec.",
+                "de": "Haha, wie förmlich! Entspann dich, Alter.",
+                "it": "Haha, che formale! Rilassati, amico.",
+                "ja": "はは、かたすぎ！リラックスしなよ。",
+                "zh-Hans": "哈哈，好正式！放松点，哥们。"
               },
               "next": "plan"
             }
@@ -198,11 +390,23 @@
           "prompt": "¿Vamos por unos tacos ahorita?",
           "translation": {
             "en": "Shall we go for some tacos now(ish)?",
-            "vi": "Đi ăn tacos giờ (hoặc lát nữa) không?"
+            "vi": "Đi ăn tacos giờ (hoặc lát nữa) không?",
+            "pt-BR": "Vamos comer uns tacos já já?",
+            "fr": "On va manger des tacos tout de suite (ou presque) ?",
+            "de": "Gehen wir gleich (so ungefähr) Tacos essen?",
+            "it": "Andiamo a mangiare dei tacos tra poco?",
+            "ja": "今から（たぶん）タコス食べに行く？",
+            "zh-Hans": "我们待会儿去吃塔可吧？"
           },
           "hint": {
             "en": "Ask what “ahorita” means here, or agree.",
-            "vi": "Hỏi “ahorita” ở đây là khi nào, hoặc đồng ý."
+            "vi": "Hỏi “ahorita” ở đây là khi nào, hoặc đồng ý.",
+            "pt-BR": "Pergunte o que “ahorita” significa aqui, ou aceite.",
+            "fr": "Demandez ce que « ahorita » veut dire ici, ou acceptez.",
+            "de": "Frag, was „ahorita“ hier bedeutet, oder sag zu.",
+            "it": "Chiedi cosa significa qui “ahorita”, o accetta.",
+            "ja": "ここでの「ahorita」の意味を聞くか、賛成しよう。",
+            "zh-Hans": "问问这里的“ahorita”是什么意思，或者答应。"
           },
           "choices": [
             {
@@ -210,13 +414,25 @@
               "es": "¿Ahorita ahorita o ahorita en un rato?",
               "translation": {
                 "en": "Like right now, or “ahorita” in a while?",
-                "vi": "Ngay bây giờ hay một lúc nữa?"
+                "vi": "Ngay bây giờ hay một lúc nữa?",
+                "pt-BR": "Tipo agora mesmo, ou “ahorita” daqui a pouco?",
+                "fr": "Genre maintenant, ou « ahorita » dans un moment ?",
+                "de": "Also sofort, oder „ahorita“ in einer Weile?",
+                "it": "Tipo adesso, o “ahorita” tra un po’?",
+                "ja": "今すぐ？それとも「ahorita」でちょっと後？",
+                "zh-Hans": "是现在马上，还是“ahorita”过一会儿？"
               },
               "correct": true,
               "response": "Jaja, ahorita ahorita. ¡Vámonos!",
               "responseTranslation": {
                 "en": "Haha, right now. Let's go!",
-                "vi": "Haha, ngay bây giờ. Đi thôi!"
+                "vi": "Haha, ngay bây giờ. Đi thôi!",
+                "pt-BR": "Haha, agora mesmo. Bora!",
+                "fr": "Haha, maintenant. On y va !",
+                "de": "Haha, sofort. Los geht’s!",
+                "it": "Haha, adesso. Andiamo!",
+                "ja": "はは、今すぐ。行こう！",
+                "zh-Hans": "哈哈，现在马上。走吧！"
               },
               "next": "taco"
             },
@@ -225,13 +441,25 @@
               "es": "¡Está chido! Vámonos.",
               "translation": {
                 "en": "Cool! Let's go.",
-                "vi": "Được đấy! Đi thôi."
+                "vi": "Được đấy! Đi thôi.",
+                "pt-BR": "Legal! Bora.",
+                "fr": "Cool ! On y va.",
+                "de": "Cool! Los geht’s.",
+                "it": "Figo! Andiamo.",
+                "ja": "いいね！行こう。",
+                "zh-Hans": "酷！走吧。"
               },
               "correct": true,
               "response": "¡Órale! Conozco un lugar buenísimo.",
               "responseTranslation": {
                 "en": "Alright! I know a great place.",
-                "vi": "Ok luôn! Mình biết một chỗ ngon lắm."
+                "vi": "Ok luôn! Mình biết một chỗ ngon lắm.",
+                "pt-BR": "Fechou! Conheço um lugar ótimo.",
+                "fr": "Ça marche ! Je connais un super endroit.",
+                "de": "Alles klar! Ich kenne einen tollen Laden.",
+                "it": "Perfetto! Conosco un posto fantastico.",
+                "ja": "OK！いい店知ってるよ。",
+                "zh-Hans": "好嘞！我知道一家很棒的店。"
               },
               "next": "taco"
             },
@@ -240,14 +468,26 @@
               "es": "Más vale tarde que nunca.",
               "translation": {
                 "en": "Better late than never.",
-                "vi": "Muộn còn hơn không."
+                "vi": "Muộn còn hơn không.",
+                "pt-BR": "Antes tarde do que nunca.",
+                "fr": "Mieux vaut tard que jamais.",
+                "de": "Besser spät als nie.",
+                "it": "Meglio tardi che mai.",
+                "ja": "遅くてもしないよりまし。",
+                "zh-Hans": "迟做总比不做好。"
               },
               "correct": false,
               "correction": "¡Está chido! Vámonos.",
               "response": "¿Eso es un sí? Jaja, vámonos.",
               "responseTranslation": {
                 "en": "Is that a yes? Haha, let's go.",
-                "vi": "Thế là đồng ý à? Haha, đi thôi."
+                "vi": "Thế là đồng ý à? Haha, đi thôi.",
+                "pt-BR": "Isso é um sim? Haha, bora.",
+                "fr": "C’est un oui ? Haha, on y va.",
+                "de": "Ist das ein Ja? Haha, los.",
+                "it": "È un sì? Haha, andiamo.",
+                "ja": "それってイエス？はは、行こう。",
+                "zh-Hans": "这是答应了？哈哈，走吧。"
               },
               "next": "taco"
             }
@@ -258,11 +498,23 @@
           "prompt": "¡Aguas! Esa salsa pica muchísimo.",
           "translation": {
             "en": "Watch out! That salsa is really spicy.",
-            "vi": "Coi chừng! Sốt đó cay lắm đấy."
+            "vi": "Coi chừng! Sốt đó cay lắm đấy.",
+            "pt-BR": "Cuidado! Esse molho é bem picante.",
+            "fr": "Attention ! Cette sauce est très piquante.",
+            "de": "Pass auf! Die Soße ist echt scharf.",
+            "it": "Attento! Quella salsa è piccantissima.",
+            "ja": "気をつけて！そのサルサはすごく辛いよ。",
+            "zh-Hans": "小心！那个酱特别辣。"
           },
           "hint": {
             "en": "React naturally.",
-            "vi": "Phản ứng tự nhiên."
+            "vi": "Phản ứng tự nhiên.",
+            "pt-BR": "Reaja com naturalidade.",
+            "fr": "Réagissez naturellement.",
+            "de": "Reagiere natürlich.",
+            "it": "Reagisci in modo naturale.",
+            "ja": "自然に反応しよう。",
+            "zh-Hans": "自然地回应。"
           },
           "choices": [
             {
@@ -270,13 +522,25 @@
               "es": "¡No manches, pica demasiado!",
               "translation": {
                 "en": "No way, it's way too spicy!",
-                "vi": "Trời ơi, cay quá trời!"
+                "vi": "Trời ơi, cay quá trời!",
+                "pt-BR": "Não acredito, é picante demais!",
+                "fr": "C’est pas vrai, elle pique beaucoup trop !",
+                "de": "Echt jetzt, die ist viel zu scharf!",
+                "it": "Non ci credo, è troppo piccante!",
+                "ja": "うそでしょ、辛すぎる！",
+                "zh-Hans": "不会吧，太辣了！"
               },
               "correct": true,
               "response": "¡Te dije! Toma agua.",
               "responseTranslation": {
                 "en": "I told you! Have some water.",
-                "vi": "Đã bảo mà! Uống nước đi."
+                "vi": "Đã bảo mà! Uống nước đi.",
+                "pt-BR": "Eu avisei! Toma água.",
+                "fr": "Je te l’avais dit ! Bois de l’eau.",
+                "de": "Hab ich doch gesagt! Trink Wasser.",
+                "it": "Te l’avevo detto! Bevi un po’ d’acqua.",
+                "ja": "言ったでしょ！水飲んで。",
+                "zh-Hans": "我早说了！喝点水。"
               }
             },
             {
@@ -284,13 +548,25 @@
               "es": "Gracias por avisar. Mejor la verde.",
               "translation": {
                 "en": "Thanks for the heads-up. The green one's better.",
-                "vi": "Cảm ơn đã nhắc. Lấy sốt xanh thôi."
+                "vi": "Cảm ơn đã nhắc. Lấy sốt xanh thôi.",
+                "pt-BR": "Valeu o aviso. O verde é melhor.",
+                "fr": "Merci de prévenir. La verte est meilleure.",
+                "de": "Danke für die Warnung. Die grüne ist besser.",
+                "it": "Grazie dell’avviso. Quella verde è meglio.",
+                "ja": "教えてくれてありがとう。緑のほうがいいね。",
+                "zh-Hans": "谢谢提醒。绿色的更好。"
               },
               "correct": true,
               "response": "Buena decisión.",
               "responseTranslation": {
                 "en": "Good call.",
-                "vi": "Chọn đúng đấy."
+                "vi": "Chọn đúng đấy.",
+                "pt-BR": "Boa escolha.",
+                "fr": "Bon choix.",
+                "de": "Gute Wahl.",
+                "it": "Ottima scelta.",
+                "ja": "いい選択。",
+                "zh-Hans": "好选择。"
               }
             },
             {
@@ -298,14 +574,26 @@
               "es": "¿Dónde está el agua?",
               "translation": {
                 "en": "Where is the water?",
-                "vi": "Nước ở đâu?"
+                "vi": "Nước ở đâu?",
+                "pt-BR": "Onde fica a água?",
+                "fr": "Où est l’eau ?",
+                "de": "Wo ist das Wasser?",
+                "it": "Dov’è l’acqua?",
+                "ja": "水はどこですか？",
+                "zh-Hans": "水在哪里？"
               },
               "correct": false,
               "correction": "¡No manches, pica demasiado!",
               "response": "Jaja, ya te picó, ¿verdad? Aquí está el agua.",
               "responseTranslation": {
                 "en": "Haha, it already got you, right? Here's the water.",
-                "vi": "Haha, cay rồi phải không? Nước đây."
+                "vi": "Haha, cay rồi phải không? Nước đây.",
+                "pt-BR": "Haha, já te pegou, né? Aqui está a água.",
+                "fr": "Haha, elle t’a eu, hein ? Voilà de l’eau.",
+                "de": "Haha, hat dich schon erwischt, oder? Hier ist Wasser.",
+                "it": "Haha, ti ha già fregato, eh? Ecco l’acqua.",
+                "ja": "はは、もうやられたね？はい、水。",
+                "zh-Hans": "哈哈，已经被辣到了吧？水在这儿。"
               }
             }
           ]

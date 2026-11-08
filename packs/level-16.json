@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-16",
-  "version": 1,
+  "version": 2,
   "level": 16,
   "cefr": "B1",
   "title": {
     "en": "Intermediate 8: Feelings & relationships",
-    "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ"
+    "vi": "Trung cấp 8: Cảm xúc & các mối quan hệ",
+    "pt-BR": "Intermediário 8: Sentimentos e relacionamentos",
+    "fr": "Intermédiaire 8 : Sentiments et relations",
+    "de": "Mittelstufe 8: Gefühle und Beziehungen",
+    "it": "Intermedio 8: Sentimenti e relazioni",
+    "ja": "中級 8：気持ちと人間関係",
+    "zh-Hans": "中级 8：情感和人际关系"
   },
   "description": {
     "en": "Express emotions and react to others' news.",
-    "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác."
+    "vi": "Bày tỏ cảm xúc và phản hồi tin tức của người khác.",
+    "pt-BR": "Expresse emoções e reaja às notícias dos outros.",
+    "fr": "Exprimez vos émotions et réagissez aux nouvelles des autres.",
+    "de": "Drücke Gefühle aus und reagiere auf Neuigkeiten anderer.",
+    "it": "Esprimi emozioni e reagisci alle notizie degli altri.",
+    "ja": "感情を表して、人の知らせに反応しよう。",
+    "zh-Hans": "表达情绪，回应别人的消息。"
   },
   "lessons": [
     {
       "id": "emotions",
       "title": {
         "en": "Talking about emotions",
-        "vi": "Nói về cảm xúc"
+        "vi": "Nói về cảm xúc",
+        "pt-BR": "Falando de emoções",
+        "fr": "Parler des émotions",
+        "de": "Über Gefühle sprechen",
+        "it": "Parlare di emozioni",
+        "ja": "感情を話す",
+        "zh-Hans": "谈论情绪"
       },
       "description": {
         "en": "Say how things make you feel.",
-        "vi": "Nói điều gì khiến bạn cảm thấy thế nào."
+        "vi": "Nói điều gì khiến bạn cảm thấy thế nào.",
+        "pt-BR": "Diga como as coisas fazem você se sentir.",
+        "fr": "Dites ce que les choses vous font ressentir.",
+        "de": "Sag, wie dich Dinge fühlen lassen.",
+        "it": "Di’ come ti fanno sentire le cose.",
+        "ja": "物事にどう感じるかを言おう。",
+        "zh-Hans": "说说事情让你有什么感受。"
       },
       "focus": {
         "en": "Many feelings work like “gustar”: me molesta, me da miedo, me pone nervioso + the thing that causes it.",
-        "vi": "Nhiều cảm xúc dùng như “gustar”: me molesta, me da miedo, me pone nervioso + điều gây ra cảm xúc."
+        "vi": "Nhiều cảm xúc dùng như “gustar”: me molesta, me da miedo, me pone nervioso + điều gây ra cảm xúc.",
+        "pt-BR": "Muitos sentimentos funcionam como “gustar”: me molesta, me da miedo, me pone nervioso + o que causa.",
+        "fr": "Beaucoup de sentiments fonctionnent comme « gustar » : me molesta, me da miedo, me pone nervioso + ce qui les provoque.",
+        "de": "Viele Gefühle funktionieren wie „gustar“: me molesta, me da miedo, me pone nervioso + das, was sie auslöst.",
+        "it": "Molti sentimenti funzionano come “gustar”: me molesta, me da miedo, me pone nervioso + ciò che li provoca.",
+        "ja": "多くの感情は「gustar」型：me molesta, me da miedo, me pone nervioso＋原因となるもの。",
+        "zh-Hans": "很多情感的用法和“gustar”一样：me molesta, me da miedo, me pone nervioso + 引起它的事物。"
       },
       "icon": "heart",
       "phrases": [
         {
           "es": "Me pone nervioso hablar en público.",
           "en": "Speaking in public makes me nervous.",
-          "vi": "Nói trước đám đông làm tôi lo lắng."
+          "vi": "Nói trước đám đông làm tôi lo lắng.",
+          "pt-BR": "Falar em público me deixa nervoso.",
+          "fr": "Parler en public me rend nerveux.",
+          "de": "Öffentlich zu sprechen macht mich nervös.",
+          "it": "Parlare in pubblico mi rende nervoso.",
+          "ja": "人前で話すと緊張します。",
+          "zh-Hans": "在公众面前讲话让我紧张。"
         },
         {
           "es": "Me molesta el ruido.",
           "en": "The noise bothers me.",
-          "vi": "Tiếng ồn làm tôi khó chịu."
+          "vi": "Tiếng ồn làm tôi khó chịu.",
+          "pt-BR": "O barulho me incomoda.",
+          "fr": "Le bruit me dérange.",
+          "de": "Der Lärm stört mich.",
+          "it": "Il rumore mi dà fastidio.",
+          "ja": "騒音が気になります。",
+          "zh-Hans": "噪音让我心烦。"
         },
         {
           "es": "Me da miedo volar.",
           "en": "Flying scares me.",
-          "vi": "Tôi sợ đi máy bay."
+          "vi": "Tôi sợ đi máy bay.",
+          "pt-BR": "Tenho medo de voar.",
+          "fr": "Prendre l’avion me fait peur.",
+          "de": "Fliegen macht mir Angst.",
+          "it": "Volare mi fa paura.",
+          "ja": "飛行機が怖いです。",
+          "zh-Hans": "坐飞机让我害怕。"
         },
         {
           "es": "Me siento orgulloso de ti.",
           "en": "I'm proud of you.",
-          "vi": "Tôi tự hào về bạn."
+          "vi": "Tôi tự hào về bạn.",
+          "pt-BR": "Tenho orgulho de você.",
+          "fr": "Je suis fier de toi.",
+          "de": "Ich bin stolz auf dich.",
+          "it": "Sono orgoglioso di te.",
+          "ja": "あなたを誇りに思います。",
+          "zh-Hans": "我为你骄傲。"
         },
         {
           "es": "Estoy harto del tráfico.",
           "en": "I'm fed up with the traffic.",
-          "vi": "Tôi chán ngấy kẹt xe rồi."
+          "vi": "Tôi chán ngấy kẹt xe rồi.",
+          "pt-BR": "Estou cansado do trânsito.",
+          "fr": "J’en ai marre des bouchons.",
+          "de": "Ich habe die Nase voll vom Verkehr.",
+          "it": "Sono stufo del traffico.",
+          "ja": "渋滞にはうんざりです。",
+          "zh-Hans": "我受够堵车了。"
         },
         {
           "es": "Me encanta pasar tiempo contigo.",
           "en": "I love spending time with you.",
-          "vi": "Tôi rất thích ở bên bạn."
+          "vi": "Tôi rất thích ở bên bạn.",
+          "pt-BR": "Adoro passar tempo com você.",
+          "fr": "J’adore passer du temps avec toi.",
+          "de": "Ich verbringe so gern Zeit mit dir.",
+          "it": "Adoro passare il tempo con te.",
+          "ja": "あなたと過ごす時間が大好きです。",
+          "zh-Hans": "我喜欢和你在一起。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "reactions",
       "title": {
         "en": "Reacting to news",
-        "vi": "Phản hồi tin tức"
+        "vi": "Phản hồi tin tức",
+        "pt-BR": "Reagindo a notícias",
+        "fr": "Réagir aux nouvelles",
+        "de": "Auf Neuigkeiten reagieren",
+        "it": "Reagire alle notizie",
+        "ja": "知らせに反応する",
+        "zh-Hans": "回应消息"
       },
       "description": {
         "en": "Share joy and sympathy.",
-        "vi": "Chia vui và chia buồn."
+        "vi": "Chia vui và chia buồn.",
+        "pt-BR": "Compartilhe alegria e solidariedade.",
+        "fr": "Partagez la joie et la compassion.",
+        "de": "Teile Freude und Mitgefühl.",
+        "it": "Condividi gioia e solidarietà.",
+        "ja": "喜びと共感を伝えよう。",
+        "zh-Hans": "分享喜悦和同情。"
       },
       "focus": {
         "en": "After emotions about someone else, use the subjunctive: me alegra que estés, siento que te sientas, ojalá que salga.",
-        "vi": "Sau cảm xúc về người khác, dùng thức giả định: me alegra que estés, siento que te sientas, ojalá que salga."
+        "vi": "Sau cảm xúc về người khác, dùng thức giả định: me alegra que estés, siento que te sientas, ojalá que salga.",
+        "pt-BR": "Depois de emoções sobre outra pessoa, use o subjuntivo: me alegra que estés, siento que te sientas, ojalá que salga.",
+        "fr": "Après une émotion à propos de quelqu’un d’autre, utilisez le subjonctif : me alegra que estés, siento que te sientas, ojalá que salga.",
+        "de": "Nach Gefühlen über jemand anderen steht der Subjuntivo: me alegra que estés, siento que te sientas, ojalá que salga.",
+        "it": "Dopo emozioni su un’altra persona si usa il congiuntivo: me alegra que estés, siento que te sientas, ojalá que salga.",
+        "ja": "他人についての感情の後は接続法：me alegra que estés, siento que te sientas, ojalá que salga。",
+        "zh-Hans": "表达对他人的情绪后用虚拟式：me alegra que estés, siento que te sientas, ojalá que salga。"
       },
       "icon": "message-circle",
       "phrases": [
         {
           "es": "¡Me alegra que estés bien!",
           "en": "I'm glad you're OK!",
-          "vi": "Mừng là bạn ổn!"
+          "vi": "Mừng là bạn ổn!",
+          "pt-BR": "Que bom que você está bem!",
+          "fr": "Je suis content que tu ailles bien !",
+          "de": "Wie schön, dass es dir gut geht!",
+          "it": "Che bello che tu stia bene!",
+          "ja": "元気でよかった！",
+          "zh-Hans": "很高兴你没事！"
         },
         {
           "es": "Siento mucho que te sientas así.",
           "en": "I'm so sorry you feel that way.",
-          "vi": "Tôi rất tiếc khi bạn cảm thấy như vậy."
+          "vi": "Tôi rất tiếc khi bạn cảm thấy như vậy.",
+          "pt-BR": "Sinto muito que você se sinta assim.",
+          "fr": "Je suis vraiment désolé que tu te sentes comme ça.",
+          "de": "Es tut mir so leid, dass du dich so fühlst.",
+          "it": "Mi dispiace tanto che tu ti senta così.",
+          "ja": "そんな気持ちにさせてしまってごめんね。",
+          "zh-Hans": "你有这种感受我很难过。"
         },
         {
           "es": "¡Qué buena noticia!",
           "en": "What great news!",
-          "vi": "Tin vui quá!"
+          "vi": "Tin vui quá!",
+          "pt-BR": "Que notícia ótima!",
+          "fr": "Quelle bonne nouvelle !",
+          "de": "Was für tolle Neuigkeiten!",
+          "it": "Che bella notizia!",
+          "ja": "すごくいい知らせだね！",
+          "zh-Hans": "太好的消息了！"
         },
         {
           "es": "¡No puede ser!",
           "en": "No way! / It can't be!",
-          "vi": "Không thể nào!"
+          "vi": "Không thể nào!",
+          "pt-BR": "Não acredito!",
+          "fr": "C’est pas vrai !",
+          "de": "Nicht zu fassen!",
+          "it": "Non ci credo!",
+          "ja": "まさか！／信じられない！",
+          "zh-Hans": "不会吧！"
         },
         {
           "es": "Cuenta conmigo.",
           "en": "You can count on me.",
-          "vi": "Cứ tin ở tôi."
+          "vi": "Cứ tin ở tôi.",
+          "pt-BR": "Pode contar comigo.",
+          "fr": "Tu peux compter sur moi.",
+          "de": "Du kannst auf mich zählen.",
+          "it": "Puoi contare su di me.",
+          "ja": "頼ってね。",
+          "zh-Hans": "你可以依靠我。"
         },
         {
           "es": "Ojalá que todo salga bien.",
           "en": "I hope everything goes well.",
-          "vi": "Mong mọi chuyện suôn sẻ."
+          "vi": "Mong mọi chuyện suôn sẻ.",
+          "pt-BR": "Espero que tudo dê certo.",
+          "fr": "J’espère que tout se passera bien.",
+          "de": "Ich hoffe, alles läuft gut.",
+          "it": "Spero che vada tutto bene.",
+          "ja": "すべてうまくいきますように。",
+          "zh-Hans": "希望一切顺利。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "big-news",
       "title": {
         "en": "A friend's big news",
-        "vi": "Tin lớn của bạn bè"
+        "vi": "Tin lớn của bạn bè",
+        "pt-BR": "A grande notícia de um amigo",
+        "fr": "La grande nouvelle d’un ami",
+        "de": "Die große Neuigkeit eines Freundes",
+        "it": "La grande notizia di un amico",
+        "ja": "友だちのビッグニュース",
+        "zh-Hans": "朋友的大消息"
       },
       "description": {
         "en": "React to good news, then offer support.",
-        "vi": "Phản hồi tin vui, rồi động viên."
+        "vi": "Phản hồi tin vui, rồi động viên.",
+        "pt-BR": "Reaja a uma boa notícia e depois ofereça apoio.",
+        "fr": "Réagissez à une bonne nouvelle, puis offrez votre soutien.",
+        "de": "Reagiere auf gute Nachrichten und biete dann Unterstützung an.",
+        "it": "Reagisci a una bella notizia, poi offri sostegno.",
+        "ja": "いい知らせに反応して、支えを申し出よう。",
+        "zh-Hans": "回应好消息，然后表示支持。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¡Tengo noticias! Me dieron el trabajo en Monterrey.",
           "translation": {
             "en": "I have news! I got the job in Monterrey.",
-            "vi": "Mình có tin này! Mình được nhận việc ở Monterrey rồi."
+            "vi": "Mình có tin này! Mình được nhận việc ở Monterrey rồi.",
+            "pt-BR": "Tenho novidades! Consegui o emprego em Monterrey.",
+            "fr": "J’ai une nouvelle ! J’ai eu le poste à Monterrey.",
+            "de": "Ich habe Neuigkeiten! Ich habe den Job in Monterrey bekommen.",
+            "it": "Ho una novità! Ho ottenuto il lavoro a Monterrey.",
+            "ja": "ニュースがあるの！モンテレイの仕事が決まった。",
+            "zh-Hans": "我有消息！我拿到蒙特雷的工作了。"
           },
           "hint": {
             "en": "React with joy.",
-            "vi": "Phản hồi vui mừng."
+            "vi": "Phản hồi vui mừng.",
+            "pt-BR": "Reaja com alegria.",
+            "fr": "Réagissez avec joie.",
+            "de": "Reagiere mit Freude.",
+            "it": "Reagisci con gioia.",
+            "ja": "喜んで反応しよう。",
+            "zh-Hans": "高兴地回应。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "¡Qué buena noticia! Me alegra mucho por ti.",
               "translation": {
                 "en": "What great news! I'm so happy for you.",
-                "vi": "Tin vui quá! Mình mừng cho bạn lắm."
+                "vi": "Tin vui quá! Mình mừng cho bạn lắm.",
+                "pt-BR": "Que notícia ótima! Estou muito feliz por você.",
+                "fr": "Quelle bonne nouvelle ! Je suis si content pour toi.",
+                "de": "Was für tolle Neuigkeiten! Ich freue mich so für dich.",
+                "it": "Che bella notizia! Sono felicissimo per te.",
+                "ja": "すごくいい知らせだね！本当におめでとう。",
+                "zh-Hans": "太好的消息了！我真为你高兴。"
               },
               "correct": true,
               "response": "Gracias… aunque me da un poco de miedo mudarme.",
               "responseTranslation": {
                 "en": "Thanks… although moving scares me a bit.",
-                "vi": "Cảm ơn… dù chuyển nhà làm mình hơi sợ."
+                "vi": "Cảm ơn… dù chuyển nhà làm mình hơi sợ.",
+                "pt-BR": "Obrigado… mas a mudança me dá um pouco de medo.",
+                "fr": "Merci… même si le déménagement me fait un peu peur.",
+                "de": "Danke… obwohl mir der Umzug ein bisschen Angst macht.",
+                "it": "Grazie… anche se il trasloco mi fa un po’ paura.",
+                "ja": "ありがとう…でも引っ越しがちょっと怖いんだ。",
+                "zh-Hans": "谢谢……不过搬家让我有点害怕。"
               },
               "next": "worry"
             },
@@ -157,13 +313,25 @@
               "es": "¡No puede ser! ¡Felicidades!",
               "translation": {
                 "en": "No way! Congratulations!",
-                "vi": "Không thể tin được! Chúc mừng nhé!"
+                "vi": "Không thể tin được! Chúc mừng nhé!",
+                "pt-BR": "Não acredito! Parabéns!",
+                "fr": "C’est pas vrai ! Félicitations !",
+                "de": "Nicht zu fassen! Glückwunsch!",
+                "it": "Non ci credo! Congratulazioni!",
+                "ja": "まさか！おめでとう！",
+                "zh-Hans": "不会吧！恭喜！"
               },
               "correct": true,
               "response": "¡Gracias! Pero estoy un poco nerviosa por la mudanza.",
               "responseTranslation": {
                 "en": "Thanks! But I'm a bit nervous about the move.",
-                "vi": "Cảm ơn! Nhưng mình hơi lo về việc chuyển nhà."
+                "vi": "Cảm ơn! Nhưng mình hơi lo về việc chuyển nhà.",
+                "pt-BR": "Obrigado! Mas estou um pouco nervoso com a mudança.",
+                "fr": "Merci ! Mais je suis un peu nerveux pour le déménagement.",
+                "de": "Danke! Aber ich bin wegen des Umzugs etwas nervös.",
+                "it": "Grazie! Ma sono un po’ nervoso per il trasloco.",
+                "ja": "ありがとう！でも引っ越しが少し不安なんだ。",
+                "zh-Hans": "谢谢！但我对搬家有点紧张。"
               },
               "next": "worry"
             },
@@ -172,14 +340,26 @@
               "es": "Lo siento mucho.",
               "translation": {
                 "en": "I'm very sorry.",
-                "vi": "Mình rất tiếc."
+                "vi": "Mình rất tiếc.",
+                "pt-BR": "Sinto muito.",
+                "fr": "Je suis vraiment désolé.",
+                "de": "Das tut mir sehr leid.",
+                "it": "Mi dispiace molto.",
+                "ja": "本当にお気の毒です。",
+                "zh-Hans": "我很遗憾。"
               },
               "correct": false,
               "correction": "¡Qué buena noticia! Me alegra mucho por ti.",
               "response": "¿Por qué? ¡Es algo bueno!",
               "responseTranslation": {
                 "en": "Why? It's a good thing!",
-                "vi": "Sao lại tiếc? Chuyện tốt mà!"
+                "vi": "Sao lại tiếc? Chuyện tốt mà!",
+                "pt-BR": "Por quê? É uma coisa boa!",
+                "fr": "Pourquoi ? C’est une bonne chose !",
+                "de": "Warum? Das ist doch etwas Gutes!",
+                "it": "Perché? È una cosa bella!",
+                "ja": "なんで？いいことじゃない！",
+                "zh-Hans": "为什么？这是好事啊！"
               },
               "next": "worry"
             }
@@ -190,11 +370,23 @@
           "prompt": "No conozco a nadie allá.",
           "translation": {
             "en": "I don't know anyone there.",
-            "vi": "Ở đó mình không quen ai cả."
+            "vi": "Ở đó mình không quen ai cả.",
+            "pt-BR": "Não conheço ninguém lá.",
+            "fr": "Je ne connais personne là-bas.",
+            "de": "Ich kenne dort niemanden.",
+            "it": "Non conosco nessuno lì.",
+            "ja": "向こうに知り合いがいないんだ。",
+            "zh-Hans": "我在那儿谁都不认识。"
           },
           "hint": {
             "en": "Offer support.",
-            "vi": "Động viên bạn."
+            "vi": "Động viên bạn.",
+            "pt-BR": "Ofereça apoio.",
+            "fr": "Offrez votre soutien.",
+            "de": "Biete Unterstützung an.",
+            "it": "Offri sostegno.",
+            "ja": "支えを申し出よう。",
+            "zh-Hans": "表示支持。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Cuenta conmigo, te visito pronto.",
               "translation": {
                 "en": "Count on me, I'll visit you soon.",
-                "vi": "Có mình đây, mình sẽ sớm ghé thăm bạn."
+                "vi": "Có mình đây, mình sẽ sớm ghé thăm bạn.",
+                "pt-BR": "Conte comigo, vou te visitar logo.",
+                "fr": "Compte sur moi, je viendrai te voir bientôt.",
+                "de": "Zähl auf mich, ich besuche dich bald.",
+                "it": "Conta su di me, verrò a trovarti presto.",
+                "ja": "任せて、すぐ会いに行くよ。",
+                "zh-Hans": "有我呢，我很快就去看你。"
               },
               "correct": true,
               "response": "Eso me hace sentir mucho mejor.",
               "responseTranslation": {
                 "en": "That makes me feel much better.",
-                "vi": "Nghe vậy mình thấy đỡ hơn nhiều."
+                "vi": "Nghe vậy mình thấy đỡ hơn nhiều.",
+                "pt-BR": "Isso me deixa bem mais tranquilo.",
+                "fr": "Ça me rassure beaucoup.",
+                "de": "Damit geht es mir viel besser.",
+                "it": "Questo mi fa sentire molto meglio.",
+                "ja": "それを聞いてずっと気が楽になった。",
+                "zh-Hans": "这让我感觉好多了。"
               },
               "next": "hope"
             },
@@ -217,13 +421,25 @@
               "es": "Vas a hacer amigos rápido, eres muy simpática.",
               "translation": {
                 "en": "You'll make friends fast, you're very friendly.",
-                "vi": "Bạn sẽ có bạn mới nhanh thôi, bạn thân thiện mà."
+                "vi": "Bạn sẽ có bạn mới nhanh thôi, bạn thân thiện mà.",
+                "pt-BR": "Você vai fazer amigos rápido, você é muito simpático.",
+                "fr": "Tu vas te faire des amis vite, tu es très sympathique.",
+                "de": "Du wirst schnell Freunde finden, du bist sehr nett.",
+                "it": "Farai amicizia in fretta, sei molto simpatico.",
+                "ja": "すぐ友だちができるよ、すごく感じがいいもん。",
+                "zh-Hans": "你很快就会交到朋友的，你人那么好。"
               },
               "correct": true,
               "response": "Ojalá tengas razón.",
               "responseTranslation": {
                 "en": "I hope you're right.",
-                "vi": "Mong là bạn nói đúng."
+                "vi": "Mong là bạn nói đúng.",
+                "pt-BR": "Espero que você tenha razão.",
+                "fr": "J’espère que tu as raison.",
+                "de": "Ich hoffe, du hast recht.",
+                "it": "Spero che tu abbia ragione.",
+                "ja": "そうだといいな。",
+                "zh-Hans": "希望你说得对。"
               },
               "next": "hope"
             },
@@ -232,14 +448,26 @@
               "es": "Estoy harto del tráfico.",
               "translation": {
                 "en": "I'm fed up with the traffic.",
-                "vi": "Mình chán kẹt xe lắm rồi."
+                "vi": "Mình chán kẹt xe lắm rồi.",
+                "pt-BR": "Estou cansado do trânsito.",
+                "fr": "J’en ai marre des bouchons.",
+                "de": "Ich habe die Nase voll vom Verkehr.",
+                "it": "Sono stufo del traffico.",
+                "ja": "渋滞にはうんざりです。",
+                "zh-Hans": "我受够堵车了。"
               },
               "correct": false,
               "correction": "Cuenta conmigo, te visito pronto.",
               "response": "Jaja, yo también. Pero hablaba de la mudanza…",
               "responseTranslation": {
                 "en": "Haha, me too. But I was talking about the move…",
-                "vi": "Haha, mình cũng vậy. Nhưng mình đang nói chuyện chuyển nhà mà…"
+                "vi": "Haha, mình cũng vậy. Nhưng mình đang nói chuyện chuyển nhà mà…",
+                "pt-BR": "Haha, eu também. Mas eu estava falando da mudança…",
+                "fr": "Haha, moi aussi. Mais je parlais du déménagement…",
+                "de": "Haha, ich auch. Aber ich meinte den Umzug…",
+                "it": "Haha, anch’io. Ma parlavo del trasloco…",
+                "ja": "はは、私も。でも引っ越しの話をしてたんだけど…",
+                "zh-Hans": "哈哈，我也是。不过我说的是搬家……"
               },
               "next": "hope"
             }
@@ -250,11 +478,23 @@
           "prompt": "Me voy el próximo mes.",
           "translation": {
             "en": "I'm leaving next month.",
-            "vi": "Tháng sau mình đi rồi."
+            "vi": "Tháng sau mình đi rồi.",
+            "pt-BR": "Vou no mês que vem.",
+            "fr": "Je pars le mois prochain.",
+            "de": "Ich ziehe nächsten Monat.",
+            "it": "Parto il mese prossimo.",
+            "ja": "来月行きます。",
+            "zh-Hans": "我下个月走。"
           },
           "hint": {
             "en": "Wish them well with “Ojalá que…”.",
-            "vi": "Chúc bạn bằng “Ojalá que…”."
+            "vi": "Chúc bạn bằng “Ojalá que…”.",
+            "pt-BR": "Deseje boa sorte com “Ojalá que…”.",
+            "fr": "Souhaitez-lui bonne chance avec « Ojalá que… ».",
+            "de": "Wünsch ihm alles Gute mit „Ojalá que…“.",
+            "it": "Fagli gli auguri con “Ojalá que…”.",
+            "ja": "「Ojalá que…」で幸運を祈ろう。",
+            "zh-Hans": "用“Ojalá que…”送上祝福。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Ojalá que todo salga muy bien.",
               "translation": {
                 "en": "I hope everything goes really well.",
-                "vi": "Mong mọi chuyện thật suôn sẻ."
+                "vi": "Mong mọi chuyện thật suôn sẻ.",
+                "pt-BR": "Espero que tudo dê muito certo.",
+                "fr": "J’espère que tout se passera très bien.",
+                "de": "Ich hoffe, alles läuft richtig gut.",
+                "it": "Spero che vada tutto benissimo.",
+                "ja": "すべてが本当にうまくいきますように。",
+                "zh-Hans": "希望一切都非常顺利。"
               },
               "correct": true,
               "response": "Gracias, de verdad.",
               "responseTranslation": {
                 "en": "Thank you, really.",
-                "vi": "Thật sự cảm ơn bạn."
+                "vi": "Thật sự cảm ơn bạn.",
+                "pt-BR": "Obrigado, de verdade.",
+                "fr": "Merci, vraiment.",
+                "de": "Danke, wirklich.",
+                "it": "Grazie, davvero.",
+                "ja": "ありがとう、本当に。",
+                "zh-Hans": "真的谢谢你。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "¡Hay que hacer una fiesta de despedida!",
               "translation": {
                 "en": "We have to throw a goodbye party!",
-                "vi": "Phải làm tiệc chia tay mới được!"
+                "vi": "Phải làm tiệc chia tay mới được!",
+                "pt-BR": "Temos que fazer uma festa de despedida!",
+                "fr": "Il faut organiser une fête d’adieu !",
+                "de": "Wir müssen eine Abschiedsparty feiern!",
+                "it": "Dobbiamo fare una festa d’addio!",
+                "ja": "送別会をしなきゃ！",
+                "zh-Hans": "我们得办个欢送会！"
               },
               "correct": true,
               "response": "¡Sí! Me encanta la idea.",
               "responseTranslation": {
                 "en": "Yes! I love the idea.",
-                "vi": "Đúng rồi! Ý hay quá."
+                "vi": "Đúng rồi! Ý hay quá.",
+                "pt-BR": "Sim! Adorei a ideia.",
+                "fr": "Oui ! J’adore l’idée.",
+                "de": "Ja! Die Idee finde ich super.",
+                "it": "Sì! Adoro l’idea.",
+                "ja": "うん！いいアイデア。",
+                "zh-Hans": "好啊！这个主意我喜欢。"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Ojalá que todo sale bien.",
               "translation": {
                 "en": "I hope everything goes well (wrong form).",
-                "vi": "Mong mọi chuyện suôn sẻ (sai dạng)."
+                "vi": "Mong mọi chuyện suôn sẻ (sai dạng).",
+                "pt-BR": "Espero que tudo dê certo (forma errada).",
+                "fr": "J’espère que tout se passe bien (mauvaise forme).",
+                "de": "Ich hoffe, alles läuft gut (falsche Form).",
+                "it": "Spero che va tutto bene (forma sbagliata).",
+                "ja": "すべてうまくいきますように（形の誤り）。",
+                "zh-Hans": "希望一切顺利（形式错误）。"
               },
               "correct": false,
               "correction": "Ojalá que todo salga muy bien.",
               "response": "Gracias. (Se dice “salga”, ¡ojo!)",
               "responseTranslation": {
                 "en": "Thanks. (It's “salga”, careful!)",
-                "vi": "Cảm ơn. (Phải nói “salga” nhé!)"
+                "vi": "Cảm ơn. (Phải nói “salga” nhé!)",
+                "pt-BR": "Obrigado. (É “salga”, cuidado!)",
+                "fr": "Merci. (C’est « salga », attention !)",
+                "de": "Danke. (Es heißt „salga“, Vorsicht!)",
+                "it": "Grazie. (Si dice “salga”, attenzione!)",
+                "ja": "ありがとう。（「salga」だよ、気をつけて！）",
+                "zh-Hans": "谢谢。（是“salga”，注意！）"
               }
             }
           ]

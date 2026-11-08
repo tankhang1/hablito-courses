@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-28",
-  "version": 1,
+  "version": 2,
   "level": 28,
   "cefr": "C1",
   "title": {
     "en": "Advanced 4: Nuance & tact",
-    "vi": "Cao cấp 4: Sắc thái & tế nhị"
+    "vi": "Cao cấp 4: Sắc thái & tế nhị",
+    "pt-BR": "Avançado 4: Nuance e tato",
+    "fr": "Avancé 4 : Nuance et tact",
+    "de": "Fortgeschritten 4: Nuancen und Taktgefühl",
+    "it": "Avanzato 4: Sfumature e tatto",
+    "ja": "上級 4：ニュアンスと気配り",
+    "zh-Hans": "高级 4：分寸与得体"
   },
   "description": {
     "en": "Hedge, soften, and say difficult things gracefully.",
-    "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo."
+    "vi": "Nói giảm, làm mềm và nói điều khó nói một cách khéo léo.",
+    "pt-BR": "Atenue, suavize e diga coisas difíceis com elegância.",
+    "fr": "Nuancez, adoucissez et dites les choses difficiles avec élégance.",
+    "de": "Relativiere, mildere ab und sag Schwieriges mit Feingefühl.",
+    "it": "Attenua, ammorbidisci e di’ cose difficili con garbo.",
+    "ja": "ぼかしたり和らげたりして、言いにくいことを上手に伝えよう。",
+    "zh-Hans": "委婉、缓和，得体地说出难说的话。"
   },
   "lessons": [
     {
       "id": "hedging",
       "title": {
         "en": "Hedging & softening",
-        "vi": "Nói giảm & làm mềm"
+        "vi": "Nói giảm & làm mềm",
+        "pt-BR": "Atenuando e suavizando",
+        "fr": "Nuancer et adoucir",
+        "de": "Relativieren und abmildern",
+        "it": "Attenuare e ammorbidire",
+        "ja": "ぼかす・和らげる",
+        "zh-Hans": "委婉与缓和"
       },
       "description": {
         "en": "Sound careful, not blunt.",
-        "vi": "Nói thận trọng, không cộc lốc."
+        "vi": "Nói thận trọng, không cộc lốc.",
+        "pt-BR": "Soe cuidadoso, não brusco.",
+        "fr": "Soyez prudent, pas brusque.",
+        "de": "Klinge bedacht, nicht schroff.",
+        "it": "Sembra prudente, non brusco.",
+        "ja": "ぶっきらぼうではなく、慎重に聞こえるように。",
+        "zh-Hans": "听起来谨慎，而不是生硬。"
       },
       "focus": {
         "en": "“Quizás + subjunctive” and “no es que + subjunctive” add doubt and tact: quizás no sea, no es que no me guste.",
-        "vi": "“Quizás + giả định” và “no es que + giả định” thêm sự hoài nghi và tế nhị: quizás no sea, no es que no me guste."
+        "vi": "“Quizás + giả định” và “no es que + giả định” thêm sự hoài nghi và tế nhị: quizás no sea, no es que no me guste.",
+        "pt-BR": "“Quizás + subjuntivo” e “no es que + subjuntivo” acrescentam dúvida e tato: quizás no sea, no es que no me guste.",
+        "fr": "« Quizás + subjonctif » et « no es que + subjonctif » ajoutent doute et tact : quizás no sea, no es que no me guste.",
+        "de": "„Quizás + Subjuntivo“ und „no es que + Subjuntivo“ bringen Zweifel und Takt hinein: quizás no sea, no es que no me guste.",
+        "it": "“Quizás + congiuntivo” e “no es que + congiuntivo” aggiungono dubbio e tatto: quizás no sea, no es que no me guste.",
+        "ja": "「Quizás＋接続法」「no es que＋接続法」で疑問と気配りを加える：quizás no sea, no es que no me guste。",
+        "zh-Hans": "“Quizás + 虚拟式”和“no es que + 虚拟式”增加了不确定和分寸：quizás no sea, no es que no me guste。"
       },
       "icon": "sliders",
       "phrases": [
         {
           "es": "Quizás no sea la mejor idea.",
           "en": "Perhaps it isn't the best idea.",
-          "vi": "Có lẽ đó không phải ý hay nhất."
+          "vi": "Có lẽ đó không phải ý hay nhất.",
+          "pt-BR": "Talvez não seja a melhor ideia.",
+          "fr": "Ce n’est peut-être pas la meilleure idée.",
+          "de": "Vielleicht ist es nicht die beste Idee.",
+          "it": "Forse non è l’idea migliore.",
+          "ja": "もしかしたら、一番いい案ではないかもしれません。",
+          "zh-Hans": "也许这不是最好的主意。"
         },
         {
           "es": "Igual me equivoco, pero…",
           "en": "I might be wrong, but…",
-          "vi": "Có thể tôi sai, nhưng…"
+          "vi": "Có thể tôi sai, nhưng…",
+          "pt-BR": "Posso estar enganado, mas…",
+          "fr": "Je me trompe peut-être, mais…",
+          "de": "Ich könnte mich irren, aber…",
+          "it": "Potrei sbagliarmi, ma…",
+          "ja": "間違っているかもしれませんが…",
+          "zh-Hans": "我可能说错了，但是……"
         },
         {
           "es": "No es que no me guste, es que…",
           "en": "It's not that I don't like it, it's that…",
-          "vi": "Không phải tôi không thích, mà là…"
+          "vi": "Không phải tôi không thích, mà là…",
+          "pt-BR": "Não é que eu não goste, é que…",
+          "fr": "Ce n’est pas que je n’aime pas, c’est que…",
+          "de": "Es ist nicht so, dass es mir nicht gefällt, sondern…",
+          "it": "Non è che non mi piaccia, è che…",
+          "ja": "嫌いというわけではなく、ただ…",
+          "zh-Hans": "不是我不喜欢，而是……"
         },
         {
           "es": "Habría que pensarlo un poco más.",
           "en": "We'd need to think it over a bit more.",
-          "vi": "Có lẽ cần suy nghĩ thêm một chút."
+          "vi": "Có lẽ cần suy nghĩ thêm một chút.",
+          "pt-BR": "Teríamos que pensar um pouco mais.",
+          "fr": "Il faudrait y réfléchir un peu plus.",
+          "de": "Wir müssten noch etwas darüber nachdenken.",
+          "it": "Bisognerebbe pensarci un po’ di più.",
+          "ja": "もう少し考える必要がありそうです。",
+          "zh-Hans": "我们需要再多考虑一下。"
         },
         {
           "es": "Por así decirlo…",
           "en": "So to speak…",
-          "vi": "Có thể nói là…"
+          "vi": "Có thể nói là…",
+          "pt-BR": "Por assim dizer…",
+          "fr": "Pour ainsi dire…",
+          "de": "Sozusagen…",
+          "it": "Per così dire…",
+          "ja": "いわば…",
+          "zh-Hans": "可以这么说……"
         },
         {
           "es": "No sé si me explico.",
           "en": "I don't know if I'm making myself clear.",
-          "vi": "Không biết tôi nói vậy có rõ không."
+          "vi": "Không biết tôi nói vậy có rõ không.",
+          "pt-BR": "Não sei se estou me explicando.",
+          "fr": "Je ne sais pas si je me fais bien comprendre.",
+          "de": "Ich weiß nicht, ob ich mich klar ausdrücke.",
+          "it": "Non so se mi spiego.",
+          "ja": "うまく説明できているかわかりませんが。",
+          "zh-Hans": "不知道我有没有说清楚。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "tough-talks",
       "title": {
         "en": "Difficult conversations",
-        "vi": "Những cuộc nói chuyện khó"
+        "vi": "Những cuộc nói chuyện khó",
+        "pt-BR": "Conversas difíceis",
+        "fr": "Conversations difficiles",
+        "de": "Schwierige Gespräche",
+        "it": "Conversazioni difficili",
+        "ja": "難しい会話",
+        "zh-Hans": "艰难的对话"
       },
       "description": {
         "en": "Give feedback and apologize well.",
-        "vi": "Góp ý và xin lỗi khéo léo."
+        "vi": "Góp ý và xin lỗi khéo léo.",
+        "pt-BR": "Dê feedback e peça desculpas bem.",
+        "fr": "Faites un retour et excusez-vous bien.",
+        "de": "Gib Feedback und entschuldige dich richtig.",
+        "it": "Dai un feedback e scusati nel modo giusto.",
+        "ja": "上手にフィードバックし、謝ろう。",
+        "zh-Hans": "好好给反馈，好好道歉。"
       },
       "focus": {
         "en": "“Me hubiera gustado que + past subjunctive” voices disappointment without blaming.",
-        "vi": "“Me hubiera gustado que + giả định quá khứ” bày tỏ sự thất vọng mà không đổ lỗi."
+        "vi": "“Me hubiera gustado que + giả định quá khứ” bày tỏ sự thất vọng mà không đổ lỗi.",
+        "pt-BR": "“Me hubiera gustado que + subjuntivo passado” expressa decepção sem culpar.",
+        "fr": "« Me hubiera gustado que + subjonctif passé » exprime une déception sans accuser.",
+        "de": "„Me hubiera gustado que + Subjuntivo der Vergangenheit“ drückt Enttäuschung aus, ohne Vorwürfe zu machen.",
+        "it": "“Me hubiera gustado que + congiuntivo imperfetto” esprime delusione senza accusare.",
+        "ja": "「Me hubiera gustado que＋接続法過去」は責めずに残念な気持ちを伝える。",
+        "zh-Hans": "“Me hubiera gustado que + 过去虚拟式”表达失望而不指责。"
       },
       "icon": "shield",
       "phrases": [
         {
           "es": "Te lo digo con todo el cariño.",
           "en": "I'm saying this with all my affection.",
-          "vi": "Tôi nói điều này với tất cả thiện ý."
+          "vi": "Tôi nói điều này với tất cả thiện ý.",
+          "pt-BR": "Digo isso com todo o carinho.",
+          "fr": "Je te le dis avec toute mon affection.",
+          "de": "Ich sage das mit aller Zuneigung.",
+          "it": "Te lo dico con tutto l’affetto.",
+          "ja": "心から思って言っています。",
+          "zh-Hans": "我是出于关心才这么说的。"
         },
         {
           "es": "Me hubiera gustado que me avisaras.",
           "en": "I would have liked you to let me know.",
-          "vi": "Lẽ ra tôi mong bạn báo trước cho tôi."
+          "vi": "Lẽ ra tôi mong bạn báo trước cho tôi.",
+          "pt-BR": "Eu teria gostado que você me avisasse.",
+          "fr": "J’aurais aimé que tu me préviennes.",
+          "de": "Ich hätte mir gewünscht, dass du mir Bescheid gibst.",
+          "it": "Mi sarebbe piaciuto che mi avvisassi.",
+          "ja": "知らせてくれたらよかったのに。",
+          "zh-Hans": "我本希望你能告诉我一声。"
         },
         {
           "es": "Lamento mucho lo que pasó.",
           "en": "I'm really sorry about what happened.",
-          "vi": "Tôi rất tiếc về những gì đã xảy ra."
+          "vi": "Tôi rất tiếc về những gì đã xảy ra.",
+          "pt-BR": "Sinto muito pelo que aconteceu.",
+          "fr": "Je suis vraiment désolé de ce qui s’est passé.",
+          "de": "Es tut mir wirklich leid, was passiert ist.",
+          "it": "Mi dispiace davvero per quello che è successo.",
+          "ja": "起きたことは本当に申し訳ありません。",
+          "zh-Hans": "对发生的事我真的很抱歉。"
         },
         {
           "es": "No fue mi intención ofenderte.",
           "en": "I didn't mean to offend you.",
-          "vi": "Tôi không có ý xúc phạm bạn."
+          "vi": "Tôi không có ý xúc phạm bạn.",
+          "pt-BR": "Não foi minha intenção te ofender.",
+          "fr": "Je ne voulais pas te vexer.",
+          "de": "Ich wollte dich nicht kränken.",
+          "it": "Non volevo offenderti.",
+          "ja": "傷つけるつもりはありませんでした。",
+          "zh-Hans": "我不是有意冒犯你。"
         },
         {
           "es": "Pongámonos en su lugar.",
           "en": "Let's put ourselves in their shoes.",
-          "vi": "Hãy đặt mình vào vị trí của họ."
+          "vi": "Hãy đặt mình vào vị trí của họ.",
+          "pt-BR": "Vamos nos colocar no lugar deles.",
+          "fr": "Mettons-nous à leur place.",
+          "de": "Versetzen wir uns in ihre Lage.",
+          "it": "Mettiamoci nei loro panni.",
+          "ja": "相手の立場になって考えましょう。",
+          "zh-Hans": "我们站在他们的角度想想。"
         },
         {
           "es": "¿Cómo lo podemos resolver?",
           "en": "How can we solve it?",
-          "vi": "Chúng ta giải quyết thế nào đây?"
+          "vi": "Chúng ta giải quyết thế nào đây?",
+          "pt-BR": "Como podemos resolver isso?",
+          "fr": "Comment pouvons-nous résoudre ça ?",
+          "de": "Wie können wir das lösen?",
+          "it": "Come possiamo risolverlo?",
+          "ja": "どうすれば解決できますか？",
+          "zh-Hans": "我们怎么解决呢？"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "feedback",
       "title": {
         "en": "Give honest feedback",
-        "vi": "Góp ý thẳng thắn"
+        "vi": "Góp ý thẳng thắn",
+        "pt-BR": "Dê um feedback honesto",
+        "fr": "Faire un retour honnête",
+        "de": "Ehrliches Feedback geben",
+        "it": "Dai un feedback sincero",
+        "ja": "正直なフィードバック",
+        "zh-Hans": "给出诚实的反馈"
       },
       "description": {
         "en": "Tell a friend a hard truth, kindly.",
-        "vi": "Nói một sự thật khó nghe với bạn một cách tử tế."
+        "vi": "Nói một sự thật khó nghe với bạn một cách tử tế.",
+        "pt-BR": "Diga uma verdade difícil a um amigo, com gentileza.",
+        "fr": "Dites une vérité difficile à un ami, avec gentillesse.",
+        "de": "Sag einem Freund freundlich eine unangenehme Wahrheit.",
+        "it": "Di’ una verità difficile a un amico, con gentilezza.",
+        "ja": "友だちに言いにくいことを優しく伝えよう。",
+        "zh-Hans": "善意地对朋友说出难听的真话。"
       },
       "icon": "heart",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Sé sincero: ¿qué te pareció mi presentación?",
           "translation": {
             "en": "Be honest: what did you think of my presentation?",
-            "vi": "Nói thật đi: bạn thấy bài thuyết trình của mình thế nào?"
+            "vi": "Nói thật đi: bạn thấy bài thuyết trình của mình thế nào?",
+            "pt-BR": "Seja sincero: o que achou da minha apresentação?",
+            "fr": "Sois honnête : qu’as-tu pensé de ma présentation ?",
+            "de": "Sei ehrlich: Wie fandest du meine Präsentation?",
+            "it": "Sii sincero: cosa ne pensi della mia presentazione?",
+            "ja": "正直に言って。私のプレゼン、どうだった？",
+            "zh-Hans": "说实话：你觉得我的演讲怎么样？"
           },
           "hint": {
             "en": "Soften before the criticism.",
-            "vi": "Làm mềm trước khi góp ý."
+            "vi": "Làm mềm trước khi góp ý.",
+            "pt-BR": "Suavize antes da crítica.",
+            "fr": "Adoucissez avant la critique.",
+            "de": "Mildere vor der Kritik ab.",
+            "it": "Ammorbidisci prima della critica.",
+            "ja": "批判の前に和らげよう。",
+            "zh-Hans": "批评前先缓和一下。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Te lo digo con cariño: el contenido era bueno, pero fue un poco larga.",
               "translation": {
                 "en": "I say this kindly: the content was good, but it was a bit long.",
-                "vi": "Mình nói với thiện ý: nội dung tốt, nhưng hơi dài."
+                "vi": "Mình nói với thiện ý: nội dung tốt, nhưng hơi dài.",
+                "pt-BR": "Digo com carinho: o conteúdo foi bom, mas ficou um pouco longa.",
+                "fr": "Je te le dis gentiment : le contenu était bon, mais c’était un peu long.",
+                "de": "Ich sag’s mit Wohlwollen: Der Inhalt war gut, aber sie war etwas lang.",
+                "it": "Te lo dico con affetto: il contenuto era buono, ma è stata un po’ lunga.",
+                "ja": "優しく言うね。内容はよかったけど、少し長かったかな。",
+                "zh-Hans": "我善意地说：内容很好，但有点长。"
               },
               "correct": true,
               "response": "Ah… ¿muy larga?",
               "responseTranslation": {
                 "en": "Oh… very long?",
-                "vi": "Ồ… dài lắm à?"
+                "vi": "Ồ… dài lắm à?",
+                "pt-BR": "Ah… muito longa?",
+                "fr": "Oh… très long ?",
+                "de": "Oh… sehr lang?",
+                "it": "Oh… molto lunga?",
+                "ja": "あ…すごく長かった？",
+                "zh-Hans": "啊……很长吗？"
               },
               "next": "detail"
             },
@@ -157,13 +313,25 @@
               "es": "Igual me equivoco, pero creo que quizás sobraban algunas diapositivas.",
               "translation": {
                 "en": "I might be wrong, but maybe there were a few too many slides.",
-                "vi": "Có thể mình sai, nhưng có lẽ dư vài slide."
+                "vi": "Có thể mình sai, nhưng có lẽ dư vài slide.",
+                "pt-BR": "Posso estar enganado, mas talvez houvesse slides demais.",
+                "fr": "Je me trompe peut-être, mais il y avait peut-être un peu trop de diapos.",
+                "de": "Ich könnte mich irren, aber vielleicht waren es ein paar Folien zu viel.",
+                "it": "Potrei sbagliarmi, ma forse c’erano un po’ troppe slide.",
+                "ja": "間違ってるかもしれないけど、スライドがちょっと多すぎたかも。",
+                "zh-Hans": "我可能说错了，但也许幻灯片有点太多了。"
               },
               "correct": true,
               "response": "Mmm, ¿cuáles quitarías?",
               "responseTranslation": {
                 "en": "Hmm, which would you remove?",
-                "vi": "Ừm, bạn sẽ bỏ slide nào?"
+                "vi": "Ừm, bạn sẽ bỏ slide nào?",
+                "pt-BR": "Hmm, quais você tiraria?",
+                "fr": "Hmm, lesquelles tu enlèverais ?",
+                "de": "Hmm, welche würdest du rausnehmen?",
+                "it": "Mmm, quali toglieresti?",
+                "ja": "うーん、どれを削る？",
+                "zh-Hans": "嗯，你会删掉哪些？"
               },
               "next": "detail"
             },
@@ -172,14 +340,26 @@
               "es": "Fue aburrida.",
               "translation": {
                 "en": "It was boring.",
-                "vi": "Chán lắm."
+                "vi": "Chán lắm.",
+                "pt-BR": "Foi chata.",
+                "fr": "C’était ennuyeux.",
+                "de": "Sie war langweilig.",
+                "it": "È stata noiosa.",
+                "ja": "退屈でした。",
+                "zh-Hans": "很无聊。"
               },
               "correct": false,
               "correction": "Te lo digo con cariño: el contenido era bueno, pero fue un poco larga.",
               "response": "Auch… ¿no hubo nada bueno?",
               "responseTranslation": {
                 "en": "Ouch… was nothing good?",
-                "vi": "Đau ghê… không có gì hay sao?"
+                "vi": "Đau ghê… không có gì hay sao?",
+                "pt-BR": "Ai… nada foi bom?",
+                "fr": "Aïe… rien n’était bien ?",
+                "de": "Autsch… war nichts gut?",
+                "it": "Ahi… niente di buono?",
+                "ja": "いたた…よかったところはなかった？",
+                "zh-Hans": "哎哟……就没什么好的吗？"
               },
               "next": "detail"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Qué cambiarías?",
           "translation": {
             "en": "What would you change?",
-            "vi": "Bạn sẽ thay đổi gì?"
+            "vi": "Bạn sẽ thay đổi gì?",
+            "pt-BR": "O que você mudaria?",
+            "fr": "Qu’est-ce que tu changerais ?",
+            "de": "Was würdest du ändern?",
+            "it": "Cosa cambieresti?",
+            "ja": "何を変える？",
+            "zh-Hans": "你会改什么？"
           },
           "hint": {
             "en": "Suggest with tact.",
-            "vi": "Gợi ý một cách tế nhị."
+            "vi": "Gợi ý một cách tế nhị.",
+            "pt-BR": "Sugira com tato.",
+            "fr": "Suggérez avec tact.",
+            "de": "Schlag taktvoll etwas vor.",
+            "it": "Suggerisci con tatto.",
+            "ja": "気配りしながら提案しよう。",
+            "zh-Hans": "得体地提建议。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "No es que esté mal, es que con diez minutos menos sería perfecta.",
               "translation": {
                 "en": "It's not that it's bad, it's that ten minutes shorter would make it perfect.",
-                "vi": "Không phải là dở, chỉ là ngắn đi mười phút sẽ hoàn hảo."
+                "vi": "Không phải là dở, chỉ là ngắn đi mười phút sẽ hoàn hảo.",
+                "pt-BR": "Não é que esteja ruim, é que com dez minutos a menos ficaria perfeita.",
+                "fr": "Ce n’est pas que ce soit mauvais, c’est qu’avec dix minutes de moins ce serait parfait.",
+                "de": "Es ist nicht so, dass sie schlecht ist, aber mit zehn Minuten weniger wäre sie perfekt.",
+                "it": "Non è che sia brutta, è che con dieci minuti in meno sarebbe perfetta.",
+                "ja": "悪いわけじゃなくて、10分短くすれば完璧になると思う。",
+                "zh-Hans": "不是说不好，而是缩短十分钟就完美了。"
               },
               "correct": true,
               "response": "Tiene sentido. ¿Algo más?",
               "responseTranslation": {
                 "en": "Makes sense. Anything else?",
-                "vi": "Hợp lý. Còn gì nữa không?"
+                "vi": "Hợp lý. Còn gì nữa không?",
+                "pt-BR": "Faz sentido. Mais alguma coisa?",
+                "fr": "Logique. Autre chose ?",
+                "de": "Ergibt Sinn. Noch etwas?",
+                "it": "Ha senso. Altro?",
+                "ja": "なるほど。ほかには？",
+                "zh-Hans": "有道理。还有吗？"
               },
               "next": "end"
             },
@@ -217,13 +421,25 @@
               "es": "Habría que pensar qué es lo esencial para el público.",
               "translation": {
                 "en": "We'd need to think about what's essential for the audience.",
-                "vi": "Có lẽ nên nghĩ xem điều gì là cốt lõi với khán giả."
+                "vi": "Có lẽ nên nghĩ xem điều gì là cốt lõi với khán giả.",
+                "pt-BR": "Teríamos que pensar no que é essencial para o público.",
+                "fr": "Il faudrait réfléchir à ce qui est essentiel pour le public.",
+                "de": "Wir müssten überlegen, was für das Publikum wesentlich ist.",
+                "it": "Bisognerebbe pensare a cosa è essenziale per il pubblico.",
+                "ja": "聴き手にとって何が大事か考える必要があるね。",
+                "zh-Hans": "得想想什么对听众来说是最重要的。"
               },
               "correct": true,
               "response": "Buena idea. ¿Algo más?",
               "responseTranslation": {
                 "en": "Good idea. Anything else?",
-                "vi": "Ý hay. Còn gì nữa không?"
+                "vi": "Ý hay. Còn gì nữa không?",
+                "pt-BR": "Boa ideia. Mais alguma coisa?",
+                "fr": "Bonne idée. Autre chose ?",
+                "de": "Gute Idee. Noch etwas?",
+                "it": "Buona idea. Altro?",
+                "ja": "いい考え。ほかには？",
+                "zh-Hans": "好主意。还有吗？"
               },
               "next": "end"
             },
@@ -232,14 +448,26 @@
               "es": "No es que está mal…",
               "translation": {
                 "en": "It's not that it is bad… (wrong form)",
-                "vi": "Không phải là dở… (sai dạng)"
+                "vi": "Không phải là dở… (sai dạng)",
+                "pt-BR": "Não é que está ruim… (forma errada)",
+                "fr": "Ce n’est pas que c’est mauvais… (mauvaise forme)",
+                "de": "Es ist nicht so, dass sie schlecht ist… (falsche Form)",
+                "it": "Non è che è brutta… (forma sbagliata)",
+                "ja": "悪いというわけではない…（形の誤り）",
+                "zh-Hans": "不是说它不好……（形式错误）"
               },
               "correct": false,
               "correction": "No es que esté mal, es que con diez minutos menos sería perfecta.",
               "response": "Entiendo (“no es que esté”, ¿no?). ¿Algo más?",
               "responseTranslation": {
                 "en": "I get it (“no es que esté”, right?). Anything else?",
-                "vi": "Mình hiểu (phải là “no es que esté” chứ?). Còn gì nữa không?"
+                "vi": "Mình hiểu (phải là “no es que esté” chứ?). Còn gì nữa không?",
+                "pt-BR": "Entendi (“no es que esté”, né?). Mais alguma coisa?",
+                "fr": "Je comprends (« no es que esté », non ?). Autre chose ?",
+                "de": "Verstehe („no es que esté“, oder?). Noch etwas?",
+                "it": "Capito (“no es que esté”, no?). Altro?",
+                "ja": "わかった（「no es que esté」だよね？）。ほかには？",
+                "zh-Hans": "明白了（应该是“no es que esté”吧？）。还有吗？"
               },
               "next": "end"
             }
@@ -250,11 +478,23 @@
           "prompt": "Gracias por ser honesto.",
           "translation": {
             "en": "Thanks for being honest.",
-            "vi": "Cảm ơn bạn đã thẳng thắn."
+            "vi": "Cảm ơn bạn đã thẳng thắn.",
+            "pt-BR": "Obrigado pela sinceridade.",
+            "fr": "Merci pour ta franchise.",
+            "de": "Danke für deine Ehrlichkeit.",
+            "it": "Grazie per la sincerità.",
+            "ja": "正直に言ってくれてありがとう。",
+            "zh-Hans": "谢谢你的坦诚。"
           },
           "hint": {
             "en": "Close warmly.",
-            "vi": "Kết thúc ấm áp."
+            "vi": "Kết thúc ấm áp.",
+            "pt-BR": "Encerre com carinho.",
+            "fr": "Concluez chaleureusement.",
+            "de": "Schließe herzlich ab.",
+            "it": "Chiudi con calore.",
+            "ja": "温かく締めくくろう。",
+            "zh-Hans": "温暖地收尾。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Para eso estamos. Y de verdad, se nota que te preparaste mucho.",
               "translation": {
                 "en": "That's what friends are for. And honestly, it shows you prepared a lot.",
-                "vi": "Bạn bè mà. Thật sự là thấy rõ bạn đã chuẩn bị rất kỹ."
+                "vi": "Bạn bè mà. Thật sự là thấy rõ bạn đã chuẩn bị rất kỹ.",
+                "pt-BR": "Para isso servem os amigos. E sinceramente, dá pra ver que você se preparou muito.",
+                "fr": "C’est à ça que servent les amis. Et franchement, on voit que tu t’es beaucoup préparé.",
+                "de": "Dafür sind Freunde da. Und ehrlich gesagt merkt man, dass du dich gut vorbereitet hast.",
+                "it": "Gli amici servono a questo. E sinceramente, si vede che ti sei preparato molto.",
+                "ja": "友だちだもの。それに正直、すごく準備したのが伝わってきたよ。",
+                "zh-Hans": "朋友就是干这个的。说真的，看得出你准备了很多。"
               },
               "correct": true,
               "response": "Eso me anima mucho.",
               "responseTranslation": {
                 "en": "That really encourages me.",
-                "vi": "Nghe vậy mình có động lực hẳn."
+                "vi": "Nghe vậy mình có động lực hẳn.",
+                "pt-BR": "Isso me anima muito.",
+                "fr": "Ça m’encourage beaucoup.",
+                "de": "Das ermutigt mich sehr.",
+                "it": "Questo mi incoraggia tanto.",
+                "ja": "すごく励みになる。",
+                "zh-Hans": "这让我很受鼓舞。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Si quieres, la practicamos juntos mañana.",
               "translation": {
                 "en": "If you want, we can practice it together tomorrow.",
-                "vi": "Nếu muốn, mai mình luyện cùng nhau."
+                "vi": "Nếu muốn, mai mình luyện cùng nhau.",
+                "pt-BR": "Se quiser, podemos ensaiar juntos amanhã.",
+                "fr": "Si tu veux, on peut répéter ensemble demain.",
+                "de": "Wenn du willst, können wir morgen zusammen üben.",
+                "it": "Se vuoi, domani possiamo provarla insieme.",
+                "ja": "よかったら、明日一緒に練習しよう。",
+                "zh-Hans": "如果你愿意，我们明天可以一起练习。"
               },
               "correct": true,
               "response": "¡Me encantaría!",
               "responseTranslation": {
                 "en": "I'd love that!",
-                "vi": "Mình rất muốn!"
+                "vi": "Mình rất muốn!",
+                "pt-BR": "Eu adoraria!",
+                "fr": "Avec plaisir !",
+                "de": "Sehr gern!",
+                "it": "Mi piacerebbe molto!",
+                "ja": "ぜひ！",
+                "zh-Hans": "太好了！"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No fue mi intención ofenderte.",
               "translation": {
                 "en": "I didn't mean to offend you.",
-                "vi": "Mình không có ý xúc phạm bạn."
+                "vi": "Mình không có ý xúc phạm bạn.",
+                "pt-BR": "Não foi minha intenção te ofender.",
+                "fr": "Je ne voulais pas te vexer.",
+                "de": "Ich wollte dich nicht kränken.",
+                "it": "Non volevo offenderti.",
+                "ja": "傷つけるつもりはありませんでした。",
+                "zh-Hans": "我不是有意冒犯你。"
               },
               "correct": false,
               "correction": "Para eso estamos. Y de verdad, se nota que te preparaste mucho.",
               "response": "No me ofendiste, ¡al contrario!",
               "responseTranslation": {
                 "en": "You didn't offend me, quite the opposite!",
-                "vi": "Bạn đâu có xúc phạm mình, ngược lại thì có!"
+                "vi": "Bạn đâu có xúc phạm mình, ngược lại thì có!",
+                "pt-BR": "Você não me ofendeu, muito pelo contrário!",
+                "fr": "Tu ne m’as pas vexé, bien au contraire !",
+                "de": "Du hast mich nicht gekränkt, ganz im Gegenteil!",
+                "it": "Non mi hai offeso, anzi!",
+                "ja": "傷ついてないよ、むしろ逆！",
+                "zh-Hans": "你没有冒犯我，恰恰相反！"
               }
             }
           ]

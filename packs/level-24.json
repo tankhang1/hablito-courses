@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-24",
-  "version": 1,
+  "version": 2,
   "level": 24,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 8: Telling a story",
-    "vi": "Trung cao cấp 8: Kể một câu chuyện"
+    "vi": "Trung cao cấp 8: Kể một câu chuyện",
+    "pt-BR": "Intermediário superior 8: Contando uma história",
+    "fr": "Intermédiaire supérieur 8 : Raconter une histoire",
+    "de": "Obere Mittelstufe 8: Eine Geschichte erzählen",
+    "it": "Intermedio superiore 8: Raccontare una storia",
+    "ja": "中上級 8：話を語る",
+    "zh-Hans": "中高级 8：讲故事"
   },
   "description": {
     "en": "Tell vivid stories with the right past tenses.",
-    "vi": "Kể chuyện sinh động với đúng thì quá khứ."
+    "vi": "Kể chuyện sinh động với đúng thì quá khứ.",
+    "pt-BR": "Conte histórias vivas com os tempos passados certos.",
+    "fr": "Racontez des histoires vivantes avec les bons temps du passé.",
+    "de": "Erzähle lebendige Geschichten mit den richtigen Vergangenheitszeiten.",
+    "it": "Racconta storie vivaci con i tempi passati giusti.",
+    "ja": "正しい過去時制で生き生きと話そう。",
+    "zh-Hans": "用正确的过去时讲生动的故事。"
   },
   "lessons": [
     {
       "id": "storytelling",
       "title": {
         "en": "Story tenses",
-        "vi": "Các thì khi kể chuyện"
+        "vi": "Các thì khi kể chuyện",
+        "pt-BR": "Tempos da narrativa",
+        "fr": "Les temps du récit",
+        "de": "Erzählzeiten",
+        "it": "I tempi del racconto",
+        "ja": "語りの時制",
+        "zh-Hans": "讲故事的时态"
       },
       "description": {
         "en": "Background vs. events.",
-        "vi": "Bối cảnh và sự kiện."
+        "vi": "Bối cảnh và sự kiện.",
+        "pt-BR": "Cenário vs. acontecimentos.",
+        "fr": "Décor ou événements.",
+        "de": "Hintergrund vs. Ereignisse.",
+        "it": "Sfondo e avvenimenti.",
+        "ja": "背景と出来事。",
+        "zh-Hans": "背景与事件。"
       },
       "focus": {
         "en": "Imperfect sets the scene (era, caminaba); preterite moves the story (sonó, vi); pluperfect goes further back (se había ido).",
-        "vi": "Imperfecto tả bối cảnh (era, caminaba); pretérito đẩy câu chuyện (sonó, vi); quá khứ hoàn thành lùi xa hơn (se había ido)."
+        "vi": "Imperfecto tả bối cảnh (era, caminaba); pretérito đẩy câu chuyện (sonó, vi); quá khứ hoàn thành lùi xa hơn (se había ido).",
+        "pt-BR": "O imperfeito monta o cenário (era, caminaba); o pretérito avança a história (sonó, vi); o mais-que-perfeito volta mais atrás (se había ido).",
+        "fr": "L’imparfait pose le décor (era, caminaba) ; le passé simple fait avancer l’histoire (sonó, vi) ; le plus-que-parfait remonte plus loin (se había ido).",
+        "de": "Das Imperfekt setzt die Szene (era, caminaba); das Indefinido treibt die Geschichte voran (sonó, vi); das Plusquamperfekt geht weiter zurück (se había ido).",
+        "it": "L’imperfetto crea la scena (era, caminaba); il passato remoto fa avanzare la storia (sonó, vi); il trapassato va più indietro (se había ido).",
+        "ja": "線過去は場面設定（era, caminaba）、点過去は話を進める（sonó, vi）、過去完了はさらに前（se había ido）。",
+        "zh-Hans": "未完成过去时铺设场景（era, caminaba）；简单过去时推进情节（sonó, vi）；过去完成时追溯更早（se había ido）。"
       },
       "icon": "book-open",
       "phrases": [
         {
           "es": "Era un día lluvioso y no había nadie en la calle.",
           "en": "It was a rainy day and there was no one in the street.",
-          "vi": "Hôm đó trời mưa và ngoài đường không có ai."
+          "vi": "Hôm đó trời mưa và ngoài đường không có ai.",
+          "pt-BR": "Era um dia chuvoso e não havia ninguém na rua.",
+          "fr": "C’était un jour de pluie et il n’y avait personne dans la rue.",
+          "de": "Es war ein regnerischer Tag und niemand war auf der Straße.",
+          "it": "Era una giornata di pioggia e non c’era nessuno per strada.",
+          "ja": "雨の日で、通りには誰もいませんでした。",
+          "zh-Hans": "那天下着雨，街上一个人都没有。"
         },
         {
           "es": "Mientras caminaba, sonó mi teléfono.",
           "en": "While I was walking, my phone rang.",
-          "vi": "Trong lúc tôi đang đi bộ thì điện thoại reo."
+          "vi": "Trong lúc tôi đang đi bộ thì điện thoại reo.",
+          "pt-BR": "Enquanto eu caminhava, meu celular tocou.",
+          "fr": "Pendant que je marchais, mon téléphone a sonné.",
+          "de": "Während ich lief, klingelte mein Handy.",
+          "it": "Mentre camminavo, mi squillò il telefono.",
+          "ja": "歩いていると、携帯が鳴りました。",
+          "zh-Hans": "我走路的时候，手机响了。"
         },
         {
           "es": "De repente, vi a mi antiguo profesor.",
           "en": "Suddenly, I saw my old teacher.",
-          "vi": "Bỗng nhiên tôi thấy thầy giáo cũ."
+          "vi": "Bỗng nhiên tôi thấy thầy giáo cũ.",
+          "pt-BR": "De repente, vi meu antigo professor.",
+          "fr": "Tout à coup, j’ai vu mon ancien professeur.",
+          "de": "Plötzlich sah ich meinen alten Lehrer.",
+          "it": "All’improvviso vidi il mio vecchio professore.",
+          "ja": "突然、昔の先生を見かけました。",
+          "zh-Hans": "突然，我看到了我以前的老师。"
         },
         {
           "es": "Ya se había ido cuando llegué.",
           "en": "He had already left when I arrived.",
-          "vi": "Khi tôi đến thì anh ấy đã đi rồi."
+          "vi": "Khi tôi đến thì anh ấy đã đi rồi.",
+          "pt-BR": "Ele já tinha ido embora quando eu cheguei.",
+          "fr": "Il était déjà parti quand je suis arrivé.",
+          "de": "Er war schon weg, als ich ankam.",
+          "it": "Se n’era già andato quando arrivai.",
+          "ja": "私が着いたとき、彼はもう帰っていました。",
+          "zh-Hans": "我到的时候他已经走了。"
         },
         {
           "es": "Estaba tan nervioso que no podía hablar.",
           "en": "I was so nervous I couldn't speak.",
-          "vi": "Tôi hồi hộp đến mức không nói được."
+          "vi": "Tôi hồi hộp đến mức không nói được.",
+          "pt-BR": "Eu estava tão nervoso que não conseguia falar.",
+          "fr": "J’étais tellement nerveux que je ne pouvais pas parler.",
+          "de": "Ich war so nervös, dass ich nicht sprechen konnte.",
+          "it": "Ero così nervoso che non riuscivo a parlare.",
+          "ja": "緊張しすぎて話せませんでした。",
+          "zh-Hans": "我紧张得说不出话来。"
         },
         {
           "es": "Al final, todo salió bien.",
           "en": "In the end, everything turned out fine.",
-          "vi": "Cuối cùng mọi chuyện đều ổn."
+          "vi": "Cuối cùng mọi chuyện đều ổn.",
+          "pt-BR": "No fim, tudo deu certo.",
+          "fr": "Finalement, tout s’est bien terminé.",
+          "de": "Am Ende ist alles gut ausgegangen.",
+          "it": "Alla fine andò tutto bene.",
+          "ja": "結局、すべてうまくいきました。",
+          "zh-Hans": "最后，一切都很顺利。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "listening",
       "title": {
         "en": "Keeping a story alive",
-        "vi": "Giữ nhịp câu chuyện"
+        "vi": "Giữ nhịp câu chuyện",
+        "pt-BR": "Mantendo a história viva",
+        "fr": "Faire vivre une histoire",
+        "de": "Eine Geschichte lebendig halten",
+        "it": "Tenere viva una storia",
+        "ja": "話を盛り上げる",
+        "zh-Hans": "让故事生动起来"
       },
       "description": {
         "en": "Listener reactions and story phrases.",
-        "vi": "Câu phản hồi của người nghe và cụm từ kể chuyện."
+        "vi": "Câu phản hồi của người nghe và cụm từ kể chuyện.",
+        "pt-BR": "Reações de quem ouve e frases de narrativa.",
+        "fr": "Réactions de l’auditeur et formules de récit.",
+        "de": "Reaktionen der Zuhörer und Erzählfloskeln.",
+        "it": "Reazioni di chi ascolta e frasi da racconto.",
+        "ja": "聞き手のリアクションと語りのフレーズ。",
+        "zh-Hans": "听者的反应和讲故事的说法。"
       },
       "focus": {
         "en": "Fillers like “resulta que” and “total, que” make your stories sound native.",
-        "vi": "Những cụm như “resulta que” và “total, que” giúp bạn kể chuyện tự nhiên như người bản xứ."
+        "vi": "Những cụm như “resulta que” và “total, que” giúp bạn kể chuyện tự nhiên như người bản xứ.",
+        "pt-BR": "Expressões como “resulta que” e “total, que” fazem suas histórias soarem nativas.",
+        "fr": "Des expressions comme « resulta que » et « total, que » rendent vos récits naturels.",
+        "de": "Füllwörter wie „resulta que“ und „total, que“ lassen deine Geschichten muttersprachlich klingen.",
+        "it": "Riempitivi come “resulta que” e “total, que” rendono i tuoi racconti naturali.",
+        "ja": "「resulta que」「total, que」のようなつなぎ言葉で話がネイティブらしくなる。",
+        "zh-Hans": "“resulta que”和“total, que”这类口头语让你的故事听起来很地道。"
       },
       "icon": "volume-2",
       "phrases": [
         {
           "es": "¿Y luego qué pasó?",
           "en": "And then what happened?",
-          "vi": "Rồi sao nữa?"
+          "vi": "Rồi sao nữa?",
+          "pt-BR": "E aí, o que aconteceu?",
+          "fr": "Et ensuite, il s’est passé quoi ?",
+          "de": "Und was ist dann passiert?",
+          "it": "E poi cos’è successo?",
+          "ja": "それで、どうなったの？",
+          "zh-Hans": "然后发生了什么？"
         },
         {
           "es": "¡No me digas!",
           "en": "You don't say!",
-          "vi": "Thật không đấy!"
+          "vi": "Thật không đấy!",
+          "pt-BR": "Não diga!",
+          "fr": "Sans blague !",
+          "de": "Was du nicht sagst!",
+          "it": "Ma dai!",
+          "ja": "まさか！",
+          "zh-Hans": "不会吧！"
         },
         {
           "es": "Resulta que…",
           "en": "It turns out that…",
-          "vi": "Hóa ra là…"
+          "vi": "Hóa ra là…",
+          "pt-BR": "Acontece que…",
+          "fr": "Il se trouve que…",
+          "de": "Es stellt sich heraus, dass…",
+          "it": "Succede che…",
+          "ja": "実はね…",
+          "zh-Hans": "原来……"
         },
         {
           "es": "Total, que…",
           "en": "So anyway…",
-          "vi": "Tóm lại là…"
+          "vi": "Tóm lại là…",
+          "pt-BR": "Enfim…",
+          "fr": "Bref…",
+          "de": "Kurz und gut…",
+          "it": "Insomma…",
+          "ja": "で、結局…",
+          "zh-Hans": "总之……"
         },
         {
           "es": "No te lo vas a creer.",
           "en": "You're not going to believe it.",
-          "vi": "Bạn sẽ không tin đâu."
+          "vi": "Bạn sẽ không tin đâu.",
+          "pt-BR": "Você não vai acreditar.",
+          "fr": "Tu ne vas pas le croire.",
+          "de": "Du wirst es nicht glauben.",
+          "it": "Non ci crederai.",
+          "ja": "信じられないと思うよ。",
+          "zh-Hans": "你肯定不信。"
         },
         {
           "es": "¡Qué casualidad!",
           "en": "What a coincidence!",
-          "vi": "Trùng hợp ghê!"
+          "vi": "Trùng hợp ghê!",
+          "pt-BR": "Que coincidência!",
+          "fr": "Quelle coïncidence !",
+          "de": "Was für ein Zufall!",
+          "it": "Che coincidenza!",
+          "ja": "なんて偶然！",
+          "zh-Hans": "太巧了！"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "crazy-day",
       "title": {
         "en": "A crazy day",
-        "vi": "Một ngày điên rồ"
+        "vi": "Một ngày điên rồ",
+        "pt-BR": "Um dia maluco",
+        "fr": "Une journée de fou",
+        "de": "Ein verrückter Tag",
+        "it": "Una giornata pazzesca",
+        "ja": "とんでもない一日",
+        "zh-Hans": "疯狂的一天"
       },
       "description": {
         "en": "Tell a story and keep it flowing.",
-        "vi": "Kể chuyện và giữ nhịp kể."
+        "vi": "Kể chuyện và giữ nhịp kể.",
+        "pt-BR": "Conte uma história e mantenha o ritmo.",
+        "fr": "Racontez une histoire sans perdre le fil.",
+        "de": "Erzähl eine Geschichte und halte sie im Fluss.",
+        "it": "Racconta una storia e mantieni il ritmo.",
+        "ja": "話の流れを止めずに語ろう。",
+        "zh-Hans": "讲个故事，保持节奏。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Te veo raro, ¿qué te pasó?",
           "translation": {
             "en": "You look strange, what happened to you?",
-            "vi": "Trông bạn lạ thế, có chuyện gì vậy?"
+            "vi": "Trông bạn lạ thế, có chuyện gì vậy?",
+            "pt-BR": "Você está com uma cara estranha, o que aconteceu?",
+            "fr": "Tu as une drôle de tête, qu’est-ce qui t’est arrivé ?",
+            "de": "Du siehst komisch aus, was ist passiert?",
+            "it": "Hai una faccia strana, cosa ti è successo?",
+            "ja": "変な顔してるね、何があったの？",
+            "zh-Hans": "你脸色怪怪的，发生什么事了？"
           },
           "hint": {
             "en": "Set the scene with the imperfect.",
-            "vi": "Mở đầu bối cảnh bằng imperfecto."
+            "vi": "Mở đầu bối cảnh bằng imperfecto.",
+            "pt-BR": "Monte o cenário com o imperfeito.",
+            "fr": "Posez le décor à l’imparfait.",
+            "de": "Setze die Szene mit dem Imperfekt.",
+            "it": "Crea la scena con l’imperfetto.",
+            "ja": "線過去で場面を設定しよう。",
+            "zh-Hans": "用未完成过去时铺设场景。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "No te lo vas a creer. Era temprano y llovía muchísimo…",
               "translation": {
                 "en": "You won't believe it. It was early and pouring rain…",
-                "vi": "Bạn không tin đâu. Hôm đó còn sớm và mưa rất to…"
+                "vi": "Bạn không tin đâu. Hôm đó còn sớm và mưa rất to…",
+                "pt-BR": "Você não vai acreditar. Era cedo e estava caindo um temporal…",
+                "fr": "Tu ne vas pas le croire. Il était tôt et il pleuvait des cordes…",
+                "de": "Du wirst es nicht glauben. Es war früh und es goss in Strömen…",
+                "it": "Non ci crederai. Era presto e pioveva a dirotto…",
+                "ja": "信じられないと思うよ。朝早くて、土砂降りでさ…",
+                "zh-Hans": "你肯定不信。那时还很早，下着倾盆大雨……"
               },
               "correct": true,
               "response": "¿Y luego qué pasó?",
               "responseTranslation": {
                 "en": "And then what happened?",
-                "vi": "Rồi sao nữa?"
+                "vi": "Rồi sao nữa?",
+                "pt-BR": "E aí, o que aconteceu?",
+                "fr": "Et ensuite, il s’est passé quoi ?",
+                "de": "Und was ist dann passiert?",
+                "it": "E poi cos’è successo?",
+                "ja": "それで、どうなったの？",
+                "zh-Hans": "然后发生了什么？"
               },
               "next": "event"
             },
@@ -157,13 +313,25 @@
               "es": "Resulta que iba caminando al trabajo, tranquilo…",
               "translation": {
                 "en": "So I was walking to work, all calm…",
-                "vi": "Hóa ra là mình đang đi bộ đi làm, rất bình thường…"
+                "vi": "Hóa ra là mình đang đi bộ đi làm, rất bình thường…",
+                "pt-BR": "Então, eu estava indo a pé para o trabalho, todo tranquilo…",
+                "fr": "Donc, j’allais au travail à pied, tranquille…",
+                "de": "Also, ich ging ganz entspannt zu Fuß zur Arbeit…",
+                "it": "Allora, stavo andando al lavoro a piedi, tranquillo…",
+                "ja": "それで、のんびり歩いて会社に向かってたんだ…",
+                "zh-Hans": "然后，我正悠闲地走路去上班……"
               },
               "correct": true,
               "response": "¿Y qué pasó?",
               "responseTranslation": {
                 "en": "And what happened?",
-                "vi": "Rồi sao?"
+                "vi": "Rồi sao?",
+                "pt-BR": "E o que aconteceu?",
+                "fr": "Et qu’est-ce qui s’est passé ?",
+                "de": "Und was ist passiert?",
+                "it": "E cos’è successo?",
+                "ja": "で、何があったの？",
+                "zh-Hans": "发生什么了？"
               },
               "next": "event"
             },
@@ -172,14 +340,26 @@
               "es": "Camino al trabajo.",
               "translation": {
                 "en": "I walk to work.",
-                "vi": "Mình đi bộ đi làm."
+                "vi": "Mình đi bộ đi làm.",
+                "pt-BR": "Eu vou a pé para o trabalho.",
+                "fr": "Je vais au travail à pied.",
+                "de": "Ich gehe zu Fuß zur Arbeit.",
+                "it": "Vado al lavoro a piedi.",
+                "ja": "私は歩いて会社に行きます。",
+                "zh-Hans": "我走路去上班。"
               },
               "correct": false,
               "correction": "No te lo vas a creer. Era temprano y llovía muchísimo…",
               "response": "¿Ahora? Cuéntame lo que pasó.",
               "responseTranslation": {
                 "en": "Now? Tell me what happened.",
-                "vi": "Bây giờ á? Kể chuyện đã xảy ra đi."
+                "vi": "Bây giờ á? Kể chuyện đã xảy ra đi.",
+                "pt-BR": "Agora? Conte o que aconteceu.",
+                "fr": "Maintenant ? Raconte-moi ce qui s’est passé.",
+                "de": "Jetzt? Erzähl mir, was passiert ist.",
+                "it": "Adesso? Raccontami cos’è successo.",
+                "ja": "今？何があったか教えて。",
+                "zh-Hans": "现在？告诉我发生了什么。"
               },
               "next": "event"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Y luego?",
           "translation": {
             "en": "And then?",
-            "vi": "Rồi sao?"
+            "vi": "Rồi sao?",
+            "pt-BR": "E aí?",
+            "fr": "Et après ?",
+            "de": "Und dann?",
+            "it": "E poi?",
+            "ja": "それで？",
+            "zh-Hans": "然后呢？"
           },
           "hint": {
             "en": "Move the story with the preterite.",
-            "vi": "Đẩy câu chuyện bằng pretérito."
+            "vi": "Đẩy câu chuyện bằng pretérito.",
+            "pt-BR": "Avance a história com o pretérito.",
+            "fr": "Faites avancer l’histoire au passé simple.",
+            "de": "Treib die Geschichte mit dem Indefinido voran.",
+            "it": "Fai avanzare la storia con il passato remoto.",
+            "ja": "点過去で話を進めよう。",
+            "zh-Hans": "用简单过去时推进故事。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "De repente, se me cayó el teléfono en un charco.",
               "translation": {
                 "en": "Suddenly, my phone fell into a puddle.",
-                "vi": "Bỗng nhiên điện thoại mình rơi xuống vũng nước."
+                "vi": "Bỗng nhiên điện thoại mình rơi xuống vũng nước.",
+                "pt-BR": "De repente, meu celular caiu numa poça.",
+                "fr": "Tout à coup, mon téléphone est tombé dans une flaque.",
+                "de": "Plötzlich fiel mein Handy in eine Pfütze.",
+                "it": "All’improvviso mi cadde il telefono in una pozzanghera.",
+                "ja": "突然、携帯が水たまりに落ちたんだ。",
+                "zh-Hans": "突然，我的手机掉进了水坑。"
               },
               "correct": true,
               "response": "¡No me digas! ¿Y funcionaba?",
               "responseTranslation": {
                 "en": "You don't say! And did it work?",
-                "vi": "Thật hả! Thế nó còn chạy không?"
+                "vi": "Thật hả! Thế nó còn chạy không?",
+                "pt-BR": "Não diga! E funcionou?",
+                "fr": "Sans blague ! Et il marchait ?",
+                "de": "Was du nicht sagst! Und hat es noch funktioniert?",
+                "it": "Ma dai! E funzionava?",
+                "ja": "まさか！動いたの？",
+                "zh-Hans": "不会吧！还能用吗？"
               },
               "next": "end"
             },
@@ -217,13 +421,25 @@
               "es": "De repente, vi a mi antiguo profesor de la prepa.",
               "translation": {
                 "en": "Suddenly, I saw my old high-school teacher.",
-                "vi": "Bỗng nhiên mình gặp thầy giáo cấp ba cũ."
+                "vi": "Bỗng nhiên mình gặp thầy giáo cấp ba cũ.",
+                "pt-BR": "De repente, vi meu antigo professor do colégio.",
+                "fr": "Tout à coup, j’ai vu mon ancien prof de lycée.",
+                "de": "Plötzlich sah ich meinen alten Lehrer vom Gymnasium.",
+                "it": "All’improvviso vidi il mio vecchio professore del liceo.",
+                "ja": "突然、高校時代の先生を見かけたんだ。",
+                "zh-Hans": "突然，我看到了我高中时的老师。"
               },
               "correct": true,
               "response": "¡Qué casualidad! ¿Y qué te dijo?",
               "responseTranslation": {
                 "en": "What a coincidence! What did he say?",
-                "vi": "Trùng hợp ghê! Thầy nói gì?"
+                "vi": "Trùng hợp ghê! Thầy nói gì?",
+                "pt-BR": "Que coincidência! O que ele disse?",
+                "fr": "Quelle coïncidence ! Qu’est-ce qu’il t’a dit ?",
+                "de": "Was für ein Zufall! Was hat er gesagt?",
+                "it": "Che coincidenza! Cosa ti ha detto?",
+                "ja": "なんて偶然！何て言ってた？",
+                "zh-Hans": "太巧了！他说什么了？"
               },
               "next": "end"
             },
@@ -232,14 +448,26 @@
               "es": "De repente, se me caía el teléfono.",
               "translation": {
                 "en": "Suddenly, my phone was falling (wrong tense).",
-                "vi": "Bỗng nhiên điện thoại đang rơi (sai thì)."
+                "vi": "Bỗng nhiên điện thoại đang rơi (sai thì).",
+                "pt-BR": "De repente, meu celular caía (tempo errado).",
+                "fr": "Tout à coup, mon téléphone tombait (mauvais temps).",
+                "de": "Plötzlich fiel mein Handy gerade (falsche Zeit).",
+                "it": "All’improvviso mi cadeva il telefono (tempo sbagliato).",
+                "ja": "突然、携帯が落ちていた（時制の誤り）。",
+                "zh-Hans": "突然，我的手机正在掉（时态错误）。"
               },
               "correct": false,
               "correction": "De repente, se me cayó el teléfono en un charco.",
               "response": "“Se te cayó”, ¿no? ¿Y luego?",
               "responseTranslation": {
                 "en": "“Se te cayó”, right? And then?",
-                "vi": "Phải là “se te cayó” chứ? Rồi sao?"
+                "vi": "Phải là “se te cayó” chứ? Rồi sao?",
+                "pt-BR": "“Se te cayó”, né? E aí?",
+                "fr": "« Se te cayó », non ? Et après ?",
+                "de": "„Se te cayó“, oder? Und dann?",
+                "it": "“Se te cayó”, no? E poi?",
+                "ja": "「se te cayó」だよね？それで？",
+                "zh-Hans": "应该是“se te cayó”吧？然后呢？"
               },
               "next": "end"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Y cómo terminó todo?",
           "translation": {
             "en": "And how did it all end?",
-            "vi": "Rồi mọi chuyện kết thúc thế nào?"
+            "vi": "Rồi mọi chuyện kết thúc thế nào?",
+            "pt-BR": "E como tudo terminou?",
+            "fr": "Et comment tout ça s’est terminé ?",
+            "de": "Und wie ist alles ausgegangen?",
+            "it": "E com’è finita?",
+            "ja": "で、結局どうなったの？",
+            "zh-Hans": "最后怎么样了？"
           },
           "hint": {
             "en": "Wrap up with “Total, que…” or “Al final…”.",
-            "vi": "Kết thúc bằng “Total, que…” hoặc “Al final…”."
+            "vi": "Kết thúc bằng “Total, que…” hoặc “Al final…”.",
+            "pt-BR": "Conclua com “Total, que…” ou “Al final…”.",
+            "fr": "Concluez avec « Total, que… » ou « Al final… ».",
+            "de": "Schließe mit „Total, que…“ oder „Al final…“.",
+            "it": "Concludi con “Total, que…” o “Al final…”.",
+            "ja": "「Total, que…」か「Al final…」でまとめよう。",
+            "zh-Hans": "用“Total, que…”或“Al final…”收尾。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Total, que llegué tarde, pero al final todo salió bien.",
               "translation": {
                 "en": "So anyway, I arrived late, but in the end it all worked out.",
-                "vi": "Tóm lại là mình đến trễ, nhưng cuối cùng mọi chuyện ổn."
+                "vi": "Tóm lại là mình đến trễ, nhưng cuối cùng mọi chuyện ổn.",
+                "pt-BR": "Enfim, cheguei atrasado, mas no final deu tudo certo.",
+                "fr": "Bref, je suis arrivé en retard, mais finalement tout s’est arrangé.",
+                "de": "Kurz und gut, ich kam zu spät, aber am Ende hat alles geklappt.",
+                "it": "Insomma, sono arrivato tardi, ma alla fine si è sistemato tutto.",
+                "ja": "で、結局遅刻したけど、最後は全部うまくいったよ。",
+                "zh-Hans": "总之，我迟到了，但最后一切都解决了。"
               },
               "correct": true,
               "response": "¡Qué historia! Me alegra que estés bien.",
               "responseTranslation": {
                 "en": "What a story! I'm glad you're OK.",
-                "vi": "Chuyện hay thật! Mừng là bạn ổn."
+                "vi": "Chuyện hay thật! Mừng là bạn ổn.",
+                "pt-BR": "Que história! Que bom que você está bem.",
+                "fr": "Quelle histoire ! Je suis content que tu ailles bien.",
+                "de": "Was für eine Geschichte! Gut, dass es dir gut geht.",
+                "it": "Che storia! Sono contento che tu stia bene.",
+                "ja": "すごい話！無事でよかった。",
+                "zh-Hans": "真是个故事！你没事就好。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Cuando llegué a la oficina, la reunión ya había terminado.",
               "translation": {
                 "en": "When I got to the office, the meeting had already ended.",
-                "vi": "Khi mình tới văn phòng thì cuộc họp đã kết thúc rồi."
+                "vi": "Khi mình tới văn phòng thì cuộc họp đã kết thúc rồi.",
+                "pt-BR": "Quando cheguei ao escritório, a reunião já tinha acabado.",
+                "fr": "Quand je suis arrivé au bureau, la réunion était déjà finie.",
+                "de": "Als ich ins Büro kam, war das Meeting schon vorbei.",
+                "it": "Quando arrivai in ufficio, la riunione era già finita.",
+                "ja": "会社に着いたら、会議はもう終わっていました。",
+                "zh-Hans": "我到办公室时，会议已经结束了。"
               },
               "correct": true,
               "response": "¡Ay, qué mala suerte!",
               "responseTranslation": {
                 "en": "Oh, what bad luck!",
-                "vi": "Ôi, xui thật!"
+                "vi": "Ôi, xui thật!",
+                "pt-BR": "Ai, que azar!",
+                "fr": "Oh, pas de chance !",
+                "de": "Oh, was für ein Pech!",
+                "it": "Oh, che sfortuna!",
+                "ja": "ああ、ついてないね！",
+                "zh-Hans": "唉，真倒霉！"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Mañana voy a llegar temprano.",
               "translation": {
                 "en": "Tomorrow I'll arrive early.",
-                "vi": "Mai mình sẽ đến sớm."
+                "vi": "Mai mình sẽ đến sớm.",
+                "pt-BR": "Amanhã vou chegar cedo.",
+                "fr": "Demain, j’arriverai tôt.",
+                "de": "Morgen komme ich früh.",
+                "it": "Domani arriverò presto.",
+                "ja": "明日は早く行きます。",
+                "zh-Hans": "明天我会早点到。"
               },
               "correct": false,
               "correction": "Total, que llegué tarde, pero al final todo salió bien.",
               "response": "Buena idea, pero ¿cómo terminó hoy?",
               "responseTranslation": {
                 "en": "Good idea, but how did today end?",
-                "vi": "Ý hay, nhưng hôm nay kết thúc sao?"
+                "vi": "Ý hay, nhưng hôm nay kết thúc sao?",
+                "pt-BR": "Boa ideia, mas como terminou hoje?",
+                "fr": "Bonne idée, mais comment s’est terminée la journée ?",
+                "de": "Gute Idee, aber wie ist der Tag heute ausgegangen?",
+                "it": "Buona idea, ma com’è finita oggi?",
+                "ja": "いい考えだね。でも今日はどうなったの？",
+                "zh-Hans": "好主意，但今天最后怎么样了？"
               }
             }
           ]

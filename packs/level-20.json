@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-20",
-  "version": 1,
+  "version": 2,
   "level": 20,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 4: What if…?",
-    "vi": "Trung cao cấp 4: Nếu như…?"
+    "vi": "Trung cao cấp 4: Nếu như…?",
+    "pt-BR": "Intermediário superior 4: E se…?",
+    "fr": "Intermédiaire supérieur 4 : Et si… ?",
+    "de": "Obere Mittelstufe 4: Was wäre, wenn…?",
+    "it": "Intermedio superiore 4: E se…?",
+    "ja": "中上級 4：もし〜なら？",
+    "zh-Hans": "中高级 4：如果……？"
   },
   "description": {
     "en": "Imagine, wish, and talk about hypotheticals.",
-    "vi": "Tưởng tượng, ước muốn và nói về giả định."
+    "vi": "Tưởng tượng, ước muốn và nói về giả định.",
+    "pt-BR": "Imagine, deseje e fale de hipóteses.",
+    "fr": "Imaginez, souhaitez et parlez d’hypothèses.",
+    "de": "Stell dir Dinge vor, äußere Wünsche und sprich über Hypothesen.",
+    "it": "Immagina, esprimi desideri e parla di ipotesi.",
+    "ja": "想像したり、願ったり、仮定の話をしよう。",
+    "zh-Hans": "想象、许愿和谈论假设。"
   },
   "lessons": [
     {
       "id": "hypotheticals",
       "title": {
         "en": "If I could…",
-        "vi": "Nếu tôi có thể…"
+        "vi": "Nếu tôi có thể…",
+        "pt-BR": "Se eu pudesse…",
+        "fr": "Si je pouvais…",
+        "de": "Wenn ich könnte…",
+        "it": "Se potessi…",
+        "ja": "もしできたら…",
+        "zh-Hans": "如果我能……"
       },
       "description": {
         "en": "Unreal situations in the present.",
-        "vi": "Tình huống không có thật ở hiện tại."
+        "vi": "Tình huống không có thật ở hiện tại.",
+        "pt-BR": "Situações irreais no presente.",
+        "fr": "Situations irréelles au présent.",
+        "de": "Irreale Situationen in der Gegenwart.",
+        "it": "Situazioni irreali nel presente.",
+        "ja": "現在の非現実の状況。",
+        "zh-Hans": "现在的非真实情况。"
       },
       "focus": {
         "en": "Si + past subjunctive, + conditional: si tuviera… aprendería; si fuera… aceptaría.",
-        "vi": "Si + giả định quá khứ, + điều kiện: si tuviera… aprendería; si fuera… aceptaría."
+        "vi": "Si + giả định quá khứ, + điều kiện: si tuviera… aprendería; si fuera… aceptaría.",
+        "pt-BR": "Si + subjuntivo passado, + condicional: si tuviera… aprendería; si fuera… aceptaría.",
+        "fr": "Si + subjonctif passé, + conditionnel : si tuviera… aprendería ; si fuera… aceptaría.",
+        "de": "Si + Subjuntivo der Vergangenheit, + Konditional: si tuviera… aprendería; si fuera… aceptaría.",
+        "it": "Si + congiuntivo imperfetto, + condizionale: si tuviera… aprendería; si fuera… aceptaría.",
+        "ja": "Si＋接続法過去、＋過去未来：si tuviera… aprendería; si fuera… aceptaría。",
+        "zh-Hans": "Si + 过去虚拟式，+ 条件式：si tuviera… aprendería; si fuera… aceptaría。"
       },
       "icon": "cloud",
       "phrases": [
         {
           "es": "Si tuviera más tiempo, aprendería a bailar.",
           "en": "If I had more time, I'd learn to dance.",
-          "vi": "Nếu có nhiều thời gian hơn, tôi sẽ học nhảy."
+          "vi": "Nếu có nhiều thời gian hơn, tôi sẽ học nhảy.",
+          "pt-BR": "Se eu tivesse mais tempo, aprenderia a dançar.",
+          "fr": "Si j’avais plus de temps, j’apprendrais à danser.",
+          "de": "Wenn ich mehr Zeit hätte, würde ich tanzen lernen.",
+          "it": "Se avessi più tempo, imparerei a ballare.",
+          "ja": "もっと時間があったら、ダンスを習うのに。",
+          "zh-Hans": "如果我有更多时间，我会去学跳舞。"
         },
         {
           "es": "Si ganara la lotería, viajaría por el mundo.",
           "en": "If I won the lottery, I'd travel the world.",
-          "vi": "Nếu trúng số, tôi sẽ đi du lịch vòng quanh thế giới."
+          "vi": "Nếu trúng số, tôi sẽ đi du lịch vòng quanh thế giới.",
+          "pt-BR": "Se eu ganhasse na loteria, viajaria pelo mundo.",
+          "fr": "Si je gagnais au loto, je ferais le tour du monde.",
+          "de": "Wenn ich im Lotto gewinnen würde, würde ich um die Welt reisen.",
+          "it": "Se vincessi alla lotteria, girerei il mondo.",
+          "ja": "宝くじが当たったら、世界中を旅するのに。",
+          "zh-Hans": "如果我中了彩票，我会环游世界。"
         },
         {
           "es": "Si fuera tú, aceptaría la oferta.",
           "en": "If I were you, I'd accept the offer.",
-          "vi": "Nếu là bạn, tôi sẽ nhận lời."
+          "vi": "Nếu là bạn, tôi sẽ nhận lời.",
+          "pt-BR": "Se eu fosse você, aceitaria a oferta.",
+          "fr": "À ta place, j’accepterais l’offre.",
+          "de": "An deiner Stelle würde ich das Angebot annehmen.",
+          "it": "Se fossi in te, accetterei l’offerta.",
+          "ja": "私があなたなら、そのオファーを受けるよ。",
+          "zh-Hans": "如果我是你，我会接受这个机会。"
         },
         {
           "es": "¿Qué harías si pudieras vivir en otro país?",
           "en": "What would you do if you could live in another country?",
-          "vi": "Bạn sẽ làm gì nếu được sống ở nước khác?"
+          "vi": "Bạn sẽ làm gì nếu được sống ở nước khác?",
+          "pt-BR": "O que você faria se pudesse morar em outro país?",
+          "fr": "Que ferais-tu si tu pouvais vivre dans un autre pays ?",
+          "de": "Was würdest du tun, wenn du in einem anderen Land leben könntest?",
+          "it": "Cosa faresti se potessi vivere in un altro paese?",
+          "ja": "もし別の国に住めるとしたら、どうする？",
+          "zh-Hans": "如果你能住在另一个国家，你会做什么？"
         },
         {
           "es": "Me gustaría vivir cerca del mar.",
           "en": "I'd like to live near the sea.",
-          "vi": "Tôi muốn sống gần biển."
+          "vi": "Tôi muốn sống gần biển.",
+          "pt-BR": "Eu gostaria de morar perto do mar.",
+          "fr": "J’aimerais vivre près de la mer.",
+          "de": "Ich würde gern am Meer wohnen.",
+          "it": "Mi piacerebbe vivere vicino al mare.",
+          "ja": "海の近くに住みたいな。",
+          "zh-Hans": "我想住在海边。"
         },
         {
           "es": "Sería increíble.",
           "en": "It would be amazing.",
-          "vi": "Sẽ tuyệt vời lắm."
+          "vi": "Sẽ tuyệt vời lắm.",
+          "pt-BR": "Seria incrível.",
+          "fr": "Ce serait incroyable.",
+          "de": "Das wäre toll.",
+          "it": "Sarebbe fantastico.",
+          "ja": "最高だろうね。",
+          "zh-Hans": "那一定很棒。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "wishes",
       "title": {
         "en": "Wishes & regrets",
-        "vi": "Ước muốn & tiếc nuối"
+        "vi": "Ước muốn & tiếc nuối",
+        "pt-BR": "Desejos e arrependimentos",
+        "fr": "Souhaits et regrets",
+        "de": "Wünsche und Bedauern",
+        "it": "Desideri e rimpianti",
+        "ja": "願いと後悔",
+        "zh-Hans": "愿望和遗憾"
       },
       "description": {
         "en": "Say what you wish were different.",
-        "vi": "Nói điều bạn ước khác đi."
+        "vi": "Nói điều bạn ước khác đi.",
+        "pt-BR": "Diga o que você queria que fosse diferente.",
+        "fr": "Dites ce que vous aimeriez qui soit différent.",
+        "de": "Sag, was du gern anders hättest.",
+        "it": "Di’ cosa vorresti che fosse diverso.",
+        "ja": "違っていたらいいのにと思うことを言おう。",
+        "zh-Hans": "说说你希望哪些事情不一样。"
       },
       "focus": {
         "en": "Past regrets: si hubiera + participle, habría + participle (si hubiera estudiado, habría aprobado).",
-        "vi": "Tiếc nuối quá khứ: si hubiera + phân từ, habría + phân từ (si hubiera estudiado, habría aprobado)."
+        "vi": "Tiếc nuối quá khứ: si hubiera + phân từ, habría + phân từ (si hubiera estudiado, habría aprobado).",
+        "pt-BR": "Arrependimentos no passado: si hubiera + particípio, habría + particípio (si hubiera estudiado, habría aprobado).",
+        "fr": "Regrets passés : si hubiera + participe, habría + participe (si hubiera estudiado, habría aprobado).",
+        "de": "Bedauern in der Vergangenheit: si hubiera + Partizip, habría + Partizip (si hubiera estudiado, habría aprobado).",
+        "it": "Rimpianti passati: si hubiera + participio, habría + participio (si hubiera estudiado, habría aprobado).",
+        "ja": "過去の後悔：si hubiera＋過去分詞、habría＋過去分詞（si hubiera estudiado, habría aprobado）。",
+        "zh-Hans": "对过去的遗憾：si hubiera + 过去分词，habría + 过去分词（si hubiera estudiado, habría aprobado）。"
       },
       "icon": "star",
       "phrases": [
         {
           "es": "Ojalá pudiera ir contigo.",
           "en": "I wish I could go with you.",
-          "vi": "Ước gì tôi đi cùng bạn được."
+          "vi": "Ước gì tôi đi cùng bạn được.",
+          "pt-BR": "Quem me dera poder ir com você.",
+          "fr": "J’aimerais tellement pouvoir venir avec toi.",
+          "de": "Ich wünschte, ich könnte mitkommen.",
+          "it": "Magari potessi venire con te.",
+          "ja": "一緒に行けたらいいのに。",
+          "zh-Hans": "真希望我能和你一起去。"
         },
         {
           "es": "Ojalá no lloviera tanto.",
           "en": "I wish it didn't rain so much.",
-          "vi": "Ước gì trời đừng mưa nhiều thế."
+          "vi": "Ước gì trời đừng mưa nhiều thế.",
+          "pt-BR": "Quem me dera não chovesse tanto.",
+          "fr": "Si seulement il ne pleuvait pas autant.",
+          "de": "Ich wünschte, es würde nicht so viel regnen.",
+          "it": "Magari non piovesse così tanto.",
+          "ja": "こんなに雨が降らなければいいのに。",
+          "zh-Hans": "真希望别下这么多雨。"
         },
         {
           "es": "Si hubiera estudiado más, habría aprobado.",
           "en": "If I had studied more, I would have passed.",
-          "vi": "Nếu học nhiều hơn, tôi đã đậu rồi."
+          "vi": "Nếu học nhiều hơn, tôi đã đậu rồi.",
+          "pt-BR": "Se eu tivesse estudado mais, teria passado.",
+          "fr": "Si j’avais plus étudié, j’aurais réussi.",
+          "de": "Wenn ich mehr gelernt hätte, hätte ich bestanden.",
+          "it": "Se avessi studiato di più, sarei stato promosso.",
+          "ja": "もっと勉強していたら、合格していたのに。",
+          "zh-Hans": "如果我当时多学一点，就能通过了。"
         },
         {
           "es": "Debí haberte llamado.",
           "en": "I should have called you.",
-          "vi": "Lẽ ra tôi phải gọi cho bạn."
+          "vi": "Lẽ ra tôi phải gọi cho bạn.",
+          "pt-BR": "Eu deveria ter te ligado.",
+          "fr": "J’aurais dû t’appeler.",
+          "de": "Ich hätte dich anrufen sollen.",
+          "it": "Avrei dovuto chiamarti.",
+          "ja": "電話すればよかった。",
+          "zh-Hans": "我早该给你打电话的。"
         },
         {
           "es": "No me arrepiento de nada.",
           "en": "I don't regret anything.",
-          "vi": "Tôi không hối tiếc điều gì."
+          "vi": "Tôi không hối tiếc điều gì.",
+          "pt-BR": "Não me arrependo de nada.",
+          "fr": "Je ne regrette rien.",
+          "de": "Ich bereue nichts.",
+          "it": "Non mi pento di niente.",
+          "ja": "何も後悔していません。",
+          "zh-Hans": "我什么都不后悔。"
         },
         {
           "es": "Ya es tarde para eso.",
           "en": "It's too late for that now.",
-          "vi": "Giờ thì muộn rồi."
+          "vi": "Giờ thì muộn rồi.",
+          "pt-BR": "Agora é tarde para isso.",
+          "fr": "C’est trop tard pour ça maintenant.",
+          "de": "Dafür ist es jetzt zu spät.",
+          "it": "Ormai è troppo tardi.",
+          "ja": "今となってはもう遅い。",
+          "zh-Hans": "现在已经太晚了。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "dream-life",
       "title": {
         "en": "Dream life",
-        "vi": "Cuộc sống mơ ước"
+        "vi": "Cuộc sống mơ ước",
+        "pt-BR": "Vida dos sonhos",
+        "fr": "La vie de rêve",
+        "de": "Traumleben",
+        "it": "La vita dei sogni",
+        "ja": "夢の生活",
+        "zh-Hans": "梦想生活"
       },
       "description": {
         "en": "Imagine a different life with a friend.",
-        "vi": "Cùng bạn tưởng tượng một cuộc sống khác."
+        "vi": "Cùng bạn tưởng tượng một cuộc sống khác.",
+        "pt-BR": "Imagine uma vida diferente com um amigo.",
+        "fr": "Imaginez une autre vie avec un ami.",
+        "de": "Stell dir mit einem Freund ein anderes Leben vor.",
+        "it": "Immagina una vita diversa con un amico.",
+        "ja": "友だちと別の人生を想像しよう。",
+        "zh-Hans": "和朋友一起想象另一种生活。"
       },
       "icon": "compass",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "¿Qué harías si ganaras la lotería?",
           "translation": {
             "en": "What would you do if you won the lottery?",
-            "vi": "Bạn sẽ làm gì nếu trúng số?"
+            "vi": "Bạn sẽ làm gì nếu trúng số?",
+            "pt-BR": "O que você faria se ganhasse na loteria?",
+            "fr": "Que ferais-tu si tu gagnais au loto ?",
+            "de": "Was würdest du tun, wenn du im Lotto gewinnen würdest?",
+            "it": "Cosa faresti se vincessi alla lotteria?",
+            "ja": "宝くじが当たったらどうする？",
+            "zh-Hans": "如果你中了彩票会做什么？"
           },
           "hint": {
             "en": "Answer with the conditional: “-ría”.",
-            "vi": "Trả lời bằng thức điều kiện: “-ría”."
+            "vi": "Trả lời bằng thức điều kiện: “-ría”.",
+            "pt-BR": "Responda com o condicional: “-ría”.",
+            "fr": "Répondez au conditionnel : « -ría ».",
+            "de": "Antworte im Konditional: „-ría“.",
+            "it": "Rispondi con il condizionale: “-ría”.",
+            "ja": "過去未来形で答えよう：「-ría」。",
+            "zh-Hans": "用条件式回答：“-ría”。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "Viajaría por el mundo con mi familia.",
               "translation": {
                 "en": "I'd travel the world with my family.",
-                "vi": "Mình sẽ đi khắp thế giới với gia đình."
+                "vi": "Mình sẽ đi khắp thế giới với gia đình.",
+                "pt-BR": "Eu viajaria pelo mundo com minha família.",
+                "fr": "Je ferais le tour du monde avec ma famille.",
+                "de": "Ich würde mit meiner Familie um die Welt reisen.",
+                "it": "Girerei il mondo con la mia famiglia.",
+                "ja": "家族と世界中を旅するよ。",
+                "zh-Hans": "我会和家人环游世界。"
               },
               "correct": true,
               "response": "¡Qué bonito! ¿Y dejarías tu trabajo?",
               "responseTranslation": {
                 "en": "How lovely! And would you quit your job?",
-                "vi": "Hay quá! Thế bạn có nghỉ việc không?"
+                "vi": "Hay quá! Thế bạn có nghỉ việc không?",
+                "pt-BR": "Que lindo! E você largaria o emprego?",
+                "fr": "Que c’est beau ! Et tu quitterais ton travail ?",
+                "de": "Wie schön! Und würdest du deinen Job kündigen?",
+                "it": "Che bello! E lasceresti il lavoro?",
+                "ja": "すてき！仕事は辞める？",
+                "zh-Hans": "真好！那你会辞职吗？"
               },
               "next": "job"
             },
@@ -157,13 +313,25 @@
               "es": "Me compraría una casa cerca del mar.",
               "translation": {
                 "en": "I'd buy myself a house near the sea.",
-                "vi": "Mình sẽ mua một căn nhà gần biển."
+                "vi": "Mình sẽ mua một căn nhà gần biển.",
+                "pt-BR": "Eu compraria uma casa perto do mar.",
+                "fr": "Je m’achèterais une maison près de la mer.",
+                "de": "Ich würde mir ein Haus am Meer kaufen.",
+                "it": "Mi comprerei una casa vicino al mare.",
+                "ja": "海の近くに家を買うよ。",
+                "zh-Hans": "我会在海边买一栋房子。"
               },
               "correct": true,
               "response": "¡Sería increíble! ¿Y dejarías tu trabajo?",
               "responseTranslation": {
                 "en": "That would be amazing! And would you quit your job?",
-                "vi": "Tuyệt thật! Thế bạn có nghỉ việc không?"
+                "vi": "Tuyệt thật! Thế bạn có nghỉ việc không?",
+                "pt-BR": "Seria incrível! E você largaria o emprego?",
+                "fr": "Ce serait incroyable ! Et tu quitterais ton travail ?",
+                "de": "Das wäre toll! Und würdest du deinen Job kündigen?",
+                "it": "Sarebbe fantastico! E lasceresti il lavoro?",
+                "ja": "最高だね！仕事は辞める？",
+                "zh-Hans": "那一定很棒！那你会辞职吗？"
               },
               "next": "job"
             },
@@ -172,14 +340,26 @@
               "es": "Viajaré por el mundo.",
               "translation": {
                 "en": "I will travel the world.",
-                "vi": "Mình sẽ đi khắp thế giới (thì tương lai)."
+                "vi": "Mình sẽ đi khắp thế giới (thì tương lai).",
+                "pt-BR": "Vou viajar pelo mundo.",
+                "fr": "Je ferai le tour du monde.",
+                "de": "Ich werde um die Welt reisen.",
+                "it": "Girerò il mondo.",
+                "ja": "世界中を旅します。",
+                "zh-Hans": "我将会环游世界。"
               },
               "correct": false,
               "correction": "Viajaría por el mundo con mi familia.",
               "response": "Jaja, “viajaría”, ¡todavía no ganas! ¿Dejarías tu trabajo?",
               "responseTranslation": {
                 "en": "Haha, “viajaría”, you haven't won yet! Would you quit your job?",
-                "vi": "Haha, “viajaría” chứ, bạn đã trúng đâu! Bạn có nghỉ việc không?"
+                "vi": "Haha, “viajaría” chứ, bạn đã trúng đâu! Bạn có nghỉ việc không?",
+                "pt-BR": "Haha, “viajaría”, você ainda não ganhou! Largaria o emprego?",
+                "fr": "Haha, « viajaría », tu n’as pas encore gagné ! Tu quitterais ton travail ?",
+                "de": "Haha, „viajaría“, du hast ja noch nicht gewonnen! Würdest du kündigen?",
+                "it": "Haha, “viajaría”, non hai ancora vinto! Lasceresti il lavoro?",
+                "ja": "はは、「viajaría」だよ、まだ当たってないんだから！仕事は辞める？",
+                "zh-Hans": "哈哈，是“viajaría”，你还没中呢！你会辞职吗？"
               },
               "next": "job"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Dejarías tu trabajo?",
           "translation": {
             "en": "Would you quit your job?",
-            "vi": "Bạn có nghỉ việc không?"
+            "vi": "Bạn có nghỉ việc không?",
+            "pt-BR": "Você largaria o emprego?",
+            "fr": "Tu quitterais ton travail ?",
+            "de": "Würdest du deinen Job kündigen?",
+            "it": "Lasceresti il lavoro?",
+            "ja": "仕事は辞める？",
+            "zh-Hans": "你会辞职吗？"
           },
           "hint": {
             "en": "Give your answer with a reason.",
-            "vi": "Trả lời kèm lý do."
+            "vi": "Trả lời kèm lý do.",
+            "pt-BR": "Responda com um motivo.",
+            "fr": "Répondez avec une raison.",
+            "de": "Antworte mit einer Begründung.",
+            "it": "Rispondi con una ragione.",
+            "ja": "理由をつけて答えよう。",
+            "zh-Hans": "给出答案和理由。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "No, me aburriría sin hacer nada.",
               "translation": {
                 "en": "No, I'd get bored doing nothing.",
-                "vi": "Không, không làm gì mình sẽ chán lắm."
+                "vi": "Không, không làm gì mình sẽ chán lắm.",
+                "pt-BR": "Não, eu ficaria entediado sem fazer nada.",
+                "fr": "Non, je m’ennuierais à ne rien faire.",
+                "de": "Nein, mir wäre langweilig, wenn ich nichts tue.",
+                "it": "No, mi annoierei senza fare niente.",
+                "ja": "ううん、何もしないと退屈しちゃう。",
+                "zh-Hans": "不会，什么都不做我会无聊的。"
               },
               "correct": true,
               "response": "Te entiendo. ¿Hay algo que te arrepientas de no haber hecho?",
               "responseTranslation": {
                 "en": "I get it. Is there anything you regret not doing?",
-                "vi": "Mình hiểu. Có điều gì bạn tiếc vì chưa làm không?"
+                "vi": "Mình hiểu. Có điều gì bạn tiếc vì chưa làm không?",
+                "pt-BR": "Entendo. Tem algo que você se arrepende de não ter feito?",
+                "fr": "Je comprends. Y a-t-il quelque chose que tu regrettes de ne pas avoir fait ?",
+                "de": "Verstehe. Gibt es etwas, das du bereust, nicht getan zu haben?",
+                "it": "Capisco. C’è qualcosa che rimpiangi di non aver fatto?",
+                "ja": "わかる。やらなくて後悔していることはある？",
+                "zh-Hans": "我懂。有什么你后悔没做的事吗？"
               },
               "next": "regret"
             },
@@ -217,13 +421,25 @@
               "es": "Sí, y abriría mi propio café.",
               "translation": {
                 "en": "Yes, and I'd open my own café.",
-                "vi": "Có, và mình sẽ mở quán cà phê riêng."
+                "vi": "Có, và mình sẽ mở quán cà phê riêng.",
+                "pt-BR": "Sim, e abriria meu próprio café.",
+                "fr": "Oui, et j’ouvrirais mon propre café.",
+                "de": "Ja, und ich würde mein eigenes Café eröffnen.",
+                "it": "Sì, e aprirei un mio caffè.",
+                "ja": "うん、それに自分のカフェを開くよ。",
+                "zh-Hans": "会，而且我会开一家自己的咖啡馆。"
               },
               "correct": true,
               "response": "¡Iría todos los días! ¿Y algo de lo que te arrepientas?",
               "responseTranslation": {
                 "en": "I'd go every day! And anything you regret?",
-                "vi": "Ngày nào mình cũng ghé! Thế có điều gì bạn tiếc không?"
+                "vi": "Ngày nào mình cũng ghé! Thế có điều gì bạn tiếc không?",
+                "pt-BR": "Eu iria todo dia! E algum arrependimento?",
+                "fr": "J’y irais tous les jours ! Et un regret ?",
+                "de": "Ich würde jeden Tag hingehen! Und bereust du etwas?",
+                "it": "Ci andrei ogni giorno! E qualche rimpianto?",
+                "ja": "毎日行っちゃう！で、後悔していることは？",
+                "zh-Hans": "我会天天去！那有什么遗憾吗？"
               },
               "next": "regret"
             },
@@ -232,14 +448,26 @@
               "es": "Ayer trabajé mucho.",
               "translation": {
                 "en": "Yesterday I worked a lot.",
-                "vi": "Hôm qua mình làm nhiều lắm."
+                "vi": "Hôm qua mình làm nhiều lắm.",
+                "pt-BR": "Ontem trabalhei muito.",
+                "fr": "Hier, j’ai beaucoup travaillé.",
+                "de": "Gestern habe ich viel gearbeitet.",
+                "it": "Ieri ho lavorato molto.",
+                "ja": "昨日はたくさん働きました。",
+                "zh-Hans": "我昨天工作了很久。"
               },
               "correct": false,
               "correction": "No, me aburriría sin hacer nada.",
               "response": "Pobre, pero ¿dejarías el trabajo con tanto dinero?",
               "responseTranslation": {
                 "en": "Poor you, but would you quit with all that money?",
-                "vi": "Tội ghê, nhưng có nhiều tiền vậy bạn có nghỉ không?"
+                "vi": "Tội ghê, nhưng có nhiều tiền vậy bạn có nghỉ không?",
+                "pt-BR": "Coitado, mas você largaria com todo esse dinheiro?",
+                "fr": "Mon pauvre, mais tu démissionnerais avec tout cet argent ?",
+                "de": "Du Armer, aber würdest du mit dem ganzen Geld kündigen?",
+                "it": "Poverino, ma lasceresti il lavoro con tutti quei soldi?",
+                "ja": "大変だったね。でもそんな大金があっても辞める？",
+                "zh-Hans": "辛苦了，但有那么多钱你会辞职吗？"
               },
               "next": "regret"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Hay algo que te arrepientas de no haber hecho?",
           "translation": {
             "en": "Is there anything you regret not having done?",
-            "vi": "Có điều gì bạn tiếc vì chưa làm không?"
+            "vi": "Có điều gì bạn tiếc vì chưa làm không?",
+            "pt-BR": "Tem algo que você se arrepende de não ter feito?",
+            "fr": "Y a-t-il quelque chose que tu regrettes de ne pas avoir fait ?",
+            "de": "Gibt es etwas, das du bereust, nicht getan zu haben?",
+            "it": "C’è qualcosa che rimpiangi di non aver fatto?",
+            "ja": "やらなくて後悔していることはある？",
+            "zh-Hans": "有什么你后悔没做过的事吗？"
           },
           "hint": {
             "en": "Use “Si hubiera…, habría…” or “Ojalá…”.",
-            "vi": "Dùng “Si hubiera…, habría…” hoặc “Ojalá…”."
+            "vi": "Dùng “Si hubiera…, habría…” hoặc “Ojalá…”.",
+            "pt-BR": "Use “Si hubiera…, habría…” ou “Ojalá…”.",
+            "fr": "Utilisez « Si hubiera…, habría… » ou « Ojalá… ».",
+            "de": "Benutze „Si hubiera…, habría…“ oder „Ojalá…“.",
+            "it": "Usa “Si hubiera…, habría…” o “Ojalá…”.",
+            "ja": "「Si hubiera…, habría…」か「Ojalá…」を使おう。",
+            "zh-Hans": "用“Si hubiera…, habría…”或“Ojalá…”。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Si hubiera estudiado música, habría sido feliz.",
               "translation": {
                 "en": "If I had studied music, I would have been happy.",
-                "vi": "Nếu học nhạc, có lẽ mình đã hạnh phúc."
+                "vi": "Nếu học nhạc, có lẽ mình đã hạnh phúc.",
+                "pt-BR": "Se eu tivesse estudado música, teria sido feliz.",
+                "fr": "Si j’avais étudié la musique, j’aurais été heureux.",
+                "de": "Wenn ich Musik studiert hätte, wäre ich glücklich gewesen.",
+                "it": "Se avessi studiato musica, sarei stato felice.",
+                "ja": "音楽を勉強していたら、幸せだっただろうな。",
+                "zh-Hans": "如果我当初学了音乐，我会很幸福。"
               },
               "correct": true,
               "response": "Nunca es tarde para empezar.",
               "responseTranslation": {
                 "en": "It's never too late to start.",
-                "vi": "Không bao giờ là quá muộn để bắt đầu."
+                "vi": "Không bao giờ là quá muộn để bắt đầu.",
+                "pt-BR": "Nunca é tarde para começar.",
+                "fr": "Il n’est jamais trop tard pour commencer.",
+                "de": "Es ist nie zu spät, anzufangen.",
+                "it": "Non è mai troppo tardi per cominciare.",
+                "ja": "始めるのに遅すぎることはないよ。",
+                "zh-Hans": "开始永远不嫌晚。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "No me arrepiento de nada, la verdad.",
               "translation": {
                 "en": "Honestly, I don't regret anything.",
-                "vi": "Thật lòng mình chẳng hối tiếc gì."
+                "vi": "Thật lòng mình chẳng hối tiếc gì.",
+                "pt-BR": "Sinceramente, não me arrependo de nada.",
+                "fr": "Honnêtement, je ne regrette rien.",
+                "de": "Ehrlich gesagt bereue ich nichts.",
+                "it": "Sinceramente, non mi pento di niente.",
+                "ja": "正直、何も後悔していないよ。",
+                "zh-Hans": "说实话，我什么都不后悔。"
               },
               "correct": true,
               "response": "¡Qué buena actitud!",
               "responseTranslation": {
                 "en": "What a great attitude!",
-                "vi": "Thái độ tuyệt quá!"
+                "vi": "Thái độ tuyệt quá!",
+                "pt-BR": "Que ótima atitude!",
+                "fr": "Quelle belle attitude !",
+                "de": "Was für eine tolle Einstellung!",
+                "it": "Che bell’atteggiamento!",
+                "ja": "すてきな考え方だね！",
+                "zh-Hans": "这心态真棒！"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "Si estudiaba música, era feliz.",
               "translation": {
                 "en": "If I studied music, I was happy (wrong tenses).",
-                "vi": "Nếu học nhạc, mình đã vui (sai thì)."
+                "vi": "Nếu học nhạc, mình đã vui (sai thì).",
+                "pt-BR": "Se eu estudava música, eu era feliz (tempos errados).",
+                "fr": "Si j’étudiais la musique, j’étais heureux (mauvais temps).",
+                "de": "Wenn ich Musik studierte, war ich glücklich (falsche Zeiten).",
+                "it": "Se studiavo musica, ero felice (tempi sbagliati).",
+                "ja": "音楽を勉強していたなら、幸せだった（時制の誤り）。",
+                "zh-Hans": "如果我学音乐，我就很幸福（时态错误）。"
               },
               "correct": false,
               "correction": "Si hubiera estudiado música, habría sido feliz.",
               "response": "Se dice “si hubiera estudiado… habría sido”. ¡Pero te entiendo!",
               "responseTranslation": {
                 "en": "We say “si hubiera estudiado… habría sido”. But I get you!",
-                "vi": "Phải nói “si hubiera estudiado… habría sido”. Nhưng mình hiểu ý bạn!"
+                "vi": "Phải nói “si hubiera estudiado… habría sido”. Nhưng mình hiểu ý bạn!",
+                "pt-BR": "Dizemos “si hubiera estudiado… habría sido”. Mas te entendo!",
+                "fr": "On dit « si hubiera estudiado… habría sido ». Mais je te comprends !",
+                "de": "Man sagt „si hubiera estudiado… habría sido“. Aber ich verstehe dich!",
+                "it": "Si dice “si hubiera estudiado… habría sido”. Ma ti capisco!",
+                "ja": "「si hubiera estudiado… habría sido」と言うよ。でも気持ちはわかる！",
+                "zh-Hans": "应该说“si hubiera estudiado… habría sido”。不过我懂你的意思！"
               }
             }
           ]

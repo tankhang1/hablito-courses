@@ -1,63 +1,129 @@
 {
   "schemaVersion": 1,
   "id": "level-17",
-  "version": 1,
+  "version": 2,
   "level": 17,
   "cefr": "B2",
   "title": {
     "en": "Upper-intermediate 1: Advice & recommendations",
-    "vi": "Trung cao cấp 1: Lời khuyên & đề xuất"
+    "vi": "Trung cao cấp 1: Lời khuyên & đề xuất",
+    "pt-BR": "Intermediário superior 1: Conselhos e recomendações",
+    "fr": "Intermédiaire supérieur 1 : Conseils et recommandations",
+    "de": "Obere Mittelstufe 1: Ratschläge und Empfehlungen",
+    "it": "Intermedio superiore 1: Consigli e raccomandazioni",
+    "ja": "中上級 1：アドバイスとおすすめ",
+    "zh-Hans": "中高级 1：建议和推荐"
   },
   "description": {
     "en": "Give and ask for advice naturally.",
-    "vi": "Đưa và xin lời khuyên một cách tự nhiên."
+    "vi": "Đưa và xin lời khuyên một cách tự nhiên.",
+    "pt-BR": "Dê e peça conselhos com naturalidade.",
+    "fr": "Donnez et demandez des conseils naturellement.",
+    "de": "Gib und hol dir ganz natürlich Rat.",
+    "it": "Dai e chiedi consigli in modo naturale.",
+    "ja": "自然にアドバイスをしたり求めたりしよう。",
+    "zh-Hans": "自然地给出和寻求建议。"
   },
   "lessons": [
     {
       "id": "advice",
       "title": {
         "en": "Giving advice",
-        "vi": "Đưa lời khuyên"
+        "vi": "Đưa lời khuyên",
+        "pt-BR": "Dando conselhos",
+        "fr": "Donner des conseils",
+        "de": "Rat geben",
+        "it": "Dare consigli",
+        "ja": "アドバイスする",
+        "zh-Hans": "给建议"
       },
       "description": {
         "en": "Recommend, suggest, and warn.",
-        "vi": "Gợi ý, đề xuất và cảnh báo."
+        "vi": "Gợi ý, đề xuất và cảnh báo.",
+        "pt-BR": "Recomende, sugira e alerte.",
+        "fr": "Recommandez, suggérez et mettez en garde.",
+        "de": "Empfehlen, vorschlagen und warnen.",
+        "it": "Raccomanda, suggerisci e avverti.",
+        "ja": "すすめる、提案する、注意する。",
+        "zh-Hans": "推荐、提议和提醒。"
       },
       "focus": {
         "en": "Recommend + “que” + subjunctive: te recomiendo que pruebes, es mejor que salgas. “Deberías” is a softer “you should”.",
-        "vi": "Khuyên + “que” + thức giả định: te recomiendo que pruebes, es mejor que salgas. “Deberías” là “bạn nên” nhẹ nhàng hơn."
+        "vi": "Khuyên + “que” + thức giả định: te recomiendo que pruebes, es mejor que salgas. “Deberías” là “bạn nên” nhẹ nhàng hơn.",
+        "pt-BR": "Recomendar + “que” + subjuntivo: te recomiendo que pruebes, es mejor que salgas. “Deberías” é um “você deveria” mais suave.",
+        "fr": "Recommander + « que » + subjonctif : te recomiendo que pruebes, es mejor que salgas. « Deberías » est un « tu devrais » plus doux.",
+        "de": "Empfehlen + „que“ + Subjuntivo: te recomiendo que pruebes, es mejor que salgas. „Deberías“ ist ein sanfteres „du solltest“.",
+        "it": "Raccomandare + “que” + congiuntivo: te recomiendo que pruebes, es mejor que salgas. “Deberías” è un “dovresti” più morbido.",
+        "ja": "すすめる＋「que」＋接続法：te recomiendo que pruebes, es mejor que salgas。「Deberías」は柔らかい「〜したほうがいい」。",
+        "zh-Hans": "推荐 +“que”+ 虚拟式：te recomiendo que pruebes, es mejor que salgas。“Deberías”是更委婉的“你应该”。"
       },
       "icon": "thumbs-up",
       "phrases": [
         {
           "es": "Te recomiendo que pruebes los tacos al pastor.",
           "en": "I recommend you try the tacos al pastor.",
-          "vi": "Mình khuyên bạn thử tacos al pastor."
+          "vi": "Mình khuyên bạn thử tacos al pastor.",
+          "pt-BR": "Recomendo que você prove os tacos al pastor.",
+          "fr": "Je te recommande de goûter les tacos al pastor.",
+          "de": "Ich empfehle dir die Tacos al pastor.",
+          "it": "Ti consiglio di provare i tacos al pastor.",
+          "ja": "タコス・アル・パストールを食べてみるのがおすすめです。",
+          "zh-Hans": "我推荐你尝尝 tacos al pastor。"
         },
         {
           "es": "Es mejor que salgas temprano.",
           "en": "It's better if you leave early.",
-          "vi": "Tốt hơn là bạn nên đi sớm."
+          "vi": "Tốt hơn là bạn nên đi sớm.",
+          "pt-BR": "É melhor você sair cedo.",
+          "fr": "Il vaut mieux que tu partes tôt.",
+          "de": "Es ist besser, wenn du früh losgehst.",
+          "it": "È meglio che tu esca presto.",
+          "ja": "早めに出たほうがいいよ。",
+          "zh-Hans": "你最好早点出发。"
         },
         {
           "es": "Deberías descansar más.",
           "en": "You should rest more.",
-          "vi": "Bạn nên nghỉ ngơi nhiều hơn."
+          "vi": "Bạn nên nghỉ ngơi nhiều hơn.",
+          "pt-BR": "Você deveria descansar mais.",
+          "fr": "Tu devrais te reposer davantage.",
+          "de": "Du solltest dich mehr ausruhen.",
+          "it": "Dovresti riposare di più.",
+          "ja": "もっと休んだほうがいいよ。",
+          "zh-Hans": "你应该多休息。"
         },
         {
           "es": "Yo que tú, no lo haría.",
           "en": "If I were you, I wouldn't do it.",
-          "vi": "Nếu là bạn, mình sẽ không làm vậy."
+          "vi": "Nếu là bạn, mình sẽ không làm vậy.",
+          "pt-BR": "Se eu fosse você, não faria isso.",
+          "fr": "À ta place, je ne le ferais pas.",
+          "de": "An deiner Stelle würde ich es nicht tun.",
+          "it": "Se fossi in te, non lo farei.",
+          "ja": "私があなたなら、やらないな。",
+          "zh-Hans": "如果我是你，我不会那样做。"
         },
         {
           "es": "No te olvides de llevar tu pasaporte.",
           "en": "Don't forget to bring your passport.",
-          "vi": "Đừng quên mang hộ chiếu nhé."
+          "vi": "Đừng quên mang hộ chiếu nhé.",
+          "pt-BR": "Não esqueça de levar o passaporte.",
+          "fr": "N’oublie pas d’apporter ton passeport.",
+          "de": "Vergiss nicht, deinen Pass mitzunehmen.",
+          "it": "Non dimenticare di portare il passaporto.",
+          "ja": "パスポートを忘れずに持っていってね。",
+          "zh-Hans": "别忘了带护照。"
         },
         {
           "es": "Te sugiero que hables con ella.",
           "en": "I suggest you talk to her.",
-          "vi": "Mình gợi ý bạn nói chuyện với cô ấy."
+          "vi": "Mình gợi ý bạn nói chuyện với cô ấy.",
+          "pt-BR": "Sugiro que você fale com ela.",
+          "fr": "Je te suggère de lui parler.",
+          "de": "Ich schlage vor, dass du mit ihr sprichst.",
+          "it": "Ti suggerisco di parlarle.",
+          "ja": "彼女と話してみたら？",
+          "zh-Hans": "我建议你和她谈谈。"
         }
       ]
     },
@@ -65,47 +131,101 @@
       "id": "asking",
       "title": {
         "en": "Asking for advice",
-        "vi": "Xin lời khuyên"
+        "vi": "Xin lời khuyên",
+        "pt-BR": "Pedindo conselhos",
+        "fr": "Demander conseil",
+        "de": "Um Rat fragen",
+        "it": "Chiedere consigli",
+        "ja": "アドバイスを求める",
+        "zh-Hans": "寻求建议"
       },
       "description": {
         "en": "Get opinions before you decide.",
-        "vi": "Hỏi ý kiến trước khi quyết định."
+        "vi": "Hỏi ý kiến trước khi quyết định.",
+        "pt-BR": "Peça opiniões antes de decidir.",
+        "fr": "Recueillez des avis avant de décider.",
+        "de": "Hol dir Meinungen ein, bevor du entscheidest.",
+        "it": "Raccogli opinioni prima di decidere.",
+        "ja": "決める前に意見を聞こう。",
+        "zh-Hans": "做决定前听听意见。"
       },
       "focus": {
         "en": "“Harías” and “en mi lugar” invite a hypothetical answer: “Yo en tu lugar…”.",
-        "vi": "“Harías” và “en mi lugar” gợi câu trả lời giả định: “Yo en tu lugar…”."
+        "vi": "“Harías” và “en mi lugar” gợi câu trả lời giả định: “Yo en tu lugar…”.",
+        "pt-BR": "“Harías” e “en mi lugar” convidam a uma resposta hipotética: “Yo en tu lugar…”.",
+        "fr": "« Harías » et « en mi lugar » invitent à une réponse hypothétique : « Yo en tu lugar… ».",
+        "de": "„Harías“ und „en mi lugar“ laden zu einer hypothetischen Antwort ein: „Yo en tu lugar…“.",
+        "it": "“Harías” e “en mi lugar” invitano a una risposta ipotetica: “Yo en tu lugar…”.",
+        "ja": "「Harías」や「en mi lugar」は仮定の答えを促す：「Yo en tu lugar…」。",
+        "zh-Hans": "“Harías”和“en mi lugar”引出假设性的回答：“Yo en tu lugar…”。"
       },
       "icon": "help-circle",
       "phrases": [
         {
           "es": "¿Qué me aconsejas?",
           "en": "What do you advise?",
-          "vi": "Bạn khuyên mình thế nào?"
+          "vi": "Bạn khuyên mình thế nào?",
+          "pt-BR": "O que você me aconselha?",
+          "fr": "Que me conseilles-tu ?",
+          "de": "Was rätst du mir?",
+          "it": "Cosa mi consigli?",
+          "ja": "どうしたらいいと思う？",
+          "zh-Hans": "你有什么建议？"
         },
         {
           "es": "¿Tú qué harías en mi lugar?",
           "en": "What would you do in my place?",
-          "vi": "Ở vị trí của mình, bạn sẽ làm gì?"
+          "vi": "Ở vị trí của mình, bạn sẽ làm gì?",
+          "pt-BR": "O que você faria no meu lugar?",
+          "fr": "Que ferais-tu à ma place ?",
+          "de": "Was würdest du an meiner Stelle tun?",
+          "it": "Cosa faresti al mio posto?",
+          "ja": "私の立場ならどうする？",
+          "zh-Hans": "如果你是我，你会怎么做？"
         },
         {
           "es": "No sé qué hacer.",
           "en": "I don't know what to do.",
-          "vi": "Mình không biết phải làm gì."
+          "vi": "Mình không biết phải làm gì.",
+          "pt-BR": "Não sei o que fazer.",
+          "fr": "Je ne sais pas quoi faire.",
+          "de": "Ich weiß nicht, was ich tun soll.",
+          "it": "Non so cosa fare.",
+          "ja": "どうしたらいいかわからない。",
+          "zh-Hans": "我不知道该怎么办。"
         },
         {
           "es": "¿Vale la pena?",
           "en": "Is it worth it?",
-          "vi": "Có đáng không?"
+          "vi": "Có đáng không?",
+          "pt-BR": "Vale a pena?",
+          "fr": "Ça vaut le coup ?",
+          "de": "Lohnt es sich?",
+          "it": "Ne vale la pena?",
+          "ja": "その価値はある？",
+          "zh-Hans": "值得吗？"
         },
         {
           "es": "Tengo que tomar una decisión.",
           "en": "I have to make a decision.",
-          "vi": "Mình phải đưa ra quyết định."
+          "vi": "Mình phải đưa ra quyết định.",
+          "pt-BR": "Tenho que tomar uma decisão.",
+          "fr": "Je dois prendre une décision.",
+          "de": "Ich muss eine Entscheidung treffen.",
+          "it": "Devo prendere una decisione.",
+          "ja": "決断しなきゃいけない。",
+          "zh-Hans": "我得做个决定。"
         },
         {
           "es": "Gracias por el consejo.",
           "en": "Thanks for the advice.",
-          "vi": "Cảm ơn lời khuyên nhé."
+          "vi": "Cảm ơn lời khuyên nhé.",
+          "pt-BR": "Obrigado pelo conselho.",
+          "fr": "Merci pour le conseil.",
+          "de": "Danke für den Rat.",
+          "it": "Grazie del consiglio.",
+          "ja": "アドバイスありがとう。",
+          "zh-Hans": "谢谢你的建议。"
         }
       ]
     }
@@ -115,11 +235,23 @@
       "id": "job-offer-advice",
       "title": {
         "en": "Help a friend decide",
-        "vi": "Giúp bạn ra quyết định"
+        "vi": "Giúp bạn ra quyết định",
+        "pt-BR": "Ajude um amigo a decidir",
+        "fr": "Aider un ami à décider",
+        "de": "Einem Freund bei der Entscheidung helfen",
+        "it": "Aiuta un amico a decidere",
+        "ja": "友だちの決断を手伝う",
+        "zh-Hans": "帮朋友做决定"
       },
       "description": {
         "en": "A friend can't choose between two jobs.",
-        "vi": "Bạn bè phân vân giữa hai công việc."
+        "vi": "Bạn bè phân vân giữa hai công việc.",
+        "pt-BR": "Um amigo não consegue escolher entre dois empregos.",
+        "fr": "Un ami n’arrive pas à choisir entre deux emplois.",
+        "de": "Ein Freund kann sich nicht zwischen zwei Jobs entscheiden.",
+        "it": "Un amico non riesce a scegliere tra due lavori.",
+        "ja": "友だちが2つの仕事で迷っています。",
+        "zh-Hans": "一个朋友在两份工作之间拿不定主意。"
       },
       "icon": "briefcase",
       "duration": "3 min",
@@ -130,11 +262,23 @@
           "prompt": "Tengo dos ofertas de trabajo y no sé qué hacer.",
           "translation": {
             "en": "I have two job offers and I don't know what to do.",
-            "vi": "Mình có hai lời mời làm việc mà không biết chọn sao."
+            "vi": "Mình có hai lời mời làm việc mà không biết chọn sao.",
+            "pt-BR": "Tenho duas ofertas de emprego e não sei o que fazer.",
+            "fr": "J’ai deux offres d’emploi et je ne sais pas quoi faire.",
+            "de": "Ich habe zwei Jobangebote und weiß nicht, was ich tun soll.",
+            "it": "Ho due offerte di lavoro e non so cosa fare.",
+            "ja": "仕事のオファーが2つあって、どうしたらいいかわからない。",
+            "zh-Hans": "我有两个工作机会，不知道该怎么办。"
           },
           "hint": {
             "en": "Ask for details first.",
-            "vi": "Hỏi thêm chi tiết trước."
+            "vi": "Hỏi thêm chi tiết trước.",
+            "pt-BR": "Peça detalhes primeiro.",
+            "fr": "Demandez d’abord des détails.",
+            "de": "Frag zuerst nach Details.",
+            "it": "Chiedi prima i dettagli.",
+            "ja": "まず詳しく聞こう。",
+            "zh-Hans": "先问问细节。"
           },
           "choices": [
             {
@@ -142,13 +286,25 @@
               "es": "¡Qué bien! ¿Cuáles son las diferencias?",
               "translation": {
                 "en": "Great! What are the differences?",
-                "vi": "Hay quá! Hai chỗ khác nhau thế nào?"
+                "vi": "Hay quá! Hai chỗ khác nhau thế nào?",
+                "pt-BR": "Que ótimo! Quais são as diferenças?",
+                "fr": "Super ! Quelles sont les différences ?",
+                "de": "Super! Was sind die Unterschiede?",
+                "it": "Fantastico! Quali sono le differenze?",
+                "ja": "すごい！違いは何？",
+                "zh-Hans": "太好了！有什么区别？"
               },
               "correct": true,
               "response": "Una paga más, pero la otra está cerca de casa.",
               "responseTranslation": {
                 "en": "One pays more, but the other is close to home.",
-                "vi": "Một chỗ lương cao hơn, chỗ kia gần nhà."
+                "vi": "Một chỗ lương cao hơn, chỗ kia gần nhà.",
+                "pt-BR": "Um paga mais, mas o outro é perto de casa.",
+                "fr": "L’un paie plus, mais l’autre est près de chez moi.",
+                "de": "Der eine zahlt mehr, aber der andere ist nah an meiner Wohnung.",
+                "it": "Uno paga di più, ma l’altro è vicino a casa.",
+                "ja": "1つは給料がいいけど、もう1つは家から近いんだ。",
+                "zh-Hans": "一个工资高，但另一个离家近。"
               },
               "next": "advise"
             },
@@ -157,13 +313,25 @@
               "es": "Tranquilo, vamos a pensarlo juntos.",
               "translation": {
                 "en": "Relax, let's think it through together.",
-                "vi": "Bình tĩnh, mình cùng suy nghĩ nhé."
+                "vi": "Bình tĩnh, mình cùng suy nghĩ nhé.",
+                "pt-BR": "Calma, vamos pensar juntos.",
+                "fr": "Calme-toi, réfléchissons ensemble.",
+                "de": "Ganz ruhig, lass uns gemeinsam nachdenken.",
+                "it": "Tranquillo, pensiamoci insieme.",
+                "ja": "落ち着いて、一緒に考えよう。",
+                "zh-Hans": "别急，我们一起想想。"
               },
               "correct": true,
               "response": "Gracias. Una paga más, pero la otra está cerca de casa.",
               "responseTranslation": {
                 "en": "Thanks. One pays more, but the other is close to home.",
-                "vi": "Cảm ơn. Một chỗ lương cao hơn, chỗ kia gần nhà."
+                "vi": "Cảm ơn. Một chỗ lương cao hơn, chỗ kia gần nhà.",
+                "pt-BR": "Obrigado. Um paga mais, mas o outro é perto de casa.",
+                "fr": "Merci. L’un paie plus, mais l’autre est près de chez moi.",
+                "de": "Danke. Der eine zahlt mehr, aber der andere ist nah an meiner Wohnung.",
+                "it": "Grazie. Uno paga di più, ma l’altro è vicino a casa.",
+                "ja": "ありがとう。1つは給料がいいけど、もう1つは家から近いんだ。",
+                "zh-Hans": "谢谢。一个工资高，但另一个离家近。"
               },
               "next": "advise"
             },
@@ -172,14 +340,26 @@
               "es": "Tienes que decidir.",
               "translation": {
                 "en": "You have to decide.",
-                "vi": "Bạn phải quyết định đi."
+                "vi": "Bạn phải quyết định đi.",
+                "pt-BR": "Você tem que decidir.",
+                "fr": "C’est à toi de décider.",
+                "de": "Du musst dich entscheiden.",
+                "it": "Devi decidere tu.",
+                "ja": "決めるのはあなただよ。",
+                "zh-Hans": "你得自己决定。"
               },
               "correct": false,
               "correction": "¡Qué bien! ¿Cuáles son las diferencias?",
               "response": "Ya lo sé… por eso te pregunto.",
               "responseTranslation": {
                 "en": "I know… that's why I'm asking you.",
-                "vi": "Mình biết… nên mới hỏi bạn đây."
+                "vi": "Mình biết… nên mới hỏi bạn đây.",
+                "pt-BR": "Eu sei… por isso estou te perguntando.",
+                "fr": "Je sais… c’est pour ça que je te demande.",
+                "de": "Ich weiß… deshalb frage ich dich ja.",
+                "it": "Lo so… per questo te lo chiedo.",
+                "ja": "わかってる…だから聞いてるんだよ。",
+                "zh-Hans": "我知道……所以才问你嘛。"
               },
               "next": "advise"
             }
@@ -190,11 +370,23 @@
           "prompt": "¿Tú qué harías en mi lugar?",
           "translation": {
             "en": "What would you do in my place?",
-            "vi": "Nếu là bạn thì bạn sẽ làm gì?"
+            "vi": "Nếu là bạn thì bạn sẽ làm gì?",
+            "pt-BR": "O que você faria no meu lugar?",
+            "fr": "Que ferais-tu à ma place ?",
+            "de": "Was würdest du an meiner Stelle tun?",
+            "it": "Cosa faresti al mio posto?",
+            "ja": "私の立場ならどうする？",
+            "zh-Hans": "如果你是我，你会怎么做？"
           },
           "hint": {
             "en": "Give advice with “Yo que tú…” or “Te recomiendo que…”.",
-            "vi": "Khuyên bằng “Yo que tú…” hoặc “Te recomiendo que…”."
+            "vi": "Khuyên bằng “Yo que tú…” hoặc “Te recomiendo que…”.",
+            "pt-BR": "Dê um conselho com “Yo que tú…” ou “Te recomiendo que…”.",
+            "fr": "Conseillez avec « Yo que tú… » ou « Te recomiendo que… ».",
+            "de": "Gib Rat mit „Yo que tú…“ oder „Te recomiendo que…“.",
+            "it": "Consiglia con “Yo que tú…” o “Te recomiendo que…”.",
+            "ja": "「Yo que tú…」か「Te recomiendo que…」でアドバイスしよう。",
+            "zh-Hans": "用“Yo que tú…”或“Te recomiendo que…”给建议。"
           },
           "choices": [
             {
@@ -202,13 +394,25 @@
               "es": "Yo que tú, elegiría la que está cerca de casa.",
               "translation": {
                 "en": "If I were you, I'd pick the one near home.",
-                "vi": "Nếu là mình, mình chọn chỗ gần nhà."
+                "vi": "Nếu là mình, mình chọn chỗ gần nhà.",
+                "pt-BR": "Se eu fosse você, escolheria o que é perto de casa.",
+                "fr": "À ta place, je choisirais celui qui est près de chez toi.",
+                "de": "An deiner Stelle würde ich den in der Nähe nehmen.",
+                "it": "Se fossi in te, sceglierei quello vicino a casa.",
+                "ja": "私なら家から近いほうを選ぶな。",
+                "zh-Hans": "如果我是你，我会选离家近的那个。"
               },
               "correct": true,
               "response": "¿Por qué? El dinero también importa.",
               "responseTranslation": {
                 "en": "Why? Money matters too.",
-                "vi": "Sao vậy? Tiền cũng quan trọng mà."
+                "vi": "Sao vậy? Tiền cũng quan trọng mà.",
+                "pt-BR": "Por quê? O dinheiro também importa.",
+                "fr": "Pourquoi ? L’argent compte aussi.",
+                "de": "Warum? Geld ist auch wichtig.",
+                "it": "Perché? Anche i soldi contano.",
+                "ja": "どうして？お金も大事だよ。",
+                "zh-Hans": "为什么？钱也很重要。"
               },
               "next": "why"
             },
@@ -217,13 +421,25 @@
               "es": "Te recomiendo que aceptes la que paga más.",
               "translation": {
                 "en": "I recommend you take the one that pays more.",
-                "vi": "Mình khuyên bạn nhận chỗ lương cao hơn."
+                "vi": "Mình khuyên bạn nhận chỗ lương cao hơn.",
+                "pt-BR": "Recomendo que você aceite o que paga mais.",
+                "fr": "Je te recommande de prendre celui qui paie le plus.",
+                "de": "Ich empfehle dir, den zu nehmen, der mehr zahlt.",
+                "it": "Ti consiglio di accettare quello che paga di più.",
+                "ja": "給料がいいほうを選ぶのがおすすめ。",
+                "zh-Hans": "我建议你选工资高的那个。"
               },
               "correct": true,
               "response": "¿Por qué lo dices?",
               "responseTranslation": {
                 "en": "Why do you say that?",
-                "vi": "Sao bạn nói vậy?"
+                "vi": "Sao bạn nói vậy?",
+                "pt-BR": "Por que você diz isso?",
+                "fr": "Pourquoi tu dis ça ?",
+                "de": "Warum sagst du das?",
+                "it": "Perché dici così?",
+                "ja": "どうしてそう言うの？",
+                "zh-Hans": "你为什么这么说？"
               },
               "next": "why"
             },
@@ -232,14 +448,26 @@
               "es": "Te recomiendo que aceptas la que paga más.",
               "translation": {
                 "en": "I recommend you take… (wrong form)",
-                "vi": "Mình khuyên bạn nhận… (sai dạng)"
+                "vi": "Mình khuyên bạn nhận… (sai dạng)",
+                "pt-BR": "Recomendo que você aceita… (forma errada)",
+                "fr": "Je te recommande que tu prends… (mauvaise forme)",
+                "de": "Ich empfehle dir, dass du nimmst… (falsche Form)",
+                "it": "Ti consiglio che accetti… (forma sbagliata)",
+                "ja": "受け入れるのをすすめる…（形の誤り）",
+                "zh-Hans": "我建议你接受……（形式错误）"
               },
               "correct": false,
               "correction": "Te recomiendo que aceptes la que paga más.",
               "response": "Mmm, ¿“que aceptes”? ¿Por qué?",
               "responseTranslation": {
                 "en": "Hmm, “que aceptes”? Why?",
-                "vi": "Ừm, “que aceptes” hả? Sao vậy?"
+                "vi": "Ừm, “que aceptes” hả? Sao vậy?",
+                "pt-BR": "Hmm, “que aceptes”? Por quê?",
+                "fr": "Hmm, « que aceptes » ? Pourquoi ?",
+                "de": "Hmm, „que aceptes“? Warum?",
+                "it": "Mmm, “que aceptes”? Perché?",
+                "ja": "うーん、「que aceptes」？どうして？",
+                "zh-Hans": "嗯，“que aceptes”？为什么？"
               },
               "next": "why"
             }
@@ -250,11 +478,23 @@
           "prompt": "¿Por qué piensas eso?",
           "translation": {
             "en": "Why do you think that?",
-            "vi": "Sao bạn nghĩ vậy?"
+            "vi": "Sao bạn nghĩ vậy?",
+            "pt-BR": "Por que você acha isso?",
+            "fr": "Pourquoi tu penses ça ?",
+            "de": "Warum denkst du das?",
+            "it": "Perché la pensi così?",
+            "ja": "どうしてそう思うの？",
+            "zh-Hans": "你为什么这么想？"
           },
           "hint": {
             "en": "Give a reason.",
-            "vi": "Đưa ra lý do."
+            "vi": "Đưa ra lý do.",
+            "pt-BR": "Dê um motivo.",
+            "fr": "Donnez une raison.",
+            "de": "Nenne einen Grund.",
+            "it": "Dai una ragione.",
+            "ja": "理由を言おう。",
+            "zh-Hans": "给出理由。"
           },
           "choices": [
             {
@@ -262,13 +502,25 @@
               "es": "Porque vas a ahorrar dos horas al día en tráfico.",
               "translation": {
                 "en": "Because you'll save two hours a day in traffic.",
-                "vi": "Vì bạn sẽ đỡ hai tiếng kẹt xe mỗi ngày."
+                "vi": "Vì bạn sẽ đỡ hai tiếng kẹt xe mỗi ngày.",
+                "pt-BR": "Porque você vai economizar duas horas por dia no trânsito.",
+                "fr": "Parce que tu gagneras deux heures par jour dans les bouchons.",
+                "de": "Weil du täglich zwei Stunden im Stau sparst.",
+                "it": "Perché risparmierai due ore al giorno nel traffico.",
+                "ja": "毎日渋滞で2時間節約できるから。",
+                "zh-Hans": "因为你每天能少堵两个小时的车。"
               },
               "correct": true,
               "response": "Tienes razón. Gracias por el consejo.",
               "responseTranslation": {
                 "en": "You're right. Thanks for the advice.",
-                "vi": "Bạn nói đúng. Cảm ơn lời khuyên nhé."
+                "vi": "Bạn nói đúng. Cảm ơn lời khuyên nhé.",
+                "pt-BR": "Você tem razão. Obrigado pelo conselho.",
+                "fr": "Tu as raison. Merci pour le conseil.",
+                "de": "Du hast recht. Danke für den Rat.",
+                "it": "Hai ragione. Grazie del consiglio.",
+                "ja": "そのとおりだね。アドバイスありがとう。",
+                "zh-Hans": "你说得对。谢谢你的建议。"
               }
             },
             {
@@ -276,13 +528,25 @@
               "es": "Porque es una buena oportunidad para tu carrera.",
               "translation": {
                 "en": "Because it's a good opportunity for your career.",
-                "vi": "Vì đó là cơ hội tốt cho sự nghiệp của bạn."
+                "vi": "Vì đó là cơ hội tốt cho sự nghiệp của bạn.",
+                "pt-BR": "Porque é uma boa oportunidade para sua carreira.",
+                "fr": "Parce que c’est une belle opportunité pour ta carrière.",
+                "de": "Weil es eine gute Chance für deine Karriere ist.",
+                "it": "Perché è una buona opportunità per la tua carriera.",
+                "ja": "キャリアにとっていいチャンスだから。",
+                "zh-Hans": "因为这对你的职业发展是个好机会。"
               },
               "correct": true,
               "response": "Vale la pena pensarlo. ¡Gracias!",
               "responseTranslation": {
                 "en": "It's worth thinking about. Thanks!",
-                "vi": "Đáng để suy nghĩ đấy. Cảm ơn!"
+                "vi": "Đáng để suy nghĩ đấy. Cảm ơn!",
+                "pt-BR": "Vale a pena pensar nisso. Obrigado!",
+                "fr": "Ça mérite réflexion. Merci !",
+                "de": "Darüber lohnt es sich nachzudenken. Danke!",
+                "it": "Vale la pena pensarci. Grazie!",
+                "ja": "考える価値があるね。ありがとう！",
+                "zh-Hans": "值得好好想想。谢谢！"
               }
             },
             {
@@ -290,14 +554,26 @@
               "es": "No sé qué hacer.",
               "translation": {
                 "en": "I don't know what to do.",
-                "vi": "Mình không biết phải làm gì."
+                "vi": "Mình không biết phải làm gì.",
+                "pt-BR": "Não sei o que fazer.",
+                "fr": "Je ne sais pas quoi faire.",
+                "de": "Ich weiß nicht, was ich tun soll.",
+                "it": "Non so cosa fare.",
+                "ja": "どうしたらいいかわからない。",
+                "zh-Hans": "我不知道该怎么办。"
               },
               "correct": false,
               "correction": "Porque vas a ahorrar dos horas al día en tráfico.",
               "response": "¡Pero tú me estabas aconsejando!",
               "responseTranslation": {
                 "en": "But you were advising me!",
-                "vi": "Nhưng bạn đang khuyên mình mà!"
+                "vi": "Nhưng bạn đang khuyên mình mà!",
+                "pt-BR": "Mas era você que estava me aconselhando!",
+                "fr": "Mais c’est toi qui me conseillais !",
+                "de": "Aber du hast mich doch beraten!",
+                "it": "Ma eri tu a consigliarmi!",
+                "ja": "でもアドバイスしてたのはあなたでしょ！",
+                "zh-Hans": "可刚才是你在给我建议呀！"
               }
             }
           ]
