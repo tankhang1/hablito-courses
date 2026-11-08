@@ -14,7 +14,18 @@ content/courses/
     └── …
 ```
 
+## Where it's hosted
+
+Published to the public repo [tankhang1/hablito-courses](https://github.com/tankhang1/hablito-courses)
+and served by jsDelivr at `https://cdn.jsdelivr.net/gh/tankhang1/hablito-courses@main/manifest.json`.
+This folder is the source of truth; never edit the public repo directly.
+
 ## Publishing changes
+
+**Quick path:** `bash content/courses/publish.sh "What changed"` validates, rebuilds the
+manifest, syncs to the public repo, pushes, and purges the jsDelivr cache. The manual
+steps below do the same thing.
+
 
 1. Edit or add a file in `packs/`. To publish a change to an existing level, raise its
    `"version"` so learners see "Update available".
