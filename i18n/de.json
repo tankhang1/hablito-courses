@@ -378,5 +378,7 @@
  "Watch an ad for +{seconds} seconds": "Werbung ansehen für +{seconds} Sekunden",
  "Your {count}-day streak ended yesterday.": "Deine Serie von {count} Tagen ist gestern gerissen.",
  "Watch a short ad to restore it.": "Sieh dir eine kurze Werbung an, um sie wiederherzustellen.",
- "Restore my streak": "Serie wiederherstellen"
+ "Restore my streak": "Serie wiederherstellen",
+ "The microphone isn't sending any sound. Check your microphone (the iOS Simulator often has none), or choose a response below.": "Das Mikrofon nimmt keinen Ton auf. Prüfe dein Mikrofon (der iOS-Simulator hat oft keins) oder wähle unten eine Antwort.",
+ "Speech recognition was interrupted. Try again or choose a response below.": "Die Spracherkennung wurde unterbrochen. Versuch es erneut oder wähle unten eine Antwort."
 }

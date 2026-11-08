@@ -378,5 +378,7 @@
  "Watch an ad for +{seconds} seconds": "观看广告获得 +{seconds} 秒",
  "Your {count}-day streak ended yesterday.": "你的 {count} 天连续记录昨天中断了。",
  "Watch a short ad to restore it.": "观看一段短广告即可恢复。",
- "Restore my streak": "恢复我的连续记录"
+ "Restore my streak": "恢复我的连续记录",
+ "The microphone isn't sending any sound. Check your microphone (the iOS Simulator often has none), or choose a response below.": "麦克风没有收到声音。请检查麦克风（iOS 模拟器通常没有麦克风），或在下方选择回答。",
+ "Speech recognition was interrupted. Try again or choose a response below.": "语音识别被中断。请重试或在下方选择回答。"
 }

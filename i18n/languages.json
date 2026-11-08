@@ -3,42 +3,42 @@
     "code": "vi",
     "name": "Vietnamese",
     "nativeName": "Tiếng Việt",
-    "version": 3
+    "version": 4
   },
   {
     "code": "pt-BR",
     "name": "Portuguese (Brazil)",
     "nativeName": "Português (Brasil)",
-    "version": 3
+    "version": 4
   },
   {
     "code": "fr",
     "name": "French",
     "nativeName": "Français",
-    "version": 3
+    "version": 4
   },
   {
     "code": "de",
     "name": "German",
     "nativeName": "Deutsch",
-    "version": 3
+    "version": 4
   },
   {
     "code": "it",
     "name": "Italian",
     "nativeName": "Italiano",
-    "version": 3
+    "version": 4
   },
   {
     "code": "ja",
     "name": "Japanese",
     "nativeName": "日本語",
-    "version": 3
+    "version": 4
   },
   {
     "code": "zh-Hans",
     "name": "Chinese (Simplified)",
     "nativeName": "简体中文",
-    "version": 3
+    "version": 4
   }
 ]

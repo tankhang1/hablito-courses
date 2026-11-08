@@ -378,5 +378,7 @@
  "Watch an ad for +{seconds} seconds": "広告を見て+{seconds}秒",
  "Your {count}-day streak ended yesterday.": "{count}日連続の記録が昨日途切れました。",
  "Watch a short ad to restore it.": "短い広告を見て記録を復活させましょう。",
- "Restore my streak": "連続記録を復活する"
+ "Restore my streak": "連続記録を復活する",
+ "The microphone isn't sending any sound. Check your microphone (the iOS Simulator often has none), or choose a response below.": "マイクから音が届いていません。マイクを確認してください（iOSシミュレータには通常マイクがありません）。または下の返答を選んでください。",
+ "Speech recognition was interrupted. Try again or choose a response below.": "音声認識が中断されました。もう一度試すか、下の返答を選んでください。"
 }
